@@ -1,0 +1,24 @@
+{
+	"id": "nekimklog71",
+	"species": "neki",
+	"title": "Log 3489.#0071",
+	"description": "A classified scientific research log of the Miniknog.",
+	"icon": "nekimemorycardblack.png",
+	"contentPages": [
+"While what's left of my team focus on the newly-synthesized specimen, I've been doing some digging.
+
+Some of our Earth experts theorize that the purpose of introducing these physiological traits could have something to do with an age-old attraction towards said traits in a family of primitive, predatory Earth-endemic species, which many Humans seem to appear afflicted by.
+
+While this degree of affinity towards lesser species is irrational at best,  ^cyan;>>^white;",
+
+".. it'd hardly be surprising given what's known of the Humans' innate addiction to emotion over any and all reason.
+
+However, despite the notion of it being merely a 'vanity project' for Humans likely being convincing enough to not evoke any further questions in most, it only serves to further incite my curiosity. Perhaps interaction with the subjects themselves on a deeper level could prove more insightful.
+
+Long live... oh who cares, nobody ever listens to these, anyway."
+	],
+	"itemConfig": {
+		"rarity": "uncommon",
+		"price": 25
+	}
+}

@@ -1,0 +1,20 @@
+[
+	{"op": "add", "path": "/converse/neki", "value": {}},
+	{"op": "add", "path": "/converse/neki/default",
+		"value": [
+			"Mrrow?",
+			"Purrr...",
+			"I wanna play!",
+			"I wanna sleep!",
+			"Let's go sleep.",
+			"Can we play today?",
+			"What's for  breakfast?",
+			"Let's just sleep all day.",
+			"Will we chase something today?",
+			"I'll claw anyone who touches you!",
+			"Shall I bring you a trophy today?",
+			"I like our huge metal box!",
+			"Let's go hunt someone!"
+		]
+	}
+]

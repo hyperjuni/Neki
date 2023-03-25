@@ -1,0 +1,22 @@
+{
+	"id": "nekimklog103p",
+	"species": "neki",
+	"title": "Log 3489.#0103; Personal",
+	"description": "A private log entry by a Miniknog genetic research scientist.",
+	"icon": "nekimemorycardblue.png",
+	"contentPages": [
+"This is a disaster.
+
+For the life of me, I cannot fathom these gentle, affectionate and playful creatures being \"weaponized\", but... we have our orders. My curiosity regarding the full story behind this research is nowhere near satisfied, and I'm afraid that due to this recent development it will remain something I may never learn.
+
+Certain entries in the Humans' logs seem to suggest that a similar fate befell this research on Earth,  ^cyan;>>^white;",
+
+".. with the project being overtaken by a heartless, militarized entity, which failed to advance it in any meaningful way owing to an absolute lack of understanding of the subject matter and gross incompetence.
+
+Let us hope that we, the Apex, can do better than that."
+	],
+	"itemConfig": {
+		"rarity": "uncommon",
+		"price": 25
+	}
+}

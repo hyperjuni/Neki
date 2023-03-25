@@ -1,0 +1,20 @@
+{
+	"id": "nekimklog128",
+	"species": "neki",
+	"title": "Log 3489.#0128",
+	"description": "A classified scientific research log of the Miniknog.",
+	"icon": "nekimemorycardblack.png",
+	"contentPages": [
+"Multiple attempts at genetically decoupling the desirable physiological traits from the unwanted mental ones have shown that they are inextricably linked; it wouldn't be a stretch to consider traits we see as 'beneficial' to be mere side-effects of the ones we consider to be 'detrimental'.
+
+The inability to do this genetically leaves us no choice but to consider utilizing modified Miniknog Control Collars, or MCCs, which are widely used for inhibiting emotional response in active military personnel.  ^cyan;>>^white;",
+
+"A stern warning had to be issued to the science team against voicing any objections, under the threat of severe and immediate punishment.
+
+Feeling empathetic towards the subjects would mean jeopardizing our mission, our duty to the Miniknog and our professionalism, which must always come first!"
+	],
+	"itemConfig": {
+		"rarity": "uncommon",
+		"price": 25
+	}
+}

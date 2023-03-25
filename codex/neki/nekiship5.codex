@@ -1,0 +1,20 @@
+{
+	"id": "nekiship5",
+	"species": "neki",
+	"title": "Extraction Mission: Day 5",
+	"description": "A classified Miniknog mission report.",
+	"icon": "nekimemorycardmk.png",
+	"contentPages": [
+"Most things we've tried have failed.
+
+We'll try to exploit its' curiosity - the subject is showing great interest in our ship, but won't get anywhere near it while we're around. The plan is to therefore turn it into a trap - make it seem abandoned, but have the ship's computer configured to seal up and auto-launch as soon as the asset's MCC signature is detected onboard.
+
+^cyan;Arrange extraction from Earth if the team is not aboard this vessel upon its' arrival to the nearest base.^white;"
+
+	],
+
+	"itemConfig": {
+		"rarity": "uncommon",
+		"price": 25
+	}
+}

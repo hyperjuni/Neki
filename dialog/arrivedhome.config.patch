@@ -1,0 +1,22 @@
+[
+	{"op": "add", "path": "/beacon/neki", "value": {}},
+	{"op": "add", "path": "/beacon/neki/default",
+		"value": [
+			"Purrr...headpats please?",
+			"Mrrow...will we cuddle?",
+			"Food? Food..? Purrr...",
+			"I came for snuggles! Give!",
+			"What's in here? Oh, can I go out now?"
+		]
+	},
+	{"op": "add", "path": "/rent/neki", "value": {}},
+	{"op": "add", "path": "/rent/neki/default",
+		"value": [
+			"I really like you and...here.",
+			"I hunted this for you...am I love?",
+			"I found this thingy and I thought of you...",
+			"For loving me and feeding me I got you this!",
+			"I give you this thingy because you are very love!"
+		]
+	}
+]

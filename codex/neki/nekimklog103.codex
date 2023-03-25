@@ -1,0 +1,20 @@
+{
+	"id": "nekimklog103",
+	"species": "neki",
+	"title": "Log 3489.#0103",
+	"description": "A classified scientific research log of the Miniknog.",
+	"icon": "nekimemorycardblack.png",
+	"contentPages": [
+"The deadlines have now been passed, yet ways to utilize this research to benefit the VEP side-effects research continue to elude us.
+
+The committee has been beyond generous in allowing for another extension, but... only on the condition of a fundamental priority shift.
+
+We are no longer to research ways of applying the science to benefit our people, but are instead to work on ways to, effectively, weaponize this genetic research and our subjects.  ^cyan;>>^white;",
+
+"I had no choice but to agree to their conditions. To do otherwise would mean that me and my team had failed at fulfilling our duties successfuly, and we all know what happens to those who do..."
+	],
+	"itemConfig": {
+		"rarity": "uncommon",
+		"price": 25
+	}
+}

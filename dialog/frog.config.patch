@@ -1,0 +1,33 @@
+[
+	{"op": "add", "path": "/converse/default/neki",
+		"value": [
+			"*croak*",
+			"*croak*",
+			"*croak*",
+			"Imagine if they could understand us.",
+			"Wouldn't that be something.",
+			"Hm, this one's staring at me as if it does...",
+			"I better shut up just in case.",
+			"..."
+		]
+	},
+	{"op": "add", "path": "/accuse/default/neki", "value": ["*croak..!*"]},
+	{"op": "add", "path": "/alert/default/neki", "value": ["*croak!*"]},
+	{"op": "add", "path": "/hail/default/neki", "value": ["*croak*"]},
+	{"op": "add", "path": "/helpme/default/neki", "value": ["...crap!"]},
+	{"op": "add", "path": "/helpthem/default/neki", "value": ["*croak!*"]},
+	{"op": "add", "path": "/encourage/default/neki", "value": ["*croak*"]},
+	{"op": "add", "path": "/safe/default/neki", "value": ["*croak*"]},
+	{"op": "add", "path": "/start/default/neki", "value": ["*croak*"]},
+	{"op": "add", "path": "/end/default/neki", "value": ["*croak*"]},
+	{"op": "add", "path": "/follow/default/neki", "value": ["*croak*"]},
+	{"op": "add", "path": "/welcome/default/neki", "value": ["*croak*"]},
+	{"op": "add", "path": "/tout/default/neki", "value": ["*croak*"]},
+	{"op": "add", "path": "/tagCriteria/default/neki", "value": ["*croak!*"]},
+	{"op": "add", "path": "/enclosedArea/default/neki", "value": ["*croak!*"]},
+	{"op": "add", "path": "/otherDeed/default/neki", "value": ["*croak!*"]},
+	{"op": "add", "path": "/severe/default/neki", "value": ["*croak!*"]},
+	{"op": "add", "path": "/final/default/neki", "value": ["*croak!*"]},
+	{"op": "add", "path": "/beacon/default/neki", "value": ["*croak*"]},
+	{"op": "add", "path": "/rent/default/neki", "value": ["*croak*"]}
+]

@@ -1,0 +1,194 @@
+[
+	{"op": "add", "path": "/hail/glitch/neki",
+		"value": [
+			"Inexperienced. Eep!",
+			"Cautious. Behave yourself.",
+			"Suspicious. What is your purpose here?",
+			"Optimistic. I'm sure you won't be any trouble.",
+			"Conflicted. I'd play with you, but I'm on duty.",
+			"Insincere. Have an absolutely wonderful day.",
+			"Reticent. You won't be a problem...",
+			"Concerned. Should you be here?",
+			"Stern. You behave yourself.",
+			"Alert. Who are you?"
+		]
+	},
+	{"op": "add", "path": "/hail/human/neki",
+		"value": [
+			"Tread lightly, Neki.",
+			"Watch yourself, furball.",
+			"Just keep walking, fleabag.",
+			"I'm watching you closely, scum.",
+			"How dare you show your face here!?",
+			"You better go away and never return.",
+			"Come to pick at our bones now, have you?",
+			"Don't do anything. Preferably don't exist.",
+			"I'll snap you in half, just give me a reason!",
+			"You want trouble? I'll give you some!",
+			"If you touch anything, you're dead.",
+			"The hell do you want with us NOW?",
+			"Look at what the cat dragged in.",
+			"I've got my eyes on you, fluff.",
+			"You'll never be welcome here.",
+			"You're not welcome here."
+		]
+	},
+	{"op": "add", "path": "/hail/floran/neki",
+		"value": [
+			"Neki alwaysss welcome here.",
+			"Brawl with Floran later, Neki?",
+			"Floran likes Neki face very much!",
+			"Neki wantsss stab sssomething too?",
+			"Finally comesss fun traveller.",
+			"Floran wantsss hunt with Neki!"
+		]
+	},
+	{"op": "add", "path": "/hail/apex/neki",
+		"value": [
+			"Loyalty to the Miniknog, agent.",
+			"I bow to the might of the Miniknog.",
+			"Welcome, agent. Do you require assistance?",
+			"I won't interfere, agent, unless you disturb the peace.",
+			"You are free to act, agent, but try not to make a mess.",
+			"I'm loyal to Big Ape, and comply with his directives.",
+			"You do your thing, and I'll be keeping the peace.",
+			"Conform to the directive of conduct, please.",
+			"I trust the judgement of Big Ape.",
+			"Big Ape is guiding you well."
+		]
+	},
+	{"op": "add", "path": "/hail/hylotl/neki",
+		"value": [
+		// Juni
+			"Keep those claws sheathed, please.",
+			"Please avoid smiling, your fangs may terrify our peaceful population.",
+			"If I notice the slightest hostility, I won't hesitate to deal with it.",
+			"I won't welcome you, but I will tolerate your presence. For now.",
+		// Vanilla
+			"Walk well, stranger.",
+			"Cross me and I will be forced to strike.",
+			"I hope that we can each keep our steel sheathed and chambered.",
+			"Let us be peaceful, and have tranquility reign over our encounter.",
+			"I ask that you do not blemish this place with unnecessary aggression.",
+			"I hope the serenity of our surroundings will influence your actions.",
+			"We ask only that you behave respectfully within our jurisdiction.",
+			"A Hylotl warrior is trained from birth.",
+			"Do not test me."
+		]
+	},
+	{"op": "add", "path": "/hail/avian/neki",
+		"value": [
+		// Juni
+			"I'll be watching you closely, Neki.",
+			"As long as you don't do your thing, you should be fine.",
+			"I'm not afraid of you, as I have the training of Kluex in my arsenal!",
+			"If you start chasing anyone here, I will personally peck you very hard!",
+		// Vanilla
+			"Don't try me.",
+			"If we fight, you will lose.",
+			"Just try not to put a cat amongst the pigeons.",
+			"I'm afraid I must ask you to move along.",
+			"I hope we can get along."
+		]
+	},
+	{"op": "add", "path": "/hail/novakid/neki",
+		"value": [
+		// Juni
+			"If y'all rattle the snake, you'll have to face <selfname>!",
+			"I ain't lookin' for no trouble, and hope ya ain't either, partner.",
+			"Name's <selfname>, and I'll be watchin' ya! Just in case.",
+			"Keep them claws n' fangs inside at all times, beastie!",
+			"Ya ain't here for thievin' and stealin', are ya?",
+		// Vanilla
+			"Don't cause no fuss around here, partner.",
+			"If you don't intend to cause trouble, then we'll get on jus' fine.",
+			"Hope you enjoy our ol' village, partner. Jus' don't cause no trouble.",
+			"We're mighty fine with strangers, as long as they aren't trouble.",
+			"I forget, have we seen you round here before?",
+			"Howdy!"
+		]
+	},
+	{"op": "add", "path": "/hail/neki", "value": {}},
+	{"op": "add", "path": "/hail/neki/default",
+		"value": [
+			"What even are you?",
+			"*sniff*\n*sniff*",
+			"*sniff*",
+			"Khhh!"
+		]
+	},
+	{"op": "add", "path": "/hail/neki/avian",
+		"value": [
+			"What's that delicious smell?",
+			"Your smell makes me hungry.",
+			"Smells like poultry.",
+			"*sniff*\n*sniff*",
+			"I smell food.",
+			"*sniff*",
+			"Khhh!"
+		]
+	},
+	{"op": "add", "path": "/hail/neki/apex",
+		"value": [
+			"What's that suspicious smell?",
+			"I smell a trraitor.",
+			"*sniff*\n*sniff*",
+			"*sniff*",
+			"Khhh!"
+		]
+	},
+	{"op": "add", "path": "/hail/neki/floran",
+		"value": [
+			"Mrr, the smell of fresh grass and blood!",
+			"I can smell frresh blood on you!",
+			"What's that lovely smell?",
+			"*sniff*\n*sniff*",
+			"*sniff*",
+			"Khhh!"
+		]
+	},
+	{"op": "add", "path": "/hail/neki/glitch",
+		"value": [
+			"Mrr, smells like grease.",
+			"Smells like toys!",
+			"*sniff*\n*sniff*",
+			"*sniff*",
+			"Khhh!"
+		]
+	},
+	{"op": "add", "path": "/hail/neki/human",
+		"value": [
+			"Hello fellow human.",
+			"*sniff*\n*sniff*",
+			"*sniff*",
+			"Khhh!"
+		]
+	},
+	{"op": "add", "path": "/hail/neki/hylotl",
+		"value": [
+			"What's that delicious smell?",
+			"Your smell makes me hungry.",
+			"Smells like seafood.",
+			"*sniff*\n*sniff*",
+			"I smell food.",
+			"*sniff*",
+			"Khhh!"
+		]
+	},
+	{"op": "add", "path": "/hail/neki/novakid",
+		"value": [
+			"Did someone start a fire?",
+			"*sniff*\n*sniff*",
+			"*sniff*",
+			"Khhh!"
+		]
+	},
+	{"op": "add", "path": "/hail/neki/neki",
+		"value": [
+			"Something smells familiar.",
+			"*sniff*\n*sniff*",
+			"*sniff*",
+			"Khhh!"
+		]
+	}
+]

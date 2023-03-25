@@ -1,0 +1,79 @@
+[
+	{"op": "add", "path": "/reattack/neki", "value": {}},
+	{"op": "add", "path": "/reattack/neki/default",
+		"value": [
+			"Time to resume the hunt!",
+			"The prey came back!",
+			"Hello again, prey.",
+			"You're back!?",
+			"You again!"
+		]
+	},
+	{"op": "add", "path": "/attack/neki", "value": {}},
+	{"op": "add", "path": "/attack/neki/default",
+		"value": [
+			"Catch it! Eat it!",
+			"Dinner is here!",
+			"Oh look, prey!",
+			"Khhhh! Get it!",
+			"Time to hunt!",
+			"Wrrawww!",
+			"Khhhh!"
+		]
+	},
+	{"op": "add", "path": "/killedTarget/neki", "value": {}},
+	{"op": "add", "path": "/killedTarget/neki/default",
+		"value": [
+			"And now I'm bored.",
+			"Purroblem solved.",
+			"Fur untouched.",
+			"That was fun!",
+			"Get rekt.",
+			"Purrfect.",
+			"Mrreh."
+		]
+	},
+	{"op": "add", "path": "/lostTarget/neki", "value": {}},
+	{"op": "add", "path": "/lostTarget/neki/default",
+		"value": [
+			"My dinner is getting away!",
+			"Where are you...",
+			"I'm hungry..."
+		]
+	},
+	{"op": "add", "path": "/outOfSight/neki", "value": {}},
+	{"op": "add", "path": "/outOfSight/neki/default",
+		"value": [
+			"Come out wherrever you are!",
+			"Prey can't hide furrever!",
+			"I can still smell you!",
+			"I'm coming for you!",
+			"Where'd they go?",
+			"Get back here!"
+		]
+	},
+	{"op": "add", "path": "/cantReach/neki", "value": {}},
+	{"op": "add", "path": "/cantReach/neki/default",
+		"value": [
+			"Silly prey, that won't save you!",
+			"I'm coming for you, prey!",
+			"Get back here!",
+			"I'll get you!",
+			"Come closer!",
+			"Come here!"
+		]
+	},
+	{"op": "add", "path": "/cheerOn/neki", "value": {}},
+	{"op": "add", "path": "/cheerOn/neki/default",
+		"value": [
+			"Why aren't they food yet?",
+			"Claw their eyes out!",
+			"Save some for me!",
+			"Get the prrey!",
+			"I'm excited!",
+			"Get them!",
+			"Come on!",
+			"Get it!"
+		]
+	}
+]
