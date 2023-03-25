@@ -1,0 +1,11 @@
+[
+	{"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"},
+	{"op": "add", "path": "/scriptConfig/dialog/converse/human/neki",
+		"value": [
+			"I've done some things I'm not proud of, but I guess I haven't done enough if YOU are here.",
+			"Sure, Earth may not have been perfect, but it was my home. You have taken that away from us.",
+			"Oh, the things I'd do to you if we'd met elsewhere...",
+			"Get out of my sight before I stop being nice."
+		]
+	}
+]

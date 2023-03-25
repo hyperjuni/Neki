@@ -1,0 +1,10 @@
+[
+	{"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"},
+	{"op": "add", "path": "/scriptConfig/dialog/converse/hylotl/neki",
+		"value": [
+			"I may seem weak to you, but test me and you may witness the resolve we Hylotl have.",
+			"Many of us fear your kind, but seeing you I'm beginning to suspect those fears may be unfounded.",
+			"I may tolerate your presence, but you will not catch me off-guard, Neki."
+		]
+	}
+]

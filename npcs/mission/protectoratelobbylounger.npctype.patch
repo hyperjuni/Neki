@@ -1,0 +1,17 @@
+[
+	{"op": "add", "path": "/scriptConfig/dialog/converse/default/neki",
+		"value": [
+			"Color me surprised, <entityname> overslept again!",
+			"Hurry up and rid us all of yourself already.",
+			"If you drop even a single pen off this table, I will hurt you.",
+			"Don't even think about shedding any of your fur on that chair.",
+			"Get out of here, you annoying creature!",
+			"I think I'm developing an allergy to you.",
+			"So glad that having you around won't be a thing anymore.",
+			"Why are you still here?",
+			"Go bother someone else.",
+			"For the love of all that's shiny, just leave me alone!",
+			"*sigh*"
+		]
+	}
+]

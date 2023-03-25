@@ -1,0 +1,96 @@
+{
+	"type": "nekimkagent",
+	"baseType": "base",
+
+	"levelVariance": [3, 3],
+	"persistent": true,
+
+	"damageTeamType": "friendly",
+
+	"dropPools": ["nekiguardtreasure"],
+
+	"scriptConfig": {
+		"behavior": "villageguard",
+		"behaviorConfig": {
+			"greetingChance": 0,
+			"hostileDamageTeam": {"type": "enemy", "team": 1}
+		},
+		"personalities": [
+			[1.0, {
+				"personality": "normal",
+				"reactions": {}
+			}]
+		],
+		"questGenerator": {
+			"pools": ["nekicommon"],
+			"enableParticipation": true,
+			"timeLimit": 1,
+			"nearbyQuestLimit": 2,
+			"nearbyQuestRange": 50,
+			"questCountRange": [1, 4],
+			"graduation": {
+				"nextNpcType": [
+					[0.5, "crewmembernekimkagent"],
+					[0.5, "crewmembernekimkagent2"]
+				]
+			}
+		},
+		"dialog": {
+			"greeting": "/dialog/converse.config:greeting",
+			"attack": "/dialog/combat.config:attack",
+			"reattack": "/dialog/combat.config:reattack",
+			"killedTarget": "/dialog/combat.config:killedTarget",
+			"lostTarget": "/dialog/combat.config:lostTarget",
+			"outOfSight": "/dialog/combat.config:outOfSight",
+			"cheerOn": "/dialog/combat.config:cheerOn",
+			"cantReach": "/dialog/combat.config:cantReach",
+			"hail": "/dialog/guard.config:hail",
+			"accuse": "/dialog/thief.config:accuse",
+			"converse": {
+				"neki": {
+					"default": [
+						"You smell.. unfamiliarr.",
+						"*sniff*\n*sniff*",
+						"Purrceed.",
+						"*sniff*",
+						"Mrr..?"
+					],
+					"apex": [
+						"I'm watching you, outsiderr.",
+						"You're not from around here."
+					],
+					"neki": [
+						"When was the last time you licked yourself?",
+						"Why are you out of unifurrm?"
+					]
+				}
+			}
+		}
+	},
+
+	"items": {
+		"default": [
+			[0,
+				[
+					{
+						"head": [""],
+						"chest": [{"name": "nekimktier6ssleeves", "parameters": {"colorIndex": 0}}],
+						"legs": [{"name": "nekimktier6sarmor", "parameters": {"colorIndex": 0}}],
+						"primary": ["npcdagger"],
+						"alt": [""],
+						"sheathedprimary": ["nekinpcsniperrifle"]
+					}
+				]
+			]
+		]
+	},
+
+	"statusControllerSettings": {
+		"stats": {
+			"maxHealth": {"baseValue": 100.0},
+			"powerMultiplier": {"baseValue": 0.8},
+			"protection": {"baseValue": 2.0},
+			"healthRegen": {"baseValue": 1.0}
+		}
+	}
+}

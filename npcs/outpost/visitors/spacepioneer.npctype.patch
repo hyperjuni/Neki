@@ -1,0 +1,15 @@
+[
+	{"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"},
+	{"op": "add", "path": "/scriptConfig/dialog/converse/default/neki",
+		"value": [
+			"Oh hello there, cutie!",
+			"I've seen a few of your kind around while exploring lately.",
+			"I don't think that your kind had anything to do with the Earth's destruction.",
+			"How could such innocent and sincere creatures like yourself ever have any ulterior motives?",
+			"It's amazing to see in you what could've been, if we Humans weren't, well... ourselves.",
+			"If you stumble upon a suitable replacement for Earth, do let me know!",
+			"It is time for me to get on with pioneering! Not that I do much of it...",
+			"It has been nice meeting you, Neki. Stay optimistic!"
+		]
+	}
+]

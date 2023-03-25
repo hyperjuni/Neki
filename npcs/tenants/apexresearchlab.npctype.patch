@@ -1,0 +1,11 @@
+[
+	{"op": "add", "path": "/scriptConfig/dialog/converse/neki", "value": {}},
+	{"op": "add", "path": "/scriptConfig/dialog/converse/neki/default",
+		"value" : [
+			"Are you a trrraitor? I don't like them! Not sure why.",
+			"I'm here for some very impurrtant stuff, don't mind me.",
+			"I'm purrtending to be a scientist so that I can do fun stuff!",
+			"I hope you'll be coopurrative. We both know what happens to traitors..."
+		]
+	}
+]

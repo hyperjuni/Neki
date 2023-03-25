@@ -1,0 +1,11 @@
+[
+	{"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"},
+	{"op": "add", "path": "/scriptConfig/dialog/converse/default/neki",
+		"value": [
+			"Excited. I've heard of your kind before, but never seen one up close!",
+			"Informative. Have you heard of the Technowizards? We're quite interested in new and unusual things.",
+			"Eager. You should come visit one of our towers sometime! I'll show you around.",
+			"Inquisitive. Have you tried using wands or staves before, with your paws?"
+		]
+	}
+]

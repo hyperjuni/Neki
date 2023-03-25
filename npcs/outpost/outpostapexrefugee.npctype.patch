@@ -1,0 +1,12 @@
+[
+	{"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"},
+	{"op": "add", "path": "/scriptConfig/dialog/converse/apex/neki",
+		"value": [
+			"Hello, I suppose.",
+			"Excuse me, but I don't feel comfortable being around you.",
+			"You make me feel very uneasy.",
+			"I would prefer it if we parted ways now.",
+			"Goodbye."
+		]
+	}
+]

@@ -1,0 +1,245 @@
+{
+	"type": "crewmembernekimkagent",
+	"baseType": "base",
+
+	"dropPools": ["nekiguardtreasure"],
+
+	"damageTeamType": "friendly",
+
+	"innateStatusEffects": [
+		{"stat": "protection", "amount": -25},
+		{"stat": "powerMultiplier", "amount": -0.5}
+	], 
+
+	"persistent": true,
+
+	"scriptConfig": {
+		"behavior": "crewmember",
+		"behaviorConfig": {
+			"emptyHands": false,
+			"wanderTime": 1,
+			"idleTime": 10,
+			"outerHomeRange": 20,
+			"innerHomeRange": 15,
+			"hostileDamageTeam": {
+				"type": "friendly",
+				"team": 1
+			}
+		},
+
+		"crew": {
+			"recruitable": true,
+			"recruitInteractAction": {
+				"messageType": "recruits.offerRecruit",
+				"messageArgs": []
+			},
+
+			"powerMultiplierExponent": 1.0,
+
+			"role": {
+				"type": "soldier",
+				"name": "Murrauder",
+				"field": "Sniping",
+				"uniformColorIndex": 1
+			},
+
+			"ranks": [
+				"Second-to-Last <role>",
+				"3rd Technical Assistant <field> Officer",
+				"Trainee Apprentice <role>",
+				"Temporary Relief <role>",
+				"3rd Rear Lieutenant <role>",
+				"64th Commodore <role>",
+				"Standing <field> Officer",
+				"Sitting <field> Officer",
+				"Executive Coffee-Making <role>",
+				"Command Master Chief Petty <field> Officer",
+				"Independent <field> Auditor",
+				"Dependant <field> Auditor",
+				"Dreadnought <field> Officer",
+				"Trainee <field> Mastermind",
+				"Head of Petty <field> Arguments",
+				"Backup <role>",
+				"Reliable <field> Lackey",
+				"Unreliable <field> Lackey",
+				"Theoretical <field> Advisor",
+				"Head of <field> operations",
+				"Wild Card <role>",
+				"Head of <field> Relations",
+				"Last-Minute <role>",
+				"Expert in <field> Diplomacy",
+				"<field> Innovation Manager",
+				"Loose Cannon <role>",
+				"Regional <field> Director",
+				"Purrivate <field> Investigator",
+				"Temporal <field> Surveyor",
+				"Radical <field> Innovator",
+				"Independent Head of <field> Operations",
+				"Just your average <role>",
+				"Hobbyist <role>",
+				"Master of <field> Matters",
+				"Alternative <field> Advisory Representative",
+				"Runner-Up <field> Officer",
+				"Emergency <field> Officer",
+				"First Mate's Second-Cousin's Third <role>",
+				"Unpaid <field> Intern",
+				"<field> Student",
+				"<field> Forum Moderator",
+				"Rogue <field> Profiteer",
+				"Neutral Third Party <role>",
+				"Low Quality <field> Negotiations",
+				"Armchair <field> Expert"
+			],
+
+			"defaultUniform": {
+				"chest": "protectoratechest",
+				"legs": "protectoratepants"
+			},
+			"uniformSlots": ["chest", "chestCosmetic", "legs", "legsCosmetic", "back", "backCosmetic"]
+		},
+
+		"questGenerator": {
+			"enableParticipation": false
+		},
+
+		"dialog": {
+			"crewmember": {
+				"offer": {
+					"default": {
+						"default": [
+							"Purrfect, let's go to your ship!",
+							"I bet you have lots of treats.",
+							"Alright, show me your place.",
+							"You know you want me.",
+							"I'm coming with you."
+						]
+					}
+				},
+				"roleDescription": {
+					"default": {
+						"default": [
+              "If you need a paw in a hunt, you know where to find me!",
+              "If you need purrtection, you know where to find me!",
+							"I'll wait here until you need me to hunt something.",
+							"I'll be here if you need someone to help you hunt.",
+              "If you need me on a hunt, you know where I am.",
+              "If you need me on a hunt, just say the word!",
+              "When you need my purrtection, come get me.",
+							"I will stay here until you need backup."
+						]
+					}
+				},
+				"respawned": {
+					"default": {
+						"default": [
+							"Oh, we're back here again.",
+							"I was here the whole time.",
+							"I think my ear is broken.",
+							"Let's do THAT again!",
+							"That made me hungry",
+							"Eight more to go."
+						]
+					}
+				},
+				"unfollow": {
+					"default": {
+						"default": [
+							"Fine, I'll just drop your stuff then.",
+							"Fine, I'll go pee in your shoes then.",
+							"Better come back with more food!",
+							"Brring back new toys for me!",
+							"Didn't want to go anyway.",
+							"Guess I'll just.. sleep.",
+							"But I wanted to come!"
+						]
+					}
+				},
+				"follow": {
+					"default": {
+						"default": [
+							"Adventure time!",
+							"Hunting time!",
+							"Can't wait!",
+							"I'm coming!",
+							"Purrfect!",
+							"Outside?",
+							"Walkies?",
+							"Finally!",
+							"Coming!",
+							"Mrraw!"
+						]
+					}
+				},
+				"cantreach": {
+					"default": {
+						"default": [
+							"Oh, what's this thingy over here?",
+							"Come here, it's more interesting!",
+							"Wait, what is THAT?",
+							"Fascinating.",
+							"Interesting."
+						]
+					}
+				}
+			},
+
+			"tenant": {
+				"grumbles": {
+					"tagCriteria": "/dialog/grumble.config:tagCriteria",
+					"enclosedArea": "/dialog/grumble.config:enclosedArea",
+					"otherDeed": "/dialog/grumble.config:otherDeed",
+					"severe": "/dialog/grumble.config:severe",
+					"final": "/dialog/grumble.config:final"
+				},
+				"arrivedHome": {
+					"beacon": "/dialog/arrivedhome.config:beacon",
+					"rent": "/dialog/arrivedhome.config:rent"
+				}
+			},
+
+			"converse": "/dialog/crewmember.config:converse",
+			"attack": "/dialog/combat.config:attack",
+			"reattack": "/dialog/combat.config:reattack",
+			"killedTarget": "/dialog/combat.config:killedTarget",
+			"lostTarget": "/dialog/combat.config:lostTarget",
+			"outOfSight": "/dialog/combat.config:outOfSight",
+			"cheerOn": "/dialog/combat.config:cheerOn",
+			"cantReach": "/dialog/combat.config:cantReach"
+		}
+	},
+
+	"movementParameters" : {"runSpeed" : 28.0},
+
+	"items": {
+		"default": [
+			[0,
+				[
+					{
+						"chest": [{"name": "nekimktier6ssleeves", "parameters": {"colorIndex": 0}}],
+						"legs": [{"name": "nekimktier6sarmor", "parameters": {"colorIndex": 0}}],
+						"primary": [""],
+						"alt": [""],
+						"sheathedprimary": ["nekinpcsniperrifle"]
+					}
+				]
+			]
+		]
+	},
+
+	"statusControllerSettings": {
+		"statusProperties": {
+			"hitInvulnerability": true,
+			"hitInvulnerabilityThreshold": 0.0333,
+			"hitInvulnerabilityTime": 1,
+			"hitInvulnerabilityFlash": 0.15,
+			"damageFlashOnDirectives": "",
+			"damageFlashOffDirectives": ""
+		},
+
+		"stats": {
+			"maxHealth": {"baseValue": 300.0},
+			"powerMultiplier": {"baseValue": 0.25},
+			"healthRegen": {"baseValue": 2.0}
+		}
+	}
+}

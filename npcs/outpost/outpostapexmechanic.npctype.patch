@@ -1,0 +1,13 @@
+[
+	{"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"},
+	{"op": "add", "path": "/scriptConfig/dialog/converse/apex/neki",
+		"value": [
+			"I don't trust you, even if the others do.",
+			"I'll be watching you closely around here.",
+			"Nothing personal Neki, but I prefer to err on the side of caution.",
+			"It takes me enough effort to keep everything running as is.",
+			"I have nothing more to say to you.",
+			"Please vacate my immediate proximity."
+		]
+	}
+]

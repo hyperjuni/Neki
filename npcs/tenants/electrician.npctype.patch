@@ -1,0 +1,17 @@
+[
+	{"op": "add", "path": "/scriptConfig/dialog/converse/neki", "value": {}},
+	{"op": "add", "path": "/scriptConfig/dialog/converse/neki/default",
+		"value" : [
+			"Nice wires you have. Can I touch?",
+			"This helmet is making my ears itch.",
+			"I'm here to play with exposed wires!",
+			"Do you think I look cute in this plastic hat?",
+			"I'm here to play with all these electrical circuits!",
+			"I'd rrrather be napping, but I have wires to make a mess of.",
+			"This safety suit isn't comfurrtable at all, why do I even wear it?",
+			"I'm an electrrrician, but... I have no idea how any of this works.",
+			"These wires aren't going to tangle themselves! That's what I'm here for.",
+			"I'm here to make a mess of your circuits, but it looks like someone beat me to it."
+		]
+	}
+]

@@ -1,0 +1,12 @@
+[
+	{"op": "add", "path": "/scriptConfig/dialog/converse/default/neki",
+		"value": [
+			"Honest. Did not expect <entityname> to show up, this is quite an unpleasant surprise.",
+			"Irritated. For the 872nd time, <entityname>: I'm in no way a toy!",
+			"Warning. I may resort to taping your claws if this continues.",
+			"Frustrated. Neither reason nor intimidation seem to deter your you, ever.",
+			"Curious. Which evolutionary mechanism could've produced your behavioral traits?",
+			"Pleading. Try not to mess up my uniform too much, I implore you."
+		]
+	}
+]

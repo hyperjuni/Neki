@@ -1,0 +1,22 @@
+[
+	{"op": "add", "path": "/scriptConfig/dialog/converse/apex/neki",
+		"value": [
+			"Why would they make you this fluffy, I wonder.",
+			"I wonder what Lana would have to say about you.",
+			"How does it feel, being someone's artificial pet?",
+			"You're here for either espionage or sabotage, I know it!",
+			"Such weird-looking ears and tail, what were they thinking?",
+			"Did you have a childhood, Neki - or were you created of age?",
+			"Not gonna lie, they've made you look almost innocent enough to trust.",
+			"You're either incredibly brave or incredibly stupid, to have come here.",
+			"The Miniknog have weird taste... hmm? Oh, I was talking about the way you look.",
+			"The only way I'd feel safe around you, is if you were back in your pod.",
+			"Were you the product of any other research, I might've been impressed.",
+			"No matter your intentions, you're still a product of the oppressors.",
+			"Hm, you seem different from the other Neki I've encountered.",
+			"It's such a pity that you're just a tool of our oppressors.",
+			"I don't think I'll ever be able to fully trust you, Neki.",
+			"What's your name? <entityname>? Isn't that a pet's name?"
+		]
+	}
+]

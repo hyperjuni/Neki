@@ -1,0 +1,12 @@
+[
+	{"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"},
+	{"op": "add", "path": "/scriptConfig/dialog/converse/glitch/neki",
+		"value": [
+			"Intrigued. I normally don't see your kind much, and I travel the stars often.",
+			"Apologetic. Do not be offended by my comrade in black. He's not quite the social type.",
+			"Advisory. You should give mercenary work a try, you sure look the part.",
+			"Optimistic. I hope you can find your place among the stars, fluffy one.",
+			"Wistful. Were times not simpler before we learned of all... this?"
+		]
+	}
+]

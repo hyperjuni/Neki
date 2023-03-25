@@ -1,0 +1,10 @@
+[
+	{"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"},
+	{"op": "add", "path": "/scriptConfig/dialog/converse/floran/neki",
+		"value": [
+			"Floran enjoys travel! Doesss Neki enjoy travel too?",
+			"Floran wants to sssee whole universe!",
+			"Neki has ssseen much universe? Floran would like to hear!"
+		]
+	}
+]

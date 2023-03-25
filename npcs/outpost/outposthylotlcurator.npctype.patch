@@ -1,0 +1,19 @@
+[
+	{"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"},
+
+// Vanilla bug fix
+	{"op": "move", "from": "/scriptConfig/dialog/converse/Hylotl", "path": "/scriptConfig/dialog/converse/hylotl"},
+
+	{"op": "add", "path": "/scriptConfig/dialog/converse/hylotl/neki",
+		"value": [
+			"P..please, this is a p..place of peace!",
+			"Neki, I implore you, please let me be!",
+			"I am extremely fragile, I barely survived a Floran attack earlier.",
+			"I appreciate your striking features, but I'd like to avoid experiencing them.",
+			"Seeing as I'm still not on the floor with something broken...",
+			"...I would cautiously assume that you mean me no harm today.",
+			"Let us part in peace, my fearsome fluffy friend!",
+			"It was lovely not getting mauled today!"
+		]
+	}
+]

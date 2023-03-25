@@ -1,0 +1,9 @@
+[
+	{"op": "add", "path": "/scriptConfig/dialog/converse/neki", "value": {}},
+	{"op": "add", "path": "/scriptConfig/dialog/converse/neki/default",
+		"value" : [
+			"I was digging the moon! There was purrrple goo in it.",
+			"Others seem to hate the smell of the purrrple goo, but I love how sweet it is!"
+		]
+	}
+]

@@ -1,0 +1,12 @@
+[
+	{"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"},
+	{"op": "add", "path": "/scriptConfig/dialog/converse/default/neki",
+		"value": [
+			"Earth is lost because of your kind, and so much fine art with it!",
+			"Can you even appreciate the amount of cultural treasure you helped destroy?",
+			"Did you get your filthy paws on any art pieces, before it happened?",
+			"My priceless coin collection was on Earth, and now I'm ruined!",
+			"Don't even talk to me! Leave."
+		]
+	}
+]

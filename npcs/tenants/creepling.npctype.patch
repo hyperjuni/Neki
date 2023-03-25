@@ -1,0 +1,11 @@
+[
+	{"op": "add", "path": "/scriptConfig/dialog/converse/neki", "value": {}},
+	{"op": "add", "path": "/scriptConfig/dialog/converse/neki/default",
+		"value" : [
+			"This is how I really feel.",
+			"I made this outfit myself! Well, sort of.",
+			"Some animals may have been harmed in the making of this outfit.",
+			"Do you like my outfit? Because I do."
+		]
+	}
+]

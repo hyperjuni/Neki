@@ -1,0 +1,12 @@
+[
+	{"op": "add", "path": "/scriptConfig/dialog/converse/neki", "value": {}},
+	{"op": "add", "path": "/scriptConfig/dialog/converse/neki/default",
+		"value" : [
+			"Don't mind my ears sticking out, that's... fine.",
+			"This suit is to purrtect me from YOU. No touching!",
+			"Bacterrria is everywhere! Tiny evil little monsters...",
+			"I hate wearing this suit, but I'm terrified of bacterrria more.",
+			"If you'd seen what I've seen, you'd purrobably be walking around in a suit too."
+		]
+	}
+]
