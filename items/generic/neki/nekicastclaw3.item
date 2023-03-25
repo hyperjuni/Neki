@@ -1,0 +1,11 @@
+{
+	"itemName": "nekicastclaw3",
+	"price": 1,
+	"rarity": "Common",
+	"category": "craftingMaterial",
+	"inventoryIcon": "nekicastclaw3.png",
+	"description": "A set of sharp tungsten claws. Used in creating the Neki T3 Claws.",
+	"shortdescription": "Cast Tungsten Claws",
+	"tooltipKind": "nekibase",
+	"itemTags": ["reagent"]
+}

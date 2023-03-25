@@ -1,0 +1,19 @@
+{
+	"itemName": "invisiblefabrichead",
+	"price": 1,
+	"inventoryIcon": "icons.png:head",
+	"maxStack": 1,
+	"rarity": "Legendary",
+	"category": "headwear",
+	"description": "[Neki] This spectacular hat turns what's on your head invisible, if that's your fancy.",
+	"shortdescription": "Invisi-Hat (Neki)",
+	"tooltipKind": "nekiarmor",
+
+	"maleFrames": "head.png",
+	"femaleFrames": "head.png",
+	"mask": "mask.png",
+
+	"colorOptions": [
+		{"ffca8a": "000000", "e0975c": "000000", "a85636": "000000", "6f2919": "000000"}
+	]
+}

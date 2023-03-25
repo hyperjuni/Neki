@@ -1,0 +1,135 @@
+{
+	"itemName": "nekiclaws1",
+	"price": 1,
+	"level": 1,
+	"maxStack": 1,
+	"rarity": "Common",
+	"description": "Pat pat pat...",
+	"shortdescription": "Neki T1 Paws",
+	"tooltipKind": "nekifistweapon",
+	"category": "fistWeapon",
+	"twoHanded": false,
+	"itemTags": ["weapon", "melee"],
+
+	"inventoryIcon": "/items/active/weapons/neki/icon/nekiclaws1icon.png:front",
+	"animation": "nekiclaws.animation",
+	"animationParts": {
+		"weapon": "/items/active/weapons/neki/claw/nekiclaws1.png",
+		"swoosh": "/items/active/weapons/neki/swoosh/nekiswoosh1.png"
+	},
+	"animationCustom": {
+		"animatedParts": {
+			"parts": {
+				"swoosh": {
+					"partStates": {
+						"attack": {
+							"fire": {
+								"properties": {
+									"damageArea": [
+										[-1.2, -1.5],
+										[0.1, -1.1],
+										[0.1, 1.0],
+										[-1.2, 1.4]
+									]
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"sounds": {
+			"fire": [
+				"/sfx/projectiles/toy_bounce1.ogg",
+				"/sfx/projectiles/toy_bounce2.ogg",
+				"/sfx/projectiles/toy_bounce3.ogg",
+				"/sfx/projectiles/toy_bounce4.ogg",
+				"/sfx/projectiles/toy_bounce5.ogg"
+			]
+		}
+	},
+	"scripts": ["/items/active/weapons/fist/fistweapon.lua"],
+
+	"needsEdgeTrigger": false,
+	"edgeTriggerGrace": 0.1,
+
+	"comboSteps": 9999,
+	"comboTiming": [0.2, 0.5],
+	"comboCooldown": 0.2,
+	"comboFinisherSource": "/items/active/weapons/neki/nekipunch.combofinisher",
+
+	"freezeLimit": 0,
+
+	"primaryAbility": {
+		"scripts": ["/items/active/weapons/neki/nekipunch1.lua"],
+		"class": "Punch",
+
+		"freezeTime": 0,
+		"fireTime": 0.1,
+		"baseDps": 1.0,
+		"damageConfig": {
+			"statusEffects": [],
+			"damageSourceKind": "nekiclaws1",
+			"knockback": 9,
+			"timeoutGroup": "primary",
+			"timeout": 0.1
+		},
+		"stances": {
+			"idle": {
+				"armRotation": 0,
+				"weaponRotation": 45,
+				"weaponRotationCenter": [-1, 0],
+				"weaponOffset": [-0.45, -0.45],
+
+				"allowRotate": true,
+				"allowFlip": true,
+
+				"frontArmFrame": "swim.2",
+				"backArmFrame": "swim.1"
+			},
+			"windup": {
+				"duration": 0.05,
+				"armRotation": 90,
+				"weaponRotation": 0,
+				"weaponRotationCenter": [-1.0, 0.0],
+				"weaponOffset": [-0.05, -0.225],
+
+				"allowRotate": true,
+				"allowFlip": true,
+
+				"frontArmFrame": "rotation",
+				"backArmFrame": "rotation"
+			},
+			"windup2": {
+				"duration": 0.05,
+				"armRotation": 45,
+				"weaponRotation": 0,
+				"weaponRotationCenter": [-1.0, 0.0],
+				"weaponOffset": [-0.25, 0.125],
+
+				"allowRotate": true,
+				"allowFlip": true,
+
+				"frontArmFrame": "swim.4",
+				"backArmFrame": "swim.4",
+
+				"recoil": false
+			},
+			"fire": {
+				"duration":0.1,
+				"armRotation": 0,
+				"weaponRotation": 0,
+				"weaponRotationCenter": [-1.0, 0.0],
+				"weaponOffset": [0, -0.2],
+
+				"allowRotate": true,
+				"allowFlip": true,
+
+				"frontArmFrame": "swim.3",
+				"backArmFrame": "swim.3"
+			}
+		}
+	},
+
+	"builder": "/items/buildscripts/nekibuildclaw.lua"
+}
