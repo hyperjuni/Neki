@@ -1,0 +1,94 @@
+{
+	"background": {
+		"type": "background",
+		"fileHeader": "/interface/tooltips/nekiheader.png",
+		"fileBody": "/interface/tooltips/nekibodyfistweapon.png",
+		"fileFooter": "/interface/tooltips/nekifooter.png"
+	},
+	"rarityLabel": {
+		"type": "label",
+		"position": [69, 179],
+		"hAnchor": "mid",
+		"vAnchor": "mid",
+		"centered": true,
+		"wrapWidth": 126
+	},
+	"objectImage": {
+		"type": "image",
+		"position": [69, 141],
+		"file": "",
+		"centered": true,
+		"maxSize": [38, 38],
+		"minSize": [38, 38]
+	},
+	"damageKindImage": {
+		"type": "image",
+		"position": [106, 115],
+		"file": "",
+		"centered": false,
+		"maxSize": [16, 16],
+		"minSize": [16, 16]
+	},
+	"descriptionLabel": {
+		"type": "label",
+		"position": [69, 99],
+		"hAnchor": "mid",
+		"vAnchor": "top",
+		"wrapWidth": 124,
+		// "lineSpacing": 1.0,
+		"value": ""
+	},
+	"damagePerShotTitleLabel": {
+		"type": "label",
+		"position": [10, 49],
+		"hAnchor": "left",
+		"vAnchor": "mid",
+		"value": "Damage Per Swing:"
+	},
+	"damagePerShotLabel": {
+		"type": "label",
+		"position": [129, 49],
+		"hAnchor": "right",
+		"vAnchor": "mid",
+		"value": ""
+	},
+	"speedTitleLabel": {
+		"type": "label",
+		"position": [10, 37],
+		"hAnchor": "left",
+		"vAnchor": "mid",
+		"value": "Rate of Fire:"
+	},
+	"speedLabel": {
+		"type": "label",
+		"position": [129, 37],
+		"hAnchor": "right",
+		"vAnchor": "mid",
+		"value": ""
+	},
+	"comboFinisherTitleLabel": {
+		"type": "label",
+		"position": [10, 25],
+		"hAnchor": "left",
+		"vAnchor": "mid",
+		"value": ""
+	},
+	"comboFinisherLabel": {
+		"type": "label",
+		"position": [129, 25],
+		"hAnchor": "right",
+		"vAnchor": "mid",
+		"value": ""
+	},
+	"moneyIcon": {
+		"type": "image",
+		"position": [9, 4],
+		"file": "/interface/money.png"
+	},
+	"priceLabel": {
+		"type": "label",
+		"position": [22, 4],
+		"hAnchor": "left",
+		"value": "tree"
+	}
+}

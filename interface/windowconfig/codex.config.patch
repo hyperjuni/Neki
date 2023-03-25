@@ -1,0 +1,57 @@
+[
+// Many Tabs installed
+	[
+		{"op": "test", "path": "/manytabs", "value": true},
+		{"op": "add", "path": "/paneLayout/speciesTabs/buttons/-",
+			"value": {
+				"position": [4, 5],
+				"baseImage": "/interface/codex/tab_neki_mt.png",
+				"baseImageChecked": "/interface/codex/tab_neki_select_mt.png",
+				"pressedOffset": [0, 0],
+				"data": {"species": "neki"}
+			}
+		}
+	],
+
+// ERM installed and Many Tabs not installed
+	[
+		{"op": "test", "path": "/manytabs", "inverse": true},
+		{"op": "test", "path": "/paneLayout/background/fileBody", "value": "/interface/codex/thea_codexbody.png"},
+		{"op": "add", "path": "/paneLayout/speciesTabs/buttons/-",
+			"value": {
+				"position": [58, 33],
+				"baseImage": "/interface/codex/tab_neki.png",
+				"baseImageChecked": "/interface/codex/tab_neki_select.png",
+				"pressedOffset": [0, 0],
+				"data": {"species": "neki"}
+			}
+		},
+		{"op": "replace", "path": "/paneLayout/speciesTabs/buttons/6/position", "value": [31, 33]},
+		{"op": "replace", "path": "/paneLayout/speciesTabs/buttons/6/baseImage", "value": "/interface/codex/tab_neki_other_erm.png"},
+		{"op": "replace", "path": "/paneLayout/speciesTabs/buttons/6/baseImageChecked", "value": "/interface/codex/tab_neki_other_select_erm.png"}
+	],
+
+// Many Tabs and ERM not installed
+	[
+		{"op": "test", "path": "/manytabs", "inverse": true},
+		{"op": "test", "path": "/paneLayout/background/fileBody", "value": "/interface/codex/thea_codexbody.png", "inverse": true},
+		{"op": "replace", "path": "/paneLayout/background/fileBody", "value": "/interface/codex/body_blank_neki.png"},
+		{"op": "replace", "path": "/paneLayout/scrollBG/file", "value": "/interface/codex/scrollbg_neki.png"},
+		{"op": "replace", "path": "/paneLayout/speciesTabs/buttons/0/position", "value": [3, 186]},
+		{"op": "replace", "path": "/paneLayout/speciesTabs/buttons/1/position", "value": [3, 163]},
+		{"op": "replace", "path": "/paneLayout/speciesTabs/buttons/2/position", "value": [3, 140]},
+		{"op": "replace", "path": "/paneLayout/speciesTabs/buttons/3/position", "value": [3, 117]},
+		{"op": "replace", "path": "/paneLayout/speciesTabs/buttons/4/position", "value": [3, 94]},
+		{"op": "replace", "path": "/paneLayout/speciesTabs/buttons/5/position", "value": [3, 71]},
+		{"op": "add", "path": "/paneLayout/speciesTabs/buttons/-",
+			"value": {
+				"position": [3, 48],
+				"baseImage": "/interface/codex/tab_neki.png",
+				"baseImageChecked": "/interface/codex/tab_neki_select.png",
+				"pressedOffset": [0, 0],
+				"data": {"species": "neki"}
+			}
+		},
+		{"op": "replace", "path": "/paneLayout/speciesTabs/buttons/6/position", "value": [3, 25]}
+	]
+]

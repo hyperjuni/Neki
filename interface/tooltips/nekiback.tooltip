@@ -1,0 +1,42 @@
+{
+	"background": {
+		"type": "background",
+		"fileHeader": "/interface/tooltips/nekiheader.png",
+		"fileBody": "/interface/tooltips/nekibodybase.png",
+		"fileFooter": "/interface/tooltips/nekifooter.png"
+	},
+	"rarityLabel": {
+		"type": "label",
+		"position": [69, 143],
+		"hAnchor": "mid",
+		"vAnchor": "mid",
+		"centered": true,
+		"wrapWidth": 126
+	},
+	"objectImage": {
+		"type": "image",
+		"position": [70, 109],
+		"file": "",
+		"centered": true,
+		"maxSize": [70, 45],
+		"minSize": [70, 45]
+	},
+	"descriptionLabel": {
+		"type": "label",
+		"position": [69, 72],
+		"hAnchor": "mid",
+		"vAnchor": "top",
+		"wrapWidth": 123
+	},
+	"moneyIcon": {
+		"type": "image",
+		"position": [9, 4],
+		"file": "/interface/money.png"
+	},
+	"priceLabel": {
+		"type": "label",
+		"position": [22, 4],
+		"hAnchor": "left",
+		"value": "0"
+	}
+}

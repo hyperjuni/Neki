@@ -1,0 +1,9 @@
+{
+	"frameGrid": {
+		"size": [85, 123],
+		"dimensions": [2, 1],
+        "names": [
+			["female", "male"]
+		]
+	}
+}

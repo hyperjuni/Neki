@@ -1,0 +1,12 @@
+[
+	{"op": "add", "path": "/customBorder", "value": {}},
+	{"op": "add", "path": "/customBorder/neki", "value": {"path": "/interface/scripted/techupgrade/parts/"}},
+	{"op": "add","path": "/gui/imgBackingImage",
+		"value": {
+			"type": "image",
+			"file": "/interface/scripted/techupgrade/parts/defaultBorder.png",
+			"position": [10, 80]
+		}
+	},
+	{"op": "add", "path": "/scripts/-",	"value": "/interface/scripted/techupgrade/nekiLoader.lua"}
+]

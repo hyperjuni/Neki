@@ -1,0 +1,11 @@
+{
+	"frameGrid": {
+		"size": [132, 3],
+		"dimensions": [1, 3],
+		"names": [
+			["head"],
+			["body"],
+			["legs"]
+		]
+	}
+}
