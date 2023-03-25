@@ -1,0 +1,11 @@
+{
+	"name": "nekibed",
+	"effectConfig": {"healTime": 60},
+	"defaultDuration": 10,
+
+	"scripts": ["nekibed.lua"],
+	"animationConfig": "nekibed.animation",
+
+	"label": "Resting",
+	"icon": "/interface/statuses/sleep.png"
+}

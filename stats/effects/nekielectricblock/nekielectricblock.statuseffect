@@ -1,0 +1,10 @@
+{
+	"name": "nekielectricblock",
+	"effectConfig": {},
+	"defaultDuration": 60,
+
+	"scripts": ["/stats/effects/electricblock/electricblock.lua"],
+
+	"label": "Claws Electric Resistance",
+	"icon": "nekielectricblock.png"
+}

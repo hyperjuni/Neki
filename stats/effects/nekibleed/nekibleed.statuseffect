@@ -1,0 +1,33 @@
+{
+	"name": "nekibleed",
+	"defaultDuration": 8,
+	"scripts": ["nekibleed.lua"],
+	"animationConfig": "nekibleed.animation",
+	"label": "Bleeding",
+	"icon": "/interface/statuses/absorb.png",
+	"effectConfig": {
+		"ignoreMaterials": ["wooden", "stone"],
+		"materialEffects": {
+			"organic": [
+				{
+					"action": "liquid",
+					"liquid": "slimeliquid",
+					"quantity": 0.3
+				},
+				{
+					"action": "applySurfaceMod",
+					"previousMod": "tilleddry",
+					"newMod": "tilled",
+					"radius": 5
+				}
+			],
+			"robotic": [
+				{
+					"action": "liquid",
+					"liquid": "tarliquid",
+					"quantity": 0.3
+				}
+			]
+		}
+	}
+}

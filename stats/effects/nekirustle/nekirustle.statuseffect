@@ -1,0 +1,5 @@
+{
+	"name": "nekirustle",
+	"scripts": ["nekirustle.lua"],
+	"animationConfig": "nekirustle.animation"
+}

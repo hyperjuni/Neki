@@ -1,0 +1,23 @@
+{
+	"config": {
+		"shipUpgrades": {
+			"capabilities": ["teleport", "planetTravel", "systemTravel"],
+			"crewSize": 14
+		}
+	},
+
+	"backgroundOverlays": [
+		{
+			"image": "apexT9.png",
+			"position": [0, 0],
+			"fullbright": true
+		},
+		{
+			"image": "apexT9lit.png",
+			"position": [0, 0]
+		}
+	],
+
+	"blockKey": "blockKey.config:blockKey",
+	"blockImage": "apexT9blocks.png"
+}

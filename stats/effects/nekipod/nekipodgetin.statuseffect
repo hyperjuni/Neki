@@ -1,0 +1,5 @@
+{
+	"name": "nekipodgetin",
+	"scripts": ["nekipodgetin.lua"],
+	"animationConfig": "nekipod.animation"
+}
