@@ -1,0 +1,13 @@
+{
+	"input": [
+		{"item": "darkwoodmaterial", "count": 10},
+		{"item": "climbingrope", "count": 5},
+		{"item": "tent1", "count": 1},
+		{"item": "tent2", "count": 1},
+		{"item": "cotton", "count": 8},
+		{"item": "dirtmaterial", "count": 5}
+	],
+
+	"output": {"item": "nekibed", "count": 1},
+	"groups": ["plain", "beds", "all"]
+}

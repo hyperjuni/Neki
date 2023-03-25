@@ -1,0 +1,11 @@
+{
+	"input": [
+		{"item": "diamond", "count": 1},
+		{"item": "copperbar", "count": 1},
+		{"item": "ironbar", "count": 1},
+		{"item": "money", "count": 200}
+	],
+
+	"output": {"item": "nekishades", "count": 1},
+	"groups": ["plain", "all"]
+}

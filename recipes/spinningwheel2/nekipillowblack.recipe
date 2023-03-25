@@ -1,0 +1,10 @@
+{
+	"input": [
+		{"item": "darkbannermedievallarge", "count": 3},
+		{"item": "feathers1", "count": 1},
+		{"item": "feathers2", "count": 1}	
+	],
+
+	"output": {"item": "nekipillowblack", "count": 1},
+	"groups": ["craftingwheel2", "ingredients"]
+}

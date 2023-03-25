@@ -1,0 +1,16 @@
+{
+	"input": [
+		{"item": "nekiclaws4", "count": 1},
+		{"item": "nekicastclaw5", "count": 1},
+		{"item": "biosample", "count": 5},
+		{"item": "bone", "count": 32},
+		{"item": "leather", "count": 10},
+		{"item": "syringe", "count": 10},
+		{"item": "nanowrap", "count": 10},
+		{"item": "medkit", "count": 5}
+	],	
+
+	"duration": 4,
+	"output": {"item": "nekiclaws5", "count": 1},
+	"groups": ["plain", "weapons", "all"]
+}

@@ -1,0 +1,11 @@
+{
+	"input": [
+		{"item": "upgrademodule", "count": 1},
+		{"item": "cryonicextract", "count": 1},
+		{"item": "snowflake", "count": 5},
+		{"item": "iceblockaugment", "count": 1}
+	],
+
+	"output": {"item": "nekithingyice", "count": 1},
+	"groups": ["craftingfurnace3", "ingredients", "all"]
+}

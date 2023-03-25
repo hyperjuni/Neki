@@ -1,0 +1,17 @@
+{
+	"kind": "nekifeather5",
+	"definition": {
+		"type": "ember",
+		"size": 1.0,
+		"color": [255, 255, 255, 255],
+		"position": [1.6, 1],
+		"initialVelocity": [2, 0],
+		"destructionAction": "shrink",
+		"destructionTime": 3,
+		"timeToLive": 0.3,
+		"layer": "back",
+		"variance": {
+			"initialVelocity": [-0.5, 1]
+		}
+	}
+}

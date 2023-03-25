@@ -1,0 +1,10 @@
+{
+	"input": [
+		{"item": "sleepingbag", "count": 1},
+		{"item": "feathers1", "count": 1},
+		{"item": "feathers2", "count": 1}	
+	],
+
+	"output": {"item": "nekipillowblue", "count": 1},
+	"groups": ["craftingwheel2", "ingredients"]
+}

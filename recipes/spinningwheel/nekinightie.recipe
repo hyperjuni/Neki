@@ -1,0 +1,13 @@
+{
+	"input": [
+		{"item": "nekini", "count": 1},
+		{"item": "fabric", "count": 20},
+		{"item": "silk", "count": 10},
+		{"item": "string", "count": 5},
+		{"item": "cottonwool", "count": 3}
+	],
+
+	"duration": 2,
+	"output": {"item": "nekinightie", "count": 1},
+	"groups": ["craftingwheel", "clothes"]
+}

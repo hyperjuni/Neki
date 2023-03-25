@@ -1,0 +1,11 @@
+{
+	"input": [
+		{"item": "upgrademodule", "count": 1},
+		{"item": "venomsample", "count": 1},
+		{"item": "liquidpoison", "count": 5},
+		{"item": "poisonblockaugment", "count": 1}
+	],
+
+	"output": {"item": "nekithingypoison", "count": 1},
+	"groups": ["craftingfurnace3", "ingredients", "all"]
+}

@@ -1,0 +1,10 @@
+{
+	"input": [
+		{"item": "alienmeat", "count": 5},
+		{"item": "leather", "count": 2}
+	],	
+
+	"duration": 2,
+	"output": {"item": "nekiclaws1", "count": 1},
+	"groups": ["plain", "weapons", "all"]
+}

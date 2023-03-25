@@ -1,0 +1,10 @@
+{
+	"input": [
+		{"item": "darkwoodmaterial", "count": 40},
+		{"item": "climbingrope", "count": 4}
+	],
+
+	"duration": 5,
+	"output": {"item": "nekiwheel",	"count": 1},
+	"groups": ["inventorstable", "craftingstations", "all"]
+}

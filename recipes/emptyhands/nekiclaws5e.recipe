@@ -1,0 +1,9 @@
+{
+	"input": [
+		{"item": "nekiclaws5", "count": 1},
+		{"item": "nekithingyelectric", "count": 1}
+	],
+
+	"output": {"item": "nekiclaws5e", "count": 1},
+	"groups": ["plain", "weapons", "all"]
+}

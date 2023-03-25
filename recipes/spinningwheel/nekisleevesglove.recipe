@@ -1,0 +1,13 @@
+{
+	"input": [
+		{"item": "fabric", "count": 16},
+		{"item": "leather", "count": 8},
+		{"item": "silk", "count": 8},
+		{"item": "string", "count": 8},
+		{"item": "cottonwool", "count": 6}
+	],
+
+	"duration": 2,
+	"output": {"item": "nekisleevesglove", "count": 1},
+	"groups": ["craftingwheel", "clothes"]
+}
