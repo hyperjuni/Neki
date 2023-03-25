@@ -1,0 +1,19 @@
+[
+	{"op": "add", "path": "/nekiguardtreasure",
+		"value": [
+			[1, {
+				"pool": [
+					{"weight": 0.2, "item": "uncommonsniperrifle"},
+					{"weight": 0.1, "item": "raresniperrifle"},
+					{"weight": 0.02, "item": "nekimktier6ssleeves"},
+					{"weight": 0.02, "item": "nekimktier6sarmor"}
+				],
+				"poolRounds": [
+					[0.5, 0],
+					[0.5, 1]
+				],
+				"allowDuplication": false
+			}]
+		]
+	}
+]

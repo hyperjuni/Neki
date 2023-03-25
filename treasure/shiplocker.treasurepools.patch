@@ -1,0 +1,16 @@
+[
+	{"op": "add", "path": "/nekiStarterTreasure",
+		"value": [
+			[0,
+				{"fill": [
+					{"pool": "starterTreasure"},
+					{"item": ["nekiship0-codex"]},
+					{"item": ["nekiship3-codex"]},
+					{"item": ["nekiship5-codex"]},
+					{"item": ["nekipod"]}
+					]
+				}
+			]
+		]
+	}
+]

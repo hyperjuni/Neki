@@ -1,0 +1,40 @@
+[
+// "MadTulips Spaceship Mod" installed
+	[
+		{"op": "test", "path": "/speciesShips/apex/0", "value": "/ships/apex/madtulip_apex_ship_T0.structure"},
+		{"op": "add", "path": "/speciesShips/neki",
+            "value": [
+				"/ships/apex/madtulip_apex_ship_T0.structure",
+				"/ships/apex/madtulip_apex_ship_T1.structure",
+				"/ships/apex/madtulip_apex_ship_T2.structure",
+				"/ships/apex/madtulip_apex_ship_T3.structure",
+				"/ships/apex/madtulip_apex_ship_T4.structure",
+				"/ships/apex/madtulip_apex_ship_T5.structure",
+				"/ships/apex/madtulip_apex_ship_T6.structure",
+				"/ships/apex/madtulip_apex_ship_T7.structure",
+				"/ships/apex/madtulip_apex_ship_T8.structure"
+			]
+		}
+	],
+	
+// "MadTulips Spaceship Mod" not installed
+	[	
+		{"op": "test", "path": "/speciesShips/apex/0", "value": "/ships/apex/madtulip_apex_ship_T0.structure", "inverse": true},
+		{"op": "add",
+			"path": "/speciesShips/neki",
+			"value": [
+				"/ships/neki/nekiT0.structure",
+				"/ships/neki/nekiT1.structure",
+				"/ships/neki/nekiT2.structure",
+				"/ships/neki/nekiT3.structure",
+				"/ships/neki/nekiT4.structure",
+				"/ships/neki/nekiT5.structure",
+				"/ships/neki/nekiT6.structure",
+				"/ships/neki/nekiT7.structure",
+				"/ships/neki/nekiT8.structure",
+				"/ships/neki/nekiT9.structure",
+				"/ships/neki/nekiT10.structure"
+			]
+		}
+	]
+]

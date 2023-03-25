@@ -1,0 +1,12 @@
+[
+	[
+		{"op": "add", "path": "/species/-", "value": "neki"},
+		{"op": "add", "path": "/defaultCodexes/neki", "value": ["nekiprot1", "nekiprot2"]},
+		{"op": "add", "path": "/deploymentConfig/scripts/-", "value": "/scripts/DeathSoundHandler.lua"},
+		{"op": "add", "path": "/deploymentConfig/speciesStarterMechBody/neki", "value": "mechbodyapexproto"}
+	],
+	[
+		{"op": "test", "path": "/defaultCodexes/fumantizi", "inverse": true},
+		{"op": "add", "path": "/deploymentConfig/scripts/-", "value": "/scripts/nekisight.lua"}
+	]
+]	

@@ -1,0 +1,10 @@
+{
+  "author" : "Juni",
+  "friendlyName" : "Neki",
+  "includes" : ["MadTulips Spaceship Mod", "NekiText", "NekiTulips", "Wardrobe", "Elithian_Races_Mod"],
+  "link" : "steam://url/CommunityFilePage/2611501999",
+  "name" : "Neki",
+  "steamContentId" : "2611501999",
+  "tags" : "NPCs and Creatures|Weapons|Ships|Species|User Interface|Furniture and Objects|Armor and Clothes",
+  "version" : "0.93.5"
+}
