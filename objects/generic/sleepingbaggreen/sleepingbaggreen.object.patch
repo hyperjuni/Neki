@@ -1,0 +1,4 @@
+[
+	{"op":"add","path":"/nekiDescription","value":"What a comfy little bag!"},
+	{"op":"add","path":"/sitStatusEffects","value":["nekibed"]}
+]
