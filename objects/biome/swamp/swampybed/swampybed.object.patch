@@ -1,0 +1,4 @@
+[
+	{"op":"add","path":"/nekiDescription","value":"Bed for sleep, plants for nomch!"},
+	{"op":"add","path":"/sitStatusEffects/-","value":"nekibed"}
+]
