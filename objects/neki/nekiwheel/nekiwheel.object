@@ -1,0 +1,49 @@
+{
+	"objectName": "nekiwheel",
+	"colonyTags": ["crafting"],
+	"category": "crafting",
+	"rarity": "Uncommon",
+	"race": "neki",
+
+	"price": 50,
+	"printable": false,
+
+	"interactAction": "OpenCraftingInterface",
+	"interactData": {
+		"config": "/interface/windowconfig/nekiwheel.config",
+		"filter": ["nekiwheel"]
+	},
+	
+	"inventoryIcon": "nekiwheelicon.png",
+	"placementImagePosition": [-16, 0],	 
+
+	"description": "The Neki wheel is used to craft legacy, non-animated Neki clothing.",
+	"shortdescription": "^orange;Neki Wheel^white;",
+
+	"apexDescription": "A spinning wheel. It's covered in fur.",
+	"avianDescription": "A tool for working threads.. why is there fur all over it?",
+	"floranDescription": "Floran ssspin furry wheel, work thread.",
+	"glitchDescription": "Observant. A tailoring tool, not particularly well-maintained.",
+	"humanDescription": "A wooden spinning wheel covered in fur and somewhat neglected.",
+	"hylotlDescription": "This would've been an instrument of art, had it been better maintained.",
+	"nekiDescription": "The wheels spin and clothes come out.",
+	"novakidDescription": "Maybe I can make myself a new shirt on this.",
+
+	"orientations": [
+		{
+			"image": "nekiwheel.png",
+			"imagePosition": [-16, 0],
+			"direction": "left",
+			"flipImages": true,
+			"spaces": [[-2,0], [-1,0], [0,0], [1,0], [-2,1], [-1,1], [0,1], [1,1], [-2,2], [-1,2], [0,2], [1,2]],
+			"anchors": ["bottom"]
+		},
+		{
+			"image": "nekiwheel.png",
+			"imagePosition": [-16, 0],
+			"direction": "right",
+			"spaces": [[-2,0], [-1,0], [0,0], [1,0], [-2,1], [-1,1], [0,1], [1,1], [-2,2], [-1,2], [0,2], [1,2]],
+			"anchors": ["bottom"]
+		}
+	]
+}

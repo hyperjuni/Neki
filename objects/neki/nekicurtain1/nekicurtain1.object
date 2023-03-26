@@ -1,0 +1,76 @@
+{
+	"objectName": "nekicurtain1",
+	"colonyTags": ["neki","apexmansion","pretty"],
+	"rarity": "Common",
+	"category": "decorative",
+	"tooltipKind": "nekibase",
+	"price": 60,
+
+	"description": "Some classy curtains, with a bit of a...feline touch.",
+	"shortdescription": "Neki Curtain",
+	"race": "neki",
+
+	"apexDescription": "Rich, heavy curtains, ruined by a certain feline touch...",
+	"avianDescription": "Looks like something was a bit too rough with these.",
+	"floranDescription": "Sssomeone tore the fancy curtainss. I think I like them thiss way more.",
+	"glitchDescription": "Concerned. These curtains look beyond repair.",
+	"humanDescription": "These curtains probably used to belong in a mansion.",
+	"hylotlDescription": "Oh...Oh dear...",
+	"nekiDescription": "There, much better!",
+	"novakidDescription": "Looks like these curtains have seen some better days.",
+
+	"inventoryIcon": "nekicurtain1icon.png",
+	"orientations": [
+		{
+			"image": "nekicurtain1.png",
+			"imagePosition": [-16, -8],
+			"direction": "left",
+			"flipImages": true,
+
+			"spaceScan": 0.1,
+			"fgAnchors": [[-2, 1], [-1, 1], [0, 1], [1, 1]]
+		},
+		{
+			"image": "nekicurtain1.png",
+			"imagePosition": [-16, -8],
+			"direction": "left",
+			"flipImages": true,
+
+			"spaceScan": 0.1,
+			"bgAnchors": [[-2, 1], [-1, 1], [0, 1], [1, 1]]
+		},
+		{
+			"image": "nekicurtain1.png",
+			"imagePosition": [-16, -8],
+			"direction": "left",
+			"flipImages": true,
+
+			"spaceScan": 0.1,
+			"bgAnchors": [[-2, 0], [-1, 0], [0, 0], [1, 0]]
+		},
+		{
+			"image": "nekicurtain1.png",
+			"imagePosition": [-16, -8],
+			"direction": "right",
+
+			"spaceScan": 0.1,
+			"fgAnchors": [[-2, 1], [-1, 1], [0, 1], [1, 1]]
+		},
+		{
+			"image": "nekicurtain1.png",
+			"imagePosition": [-16, -8],
+			"direction": "right",
+
+			"spaceScan": 0.1,
+			"bgAnchors": [[-2, 1], [-1, 1], [0, 1], [1, 1]]
+		},
+		{
+			"image": "nekicurtain1.png",
+			"imagePosition": [-16, -8],
+			"direction": "right",
+
+			"spaceScan": 0.1,
+			"bgAnchors": [[-2, 0], [-1, 0], [0, 0], [1, 0]]
+		}
+	]
+}

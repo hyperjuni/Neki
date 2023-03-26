@@ -1,0 +1,51 @@
+{
+	"objectName": "nekipillowblack",
+	"colonyTags": ["neki"],
+	"rarity": "Common",
+	"category": "furniture",
+	"tooltipKind": "nekibase",
+	"price": 50,
+	"printable": false,
+	"description": "A dark pillow, wrapped in a dark Glitch banner.",
+	"shortdescription": "Neki Pillow - Black",
+	"race": "neki",
+
+	"apexDescription": "Whoever made this, was brave enough to steal from a Glitch fortress!",
+	"avianDescription": "Oh dear, the Glitch would be furious if they saw this.",
+	"floranDescription": "Floran impresssed by pillow made from metalman flag!",
+	"glitchDescription": "Conflicted: I'd be insulted by this if it didn't look so comfortable.",
+	"humanDescription": "Is it just me, or does this pillow smell of engine oil..?",
+	"hylotlDescription": "An interesting choice of materials for a pillow.",
+	"nekiDescription": "Mistakes were made, but at least it's comfy!",
+	"novakidDescription": "This here thing looks highly combustible!",
+
+	"inventoryIcon": "nekipillowblackicon.png",
+	"orientations": [
+		{
+			"image": "nekipillowblack.png",
+			"imagePosition": [0, 0],
+			"sitCoverImage": "/objects/neki/pillows/nekipillowblack/nekipillowblackcover.png",
+			"sitPosition": [-14.5, 23],
+			"frames": 1,
+			"animationCycle": 0.5,
+			"spaceScan": 0.1,
+			"flipImages": true,
+			"direction": "left",
+			"anchors": ["bottom"]
+		},
+		{
+			"image": "nekipillowblack.png",
+			"imagePosition": [0, 0],
+			"sitCoverImage": "/objects/neki/pillows/nekipillowblack/nekipillowblackcover.png",
+			"sitPosition": [13.5, 23],
+			"frames": 1,
+			"animationCycle": 0.5,
+			"spaceScan": 0.1,
+			"direction": "right",
+			"anchors": ["bottom"]
+		}
+	],
+
+	"objectType": "loungeable",
+	"sitStatusEffects": ["nekipoof"]
+}

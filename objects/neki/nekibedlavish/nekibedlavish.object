@@ -1,0 +1,61 @@
+{
+	"objectName": "nekibedlavish",
+	"colonyTags": ["neki"],
+	"printable": false,
+	"rarity": "Rare",
+	"description": "A bed made out of various opulent items.",
+	"shortdescription": "Neki Lavish Bed",
+	"race": "neki",
+	"category": "furniture",
+	"tooltipKind": "nekibase",
+	"price": 9001,
+
+	"apexDescription": "A bed like this would offend even Big Ape's tastes.",
+	"avianDescription": "Such a grotesque display of blasphemous artefact thievery!",
+	"floranDescription": "Thisss where Floran's couch went?!",
+	"glitchDescription": "Shocked: Never have I seen so much luxury cobbled together in such an impractical way.",
+	"humanDescription": "That's one heck of a luxurious place to sleep!",
+	"hylotlDescription": "Who in their right mind would make such an astoundingly tasteless piece of furniture..?",
+	"nekiDescription": "This is the prettiest, most comfortable bed in the entire universe!",
+	"novakidDescription": "Holy molly, that's one gaudy-lookin' bed!",
+
+
+	"inventoryIcon": "nekibedlavishicon.png",
+	"orientations": [
+		{
+			"image": "nekibedlavish.png",
+			"imagePosition": [0, 0],
+			"frames": 1,
+			"animationCycle": 0.5,
+			"direction": "left",
+			"flipImages": true,
+			
+			"sitPosition": [-37.5, 18],
+
+			"spaceScan": 0.1,
+			"anchors": ["bottom"]
+		},
+		{
+			"image": "nekibedlavish.png",
+			"imagePosition": [0, 0],
+			"frames": 1,
+			"animationCycle": 0.5,
+			"direction": "right",
+
+			"sitPosition": [66.5, 18],
+
+			"spaceScan": 0.1,
+			"anchors": ["bottom"]
+		}
+	],
+
+	"objectType": "loungeable",
+	"sitFlipDirection": false,
+	"sitOrientation": "lay",
+	"sitAngle": -90,
+	"sitCoverImage": "/objects/neki/nekibedlavish/nekibedlavishcover.png",
+	"sitStatusEffects": [
+		"nekibed",
+		"nekirustle"
+	]
+}

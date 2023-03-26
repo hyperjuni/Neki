@@ -1,0 +1,43 @@
+{
+	"objectName": "nekitable",
+	"colonyTags": ["neki"],
+	"printable": false,
+	"rarity": "Common",
+	"description": "A dusty wooden table, totally wasn't copied or anything.",
+	"shortdescription": "Neki wooden table",
+	"race": "neki",
+	"category": "furniture",
+	"price": 70,
+
+	"apexDescription": "A very crude looking wooden table.",
+	"avianDescription": "This is a very ramshackle table.",
+	"floranDescription": "Dusssty wood table.",
+	"glitchDescription": "Observant. The wood looks to be sun damaged.",
+	"humanDescription": "The table cloth looks like it's made from dried grass.",
+	"hylotlDescription": "A very simple, and ugly table.",
+	"novakidDescription": "I could still eat here if I needed to.",
+	"nekiDescription": "A nice looking table.",
+
+	"inventoryIcon": "/objects/biome/savannah/dustytable/dustytableicon.png",
+	"orientations": [
+		{
+			"image": "/objects/biome/savannah/dustytable/dustytable.png:<color>",
+			"imagePosition": [-16, 0],
+			"direction": "left",
+			"flipImages": true,
+
+			"spaceScan": 0.1,
+			"anchors": ["bottom"],
+			"collision": "platform"
+		},
+		{
+			"image": "/objects/biome/savannah/dustytable/dustytable.png:<color>",
+			"imagePosition": [-16, 0],
+			"direction": "right",
+
+			"spaceScan": 0.1,
+			"anchors": ["bottom"],
+			"collision": "platform"
+		}
+	]
+}

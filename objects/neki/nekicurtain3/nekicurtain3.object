@@ -1,0 +1,33 @@
+{
+	"objectName": "nekicurtain3",
+	"colonyTags": ["neki","apexmansion","pretty"],
+	"rarity": "Common",
+	"category": "decorative",
+	"tooltipKind": "nekibase",
+	"price": 70,
+
+	"description": "Thin hanging drapes, with a bit of a...feline touch.",
+	"shortdescription": "Neki Drape (thin)",
+	"race": "neki",
+
+	"apexDescription": "Rich, heavy curtains, ruined by a certain feline touch...",
+	"avianDescription": "Looks like something was a bit too rough with these.",
+	"floranDescription": "Sssomeone tore the fancy curtainss. I think I like them thiss way more.",
+	"glitchDescription": "Concerned. These curtains look beyond repair.",
+	"humanDescription": "These curtains probably used to belong in a mansion.",
+	"hylotlDescription": "Oh...Oh dear...",
+	"nekiDescription": "There, much better!",
+	"novakidDescription": "Looks like these curtains have seen some better days.",
+
+	"inventoryIcon": "nekicurtain3icon.png",
+	"orientations": [
+		{
+			"image": "nekicurtain3.png",
+			"imagePosition": [-8, -16],
+			"direction": "right",
+
+			"spaceScan": 0.1,
+			"anchors": ["top"]
+		}
+	]
+}

@@ -1,0 +1,51 @@
+{
+	"objectName": "nekipillowwhite",
+	"colonyTags": ["neki"],
+	"rarity": "Common",
+	"category": "furniture",
+	"tooltipKind": "nekibase",
+	"price": 50,
+	"printable": false,
+	"description": "A striped white furry pillow, wrapped in an animal's hide.",
+	"shortdescription": "Neki Pillow - White",
+	"race": "neki",
+
+	"apexDescription": "A beautifully-patterned bright pelt-wrapped pillow.",
+	"avianDescription": "I suppose this is a better use for pelts than wall decorations.",
+	"floranDescription": "Floran approvesss of pillow made from ssspoils of the hunt.",
+	"glitchDescription": "Unnerved: Is it considered stylish to cover furniture in the skin of animals?",
+	"humanDescription": "Pretty sure my grandmother had a few of these.",
+	"hylotlDescription": "A gruesome display of the needless slaughter of innocent creatures. Absolutely revolting.",
+	"nekiDescription": "It's fluffy, purrdy and smells amazing!",
+	"novakidDescription": "A mooshi poof?",
+
+	"inventoryIcon": "nekipillowwhiteicon.png",
+	"orientations": [
+		{
+			"image": "nekipillowwhite.png",
+			"imagePosition": [0, 0],
+			"sitCoverImage": "/objects/neki/pillows/nekipillowwhite/nekipillowwhitecover.png",
+			"sitPosition": [-14.5, 23],
+			"frames": 1,
+			"animationCycle": 0.5,
+			"spaceScan": 0.1,
+			"flipImages": true,
+			"direction": "left",
+			"anchors": ["bottom"]
+		},
+		{
+			"image": "nekipillowwhite.png",
+			"imagePosition": [0, 0],
+			"sitCoverImage": "/objects/neki/pillows/nekipillowwhite/nekipillowwhitecover.png",
+			"sitPosition": [13.5, 23],
+			"frames": 1,
+			"animationCycle": 0.5,
+			"spaceScan": 0.1,
+			"direction": "right",
+			"anchors": ["bottom"]
+		}
+	],
+
+	"objectType": "loungeable",
+	"sitStatusEffects": ["nekipoof"]
+}

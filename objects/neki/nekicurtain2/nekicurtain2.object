@@ -1,0 +1,76 @@
+{
+	"objectName": "nekicurtain2",
+	"colonyTags": ["neki","apexmansion","pretty"],
+	"rarity": "Common",
+	"category": "decorative",
+	"tooltipKind": "nekibase",
+	"price": 70,
+
+	"description": "A classy drape, with a bit of a...feline touch.",
+	"shortdescription": "Neki Drape",
+	"race": "neki",
+
+	"apexDescription": "Rich, heavy curtains, ruined by a certain feline touch...",
+	"avianDescription": "Looks like something was a bit too rough with these.",
+	"floranDescription": "Sssomeone tore the fancy curtainss. I think I like them thiss way more.",
+	"glitchDescription": "Concerned. These curtains look beyond repair.",
+	"humanDescription": "These curtains probably used to belong in a mansion.",
+	"hylotlDescription": "Oh...Oh dear...",
+	"nekiDescription": "There, much better!",
+	"novakidDescription": "Looks like these curtains have seen some better days.",
+
+	"inventoryIcon": "nekicurtain2icon.png",
+	"orientations": [
+		{
+			"image": "nekicurtain2.png",
+			"imagePosition": [-16, -16],
+			"direction": "left",
+			"flipImages": true,
+
+			"spaceScan": 0.1,
+			"fgAnchors": [[2, 1], [2, 0], [2, -1], [2, -2], [1, 2], [1, 2], [-1, 2], [-2, 2]]
+		},
+		{
+			"image": "nekicurtain2.png",
+			"imagePosition": [-16, -16],
+			"direction": "left",
+			"flipImages": true,
+
+			"spaceScan": 0.1,
+			"bgAnchors": [[2, 1], [2, 0], [2, -1], [2, -2], [1, 2], [1, 2], [-1, 2], [-2, 2]]
+		},
+		{
+			"image": "nekicurtain2.png",
+			"imagePosition": [-16, -16],
+			"direction": "left",
+			"flipImages": true,
+
+			"spaceScan": 0.1,
+			"bgAnchors": [[-2, 1], [-1, 1], [0, 1], [1, 1], [1, 0]]
+		},
+		{
+			"image": "nekicurtain2.png",
+			"imagePosition": [-16, -16],
+			"direction": "right",
+
+			"spaceScan": 0.1,
+			"fgAnchors": [[-3, 1], [-3, 0], [-3, -1], [-3, -2], [-2, 2], [-1, 2], [0, 2], [1, 2]]
+		},
+		{
+			"image": "nekicurtain2.png",
+			"imagePosition": [-16, -16],
+			"direction": "right",
+
+			"spaceScan": 0.1,
+			"bgAnchors": [[-3, 1], [-3, 0], [-3, -1], [-3, -2], [-2, 2], [-1, 2], [0, 2], [1, 2]]
+		},
+		{
+			"image": "nekicurtain2.png",
+			"imagePosition": [-16, -16],
+			"direction": "right",
+
+			"spaceScan": 0.1,
+			"bgAnchors": [[-2, 1], [-2, 0], [-1, 1], [0, 1], [1, 1]]
+		}
+	]
+}
