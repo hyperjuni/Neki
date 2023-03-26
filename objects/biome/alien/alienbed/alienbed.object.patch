@@ -1,0 +1,4 @@
+[
+	{"op":"add","path":"/nekiDescription","value":"It's so cozy and warm, like fresh prey."},
+	{"op":"add","path":"/sitStatusEffects/-","value":"nekibed"}
+]
