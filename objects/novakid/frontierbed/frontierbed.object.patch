@@ -1,0 +1,4 @@
+[
+	{"op":"add","path":"/nekiDescription","value":"This bed smells murrvellous, because it is.. made of fren."},
+	{"op":"add","path":"/sitStatusEffects/-","value":"nekibed"}
+]

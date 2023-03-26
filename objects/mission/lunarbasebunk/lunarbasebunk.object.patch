@@ -1,0 +1,4 @@
+[
+	{"op":"add","path":"/nekiDescription","value":"It's like my purrivate sleeping box on Earth!"},
+	{"op":"add","path":"/sitStatusEffects/-","value":"nekibed"}
+]
