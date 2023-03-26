@@ -1,0 +1,4 @@
+[
+	{"op":"add","path":"/nekiDescription","value":"This bed smells fishy. Mmm..."},
+	{"op":"add","path":"/sitStatusEffects/-","value":"nekibed"}
+]
