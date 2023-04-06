@@ -1,5 +1,5 @@
 [
-// Vanilla bug fix	
+// Vanilla bug fixes
 	{"op": "replace", "path": "/root/children/3/parameters/dialogTarget/key", "value": "player"},
 	{"op": "replace", "path": "/root/children/13/parameters/dialogTarget/key", "value": "player"}
 ]

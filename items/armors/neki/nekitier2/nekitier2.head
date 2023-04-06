@@ -5,12 +5,12 @@
 	"maxStack": 1,
 	"rarity": "Common",
 	"category": "headarmour",
-	"description": "It, uhh...\nReinforces your face.",
-	"shortdescription": "Neki T2 Mask",
+	"description": "They, uhh...\nReinforce my ears?",
+	"shortdescription": "Neki T2 Ear Rings",
 	"tooltipKind": "nekiarmor",
 
-	"maleFrames": "headm.png",
-	"femaleFrames": "headf.png",
+	"maleFrames": "head.png",
+	"femaleFrames": "head.png",
 	"mask": "mask.png",
 
 	"level": 2,

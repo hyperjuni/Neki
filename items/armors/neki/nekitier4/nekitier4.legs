@@ -1,19 +1,19 @@
 {
-	"itemName": "nekitier2armor",
-	"price": 2400,
+	"itemName": "nekitier4armor",
+	"price": 4000,
 	"inventoryIcon": "icons.png:pants",
 	"maxStack": 1,
-	"rarity": "Common",
+	"rarity": "Uncommon",
 	"category": "legarmour",
-	"description": "It, uhh...\nReinforces my skin?",
-	"shortdescription": "Neki T2 Armor",
+	"description": "\"You should always use purrtection!\"",
+	"shortdescription": "Neki T4 Armor",
 	"tooltipKind": "nekiarmor",
 
 	"maleFrames": "pantsm.png",
 	"femaleFrames": "pantsf.png",
 
-	"level": 2,
-	"itemTags": ["tier2armour"],
+	"level": 4,
+	"itemTags": ["tier4armour"],
 	"leveledStatusEffects": [
 		{
 			"levelFunction": "standardArmorLevelPowerMultiplierMultiplier",

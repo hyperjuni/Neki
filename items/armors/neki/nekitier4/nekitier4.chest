@@ -1,39 +1,47 @@
 {
-	"itemName": "nekitier2armor",
-	"price": 2400,
-	"inventoryIcon": "icons.png:pants",
+	"itemName": "nekitier4sleeves",
+	"price": 1600,
+	"inventoryIcon": "icons.png:chest",
 	"maxStack": 1,
-	"rarity": "Common",
-	"category": "legarmour",
-	"description": "It, uhh...\nReinforces my skin?",
-	"shortdescription": "Neki T2 Armor",
+	"rarity": "Uncommon",
+	"category": "chestarmour",
+	"description": "When size matters.",
+	"shortdescription": "Neki T4 Shoulderguards",
 	"tooltipKind": "nekiarmor",
 
-	"maleFrames": "pantsm.png",
-	"femaleFrames": "pantsf.png",
+	"maleFrames": {
+		"body": "chest.png",
+		"backSleeve": "bsleeve.png",
+		"frontSleeve": "fsleeve.png"
+	},
+	"femaleFrames": {
+		"body": "chest.png",
+		"backSleeve": "bsleeve.png",
+		"frontSleeve": "fsleeve.png"
+	},
 
-	"level": 2,
-	"itemTags": ["tier2armour"],
+	"level": 4,
+	"itemTags": ["tier4armour"],
 	"leveledStatusEffects": [
 		{
 			"levelFunction": "standardArmorLevelPowerMultiplierMultiplier",
 			"stat": "powerMultiplier",
-			"baseMultiplier": 1.25
+			"baseMultiplier": 1.1
 		},
 		{
 			"levelFunction": "standardArmorLevelProtectionMultiplier",
 			"stat": "protection",
-			"amount": 0.5
+			"amount": 0.2
 		},
 		{
 			"levelFunction": "standardArmorLevelMaxEnergyMultiplier",
 			"stat": "maxEnergy",
-			"amount": 7
+			"amount": 3
 		},
 		{
 			"levelFunction": "standardArmorLevelMaxHealthMultiplier",
 			"stat": "maxHealth",
-			"amount": 3
+			"amount": 1
 		}
 	],
 

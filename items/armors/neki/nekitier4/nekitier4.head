@@ -1,39 +1,40 @@
 {
-	"itemName": "nekitier2armor",
+	"itemName": "nekitier4head",
 	"price": 2400,
-	"inventoryIcon": "icons.png:pants",
+	"inventoryIcon": "icons.png:head",
 	"maxStack": 1,
-	"rarity": "Common",
-	"category": "legarmour",
-	"description": "It, uhh...\nReinforces my skin?",
-	"shortdescription": "Neki T2 Armor",
+	"rarity": "Uncommon",
+	"category": "headarmour",
+	"description": "Can't smell a thing in this!",
+	"shortdescription": "Neki T4 Mask",
 	"tooltipKind": "nekiarmor",
 
-	"maleFrames": "pantsm.png",
-	"femaleFrames": "pantsf.png",
+	"maleFrames": "headm.png",
+	"femaleFrames": "headf.png",
+	"mask": "mask.png",
 
-	"level": 2,
-	"itemTags": ["tier2armour"],
+	"level": 4,
+	"itemTags": ["tier4armour"],
 	"leveledStatusEffects": [
 		{
 			"levelFunction": "standardArmorLevelPowerMultiplierMultiplier",
 			"stat": "powerMultiplier",
-			"baseMultiplier": 1.25
+			"baseMultiplier": 1.15
 		},
 		{
 			"levelFunction": "standardArmorLevelProtectionMultiplier",
 			"stat": "protection",
-			"amount": 0.5
+			"amount": 0.3
 		},
 		{
 			"levelFunction": "standardArmorLevelMaxEnergyMultiplier",
 			"stat": "maxEnergy",
-			"amount": 7
+			"amount": 4
 		},
 		{
 			"levelFunction": "standardArmorLevelMaxHealthMultiplier",
 			"stat": "maxHealth",
-			"amount": 3
+			"amount": 2
 		}
 	],
 
