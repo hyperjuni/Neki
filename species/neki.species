@@ -10,8 +10,13 @@
 	"ouchNoises": ["/sfx/humanoid/nekihurt_male.ogg", "/sfx/humanoid/nekihurt_female.ogg"],
 	"deathNoises": ["/sfx/humanoid/nekidead.ogg"],
 	
-// StarExtensions ear rotation support
-	"humanoidOverrides": {"headSliceY": 25},
+// StarExtensions features support
+	"humanoidOverrides": {
+		"useBodyMask" : true,
+		"useBodyHeadMask": true,
+		// legacy, the above overriddes it
+		"headSliceY": 25
+	},
 
 	"charGenTextLabels": [
 		"Pelt colour",
@@ -106,6 +111,16 @@
 
 // Inventor's Table
 			{"item": "nekiwheel"},
+
+// Neki Wheel
+			{"item": "nekischest"},
+			{"item": "nekischest2"},
+			{"item": "nekislegs"},
+			{"item": "nekislongchest"},
+			{"item": "nekislonglegs"},
+			{"item": "nekisshortchest"},
+			{"item": "nekisshortchest2"},
+			{"item": "nekisshortlegs"},
 
 // Spinning Wheel
 			{"item": "invisiblefabricback"},
@@ -370,6 +385,7 @@
 				"ng_mesu029",
 				"ng_mesu047",
 				"cb_male57",
+				"cb_fem11_nk",
 				"sdv_haley",
 				"ng_mesu023",
 				"ng_mesu061",
