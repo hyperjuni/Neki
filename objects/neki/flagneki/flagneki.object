@@ -5,6 +5,7 @@
 	"price": 70,
 	"objectType": "teleporter",
 	"category": "teleportMarker",
+	"tooltipKind": "nekibase",
 	"colonyTags": ["neki"],
 	"race": "neki",
 
