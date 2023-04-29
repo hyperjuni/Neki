@@ -67,7 +67,7 @@
 
 		"freezeTime": 0,
 		"fireTime": 0.2,
-		"baseDps": 4.0,
+		"baseDps": 7.0,
 		"damageConfig": {
 			"statusEffects": [],
 			"damageSourceKind": "default",

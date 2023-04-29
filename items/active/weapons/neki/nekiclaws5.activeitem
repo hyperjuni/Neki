@@ -57,7 +57,7 @@
 
 		"freezeTime": 0,
 		"fireTime": 0.3,
-		"baseDps": 12.0,
+		"baseDps": 14.0,
 		"damageConfig": {
 			"damageSourceKind": "nekiclaws5",
 			"statusEffects": ["nekibleed"],

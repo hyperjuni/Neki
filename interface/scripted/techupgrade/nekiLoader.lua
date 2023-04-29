@@ -11,7 +11,6 @@ function init()
 
 	if customImages and customImages[race] then
 		widget.setImage("imgBackingImage", path .. race .. "Back.png:" .. gender)
-
 		widget.setImage("imgSelectedHead", path .. race .. "Line_" .. gender .. ".png:head")
 		widget.setImage("imgSelectedBody", path .. race .. "Line_" .. gender .. ".png:body")
 		widget.setImage("imgSelectedLegs", path .. race .. "Line_" .. gender .. ".png:legs")

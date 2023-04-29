@@ -1,0 +1,12 @@
+[
+	{"op": "add", "path": "/scriptConfig/dialog/converse/default/neki",
+		"value": [
+			"You must've come to this planet for something important, it's not exactly paradise.",
+			"You look innately prepared for this cold, but I had to adapt.",
+			"You seem to be feeling pretty comfortable in this climate.",
+			"I don't mind the cold, but you seem to be enjoying it!",
+			"It gets much colder than this, trust me.",
+			"Wanna play snowball war?"
+		]
+	}
+]

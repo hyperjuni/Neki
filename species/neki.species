@@ -37,7 +37,7 @@
 		"tier1": [
 
 // Empty Hands
-			{"item": "flagapex"},
+			{"item": "flagneki"},
 			{"item": "nekibed"},
 			{"item": "nekibedlavish"},
 			{"item": "nekiclaws1"},
@@ -57,6 +57,9 @@
 			{"item": "nekishades"},
 
 // Anvil
+			{"item": "nekitier1head"},
+			{"item": "nekitier1sleeves"},
+			{"item": "nekitier1armor"},
 			{"item": "nekitier2head"},
 			{"item": "nekitier2sleeves"},
 			{"item": "nekitier2armor"},

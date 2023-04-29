@@ -1,0 +1,10 @@
+[
+	{"op": "add", "path": "/scriptConfig/dialog/converse/floran/neki",
+		"value": [
+			"Floran likesss living in the foresst - knows all the plants and all the trailsss.",
+			"Floran help Neki hunt around thisss foresst!",
+			"Does Neki alssso live as one with nature?",
+			"Floran wantss to have Neki hunting buddy."
+		]
+	}
+]

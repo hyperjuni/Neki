@@ -1,0 +1,9 @@
+{
+	"input": [
+		{"item": "nekinibottom", "count": 1},
+		{"item": "logblock", "count": 1}
+	],
+
+	"output": {"item": "flagneki", "count": 1},
+	"groups": ["plain", "all"]
+}

@@ -77,7 +77,7 @@
 
 		"freezeTime": 0,
 		"fireTime": 0.3,
-		"baseDps": 15.0,
+		"baseDps": 16.0,
 		"damageConfig": {
 			"damageSourceKind": "nekiclaws5e",
 			"statusEffects": ["electrified"],

@@ -1,0 +1,8 @@
+[
+	{"op": "add",	"path": "/pickupflagneki",
+		"value": {
+			"type": "tutorial",
+			"text": "It would be prudent to point out that some may misinterpret this flag as an invitation for wrongdoing, but it'll work. Place it, give it a name and I'll configure it as a teleport location."
+		}
+	}
+]

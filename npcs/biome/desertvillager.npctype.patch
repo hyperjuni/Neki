@@ -1,0 +1,13 @@
+[
+	{"op": "add", "path": "/scriptConfig/dialog/converse/default/neki",
+		"value": [
+			"What could possibly bring a creature like you to a planet like this?",
+			"Are you.. sticking your tongue out? Oh, you're trying to cool down?",
+			"It must be pretty hot for you here with all that fur, poor thing.",
+			"You don't look like you're tolerating this climate so well...",
+			"I've managed to adapt to this heat. What about you?",
+			"How's the sand feel in that fur of yours?",
+			"This place is almost as hot as you are."
+		]
+	}
+]
