@@ -1,3 +1,5 @@
+-- created by TeksFox
+
 local oldinit = init
 
 function init()
