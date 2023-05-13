@@ -148,7 +148,7 @@
 			"loopTime": 3.0
 		},
 		{
-			"drawables": [{"image": "/cinematics/teleport/deploypodin_neki.png:<frame>"}],
+			"drawables": [{"image": "/cinematics/teleport/deploypodin_apex.png:<frame>"}],
 			"animationFrames": 10,
 			"keyframes": [
 				{
@@ -175,7 +175,7 @@
 			]
 		},
 		{
-			"drawables": [{"image": "/cinematics/teleport/deploypod_neki.png:<frame>"}],
+			"drawables": [{"image": "/cinematics/teleport/deploypod_apex.png:<frame>"}],
 			"animationFrames": 2,
 			"keyframes": [
 				{

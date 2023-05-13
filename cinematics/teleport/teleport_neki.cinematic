@@ -148,7 +148,7 @@
 			"loopTime": 3.0
 		},
 		{
-			"drawables": [{"image": "/cinematics/teleport/up_neki.png:<frame>"}],
+			"drawables": [{"image": "/cinematics/teleport/up_apex.png:<frame>"}],
 			"animationFrames": 4,
 			"keyframes": [
 				{
@@ -175,7 +175,7 @@
 			]
 		},
 		{
-			"drawables": [{"image": "/cinematics/teleport/warpdown_neki.png:<frame>" }],
+			"drawables": [{"image": "/cinematics/teleport/warpdown_apex.png:<frame>" }],
 			"animationFrames": 4,
 			"keyframes": [
 				{
