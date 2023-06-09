@@ -1,0 +1,12 @@
+{
+	"input": [
+		{"item": "fabric", "count": 5},
+		{"item": "silk", "count": 5},
+		{"item": "string", "count": 2},
+		{"item": "cottonwool", "count": 1}
+	],
+
+	"duration": 2,
+	"output": {"item": "nekinibottom", "count": 1},
+	"groups": ["nekiwheel", "clothes"]
+}

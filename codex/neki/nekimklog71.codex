@@ -5,17 +5,17 @@
 	"description": "A classified scientific research log of the Miniknog.",
 	"icon": "nekimemorycardblack.png",
 	"contentPages": [
-"While what's left of my team focus on the newly-synthesized specimen, I've been doing some digging.
+"While (what's left of) my team focuses on the newly-synthesized specimen, I've been doing some digging.
 
-Some of our Earth experts theorize that the purpose of introducing these physiological traits could have something to do with an age-old attraction towards said traits in a family of primitive, predatory Earth-endemic species, which many Humans seem to appear afflicted by.
+Some of our Earth experts theorize that the introduction of these traits could have something to do with an age-old fascination with said traits in a family of primitive Earth-endemic species, which many Humans seem to have always been afflicted by.
 
-While this degree of affinity towards lesser species is irrational at best,  ^cyan;>>^white;",
+While such a degree of attraction to lesser species seems irrational at best - it would hardly surprise me,  ^cyan;>>^white;",
 
-".. it'd hardly be surprising given what's known of the Humans' innate addiction to emotion over any and all reason.
+"given what we know of the innate addiction of the Humans to emotion over any and all reason.
 
-However, despite the notion of it being merely a 'vanity project' for Humans likely being convincing enough to not evoke any further questions in most, it only serves to further incite my curiosity. Perhaps interaction with the subjects themselves on a deeper level could prove more insightful.
+However, despite the notion of it being a mere 'human vanity project' likely being convincing enough for many of my peers, it only further incites my curiosity. I suspect that only interaction with the subjects themselves on a deeper level could provide the necessary insight for a better understanding.
 
-Long live... oh who cares, nobody ever listens to these, anyway."
+Long live... oh, who cares."
 	],
 	"itemConfig": {
 		"rarity": "uncommon",

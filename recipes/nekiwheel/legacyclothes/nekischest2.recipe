@@ -1,0 +1,10 @@
+{
+	"input": [
+		{"item": "nekislongchest", "count": 1},
+		{"item": "nekisshortchest2", "count": 1}
+	],
+
+	"duration": 1,
+	"output": {"item": "nekischest2", "count": 1},
+	"groups": ["nekiwheel", "legacyclothes"]
+}

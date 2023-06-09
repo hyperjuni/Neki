@@ -1,0 +1,158 @@
+{
+	"animatedParts": {
+		"stateTypes": {
+			"pouncing": {
+				"default": "off",
+				"states": {
+					"off": {},
+					"on": {}
+				}
+			},
+			"hopping": {
+				"default": "off",
+				"states": {
+					"off": {},
+					"on": {}
+				}
+			}
+		}
+	},
+
+	"particleEmitters": {
+		"pounceParticles": {
+			"emissionRate": 40.0,
+			"particles": [
+				{
+					"particle":  {
+						"type": "animated",
+						"animation": "nekipounce.animation",
+						"position": [0, 0],
+						"finalVelocity": [0, 0],
+						"approach": [0, 0],
+						"fade": 1,
+						"size": 1,
+						"layer": "back",
+						"timeToLive": 0.85,
+						"variance": {
+							"position": [0, 0.95]
+						}
+					},
+					"offset": [0, 0],
+					"flip": true
+				},
+				{
+					"particle":  {
+						"type": "animated",
+						"animation": "nekipounce.animation",
+						"position": [0, 0],
+						"finalVelocity": [0, 0],
+						"approach": [0, 0],
+						"fade": 1,
+						"size": 1,
+						"layer": "back",
+						"timeToLive": 0.85,
+						"variance": {
+							"position": [0, 0.95]
+						}
+					},
+					"offset": [0, -0.75],
+					"flip": true
+				}
+			]
+		},
+		"hopParticles": {
+			"emissionRate": 40.0,
+			"particles": []
+		},
+		"landParticlesHop": {
+			"burstCount": 1,
+			"particles": [
+				{
+					"particle": {
+						"type": "animated",
+						"animation": "nekiwave.animation",
+						"destructionAction": "fade",
+						"destructionTime": 0.1,
+						"timeToLive": 0.35,
+						"initialVelocity": [-10, 0],
+						"finalVelocity":  [0, 0],
+						"approach": [40, 0],
+						"layer": "middle",
+						"size": 0.25
+					},
+					"offset": [-1.25, -1.875],
+					"flip": true
+				},
+				{
+					"particle": {
+						"type": "animated",
+						"animation": "nekiwave.animation",
+						"destructionAction": "fade",
+						"destructionTime": 0.1,
+						"timeToLive": 0.35,
+						"initialVelocity": [10, 0],
+						"finalVelocity":  [0, 0],
+						"approach": [40, 0],
+						"layer": "middle",
+						"size": 0.25
+					},
+					"offset": [2, -1.875]
+				}
+			]
+		},
+		"landParticlesPounce": {
+			"burstCount": 1,
+			"particles": [
+				{
+					"particle": {
+						"type": "animated",
+						"animation": "nekisplash.animation",
+						"light": [100, 100, 100],
+						"destructionAction": "fade",
+						"destructionTime": 0.1,
+						"timeToLive": 0.35,
+						"initialVelocity": [20, 0],
+						"finalVelocity":  [0, 0],
+						"approach": [40, 0],
+						"layer": "middle",
+						"size": 0.5
+					},
+					"offset": [4, -1.125]
+				},
+				{
+					"particle": {
+						"type": "animated",
+						"animation": "nekiwave.animation",
+						"destructionAction": "fade",
+						"destructionTime": 0.2,
+						"timeToLive": 0.25,
+						"layer": "middle",
+						"size": 0.25
+					},
+					"offset": [-1.75, -1.875],
+					"flip": true
+				}
+			]
+		}
+	},
+
+	"sounds": {
+		"huff": [
+			"/sfx/humanoid/nekihuff1.ogg"
+		],
+		"hop": [
+			"/sfx/blocks/nekifootstep_sand.ogg"
+		],
+		"pounce": [
+			"/sfx/npc/smallbiped/tiger_small_attack1.ogg",
+			"/sfx/humanoid/nekitiger_small_turnhostile.ogg"
+		],
+		"hit": [
+			"/sfx/environmental/tree_flesh_hitground.ogg"
+		],
+		"easter": [
+			"/sfx/humanoid/nekiroar1.ogg"
+		],
+		"dynamicLandSound": []
+	}
+}

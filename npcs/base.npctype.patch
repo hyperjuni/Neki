@@ -1,0 +1,13 @@
+[
+	{"op": "add", "path": "/scriptConfig/chatSounds/neki",
+		"value": {
+			"female": [
+				"/sfx/humanoid/neki_chatter_female1.ogg",
+				"/sfx/humanoid/neki_chatter_female2.ogg"
+			],
+			"male": [
+				"/sfx/humanoid/neki_chatter_male1.ogg"
+			]
+		}
+	}
+]

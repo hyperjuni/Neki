@@ -1,0 +1,31 @@
+{
+	"name": "nekihops",
+	"type": "body",
+
+	"scripts": ["nekihops.lua"],
+	"animator": "nekihops.animation",
+	"icon": "/tech/nekihops.png",
+
+	"shortDescription": "Neki Hops",
+	"description": "Double tap ^green;[A]^white; or ^green;[D] ^white;to Hop, hold ^green;[S]^white; then ^green;[W]^white; to Pounce!",
+	"rarity": "Legendary",
+	"chipCost": 16,
+
+	"hopJump": 30,
+	"hopSpeed": 30,
+	"energyCostPerHop": 20,
+	
+	"pounceJump": 30,
+	"pounceSpeed": 40,
+	"pounceDuration": 10.0,
+	"pounceMinimumDuration": 0.25,
+	"energyCostPerPounce": 55,
+	"afterPounceCooldown": 1,
+
+	"flashDirectives": "?fade=FFFFFFFF=0.25",
+	"flashEffectTime": 0.1,
+
+	"easterRate": 200,
+	"groundOnly": true,
+	"maximumDoubleTapTime": 0.2
+}

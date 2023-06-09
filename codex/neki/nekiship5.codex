@@ -5,11 +5,11 @@
 	"description": "A classified Miniknog mission report.",
 	"icon": "nekimemorycardmk.png",
 	"contentPages": [
-"Most things we've tried have failed.
+"The subject appears to be showing interest in our ship, but won't get anywhere near it while we're around. This prompts a last-resort plan that might just work: make the ship appear abandoned, but have its computer configured for automatic launch the moment the asset's MCC signature is detected onboard.
 
-We'll try to exploit its' curiosity - the subject is showing great interest in our ship, but won't get anywhere near it while we're around. The plan is to therefore turn it into a trap - make it seem abandoned, but have the ship's computer configured to seal up and auto-launch as soon as the asset's MCC signature is detected onboard.
+^cyan;Extraction from Earth may be required if the team is not aboard the vessel upon arrival to its destination.
 
-^cyan;Arrange extraction from Earth if the team is not aboard this vessel upon its' arrival to the nearest base.^white;"
+Long live Big Ape!^white;"
 
 	],
 

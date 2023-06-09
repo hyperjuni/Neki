@@ -5,11 +5,11 @@
 	"description": "A classified Miniknog mission report.",
 	"icon": "nekimemorycardmk.png",
 	"contentPages": [
-"Capturing the asset is proving more.. challenging than we expected.
+"Capturing the asset is proving to be more... challenging than the original plan has ever accounted for.
 
-The subject has recognized us by smell and isn't at all alarmed by our presence; our cover was nearly blown multiple times by its' direct attempts to greet us.
+The subject has recognized us by smell and doesn't seem to be at all alarmed by our presence; our cover was nearly blown multiple times by its incessant attempts at greeting us.
 
-^cyan;Impossible to acquire target without violating mission parameters. Change of tactic required.^white;"
+^cyan;Acquiring the target without violating the mission parameters is beginning to appear highly unlikely at this stage.^white;"
 
 	],
 

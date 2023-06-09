@@ -5,7 +5,7 @@
 	"description": "A classified scientific research log of the Miniknog.",
 	"icon": "nekimemorycardblack.png",
 	"contentPages": [
-"The resultant creature appears anatomically Human, save for a few uncharacteristic external features:
+"The resultant creature appears anatomically human, save for a few uncharacteristic features:
 
 - Highly-enlarged triangular auricles;
 - Significantly wider cranial orbits;
@@ -14,11 +14,11 @@
 
 Many of these features are remarkably similar to the adverse effects of the VEP at first glance,  ^cyan;>>^white;",
 
-".. which serves to further reaffirm my belief that hidden somewhere within this genetic data, is the key to finally eliminating and possibly even reversing our devolution!
+"which serves to further reaffirm my belief that the key to tackling the root cause of the VEP's adverse effects on our physiology is hidden somewhere within this genetic data.
 
-We could be closer to solving our predicament than we even realize!
+I feel that we could be closer to solving our genetic predicament than we ever were!
 
-..long live Big Ape!"
+...Long live Big Ape!"
 	],
 	"itemConfig": {
 		"rarity": "uncommon",

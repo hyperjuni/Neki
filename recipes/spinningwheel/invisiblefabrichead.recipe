@@ -1,7 +1,0 @@
-{
-	"input": [{"item": "money", "count": 100}],
-
-	"duration": 1,
-	"output": {"item": "invisiblefabrichead", "count": 1},
-	"groups": ["craftingwheel", "clothes"]
-}

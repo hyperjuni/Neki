@@ -1,0 +1,14 @@
+{
+	"input": [
+		{"item": "bone", "count": 120},
+		{"item": "fleshstrand", "count": 90},
+		{"item": "biosample", "count": 70},
+		{"item": "feathers1", "count": 30},
+		{"item": "feathers2", "count": 30},
+		{"item": "rawribmeat", "count": 2}
+	],
+
+	"duration": 5,
+	"output": {"item": "nekiwingsback", "count": 1},
+	"groups": ["nekiwheel", "clothes"]
+}
