@@ -17,7 +17,7 @@
 	"inventoryIcon": "nekiwheelicon.png",
 	"placementImagePosition": [-16, 0],	 
 
-	"description": "The Neki wheel is used to craft legacy, non-animated Neki clothing.",
+	"description": "This wheel is used by the Neki to craft various items.",
 	"shortdescription": "^orange;Neki Wheel^white;",
 
 	"apexDescription": "A spinning wheel. It's covered in fur.",

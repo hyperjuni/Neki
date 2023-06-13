@@ -27,22 +27,22 @@
 		{
 			"levelFunction": "separatorArmorLevelPowerMultiplierMultiplier",
 			"stat": "powerMultiplier",
-			"baseMultiplier": 1.1
+			"baseMultiplier": 1.25
 		},
 		{
 			"levelFunction": "separatorArmorLevelProtectionMultiplier",
 			"stat": "protection",
-			"amount": 0.2
+			"amount": 0.5
 		},
 		{
 			"levelFunction": "separatorArmorLevelMaxEnergyMultiplier",
 			"stat": "maxEnergy",
-			"amount": 2
+			"amount": 5
 		},
 		{
 			"levelFunction": "separatorArmorLevelMaxHealthMultiplier",
 			"stat": "maxHealth",
-			"amount": 2
+			"amount": 5
 		}
 	],
 
