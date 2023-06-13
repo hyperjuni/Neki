@@ -1,9 +1,8 @@
 {
 	"input": [
-		{"item": "solariumstar", "count": 20},
-		{"item": "refinedviolium", "count": 10},
-		{"item": "canvas", "count": 1 },
-		{"item": "syntheticmaterial", "count": 1}
+		{"item": "solariumstar", "count": 8},
+		{"item": "refinedviolium", "count": 4},
+		{"item": "canvas", "count": 1}
 	],
 
 	"duration": 5,

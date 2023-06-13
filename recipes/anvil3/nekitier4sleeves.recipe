@@ -1,7 +1,8 @@
 {
 	"input": [
-		{"item": "durasteelbar", "count": 4},
-		{"item": "leather", "count": 1}
+		{"item": "durasteelbar", "count": 10},
+		{"item": "leather", "count": 3},
+		{"item": "silk", "count": 1}
 	],
 	"duration": 5,
 	"output": {"item": "nekitier4sleeves", "count": 1},
