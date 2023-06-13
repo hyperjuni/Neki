@@ -1,6 +1,6 @@
 {
 	"itemName": "nekitier1armor",
-	"price": 800,
+	"price": 320,
 	"inventoryIcon": "icons.png:pants",
 	"maxStack": 1,
 	"rarity": "Common",
