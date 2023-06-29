@@ -9,7 +9,7 @@
 		{"item": "salvagetier4", "count": 10}
 	],
 
-	"duration": 5,
+	"duration": 0.5,
 	"output": {"item": "nekitoywingsback", "count": 1},
 	"groups": ["nekiwheel", "clothes"]
 }

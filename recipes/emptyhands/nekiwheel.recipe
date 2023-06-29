@@ -4,7 +4,7 @@
 		{"item": "climbingrope", "count": 4}
 	],
 
-	"duration": 5,
+	"duration": 0.5,
 	"output": {"item": "nekiwheel",	"count": 1},
 	"groups": ["inventorstable", "craftingstations", "all"]
 }

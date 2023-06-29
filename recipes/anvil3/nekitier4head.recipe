@@ -3,7 +3,7 @@
 		{"item": "durasteelbar", "count": 6},
 		{"item": "leather", "count": 1}
 	],
-	"duration": 5,
+	"duration": 0.5,
 	"output": {"item": "nekitier4head", "count": 1},
 	"groups": ["craftinganvil3", "armours", "all"]
 }

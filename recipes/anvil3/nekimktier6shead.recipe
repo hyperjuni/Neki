@@ -5,7 +5,7 @@
 		{"item": "canvas", "count": 1}
 	],
 
-	"duration": 5,
+	"duration": 0.5,
 	"output": {"item": "nekimktier6shead", "count": 1},
 	"groups": ["craftingseparator", "armours", "all"]
 }

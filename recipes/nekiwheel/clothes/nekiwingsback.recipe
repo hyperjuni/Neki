@@ -8,7 +8,7 @@
 		{"item": "rawribmeat", "count": 2}
 	],
 
-	"duration": 5,
+	"duration": 0.5,
 	"output": {"item": "nekiwingsback", "count": 1},
 	"groups": ["nekiwheel", "clothes"]
 }

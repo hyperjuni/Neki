@@ -4,7 +4,7 @@
 		{"item": "nekinibottom", "count": 1}
 	],
 
-	"duration": 2,
+	"duration": 0.5,
 	"output": {"item": "nekini", "count": 1},
 	"groups": ["nekiwheel", "clothes"]
 }

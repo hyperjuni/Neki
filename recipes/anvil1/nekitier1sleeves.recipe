@@ -4,7 +4,7 @@
 		{"item": "fabric", "count": 5},
 		{"item": "string", "count": 1} 
  ],
-	"duration": 5,
+	"duration": 0.5,
 	"output": {"item": "nekitier1sleeves", "count": 1},
 	"groups": ["craftinganvil", "armours", "all"]
 }

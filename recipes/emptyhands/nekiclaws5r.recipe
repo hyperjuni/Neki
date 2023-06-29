@@ -11,7 +11,7 @@
 		{"item": "medkit", "count": 5}
 	],
 
-	"duration": 4,
+	"duration": 0.5,
 	"output": {"item": "nekiclaws5r", "count": 1},
 	"groups": ["plain", "weapons", "all"]
 }

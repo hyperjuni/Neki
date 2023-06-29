@@ -4,7 +4,7 @@
 		{"item": "cottonwool", "count": 1},
 		{"item": "leather", "count": 1}
 	],
-	"duration": 5,
+	"duration": 0.5,
 	"output": {"item": "nekitier2sleeves", "count": 1},
 	"groups": ["craftinganvil", "armours", "all"]
 }

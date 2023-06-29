@@ -3,7 +3,7 @@
 		{"item": "ironbar", "count": 2},
 		{"item": "fabric", "count": 2}
  ],
-	"duration": 5,
+	"duration": 0.5,
 	"output": {"item": "nekitier1armor", "count": 1},
 	"groups": ["craftinganvil", "armours", "all"]
 }
