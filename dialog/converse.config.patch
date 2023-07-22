@@ -1,5 +1,5 @@
 [
-// Other NPCs greeting Neki
+// NPCs greeting Neki player
 
 	{"op": "add", "path": "/greeting/default/neki",
 		"value": [
@@ -26,6 +26,7 @@
 	},
 	{"op": "add", "path": "/greeting/avian/neki",
 		"value": [
+			"Oh, hell no!",
 			"Kluex help me!",
 			"I'll peck you!",
 			"You smell of danger.",
@@ -116,34 +117,35 @@
 		]
 	},
 
-// Neki greeting other NPCs
+// Neki NPCs greeting player
 
-	{"op": "add", "path": "/greeting/neki", "value": {}},
-	{"op": "add", "path": "/greeting/neki/default",
-		"value": [
-			"Hey!",
-			"Heya!",
-			"Mrrow?",
-			"Purrr..",
-			"Feed me!",
-			"Feed me..?",
-			"Wanna play?",
-			"Hiss! Mrrow?",
-			"I'm sleepy...",
-			"You smell weird.",
-			"Do you have food?",
-			"Do you like my fur?",
-			"Where are the snacks?",
-			"You have a strong odour.",
-			"Come back with more food!",
-			"I wish you happy hunting!",
-			"Did you feed me yet..?",
-			"Do you like to play?",
-			"Where are the toys?",
-			"What's for dinner?",
-			"Got toys for me?",
-			"Got any boxes?"
-		]
+	{"op": "add", "path": "/greeting/neki",
+		"value": {
+			"default": [
+				"Hey!",
+				"Heya!",
+				"Mrrow?",
+				"Purrr..",
+				"Feed me!",
+				"Feed me..?",
+				"Wanna play?",
+				"Hiss! Mrrow?",
+				"I'm sleepy...",
+				"You smell weird.",
+				"Do you have food?",
+				"Do you like my fur?",
+				"Where are the snacks?",
+				"You have a strong odour.",
+				"Come back with more food!",
+				"I wish you happy hunting!",
+				"Did you feed me yet..?",
+				"Do you like to play?",
+				"Where are the toys?",
+				"What's for dinner?",
+				"Got toys for me?",
+				"Got any boxes?"
+			]
+		}
 	},
 	{"op": "add", "path": "/greeting/neki/generic",
 		"value": [
@@ -172,7 +174,7 @@
 		]
 	},
 
-// Other NPCs conversing with Neki
+// NPCs conversing with Neki player
 
 	{"op": "add", "path": "/converse/default/neki",
 		"value": [
@@ -246,9 +248,12 @@
 		"value": [
 			"Observant. A Neki? Here?",
 			"Alarmed. What, what are you?!",
+			"Curious. Is there anything you WON'T sniff..?",
 			"Calmed. Oh good, I thought you were a Spookit.",
 			"Insistent. You must tell us more about your kind.",
+			"Curious. Are you a Human with upgrades, or something else?",
 			"Ushering. Not so close, I just had my frame polished yesterday!",
+			"Cautious. I might damage my joints if I jumped around like that.",
 			"Inquisitive. Can you drop from heights unharmed like other felines?",
 			"Curious. Do you come in multiple breeds, or is it one breed fits all?",
 			"Inquisitive. Do you also use spare parts? We do whenever we break down.",
@@ -262,12 +267,15 @@
 			"Happy. The Neki always evoke positive emotion scripts in my code!",
 			"Dismissive. Some experiments are better left unperformed...",
 			"Mirthful. You look like you're up for some games today!",
+			"Annoyed. I am not purring, that is my motor.",
+
 		// Vanilla-ish
 			"Bewildered. Are you human? Why are you so fluffy?",
 			"Truthful. I don't know anything about your species.",
 			"Quizzical. Are you an Apex? Where is your facial hair?",
 			"Concerned. My, what sharp claws you have.",
 			"Angry. My shoulder is not a mirror!",
+
 		// Vanilla
 			"Murderous. I am in a terrible mood.",
 			"Dismayed. Please stop pushing my buttons.",
@@ -280,14 +288,17 @@
 	},
 	{"op": "add", "path": "/converse/human/neki",
 		"value": [
+			"I'm more of a dog person.",
 			"You're so cute and cuddly!",
 			"Look at what the cat dragged in.",
 			"Put on a hat or something, stupid.",
-			"It's so nice to see another Hu.. Oh.",
-			"Have you no remorse for what you've done?",
+			"Will you bite if I try to cuddle you?",
 			"When you clean yourself.. how do you reach?",
+			"I want to hate and to cuddle you at the same time.",
+			"I'm a cat person, but clearly not as much as you are.",
 			"Seeing your smug snout makes me want to punch a kitten.",
 			"You're either brave, stupid, or both, to have come here.",
+			"Oh look, a tamed cat... Even has a collar and everything.",
 			"Not what I had in mind when I said I could use some pussy right now.",
 			"Hah, so you think you're a Human too? You'll never be one one of us, fleabag.",
 			"You thoroughly enjoyed watching the tentacles consume our world, didn't you?",
@@ -297,6 +308,8 @@
 			"Are you crazy?! Hide quickly, before the others see you!",
 			"How can anyone stay mad at you when you're this cute?",
 			"Get away from me, I'm allergic to traitors!",
+			"Have you no remorse for what you've done?",
+			"It's so nice to see another Hu.. Oh.",
 			"Not in the mood for you right now.",
 			"Go shed your fur somewhere else!"
 		]
@@ -307,12 +320,14 @@
 			"What is your culture like? Do you even have one?",
 			"If you were artificially-created, are you ever truly alive?",
 			"Please watch your manners to the best of your limited ability.",
+			"What were the Miniknog thinking, creating creatures like you..?",
 			"Your gaze seems wild and feral, yet your actions seem almost sentient.",
 			"The danger you pose is artfully disguised by your captivating appearance.",
 			"Do you know much of the origin of your kind? Ours spans back generations...",
 			"Your fur must be arduous to keep tidy.. is that why you look the way you do?",
 			"Do you have a revered authority figure? I can't imagine what they must be like.",
 			"We Hylotl make many protein-rich dishes, but prefer to stay off the menu ourselves.",
+			"Humans often have a cat on their ship. Are you perhaps a result of forbidden curiosity?",
 			"I've heard felines often have a disdain for water, does your kind suffer the same aversion?",
 			"You look like you possess valuable information, as well as a keen interest in what I taste like.",
 			"Your kind has such potential for artistry, but your instincts seem overwhelmingly destructive.",
@@ -322,11 +337,13 @@
 			"Your complexion screams efficiency, yet some features seem almost redundant.",
 			"Those are exceptionally sharp claws you have there.. please keep them away.",
 			"When the masters depicted felines, I doubt you were what they had in mind.",
+			"Anyone can achieve inner peace, but it may be harder for some than others.",
 			"I imagine it cannot be easy to be feared and despised by so many...",
 			"Could you recommend any Neki poetry? If such a thing even exists.",
 			"Your tail could be good for swimming, if it had any fins on it.",
 			"I don't need three eyes to see your intentions. Begone, Neki.",
 			"Do you see your hunts as a form of art?",
+
 		// Vanilla-ish
 			"Settle yourself down, furry one.",
 			"Meeting a Neki is a little nerve-racking.",
@@ -335,6 +352,7 @@
 			"I'll try to remain civil with you, but fear makes it difficult.",
 			"I collect books, but I don't have any written by the Neki.",
 			"Your cold-blooded stare unsettles me.",
+
 		// Vanilla
 			"Your fur makes me sneeze.",
 			"What do you do when darkness gathers?",
@@ -357,6 +375,7 @@
 			"Please stop running around acting the fool.",
 			"I'm shaking? I'm not afraid, just cold.",
 			"What a fearsome visage you have.",
+
 		// Vanilla Neutral
 			"We Hylotl are a proud species.",
 			"The universe produces so much beauty.",
@@ -385,7 +404,6 @@
 			"Darn it, you scared the wits outta me!",
 			"Some mighty fine claws ya got there, kitten!",
 			"Ain't ever met one like you, yer lookin' wild!",
-			"Do them big ol' ears help much in space, sugar?",
 			"Did ya just strut in hind-first, gunnin' for a shindig?",
 			"That strappin' tail o' yours can sure whip up a storm, cannae?",
 			"I'll be darned if those ain't just the most charmin' pair of eyes on ya!",
@@ -395,27 +413,49 @@
 			"Ya got them eyes, ears, tail - the whole shebang!",
 			"I hope ya ain't here to wake no snakes, partner.",
 			"Well, pop yer corn, hon'! Somethin' on ya mind?",
-			"You lookin' the brash type, I fancy that.",
+			"You lookin' like the brash type, I fancy that.",
 			"Ain't you just the cutest darn thing!"
 		]
 	},
 
-// Neki conversing with other NPCs
+// Neki NPCs conversing with player
 
-	{"op": "add", "path": "/converse/neki", "value": {}},
+	{"op": "add", "path": "/converse/neki",
+		"value": {
+			"default": [
+				"Mrrow?",
+				"Are you fun?",
+				"I need your leg.",
+				"Wanna pet me? Too bad.",
+				"Are you cold? Because I'm not.",
+				"*sniffs*\nYou don't smell interesting.",
+				"Like how soft my fur is? I just licked it.",
+				"Today was fun, but I should've slept more!",
+				"*sniffs*\nI like the way you smell.",
+				"Okay, so where's the food at..?",
+				"What's that you've got there?",
+				"I wanna take a bite.",
+				"Can I take a bite?",
+				"My claws itch."
+			]
+		}
+	},
 	{"op": "add", "path": "/converse/neki/generic",
 		"value": [
-			"Okay, so where's the food..?",
+			"Mrrow?",
+			"Are you fun?",
+			"I need your leg.",
+			"Wanna pet me? Too bad.",
 			"Are you cold? Because I'm not.",
+			"*sniffs*\nYou don't smell interesting.",
 			"Like how soft my fur is? I just licked it.",
-			"I like bananas somehow, but they're disgusting.",
-			"Today was fun, but I should've slept more!"
-		]
-	},
-
-	{"op": "add", "path": "/converse/neki/default",
-		"value": [
-			"Mrrow?"
+			"Today was fun, but I should've slept more!",
+			"*sniffs*\nI like the way you smell.",
+			"Okay, so where's the food at..?",
+			"What's that you've got there?",
+			"I wanna take a bite.",
+			"Can I take a bite?",
+			"My claws itch."
 		]
 	}
 ]

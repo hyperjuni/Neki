@@ -1,42 +1,47 @@
 [
-	{"op": "add", "path": "/tagCriteria/neki", "value": {}},
-	{"op": "add", "path": "/tagCriteria/neki/default",
-		"value": [
-			"Put my stuff back!",
-			"You broke everything!",
-			"Where'd you put my toys!?"
-		]
+	{"op": "add", "path": "/tagCriteria/neki",
+		"value": {
+			"default": [
+				"Put my stuff back!",
+				"You brroke everything!",
+				"Where'd you put my toys!?"
+			]
+		}
 	},
-	{"op": "add", "path": "/enclosedArea/neki", "value": {}},
-	{"op": "add", "path": "/enclosedArea/neki/default",
-		"value": [
-			"Can you please fix my home?",
-			"My home is a little broken...",
-			"It's not cozy with the wall being like that!"
-		]
+	{"op": "add", "path": "/enclosedArea/neki",
+		"value": {
+			"default": [
+				"Can you please fix my home?",
+				"My home is a little brroken...",
+				"It's not cozy with the wall being like that!"
+			]
+		}
 	},
-	{"op": "add", "path": "/otherDeed/neki", "value": {}},
-	{"op": "add", "path": "/otherDeed/neki/default",
-		"value": [
-			"Hisss! I won't share my home!",
-			"Why is there a smelly stranger in my home!?",
-			"If someone moves in, they'll become my dinner."
-		]
+	{"op": "add", "path": "/otherDeed/neki",
+		"value": {
+			"default": [
+				"Khhh! I won't share my home!",
+				"Why is there a smelly stranger in my home!?",
+				"If someone moves in, they'll become my dinner."
+			]
+		}
 	},
-	{"op": "add", "path": "/severe/neki", "value": {}},
-	{"op": "add", "path": "/severe/neki/default",
-		"value": [
-			"I think I'll need to find a new home.",
-			"It's not fun at all to live like this!",
-			"I will claw you if you don't fix this soon!"
-		]
+	{"op": "add", "path": "/severe/neki",
+		"value": {
+			"default": [
+				"I think I'll need to find a new home.",
+				"It's not fun at all to live like this!",
+				"I will claw you if you don't fix this soon!"
+			]
+		}
 	},
-	{"op": "add", "path": "/final/neki", "value": {}},
-	{"op": "add", "path": "/final/neki/default",
-		"value": [
-			"I give up, I'll go live in a box instead.",
-			"Living here has been terrible, I can't do it anymore...",
-			"You clearly don't love me enough, so I'll go find someone who does!"
-		]
+	{"op": "add", "path": "/final/neki",
+		"value": {
+			"default": [
+				"I give up, I'll go live in a box instead.",
+				"Living here has been terrible, I can't do it anymore...",
+				"You clearly don't love me enough, so I'll go find someone who does!"
+			]
+		}
 	}
 ]

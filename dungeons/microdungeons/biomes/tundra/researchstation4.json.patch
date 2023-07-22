@@ -1,0 +1,4 @@
+[
+	{"op": "replace", "path": "/layers/5/objects/0/properties/typeName", "value": "nekisnowscientist"},
+	{"op": "replace", "path": "/layers/5/objects/0/properties/npc", "value": "neki"}
+]

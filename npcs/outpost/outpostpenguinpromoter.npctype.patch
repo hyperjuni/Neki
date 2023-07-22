@@ -1,7 +1,7 @@
 [
 	{"op": "add", "path": "/scriptConfig/dialog/converse/default/neki",
 		"value": [
-			"Such flashy fangs! If your ship isn't as flashy yet, come visit Penguin Bay out back!"
+			"Such flashy fangs!\nWant your ship flashy too? Come visit Penguin Bay out back!"
 		]
 	}
 ]

@@ -1,0 +1,76 @@
+[
+	{"op": "add", "path": "/scriptConfig/dialog/crewmember/offer/neki",
+		"value": {
+			"default": [
+				"Alright, show me your place.",
+				"You know you want me.",
+				"I'm coming with you."
+			]
+		}
+	},
+	{"op": "add", "path": "/scriptConfig/dialog/crewmember/roleDescription/neki",
+		"value": {
+			"default": [
+				"If you need a paw in a hunt, you know where to find me!",
+				"If you need purrtection, you know where to find me!",
+				"I'll wait here until you need me to hunt something.",
+				"I'll be here if you need someone to help you hunt.",
+				"If you need me on a hunt, you know where I am.",
+				"If you need me on a hunt, just say the word!",
+				"When you need my purrtection, come get me.",
+				"I will stay here until you need backup."
+			]
+		}
+	},
+	{"op": "add", "path": "/scriptConfig/dialog/crewmember/respawned/neki",
+		"value": {
+			"default": [
+				"Oh, we're back here again.",
+				"I was here the whole time.",
+				"I think my ear is broken.",
+				"Let's do THAT again!",
+				"That made me hungry",
+				"Eight more to go."
+			]
+		}
+	},
+	{"op": "add", "path": "/scriptConfig/dialog/crewmember/unfollow/neki",
+		"value": {
+			"default": [
+				"I'll go pee in your shoes in the meantime.",
+				"Fine, I'll go drop your stuff then.",
+				"Don't come back empty-handed!",
+				"Guess I'll just sleep, then.",
+				"Didn't want to go anyway.",
+				"But I wanted to come!"
+			]
+		}
+	},
+	{"op": "add", "path": "/scriptConfig/dialog/crewmember/follow/neki",
+		"value": {
+			"default": [
+				"Adventure time!",
+				"Hunting time!",
+				"Can't wait!",
+				"I'm coming!",
+				"Purrfect!",
+				"Outside?",
+				"Walkies?",
+				"Finally!",
+				"Coming!",
+				"Mrraw!"
+			]
+		}
+	},
+	{"op": "add", "path": "/scriptConfig/dialog/crewmember/cantreach/neki",
+		"value": {
+			"default": [
+				"Come back, it's more fun over here!",
+				"I like it more over here.",
+				"Over here's better!",
+				"Fascinating.",
+				"Interesting."
+			]
+		}
+	}
+]

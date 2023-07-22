@@ -1,0 +1,58 @@
+{
+	"type": "nekisnowscientist",
+	"baseType": "villager",
+
+	"scriptConfig": {
+		"behaviorConfig": {"greetingChance": 0},
+		"questGenerator": {
+			"pools": ["nekicommon"],
+			"graduation": {
+				"nextNpcType": [
+					[0.5, "nekiengineer"],
+					[0.5, "nekimechanic"]
+				]
+			}
+		},
+		"dialog": {
+			"converse": {
+				"default": {
+					"default": [
+						"Hey, I'm supposed to be a Neki!",
+						"Why am I.. whatever this is?!"
+					]
+				},
+				"neki": {
+					"default": [
+						"I purrfer this cool place to the hot one the spacebox brrought me from.",
+						"They were giving me weirrd looks before I put these ugly clothes on.",
+						"I'm purrtending to do the same things they are, and it keeps me fed.",
+						"I don't know what I'm doing here, but they purrobably don't either.",
+						"I purrtend to know what I'm doing, and others just play along.",
+						"I fell asleep in a spacebox and woke up in this cool place!",
+						"There's nothing tasty around here, only furrozen bird-food.",
+						"Am I too purrdy to be here?"
+					]
+				}
+			}
+		}
+	},
+
+	"items": {
+		"override": [
+			[0,
+				[
+					{
+						"chest": [{"name": "scientistchest"}],
+						"legs": [{"name": "scientistlegs"}]
+					}
+				] 
+			]
+		]
+	},
+
+	"statusControllerSettings": {
+		"stats": {
+			"healthRegen": {"baseValue": 1.0}
+		}
+	}
+}

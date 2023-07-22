@@ -1,0 +1,18 @@
+[
+	{"op": "add", "path": "/helpme/neki", "value": {}},
+	{"op": "add", "path": "/helpme/neki/default",
+		"value": [
+			"Khhhh..!"
+		]
+	},
+	{"op": "add", "path": "/safe/neki", "value": {}},
+	{"op": "add", "path": "/safe/neki/default",
+		"value": [
+			"I better get my claws sharpened.",
+			"I peed a little over there.",
+			"I need to sleep this off.",
+			"I need some food now.",
+			"That was stressful!"
+		]
+	}
+]

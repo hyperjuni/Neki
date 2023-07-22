@@ -1,0 +1,49 @@
+[
+	{"op": "add", "path": "/scriptConfig/dialog/converse/avian",
+		"value": {
+			"neki": [
+				"I wish I had a snout like yours, my nares keep freezing up in this cold!",
+				"Quit staring at as if I was food and give me a hand with this research!",
+				"Either eat me or help with the science, Neki, I don't have all day!",
+				"Is your fur as effective as my feathers against the cold?",
+				"Oh, a Neki! Did you come here to do science too?"
+			]
+		}
+	},
+	{"op": "add", "path": "/scriptConfig/dialog/converse/apex",
+		"value": {
+			"neki": [
+				"I much prefer this remote corner of the universe to the stresses of working at Miniknog facilities.",
+				"After being exiled for refusing to help weaponize your kind, I came here to continue my research.",
+				"It's so surreal, seeing one of you in the flesh. I remember a time when you were just.. research.",
+				"Wait, you're... <entityname>! Don't worry, I know a lot more about you than just your name.",
+				"Are you one of the early prototypes, or a later revision? Let me get a look at you...",
+				"No way, a Neki! How did you manage to escape the secure facilities? What happened?",
+				"Some of my research was used for the program that resulted in.. you."
+			]
+		}
+	},
+	{"op": "add", "path": "/scriptConfig/dialog/converse/human",
+		"value": {
+			"neki": [
+				"You look so fluffy and soft, I wish I had someone like you to keep me warm around here.",
+				"Having fur like yours must be super convenient for doing science out in the cold.",
+				"This may sound a little unprofessional, but may I snuggle with you? For science!",
+				"Sorry, I'm too preoccupied with my research to pay any attention to you.",
+				"Got a way to help me with my research, Neki? If not, get out of my way."
+			]
+		}
+	},
+	{"op": "add", "path": "/scriptConfig/dialog/converse/hylotl",
+		"value": {
+			"neki": [
+				"I'd send you to collect some specimen, but I'm fairly certain you'd just eat them on the way.",
+				"This cold environment is so serene, everything slows down... Except for you, it seems.",
+				"What would a Neki even come to this frozen place for? Can't be the science.",
+				"If all you're looking for is food - why did you come here, of all places?",
+				"Calm down, Neki, and just appreciate the beauty of this environment.",
+				"If you damage my research, I will be very.. saddened by that."
+			]
+		}
+	}
+]

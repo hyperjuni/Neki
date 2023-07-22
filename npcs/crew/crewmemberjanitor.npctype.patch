@@ -1,0 +1,11 @@
+[
+	{"op": "add", "path": "/scriptConfig/dialog/crewmember/roleDescription/neki",
+		"value": {
+			"default": [
+				"I collect brroken toys from the floor.",
+				"Norrmally, I just sleep all day.",
+				"Dust bunnies are murrvellous!"
+			]
+		}
+	}
+]

@@ -1,33 +1,17 @@
 {
 	"type": "nekimkagent",
-	"baseType": "base",
-
-	"levelVariance": [3, 3],
-	"persistent": true,
-
-	"damageTeamType": "friendly",
+	"baseType": "villageguard",
 
 	"dropPools": ["nekiguardtreasure"],
 
 	"scriptConfig": {
-		"behavior": "villageguard",
 		"behaviorConfig": {
 			"greetingChance": 0,
 			"hostileDamageTeam": {"type": "enemy", "team": 1}
 		},
-		"personalities": [
-			[1.0, {
-				"personality": "normal",
-				"reactions": {}
-			}]
-		],
 		"questGenerator": {
 			"pools": ["nekicommon"],
-			"enableParticipation": true,
 			"timeLimit": 1,
-			"nearbyQuestLimit": 2,
-			"nearbyQuestRange": 50,
-			"questCountRange": [1, 4],
 			"graduation": {
 				"nextNpcType": [
 					[0.5, "crewmembernekimkagent"],
@@ -36,23 +20,18 @@
 			}
 		},
 		"dialog": {
-			"greeting": "/dialog/converse.config:greeting",
-			"attack": "/dialog/combat.config:attack",
-			"reattack": "/dialog/combat.config:reattack",
-			"killedTarget": "/dialog/combat.config:killedTarget",
-			"lostTarget": "/dialog/combat.config:lostTarget",
-			"outOfSight": "/dialog/combat.config:outOfSight",
-			"cheerOn": "/dialog/combat.config:cheerOn",
-			"cantReach": "/dialog/combat.config:cantReach",
-			"hail": "/dialog/guard.config:hail",
-			"accuse": "/dialog/thief.config:accuse",
 			"converse": {
+				"default": {
+					"default": [
+						"Hey, I'm supposed to be a Neki!",
+						"Why am I.. whatever this is?!"
+					]
+				},
 				"neki": {
 					"default": [
 						"You smell.. unfamiliarr.",
-						"*sniff*\n*sniff*",
 						"Purrceed.",
-						"*sniff*",
+						"*sniffs*",
 						"Mrr..?"
 					],
 					"apex": [
@@ -61,7 +40,9 @@
 					],
 					"neki": [
 						"When was the last time you licked yourself?",
-						"Why are you out of unifurrm?"
+						"Why are you out of unifurrm?",
+						"You smell of outsiderrs.",
+						"Are you not on duty?"
 					]
 				}
 			}
@@ -69,7 +50,7 @@
 	},
 
 	"items": {
-		"default": [
+		"neki": [
 			[0,
 				[
 					{
@@ -87,7 +68,6 @@
 
 	"statusControllerSettings": {
 		"stats": {
-			"maxHealth": {"baseValue": 100.0},
 			"powerMultiplier": {"baseValue": 0.8},
 			"protection": {"baseValue": 2.0},
 			"healthRegen": {"baseValue": 1.0}
