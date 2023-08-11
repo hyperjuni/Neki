@@ -1,7 +1,28 @@
 [
-	{"op": "add", "path": "/scriptConfig/dialog/converse/avian",
-		"value": {
-			"neki": [
+// If avian dialogue doesn't exist, add it
+	[
+		{"op": "test", "path": "/scriptConfig/dialog/converse/avian", "inverse": true},
+		{"op": "add", "path": "/scriptConfig/dialog/converse/avian", "value": {}}
+	],
+
+// If avian 'default' dialogue doesn't exist, add it
+	[
+		{"op": "test", "path": "/scriptConfig/dialog/converse/avian/default", "inverse": true},
+		{"op": "add", "path": "/scriptConfig/dialog/converse/avian/default",
+			"value": [
+				"It's pretty cold here! My lab coat isn't very warm.",
+				"I wish my research didn't involve being sent to THIS planet...",
+				"I can barely feel my fingers in this cold climate. How can I take notes like this?",
+				"This place may be cold, but it sure is beautiful.",
+				"What brings you here? Are you conducting research too?"
+			]
+		}
+	],
+
+// Add Neki 'avian' dialogue
+	[
+		{"op": "add", "path": "/scriptConfig/dialog/converse/avian/neki",
+			"value": [
 				"I wish I had a snout like yours, my nares keep freezing up in this cold!",
 				"Quit staring at as if I was food and give me a hand with this research!",
 				"Either eat me or help with the science, Neki, I don't have all day!",
@@ -9,10 +30,32 @@
 				"Oh, a Neki! Did you come here to do science too?"
 			]
 		}
-	},
-	{"op": "add", "path": "/scriptConfig/dialog/converse/apex",
-		"value": {
-			"neki": [
+	],
+
+// If apex dialogue doesn't exist, add it
+	[
+		{"op": "test", "path": "/scriptConfig/dialog/converse/apex", "inverse": true},
+		{"op": "add", "path": "/scriptConfig/dialog/converse/apex", "value": {}}
+	],
+
+// If apex 'default' dialogue doesn't exist, add it
+	[
+		{"op": "test", "path": "/scriptConfig/dialog/converse/apex/default", "inverse": true},
+		{"op": "add", "path": "/scriptConfig/dialog/converse/apex/default",
+			"value": [
+				"It's pretty cold here! My lab coat isn't very warm.",
+				"I wish my research didn't involve being sent to THIS planet...",
+				"I can barely feel my fingers in this cold climate. How can I take notes like this?",
+				"This place may be cold, but it sure is beautiful.",
+				"What brings you here? Are you conducting research too?"
+			]
+		}
+	],
+
+// Add Neki 'apex' dialogue
+	[
+		{"op": "add", "path": "/scriptConfig/dialog/converse/apex/neki",
+			"value": [
 				"I much prefer this remote corner of the universe to the stresses of working at Miniknog facilities.",
 				"After being exiled for refusing to help weaponize your kind, I came here to continue my research.",
 				"It's so surreal, seeing one of you in the flesh. I remember a time when you were just.. research.",
@@ -22,10 +65,32 @@
 				"Some of my research was used for the program that resulted in.. you."
 			]
 		}
-	},
-	{"op": "add", "path": "/scriptConfig/dialog/converse/human",
-		"value": {
-			"neki": [
+	],
+
+// If human dialogue doesn't exist, add it
+	[
+		{"op": "test", "path": "/scriptConfig/dialog/converse/human", "inverse": true},
+		{"op": "add", "path": "/scriptConfig/dialog/converse/human", "value": {}}
+	],
+
+// If human 'default' dialogue doesn't exist, add it
+	[
+		{"op": "test", "path": "/scriptConfig/dialog/converse/human/default", "inverse": true},
+		{"op": "add", "path": "/scriptConfig/dialog/converse/human/default",
+			"value": [
+				"It's pretty cold here! My lab coat isn't very warm.",
+				"I wish my research didn't involve being sent to THIS planet...",
+				"I can barely feel my fingers in this cold climate. How can I take notes like this?",
+				"This place may be cold, but it sure is beautiful.",
+				"What brings you here? Are you conducting research too?"
+			]
+		}
+	],
+
+// Add Neki 'human' dialogue
+	[
+		{"op": "add", "path": "/scriptConfig/dialog/converse/human/neki",
+			"value": [
 				"You look so fluffy and soft, I wish I had someone like you to keep me warm around here.",
 				"Having fur like yours must be super convenient for doing science out in the cold.",
 				"This may sound a little unprofessional, but may I snuggle with you? For science!",
@@ -33,10 +98,32 @@
 				"Got a way to help me with my research, Neki? If not, get out of my way."
 			]
 		}
-	},
-	{"op": "add", "path": "/scriptConfig/dialog/converse/hylotl",
-		"value": {
-			"neki": [
+	],
+
+// If hylotl dialogue doesn't exist, add it
+	[
+		{"op": "test", "path": "/scriptConfig/dialog/converse/hylotl", "inverse": true},
+		{"op": "add", "path": "/scriptConfig/dialog/converse/hylotl", "value": {}}
+	],
+
+// If hylotl 'default' dialogue doesn't exist, add it
+	[
+		{"op": "test", "path": "/scriptConfig/dialog/converse/hylotl/default", "inverse": true},
+		{"op": "add", "path": "/scriptConfig/dialog/converse/hylotl/default",
+			"value": [
+				"It's pretty cold here! My lab coat isn't very warm.",
+				"I wish my research didn't involve being sent to THIS planet...",
+				"I can barely feel my fingers in this cold climate. How can I take notes like this?",
+				"This place may be cold, but it sure is beautiful.",
+				"What brings you here? Are you conducting research too?"
+			]
+		}
+	],
+
+// Add Neki 'hylotl' dialogue
+	[
+		{"op": "add", "path": "/scriptConfig/dialog/converse/hylotl/neki",
+			"value": [
 				"I'd send you to collect some specimen, but I'm fairly certain you'd just eat them on the way.",
 				"This cold environment is so serene, everything slows down... Except for you, it seems.",
 				"What would a Neki even come to this frozen place for? Can't be the science.",
@@ -45,5 +132,5 @@
 				"If you damage my research, I will be very.. saddened by that."
 			]
 		}
-	}
+	]
 ]
