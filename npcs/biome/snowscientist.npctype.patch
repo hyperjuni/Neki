@@ -1,11 +1,11 @@
 [
-// If avian dialogue doesn't exist, add it
+// If Avian dialogue doesn't exist, add it
 	[
 		{"op": "test", "path": "/scriptConfig/dialog/converse/avian", "inverse": true},
 		{"op": "add", "path": "/scriptConfig/dialog/converse/avian", "value": {}}
 	],
 
-// If avian 'default' dialogue doesn't exist, add it
+// If Avian 'default' dialogue doesn't exist, add it
 	[
 		{"op": "test", "path": "/scriptConfig/dialog/converse/avian/default", "inverse": true},
 		{"op": "add", "path": "/scriptConfig/dialog/converse/avian/default",
@@ -19,7 +19,7 @@
 		}
 	],
 
-// Add Neki 'avian' dialogue
+// Add Avian 'neki' dialogue
 	[
 		{"op": "add", "path": "/scriptConfig/dialog/converse/avian/neki",
 			"value": [
@@ -32,13 +32,13 @@
 		}
 	],
 
-// If apex dialogue doesn't exist, add it
+// If Apex dialogue doesn't exist, add it
 	[
 		{"op": "test", "path": "/scriptConfig/dialog/converse/apex", "inverse": true},
 		{"op": "add", "path": "/scriptConfig/dialog/converse/apex", "value": {}}
 	],
 
-// If apex 'default' dialogue doesn't exist, add it
+// If Apex 'default' dialogue doesn't exist, add it
 	[
 		{"op": "test", "path": "/scriptConfig/dialog/converse/apex/default", "inverse": true},
 		{"op": "add", "path": "/scriptConfig/dialog/converse/apex/default",
@@ -52,7 +52,7 @@
 		}
 	],
 
-// Add Neki 'apex' dialogue
+// Add Apex 'neki' dialogue
 	[
 		{"op": "add", "path": "/scriptConfig/dialog/converse/apex/neki",
 			"value": [
@@ -67,13 +67,13 @@
 		}
 	],
 
-// If human dialogue doesn't exist, add it
+// If Human dialogue doesn't exist, add it
 	[
 		{"op": "test", "path": "/scriptConfig/dialog/converse/human", "inverse": true},
 		{"op": "add", "path": "/scriptConfig/dialog/converse/human", "value": {}}
 	],
 
-// If human 'default' dialogue doesn't exist, add it
+// If Human 'default' dialogue doesn't exist, add it
 	[
 		{"op": "test", "path": "/scriptConfig/dialog/converse/human/default", "inverse": true},
 		{"op": "add", "path": "/scriptConfig/dialog/converse/human/default",
@@ -87,7 +87,7 @@
 		}
 	],
 
-// Add Neki 'human' dialogue
+// Add Human 'neki' dialogue
 	[
 		{"op": "add", "path": "/scriptConfig/dialog/converse/human/neki",
 			"value": [
@@ -100,13 +100,13 @@
 		}
 	],
 
-// If hylotl dialogue doesn't exist, add it
+// If Hylotl dialogue doesn't exist, add it
 	[
 		{"op": "test", "path": "/scriptConfig/dialog/converse/hylotl", "inverse": true},
 		{"op": "add", "path": "/scriptConfig/dialog/converse/hylotl", "value": {}}
 	],
 
-// If hylotl 'default' dialogue doesn't exist, add it
+// If Hylotl 'default' dialogue doesn't exist, add it
 	[
 		{"op": "test", "path": "/scriptConfig/dialog/converse/hylotl/default", "inverse": true},
 		{"op": "add", "path": "/scriptConfig/dialog/converse/hylotl/default",
@@ -120,7 +120,7 @@
 		}
 	],
 
-// Add Neki 'hylotl' dialogue
+// Add Hylotl 'neki' dialogue
 	[
 		{"op": "add", "path": "/scriptConfig/dialog/converse/hylotl/neki",
 			"value": [

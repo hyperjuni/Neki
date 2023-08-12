@@ -179,7 +179,7 @@
 		}
 	],
 
-// Add Neki dialogue
+// Add Human 'neki' dialogue
 	[
 		{"op": "add", "path": "/converse/human/neki",
 			"value": [
