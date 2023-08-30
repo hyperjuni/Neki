@@ -1,4 +1,6 @@
 [
+	{"op": "test", "path": "/layers/5/objects/1/properties/typeName", "value": "snowscientist"},
+	{"op": "test", "path": "/layers/5/objects/1/properties/npc", "value": "apex,human,hylotl"},
 	{"op": "replace", "path": "/layers/5/objects/1/properties/typeName", "value": "nekisnowscientist"},
 	{"op": "replace", "path": "/layers/5/objects/1/properties/npc", "value": "neki"}
 ]

@@ -1,0 +1,9 @@
+{
+	"input": [
+		{"item": "titaniumbar", "count": 4},
+		{"item": "canvas", "count": 1}
+	],
+	"duration": 0.5,
+	"output": {"item": "nekitier3armor", "count": 1},
+	"groups": ["craftinganvil2", "armours", "all"]
+}

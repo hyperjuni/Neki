@@ -70,6 +70,10 @@
 			{"item": "tungstenhammer"},
 
 // Anvil2
+			{"item": "nekitier3head"},
+			{"item": "nekitier3sleeves"},
+			{"item": "nekitier3armor"},
+
 			{"item": "titaniumdagger"},
 			{"item": "titaniumspear"},
 			{"item": "durasteelbroadsword"},

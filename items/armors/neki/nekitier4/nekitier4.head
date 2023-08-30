@@ -5,8 +5,8 @@
 	"maxStack": 1,
 	"rarity": "Uncommon",
 	"category": "headarmour",
-	"description": "Can't smell a thing in this!",
-	"shortdescription": "Neki T4 Mask",
+	"description": "Can't smell a thing wearing these, either.",
+	"shortdescription": "Neki T4 Mask & Rings",
 	"tooltipKind": "nekiarmor",
 
 	"maleFrames": "headm.png",
