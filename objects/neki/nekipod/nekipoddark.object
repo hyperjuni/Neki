@@ -19,18 +19,6 @@
 	"nekiDescription": "I love mother.",
 	"novakidDescription": "I ain't going near that.",
 
-	"objectType": "loungeable",
-	"sitPosition": [5,36],
-	"sitOrientation": "lay",
-	"sitAngle": 0,
-	"sitEmote": "sleep",
-	"sitCoverImage": "/objects/neki/nekipod/nekipodcover.png",
-	"sitStatusEffects": [
-		"regeneration4",
-		"nekipodgetin",
-		"nude"
-	],
-
 	"inventoryIcon": "nekipodicon.png",
 	"orientations": [
 		{
@@ -60,7 +48,5 @@
 			"spaceScan": 0.1,
 			"anchors": ["bottom"]
 		}
-	],
-
-	"soundEffect": "/sfx/objects/apexpod.ogg"
+	]
 }
