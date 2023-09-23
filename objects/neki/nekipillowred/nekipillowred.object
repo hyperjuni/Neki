@@ -1,0 +1,51 @@
+{
+	"objectName": "nekipillowred",
+	"colonyTags": ["neki"],
+	"rarity": "Common",
+	"category": "furniture",
+	"tooltipKind": "nekibase",
+	"price": 50,
+	"printable": false,
+	"description": "A red tent fabric, stuffed with feathers.",
+	"shortdescription": "Neki Pillow - Red",
+	"race": "neki",
+
+	"apexDescription": "An interesting use for what seems to have once been a tent.",
+	"avianDescription": "This pillow feels so comfortable, as if it were filed with...wait a minute...",
+	"floranDescription": "Ssstupid dome is now soft chair! Thisss make Floran happy!",
+	"glitchDescription": "Sarcasm. Lovely. Now it only fits one, on top.",
+	"humanDescription": "Why ruin a perfectly good dome tent like that?!",
+	"hylotlDescription": "Neither the original nor this reimagining seem particularly comfortable to me.",
+	"nekiDescription": "That flimsy old brrownish shelter wasn't any good anyway.",
+	"novakidDescription": "I ain't seein' it, what's this good for?",
+
+	"inventoryIcon": "nekipillowredicon.png",
+	"orientations": [
+		{
+			"image": "nekipillowred.png",
+			"imagePosition": [0, 0],
+			"sitCoverImage": "/objects/neki/nekipillowred/nekipillowredcover.png",
+			"sitPosition": [-14.5, 23],
+			"frames": 1,
+			"animationCycle": 0.5,
+			"spaceScan": 0.1,
+			"flipImages": true,
+			"direction": "left",
+			"anchors": ["bottom"]
+		},
+		{
+			"image": "nekipillowred.png",
+			"imagePosition": [0, 0],
+			"sitCoverImage": "/objects/neki/nekipillowred/nekipillowredcover.png",
+			"sitPosition": [13.5, 23],
+			"frames": 1,
+			"animationCycle": 0.5,
+			"spaceScan": 0.1,
+			"direction": "right",
+			"anchors": ["bottom"]
+		}
+	],
+
+	"objectType": "loungeable",
+	"sitStatusEffects": ["nekipoof"]
+}

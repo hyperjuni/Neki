@@ -13,7 +13,7 @@
 	"interactAction": "OpenTeleportDialog",
 	"interactData": "/interface/warping/destinationonly.config",
 	
-	"shortdescription": "Flag (Neki)",
+	"shortdescription": "Neki Flag",
 	"description": "That's.. one way to mark your territory.",
 
 	"apexDescription" : "Interesting... I guess this makes sense on an animal level.",

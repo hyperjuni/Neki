@@ -1,0 +1,8 @@
+{
+	"input": [
+		{"item": "tier1spotlight", "count": 1}
+	],
+
+	"output": {"item": "nekitier1spotlightBroken", "count": 1},
+	"groups": ["plain", "all"]
+}

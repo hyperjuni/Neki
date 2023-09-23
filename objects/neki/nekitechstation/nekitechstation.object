@@ -3,6 +3,7 @@
 	"colonyTags": ["neki"],
 	"printable": false,
 	"rarity": "Common",
+	"tooltipKind": "nekibase",
 
 	"interactAction": "OpenAiInterface",
 

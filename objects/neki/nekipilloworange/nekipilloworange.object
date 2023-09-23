@@ -1,0 +1,51 @@
+{
+	"objectName": "nekipilloworange",
+	"colonyTags": ["neki"],
+	"rarity": "Common",
+	"category": "furniture",
+	"tooltipKind": "nekibase",
+	"price": 50,
+	"printable": false,
+	"description": "A dull orange pillow wrapped in a crude curtain.",
+	"shortdescription": "Neki Pillow - Orange",
+	"race": "neki",
+
+	"apexDescription": "Is this one of our standard-issue curtains? That is hilarious!",
+	"avianDescription": "I think I know what this is made of, but that's hardly an improvement.",
+	"floranDescription": "Floran butt become shiny from ssitting on thisss!",
+	"glitchDescription": "Unimpressed. The fabric on this pillow looks primitive even by my standards.",
+	"humanDescription": "A crappy-looking pillow.",
+	"hylotlDescription": "This pillow's texture feels rough and the colors are rather dull.",
+	"nekiDescription": "I like that pillow. That is a nice pillow!",
+	"novakidDescription": "I ain't the least impressed by this thing.",
+
+	"inventoryIcon": "nekipilloworangeicon.png",
+	"orientations": [
+		{
+			"image": "nekipilloworange.png",
+			"imagePosition": [0, 0],
+			"sitCoverImage": "/objects/neki/nekipilloworange/nekipilloworangecover.png",
+			"sitPosition": [-14.5, 23],
+			"frames": 1,
+			"animationCycle": 0.5,
+			"spaceScan": 0.1,
+			"flipImages": true,
+			"direction": "left",
+			"anchors": ["bottom"]
+		},
+		{
+			"image": "nekipilloworange.png",
+			"imagePosition": [0, 0],
+			"sitCoverImage": "/objects/neki/nekipilloworange/nekipilloworangecover.png",
+			"sitPosition": [13.5, 23],
+			"frames": 1,
+			"animationCycle": 0.5,
+			"spaceScan": 0.1,
+			"direction": "right",
+			"anchors": ["bottom"]
+		}
+	],
+
+	"objectType": "loungeable",
+	"sitStatusEffects": ["nekipoof"]
+}

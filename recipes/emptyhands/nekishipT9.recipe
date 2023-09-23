@@ -1,0 +1,9 @@
+{
+	"input": [
+		{"item": "upgrademodule", "count": 12},
+		{"item": "finalpostcard-codex", "count": 1}
+	],
+
+	"output": {"item": "nekishipT9", "count": 1},
+	"groups": ["plain", "all"]
+}

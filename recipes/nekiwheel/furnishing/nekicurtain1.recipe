@@ -1,0 +1,8 @@
+{
+	"input": [
+		{"item": "classiccurtain1", "count": 1}
+	],
+
+	"output": {"item": "nekicurtain1", "count": 1},
+	"groups": ["nekiwheel", "furnishing"]
+}

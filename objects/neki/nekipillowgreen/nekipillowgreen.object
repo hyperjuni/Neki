@@ -1,0 +1,51 @@
+{
+	"objectName": "nekipillowgreen",
+	"colonyTags": ["neki"],
+	"rarity": "Common",
+	"category": "furniture",
+	"tooltipKind": "nekibase",
+	"price": 50,
+	"printable": false,
+	"description": "A green sleeping bag, stuffed with feathers.",
+	"shortdescription": "Neki Pillow - Green",
+	"race": "neki",
+
+	"apexDescription": "An interesting use for a sleeping bag.",
+	"avianDescription": "This pillow feels so comfortable, as if it were filed with...wait a minute...",
+	"floranDescription": "Ssstupid bag is now soft chair! Thisss make Floran happy!",
+	"glitchDescription": "Sarcasm. Lovely. Now it's even less useful.",
+	"humanDescription": "Why ruin a perfectly good green sleeping bag like that?!",
+	"hylotlDescription": "Neither the original nor this reimagining seem particularly comfortable to me.",
+	"nekiDescription": "This is much nicer than the silly green sack was.",
+	"novakidDescription": "I ain't seein' it, what's this good for?",
+
+	"inventoryIcon": "nekipillowgreenicon.png",
+	"orientations": [
+		{
+			"image": "nekipillowgreen.png",
+			"imagePosition": [0, 0],
+			"sitCoverImage": "/objects/neki/nekipillowgreen/nekipillowgreencover.png",
+			"sitPosition": [-14.5, 23],
+			"frames": 1,
+			"animationCycle": 0.5,
+			"spaceScan": 0.1,
+			"flipImages": true,
+			"direction": "left",
+			"anchors": ["bottom"]
+		},
+		{
+			"image": "nekipillowgreen.png",
+			"imagePosition": [0, 0],
+			"sitCoverImage": "/objects/neki/nekipillowgreen/nekipillowgreencover.png",
+			"sitPosition": [13.5, 23],
+			"frames": 1,
+			"animationCycle": 0.5,
+			"spaceScan": 0.1,
+			"direction": "right",
+			"anchors": ["bottom"]
+		}
+	],
+
+	"objectType": "loungeable",
+	"sitStatusEffects": ["nekipoof"]
+}

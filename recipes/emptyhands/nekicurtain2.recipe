@@ -1,8 +1,0 @@
-{
-	"input": [
-		{"item": "classiccurtain2", "count": 1}
-	],
-
-	"output": {"item": "nekicurtain2", "count": 1},
-	"groups": ["plain", "decoration", "all"]
-}

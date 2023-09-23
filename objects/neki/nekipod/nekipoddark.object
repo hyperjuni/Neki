@@ -1,0 +1,66 @@
+{
+	"objectName": "nekipoddark",
+	"colonyTags": ["neki","apexresearchlab","science","evil","light"],
+	"printable": false,
+	"rarity": "Essential",
+	"category": "furniture",
+	"tooltipKind": "nekibase",
+	"shortdescription": "Dark Neki Pod",
+	"description": "This life support pod allows the Neki to quickly revitalize themselves.",
+	"race": "neki",
+	"price": 275,
+
+	"apexDescription": "I've never seen a pod this large before, I wonder what it's meant to contain.",
+	"avianDescription": "This is dark science...",
+	"floranDescription": "Sssuch machines are unnatural.",
+	"glitchDescription": "Attentive. Machine appears to be life support for some unknown creature.",
+	"humanDescription": "Hey, this looks about the right size for me!",
+	"hylotlDescription": "It appears to be intended for some sort of creature, perhaps an aquatic one.",
+	"nekiDescription": "I love mother.",
+	"novakidDescription": "I ain't going near that.",
+
+	"objectType": "loungeable",
+	"sitPosition": [5,36],
+	"sitOrientation": "lay",
+	"sitAngle": 0,
+	"sitEmote": "sleep",
+	"sitCoverImage": "/objects/neki/nekipod/nekipodcover.png",
+	"sitStatusEffects": [
+		"regeneration4",
+		"nekipodgetin",
+		"nude"
+	],
+
+	"inventoryIcon": "nekipodicon.png",
+	"orientations": [
+		{
+			"image": "nekipoddark.png:<color>.<frame>",
+			"imagePosition": [-20, 0],
+			"frames": 12,
+			"animationCycle": 1.4,
+
+			"direction": "left",
+			"flipImages": true,
+			"animationPosition": [-16, 0],
+			"lightPosition": [0, 3],
+
+			"spaceScan": 0.1,
+			"anchors": ["bottom"]
+		},
+		{
+			"image": "nekipoddark.png:<color>.<frame>",
+			"imagePosition": [-16, 0],
+			"frames": 12,
+			"animationCycle": 1.4,
+
+			"direction": "right",
+			"animationPosition": [-16, 0],
+			"lightPosition": [0, 3],
+
+			"spaceScan": 0.1,
+			"anchors": ["bottom"]
+		}
+	],
+
+	"soundEffect": "/sfx/objects/apexpod.ogg"
+}

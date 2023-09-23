@@ -32,6 +32,10 @@ function init()
 	self.flashEffectTime = config.getParameter("flashEffectTime")
 
 	self.easterRate = config.getParameter("easterRate")
+    
+    self.holdingUp = false
+    self.holdingDown = false
+    self.doStun = false
 
 	self.groundOnly = config.getParameter("groundOnly")
 	self.doubleTapB = DoubleTap:new({"left", "right"}, config.getParameter("maximumDoubleTapTime"), function(hopKey)
@@ -81,7 +85,7 @@ function update(args)
 		and self.afterPounceCooldownTimer == 0
 		and groundValid()
 		and mcontroller.crouching()
-		and args.moves["up"]
+		and args.moves["up"] and not self.holdingUp
 		and not status.resourceLocked("energy")
 		--and status.resource("energy") >= self.energyCostPerPounce
 		and not status.statPositive("activeMovementAbilities") then
@@ -94,9 +98,13 @@ function update(args)
 		mcontroller.controlMove(self.pounceDirection, true)
 		mcontroller.controlModifiers({jumpingSuppressed = true})
 		animator.setFlipped(mcontroller.facingDirection() == -1)
-		if self.pounceTimer < self.pounceDuration and mcontroller.onGround() then
+        if not args.moves["down"] then self.doStun = false end
+		if self.pounceTimer < self.pounceDuration
+		and (mcontroller.onGround() or mcontroller.liquidPercentage() >= 0.5) then
 			if self.pounceDuration - self.pounceTimer >= self.pounceMinimumDuration then
-				stun()
+				if self.doStun and mcontroller.liquidPercentage() < 0.5 then
+					stun()
+				end
 			end
 			self.pounceTimer = 0
 			landingSound()
@@ -148,6 +156,9 @@ function update(args)
 			end
 		end
 	end
+    
+    self.holdingUp = not not args.moves["up"]
+    self.holdingDown = not not args.moves["down"]
 end
 
 function groundValid()
@@ -166,6 +177,7 @@ function startPounce(direction)
 	mcontroller.setVelocity({self.pounceSpeed*direction,self.pounceJump})
 	self.abilityActive = true
 	status.overConsumeResource("energy", self.energyCostPerPounce)
+    self.doStun = true
 end
 
 function stun()

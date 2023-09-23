@@ -1,0 +1,41 @@
+{
+	"objectName": "nekistoragelocker",
+	"colonyTags": ["neki","storage"],
+	"rarity": "Rare",
+	"category": "storage",
+	"price": 240,
+	"printable": false,
+	"objectType": "container",
+	"tooltipKind": "container",
+	"description": "A spacious wall-mounted locker, coated in a dark substance.",
+	"shortdescription": "Neki Storage Locker",
+	"race": "neki",
+	"health": 1.5,
+
+	"apexDescription": "This otherwise typical locker appears to have an unusual coating.",
+	"avianDescription": "A stealthy device that holds many items for safe keeping.",
+	"floranDescription": "Sssneaky storage.",
+	"glitchDescription": "Pleased. This ship's storage system is well concealed.",
+	"humanDescription": "A stealthy storage locker. Ninja stash!",
+	"hylotlDescription": "An inconspicuous storage solution.",
+	"nekiDescription": "A stealthy wallbox for stealthy wallsleeps.",
+	"novakidDescription": "A stealthy locker for stealthily puttin' things in.",
+
+	"inventoryIcon": "icon.png",
+	"orientations": [
+		{
+			"image": "nekistoragelocker.png:<color>.<key>",
+			"imagePosition": [-16, -8],
+			"spaceScan": 0.1,
+			"anchors": ["background"]
+		}
+	],
+
+	"openSounds": ["/sfx/objects/cropshipper_door_open.ogg"],
+	"closeSounds": ["/sfx/objects/cropshipper_door_close.ogg"],
+	"slotCount": 64,
+	"uiConfig": "/interface/chests/nekichest<slots>.config",
+	"frameCooldown": 5,
+	"openFrameIndex": 4,
+	"autoCloseCooldown": 3600
+}

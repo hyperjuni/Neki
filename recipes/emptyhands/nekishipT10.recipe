@@ -1,0 +1,9 @@
+{
+	"input": [
+		{"item": "upgrademodule", "count": 14},
+		{"item": "nekibedlavish", "count": 1}
+	],
+
+	"output": {"item": "nekishipT10", "count": 1},
+	"groups": ["plain", "all"]
+}

@@ -41,7 +41,7 @@
 		{
 			"image": "nekipod.png:<color>.<frame>",
 			"imagePosition": [-20, 0],
-			"frames": 13,
+			"frames": 12,
 			"animationCycle": 1.4,
 
 			"direction": "left",
@@ -55,7 +55,7 @@
 		{
 			"image": "nekipod.png:<color>.<frame>",
 			"imagePosition": [-16, 0],
-			"frames": 13,
+			"frames": 12,
 			"animationCycle": 1.4,
 
 			"direction": "right",

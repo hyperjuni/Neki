@@ -1,0 +1,51 @@
+{
+	"objectName": "nekipillowbrown",
+	"colonyTags": ["neki"],
+	"rarity": "Common",
+	"category": "furniture",
+	"tooltipKind": "nekibase",
+	"price": 50,
+	"printable": false,
+	"description": "A dark brown furry pillow, wrapped in an animal's hide.",
+	"shortdescription": "Neki Pillow - Brown",
+	"race": "neki",
+
+	"apexDescription": "A pillow wrapped in a thick, soft pelt.",
+	"avianDescription": "I suppose this is a better use for pelts than wall decorations.",
+	"floranDescription": "Floran approvesss of pillow made from ssspoils of the hunt.",
+	"glitchDescription": "Unnerved: Is it considered stylish to cover furniture in the skin of animals?",
+	"humanDescription": "Pretty sure my grandfather had one that looked just like that.",
+	"hylotlDescription": "A gruesome display of the needless slaughter of innocent creatures. Absolutely revolting.",
+	"nekiDescription": "I bet the original creature looked just like that.",
+	"novakidDescription": "Fur burns really well.",
+
+	"inventoryIcon": "nekipillowbrownicon.png",
+	"orientations": [
+		{
+			"image": "nekipillowbrown.png",
+			"imagePosition": [0, 0],
+			"sitCoverImage": "/objects/neki/nekipillowbrown/nekipillowbrowncover.png",
+			"sitPosition": [-14.5, 23],
+			"frames": 1,
+			"animationCycle": 0.5,
+			"spaceScan": 0.1,
+			"flipImages": true,
+			"direction": "left",
+			"anchors": ["bottom"]
+		},
+		{
+			"image": "nekipillowbrown.png",
+			"imagePosition": [0, 0],
+			"sitCoverImage": "/objects/neki/nekipillowbrown/nekipillowbrowncover.png",
+			"sitPosition": [13.5, 23],
+			"frames": 1,
+			"animationCycle": 0.5,
+			"spaceScan": 0.1,
+			"direction": "right",
+			"anchors": ["bottom"]
+		}
+	],
+
+	"objectType": "loungeable",
+	"sitStatusEffects": ["nekipoof"]
+}
