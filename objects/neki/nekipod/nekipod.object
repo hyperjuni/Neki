@@ -20,12 +20,14 @@
 	"novakidDescription": "I ain't going near that.",
 
 	"objectType": "loungeable",
-	"sitPosition": [5,36],
 	"sitOrientation": "lay",
 	"sitAngle": 0,
 	"sitEmote": "sleep",
 	"sitCoverImage": "/objects/neki/nekipod/nekipodcover.png",
 	"sitStatusEffects": [
+		"nekipodfireblock",
+		"nekipodiceblock",
+		"nekipodpoisonblock",
 		"regeneration4",
 		"nekipodgetin",
 		"nude"
@@ -40,7 +42,8 @@
 	"orientations": [
 		{
 			"image": "nekipod.png:<color>.<frame>",
-			"imagePosition": [-20, 0],
+			"imagePosition": [-22, 0],
+			"sitPosition": [8.5,36],
 			"frames": 12,
 			"animationCycle": 1.4,
 
@@ -54,7 +57,8 @@
 		},
 		{
 			"image": "nekipod.png:<color>.<frame>",
-			"imagePosition": [-16, 0],
+			"imagePosition": [-22, 0],
+			"sitPosition": [0.5,36],
 			"frames": 12,
 			"animationCycle": 1.4,
 

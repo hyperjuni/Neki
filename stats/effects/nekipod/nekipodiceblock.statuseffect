@@ -1,0 +1,7 @@
+{
+	"name": "nekipodiceblock",
+	"effectConfig": {},
+	"defaultDuration": 60,
+
+	"scripts": ["/stats/effects/iceblock/iceblock.lua"]
+}

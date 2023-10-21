@@ -1,0 +1,7 @@
+{
+	"name": "nekipodpoisonblock",
+	"effectConfig": {},
+	"defaultDuration": 60,
+
+	"scripts": ["/stats/effects/poisonblock/poisonblock.lua"]
+}

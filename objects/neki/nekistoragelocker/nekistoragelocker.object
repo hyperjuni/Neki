@@ -36,6 +36,6 @@
 	"slotCount": 64,
 	"uiConfig": "/interface/chests/nekichest<slots>.config",
 	"frameCooldown": 5,
-	"openFrameIndex": 4,
+	"openFrameIndex": 7,
 	"autoCloseCooldown": 3600
 }

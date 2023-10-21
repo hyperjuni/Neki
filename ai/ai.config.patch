@@ -1,9 +1,9 @@
 [
-	{"op": "add", "path": "/species/neki",
+	{"op": "add",	"path": "/species/neki",
 		"value": {
-			"aiFrames": "apexAi.png",
-			"portraitFrames": "portraits/apexportrait.png",
-			"staticFrames": "staticApex.png"
+			"aiFrames": "NekiAI.png",
+			"portraitFrames": "portraits/nekiportrait.png",
+			"staticFrames": "staticNeki.png"
 		}
 	}
 ]

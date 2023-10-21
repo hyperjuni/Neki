@@ -3,7 +3,7 @@
 	"colonyTags": ["neki","apexresearchlab","science","evil","light"],
 	"printable": false,
 	"rarity": "Essential",
-	"category": "furniture",
+	"category": "decorative",
 	"tooltipKind": "nekibase",
 	"shortdescription": "Dark Neki Pod",
 	"description": "This life support pod allows the Neki to quickly revitalize themselves.",
@@ -23,7 +23,7 @@
 	"orientations": [
 		{
 			"image": "nekipoddark.png:<color>.<frame>",
-			"imagePosition": [-20, 0],
+			"imagePosition": [-22, 0],
 			"frames": 12,
 			"animationCycle": 1.4,
 
@@ -37,7 +37,7 @@
 		},
 		{
 			"image": "nekipoddark.png:<color>.<frame>",
-			"imagePosition": [-16, 0],
+			"imagePosition": [-22, 0],
 			"frames": 12,
 			"animationCycle": 1.4,
 
@@ -48,5 +48,9 @@
 			"spaceScan": 0.1,
 			"anchors": ["bottom"]
 		}
-	]
+	],
+	
+	"animation": "/objects/noisy/noisy.animation",
+	"scripts": ["/objects/noisy/noisy.lua"],
+	"sounds": ["/sfx/interface/clickon_error.ogg"]
 }

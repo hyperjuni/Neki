@@ -1,0 +1,201 @@
+[
+// If Human dialogue doesn't exist, add it
+	[
+		{"op": "test", "path": "/merchantStart/human", "inverse": true},
+		{"op": "add", "path": "/merchantStart/human", "value": {}},
+		{"op": "add", "path": "/merchantStart/human/default",
+			"value": [
+				"Welcome to my shop!",
+				"See anything you like?",
+				"What can I help you with?"
+			]
+		}
+	],
+	[
+		{"op": "test", "path": "/follow/human", "inverse": true},
+		{"op": "add", "path": "/follow/human", "value": {}},
+		{"op": "add", "path": "/follow/human/default",
+			"value": [
+				"Come with me, we can do business in my shop!",
+				"Come in, come in and see what I've got!"
+			]
+		}
+	],
+	[
+		{"op": "test", "path": "/tout/human", "inverse": true},
+		{"op": "add", "path": "/tout/human", "value": {}},
+		{"op": "add", "path": "/tout/human/default",
+			"value": [
+				"Goods for sale!",
+				"Hey you, come check out my amazing wares!",
+				"Best deals around!",
+				"Cheap buys!"
+			]
+		}
+	],
+
+	[
+	// merchantStart
+		{"op": "add", "path": "/merchantStart/floran/neki",
+			"value": [
+				"Floran happy Neki chose to shop at Floran's ssstore!",
+				"Show Floran what Neki got from all the clawing!",
+				"Floran has thingsss to help Neki hunt better!",
+				"Floran welcomess Neki to Floran's ssstore."
+			]
+		},
+		{"op": "add", "path": "/merchantStart/human/neki",
+			"value": [
+				"All of your stuff is worthless anyway, let me find better uses for it.",
+				"Of all the stores, you had to come to mine...",
+				"Just buy whatever you need and get lost.",
+				"This better be worth my time, fleabag.",
+				"A customer's a customer, I guess."
+			]
+		},
+	
+	// merchantEnd
+		{"op": "add", "path": "/merchantEnd/apex/neki",
+			"value": [
+				"I wish more Miniknog Agents were like you.",
+				"Thank you for not arresting me today.",
+				"I appreciate your discretion, Agent.",
+				"I'm so glad this went smoothly."
+			]
+		},
+		{"op": "add", "path": "/merchantEnd/human/neki",
+			"value": [
+				"That's how you do business? How typical of your kind.",
+				"I don't wanna know where you got all this garbage.",
+				"If you break anything, I'll break your face.",
+				"Go do business somewhere else, furball.",
+				"This has been the lousiest deal ever.",
+				"Yuck, these pixels smell of cat piss.",
+				"Pfft, what a waste of my time.",
+				"Come to sell me more junk?",
+				"Now get lost."
+			]
+		},
+	
+	// follow
+		{"op": "add", "path": "/follow/apex/neki",
+			"value": [
+				"I have only legal goods, I assure you - come inspect them yourself.",
+				"Psst, Agent... I have things that may interest you.",
+				"Follow me, agent - you won't regret it."
+			]
+		},
+		{"op": "add", "path": "/follow/human/neki",
+			"value": [
+				"I'm trying to figure out whether you even have any pixels.",
+				"What is that awful smell? I love it.",
+				"Come with me over there, kitty."
+			]
+		},
+	
+	// welcome
+		{"op": "add", "path": "/welcome/human/neki",
+			"value": [
+				"Alright, time to empty your pockets.",
+				"Now, about that beer I owe you...",
+				"Now that we're alone..."
+			]
+		},
+	
+	// tout
+		{"op": "add", "path": "/tout/apex/neki",
+			"value": [
+				"Would a valiant Miniknog agent like yourself be interested in my wares?",
+				"I can ensure you that all of my goods are perfectly legal!",
+				"I've never traded anything unsanctioned, I swear!",
+				"You're not here to arrest me, are you?"
+			]
+		},
+		{"op": "add", "path": "/tout/human/neki",
+			"value": [
+				"I have the best... whatever it is your kind likes.",
+				"Kitty wants some murder weapons?",
+				"Here, kitty kitty kitty!",
+				"Kitty wants a snack?",
+				"Kitty wants a toy?"
+			]
+		},
+	
+	// tagCriteria
+		{"op": "add", "path": "/tagCriteria/human/neki",
+			"value": [
+				"If you touch anything in here again, my foot will be so deep up your ass..",
+				"What in the hell do you think you're doing?!",
+				"If you do that again, I swear to god...",
+				"Get your filthy paws off my things!"
+			]
+		},
+	
+	// enclosedArea
+		{"op": "add", "path": "/enclosedArea/human/neki",
+			"value": [
+				"This is my store, not whatever stinky box you live in. I don't need holes in here.",
+				"If you don't fix the holes in my walls, there will be holes in your face!",
+				"I'll plug that hole with your ass if you don't fix it at once!",
+				"Really?! Holes in the walls?!"
+			]
+		},
+	
+	// otherDeed
+		{"op": "add", "path": "/otherDeed/human/neki",
+			"value": [
+				"Living in a cramped box with others may be YOUR thing, but I'm NOT an animal!",
+				"There will be dire consequences if you move somebody else in here!",
+				"What is this crap? I will not stand for this!",
+				"I work alone, furball - get that outta here!"
+			]
+		},
+	
+	// severe
+		{"op": "add", "path": "/severe/human/neki",
+			"value": [
+				"What's good enough for you doesn't work for me, fix it immediately!",
+				"I'm asking you ONE LAST TIME, fix it before I lose it!",
+				"I'm THIS close to calling it quits, furball.",
+				"I'm getting real tired of your crap."
+			]
+		},
+	
+	// final
+		{"op": "add", "path": "/final/apex/neki",
+			"value": [
+				"I don't know why I expected any better from you in the first place. Good bye.",
+				"I was foolish to have expected any better from a product of the Miniknog.",
+				"You're as bad as they say, and I was wrong to have put any trust in you.",
+				"Never again will I do business with a Neki. So long."
+			]
+		},
+		{"op": "add", "path": "/final/human/neki",
+			"value": [
+				"Don't know what I expected from an uncultured animal like you.",
+				"I knew coming to one of you was a bad idea. Never again.",
+				"I've had enough of your crap, furball. I'm leaving.",
+				"Righto, piss off and peace out."
+			]
+		},
+	
+	// beacon
+		{"op": "add", "path": "/beacon/human/neki",
+			"value": [
+				"What junk do you have for me this time?",
+				"You better buy something this time.",
+				"This better be important.",
+				"What do you want?"
+			]
+		},
+	
+	// rent
+		{"op": "add", "path": "/rent/human/neki",
+			"value": [
+				"Take this, before I change my mind.",
+				"Yeah, I guess you can have this.",
+				"This is all you deserve, really."
+			]
+		}
+	]
+]

@@ -1,0 +1,8 @@
+{
+	"input": [
+		{"item": "peacekeeperpants", "count": 1},
+		{"item": "nekinightie", "count": 1}
+	],
+	"output": {"item": "nekipeacekeeperuniform", "count": 1},
+	"groups": ["nekiwheel", "clothes"]
+}

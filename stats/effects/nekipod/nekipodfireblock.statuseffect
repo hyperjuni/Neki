@@ -1,0 +1,7 @@
+{
+	"name": "nekipodfireblock",
+	"effectConfig": {},
+	"defaultDuration": 60,
+
+	"scripts": ["/stats/effects/fireblock/fireblock.lua"]
+}
