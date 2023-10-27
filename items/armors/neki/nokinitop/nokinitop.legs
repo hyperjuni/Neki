@@ -9,7 +9,7 @@
 	"shortdescription": "Nokini Top",
 	"tooltipKind": "nekiarmor",
 	
-	"maleFrames": "/items/armors/neki/nekinitop/pantsm.png",
+	"maleFrames": "pantsm.png",
 	"femaleFrames": "pantsf.png",
 	
 	"colorOptions": [

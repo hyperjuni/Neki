@@ -9,7 +9,7 @@
 	"shortdescription": "Neki Noughtie",
 	"tooltipKind": "nekiarmor",
 	
-	"maleFrames": "/items/armors/neki/nekinightie/pantsm.png",
+	"maleFrames": "pantsm.png",
 	"femaleFrames": "pantsf.png",
 	
 	"colorOptions": [

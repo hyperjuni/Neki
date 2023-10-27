@@ -26,6 +26,32 @@
 			"femaleFrames": "head.png",
 			"mask": "mask.png",
 			"rarity": "Legendary"
+		},
+		{
+			"path":  "/items/armors/neki/nekipeacekeeper/",
+			"fileName": "nekipeacekeeper.head",
+			"category": "head",
+			"name": "nekipeacekeeperhead",
+			"shortdescription": "Neki Peacekeeper Hat",
+			"icon": "icons.png:head",
+			"maleFrames": "head.png",
+			"femaleFrames": "head.png",
+			"mask": "mask.png",
+			"rarity": "Uncommon",
+			"colorOptions": [
+				{"ffca8a": "7db8d6", "e0975c": "5588ab", "a85636": "325a81", "6f2919": "1c3553"},
+				{"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
+				{"ffca8a": "b5b5b5", "e0975c": "808080", "a85636": "555555", "6f2919": "303030"},
+				{"ffca8a": "e6e6e6", "e0975c": "b6b6b6", "a85636": "7b7b7b", "6f2919": "373737"},
+				{"ffca8a": "f4988c", "e0975c": "d93a3a", "a85636": "932625", "6f2919": "601119"},
+				{"ffca8a": "ffd495", "e0975c": "ea9931", "a85636": "af4e00", "6f2919": "6e2900"},
+				{"ffca8a": "ffffa7", "e0975c": "e2c344", "a85636": "a46e06", "6f2919": "642f00"},
+				{"ffca8a": "b2e89d", "e0975c": "51bd3b", "a85636": "247824", "6f2919": "144216"},
+				{"ffca8a": "96cbe7", "e0975c": "5588d4", "a85636": "344495", "6f2919": "1a1c51"},
+				{"ffca8a": "d29ce7", "e0975c": "a451c4", "a85636": "6a2284", "6f2919": "320c40"},
+				{"ffca8a": "eab3db", "e0975c": "d35eae", "a85636": "97276d", "6f2919": "59163f"},
+				{"ffca8a": "ccae7c", "e0975c": "a47844", "a85636": "754c23", "6f2919": "472b13"}
+			]
 		}
 	],
 
@@ -188,6 +214,40 @@
 				{"ffca8a": "eab3db", "e0975c": "d35eae", "a85636": "97276d", "6f2919": "59163f"},
 				{"ffca8a": "ccae7c", "e0975c": "a47844", "a85636": "754c23", "6f2919": "472b13"}
 			]
+		},
+		{
+			"path": "/items/armors/neki/nekipeacekeeper/",
+			"fileName": "nekipeacekeeper.chest",
+			"category": "chest",
+			"name": "nekipeacekeepersleeves",
+			"shortdescription": "Neki Peacekeeper Pads",
+			"icon": "icons.png:chest",
+			"maleFrames": {
+				"body": "chestm.png",
+				"backSleeve": "bsleeve.png",
+				"frontSleeve": "fsleeve.png"
+			},
+			"femaleFrames": {
+				"body": "chestf.png",
+				"backSleeve": "bsleeve.png",
+				"frontSleeve": "fsleeve.png"
+			},
+			"mask": null,
+			"rarity": "Uncommon",
+			"colorOptions": [
+				{"ffca8a": "7db8d6", "e0975c": "5588ab", "a85636": "325a81", "6f2919": "1c3553"},
+				{"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
+				{"ffca8a": "b5b5b5", "e0975c": "808080", "a85636": "555555", "6f2919": "303030"},
+				{"ffca8a": "e6e6e6", "e0975c": "b6b6b6", "a85636": "7b7b7b", "6f2919": "373737"},
+				{"ffca8a": "f4988c", "e0975c": "d93a3a", "a85636": "932625", "6f2919": "601119"},
+				{"ffca8a": "ffd495", "e0975c": "ea9931", "a85636": "af4e00", "6f2919": "6e2900"},
+				{"ffca8a": "ffffa7", "e0975c": "e2c344", "a85636": "a46e06", "6f2919": "642f00"},
+				{"ffca8a": "b2e89d", "e0975c": "51bd3b", "a85636": "247824", "6f2919": "144216"},
+				{"ffca8a": "96cbe7", "e0975c": "5588d4", "a85636": "344495", "6f2919": "1a1c51"},
+				{"ffca8a": "d29ce7", "e0975c": "a451c4", "a85636": "6a2284", "6f2919": "320c40"},
+				{"ffca8a": "eab3db", "e0975c": "d35eae", "a85636": "97276d", "6f2919": "59163f"},
+				{"ffca8a": "ccae7c", "e0975c": "a47844", "a85636": "754c23", "6f2919": "472b13"}
+			]
 		}
 	],
 
@@ -286,11 +346,63 @@
 			]
 		},
 		{
+			"path": "/items/armors/neki/nokinibottom/",
+			"fileName": "nokinibottom.legs",
+			"category": "legs",
+			"name": "nokinibottom",
+			"shortdescription": "Nokini Bottom",
+			"icon": "icons.png:pants",
+			"maleFrames": "pantsm.png",
+			"femaleFrames": "pantsf.png",
+			"mask": null,
+			"rarity": "Rare",
+			"colorOptions": [
+				{"ffca8a": "ffffff", "e0975c": "e6e6e6", "a85636": "b4b4b4", "6f2919": "7b7b7b"},
+				{"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
+				{"ffca8a": "b5b5b5", "e0975c": "808080", "a85636": "555555", "6f2919": "303030"},
+				{"ffca8a": "e6e6e6", "e0975c": "b6b6b6", "a85636": "7b7b7b", "6f2919": "373737"},
+				{"ffca8a": "f4988c", "e0975c": "d93a3a", "a85636": "932625", "6f2919": "601119"},
+				{"ffca8a": "ffd495", "e0975c": "ea9931", "a85636": "af4e00", "6f2919": "6e2900"},
+				{"ffca8a": "ffffa7", "e0975c": "e2c344", "a85636": "a46e06", "6f2919": "642f00"},
+				{"ffca8a": "b2e89d", "e0975c": "51bd3b", "a85636": "247824", "6f2919": "144216"},
+				{"ffca8a": "96cbe7", "e0975c": "5588d4", "a85636": "344495", "6f2919": "1a1c51"},
+				{"ffca8a": "d29ce7", "e0975c": "a451c4", "a85636": "6a2284", "6f2919": "320c40"},
+				{"ffca8a": "eab3db", "e0975c": "d35eae", "a85636": "97276d", "6f2919": "59163f"},
+				{"ffca8a": "ccae7c", "e0975c": "a47844", "a85636": "754c23", "6f2919": "472b13"}
+			]
+		},
+		{
 			"path": "/items/armors/neki/nekinitop/",
 			"fileName": "nekinitop.legs",
 			"category": "legs",
 			"name": "nekinitop",
 			"shortdescription": "Nekini Top",
+			"icon": "icons.png:pants",
+			"maleFrames": "pantsm.png",
+			"femaleFrames": "pantsf.png",
+			"mask": null,
+			"rarity": "Rare",
+			"colorOptions": [
+				{"ffca8a": "ffffff", "e0975c": "e6e6e6", "a85636": "b4b4b4", "6f2919": "7b7b7b"},
+				{"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
+				{"ffca8a": "b5b5b5", "e0975c": "808080", "a85636": "555555", "6f2919": "303030"},
+				{"ffca8a": "e6e6e6", "e0975c": "b6b6b6", "a85636": "7b7b7b", "6f2919": "373737"},
+				{"ffca8a": "f4988c", "e0975c": "d93a3a", "a85636": "932625", "6f2919": "601119"},
+				{"ffca8a": "ffd495", "e0975c": "ea9931", "a85636": "af4e00", "6f2919": "6e2900"},
+				{"ffca8a": "ffffa7", "e0975c": "e2c344", "a85636": "a46e06", "6f2919": "642f00"},
+				{"ffca8a": "b2e89d", "e0975c": "51bd3b", "a85636": "247824", "6f2919": "144216"},
+				{"ffca8a": "96cbe7", "e0975c": "5588d4", "a85636": "344495", "6f2919": "1a1c51"},
+				{"ffca8a": "d29ce7", "e0975c": "a451c4", "a85636": "6a2284", "6f2919": "320c40"},
+				{"ffca8a": "eab3db", "e0975c": "d35eae", "a85636": "97276d", "6f2919": "59163f"},
+				{"ffca8a": "ccae7c", "e0975c": "a47844", "a85636": "754c23", "6f2919": "472b13"}
+			]
+		},
+		{
+			"path": "/items/armors/neki/nokinitop/",
+			"fileName": "nokinitop.legs",
+			"category": "legs",
+			"name": "nokinitop",
+			"shortdescription": "Nokini Top",
 			"icon": "icons.png:pants",
 			"maleFrames": "pantsm.png",
 			"femaleFrames": "pantsf.png",
@@ -338,6 +450,32 @@
 			]
 		},
 		{
+			"path": "/items/armors/neki/nokini/",
+			"fileName": "nokini.legs",
+			"category": "legs",
+			"name": "nokini",
+			"shortdescription": "Nokini",
+			"icon": "icons.png:pants",
+			"maleFrames": "pantsm.png",
+			"femaleFrames": "pantsf.png",
+			"mask": null,
+			"rarity": "Rare",
+			"colorOptions": [
+				{"ffca8a": "ffffff", "e0975c": "e6e6e6", "a85636": "b4b4b4", "6f2919": "7b7b7b"},
+				{"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
+				{"ffca8a": "b5b5b5", "e0975c": "808080", "a85636": "555555", "6f2919": "303030"},
+				{"ffca8a": "e6e6e6", "e0975c": "b6b6b6", "a85636": "7b7b7b", "6f2919": "373737"},
+				{"ffca8a": "f4988c", "e0975c": "d93a3a", "a85636": "932625", "6f2919": "601119"},
+				{"ffca8a": "ffd495", "e0975c": "ea9931", "a85636": "af4e00", "6f2919": "6e2900"},
+				{"ffca8a": "ffffa7", "e0975c": "e2c344", "a85636": "a46e06", "6f2919": "642f00"},
+				{"ffca8a": "b2e89d", "e0975c": "51bd3b", "a85636": "247824", "6f2919": "144216"},
+				{"ffca8a": "96cbe7", "e0975c": "5588d4", "a85636": "344495", "6f2919": "1a1c51"},
+				{"ffca8a": "d29ce7", "e0975c": "a451c4", "a85636": "6a2284", "6f2919": "320c40"},
+				{"ffca8a": "eab3db", "e0975c": "d35eae", "a85636": "97276d", "6f2919": "59163f"},
+				{"ffca8a": "ccae7c", "e0975c": "a47844", "a85636": "754c23", "6f2919": "472b13"}
+			]
+		},
+		{
 			"path": "/items/armors/neki/nekistrapless/",
 			"fileName": "nekistrapless.legs",
 			"category": "legs",
@@ -364,11 +502,63 @@
 			]
 		},
 		{
+			"path": "/items/armors/neki/nekistripless/",
+			"fileName": "nekistripless.legs",
+			"category": "legs",
+			"name": "nekistripless",
+			"shortdescription": "Neki Stripless",
+			"icon": "icons.png:pants",
+			"maleFrames": "pantsm.png",
+			"femaleFrames": "pantsf.png",
+			"mask": null,
+			"rarity": "Rare",
+			"colorOptions": [
+				{"ffca8a": "ffffff", "e0975c": "e6e6e6", "a85636": "b4b4b4", "6f2919": "7b7b7b"},
+				{"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
+				{"ffca8a": "b5b5b5", "e0975c": "808080", "a85636": "555555", "6f2919": "303030"},
+				{"ffca8a": "e6e6e6", "e0975c": "b6b6b6", "a85636": "7b7b7b", "6f2919": "373737"},
+				{"ffca8a": "f4988c", "e0975c": "d93a3a", "a85636": "932625", "6f2919": "601119"},
+				{"ffca8a": "ffd495", "e0975c": "ea9931", "a85636": "af4e00", "6f2919": "6e2900"},
+				{"ffca8a": "ffffa7", "e0975c": "e2c344", "a85636": "a46e06", "6f2919": "642f00"},
+				{"ffca8a": "b2e89d", "e0975c": "51bd3b", "a85636": "247824", "6f2919": "144216"},
+				{"ffca8a": "96cbe7", "e0975c": "5588d4", "a85636": "344495", "6f2919": "1a1c51"},
+				{"ffca8a": "d29ce7", "e0975c": "a451c4", "a85636": "6a2284", "6f2919": "320c40"},
+				{"ffca8a": "eab3db", "e0975c": "d35eae", "a85636": "97276d", "6f2919": "59163f"},
+				{"ffca8a": "ccae7c", "e0975c": "a47844", "a85636": "754c23", "6f2919": "472b13"}
+			]
+		},
+		{
 			"path": "/items/armors/neki/nekinightie/",
 			"fileName": "nekinightie.legs",
 			"category": "legs",
 			"name": "nekinightie",
 			"shortdescription": "Neki Nightie",
+			"icon": "icons.png:pants",
+			"maleFrames": "pantsm.png",
+			"femaleFrames": "pantsf.png",
+			"mask": null,
+			"rarity": "Rare",
+			"colorOptions": [
+				{"ffca8a": "ffffff", "e0975c": "e6e6e6", "a85636": "b4b4b4", "6f2919": "7b7b7b"},
+				{"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
+				{"ffca8a": "b5b5b5", "e0975c": "808080", "a85636": "555555", "6f2919": "303030"},
+				{"ffca8a": "e6e6e6", "e0975c": "b6b6b6", "a85636": "7b7b7b", "6f2919": "373737"},
+				{"ffca8a": "f4988c", "e0975c": "d93a3a", "a85636": "932625", "6f2919": "601119"},
+				{"ffca8a": "ffd495", "e0975c": "ea9931", "a85636": "af4e00", "6f2919": "6e2900"},
+				{"ffca8a": "ffffa7", "e0975c": "e2c344", "a85636": "a46e06", "6f2919": "642f00"},
+				{"ffca8a": "b2e89d", "e0975c": "51bd3b", "a85636": "247824", "6f2919": "144216"},
+				{"ffca8a": "96cbe7", "e0975c": "5588d4", "a85636": "344495", "6f2919": "1a1c51"},
+				{"ffca8a": "d29ce7", "e0975c": "a451c4", "a85636": "6a2284", "6f2919": "320c40"},
+				{"ffca8a": "eab3db", "e0975c": "d35eae", "a85636": "97276d", "6f2919": "59163f"},
+				{"ffca8a": "ccae7c", "e0975c": "a47844", "a85636": "754c23", "6f2919": "472b13"}
+			]
+		},
+		{
+			"path": "/items/armors/neki/nekinoughtie/",
+			"fileName": "nekinoughtie.legs",
+			"category": "legs",
+			"name": "nekinoughtie",
+			"shortdescription": "Neki Noughtie",
 			"icon": "icons.png:pants",
 			"maleFrames": "pantsm.png",
 			"femaleFrames": "pantsf.png",
@@ -428,6 +618,32 @@
 			"rarity": "Rare",
 			"colorOptions": [
 				{"ffca8a": "ffffff", "e0975c": "e6e6e6", "a85636": "b4b4b4", "6f2919": "7b7b7b"},
+				{"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
+				{"ffca8a": "b5b5b5", "e0975c": "808080", "a85636": "555555", "6f2919": "303030"},
+				{"ffca8a": "e6e6e6", "e0975c": "b6b6b6", "a85636": "7b7b7b", "6f2919": "373737"},
+				{"ffca8a": "f4988c", "e0975c": "d93a3a", "a85636": "932625", "6f2919": "601119"},
+				{"ffca8a": "ffd495", "e0975c": "ea9931", "a85636": "af4e00", "6f2919": "6e2900"},
+				{"ffca8a": "ffffa7", "e0975c": "e2c344", "a85636": "a46e06", "6f2919": "642f00"},
+				{"ffca8a": "b2e89d", "e0975c": "51bd3b", "a85636": "247824", "6f2919": "144216"},
+				{"ffca8a": "96cbe7", "e0975c": "5588d4", "a85636": "344495", "6f2919": "1a1c51"},
+				{"ffca8a": "d29ce7", "e0975c": "a451c4", "a85636": "6a2284", "6f2919": "320c40"},
+				{"ffca8a": "eab3db", "e0975c": "d35eae", "a85636": "97276d", "6f2919": "59163f"},
+				{"ffca8a": "ccae7c", "e0975c": "a47844", "a85636": "754c23", "6f2919": "472b13"}
+			]
+		},
+		{
+			"path": "/items/armors/neki/nekipeacekeeper/",
+			"fileName": "nekipeacekeeper.legs",
+			"category": "legs",
+			"name": "nekipeacekeeperuniform",
+			"shortdescription": "Neki Peacekeeper Uniform",
+			"icon": "icons.png:pants",
+			"maleFrames": "pantsm.png",
+			"femaleFrames": "pantsf.png",
+			"mask": null,
+			"rarity": "Uncommon",
+			"colorOptions": [
+				{"ffca8a": "7db8d6", "e0975c": "5588ab", "a85636": "325a81", "6f2919": "1c3553"},
 				{"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
 				{"ffca8a": "b5b5b5", "e0975c": "808080", "a85636": "555555", "6f2919": "303030"},
 				{"ffca8a": "e6e6e6", "e0975c": "b6b6b6", "a85636": "7b7b7b", "6f2919": "373737"},

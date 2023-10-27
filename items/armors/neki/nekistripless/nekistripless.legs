@@ -9,7 +9,7 @@
 	"shortdescription": "Neki Stripless",
 	"tooltipKind": "nekiarmor",
 	
-	"maleFrames": "/items/armors/neki/nekistrapless/pantsm.png",
+	"maleFrames": "pantsm.png",
 	"femaleFrames": "pantsf.png",
 	
 	"colorOptions": [
