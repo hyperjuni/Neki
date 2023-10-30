@@ -69,8 +69,7 @@
 	"statusControllerSettings": {
 		"stats": {
 			"powerMultiplier": {"baseValue": 0.8},
-			"protection": {"baseValue": 2.0},
-			"healthRegen": {"baseValue": 1.0}
+			"protection": {"baseValue": 1.5}
 		}
 	}
 }
