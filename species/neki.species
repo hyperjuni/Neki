@@ -3,7 +3,30 @@
 		"charCreationTooltip": {
 			"title": "Neki",
 			"subTitle": "Welcome to my purrivate parts...",
-			"description": "Despite appearances, the Neki can be anything but adorable. Rumored to be a human project ending up in the wrong hands, they're more akin to wild animals than their alleged creators."
+			"description": "Despite appearances, the Neki can be anything but adorable. Rumored to be a human project ending up in the wrong hands, they're more akin to wild animals than their alleged creators.
+^cyan;Racial attributes available by installing Race Traits.^reset;
+
+    ^yellow;Attributes^reset;
+^cyan;Max Health^reset;: ^red;-25%^reset;
+^cyan;Max Energy^reset;: ^green;+50%^reset;
+^cyan;Energy Regen^reset;: ^green;+25%^reset;
+^cyan;Attack Multiplier^reset;: ^red;-15%^reset;
+Defense: -
+    ^yellow;Resistances^reset;
+^cyan;Fire Resistance^reset;: ^red;-15%^reset;
+Electric Resistance: -
+^cyan;Poison Resistance^reset;: ^green;+10%^reset;
+^cyan;Ice Resistance^reset;: ^green;+15%^reset;
+^cyan;Physical Resistance^reset;: ^red;-15%^reset;
+    ^yellow;Immunities^reset;
+^green;Food Poisoning, Frost, Slow^reset;
+    ^yellow;Racial Benefits^reset;
+^green;Swim Boost (Alternate), Health Regen^reset;
+    ^yellow;Extra Stats^reset;
+^cyan;Movement Speed^reset;: ^green;+18%^reset;
+^cyan;Jump Height^reset;: ^green;+30%^reset;
+^cyan;Fall Damage^reset; ^green;-40%^reset;
+^cyan;Hunger Rate^reset;: ^red;+50%^reset;"
 		},
 
 	"nameGen": ["/species/nekimalenamegen.config:names", "/species/nekifemalenamegen.config:names"],
@@ -631,7 +654,7 @@
 	"undyColor": [
 	// Eye/Accessory Color	
 		{"F32200": "505050", "DC1F00": "343434", "BE1B00": "202020", "951500": "000000"},	// Black
-		{"F32200": "6b6182", "DC1F00": "3d3d5d", "BE1B00": "343f52", "951500": "17232d"},	// Lilac Blue
+		{"F32200": "6b6182", "DC1F00": "3d3d5d", "BE1B00": "2c3047", "951500": "17232d"},	// Lilac Blue
 		{"F32200": "a97e39", "DC1F00": "81572a", "BE1B00": "56341b", "951500": "2c160a"},	// Brown Dark
 		{"F32200": "804f30", "DC1F00": "603429", "BE1B00": "481c0e", "951500": "170a06"},	// Brown
 		{"F32200": "993f00", "DC1F00": "661900", "BE1B00": "460500", "951500": "150200"},	// Red Dark

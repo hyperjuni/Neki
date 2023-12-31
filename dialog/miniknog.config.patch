@@ -1,15 +1,15 @@
 [
 	{"op": "add", "path": "/converse/default/neki",
 		"value": [
-			"Loyalty to the Miniknog, agent.",
-			"I bow to the might of the Miniknog.",
-			"Welcome, agent. Do you require assistance?",
 			"I won't interfere, agent, unless you disturb the peace.",
 			"You are free to act, agent, but try not to make a mess.",
 			"I'm loyal to Big Ape, and comply with his directives.",
 			"You do your thing, and I'll be keeping the peace.",
 			"Conform to the directive of conduct, please.",
+			"Welcome, agent. Do you require assistance?",
+			"I bow to the might of the Miniknog.",
 			"I trust the judgement of Big Ape.",
+			"Loyalty to the Miniknog, agent.",
 			"Big Ape is guiding you well."
 		]
 	}
