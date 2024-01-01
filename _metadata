@@ -1,10 +1,10 @@
 {
   "author" : "Juni",
   "friendlyName" : "Neki",
-  "includes" : ["bk3k_Techs", "bk3k_techHelper", "Elithian_Races_Mod", "Extended GUI", "MadTulips Spaceship Mod", "NekiText", "NekiTulips", "Tech Additions", "The Starforge v1.0", "Wardrobe", "Windy Race [Health 1 Race]"],
+  "includes" : ["bk3k_Techs", "bk3k_techHelper", "Elithian_Races_Mod", "Extended GUI", "MadTulips Spaceship Mod", "NekiText", "NekiTulips", "OmRaceTraits", "Tech Additions", "The Starforge v1.0", "Wardrobe", "Windy Race [Health 1 Race]"],
   "link" : "steam://url/CommunityFilePage/2611501999",
   "name" : "Neki",
   "steamContentId" : "2611501999",
   "tags" : "NPCs and Creatures|Weapons|Ships|Species|User Interface|Furniture and Objects|Mechanics|Armor and Clothes",
-  "version" : "0.97.2"
+  "version" : "0.97.5"
 }
