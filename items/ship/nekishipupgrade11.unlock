@@ -1,0 +1,13 @@
+{
+	"itemName": "nekishipT11",
+	"rarity": "Essential",
+	"category": "Upgrade Component",
+	"inventoryIcon": "nekiupgradeT11.png",
+	"image": "nekiupgradeT11.png",
+	"tooltipKind": "nekibase",
+
+	"shortdescription": "Tier 11 ship upgrade",
+	"description": "A destructible version of the Neki T10 ship.",
+
+	"shipUpgrade": 11
+}

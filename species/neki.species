@@ -42,12 +42,12 @@ Electric Resistance: -
 	},
 
 	"charGenTextLabels": [
-		"Pelt colour",
+		"Coat colour",
 		"Hair style",
 		"Sleeves",
 		"Outfit",
 		"Eyes/Collar",
-		"Mane colour",
+		"Fluff colour",
 		"Sleeve colour",
 		"Outfit colour",
 		"NEKI",
@@ -74,8 +74,9 @@ Electric Resistance: -
 			{"item": "nekiclaws5f"},
 			{"item": "nekiclaws5i"},
 			{"item": "nekiclaws5p"},
-			{"item": "nekishipT10"},
 			{"item": "nekishipT9"},
+			{"item": "nekishipT10"},
+			{"item": "nekishipT11"},
 
 // Anvil
 			{"item": "nekitier1head"},
@@ -151,6 +152,8 @@ Electric Resistance: -
 			{"item": "nekipeacekeeperhead"},
 			{"item": "nekipeacekeepersleeves"},
 			{"item": "nekipeacekeeperuniform"},
+			{"item": "nekiscientistcoat"},
+			{"item": "nekiscientistsleeves"},
 			{"item": "nekishades"},
 			{"item": "nekisleevesangel"},
 			{"item": "nekisleevesglove"},

@@ -25,6 +25,7 @@
 	"sitEmote": "sleep",
 	"sitCoverImage": "/objects/neki/nekipod/nekipodcover.png",
 	"sitStatusEffects": [
+		"dontstarve",
 		"nekipodfireblock",
 		"nekipodiceblock",
 		"nekipodpoisonblock",

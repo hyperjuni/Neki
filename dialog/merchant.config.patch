@@ -70,11 +70,11 @@
 				"Neki have meatsss to trade with Floran?"
 			]
 		},
-//		{"op": "add", "path": "/merchantStart/glitch/neki",
-//			"value": [
-//			// Juni
-//				"Pleading. May I interst you in this shiny trinket to play with?",
-//				"Nervous. I'm not for sale! Everything else is, though.",
+		{"op": "add", "path": "/merchantStart/glitch/neki",
+			"value": [
+			// Juni
+				"Pleading. May I interst you in this shiny trinket to play with?",
+				"Nervous. I'm not for sale! Everything else is, though."
 
 //			// Burin
 //				"Eager. I'm sure my inventory can interest you, care to buy anything?",
@@ -82,8 +82,8 @@
 //				"Accommodating. We have goods and supplies for any and all races!",
 //				"Hopeful. Perhaps we can trade rarities between our two species?",
 //				"Imperative. Buy, buy, buy! I have everything you need!"
-//			]
-//		},
+			]
+		},
 		{"op": "add", "path": "/merchantStart/human/neki",
 			"value": [
 			// Juni
@@ -111,16 +111,16 @@
 //				"So long as we can meet as equals, we can trade amicably."
 //			]
 //		},
-//		{"op": "add", "path": "/merchantStart/novakid/neki",
-//			"value": [
-//			// Burin
-//				"There might be gold in them thar hills, never know unless ya trade an' find out!",
-//				"Been pannin' for anything good, Neki? I'll trade wit' ya for whatever ya got.",
-//				"Well I'll be, a Neki! Spare a moment to trade for somethin' somethin'?",
-//				"I bet ya got some fine wares on ya, and so do I! Let's trade!",
-//				"Wonder what the cat's come home wit' today! Wanna trade?"
-//			]
-//		},
+		{"op": "add", "path": "/merchantStart/novakid/neki",
+			"value": [
+			// Burin
+				"There might be gold in them thar hills, never know unless ya trade an' find out!",
+				"Been pannin' for anyth' good, Neki? I'll trade wit' ya for whatever ya got.",
+				"Well I'll be, a Neki! Spare a moment to trade for somethin' somethin'?",
+				"I bet ya got some fine wares on ya, and so do I! Let's trade!",
+				"Wonder what the cat's come wit' today! Wanna trade?"
+			]
+		},
 	
 	// merchantEnd
 		{"op": "add", "path": "/merchantEnd/apex/neki",
@@ -190,9 +190,7 @@
 				"Now get lost.",
 			
 			// Burin
-//				"You're smarter than you look, I might actually break even with this.",
 				"How about bringing something worthwhile next time?",
-//				"Hope you enjoyed the prices, just for you.",
 				"You done? Marvellous, now scram."
 			]
 		},
@@ -229,7 +227,6 @@
 				"Follow me, agent - you won't regret it.",
 
 			// Burin
-//				"Ah, one of our Agents. This way, I have supplies we can trade.",
 				"Whatever your intentions, we can always trade. This way."
 			]
 		},

@@ -42,8 +42,8 @@
 			[0,
 				[
 					{
-						"chest": [{"name": "scientistchest"}],
-						"legs": [{"name": "scientistlegs"}]
+						"chest": [{"name": "nekiscientistsleeves"}],
+						"legs": [{"name": "nekiscientistcoat", "parameters": {"colorIndex": 8}}]
 					}
 				] 
 			]
