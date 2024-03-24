@@ -1,4 +1,4 @@
--- created by Erina Sugino
+-- Created by Erina Sugino for Juni
 -- edited by Juni
 
 require "/tech/doubletap.lua"

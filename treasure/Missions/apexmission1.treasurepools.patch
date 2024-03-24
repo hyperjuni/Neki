@@ -1,0 +1,22 @@
+[
+	{"op": "add", "path": "/apexmission1Rare1/0/1/fill/-",
+		"value": {
+			"item": ["nekimklog312p-codex",	1]
+		}
+	},
+	{"op": "add", "path": "/apexmission1Rare2/0/1/fill/-",
+		"value": {
+			"item": ["nekimklog319p-codex",	1]
+		}
+	},
+	{"op": "add", "path": "/apexmission1Rare3/0/1/fill/-",
+		"value": {
+			"item": ["nekimklog327p-codex",	1]
+		}
+	},
+	{"op": "add",	"path": "/apexmission1Rare4/0/1/fill/-",
+		"value": {
+			"item": ["nekiprlog342-codex", 1]
+		}
+	}
+]

@@ -1,14 +1,16 @@
 {
 	"objectName": "nekipillowbrown",
-	"colonyTags": ["neki"],
-	"rarity": "Common",
+	"objectType": "loungeable",
 	"category": "furniture",
-	"tooltipKind": "nekibase",
+	"rarity": "Common",
 	"price": 50,
-	"printable": false,
-	"description": "A dark brown furry pillow, wrapped in an animal's hide.",
-	"shortdescription": "Neki Pillow - Brown",
 	"race": "neki",
+	"printable": false,
+	"tooltipKind": "nekibase",
+	"colonyTags": ["neki"],
+
+	"shortdescription": "Neki Pillow - Brown",
+	"description": "A dark brown furry pillow, wrapped in an animal's hide.",
 
 	"apexDescription": "A pillow wrapped in a thick, soft pelt.",
 	"avianDescription": "I suppose this is a better use for pelts than wall decorations.",
@@ -20,32 +22,26 @@
 	"novakidDescription": "Fur burns really well.",
 
 	"inventoryIcon": "nekipillowbrownicon.png",
+
 	"orientations": [
 		{
+			"direction": "left",
+			"anchors": ["bottom"],
 			"image": "nekipillowbrown.png",
 			"imagePosition": [0, 0],
-			"sitCoverImage": "/objects/neki/nekipillowbrown/nekipillowbrowncover.png",
-			"sitPosition": [-14.5, 23],
-			"frames": 1,
-			"animationCycle": 0.5,
-			"spaceScan": 0.1,
 			"flipImages": true,
-			"direction": "left",
-			"anchors": ["bottom"]
+			"sitPosition": [-14.5, 23]
 		},
 		{
+			"direction": "right",
+			"anchors": ["bottom"],
 			"image": "nekipillowbrown.png",
 			"imagePosition": [0, 0],
-			"sitCoverImage": "/objects/neki/nekipillowbrown/nekipillowbrowncover.png",
-			"sitPosition": [13.5, 23],
-			"frames": 1,
-			"animationCycle": 0.5,
 			"spaceScan": 0.1,
-			"direction": "right",
-			"anchors": ["bottom"]
+			"sitPosition": [13.5, 23]
 		}
 	],
 
-	"objectType": "loungeable",
+	"sitCoverImage": "/objects/neki/nekipillowbrown/nekipillowbrowncover.png",
 	"sitStatusEffects": ["nekipoof"]
 }

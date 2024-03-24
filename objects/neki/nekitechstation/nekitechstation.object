@@ -1,20 +1,18 @@
 {
 	"objectName": "nekitechstation",
-	"colonyTags": ["neki"],
-	"printable": false,
+	"uniqueId": "techstation",
+	"category": "decorative",
 	"rarity": "Common",
+	"race": "neki",
+	"printable": false,
 	"tooltipKind": "nekibase",
+	"colonyTags": ["neki"],
 
 	"interactAction": "OpenAiInterface",
+	"offeredQuests": ["gaterepair"],
 
-	"category": "decorative",
-
-	"description": "Ship-based Artificial Intelligence Lattice, or S.A.I.L for short.",
 	"shortdescription": "S.A.I.L",
-	"race": "neki",
-
-	"lightColor": [61, 88, 102],
-	"lightPosition": [-1, 0],
+	"description": "Ship-based Artificial Intelligence Lattice, or S.A.I.L for short.",
 
 	"apexDescription": "I can talk to SAIL through this console.",
 	"avianDescription": "I can use this station to talk to SAIL.",
@@ -26,19 +24,24 @@
 	"novakidDescription": "This here station lets me talk with SAIL.",
 
 	"inventoryIcon": "nekirecordplayericon.png",
+
+	"lightColor": [61, 88, 102],
+	"lightPosition": [-1, 0],
+
 	"orientations": [
 		{
-			"imageLayers": [{"image": "nekitechstation.png:<color>.<frame>", "fullbright": true}, {"image": "nekitechstationlit.png:<color>.<frame>"}],
+			"anchors": ["background"],
+			"imageLayers": [
+				{"image": "nekitechstation.png:<color>.<frame>", "fullbright": true},
+				{"image": "nekitechstationlit.png:<color>.<frame>"}
+			],
 			"imagePosition": [-16, -8],
-			"frames": 32,
-			"animationCycle": 3.0,
-
 			"spaceScan": 0.1,
-			"anchors": ["background"]
+
+			"frames": 32,
+			"animationCycle": 3.0
 		}
 	],
-
-	"offeredQuests": ["gaterepair"],
 
 	"animation": "/objects/ship/techstation.animation",
 	"scripts": ["/objects/spawner/techstation.lua"],
@@ -63,7 +66,5 @@
 			["Rebooting has shown to improve ship interaction satisfaction levels by 73%.", "/ai/portraits/nekiportrait.png:unique.1"],
 			["Rebooting requires a conscious entity to interact with the S.A.I.L console.", "/ai/portraits/nekiportrait.png:unique.1"]
 		]
-	},
-
-	"uniqueId": "techstation"
+	}
 }

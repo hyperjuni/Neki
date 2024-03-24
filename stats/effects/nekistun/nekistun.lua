@@ -1,4 +1,4 @@
--- created by Erina Sugino
+-- Created by Erina Sugino for Juni
 
 function init()
 	if status.isResource("energy") then

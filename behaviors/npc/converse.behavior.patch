@@ -1,0 +1,4 @@
+[
+	{"op": "test", "path": "/scripts"},
+	{"op": "add", "path": "/scripts/6", "value": "/scripts/neki/nekiconverse.lua"}
+]

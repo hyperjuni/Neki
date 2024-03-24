@@ -1,16 +1,18 @@
 {
 	"objectName": "nekistoragelocker",
-	"colonyTags": ["neki","storage"],
-	"rarity": "Rare",
-	"category": "storage",
-	"price": 240,
-	"printable": false,
 	"objectType": "container",
-	"tooltipKind": "container",
-	"description": "A spacious wall-mounted locker, coated in a dark substance.",
-	"shortdescription": "Neki Storage Locker",
-	"race": "neki",
+	"category": "storage",
+	"slotCount": 64,
 	"health": 1.5,
+	"rarity": "Rare",
+	"price": 240,
+	"race": "neki",
+	"printable": false,
+	"tooltipKind": "container",
+	"colonyTags": ["neki", "storage"],
+
+	"shortdescription": "Neki Storage Locker",
+	"description": "A spacious wall-mounted locker, coated in a dark substance.",
 
 	"apexDescription": "This otherwise typical locker appears to have an unusual coating.",
 	"avianDescription": "A stealthy device that holds many items for safe keeping.",
@@ -22,19 +24,19 @@
 	"novakidDescription": "A stealthy locker for stealthily puttin' things in.",
 
 	"inventoryIcon": "icon.png",
+
 	"orientations": [
 		{
+			"anchors": ["background"],
 			"image": "nekistoragelocker.png:<color>.<key>",
 			"imagePosition": [-16, -8],
-			"spaceScan": 0.1,
-			"anchors": ["background"]
+			"spaceScan": 0.1
 		}
 	],
 
+	"uiConfig": "/interface/chests/nekichest<slots>.config",
 	"openSounds": ["/sfx/objects/cropshipper_door_open.ogg"],
 	"closeSounds": ["/sfx/objects/cropshipper_door_close.ogg"],
-	"slotCount": 64,
-	"uiConfig": "/interface/chests/nekichest<slots>.config",
 	"frameCooldown": 5,
 	"openFrameIndex": 7,
 	"autoCloseCooldown": 3600

@@ -1,14 +1,16 @@
 {
 	"objectName": "nekipillowblack",
-	"colonyTags": ["neki"],
-	"rarity": "Common",
+	"objectType": "loungeable",
 	"category": "furniture",
-	"tooltipKind": "nekibase",
+	"rarity": "Common",
 	"price": 50,
-	"printable": false,
-	"description": "A dark pillow, wrapped in a dark Glitch banner.",
-	"shortdescription": "Neki Pillow - Black",
 	"race": "neki",
+	"printable": false,
+	"tooltipKind": "nekibase",
+	"colonyTags": ["neki"],
+
+	"shortdescription": "Neki Pillow - Black",
+	"description": "A dark pillow, wrapped in a dark Glitch banner.",
 
 	"apexDescription": "Whoever made this, was brave enough to steal from a Glitch fortress!",
 	"avianDescription": "Oh dear, the Glitch would be furious if they saw this.",
@@ -20,32 +22,26 @@
 	"novakidDescription": "This here thing looks highly combustible!",
 
 	"inventoryIcon": "nekipillowblackicon.png",
+
 	"orientations": [
 		{
+			"direction": "left",
+			"anchors": ["bottom"],
 			"image": "nekipillowblack.png",
 			"imagePosition": [0, 0],
-			"sitCoverImage": "/objects/neki/nekipillowblack/nekipillowblackcover.png",
-			"sitPosition": [-14.5, 23],
-			"frames": 1,
-			"animationCycle": 0.5,
-			"spaceScan": 0.1,
 			"flipImages": true,
-			"direction": "left",
-			"anchors": ["bottom"]
+			"sitPosition": [-14.5, 23]
 		},
 		{
+			"direction": "right",
+			"anchors": ["bottom"],
 			"image": "nekipillowblack.png",
 			"imagePosition": [0, 0],
-			"sitCoverImage": "/objects/neki/nekipillowblack/nekipillowblackcover.png",
-			"sitPosition": [13.5, 23],
-			"frames": 1,
-			"animationCycle": 0.5,
 			"spaceScan": 0.1,
-			"direction": "right",
-			"anchors": ["bottom"]
+			"sitPosition": [13.5, 23]
 		}
 	],
 
-	"objectType": "loungeable",
+	"sitCoverImage": "/objects/neki/nekipillowblack/nekipillowblackcover.png",
 	"sitStatusEffects": ["nekipoof"]
 }

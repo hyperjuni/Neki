@@ -1,15 +1,18 @@
 {
 	"objectName": "nekidockingfield",
 	"objectType": "physics",
-	"colonyTags": ["station"],
-	"printable": false,
-	"rarity": "Common",
-
 	"category": "wire",
+	"rarity": "Common",
 	"price": 0,
-	"description": "This energy field can contain both atmosphere and artificial gravity.",
-	"shortdescription": "Neki Docking Field",
 	"race": "neki",
+	"printable": false,
+	"colonyTags": [
+		"neki",
+		"station"
+	],
+
+	"shortdescription": "Neki Docking Field",
+	"description": "This energy field can contain both atmosphere and artificial gravity.",
 
 	"apexDescription": "A space docking field, this energy contains the atmosphere inside.",
 	"avianDescription": "The energy in this docking field contains air and gravity inside.",
@@ -20,28 +23,27 @@
 	"nekiDescription": "This is my buzzy bubble, it keeps me safe!",
 	"novakidDescription": "This here energy field keeps air and gravity inside and space outside.",
 
+	"inventoryIcon": "dockingfieldicon.png",
+
 	"lightColor": [31, 186, 0],
 	"lightPosition": [0, 6],
 
-	"inventoryIcon": "dockingfieldicon.png",
 	"orientations": [
 		{
+			"anchors": ["top", "bottom"],
 			"image": "nekidockingfield.png:<color>.off",
 			"imagePosition": [-4, 0],
+			"spaceScan": 0.1,
 
 			"animationParts": {
 				"bg": "nekidockingfield.png",
 				"fg": "nekidockingfieldlit.png"
 			},
-			"animationPosition": [-4, 0],
-
-			"spaceScan": 0.1,
-			"anchors": ["top", "bottom"],
-
-			"enableCollision": "barrierVertical"
+			"animationPosition": [-4, 0]
 		}
 	],
 
+	"enableCollision": "barrierVertical",
 	"physicsCollisions": {
 		"barrierVertical": {
 			"collision": [

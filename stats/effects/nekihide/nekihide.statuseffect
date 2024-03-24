@@ -1,0 +1,6 @@
+{
+	"name": "nekihide",
+	"effectConfig": {},
+	"defaultDuration": 10,
+	"scripts": ["nekihide.lua"]
+}

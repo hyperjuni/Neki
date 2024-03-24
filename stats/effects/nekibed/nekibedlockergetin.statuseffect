@@ -1,0 +1,5 @@
+{
+	"name": "nekibedlockergetin",
+	"scripts": ["nekibedlockergetin.lua"],
+	"animationConfig": "nekibed.animation"
+}

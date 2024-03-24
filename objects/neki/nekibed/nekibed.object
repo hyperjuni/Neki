@@ -1,14 +1,16 @@
 {
 	"objectName": "nekibed",
-	"colonyTags": ["neki"],
-	"printable": false,
-	"rarity": "Common",
-	"description": "A beat-up box with scratches and fur all over, filled with crudely-made pillows.",
-	"shortdescription": "Neki Bed",
-	"race": "neki",
+	"objectType": "loungeable",
 	"category": "furniture",
-	"tooltipKind": "nekibase",
+	"rarity": "Common",
 	"price": 100,
+	"race": "neki",
+	"printable": false,
+	"tooltipKind": "nekibase",
+	"colonyTags": ["neki"],
+
+	"shortdescription": "Neki Bed",
+	"description": "A beat-up box with scratches and fur all over, filled with crudely-made pillows.",
 
 	"apexDescription": "An unappealing cardboard box with an odd smell.",
 	"avianDescription": "A fairly large cardboard box with some bitemarks.",
@@ -19,41 +21,36 @@
 	"nekiDescription": "I fits and I sleeps.",
 	"novakidDescription": "A flimsy box full of old pillows.",
 
-
 	"inventoryIcon": "nekibedicon.png",
+
 	"orientations": [
 		{
+			"direction": "left",
+			"anchors": ["bottom"],
 			"image": "nekibed.png",
 			"imagePosition": [0, 0],
-			"direction": "left",
-			"flipImages": true,
-			
-			"sitPosition": [15, 20],
-
 			"spaceScan": 0.1,
-			"anchors": ["bottom"]
+			"sitPosition": [-9, 20]
 		},
 		{
+			"direction": "right",
+			"anchors": ["bottom"],
 			"image": "nekibed.png",
 			"imagePosition": [0, 0],
-			"direction": "right",
-
-			"sitPosition": [-9, 20],
-
+			"flipImages": true,
 			"spaceScan": 0.1,
-			"anchors": ["bottom"]
+			"sitPosition": [15, 20]
 		}
 	],
 
-	"objectType": "loungeable",
-	"sitFlipDirection": true,
+	"sitCoverImage": "/objects/neki/nekibed/nekibedcover.png",
 	"sitOrientation": "sit",
 	"sitAngle": -10,
-	"sitCoverImage": "/objects/neki/nekibed/nekibedcover.png",
 	"sitEmote": "sleep",
+	"sitEffectEmitters": ["sleepbubbles"],
 	"sitStatusEffects": [
 		"nekibed",
-		"nekibedgetin"
-	],
-	"sitEffectEmitters": ["sleepbubbles"]
+		"nekibedgetin",
+		"nekihidebed"
+	]
 }

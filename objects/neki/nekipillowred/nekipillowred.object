@@ -1,14 +1,16 @@
 {
 	"objectName": "nekipillowred",
-	"colonyTags": ["neki"],
-	"rarity": "Common",
+	"objectType": "loungeable",
 	"category": "furniture",
-	"tooltipKind": "nekibase",
+	"rarity": "Common",
 	"price": 50,
-	"printable": false,
-	"description": "A red tent fabric, stuffed with feathers.",
-	"shortdescription": "Neki Pillow - Red",
 	"race": "neki",
+	"printable": false,
+	"tooltipKind": "nekibase",
+	"colonyTags": ["neki"],
+
+	"shortdescription": "Neki Pillow - Red",
+	"description": "A red tent fabric, stuffed with feathers.",
 
 	"apexDescription": "An interesting use for what seems to have once been a tent.",
 	"avianDescription": "This pillow feels so comfortable, as if it were filed with...wait a minute...",
@@ -20,32 +22,26 @@
 	"novakidDescription": "I ain't seein' it, what's this good for?",
 
 	"inventoryIcon": "nekipillowredicon.png",
+
 	"orientations": [
 		{
+			"direction": "left",
+			"anchors": ["bottom"],
 			"image": "nekipillowred.png",
 			"imagePosition": [0, 0],
-			"sitCoverImage": "/objects/neki/nekipillowred/nekipillowredcover.png",
-			"sitPosition": [-14.5, 23],
-			"frames": 1,
-			"animationCycle": 0.5,
-			"spaceScan": 0.1,
 			"flipImages": true,
-			"direction": "left",
-			"anchors": ["bottom"]
+			"sitPosition": [-14.5, 23]
 		},
 		{
+			"direction": "right",
+			"anchors": ["bottom"],
 			"image": "nekipillowred.png",
 			"imagePosition": [0, 0],
-			"sitCoverImage": "/objects/neki/nekipillowred/nekipillowredcover.png",
-			"sitPosition": [13.5, 23],
-			"frames": 1,
-			"animationCycle": 0.5,
 			"spaceScan": 0.1,
-			"direction": "right",
-			"anchors": ["bottom"]
+			"sitPosition": [13.5, 23]
 		}
 	],
 
-	"objectType": "loungeable",
+	"sitCoverImage": "/objects/neki/nekipillowred/nekipillowredcover.png",
 	"sitStatusEffects": ["nekipoof"]
 }

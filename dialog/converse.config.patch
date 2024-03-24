@@ -15,7 +15,7 @@
 	{"op": "add", "path": "/greeting/apex/neki",
 		"value": [
 			"I'm sorry, I'll get out of your way.",
-			"I'll pick up that can right away.",
+			"I'll pick that can up right away!",
 			"You don't smell like one of us.",
 			"Oh, I hope I'm not in your way.",
 			"Glory to the Miniknog!",
@@ -390,7 +390,7 @@
 			"As long as you're not here to eat me, I could tolerate you.",
 			"I collect books, but I don't have any written by the Neki.",
 			"Meeting a Neki is a little nerve-racking.",
-			"Your cold-blooded stare unsettles me.",
+			"Your cold-blooded two-eyed stare unsettles me.",
 			"Settle yourself down, furry one.",
 
 		// Vanilla

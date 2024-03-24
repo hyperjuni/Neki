@@ -1,24 +1,22 @@
 {
 	"objectName": "nekiwheel",
-	"colonyTags": ["crafting"],
 	"category": "crafting",
 	"rarity": "Uncommon",
-	"race": "neki",
-
 	"price": 50,
-	"printable": false,
+	"race": "neki",
+	"colonyTags": [
+		"neki",
+		"crafting"
+	],
 
 	"interactAction": "OpenCraftingInterface",
 	"interactData": {
 		"config": "/interface/windowconfig/nekiwheel.config",
 		"filter": ["nekiwheel"]
-	},
-	
-	"inventoryIcon": "nekiwheelicon.png",
-	"placementImagePosition": [-16, 0],	 
+	}, 
 
-	"description": "This wheel is used by the Neki to craft various items.",
 	"shortdescription": "^orange;Neki Wheel^white;",
+	"description": "This wheel is used by the Neki to craft various items.",
 
 	"apexDescription": "A spinning wheel. It's covered in fur.",
 	"avianDescription": "A tool for working threads.. why is there fur all over it?",
@@ -29,21 +27,50 @@
 	"nekiDescription": "The wheels spin and clothes come out.",
 	"novakidDescription": "Maybe I can make myself a new shirt on this.",
 
+	"inventoryIcon": "nekiwheelicon.png",
+	"placementImagePosition": [-16, 0],	
+
 	"orientations": [
 		{
+			"direction": "left",
+			"anchors": ["bottom"],
 			"image": "nekiwheel.png",
 			"imagePosition": [-16, 0],
-			"direction": "left",
 			"flipImages": true,
-			"spaces": [[-2,0], [-1,0], [0,0], [1,0], [-2,1], [-1,1], [0,1], [1,1], [-2,2], [-1,2], [0,2], [1,2]],
-			"anchors": ["bottom"]
+			"spaces": [
+				[-2,0],
+				[-1,0],
+				[0,0],
+				[1,0],
+				[-2,1],
+				[-1,1],
+				[0,1],
+				[1,1],
+				[-2,2],
+				[-1,2],
+				[0,2],
+				[1,2]
+			]
 		},
 		{
+			"direction": "right",
+			"anchors": ["bottom"],
 			"image": "nekiwheel.png",
 			"imagePosition": [-16, 0],
-			"direction": "right",
-			"spaces": [[-2,0], [-1,0], [0,0], [1,0], [-2,1], [-1,1], [0,1], [1,1], [-2,2], [-1,2], [0,2], [1,2]],
-			"anchors": ["bottom"]
+			"spaces": [
+				[-2,0],
+				[-1,0],
+				[0,0],
+				[1,0],
+				[-2,1],
+				[-1,1],
+				[0,1],
+				[1,1],
+				[-2,2],
+				[-1,2],
+				[0,2],
+				[1,2]
+			]
 		}
 	]
 }

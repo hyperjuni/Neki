@@ -178,7 +178,7 @@
 	},
 	{"op": "add", "path": "/hail/neki/neki",
 		"value": [
-			"Something smells familiar.",
+			"Something smells familiarr.",
 			"*sniffs*",
 			"Khhh!"
 		]

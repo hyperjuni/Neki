@@ -28,6 +28,7 @@
 
 	"sounds": {
 		"nekipurr": ["/sfx/statuseffects/nekipurr.ogg"],
-		"nekigetin": ["/sfx/objects/cardboardbox_close.ogg"]
+		"nekigetin": ["/sfx/objects/cardboardbox_close.ogg"],
+		"nekibedlockergetin": ["/sfx/objects/nekibedlockergetin.ogg"]
 	}
 }

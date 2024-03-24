@@ -1,0 +1,28 @@
+{
+	"id": "nekiprlog342",
+	"species": "neki",
+	"title": "Private Log #0342",
+	"description": "An unusual-looking private log entry.",
+	"icon": "nekimemorycardpink.png",
+	"contentPages": [
+"^gray;*click* ... *THUD*
+
+[long silence]
+
+*scratch*
+*rustling noise*
+*BEEP!*^white;
+\"Khhhhhh!\"^gray; ... *THUMP*
+
+[long silence]
+
+*sniffing sounds*^white;
+\"Dumb thingy! Pfft.\"
+
+^gray;*fading soft steps*"
+	],
+	"itemConfig": {
+		"rarity": "uncommon",
+		"price": 25
+	}
+}

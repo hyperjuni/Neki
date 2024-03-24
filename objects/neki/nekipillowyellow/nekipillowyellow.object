@@ -1,14 +1,16 @@
 {
 	"objectName": "nekipillowyellow",
-	"colonyTags": ["neki"],
-	"rarity": "Common",
+	"objectType": "loungeable",
 	"category": "furniture",
-	"tooltipKind": "nekibase",
+	"rarity": "Common",
 	"price": 50,
-	"printable": false,
-	"description": "A pillow made of multiple small Avian banners stitched together.",
-	"shortdescription": "Neki Pillow - Yellow",
 	"race": "neki",
+	"printable": false,
+	"tooltipKind": "nekibase",
+	"colonyTags": ["neki"],
+
+	"shortdescription": "Neki Pillow - Yellow",
+	"description": "A pillow made of multiple small Avian banners stitched together.",
 
 	"apexDescription": "Frankly, a better use for symbolic pieces of cloth.",
 	"avianDescription": "Kluex almighty! Avian children's rite of passage banners made into...this thing!",
@@ -20,32 +22,26 @@
 	"novakidDescription": "Seems t'me like this pillow is made of small banners.",
 
 	"inventoryIcon": "nekipillowyellowicon.png",
+
 	"orientations": [
 		{
+			"direction": "left",
+			"anchors": ["bottom"],
 			"image": "nekipillowyellow.png",
 			"imagePosition": [0, 0],
-			"sitCoverImage": "/objects/neki/nekipillowyellow/nekipillowyellowcover.png",
-			"sitPosition": [-14.5, 23],
-			"frames": 1,
-			"animationCycle": 0.5,
-			"spaceScan": 0.1,
 			"flipImages": true,
-			"direction": "left",
-			"anchors": ["bottom"]
+			"sitPosition": [-14.5, 23]
 		},
 		{
+			"direction": "right",
+			"anchors": ["bottom"],
 			"image": "nekipillowyellow.png",
 			"imagePosition": [0, 0],
-			"sitCoverImage": "/objects/neki/nekipillowyellow/nekipillowyellowcover.png",
-			"sitPosition": [13.5, 23],
-			"frames": 1,
-			"animationCycle": 0.5,
 			"spaceScan": 0.1,
-			"direction": "right",
-			"anchors": ["bottom"]
+			"sitPosition": [13.5, 23]
 		}
 	],
 
-	"objectType": "loungeable",
+	"sitCoverImage": "/objects/neki/nekipillowyellow/nekipillowyellowcover.png",
 	"sitStatusEffects": ["nekipoof"]
 }

@@ -1,0 +1,18 @@
+[
+	{"op": "add", "path": "/npcInteract",
+		"value": {
+			"type": "action",
+			"name": "npcInteract",
+			"title": "",
+			"properties": {
+				"entity": {
+					"type": "entity",
+					"value": null
+				}
+			},
+			"category": "npc",
+			"script": "/scripts/neki/nekibadger.lua",
+			"output": {}
+		}
+	}
+]

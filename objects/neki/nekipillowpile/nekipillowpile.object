@@ -1,14 +1,16 @@
 {
 	"objectName": "nekipillowpile",
-	"colonyTags": ["neki"],
-	"rarity": "Uncommon",
+	"objectType": "loungeable",
 	"category": "furniture",
-	"tooltipKind": "nekibase",
-	"price": 50,
-	"printable": false,
-	"description": "A pile of odd-looking colorful pillows.",
-	"shortdescription": "Neki Pillow Pile",
+	"rarity": "Common",
+	"price": 450,
 	"race": "neki",
+	"printable": false,
+	"tooltipKind": "nekibase",
+	"colonyTags": ["neki"],
+
+	"shortdescription": "Neki Pillow Pile",
+	"description": "A pile of odd-looking colorful pillows.",
 
 	"apexDescription": "These don't seem like they'd make for great cover in a firefight.",
 	"avianDescription": "Can almost forgive the unprecedented feather theft for how comfy these are.",
@@ -20,33 +22,28 @@
 	"novakidDescription": "Someone's either movin' out or just hoardin' feathers!",
 
 	"inventoryIcon": "nekipillowpileicon.png",
+
 	"orientations": [
 		{
+			"direction": "left",
+			"anchors": ["bottom"],
 			"image": "nekipillowpile.png",
 			"imagePosition": [0, 0],
-			"sitCoverImage": "/objects/neki/nekipillowpile/nekipillowpilecover.png",
-			"sitPosition": [-23.5, 18],
-			"frames": 1,
-			"animationCycle": 0.5,
-			"spaceScan": 0.1,
 			"flipImages": true,
-			"direction": "left",
-			"anchors": ["bottom"]
+			"spaceScan": 0.1,
+			"sitPosition": [-23.5, 18]
 		},
 		{
+			"direction": "right",
+			"anchors": ["bottom"],
 			"image": "nekipillowpile.png",
 			"imagePosition": [0, 0],
-			"sitCoverImage": "/objects/neki/nekipillowpile/nekipillowpilecover.png",
-			"sitPosition": [20.5, 18],
-			"frames": 1,
-			"animationCycle": 0.5,
 			"spaceScan": 0.1,
-			"direction": "right",
-			"anchors": ["bottom"]
+			"sitPosition": [20.5, 18]
 		}
 	],
 
-	"objectType": "loungeable",
+	"sitCoverImage": "/objects/neki/nekipillowpile/nekipillowpilecover.png",
 	"sitEmote": "neutral",
 	"sitStatusEffects": ["nekipoof"]
 }
