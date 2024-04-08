@@ -1,0 +1,7 @@
+{
+	"name": "nekipurr",
+	"effectConfig": {},
+	"defaultDuration": 10,
+	"scripts": ["nekipurr.lua"],
+	"animationConfig": "nekipurr.animation"
+}

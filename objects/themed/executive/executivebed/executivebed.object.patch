@@ -1,1 +1,10 @@
-[{"op":"add","path":"/nekiDescription","value":"Why would anyone willingly sleep here, it's so exposed!"}]
+[
+	[
+		{"op":"test","path":"/sitStatusEffects","inverse":true},
+		{"op":"add","path":"/sitStatusEffects","value":[]}
+	],
+	[
+		{"op":"add","path":"/nekiDescription","value":"Too exposed for proper sleeps."},
+		{"op":"add","path":"/sitStatusEffects/-","value":"nekihidebedcover"}
+	]
+]

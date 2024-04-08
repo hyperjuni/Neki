@@ -1,1 +1,10 @@
-[{"op":"add","path":"/nekiDescription","value":"A fancy purrivate room with a light!"}]
+[
+	[
+		{"op":"test","path":"/sitStatusEffects","inverse":true},
+		{"op":"add","path":"/sitStatusEffects","value":[]}
+	],
+	[
+		{"op":"add","path":"/nekiDescription","value":"A fancy purrivate room with a light!"},
+		{"op":"add","path":"/sitStatusEffects/-","value":"nekihidecell"}
+	]
+]

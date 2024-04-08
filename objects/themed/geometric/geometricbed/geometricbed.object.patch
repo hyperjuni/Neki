@@ -1,0 +1,10 @@
+[
+	[
+		{"op":"test","path":"/sitStatusEffects","inverse":true},
+		{"op":"add","path":"/sitStatusEffects","value":[]}
+	],
+	[
+		{"op":"add","path":"/nekiDescription","value":"A bench with sheets."},
+		{"op":"add","path":"/sitStatusEffects/-","value":"nekihidebedcover"}
+	]
+]

@@ -1,0 +1,6 @@
+{
+	"name": "nekihidestall",
+	"effectConfig": {},
+	"defaultDuration": 10,
+	"scripts": ["nekihidestall.lua"]
+}

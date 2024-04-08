@@ -1,1 +1,10 @@
-[{"op":"add","path":"/nekiDescription","value":"This stone bed looks like multiple birdpurrsons exploded on it."}]
+[
+	[
+		{"op":"test","path":"/sitStatusEffects","inverse":true},
+		{"op":"add","path":"/sitStatusEffects","value":[]}
+	],
+	[
+		{"op":"add","path":"/nekiDescription","value":"This stone bed looks like multiple birdpurrsons exploded on it."},
+		{"op":"add","path":"/sitStatusEffects/-","value":"nekihidebednocover"}
+	]
+]

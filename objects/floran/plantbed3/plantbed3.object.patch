@@ -1,1 +1,10 @@
-[{"op":"add","path":"/nekiDescription","value":"Meals on wheels!"}]
+[
+	[
+		{"op":"test","path":"/sitStatusEffects","inverse":true},
+		{"op":"add","path":"/sitStatusEffects","value":[]}
+	],
+	[
+		{"op":"add","path":"/nekiDescription","value":"Meals on wheels!"},
+		{"op":"add","path":"/sitStatusEffects/-","value":"nekihidebednocover"}
+	]
+]

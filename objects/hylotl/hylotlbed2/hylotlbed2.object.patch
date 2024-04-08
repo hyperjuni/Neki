@@ -1,1 +1,10 @@
-[{"op":"add","path":"/nekiDescription","value":"Not something I'd enjoy curling up on."}]
+[
+	[
+		{"op":"test","path":"/sitStatusEffects","inverse":true},
+		{"op":"add","path":"/sitStatusEffects","value":[]}
+	],
+	[
+		{"op":"add","path":"/nekiDescription","value":"Not something I'd enjoy curling up on."},
+		{"op":"add","path":"/sitStatusEffects/-","value":"nekihidebedcover"}
+	]
+]

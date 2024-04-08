@@ -1,1 +1,10 @@
-[{"op":"add","path":"/nekiDescription","value":"It's like sits, but for sleeps."}]
+[
+	[
+		{"op":"test","path":"/sitStatusEffects","inverse":true},
+		{"op":"add","path":"/sitStatusEffects","value":[]}
+	],
+	[
+		{"op":"add","path":"/nekiDescription","value":"It's like sits, but for sleeps."},
+		{"op":"add","path":"/sitStatusEffects/-","value":"nekihidebedcover"}
+	]
+]

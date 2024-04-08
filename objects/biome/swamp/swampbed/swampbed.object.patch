@@ -1,1 +1,10 @@
-[{"op":"add","path":"/nekiDescription","value":"This bush is too conspicuous."}]
+[
+	[
+		{"op":"test","path":"/sitStatusEffects","inverse":true},
+		{"op":"add","path":"/sitStatusEffects","value":[]}
+	],
+	[
+		{"op":"add","path":"/nekiDescription","value":"That's neither a good bed not a good bush."},
+		{"op":"add","path":"/sitStatusEffects/-","value":"nekihidebedcover"}
+	]
+]

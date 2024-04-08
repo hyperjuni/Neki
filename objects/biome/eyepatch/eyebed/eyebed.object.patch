@@ -1,1 +1,10 @@
-[{"op":"add","path":"/nekiDescription","value":"Fresh eyes make great mid-night snacks."}]
+[
+	[
+		{"op":"test","path":"/sitStatusEffects","inverse":true},
+		{"op":"add","path":"/sitStatusEffects","value":[]}
+	],
+	[
+		{"op":"add","path":"/nekiDescription","value":"Fresh eyes make grreat midnight snacks."},
+		{"op":"add","path":"/sitStatusEffects/-","value":"nekihidebedcover"}
+	]
+]

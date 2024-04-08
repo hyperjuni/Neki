@@ -1,1 +1,10 @@
-[{"op":"add","path":"/nekiDescription","value":"A table for literally screwing with your head."}]
+[
+	[
+		{"op":"test","path":"/sitStatusEffects","inverse":true},
+		{"op":"add","path":"/sitStatusEffects","value":[]}
+	],
+	[
+		{"op":"add","path":"/nekiDescription","value":"This table can screw with your head."},
+		{"op":"add","path":"/sitStatusEffects/-","value":"nekihidebednocover"}
+	]
+]

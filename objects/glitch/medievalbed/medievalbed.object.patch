@@ -1,1 +1,10 @@
-[{"op":"add","path":"/nekiDescription","value":"A table with sheets on it? This is fine."}]
+[
+	[
+		{"op":"test","path":"/sitStatusEffects","inverse":true},
+		{"op":"add","path":"/sitStatusEffects","value":[]}
+	],
+	[
+		{"op":"add","path":"/nekiDescription","value":"A table with sheets on it? This is fine."},
+		{"op":"add","path":"/sitStatusEffects/-","value":"nekihidebedcover"}
+	]
+]

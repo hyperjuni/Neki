@@ -1,4 +1,10 @@
 [
-	{"op":"add","path":"/nekiDescription","value":"Mrr... this one looks more useful than the others."},
-	{"op":"add","path":"/sitStatusEffects","value":["nekibed"]}
+	[
+		{"op":"test","path":"/sitStatusEffects","inverse":true},
+		{"op":"add","path":"/sitStatusEffects","value":[]}
+	],
+	[
+		{"op":"add","path":"/nekiDescription","value":"Mrr... this one looks more useful than the others."},
+		{"op":"add","path":"/sitStatusEffects/-","value":"nekipurr"}
+	]
 ]

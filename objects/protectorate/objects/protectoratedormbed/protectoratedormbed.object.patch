@@ -1,1 +1,11 @@
-[{"op":"add","path":"/nekiDescription","value":"Try to make the bed, I dare you."}]
+[
+	[
+		{"op":"test","path":"/sitStatusEffects","inverse":true},
+		{"op":"add","path":"/sitStatusEffects","value":[]}
+	],
+	[
+		{"op":"add","path":"/nekiDescription","value":"Try to make the bed, I dare you."},
+		{"op":"add","path":"/sitStatusEffects/-","value":"nekipurr"},
+		{"op":"add","path":"/sitStatusEffects/-","value":"nekihidebedcover"}
+	]
+]

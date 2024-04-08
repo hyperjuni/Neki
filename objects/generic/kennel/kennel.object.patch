@@ -1,1 +1,10 @@
-[{"op":"add","path":"/nekiDescription","value":"What a smelly house! What lives there?"}]
+[
+	[
+		{"op":"test","path":"/sitStatusEffects","inverse":true},
+		{"op":"add","path":"/sitStatusEffects","value":[]}
+	],
+	[
+		{"op":"add","path":"/nekiDescription","value":"What a smelly house! I wanna hide in it."},
+		{"op":"add","path":"/sitStatusEffects/-","value":"nekihide"}
+	]
+]

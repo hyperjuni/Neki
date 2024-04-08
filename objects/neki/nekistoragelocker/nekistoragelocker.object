@@ -23,7 +23,7 @@
 	"nekiDescription": "A stealthy wallbox for stealthy wallsleeps.",
 	"novakidDescription": "A stealthy locker for stealthily puttin' things in.",
 
-	"inventoryIcon": "icon.png",
+	"inventoryIcon": "nekistoragelockericon.png",
 
 	"orientations": [
 		{

@@ -1,0 +1,10 @@
+[
+	[
+		{"op":"test","path":"/sitStatusEffects","inverse":true},
+		{"op":"add","path":"/sitStatusEffects","value":[]}
+	],
+	[
+		{"op":"add","path":"/nekiDescription","value":"This stupid thing has crooked legs."},
+		{"op":"add","path":"/sitStatusEffects/-","value":"nekihidebednocover"}
+	]
+]

@@ -1,1 +1,10 @@
-[{"op":"add","path":"/nekiDescription","value":"Cold and hard, but will do for some uncomfurrtable sleeps."}]
+[
+	[
+		{"op":"test","path":"/sitStatusEffects","inverse":true},
+		{"op":"add","path":"/sitStatusEffects","value":[]}
+	],
+	[
+		{"op":"add","path":"/nekiDescription","value":"Cold and hard, but will do for some uncomfurrtable sleeps."},
+		{"op":"add","path":"/sitStatusEffects/-","value":"nekihidebednocover"}
+	]
+]

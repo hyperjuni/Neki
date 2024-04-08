@@ -1,0 +1,6 @@
+{
+	"name": "nekihidecell",
+	"effectConfig": {},
+	"defaultDuration": 10,
+	"scripts": ["nekihidecell.lua"]
+}

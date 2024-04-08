@@ -1,3 +1,10 @@
 [
-	{"op": "add","path": "/nekiDescription", "value": "What's that smell... are those onions in there?!"}
+	[
+		{"op":"test","path":"/sitStatusEffects","inverse":true},
+		{"op":"add","path":"/sitStatusEffects","value":[]}
+	],
+	[
+		{"op":"add","path":"/nekiDescription","value":"What's that smell, are those... onions in there?!"},
+		{"op":"add","path":"/sitStatusEffects/-","value":"nekihidecauldron"}
+	]
 ]

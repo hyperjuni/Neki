@@ -1,1 +1,10 @@
-[{"op":"add","path":"/nekiDescription","value":"Looks so icky, how do I even..."}]
+[
+	[
+		{"op":"test","path":"/sitStatusEffects","inverse":true},
+		{"op":"add","path":"/sitStatusEffects","value":[]}
+	],
+	[
+		{"op":"add","path":"/nekiDescription","value":"Looks so icky, how do I even..."},
+		{"op":"add","path":"/sitStatusEffects/-","value":"nekihideslimebed"}
+	]
+]

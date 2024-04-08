@@ -1,0 +1,6 @@
+{
+	"name": "nekihidegeodebed",
+	"effectConfig": {},
+	"defaultDuration": 10,
+	"scripts": ["nekihidegeodebed.lua"]
+}

@@ -1,1 +1,10 @@
-[{"op":"add","path":"/nekiDescription","value":"There's barely any room for sleeps underneath."}]
+[
+	[
+		{"op":"test","path":"/sitStatusEffects","inverse":true},
+		{"op":"add","path":"/sitStatusEffects","value":[]}
+	],
+	[
+		{"op":"add","path":"/nekiDescription","value":"There's barely any room for sleeps underneath."},
+		{"op":"add","path":"/sitStatusEffects/-","value":"nekihidebedcover"}
+	]
+]

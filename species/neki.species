@@ -6,23 +6,19 @@
 			"description": "Despite appearances, the Neki can be anything but adorable. Rumored to be a human project ending up in the wrong hands, they're more akin to wild animals than their alleged creators.
 ^cyan;Racial attributes available by installing Race Traits.^reset;
 
-    ^yellow;Attributes^reset;
 ^cyan;Max Health^reset;: ^red;-25%^reset;
 ^cyan;Max Energy^reset;: ^green;+50%^reset;
 ^cyan;Energy Regen^reset;: ^green;+25%^reset;
 ^cyan;Attack Multiplier^reset;: ^red;-15%^reset;
-Defense: -
-    ^yellow;Resistances^reset;
+
 ^cyan;Fire Resistance^reset;: ^red;-15%^reset;
-Electric Resistance: -
 ^cyan;Poison Resistance^reset;: ^green;+10%^reset;
 ^cyan;Ice Resistance^reset;: ^green;+15%^reset;
 ^cyan;Physical Resistance^reset;: ^red;-15%^reset;
-    ^yellow;Immunities^reset;
-^green;Food Poisoning, Frost, Slow^reset;
-    ^yellow;Racial Benefits^reset;
-^green;Swim Boost (Alternate), Health Regen^reset;
-    ^yellow;Extra Stats^reset;
+
+^yellow;Immunities^reset;: ^green;Food Poisoning, Frost, Slow^reset;
+^yellow;Racial Benefits^reset;: ^green;Swim Boost (Alternate), Health Regen^reset;
+
 ^cyan;Movement Speed^reset;: ^green;+18%^reset;
 ^cyan;Jump Height^reset;: ^green;+30%^reset;
 ^cyan;Fall Damage^reset; ^green;-40%^reset;
@@ -33,11 +29,11 @@ Electric Resistance: -
 	"ouchNoises": ["/sfx/humanoid/nekihurt_male.ogg", "/sfx/humanoid/nekihurt_female.ogg"],
 	"deathNoises": ["/sfx/humanoid/nekidead.ogg"],
 	
-// StarExtensions features support
+// StarExtensions stuff
 	"humanoidOverrides": {
 		"useBodyMask": true,
 		"useBodyHeadMask": true,
-	// legacy, the above overrides it
+	// legacy version of the above
 		"headSliceY": 25
 	},
 

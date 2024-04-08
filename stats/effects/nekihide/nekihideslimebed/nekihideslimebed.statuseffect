@@ -1,0 +1,6 @@
+{
+	"name": "nekihideslimebed",
+	"effectConfig": {},
+	"defaultDuration": 10,
+	"scripts": ["nekihideslimebed.lua"]
+}
