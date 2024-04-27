@@ -1,4 +1,4 @@
--- Created by Erina Sugino for Juni
+-- Created by Erina Sugino for Juni <3
 
 neki_speciesDialog = speciesDialog
 

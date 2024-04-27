@@ -1,0 +1,34 @@
+[
+	[
+		{"op": "add", "path":"/scripts/-", "value": "/scripts/neki/nekibadger.lua"}
+	],
+	[
+		{"op": "test", "path": "/root/children/0/children/3/name", "value": "parallel"},
+		{"op": "add", "path": "/root/children/0/children/3",
+			"value": {
+				"title": "interact-but-not-really",
+				"type": "action",
+				"name": "npcInteract",
+				"parameters": {
+					"entity": {"key": "chair"}
+				}
+			}
+		}
+	],
+
+// SxB
+	[
+		{"op": "test", "path": "/root/children/0/name", "value": "sexbound"},
+		{"op": "test", "path": "/root/children/1/children/3/name", "value": "parallel"},
+		{"op": "add", "path": "/root/children/1/children/3",
+			"value": {
+				"title": "interact-but-not-really",
+				"type": "action",
+				"name": "npcInteract",
+				"parameters": {
+					"entity": {"key": "chair"}
+				}
+			}
+		}
+	]
+]

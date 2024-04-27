@@ -1,5 +1,4 @@
--- Created by Erina Sugino for Juni
--- edited by Juni
+-- Created with the help of Erina Sugino <3
 
 require "/tech/doubletap.lua"
 
@@ -32,10 +31,10 @@ function init()
 	self.flashEffectTime = config.getParameter("flashEffectTime")
 
 	self.easterRate = config.getParameter("easterRate")
-    
-    self.holdingUp = false
-    self.holdingDown = false
-    self.doStun = false
+
+	self.holdingUp = false
+	self.holdingDown = false
+	self.doStun = false
 
 	self.groundOnly = config.getParameter("groundOnly")
 	self.doubleTapB = DoubleTap:new({"left", "right"}, config.getParameter("maximumDoubleTapTime"), function(hopKey)
@@ -44,10 +43,10 @@ function init()
 		end
 		local direction = hopKey == "left" and -1 or 1
 		if not self.hopDirection
-				and groundValid()
-				and not mcontroller.crouching()
-				and not status.resourceLocked("energy")
-				and not status.statPositive("activeMovementAbilities") then
+			and groundValid()
+			and not mcontroller.crouching()
+			and not status.resourceLocked("energy")
+			and not status.statPositive("activeMovementAbilities") then
 				startHop(direction)
 			end
 		end)
@@ -98,7 +97,9 @@ function update(args)
 		mcontroller.controlMove(self.pounceDirection, true)
 		mcontroller.controlModifiers({jumpingSuppressed = true})
 		animator.setFlipped(mcontroller.facingDirection() == -1)
-        if not args.moves["down"] then self.doStun = false end
+		if not args.moves["down"] then
+			self.doStun = false
+		end
 		if self.pounceTimer < self.pounceDuration
 		and (mcontroller.onGround() or mcontroller.liquidPercentage() >= 0.5) then
 			if self.pounceDuration - self.pounceTimer >= self.pounceMinimumDuration then
@@ -156,9 +157,9 @@ function update(args)
 			end
 		end
 	end
-    
-    self.holdingUp = not not args.moves["up"]
-    self.holdingDown = not not args.moves["down"]
+
+	self.holdingUp = not not args.moves["up"]
+	self.holdingDown = not not args.moves["down"]
 end
 
 function groundValid()
@@ -177,7 +178,7 @@ function startPounce(direction)
 	mcontroller.setVelocity({self.pounceSpeed*direction,self.pounceJump})
 	self.abilityActive = true
 	status.overConsumeResource("energy", self.energyCostPerPounce)
-    self.doStun = true
+	self.doStun = true
 end
 
 function stun()

@@ -1,0 +1,5 @@
+{
+	"name": "nekibedlavishgetin",
+	"scripts": ["nekibedlavishgetin.lua"],
+	"animationConfig": "nekibed.animation"
+}

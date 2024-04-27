@@ -1,6 +1,18 @@
 [
-	{"op": "replace",	"path": "/movementParameters/standingPoly/7/1",	"value": 1.05},
-	{"op": "replace", "path": "/movementParameters/standingPoly/6/1",	"value": 1.62},
-	{"op": "replace",	"path": "/movementParameters/standingPoly/5/1",	"value": 1.62},
-	{"op": "replace",	"path": "/movementParameters/standingPoly/4/1",	"value": 1.05}
+	[
+		{"op": "test",	"path": "/movementParameters/standingPoly/7/1",	"value": -0.35},
+		{"op": "replace",	"path": "/movementParameters/standingPoly/7/1",	"value": 1.05}
+	],
+	[
+		{"op": "test", "path": "/movementParameters/standingPoly/6/1",	"value": 0.22},
+		{"op": "replace", "path": "/movementParameters/standingPoly/6/1",	"value": 1.62}
+	],
+	[
+		{"op": "test",	"path": "/movementParameters/standingPoly/5/1",	"value": 0.22},
+		{"op": "replace",	"path": "/movementParameters/standingPoly/5/1",	"value": 1.62}
+	],
+	[
+		{"op": "test",	"path": "/movementParameters/standingPoly/4/1",	"value": -0.35},
+		{"op": "replace",	"path": "/movementParameters/standingPoly/4/1",	"value": 1.05}
+	]
 ]

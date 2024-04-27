@@ -50,9 +50,10 @@
 	"sitEmote": "sleep",
 	"sitEffectEmitters": ["sleepbubbles"],
 	"sitStatusEffects": [
-		"nekibed",
+		"bed2",
+		"nekibedlockergetin",
 		"nekihide",
-		"nekibedlockergetin"
+		"nekipurr"
 	],
 
 	"animation": "nekibedlocker.animation",

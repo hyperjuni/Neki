@@ -1,4 +1,4 @@
--- Created by Erina Sugino for Juni
+-- Created by Erina Sugino for Juni <3
 
 neki_hasItemTag = hasItemTag
 
@@ -10,7 +10,10 @@ function hasItemTag(args, board)
 end
 
 function npcInteract(args, board)
-	pcall(function() world.callScriptedEntity(args.entity, "onNpcInteract", {sourceId = entity.id()}) end)
+	r,err = pcall(function() world.callScriptedEntity(args.entity, "onNpcInteract", {sourceId = entity.id()}) end)
+	if not r then
+		sb.logError(err)
+	end
 	local objectName = world.entityName(args.entity) or "default"
 	if string.match(objectName, "^.+captainschair$") and math.random() < 0.2 then
 		local chatSounds = config.getParameter("chatSounds", {})

@@ -54,6 +54,22 @@
 		}
 	],
 
+// ERM + Many Tabs
+	[
+		{"op": "test", "path": "/paneLayout/background/fileBody", "value": "/interface/codex/thea_codexbody.png"},
+		{"op": "test", "path": "/manytabs", "value": true},
+		{"op": "test", "path": "/extendedgui", "inverse": true},
+
+		{"op": "add", "path": "/paneLayout/speciesTabs/buttons/-",
+			"value": {
+				"baseImage": "/interface/codex/tab_neki_mt.png",
+				"baseImageChecked": "/interface/codex/tab_neki_select_mt_erm.png",
+				"pressedOffset": [0, 0],
+				"data": {"species": "neki"}
+			}
+		}
+	],
+
 // Extended GUI + Many Tabs
 	[
 		{"op": "test", "path": "/manytabs", "value": true},

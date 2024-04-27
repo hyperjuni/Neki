@@ -1,4 +1,4 @@
--- Made by Erina Sugino for Juni
+-- Created by Erina Sugino for Juni <3
 
 local Original_Init = init
 

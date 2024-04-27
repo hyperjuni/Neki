@@ -1,4 +1,4 @@
--- Created by Kherae for Juni
+-- Created by Kherae for Juni <3
 
 local oldUpdate = update
 

@@ -1,0 +1,8 @@
+{
+	"name" : "nekipodeffects",
+  "effectConfig" : {},
+  "defaultDuration" : 60,
+
+	"scripts" : ["nekipodeffects.lua"],
+	"animationConfig" : "/stats/effects/regeneration/regeneration.animation"
+}

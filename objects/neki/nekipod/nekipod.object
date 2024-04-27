@@ -27,6 +27,26 @@
 	"nekiDescription": "I love mother.",
 	"novakidDescription": "I ain't going near that.",
 
+	"chatApex": [
+		"^red;UNSANCTIONED INCURSION DETECTED^white;\nPlease stand by for disciplinary action."
+	],
+	"chatGlitch": [
+		"^yellow;CRITICAL MASS OF INORGANIC CONTAMINANT^white;",
+		"^yellow;CONTAINMENT BREACHED BY FOREIGN OBJECT^white;",
+		"^yellow;UNEXPECTED ITEM IN BAGGING AREA^white;\nRemove this item before continuing.",
+		"^yellow;LARGE FOREIGN OBJECT DETECTED^white;"
+	],
+	"chatNovakid": [
+		"^yellow;NO ORGANIC MATERIAL DETECTED^white;",
+		"^yellow;LARGE ENERGY SPIKE DETECTED^white;",
+		"^yellow;ANOMALOUS OBJECT MASS^white;"
+	],
+	"chatOther": [
+		"^yellow;INCOMPATIBLE GENETIC MATERIAL^white;",
+		"^yellow;GENETIC PROFILE MISMATCH^white;",
+		"^yellow;UNSUPPORTED SPECIMEN^white;"
+	],
+
 	"inventoryIcon": "nekipodicon.png",
 
 	"lightColor": [76, 105, 106],
@@ -70,15 +90,30 @@
 	"sitAngle": 0,
 	"sitEmote": "sleep",
 	"sitStatusEffects": [
-		"dontstarve",
-		"nekihidenekipod",
-		"nekipodfireblock",
-		"nekipodiceblock",
-		"nekipodpoisonblock",
-		"regeneration4",
+		"nekidrown",
+		"nekihidepod",
+		"nekipodeffects",
 		"nekipodgetin",
+		"nekipodlavaimmunity",
 		"nude"
 	],
 
-	"soundEffect": "/sfx/objects/apexpod.ogg"
+	"drownImmunity": {
+		"apex": true,
+		"avian": false,
+		"floran": false,
+		"glitch": false,
+		"human": true,
+		"hylotl": false,
+		"neki": true,
+		"novakid": true
+	},
+
+	"animation": "nekipod.animation",
+	"scripts": ["nekipod.lua"],
+
+	"soundEffect": "/sfx/objects/apexpod.ogg",
+	"soundAlarm": ["/sfx/objects/camera_alert_on.ogg"],
+	"soundError": ["/sfx/interface/clickon_error.ogg"],
+	"soundWarning": ["/sfx/interface/drowning2.ogg"]
 }

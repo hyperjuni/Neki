@@ -1,0 +1,6 @@
+{
+	"name": "nekipodlavaimmunity",
+	"effectConfig": {},
+	"defaultDuration": 0.25,
+	"scripts": ["nekipodlavaimmunity.lua"]
+}

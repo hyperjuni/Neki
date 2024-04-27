@@ -1,6 +1,0 @@
-{
-	"name": "nekihidenekibed",
-	"effectConfig": {},
-	"defaultDuration": 10,
-	"scripts": ["nekihidenekibed.lua"]
-}

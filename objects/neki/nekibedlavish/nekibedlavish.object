@@ -47,7 +47,9 @@
 	"sitOrientation": "lay",
 	"sitAngle": -90,
 	"sitStatusEffects": [
-		"nekibed",
-		"nekirustle"
+		"bed4",
+		"nekibedlavishgetin",
+		"nekihidebedlavish",
+		"nekipurr"
 	]
 }

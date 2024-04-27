@@ -49,8 +49,9 @@
 	"sitEmote": "sleep",
 	"sitEffectEmitters": ["sleepbubbles"],
 	"sitStatusEffects": [
-		"nekibed",
+		"bed2",
 		"nekibedgetin",
-		"nekihidenekibed"
+		"nekihidebed",
+		"nekipurr"
 	]
 }

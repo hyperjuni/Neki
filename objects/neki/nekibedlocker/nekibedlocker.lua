@@ -1,4 +1,4 @@
--- Created by Erina Sugino for Juni
+-- Created by Erina Sugino for Juni <3
 
 require("/scripts/util.lua")
 
@@ -33,8 +33,8 @@ function onInteraction(args)
 	self._skipFrame = 2
 end
 
-function onNpcInteract(sourceEntity)
-	onInteraction(sourceEntity)
+function onNpcInteract(args)
+	onInteraction(args)
 end
 
 function update(dt)

@@ -4,7 +4,7 @@
 		{"op":"add","path":"/sitStatusEffects","value":[]}
 	],
 	[
-		{"op":"add","path":"/nekiDescription","value":"It's like my purrivate sleeping box on Earth!"},
+		{"op":"add","path":"/nekiDescription","value":"It's like the purrivate sleeping box on Earth!"},
 		{"op":"add","path":"/sitStatusEffects/-","value":"nekipurr"},
 		{"op":"add","path":"/sitStatusEffects/-","value":"nekihidebedcover"}
 	]
