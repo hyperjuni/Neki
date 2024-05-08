@@ -28,7 +28,8 @@
 	"novakidDescription": "I ain't going near that.",
 
 	"chatApex": [
-		"^red;UNSANCTIONED INCURSION DETECTED^white;\nPlease stand by for disciplinary action."
+		"^red;UNSANCTIONED INCURSION DETECTED^white;\nPlease stand by for disciplinary action.",
+		"^red;UNAUTHORIZED ENTRY DETECTED^white;\nPlease stand by for punitive measures."
 	],
 	"chatGlitch": [
 		"^yellow;CRITICAL MASS OF INORGANIC CONTAMINANT^white;",
@@ -44,7 +45,8 @@
 	"chatOther": [
 		"^yellow;INCOMPATIBLE GENETIC MATERIAL^white;",
 		"^yellow;GENETIC PROFILE MISMATCH^white;",
-		"^yellow;UNSUPPORTED SPECIMEN^white;"
+		"^yellow;UNSUPPORTED SPECIMEN^white;",
+		"^yellow;UNAUTHORIZED SPECIMEN^white;"
 	],
 
 	"inventoryIcon": "nekipodicon.png",

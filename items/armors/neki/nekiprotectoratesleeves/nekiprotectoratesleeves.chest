@@ -1,7 +1,7 @@
 {
 	"itemName": "nekiprotectoratesleeves",
 	"price": 125,
-	"inventoryIcon": "icons.png:chest",
+	"inventoryIcon": "icon.png",
 	"maxStack": 1,
 	"rarity": "Uncommon",
 	"category": "chestwear",
@@ -14,7 +14,6 @@
 		"backSleeve": "bsleeve.png",
 		"frontSleeve": "fsleeve.png"
 	},
-
 	"femaleFrames": {
 		"body": "chest.png",
 		"backSleeve": "bsleeve.png",

@@ -9,11 +9,13 @@
 
 	{"op": "add", "path": "/nothingThereText/neki",
 		"value": [
-			"Nope, it's not over there.",
 			"Doesn't smell purrticularly interesting.",
 			"Purrhaps I should explore another place.",
+			"Don't care about that thing.",
+			"Nope, it's not over there.",
 			"Nothing tasty over there.",
-			"That's just boring stuff."
+			"That's just boring stuff.",
+			"Doesn't look impurrtant."
 		]
 	}
 ]

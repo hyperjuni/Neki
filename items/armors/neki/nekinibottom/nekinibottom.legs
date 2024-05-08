@@ -1,17 +1,17 @@
 {
 	"itemName": "nekinibottom",
 	"price": 1,
-	"inventoryIcon": "icons.png:pants",
+	"inventoryIcon": "icon.png",
 	"maxStack": 1,
 	"rarity": "Rare",
 	"category": "legwear",
 	"description": "Crabby Panties.",
 	"shortdescription": "Nekini Bottom",
 	"tooltipKind": "nekiarmor",
-	
+
 	"maleFrames": "pantsm.png",
 	"femaleFrames": "pantsf.png",
-	
+
 	"colorOptions": [
 	// WHITEST WHITE
 		{"ffca8a": "ffffff", "e0975c": "e6e6e6", "a85636": "b4b4b4", "6f2919": "7b7b7b"},

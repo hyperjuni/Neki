@@ -11,7 +11,7 @@
 	"maleFrames": "back.png",
 	"femaleFrames": "back.png",
 	"maxStack": 1,
-  
+
 	"effectSources": ["nekifeathers"],
 
 	"colorOptions": [

@@ -1,16 +1,15 @@
 {
-  "itemName" : "nekishades",
-  "price" : 1,
-  "inventoryIcon" : "icon.png",
-  "maxStack" : 1,
-  "rarity" : "Legendary",
-  "category" : "headwear",
-  "description" : "Deal with it.",
-  "shortdescription" : "Neki Shades",
-  "tooltipKind" : "armor",
+	"itemName": "nekishades",
+	"price": 1,
+	"inventoryIcon": "icon.png",
+	"maxStack": 1,
+	"rarity": "Legendary",
+	"category": "headwear",
+	"description": "Deal with it.",
+	"shortdescription": "Neki Shades",
+	"tooltipKind": "armor",
 
-  "maleFrames" : "head.png",
-  "femaleFrames" : "head.png",
-  "mask" : "mask.png"
+	"maleFrames": "head.png",
+	"femaleFrames": "head.png",
+	"mask": "mask.png"
 }
-

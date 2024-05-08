@@ -1,7 +1,7 @@
 {
 	"itemName": "nekidressgala",
 	"price": 1,
-	"inventoryIcon": "icons.png:pants",
+	"inventoryIcon": "icon.png",
 	"maxStack": 1,
 	"rarity": "Rare",
 	"category": "legwear",

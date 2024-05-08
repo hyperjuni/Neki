@@ -149,6 +149,7 @@
 			{"item": "nekipeacekeeperhead"},
 			{"item": "nekipeacekeepersleeves"},
 			{"item": "nekipeacekeeperuniform"},
+			{"item": "nekirags"},
 			{"item": "nekiscientistcoat"},
 			{"item": "nekiscientistsleeves"},
 			{"item": "nekishades"},
@@ -402,7 +403,8 @@
 				"nekistrapless",
 				"nekinightie",
 				"nekidressgala",
-				"nekidressrobe"
+				"nekidressrobe",
+				"nekirags"
 			],
 			"facialHairGroup": "",
 			"facialHair": [],
@@ -617,7 +619,8 @@
 				"nekistrapless",
 				"nekinightie",
 				"nekidressgala",
-				"nekidressrobe"
+				"nekidressrobe",
+				"nekirags"
 			],
 			"facialHairGroup": "",
 			"facialHair": [],

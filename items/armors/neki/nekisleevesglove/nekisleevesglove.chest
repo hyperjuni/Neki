@@ -1,7 +1,7 @@
 {
 	"itemName": "nekisleevesglove",
 	"price": 1,
-	"inventoryIcon": "icons.png:chest",
+	"inventoryIcon": "icon.png",
 	"maxStack": 1,
 	"rarity": "Rare",
 	"category": "chestwear",

@@ -1,0 +1,9 @@
+{
+	"input": [
+		{"item": "tshirtchest", "count": 2}
+	],
+
+	"duration": 0.5,
+	"output": {"item": "nekirags", "count": 1},
+	"groups": ["nekiwheel", "clothes"]
+}

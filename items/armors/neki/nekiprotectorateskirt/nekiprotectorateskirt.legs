@@ -1,7 +1,7 @@
 {
 	"itemName": "nekiprotectorateskirt",
 	"price": 200,
-	"inventoryIcon": "icons.png:pants",
+	"inventoryIcon": "icon.png",
 	"maxStack": 1,
 	"rarity": "Uncommon",
 	"category": "legwear",
