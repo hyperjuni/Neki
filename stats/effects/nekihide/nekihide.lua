@@ -1,5 +1,4 @@
 -- Masks/hides the entire character
--- The other 'nekihide' scripts apply object-specific masks
 
 function init()
 	local species = world.entitySpecies(entity.id()) or "default"

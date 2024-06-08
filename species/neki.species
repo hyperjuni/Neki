@@ -1,9 +1,9 @@
 {
 	"kind": "neki",
-		"charCreationTooltip": {
-			"title": "Neki",
-			"subTitle": "Welcome to my purrivate parts...",
-			"description": "Despite appearances, the Neki can be anything but adorable. Rumored to be a human project ending up in the wrong hands, they're more akin to wild animals than their alleged creators.
+	"charCreationTooltip": {
+		"title": "Neki",
+		"subTitle": "Welcome to my purrivate parts...",
+		"description": "Despite appearances, the Neki can be anything but adorable. Rumored to be a human project ending up in the wrong hands, they're more akin to wild animals than their alleged creators.
 ^cyan;Racial attributes available by installing Race Traits.^reset;
 
 ^cyan;Max Health^reset;: ^red;-25%^reset;
@@ -23,19 +23,13 @@
 ^cyan;Jump Height^reset;: ^green;+30%^reset;
 ^cyan;Fall Damage^reset; ^green;-40%^reset;
 ^cyan;Hunger Rate^reset;: ^red;+50%^reset;"
-		},
+	},
 
+	"effectDirectives": "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=80f4ffFF?replace=31a6ffFF=39b8e3FF",
 	"nameGen": ["/species/nekimalenamegen.config:names", "/species/nekifemalenamegen.config:names"],
 	"ouchNoises": ["/sfx/humanoid/nekihurt_male.ogg", "/sfx/humanoid/nekihurt_female.ogg"],
 	"deathNoises": ["/sfx/humanoid/nekidead.ogg"],
-	
-// StarExtensions stuff
-	"humanoidOverrides": {
-		"useBodyMask": true,
-		"useBodyHeadMask": true,
-	// legacy version of the above
-		"headSliceY": 25
-	},
+	"skull": "/humanoid/neki/nekidead.png",
 
 	"charGenTextLabels": [
 		"Coat colour",
@@ -50,16 +44,57 @@
 		"Idle pose"
 	],
 
-	"skull": "/humanoid/neki/nekidead.png",
-	"effectDirectives": "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=80f4ffFF?replace=31a6ffFF=39b8e3FF",
+	"humanoidOverrides": {
+		"headSitOffset": [1, 0],
+		"headDuckOffset": [2, 0],
+		"headLayOffset": [1, 0],
+		"personalities": [
+		// Pose, Arms, Head [x,y], Arms [x,y]
+			["idle.1", "swim.2", [0, 0], [0, -1]],		// beggar
+			["idle.1", "idle.1", [0, 0], [0, 0]], 		// standard
+			["idle.1", "idle.2", [-1, 0], [0, 0]],		// clean your room
+			["idle.1", "idle.3", [0, 0], [2, 0]],			// or else
+			["idle.1", "idle.4", [-1, 0], [0, 0]],		// or else what
+			["idle.1", "idle.5", [0, 0], [0, 0]],			// coque
+			["idle.2", "idle.5", [-1, 0], [0, 0]],		// full chest
+			["idle.2", "idle.4", [-1, 0], [0, 0]],		// brute
+			["idle.2", "idle.3", [-1, 0], [2, 0]],		// air piano
+			["idle.2", "swim.2", [-1, 0], [0, 0]],		// calm
+			["idle.2", "idle.2", [-1, 0], [0, 0]],		// confident
+			["idle.2", "idle.1", [-1, 0], [0, 1]],		// very stoic
+			["idle.3", "idle.1", [-1, 0], [-1, 0]],		// sick of your shit
+			["idle.3", "idle.2", [-1, 0], [-1, 0]],		// very sick of your shit
+			["idle.3", "swim.2", [-1, 0], [-1, -1]],	// yoga
+			["idle.3", "idle.3", [-1, 0], [0, 0]],		// gunslinger
+			["idle.3", "idle.4", [-1, 0], [-1, 0]],		// bruteslinger
+			["idle.3", "idle.5", [-2, 0], [-1, 0]],		// lean back
+			["idle.4", "idle.5", [-1, 0], [0, 0]],		// full bully
+			["idle.4", "idle.4", [-1, 0], [0, 0]],		// bully
+			["idle.4", "idle.3", [-1, 0], [2, 0]],		// prepared
+			["idle.4", "swim.2", [-1, 0], [0, -1]],		// primed
+			["idle.4", "idle.2", [-1, 0], [0, 0]],		// proud
+			["idle.4", "idle.1", [-1, 0], [0, 0]], 		// stoic
+			["idle.5", "idle.1", [0, 0], [0, 0]],			// loser
+			["idle.5", "idle.2", [0, 0], [0, 0]], 		// fabulous
+			["idle.5", "idle.3", [0, 0], [2, 0]], 		// nervous
+			["idle.5", "idle.4", [0, 0], [1, 0]],			// hugs
+			["idle.5", "idle.5", [0, 0], [0, 0]],			// scared
+			["idle.5", "swim.2", [1, 0], [0, -1]]			// slouching
+		],
+	// StarExtensions stuff
+		"useBodyMask": true,
+		"useBodyHeadMask": true,
+		"headSliceY": 25 // Legacy option
+	},
+
 	"defaultBlueprints": {
 		"tier1": [
-
-// Empty Hands
-			{"item": "nekitier1spotlightBroken"},
-			{"item": "nekibed"},
+		// Empty Hands
 			{"item": "flagneki"},
+			{"item": "nekibed"},
 			{"item": "nekibedlavish"},
+			{"item": "nekitable"},
+			{"item": "nekitier1spotlightBroken"},
 			{"item": "nekiclaws1"},
 			{"item": "nekiclaws2"},
 			{"item": "nekiclaws3"},
@@ -74,7 +109,7 @@
 			{"item": "nekishipT10"},
 			{"item": "nekishipT11"},
 
-// Anvil
+		// Anvil
 			{"item": "nekitier1head"},
 			{"item": "nekitier1sleeves"},
 			{"item": "nekitier1armor"},
@@ -87,7 +122,7 @@
 			{"item": "tungstenaxe"},
 			{"item": "tungstenhammer"},
 
-// Anvil2
+		// Anvil2
 			{"item": "nekitier3head"},
 			{"item": "nekitier3sleeves"},
 			{"item": "nekitier3armor"},
@@ -101,7 +136,7 @@
 			{"item": "durasteelbroadsword"},
 			{"item": "durasteelshortsword"},
 
-// Anvil3
+		// Anvil3
 			{"item": "nekitier4head"},
 			{"item": "nekitier4sleeves"},
 			{"item": "nekitier4armor"},
@@ -116,30 +151,30 @@
 			{"item": "violiumshortsword"},
 			{"item": "violiumbroadsword"},
 
-// Furnace
+		// Furnace
 			{"item": "nekicastclaw3"},
 
-// Furnace 2
+		// Furnace 2
 			{"item": "nekicastclaw4"},
 
-// Furnace 3
+		// Furnace 3
 			{"item": "nekicastclaw5"},
 			{"item": "nekithingyelectric"},
 			{"item": "nekithingyfire"},
 			{"item": "nekithingyice"},
 			{"item": "nekithingypoison"},
 
-// Furniture Table 2
+		// Furniture Table 2
 			{"item": "apexshipdoor"},
 			{"item": "apexshiphatch"},
 
 			{"item": "nekibedlocker"},
 			{"item": "nekistoragelocker"},
 
-// Inventor's Table
+		// Inventor's Table
 			{"item": "nekiwheel"},
 
-// Neki Wheel
+		// Neki Wheel
 			{"item": "nekitoywingsback"},
 			{"item": "nekiwingsback"},
 			{"item": "nekidressgala"},
@@ -164,7 +199,7 @@
 			{"item": "nokini"},
 			{"item": "nokinibottom"},
 			{"item": "nokinitop"},
-			
+
 			{"item": "invisiblefabricback"},
 			{"item": "invisiblefabrichead"},
 			{"item": "invisiblefabriclegs"},
@@ -177,7 +212,7 @@
 			{"item": "nekisshortchest"},
 			{"item": "nekisshortchest2"},
 			{"item": "nekisshortlegs"},
-			
+
 			{"item": "nekicurtain1"},
 			{"item": "nekicurtain2"},
 			{"item": "nekicurtain3"},
@@ -193,11 +228,6 @@
 			{"item": "nekipillowpile"}	
 		]
 	},
-
-	"altOptionAsUndyColor": true,	// Head (red) = undyColor
-	"headOptionAsHairColor": true,	// Hair (green) = hairColor
-	"altOptionAsHairColor": true,	// Hair (red) = undyColor
-	"hairColorAsBodySubColor": true,	// Body (green) = hairColor
 
 	"genders": [
 		{
@@ -628,6 +658,11 @@
 			"facialMask": []
 		}
 	],
+
+	"altOptionAsUndyColor": true,	// Head (red) = undyColor
+	"headOptionAsHairColor": true,	// Hair (green) = hairColor
+	"altOptionAsHairColor": true,	// Hair (red) = undyColor
+	"hairColorAsBodySubColor": true,	// Body (green) = hairColor
 
 	"bodyColor": [
 		{"FFE2C5": "505050", "FFC181": "343434", "D39C6C": "202020", "C7815B": "000000"},	// Black

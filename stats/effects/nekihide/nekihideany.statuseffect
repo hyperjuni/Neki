@@ -1,0 +1,6 @@
+{
+	"name": "nekihideany",
+	"effectConfig": {},
+	"defaultDuration": 10,
+	"scripts": ["nekihideany.lua"]
+}

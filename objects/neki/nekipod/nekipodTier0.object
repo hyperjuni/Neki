@@ -1,0 +1,61 @@
+{
+	"objectName": "nekipodTier0",
+	"objectType": "loungeable",
+	"category": "furniture",
+	"rarity": "Essential",
+	"price": 275,
+	"race": "neki",
+	"printable": false,
+	"tooltipKind": "nekibase",
+	"colonyTags": [
+		"neki",
+		"science",
+		"apexresearchlab",
+		"light",
+		"evil"
+	],
+
+	"shortdescription": "Neki Pod (offline)",
+	"description": "This Neki life support pod seems to be offline.",
+
+	"apexDescription": "I've never seen a pod this large before, I wonder what it's meant to contain.",
+	"avianDescription": "This is dark science...",
+	"floranDescription": "Sssuch machines are unnatural.",
+	"glitchDescription": "Attentive. Machine appears to be life support for some unknown creature.",
+	"humanDescription": "Hey, this looks about the right size for me!",
+	"hylotlDescription": "It appears to be intended for some sort of creature, perhaps an aquatic one.",
+	"nekiDescription": "I love mother.",
+	"novakidDescription": "I ain't going near that.",
+
+	"inventoryIcon": "nekipodicon.png",
+
+	"orientations": [
+		{
+			"direction": "left",
+			"anchors": ["bottom"],
+			"image": "nekipodTier0.png:<color>.<frame>",
+			"imagePosition": [-22, 0],
+			"flipImages": true,
+			"spaceScan": 0.1,
+
+			"frames": 12,
+			"animationCycle": 1.4,
+			"animationPosition": [-16, 0]
+		},
+		{
+			"direction": "right",
+			"anchors": ["bottom"],
+			"image": "nekipodTier0.png:<color>.<frame>",
+			"imagePosition": [-22, 0],
+			"spaceScan": 0.1,
+
+			"frames": 12,
+			"animationCycle": 1.4,
+			"animationPosition": [-16, 0]
+		}
+	],
+	
+	"animation": "/objects/noisy/noisy.animation",
+	"scripts": ["/objects/noisy/noisy.lua"],
+	"sounds": ["/sfx/interface/clickon_error.ogg"]
+}

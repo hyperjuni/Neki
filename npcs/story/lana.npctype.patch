@@ -7,7 +7,7 @@
 			"Hm.. you seem different from the rest of your kind, but how is that possible?",
 			"This one's Control Collar must be malfunctioning.. this may prove useful to us!",
 			"Listen up, Neki!\nWe need a scout underground, and you should be able to fit right in.",
-			"The name's ^orange;Lana Blake^white;,\nand if you want into this stronghold as much as we do, may as well help us.",
+			"The name's ^orange;Lana Blake^reset;,\nand if you want into this stronghold as much as we do, may as well help us.",
 			"Get down the tunnel access, find a way to lower their defenses for us - and we'll do the rest.",
 			"I hope my trust in you won't prove to be misplaced, clone!"
 		]
@@ -27,12 +27,12 @@
 		"value": [
 			"Well done, cl.. hm, I believe it would be unfair to call you that after all you've done for us today.",
 			"Do you have a name, Neki?",
-			"\"^#71f2f6;<entityname>^white;\"?\nThat's an interesting name.",
-			"Well, ^#71f2f6;<entityname>^white; - you seem to be so much more than your origins imply.",
+			"\"^#71f2f6;<entityname>^reset;\"?\nThat's an interesting name.",
+			"Well, ^#71f2f6;<entityname>^reset; - you seem to be so much more than your origins imply.",
 			"Whatever is 'wrong' with you has been instrumental to our victory today, and-",
 			"..what IS this thing? Its' glow is very distracting!",
 			"Oh, it's what you're after? ..Just take it, then.",
-			"^#71f2f6;<entityname>^white;, I'd like to help you, I think that you've earned as much from me.",
+			"^#71f2f6;<entityname>^reset;, I'd like to help you, I think that you've earned as much from me.",
 			"I have skills and connections that may prove useful to you."
 		]
 	}

@@ -7,7 +7,7 @@
 	"icon": "/tech/nekihops.png",
 
 	"shortDescription": "Neki Hops",
-	"description": "Double tap ^green;[A]^white; or ^green;[D] ^white;to Hop, hold ^green;[S]^white; then ^green;[W]^white; to Pounce!",
+	"description": "Double tap ^green;[A]^reset; or ^green;[D] ^reset;to Hop, hold ^green;[S]^reset; then ^green;[W]^reset; to Pounce!",
 	"rarity": "Legendary",
 	"chipCost": 16,
 

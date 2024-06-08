@@ -25,28 +25,29 @@
 	"humanDescription": "Hey, this looks about the right size for me!",
 	"hylotlDescription": "It appears to be intended for some sort of creature, perhaps an aquatic one.",
 	"nekiDescription": "I love mother.",
-	"novakidDescription": "I ain't going near that.",
+	"novakidDescription": "I ain't goin' near that thing.",
 
 	"chatApex": [
-		"^red;UNSANCTIONED INCURSION DETECTED^white;\nPlease stand by for disciplinary action.",
-		"^red;UNAUTHORIZED ENTRY DETECTED^white;\nPlease stand by for punitive measures."
+		"^red;UNSANCTIONED INCURSION DETECTED^reset;\nPlease stand by for disciplinary action.",
+		"^red;DETECTING UNAUTHORIZED ENTRY^reset;\nPlease stand by for punitive measures.",
+		"^red;DO NOT THE SUBJECTS^reset;"
 	],
 	"chatGlitch": [
-		"^yellow;CRITICAL MASS OF INORGANIC CONTAMINANT^white;",
-		"^yellow;CONTAINMENT BREACHED BY FOREIGN OBJECT^white;",
-		"^yellow;UNEXPECTED ITEM IN BAGGING AREA^white;\nRemove this item before continuing.",
-		"^yellow;LARGE FOREIGN OBJECT DETECTED^white;"
+		"^yellow;CRITICAL MASS OF INORGANIC CONTAMINANT^reset;",
+		"^yellow;CONTAINMENT BREACHED BY FOREIGN OBJECT^reset;",
+		"^yellow;UNEXPECTED ITEM IN BAGGING AREA^reset;\nRemove this item before continuing.",
+		"^yellow;LARGE FOREIGN OBJECT DETECTED^reset;"
 	],
 	"chatNovakid": [
-		"^yellow;NO ORGANIC MATERIAL DETECTED^white;",
-		"^yellow;LARGE ENERGY SPIKE DETECTED^white;",
-		"^yellow;ANOMALOUS OBJECT MASS^white;"
+		"^yellow;NO ORGANIC MATERIAL DETECTED^reset;",
+		"^yellow;LARGE ENERGY SPIKE DETECTED^reset;",
+		"^yellow;ANOMALOUS OBJECT MASS^reset;"
 	],
 	"chatOther": [
-		"^yellow;INCOMPATIBLE GENETIC MATERIAL^white;",
-		"^yellow;GENETIC PROFILE MISMATCH^white;",
-		"^yellow;UNSUPPORTED SPECIMEN^white;",
-		"^yellow;UNAUTHORIZED SPECIMEN^white;"
+		"^yellow;INCOMPATIBLE GENETIC MATERIAL^reset;",
+		"^yellow;GENETIC PROFILE MISMATCH^reset;",
+		"^yellow;UNSUPPORTED SPECIMEN^reset;",
+		"^yellow;UNAUTHORIZED SPECIMEN^reset;"
 	],
 
 	"inventoryIcon": "nekipodicon.png",
@@ -65,11 +66,16 @@
 			"imagePosition": [-22, 0],
 			"flipImages": true,
 			"spaceScan": 0.1,
-
+			"collision": "platform",
+      "collisionSpaces": [
+				[-3, 7],
+				[-1, 7],
+				[0, 7],
+				[1, 7]
+			],
 			"frames": 12,
 			"animationCycle": 1.4,
 			"animationPosition": [-16, 0],
-
 			"sitPosition": [5.5, 36]
 		},
 		{
@@ -78,11 +84,16 @@
 			"image": "nekipod.png:<color>.<frame>",
 			"imagePosition": [-22, 0],
 			"spaceScan": 0.1,
-
+			"collision": "platform",
+      "collisionSpaces": [
+				[-3, 7],
+				[-2, 7],
+				[0, 7],
+				[1, 7]
+			],
 			"frames": 12,
 			"animationCycle": 1.4,
 			"animationPosition": [-16, 0],
-
 			"sitPosition": [-2.5, 36]
 		}
 	],

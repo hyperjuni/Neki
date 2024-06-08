@@ -11,12 +11,12 @@
 
 *scratch*
 *rustling noise*
-*BEEP!*^white;
+*BEEP!*^reset;
 \"Khhhhhh!\"^gray; ... *THUMP*
 
 [long silence]
 
-*sniffing sounds*^white;
+*sniffing sounds*^reset;
 \"Dumb thingy! Pfft.\"
 
 ^gray;*fading soft steps*"

@@ -22,7 +22,7 @@
 	"nekiDescription": "I fits and I sleeps.",
 	"novakidDescription": "A stealthy locker for stealthily puttin' things in.",
 
-	"nonNekiText": "Are you well?\nDo you have brain damage?",
+	"deniedText": "Are you well?\nDo you have brain damage?",
 
 	"inventoryIcon": "nekibedlockericon.png",
 

@@ -9,7 +9,7 @@
 	"tooltipKind": "nekibase",
 	"colonyTags": ["neki"],
 
-	"shortdescription": "Neki Bed",
+	"shortdescription": "Neki Basic Bed",
 	"description": "A beat-up box with scratches and fur all over, filled with crudely-made pillows.",
 
 	"apexDescription": "An unappealing cardboard box with an odd smell.",
@@ -19,7 +19,7 @@
 	"humanDescription": "A busted smelly cardboard box. Looks like it's seen better days.",
 	"hylotlDescription": "A suspiciously warm cardboard box. Looks like it's being used as shelter by an animal.",
 	"nekiDescription": "I fits and I sleeps.",
-	"novakidDescription": "A flimsy box full of old pillows.",
+	"novakidDescription": "A flimsy ol' box full o' pillows.",
 
 	"inventoryIcon": "nekibedicon.png",
 

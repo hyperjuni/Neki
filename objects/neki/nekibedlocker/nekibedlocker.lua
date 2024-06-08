@@ -15,7 +15,7 @@ function onInteraction(args)
 		if #self.sounds > 0 then
 			animator.playSound("noise")
 		end
-		return {"Message", {messageType = "queueRadioMessage", messageArgs = {{messageId = "nekibedlocker", unique = false, text = config.getParameter("nonNekiText", "No.")}}}}
+		return {"Message", {messageType = "queueRadioMessage", messageArgs = {{messageId = "nekibedlocker", unique = false, text = config.getParameter("deniedText", "No.")}}}}
 	end
 
 	local bodyDirectives = ""

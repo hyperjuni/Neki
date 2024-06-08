@@ -136,18 +136,17 @@ function update(args)
 
 	if self.hopDirection then
 		if args.moves[self.hopDirection > 0 and "right" or "left"]
-		--and status.resource("energy") >= self.energyCostPerHop
 		and not mcontroller.liquidMovement() then
-			if status.overConsumeResource("energy", self.energyCostPerHop * args.dt) then
-				animator.setAnimationState("hopping", "on")
-				--animator.setParticleEmitterActive("hopParticles", true)
-				if mcontroller.onGround()
-				and self.hopTimeout <= 0 then
+			animator.setAnimationState("hopping", "on")
+			--animator.setParticleEmitterActive("hopParticles", true)
+			if mcontroller.onGround()
+			and self.hopTimeout <= 0 then
+				if status.resource("energy") >= self.energyCostPerHop then
 					hop()
 					animator.setFlipped(self.hopDirection == -1)
+				else
+					endHop()
 				end
-			else
-				endHop()
 			end
 		else
 			if args.moves[self.hopDirection > 0 and "left" or "right"] then
@@ -211,6 +210,7 @@ end
 function hop()
 	self.hopTimeout = 0.25
 	mcontroller.setVelocity({self.hopSpeed*self.hopDirection,self.hopJump})
+	status.overConsumeResource("energy", self.energyCostPerHop)
 	self.landed = false
 end
 

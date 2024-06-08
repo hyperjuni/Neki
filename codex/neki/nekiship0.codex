@@ -5,14 +5,14 @@
 	"description": "Mission parameters for a highly-classified Miniknog extraction operation.",
 	"icon": "nekimemorycardmk.png",
 	"contentPages": [
-"^blue;Status:^white; \"Special Case\" identified.
-^blue;Target:^white; Terrene Protectorate, Earth.
-^blue;Objective:^white; Classified asset recovery.
+"^blue;Status:^reset; \"Special Case\" identified.
+^blue;Target:^reset; Terrene Protectorate, Earth.
+^blue;Objective:^reset; Classified asset recovery.
 
 Owing to the mission's urgency and highly-sensitive nature, one of the prototype stealth-coat vessels is to be used; Earth's inferior sensor arrays present a safe test-run opportunity for the vessel.
 
 Agents are to maintain cover at all times and mission details classified.
-^red;Violating mission parameters will trigger the Termination Clause^white;."
+^red;Violating mission parameters will trigger the Termination Clause^reset;."
 
 	],
 
