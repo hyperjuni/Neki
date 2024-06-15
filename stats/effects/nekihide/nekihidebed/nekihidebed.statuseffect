@@ -1,6 +1,7 @@
 {
 	"name": "nekihidebed",
-	"effectConfig": {},
 	"defaultDuration": 10,
+	"effectConfig": {},
+
 	"scripts": ["nekihidebed.lua"]
 }

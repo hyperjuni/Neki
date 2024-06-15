@@ -1,7 +1,7 @@
 [
 	{"op": "add",	"path": "/species/neki",
 		"value": {
-			"aiFrames": "NekiAI.png",
+			"aiFrames": "nekiAi.png",
 			"portraitFrames": "portraits/nekiportrait.png",
 			"staticFrames": "staticNeki.png"
 		}

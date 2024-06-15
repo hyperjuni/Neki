@@ -1,5 +1,6 @@
 {
 	"name": "nekipoof",
+
 	"scripts": ["nekipoof.lua"],
 	"animationConfig": "nekipoof.animation"
 }

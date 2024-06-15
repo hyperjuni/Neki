@@ -1,10 +1,9 @@
 {
 	"name": "nekipoisonblock",
-	"effectConfig": {},
 	"defaultDuration": 60,
+	"effectConfig": {},
 
-	"scripts": ["/stats/effects/poisonblock/poisonblock.lua"],
-
+	"icon": "/interface/statuses/nekipoisonblock.png",
 	"label": "Claws Poison Resistance",
-	"icon": "nekipoisonblock.png"
+	"scripts": ["/stats/effects/poisonblock/poisonblock.lua"]
 }

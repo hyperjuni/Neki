@@ -1,6 +1,7 @@
 {
 	"name": "nekihidesleepingbag",
-	"effectConfig": {},
 	"defaultDuration": 10,
+	"effectConfig": {},
+
 	"scripts": ["nekihidesleepingbag.lua"]
 }

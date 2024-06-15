@@ -1,4 +1,26 @@
 [
+	{"op": "add",	"path": "/nekinofoodpoisontutorial",
+		"value": {
+			"type": "tutorial",
+			"portraitImage": "alert.<frame>",
+			"portraitFrames": 4,
+			"portraitSpeed": 0.6,
+			"text": "Did you just consume a chunk of raw flesh?!",
+			"persistTime": 3.0
+		}
+	},
+	{"op": "add",	"path": "/nekinofoodpoisontutorial2",
+		"value": {
+			"type": "tutorial",
+			"text": "Seeing as you clearly aren't experiencing the ill effects of raw meat consumption, I assume that you are somehow immune to them. This ought to improve your chances of survival by 8.9%."
+		}
+	},
+	{"op": "add",	"path": "/nekipoisontutorial",
+		"value": {
+			"type": "tutorial",
+			"text": "The discomfort you are experiencing is likely due to being poisoned. I suggest avoiding foods that contain the brown beans, as those appear to be highly toxic to you."
+		}
+	},
 	{"op": "add",	"path": "/pickupflagneki",
 		"value": {
 			"type": "tutorial",

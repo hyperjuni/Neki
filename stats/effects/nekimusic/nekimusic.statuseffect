@@ -1,10 +1,9 @@
 {
 	"name": "nekimusic",
-	"effectConfig": {},
 	"defaultDuration": 60,
+	"effectConfig": {},
 
-	"scripts": ["/stats/effects/nekimusic/nekimusic.lua"],
-
+	"icon": "/items/active/weapons/neki/icon/nekiclaws5icon.png:front",
 	"label": "Neki Butt-Wiggle",
-	"icon": "/items/active/weapons/neki/icon/nekiclaws5icon.png:front"
+	"scripts": ["/stats/effects/nekimusic/nekimusic.lua"]
 }

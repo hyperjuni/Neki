@@ -16,7 +16,7 @@
 ^cyan;Ice Resistance^reset;: ^green;+15%^reset;
 ^cyan;Physical Resistance^reset;: ^red;-15%^reset;
 
-^yellow;Immunities^reset;: ^green;Food Poisoning, Frost, Slow^reset;
+^yellow;Immunities^reset;: ^green;Frost, Slow^reset;
 ^yellow;Racial Benefits^reset;: ^green;Swim Boost (Alternate), Health Regen^reset;
 
 ^cyan;Movement Speed^reset;: ^green;+18%^reset;
@@ -659,9 +659,9 @@
 		}
 	],
 
-	"altOptionAsUndyColor": true,	// Head (red) = undyColor
-	"headOptionAsHairColor": true,	// Hair (green) = hairColor
-	"altOptionAsHairColor": true,	// Hair (red) = undyColor
+	"altOptionAsUndyColor": true,			// Head (red) = undyColor
+	"headOptionAsHairColor": true,		// Hair (green) = hairColor
+	"altOptionAsHairColor": true,			// Hair (red) = undyColor
 	"hairColorAsBodySubColor": true,	// Body (green) = hairColor
 
 	"bodyColor": [
@@ -680,6 +680,7 @@
 		{"FFE2C5": "b3aea8", "FFC181": "8b8680", "D39C6C": "66625d", "C7815B": "35322f"},	// Stone
 		{"FFE2C5": "baafa5", "FFC181": "96887a", "D39C6C": "736355", "C7815B": "433428"},	// Mink
 		{"FFE2C5": "d7b187", "FFC181": "c88959", "D39C6C": "98664a", "C7815B": "6e432c"},	// Sienna
+		{"FFE2C5": "d6ba80", "FFC181": "d0943e", "D39C6C": "a05e2c", "C7815B": "6d3a2c"},	// Apricot
 		{"FFE2C5": "cfcfcf", "FFC181": "b6b6b6", "D39C6C": "848484", "C7815B": "494949"},	// Cloud
 		{"FFE2C5": "d2c2bd", "FFC181": "baa9a6", "D39C6C": "93858e", "C7815B": "5e5360"},	// Thistle
 		{"FFE2C5": "e8cebc", "FFC181": "cfa97d", "D39C6C": "ae774b", "C7815B": "804e34"},	// Fawn
@@ -690,16 +691,17 @@
 	],
 
 	"undyColor": [
-	// Eye/Accessory Color	
+	// Eye/Accessory Color
 		{"F32200": "505050", "DC1F00": "343434", "BE1B00": "202020", "951500": "000000"},	// Black
 		{"F32200": "6b6182", "DC1F00": "3d3d5d", "BE1B00": "2c3047", "951500": "17232d"},	// Lilac Blue
-		{"F32200": "a97e39", "DC1F00": "81572a", "BE1B00": "56341b", "951500": "2c160a"},	// Brown Dark
-		{"F32200": "804f30", "DC1F00": "603429", "BE1B00": "481c0e", "951500": "170a06"},	// Brown
+		{"F32200": "a97e39", "DC1F00": "81572a", "BE1B00": "56341b", "951500": "2c160a"},	// Brown
+		{"F32200": "804f30", "DC1F00": "603429", "BE1B00": "481c0e", "951500": "170a06"},	// Brown Dark
 		{"F32200": "993f00", "DC1F00": "661900", "BE1B00": "460500", "951500": "150200"},	// Red Dark
+		{"F32200": "b12f3b", "DC1F00": "791f39", "BE1B00": "511934", "951500": "2b1225"}, // Bordeaux
 		{"F32200": "db3548", "DC1F00": "7e1f30", "BE1B00": "441a21", "951500": "1c0a0b"},	// Red
 		{"F32200": "874f6c", "DC1F00": "79324d", "BE1B00": "561530", "951500": "15050c"},	// Purple Grape
 		{"F32200": "9c4b80", "DC1F00": "70335b", "BE1B00": "411732", "951500": "250d1c"},	// Purple
-		{"F32200": "9900cc", "DC1F00": "590099", "BE1B00": "2a0066", "951500": "040033"},	// Purple Dark
+		{"F32200": "9900cc", "DC1F00": "590099", "BE1B00": "2a0066", "951500": "040033"},	// Deep Purple
 		{"F32200": "807dba", "DC1F00": "6a51a3", "BE1B00": "4a1486", "951500": "21093b"},	// Lilac
 		{"F32200": "6b72d1", "DC1F00": "4e3693", "BE1B00": "420457", "951500": "16011d"},	// Lilac Dark
 		{"F32200": "94a9ce", "DC1F00": "667395", "BE1B00": "3f3c99", "951500": "161537"},	// Blue Lighter
@@ -708,11 +710,14 @@
 		{"F32200": "0099cc", "DC1F00": "005999", "BE1B00": "002a66", "951500": "000433"},	// Blue
 		{"F32200": "309d8e", "DC1F00": "247074", "BE1B00": "204651", "951500": "15212b"},	// Teal
 		{"F32200": "6ca55e", "DC1F00": "3d7a52", "BE1B00": "1b4f3e", "951500": "030f0e"},	// Green
-		{"F32200": "599900", "DC1F00": "2a6600", "BE1B00": "043300", "951500": "010f00"}	// Green Salad
+		{"F32200": "599900", "DC1F00": "2a6600", "BE1B00": "043300", "951500": "010f00"},	// Green Salad
+		{"F32200": "85aeaa", "DC1F00": "56646d", "BE1B00": "40424f", "951500": "1e1f24"}	// Electric
 	],
 
 	"hairColor": [
 	// Neki
+		{"F7E7B2": "b2e2d4", "D9C189": "9fbdbb", "A38D59": "8c9496", "735E3A": "5d646a"},	// Light Turquoise
+		{"F7E7B2": "bddeef", "D9C189": "8dacc8", "A38D59": "797d88", "735E3A": "4b515d"},	// Light Ice
 		{"F7E7B2": "b5c66b", "D9C189": "8d9c4b", "A38D59": "657033", "735E3A": "394117"},	// Green Swamp
 		{"F7E7B2": "76bd74", "D9C189": "559453", "A38D59": "3b6a39", "735E3A": "1c3d1b"},	// Green
 		{"F7E7B2": "7dceae", "D9C189": "469d89", "A38D59": "237465", "735E3A": "134449"},	// Turquoise
@@ -729,13 +734,16 @@
 		{"F7E7B2": "fde9e8", "D9C189": "edbfc0", "A38D59": "ee97a5", "735E3A": "b65058"},	// Pink Light
 		{"F7E7B2": "ffbb99", "D9C189": "f49882", "A38D59": "dd5553", "735E3A": "99404c"},	// Peach
 		{"F7E7B2": "ee8e51", "D9C189": "d3523b", "A38D59": "af3220", "735E3A": "831415"},	// Fiery
+		{"F7E7B2": "d95d45", "D9C189": "b12f3b", "A38D59": "791f39", "735E3A": "511934"},	// Radish
+		{"F7E7B2": "eea94a", "D9C189": "e56f15", "A38D59": "bf400d", "735E3A": "8e2206"},	// Phoenix
 		{"F7E7B2": "ffc58c", "D9C189": "ff964c", "A38D59": "cc491e", "735E3A": "991f07"},	// Orange
 		{"F7E7B2": "fad472", "D9C189": "e0a56b", "A38D59": "bc6445", "735E3A": "99404c"},	// Orange Light
 		{"F7E7B2": "ebcc89", "D9C189": "d6a257", "A38D59": "c27557", "735E3A": "924f49"},	// Ginger
 		{"F7E7B2": "e9e7c7", "D9C189": "ddc49b", "A38D59": "a88055", "735E3A": "8d6345"},	// Blonde 8
 		{"F7E7B2": "fdfbd1", "D9C189": "e0d2ae", "A38D59": "ba9685", "735E3A": "8f6961"},	// Blonde 9
-		{"F7E7B2": "e4e7e7", "D9C189": "d0d5ce", "A38D59": "9b9b98", "735E3A": "625c6c"},	// White
+		{"F7E7B2": "fbedd0", "D9C189": "f8d8b1", "A38D59": "dfb392", "735E3A": "b77d69"},	// Blonde Cream
 		{"F7E7B2": "ffffff", "D9C189": "e6e6e6", "A38D59": "b4b4b4", "735E3A": "797979"},	// White Angelic
+		{"F7E7B2": "e4e7e7", "D9C189": "d0d5ce", "A38D59": "9b9b98", "735E3A": "625c6c"},	// White
 		{"F7E7B2": "E4C0A6", "D9C189": "C29784", "A38D59": "b16157", "735E3A": "833e41"},	// Brown Light
 		{"F7E7B2": "ba9685", "D9C189": "8f6962", "A38D59": "724549", "735E3A": "483038"},	// Brown
 		{"F7E7B2": "b27f7f", "D9C189": "945858", "A38D59": "6f4343", "735E3A": "432929"},	// Brown Red

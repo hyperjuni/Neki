@@ -1,6 +1,7 @@
 {
 	"name": "nekihidepod",
-	"effectConfig": {},
 	"defaultDuration": 10,
+	"effectConfig": {},
+
 	"scripts": ["nekihidepod.lua"]
 }

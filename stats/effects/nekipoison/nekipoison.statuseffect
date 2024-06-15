@@ -1,0 +1,6 @@
+{
+	"name": "nekipoison",
+	"defaultDuration": 1,
+	"effectConfig": {},
+	"scripts": ["nekipoison.lua"]
+}

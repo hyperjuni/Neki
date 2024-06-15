@@ -16,7 +16,6 @@
 				{"stat": "iceResistance",	"amount": 0.15},
 				{"stat": "iceStatusImmunity",	"amount": 1},
 				{"stat": "physicalResistance",	"amount": -0.15},
-				{"stat": "om_rtfoodpoisonImmunity",	"amount": 1},
 				{"stat": "om_slowImmunity",	"amount": 1},
 				{"stat": "foodDelta",	"effectiveMultiplier": 1.5},
 				{"stat": "fallDamageMultiplier",	"effectiveMultiplier": 0.6}

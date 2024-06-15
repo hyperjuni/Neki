@@ -1,6 +1,7 @@
 {
 	"name": "nekidrown",
-	"effectConfig": {},
 	"defaultDuration": 10,
+	"effectConfig": {},
+
 	"scripts": ["nekidrown.lua"]
 }

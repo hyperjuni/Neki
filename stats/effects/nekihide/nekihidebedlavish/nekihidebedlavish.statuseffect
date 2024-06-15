@@ -1,6 +1,7 @@
 {
 	"name": "nekihidebedlavish",
-	"effectConfig": {},
 	"defaultDuration": 10,
+	"effectConfig": {},
+
 	"scripts": ["nekihidebedlavish.lua"]
 }

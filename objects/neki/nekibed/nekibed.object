@@ -30,7 +30,7 @@
 			"image": "nekibed.png",
 			"imagePosition": [0, 0],
 			"spaceScan": 0.1,
-			"sitPosition": [-9, 20]
+			"sitPosition": [-10, 20]
 		},
 		{
 			"direction": "right",
@@ -39,13 +39,13 @@
 			"imagePosition": [0, 0],
 			"flipImages": true,
 			"spaceScan": 0.1,
-			"sitPosition": [15, 20]
+			"sitPosition": [14, 20]
 		}
 	],
 
 	"sitCoverImage": "/objects/neki/nekibed/nekibedcover.png",
 	"sitOrientation": "sit",
-	"sitAngle": -10,
+	//"sitAngle": -10,
 	"sitEmote": "sleep",
 	"sitEffectEmitters": ["sleepbubbles"],
 	"sitStatusEffects": [

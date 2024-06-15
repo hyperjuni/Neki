@@ -7,7 +7,7 @@ function init()
 	local species = world.entitySpecies(entity.id()) or "default"
 	self._species = species
 
-	-- If occupant neither Human or Neki, apply nothing
+	-- If occupant neither Human nor Neki, apply nothing
 	if species ~= "human" and species ~= "neki" then
 		return
 	end

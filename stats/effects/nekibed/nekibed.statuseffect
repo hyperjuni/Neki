@@ -1,6 +1,6 @@
 // Dummy statusEffect to prevent log errors
 {
 	"name": "nekibed",
-	"effectConfig": {},
-	"defaultDuration": 10
+	"defaultDuration": 10,
+	"effectConfig": {}
 }

@@ -1,0 +1,8 @@
+[
+	{"op": "add", "path": "/nekipoison",
+		"value": {
+			"unique": false,
+			"text": "This food contains those toxic brown beans.\nI would strongly suggest avoiding it."
+		}
+	}
+]

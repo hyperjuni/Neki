@@ -3,6 +3,7 @@
 	"blockingStat": "specialStatusImmunity",
 	"defaultDuration": 2,
 	"effectConfig": {},
+
 	"icon": "/interface/statuses/timefreeze.png",
 	"label": "Stunned",
 	"scripts": ["nekistun.lua"]

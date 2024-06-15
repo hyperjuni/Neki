@@ -82,21 +82,21 @@
 			]
 		},
 		{
-			"avatar": "fullneutralnude",
+			"avatar": "fullnude",
 			"keyframes": [
 				{
 					"timecode": 10.95,
 					"zoom": 1.5,
 					"alpha": 0,
 					"frame": 0,
-					"position": [478, 270]
+					"position": [481, 265]
 				},
 				{
 					"timecode": 11,
 					"zoom": 1.5,
 					"alpha": 1,
 					"frame": 0,
-					"position": [478, 270]
+					"position": [481, 265]
 				},
 				{
 					"timecode": 12.85,

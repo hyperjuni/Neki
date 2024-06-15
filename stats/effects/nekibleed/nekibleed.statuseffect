@@ -1,10 +1,6 @@
 {
 	"name": "nekibleed",
 	"defaultDuration": 8,
-	"scripts": ["nekibleed.lua"],
-	"animationConfig": "nekibleed.animation",
-	"label": "Bleeding",
-	"icon": "/interface/statuses/absorb.png",
 	"effectConfig": {
 		"ignoreMaterials": ["wooden", "stone"],
 		"materialEffects": {
@@ -29,5 +25,10 @@
 				}
 			]
 		}
-	}
+	},
+
+	"icon": "/interface/statuses/absorb.png",
+	"label": "Bleeding",
+	"scripts": ["nekibleed.lua"],
+	"animationConfig": "nekibleed.animation"
 }

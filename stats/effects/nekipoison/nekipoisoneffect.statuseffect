@@ -1,0 +1,11 @@
+{
+	"name": "nekipoisoneffect",
+  "blockingStat": "poisonStatusImmunity",
+	"defaultDuration": 60,
+	"effectConfig": {},
+
+	"icon": "/interface/statuses/nekipoison.png",
+	"label": "Brown Bean Fever",
+	"scripts": ["/stats/effects/weakpoison/weakpoison.lua"],
+	"animationConfig": "/stats/effects/weakpoison/weakpoison.animation"
+}

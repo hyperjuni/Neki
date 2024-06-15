@@ -1,6 +1,7 @@
 {
 	"name": "nekihidecauldron",
-	"effectConfig": {},
 	"defaultDuration": 10,
+	"effectConfig": {},
+
 	"scripts": ["nekihidecauldron.lua"]
 }

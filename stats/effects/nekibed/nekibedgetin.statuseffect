@@ -1,5 +1,6 @@
 {
 	"name": "nekibedgetin",
+
 	"scripts": ["nekibedgetin.lua"],
 	"animationConfig": "nekibed.animation"
 }

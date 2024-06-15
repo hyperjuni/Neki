@@ -1,10 +1,9 @@
 {
 	"name": "nekipodfireblock",
-	"effectConfig": {},
 	"defaultDuration": 5,
+	"effectConfig": {},
 
-	"scripts": ["nekipodexit.lua"],
-
+	"icon": "/interface/statuses/fireblock.png",
 	"label": "Neki Pod Fire Resistance",
-	"icon": "/interface/statuses/fireblock.png"
+	"scripts": ["nekipodexit.lua"]
 }

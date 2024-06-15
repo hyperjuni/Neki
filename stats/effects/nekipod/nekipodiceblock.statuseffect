@@ -1,10 +1,9 @@
 {
 	"name": "nekipodiceblock",
-	"effectConfig": {},
 	"defaultDuration": 5,
+	"effectConfig": {},
 
-	"scripts": ["nekipodexit.lua"],
-
+	"icon": "/interface/statuses/iceblock.png",
 	"label": "Neki Pod Ice Resistance",
-	"icon": "/interface/statuses/iceblock.png"
+	"scripts": ["nekipodexit.lua"]
 }

@@ -1,0 +1,6 @@
+{
+	"name": "nekinofoodpoison",
+	"effectConfig": {},
+	"defaultDuration": 1,
+	"scripts": ["nekinofoodpoison.lua"]
+}

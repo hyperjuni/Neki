@@ -70,7 +70,6 @@
       "collisionSpaces": [
 				[-3, 7],
 				[-1, 7],
-				[0, 7],
 				[1, 7]
 			],
 			"frames": 12,
@@ -87,8 +86,7 @@
 			"collision": "platform",
       "collisionSpaces": [
 				[-3, 7],
-				[-2, 7],
-				[0, 7],
+				[-1, 7],
 				[1, 7]
 			],
 			"frames": 12,

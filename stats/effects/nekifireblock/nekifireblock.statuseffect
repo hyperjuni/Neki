@@ -1,10 +1,9 @@
 {
 	"name": "nekifireblock",
-	"effectConfig": {},
 	"defaultDuration": 60,
+	"effectConfig": {},
 
-	"scripts": ["/stats/effects/fireblock/fireblock.lua"],
-
+	"icon": "/interface/statuses/nekifireblock.png",
 	"label": "Claws Fire Resistance",
-	"icon": "nekifireblock.png"
+	"scripts": ["/stats/effects/fireblock/fireblock.lua"]
 }
