@@ -18,11 +18,13 @@
 	"pounceJump": 30,
 	"pounceSpeed": 40,
 	"pounceDuration": 10.0,
-	"pounceMinimumDuration": 0.25,
+	"pounceChargeTime": 0.5,
+	"pounceMinimumDuration": 0,
 	"energyCostPerPounce": 55,
 	"afterPounceCooldown": 1,
 
 	"flashDirectives": "?fade=FFFFFFFF=0.25",
+	"flashChargeDirectives": "?fade=990000FF=0.25",
 	"flashEffectTime": 0.1,
 
 	"easterRate": 200,

@@ -1,7 +1,10 @@
 {
 	"name": "nekihidesleepingbag",
 	"defaultDuration": 10,
-	"effectConfig": {},
+	"effectConfig": {
+		"nekihideMask": "/stats/effects/nekihide/nekihidesleepingbag/nekihidesleepingbag.png",
+		"nekiOnly": true
+	},
 
-	"scripts": ["nekihidesleepingbag.lua"]
+	"scripts": ["/stats/effects/nekihide/nekihide.lua"]
 }

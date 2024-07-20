@@ -1,7 +1,10 @@
 {
 	"name": "nekihidestall",
 	"defaultDuration": 10,
-	"effectConfig": {},
+	"effectConfig": {
+		"nekihideMask": "/stats/effects/nekihide/nekihidestall/nekihidestall.png",
+		"nekiOnly": true
+	},
 
-	"scripts": ["nekihidestall.lua"]
+	"scripts": ["/stats/effects/nekihide/nekihide.lua"]
 }

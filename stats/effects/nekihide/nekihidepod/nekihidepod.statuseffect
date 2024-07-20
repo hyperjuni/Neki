@@ -1,7 +1,10 @@
 {
 	"name": "nekihidepod",
 	"defaultDuration": 10,
-	"effectConfig": {},
+	"effectConfig": {
+		"nekihideMask": "/stats/effects/nekihide/nekihidepod/nekihidepod.png",
+		"nekiOnly": false
+	},
 
-	"scripts": ["nekihidepod.lua"]
+	"scripts": ["/stats/effects/nekihide/nekihide.lua"]
 }

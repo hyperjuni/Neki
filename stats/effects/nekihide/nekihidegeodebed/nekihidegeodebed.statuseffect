@@ -1,7 +1,10 @@
 {
 	"name": "nekihidegeodebed",
 	"defaultDuration": 10,
-	"effectConfig": {},
+	"effectConfig": {
+		"nekihideMask": "/stats/effects/nekihide/nekihidegeodebed/nekihidegeodebed.png",
+		"nekiOnly": true
+	},
 
-	"scripts": ["nekihidegeodebed.lua"]
+	"scripts": ["/stats/effects/nekihide/nekihide.lua"]
 }

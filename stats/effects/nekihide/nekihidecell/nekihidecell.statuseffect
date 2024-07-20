@@ -1,7 +1,10 @@
 {
 	"name": "nekihidecell",
 	"defaultDuration": 10,
-	"effectConfig": {},
+	"effectConfig": {
+		"nekihideMask": "/stats/effects/nekihide/nekihidecell/nekihidecell.png",
+		"nekiOnly": true
+	},
 
-	"scripts": ["nekihidecell.lua"]
+	"scripts": ["/stats/effects/nekihide/nekihide.lua"]
 }

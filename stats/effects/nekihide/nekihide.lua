@@ -1,9 +1,15 @@
--- Masks/hides the entire character
+-- Hides the tail or the entire character while lounging
 
 function init()
 	local species = world.entitySpecies(entity.id()) or "default"
-	if species ~= "neki" then
+	local nekiOnly = config.getParameter("nekiOnly", false)
+	local mask = config.getParameter("nekihideMask")
+	if nekiOnly and species ~= "neki" then
 		return
 	end
-	effect.setParentDirectives("?multiply=ffffff00")
+	if mask then
+		effect.setParentDirectives("?addmask="..mask)
+	else
+		effect.setParentDirectives("?multiply=ffffff00")
+	end
 end

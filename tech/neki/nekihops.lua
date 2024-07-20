@@ -1,4 +1,4 @@
--- Created with the help of Erina Sugino <3
+-- Created by Erina Sugino for Juni <3
 
 require "/tech/doubletap.lua"
 
@@ -11,6 +11,7 @@ function init()
 
 	self.hopTimeout = 0
 	self.pounceTimer = 0
+	self.pounceCharge = 0
 	self.hopSfxTimeout = 0
 	self.landSfxTimeout = 0
 	self.rechargeEffectTimer = 0
@@ -24,10 +25,12 @@ function init()
 	self.pounceSpeed = config.getParameter("pounceSpeed")
 	self.pounceDuration = config.getParameter("pounceDuration")
 	self.pounceMinimumDuration = config.getParameter("pounceMinimumDuration")
+	self.pounceChargeTime = config.getParameter("pounceChargeTime")
 	self.energyCostPerPounce = config.getParameter("energyCostPerPounce")
 	self.afterPounceCooldown = config.getParameter("afterPounceCooldown")
 
 	self.flashDirectives = config.getParameter("flashDirectives")
+	self.flashChargeDirectives = config.getParameter("flashChargeDirectives")
 	self.flashEffectTime = config.getParameter("flashEffectTime")
 
 	self.easterRate = config.getParameter("easterRate")
@@ -35,6 +38,8 @@ function init()
 	self.holdingUp = false
 	self.holdingDown = false
 	self.doStun = false
+
+	self.effectQueue = nil
 
 	self.groundOnly = config.getParameter("groundOnly")
 	self.doubleTapB = DoubleTap:new({"left", "right"}, config.getParameter("maximumDoubleTapTime"), function(hopKey)
@@ -59,15 +64,13 @@ function uninit()
 	tech.setParentDirectives()
 	animator.setAnimationState("hopping", "off")
 	animator.setAnimationState("pouncing", "off")
-	--animator.setParticleEmitterActive("hopParticles", false)
-	--animator.setParticleEmitterActive("pounceParticles", false)
 end
 
 function update(args)
 	if self.rechargeEffectTimer > 0 then
 		self.rechargeEffectTimer = math.max(0, self.rechargeEffectTimer - args.dt)
 		if self.rechargeEffectTimer == 0 then
-			tech.setParentDirectives()
+			if not self.effectQueue then tech.setParentDirectives() else tech.setParentDirectives(self.effectQueue) end
 		end
 	end
 
@@ -79,19 +82,33 @@ function update(args)
 		end
 	end
 
-	if not self.abilityActive then
-		if self.pounceTimer == 0
-		and self.afterPounceCooldownTimer == 0
-		and groundValid()
-		and mcontroller.crouching()
-		and args.moves["up"] and not self.holdingUp
-		and not status.resourceLocked("energy")
-		--and status.resource("energy") >= self.energyCostPerPounce
-		and not status.statPositive("activeMovementAbilities") then
-			local pounceDirection = mcontroller.facingDirection()
-			startPounce(pounceDirection)self.rechargeEffectTimer = self.flashEffectTime
+		if not self.abilityActive then
+			if groundValid() and mcontroller.crouching() and not status.resourceLocked("energy") and not status.statPositive("activeMovementAbilities") then
+				if self.pounceTimer == 0 and self.pounceCharge < 1 and self.holdingUp then
+					self.pounceCharge = math.min(1, self.pounceCharge + (1 / self.pounceChargeTime) * args.dt)
+					if self.pounceCharge >= 1 then
+						self.effectQueue = self.flashChargeDirectives
+						tech.setParentDirectives(self.flashChargeDirectives)
+					end
+				end
+				
+				if self.pounceCharge > 0 and not self.holdingUp then
+					if self.afterPounceCooldownTimer == 0 then
+						local pounceDirection = mcontroller.facingDirection()
+						startPounce(pounceDirection)
+						self.rechargeEffectTimer = self.flashEffectTime
+					else
+						self.pounceCharge = 0
+						tech.setParentDirectives()
+						self.effectQueue = nil
+					end
+				end
+			else
+				self.pounceCharge = 0
+			end
+		else
+			self.pounceCharge = 0
 		end
-	end
 
 	if self.pounceTimer > 0 then
 		mcontroller.controlMove(self.pounceDirection, true)
@@ -138,7 +155,6 @@ function update(args)
 		if args.moves[self.hopDirection > 0 and "right" or "left"]
 		and not mcontroller.liquidMovement() then
 			animator.setAnimationState("hopping", "on")
-			--animator.setParticleEmitterActive("hopParticles", true)
 			if mcontroller.onGround()
 			and self.hopTimeout <= 0 then
 				if status.resource("energy") >= self.energyCostPerHop then
@@ -174,10 +190,13 @@ function startPounce(direction)
 	animator.playSound(roll == self.easterRate and pools[2] or pools[1])
 	animator.setAnimationState("pouncing", "on")
 	animator.setParticleEmitterActive("pounceParticles", true)
-	mcontroller.setVelocity({self.pounceSpeed*direction,self.pounceJump})
+	mcontroller.setVelocity({self.pounceSpeed*direction*self.pounceCharge,self.pounceJump*self.pounceCharge})
 	self.abilityActive = true
 	status.overConsumeResource("energy", self.energyCostPerPounce)
 	self.doStun = true
+		self.pounceCharge = 0
+		tech.setParentDirectives()
+		self.effectQueue = nil
 end
 
 function stun()
@@ -200,7 +219,6 @@ function startHop(direction)
 	self.hopTimer = self.hopDuration
 	animator.setFlipped(self.hopDirection == -1)
 	animator.setAnimationState("hopping", "on")
-	--animator.setParticleEmitterActive("hopParticles", true)
 	animator.playSound("huff")
 	self.abilityActive = true
 	self.landSfxTimeout = 0.1

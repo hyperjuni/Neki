@@ -3,5 +3,5 @@
 	"defaultDuration": 10,
 	"effectConfig": {},
 
-	"scripts": ["nekihideany.lua"]
+	"scripts": ["nekihide.lua"]
 }

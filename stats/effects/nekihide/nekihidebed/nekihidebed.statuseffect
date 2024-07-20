@@ -1,7 +1,10 @@
 {
 	"name": "nekihidebed",
 	"defaultDuration": 10,
-	"effectConfig": {},
+	"effectConfig": {
+		"nekihideMask": "/stats/effects/nekihide/nekihidebed/nekihidebed.png",
+		"nekiOnly": false
+	},
 
-	"scripts": ["nekihidebed.lua"]
+	"scripts": ["/stats/effects/nekihide/nekihide.lua"]
 }

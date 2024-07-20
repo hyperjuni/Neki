@@ -1,0 +1,10 @@
+{
+	"name": "nekihideapexpod2",
+	"defaultDuration": 10,
+	"effectConfig": {
+		"nekihideMask": "/stats/effects/nekihide/nekihideapexpod2/nekihideapexpod2.png",
+		"nekiOnly": true
+	},
+
+	"scripts": ["/stats/effects/nekihide/nekihide.lua"]
+}

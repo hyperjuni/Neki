@@ -288,6 +288,40 @@
 				{"ffca8a": "eab3db", "e0975c": "d35eae", "a85636": "97276d", "6f2919": "59163f"},
 				{"ffca8a": "ccae7c", "e0975c": "a47844", "a85636": "754c23", "6f2919": "472b13"}
 			]
+		},
+		{
+			"path": "/items/armors/neki/nekiholiday/",
+			"fileName": "nekiholiday.chest",
+			"category": "chest",
+			"name": "nekiholidaysleeves",
+			"shortdescription": "Neki Holiday Sleeves",
+			"icon": "icons.png:chest",
+			"maleFrames": {
+				"body": "chest.png",
+				"backSleeve": "bsleeve.png",
+				"frontSleeve": "fsleeve.png"
+			},
+			"femaleFrames": {
+				"body": "chest.png",
+				"backSleeve": "bsleeve.png",
+				"frontSleeve": "fsleeve.png"
+			},
+			"mask": null,
+			"rarity": "Uncommon",
+			"colorOptions": [
+				{"ffca8a": "f4988c", "e0975c": "d93a3a", "a85636": "932625", "6f2919": "601119"},
+				{"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
+				{"ffca8a": "b5b5b5", "e0975c": "808080", "a85636": "555555", "6f2919": "303030"},
+				{"ffca8a": "ffffff", "e0975c": "e6e6e6", "a85636": "b4b4b4", "6f2919": "7b7b7b"},
+				{"ffca8a": "f4988c", "e0975c": "d93a3a", "a85636": "932625", "6f2919": "601119"},
+				{"ffca8a": "ffd495", "e0975c": "ea9931", "a85636": "af4e00", "6f2919": "6e2900"},
+				{"ffca8a": "ffffa7", "e0975c": "e2c344", "a85636": "a46e06", "6f2919": "642f00"},
+				{"ffca8a": "b2e89d", "e0975c": "51bd3b", "a85636": "247824", "6f2919": "144216"},
+				{"ffca8a": "96cbe7", "e0975c": "5588d4", "a85636": "344495", "6f2919": "1a1c51"},
+				{"ffca8a": "d29ce7", "e0975c": "a451c4", "a85636": "6a2284", "6f2919": "320c40"},
+				{"ffca8a": "eab3db", "e0975c": "d35eae", "a85636": "97276d", "6f2919": "59163f"},
+				{"ffca8a": "ccae7c", "e0975c": "a47844", "a85636": "754c23", "6f2919": "472b13"}
+			]
 		}
 	],
 
@@ -736,7 +770,7 @@
 			"maleFrames": "pantsm.png",
 			"femaleFrames": "pantsf.png",
 			"mask": null,
-			"rarity": "Uncommon",
+			"rarity": "Legendary",
 			"colorOptions": [
 				{"ffca8a": "b5b5b5", "e0975c": "808080", "a85636": "555555", "6f2919": "303030"},
 				{"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
@@ -751,8 +785,37 @@
 				{"ffca8a": "eab3db", "e0975c": "d35eae", "a85636": "97276d", "6f2919": "59163f"},
 				{"ffca8a": "ccae7c", "e0975c": "a47844", "a85636": "754c23", "6f2919": "472b13"}
 			]
+		},
+		{
+			"path": "/items/armors/neki/nekiholiday/",
+			"fileName": "nekiholiday.legs",
+			"category": "legs",
+			"name": "nekiholidayskirt",
+			"shortdescription": "Neki Holiday Skirt",
+			"icon": "icons.png:pants",
+			"maleFrames": "pantsm.png",
+			"femaleFrames": "pantsf.png",
+			"mask": null,
+			"rarity": "Uncommon",
+			"colorOptions": [
+				{"ffca8a": "f4988c", "e0975c": "d93a3a", "a85636": "932625", "6f2919": "601119"},
+				{"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
+				{"ffca8a": "b5b5b5", "e0975c": "808080", "a85636": "555555", "6f2919": "303030"},
+				{"ffca8a": "e6e6e6", "e0975c": "b6b6b6", "a85636": "7b7b7b", "6f2919": "373737"},
+				{"ffca8a": "f4988c", "e0975c": "d93a3a", "a85636": "932625", "6f2919": "601119"},
+				{"ffca8a": "ffd495", "e0975c": "ea9931", "a85636": "af4e00", "6f2919": "6e2900"},
+				{"ffca8a": "ffffa7", "e0975c": "e2c344", "a85636": "a46e06", "6f2919": "642f00"},
+				{"ffca8a": "b2e89d", "e0975c": "51bd3b", "a85636": "247824", "6f2919": "144216"},
+				{"ffca8a": "96cbe7", "e0975c": "5588d4", "a85636": "344495", "6f2919": "1a1c51"},
+				{"ffca8a": "d29ce7", "e0975c": "a451c4", "a85636": "6a2284", "6f2919": "320c40"},
+				{"ffca8a": "eab3db", "e0975c": "d35eae", "a85636": "97276d", "6f2919": "59163f"},
+				{"ffca8a": "ccae7c", "e0975c": "a47844", "a85636": "754c23", "6f2919": "472b13"}
+			]
 		}
 	],
+
+
+// BACK
 
 	"back": [
 		{

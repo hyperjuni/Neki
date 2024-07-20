@@ -1,1 +1,10 @@
-[{"op":"add","path":"/nekiDescription","value":"Khhhh.. it's splashing everywhere!"}]
+[
+	[
+		{"op":"test","path":"/sitStatusEffects","inverse":true},
+		{"op":"add","path":"/sitStatusEffects","value":[]}
+	],
+	[
+		{"op":"add","path":"/nekiDescription","value":"Khhh.. it's splashing everywhere..!"},
+		{"op":"add","path":"/sitStatusEffects/-","value":"nekihidefountain"}
+	]
+]

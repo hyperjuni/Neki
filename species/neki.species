@@ -47,7 +47,7 @@
 	"humanoidOverrides": {
 		"headSitOffset": [1, 0],
 		"headDuckOffset": [2, 0],
-		"headLayOffset": [1, 0],
+		"headLayOffset": [0, 0],
 		"personalities": [
 		// Pose, Arms, Head [x,y], Arms [x,y]
 			["idle.1", "swim.2", [0, 0], [0, -1]],		// beggar
@@ -179,6 +179,8 @@
 			{"item": "nekiwingsback"},
 			{"item": "nekidressgala"},
 			{"item": "nekidressrobe"},
+			{"item": "nekiholidayskirt"},
+			{"item": "nekiholidaysleeves"},
 			{"item": "nekinightie"},
 			{"item": "nekinoughtie"},
 			{"item": "nekipeacekeeperhead"},
