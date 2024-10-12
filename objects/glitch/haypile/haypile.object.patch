@@ -4,7 +4,7 @@
 		{"op":"add","path":"/sitStatusEffects","value":[]}
 	],
 	[
-		{"op":"add","path":"/nekiDescription","value":"Mrrr, it smells so good I wanna jump right in!"},
+		{"op":"add","path":"/nekiDescription","value":"Haypurrson leftovers."},
 		{"op":"add","path":"/sitStatusEffects/-","value":"nekihidebedcover"}
 	]
 ]

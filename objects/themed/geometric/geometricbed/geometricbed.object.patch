@@ -4,7 +4,7 @@
 		{"op":"add","path":"/sitStatusEffects","value":[]}
 	],
 	[
-		{"op":"add","path":"/nekiDescription","value":"A bench with sheets."},
+		{"op":"add","path":"/nekiDescription","value":"A cold shelf with sheets."},
 		{"op":"add","path":"/sitStatusEffects/-","value":"nekihidebedcover"}
 	]
 ]

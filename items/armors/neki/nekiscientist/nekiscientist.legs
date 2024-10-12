@@ -7,7 +7,7 @@
 	"category": "legwear",
 	"description": "Obstructs your highly sensitive self while handling highly sensitive stuff.",
 	"shortdescription": "Neki Scientist Coat",
-	"tooltipKind": "armor",
+	"tooltipKind": "nekiarmor",
 
 	"maleFrames": "pantsm.png",
 	"femaleFrames": "pantsf.png",

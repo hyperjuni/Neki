@@ -4,7 +4,7 @@
 		{"op":"add","path":"/sitStatusEffects","value":[]}
 	],
 	[
-		{"op":"add","path":"/nekiDescription","value":"A spiky purrple bench with sheets on it."},
+		{"op":"add","path":"/nekiDescription","value":"A purrple shelf with purrple sheets."},
 		{"op":"add","path":"/sitStatusEffects/-","value":"nekihidebedcover"}
 	]
 ]

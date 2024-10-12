@@ -7,7 +7,7 @@
 	"category": "chestwear",
 	"description": "Sleeves... For science!",
 	"shortdescription": "Neki Scientist Sleeves",
-	"tooltipKind": "armor",
+	"tooltipKind": "nekiarmor",
 
 	"maleFrames": {
 		"body": "chest.png",

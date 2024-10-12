@@ -1,0 +1,35 @@
+[
+	{"op": "add",	"path": "/scriptConfig/dialog/converse/default/neki",
+		"value": [
+			"The trees here are a renewable source of organic metal! What a great place for a foundry!",
+			"Don't you love the smell here? It's kind of like burning toast.",
+			"It's so hot here that my goggles are steaming up!",
+			"I trust you know how to use the shaft?"
+		]
+	},
+	{"op": "add",	"path": "/scriptConfig/dialog/converse/apex/neki",
+		"value": [
+			"This foundry is tough to live in, but it beats being under Miniknog rule.",
+			"This planet is even hotter for those of us with fur.",
+			"Big Ape will not find me here, I hope. Oh wait.",
+			"I trust you know how to use the shaft?"
+		]
+	},
+	{"op": "add",	"path": "/scriptConfig/dialog/converse/avian/neki",
+		"value": [
+			"Only the hardiest workers can stand working on a planet like this.",
+			"I keep singeing my feathers working in this place...",
+			"I trust you know how to use the shaft?",
+			"This heat! I'm pretty parched."
+		]
+	},
+	{"op": "add",	"path": "/scriptConfig/dialog/converse/glitch/neki",
+		"value": [
+			"Fatigued. I have been working hard here. I'm nearly reaching melting point!",
+			"Concerned. I trust you know how to use the shaft?",
+			"Exhausted. Foundry work is hard work!",
+			"Eager. A Glitch's work is never done!",
+			"Tired. My shift isn't over yet!"
+		]
+	}
+]

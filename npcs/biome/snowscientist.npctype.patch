@@ -1,11 +1,12 @@
 [
-// If Avian dialogue doesn't exist, add it
+
+// Fill missing dialogue options with defaults to allow adding Neki-specific ones
+
 	[
 		{"op": "test", "path": "/scriptConfig/dialog/converse/avian", "inverse": true},
 		{"op": "add", "path": "/scriptConfig/dialog/converse/avian", "value": {}}
 	],
 
-// If Avian 'default' dialogue doesn't exist, add it
 	[
 		{"op": "test", "path": "/scriptConfig/dialog/converse/avian/default", "inverse": true},
 		{"op": "add", "path": "/scriptConfig/dialog/converse/avian/default",
@@ -19,12 +20,14 @@
 		}
 	],
 
-// Add Avian 'neki' dialogue
+// Avian
+
 	[
 		{"op": "add", "path": "/scriptConfig/dialog/converse/avian/neki",
 			"value": [
+				"Quit staring at me as if I was food and give me a hand with this research!",
+				"Eating me won't sustain you for long out here, so control your instincts!",
 				"I wish I had a snout like yours, my nares keep freezing up in this cold!",
-				"Quit staring at as if I was food and give me a hand with this research!",
 				"Either eat me or help with the science, Neki, I don't have all day!",
 				"Is your fur as effective as my feathers against the cold?",
 				"Oh, a Neki! Did you come here to do science too?"
@@ -32,13 +35,13 @@
 		}
 	],
 
-// If Apex dialogue doesn't exist, add it
+// Fill missing dialogue options with defaults
+
 	[
 		{"op": "test", "path": "/scriptConfig/dialog/converse/apex", "inverse": true},
 		{"op": "add", "path": "/scriptConfig/dialog/converse/apex", "value": {}}
 	],
 
-// If Apex 'default' dialogue doesn't exist, add it
 	[
 		{"op": "test", "path": "/scriptConfig/dialog/converse/apex/default", "inverse": true},
 		{"op": "add", "path": "/scriptConfig/dialog/converse/apex/default",
@@ -52,7 +55,8 @@
 		}
 	],
 
-// Add Apex 'neki' dialogue
+// Apex
+
 	[
 		{"op": "add", "path": "/scriptConfig/dialog/converse/apex/neki",
 			"value": [
@@ -67,13 +71,13 @@
 		}
 	],
 
-// If Human dialogue doesn't exist, add it
+// Fill missing dialogue options with defaults
+
 	[
 		{"op": "test", "path": "/scriptConfig/dialog/converse/human", "inverse": true},
 		{"op": "add", "path": "/scriptConfig/dialog/converse/human", "value": {}}
 	],
 
-// If Human 'default' dialogue doesn't exist, add it
 	[
 		{"op": "test", "path": "/scriptConfig/dialog/converse/human/default", "inverse": true},
 		{"op": "add", "path": "/scriptConfig/dialog/converse/human/default",
@@ -87,26 +91,30 @@
 		}
 	],
 
-// Add Human 'neki' dialogue
+// Human
+
 	[
 		{"op": "add", "path": "/scriptConfig/dialog/converse/human/neki",
 			"value": [
 				"You look so fluffy and soft, I wish I had someone like you to keep me warm around here.",
+				"With your natural abilities, you could be an invaluable asset to this expedition.",
 				"Having fur like yours must be super convenient for doing science out in the cold.",
 				"This may sound a little unprofessional, but may I snuggle with you? For science!",
+				"What can your huge ears hear out there? Mine only hear the howling of the wind.",
 				"Sorry, I'm too preoccupied with my research to pay any attention to you.",
-				"Got a way to help me with my research, Neki? If not, get out of my way."
+				"Got a way to help me with my research, Neki? If not, get out of my way.",
+				"Yes yes, fascinating... Now run along, I'm busy."
 			]
 		}
 	],
 
-// If Hylotl dialogue doesn't exist, add it
+// Fill missing dialogue options with defaults
+
 	[
 		{"op": "test", "path": "/scriptConfig/dialog/converse/hylotl", "inverse": true},
 		{"op": "add", "path": "/scriptConfig/dialog/converse/hylotl", "value": {}}
 	],
 
-// If Hylotl 'default' dialogue doesn't exist, add it
 	[
 		{"op": "test", "path": "/scriptConfig/dialog/converse/hylotl/default", "inverse": true},
 		{"op": "add", "path": "/scriptConfig/dialog/converse/hylotl/default",
@@ -120,16 +128,17 @@
 		}
 	],
 
-// Add Hylotl 'neki' dialogue
+// Hylotl
+
 	[
 		{"op": "add", "path": "/scriptConfig/dialog/converse/hylotl/neki",
 			"value": [
-				"I'd send you to collect some specimen, but I'm fairly certain you'd just eat them on the way.",
+				"I'd send you to collect specimen, but I'm fairly certain you'd just eat them on the way.",
 				"This cold environment is so serene, everything slows down... Except for you, it seems.",
 				"What would a Neki even come to this frozen place for? Can't be the science.",
 				"If all you're looking for is food - why did you come here, of all places?",
-				"Calm down, Neki, and just appreciate the beauty of this environment.",
-				"If you damage my research, I will be very.. saddened by that."
+				"Calm down, Neki, and just appreciate the beauty of this place.",
+				"If you damage my research, I will.. be very saddened by that."
 			]
 		}
 	]

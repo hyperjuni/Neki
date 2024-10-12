@@ -8,7 +8,6 @@
 	"printable": false,
 	"tooltipKind": "nekibase",
 	"colonyTags": ["neki"],
-	"itemTags" : ["captainschair"],
 
 	"shortdescription": "Neki Basic Table",
 	"description": "A sturdy cardboard box that's being used as shelter.",
@@ -21,8 +20,6 @@
 	"hylotlDescription": "This worn cardboard box seems to have been turned into primitive, crudely-built shelter.",
 	"nekiDescription": "The bestest table!\nI can hops on top AND hide inside!",
 	"novakidDescription": "A good ol' box, servin' double duty as both a table and a lair.",
-
-	"deniedText": "We are not that desperate just yet.",
 
 	"inventoryIcon": "nekitableicon.png",
 
@@ -58,20 +55,5 @@
 		"nekibedgetin",
 		"nekihideany",
 		"nekipurr"
-	],
-
-	"canUse": {
-		"apex": false,
-		"avian": false,
-		"floran": true,
-		"glitch": false,
-		"human": false,
-		"hylotl": false,
-		"neki": true,
-		"novakid": false
-	},
-
-	"animation": "nekitable.animation",
-	"scripts": ["nekitable.lua"],
-	"sounds": ["/sfx/interface/clickon_error.ogg"]
+	]
 }

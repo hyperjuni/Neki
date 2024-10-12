@@ -4,7 +4,7 @@
 		{"op":"add","path":"/sitStatusEffects","value":[]}
 	],
 	[
-		{"op":"add","path":"/nekiDescription","value":"Aww, yes!"},
+		{"op":"add","path":"/nekiDescription","value":"These sleeps are made of cute!"},
 		{"op":"add","path":"/sitStatusEffects/-","value":"nekipurr"},
 		{"op":"add","path":"/sitStatusEffects/-","value":"nekihidebedcover"}
 	]

@@ -1,9 +1,6 @@
 [
-	{"op":"add", "path":"/scriptConfig/offeredQuests",
-		"value":[
-			"nekicodex377"
-		]
-	},
+	{"op":"add", "path":"/scriptConfig/offeredQuests", "value": ["nekicodex377"]},
+
 	{"op": "add", "path": "/scriptConfig/dialog/merchant/start/default/neki",
 		"value": [
 			"Hello, ^#71f2f6;<entityname>^reset;. I've acquired a shipment of Augments. Are these of any use to you?"

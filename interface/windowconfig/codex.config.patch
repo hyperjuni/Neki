@@ -1,5 +1,7 @@
 [
-// ERM
+
+// --------------- ERM ---------------
+
 	[
 		{"op": "test", "path": "/paneLayout/background/fileBody", "value": "/interface/codex/thea_codexbody.png"},
 		{"op": "test", "path": "/manytabs", "inverse": true},
@@ -19,7 +21,8 @@
 		{"op": "replace", "path": "/paneLayout/speciesTabs/buttons/6/baseImageChecked", "value": "/interface/codex/tab_neki_other_select_erm.png"}
 	],
 
-// Extended GUI
+// --------------- Extended GUI ---------------
+
 	[
 		{"op": "test", "path": "/extendedgui", "value": true},
 		{"op": "test", "path": "/manytabs", "inverse": true},
@@ -37,7 +40,8 @@
 		{"op": "replace", "path": "/paneLayout/speciesTabs/buttons/6/position/1", "value": 103}
 	],
 
-// Many Tabs
+// --------------- Many Tabs ---------------
+
 	[
 		{"op": "test", "path": "/manytabs", "value": true},
 		{"op": "test", "path": "/extendedgui", "inverse": true},
@@ -54,7 +58,8 @@
 		}
 	],
 
-// ERM + Many Tabs
+// --------------- ERM + Many Tabs ---------------
+
 	[
 		{"op": "test", "path": "/paneLayout/background/fileBody", "value": "/interface/codex/thea_codexbody.png"},
 		{"op": "test", "path": "/manytabs", "value": true},
@@ -70,7 +75,8 @@
 		}
 	],
 
-// Extended GUI + Many Tabs
+// --------------- Extended GUI + Many Tabs ---------------
+
 	[
 		{"op": "test", "path": "/manytabs", "value": true},
 		{"op": "test", "path": "/extendedgui", "value": true},
@@ -88,7 +94,8 @@
 		{"op": "replace", "path": "/paneLayout/speciesTabs/buttons/6/position/1", "value": 103}
 	],
 
-// Vanilla
+// --------------- Vanilla ---------------
+
 	[
 		{"op": "test", "path": "/manytabs", "inverse": true},
 		{"op": "test", "path": "/extendedgui", "inverse": true},

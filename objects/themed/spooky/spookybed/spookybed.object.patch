@@ -4,7 +4,7 @@
 		{"op":"add","path":"/sitStatusEffects","value":[]}
 	],
 	[
-		{"op":"add","path":"/nekiDescription","value":"There's a friend underneath! Friend purrtecc."},
+		{"op":"add","path":"/nekiDescription","value":"It comes with a friend! Friend purrtecc."},
 		{"op":"add","path":"/sitStatusEffects/-","value":"nekihidebedcover"}
 	]
 ]

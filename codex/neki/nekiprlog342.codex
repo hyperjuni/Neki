@@ -9,17 +9,17 @@
 
 [long silence]
 
-*scratch*
-*rustling noise*
+*scratching*
+*rustling*
 *BEEP!*^reset;
 \"Khhhhhh!\"^gray; ... *THUMP*
 
 [long silence]
 
-*sniffing sounds*^reset;
+*sniffing*^reset;
 \"Dumb thingy! Pfft.\"
 
-^gray;*fading soft steps*"
+^gray;*soft steps, fading away*"
 	],
 	"itemConfig": {
 		"rarity": "uncommon",

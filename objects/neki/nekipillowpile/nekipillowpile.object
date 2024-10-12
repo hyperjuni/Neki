@@ -45,5 +45,8 @@
 
 	"sitCoverImage": "/objects/neki/nekipillowpile/nekipillowpilecover.png",
 	"sitEmote": "neutral",
-	"sitStatusEffects": ["nekipoof"]
+	"sitStatusEffects": [
+		"nekihidepile",
+		"nekipoof"
+	]
 }

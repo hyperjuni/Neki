@@ -4,7 +4,7 @@
 		{"op":"add","path":"/sitStatusEffects","value":[]}
 	],
 	[
-		{"op":"add","path":"/nekiDescription","value":"Looks like something a metalpurrson would use as a bed."},
+		{"op":"add","path":"/nekiDescription","value":"A shelf for a metalpurrson."},
 		{"op":"add","path":"/sitStatusEffects/-","value":"nekihidebednocover"}
 	]
 ]

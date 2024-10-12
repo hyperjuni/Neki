@@ -4,7 +4,7 @@
 		{"op":"add","path":"/sitStatusEffects","value":[]}
 	],
 	[
-		{"op":"add","path":"/nekiDescription","value":"Khhhh! A fake mother!"},
+		{"op":"add","path":"/nekiDescription","value":"Khhhh! A fake motherr!"},
 		{"op":"add","path":"/sitStatusEffects/-","value":"nekihidebednocover"}
 	]
 ]

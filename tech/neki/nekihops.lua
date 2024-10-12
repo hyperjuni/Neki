@@ -47,6 +47,7 @@ function init()
 			return
 		end
 		local direction = hopKey == "left" and -1 or 1
+
 		if not self.hopDirection
 			and groundValid()
 			and not mcontroller.crouching()
@@ -91,7 +92,7 @@ function update(args)
 						tech.setParentDirectives(self.flashChargeDirectives)
 					end
 				end
-				
+
 				if self.pounceCharge > 0 and not self.holdingUp then
 					if self.afterPounceCooldownTimer == 0 then
 						local pounceDirection = mcontroller.facingDirection()
@@ -114,9 +115,11 @@ function update(args)
 		mcontroller.controlMove(self.pounceDirection, true)
 		mcontroller.controlModifiers({jumpingSuppressed = true})
 		animator.setFlipped(mcontroller.facingDirection() == -1)
+
 		if not args.moves["down"] then
 			self.doStun = false
 		end
+
 		if self.pounceTimer < self.pounceDuration
 		and (mcontroller.onGround() or mcontroller.liquidPercentage() >= 0.5) then
 			if self.pounceDuration - self.pounceTimer >= self.pounceMinimumDuration then
@@ -128,6 +131,7 @@ function update(args)
 			landingSound()
 		end
 		self.pounceTimer = math.max(0, self.pounceTimer - args.dt)
+
 		if self.pounceTimer == 0 then
 			endPounce()
 		end
@@ -194,9 +198,9 @@ function startPounce(direction)
 	self.abilityActive = true
 	status.overConsumeResource("energy", self.energyCostPerPounce)
 	self.doStun = true
-		self.pounceCharge = 0
-		tech.setParentDirectives()
-		self.effectQueue = nil
+	self.pounceCharge = 0
+	tech.setParentDirectives()
+	self.effectQueue = nil
 end
 
 function stun()
