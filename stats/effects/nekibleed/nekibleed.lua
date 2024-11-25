@@ -2,36 +2,61 @@ require "/scripts/rect.lua"
 
 function init()
 	material = status.statusProperty("targetMaterialKind", "organic")
-	if ignoreMaterials(material) then
+	self.source=effect.sourceEntity()
+	if validMaterials(material) then
 		animator.setParticleEmitterOffsetRegion("neki" .. material .. "drip", mcontroller.boundBox())
 		animator.setParticleEmitterEmissionRate("neki" .. material .. "drip", config.getParameter("emissionRate", 3))
 		animator.setParticleEmitterActive("neki" .. material .. "drip", true)
 
-		script.setUpdateDelta(5)
+		script.setUpdateDelta(1)
 		self.tickDamagePercentage = 0.01 + config.getParameter("bleedAmount", 0)
+		--self.maxInstances=effect.getParameter("maxStacks", 30)
+		self.stackMult=effect.getParameter("stackMult", 0.15)
+		self.baseMult=effect.getParameter("baseMult", 1.0)
 		self.tickTime = 0.85
 		self.tickTimer = self.tickTime
-		effect.duration()
+		self.duration=effect.duration()
+		self.damageInstances = {self.duration}
+		self.maxDrips=5
 	end
 end
 
 function update(dt)
-	if ignoreMaterials(material) then
+	local dur=effect.duration()
+	--self.duration=self.duration-dt
+	local buffer={}
+	
+	if (self.duration~=dur) and (math.abs(self.duration-dur)>(1.1*dt)) then
+		table.insert(buffer,dur)
+	end
+	self.duration=dur
+	
+	for i=1,#self.damageInstances do
+		local instance=self.damageInstances[i]-dt
+		--if (instance>0) and (#buffer<self.maxInstances) then
+		if (instance>0) then
+			table.insert(buffer,instance)
+		-- elseif (#buffer>=self.maxInstances) then
+			-- break
+		end
+	end
+
+	self.damageInstances=buffer
+	
+	if validMaterials(material) then
 		self.tickTimer = self.tickTimer - dt
 		if self.tickTimer <= 0 then
 			self.tickTimer = self.tickTime
-			local damageVal
-			if status.statPositive("specialStatusImmunity") then
-				damageVal = math.floor(world.threatLevel() * self.tickDamagePercentage * 100)
-			else
-				damageVal = math.floor(status.resourceMax("health") * self.tickDamagePercentage) + 1
-			end
+
+			local damageVal = (status.statPositive("specialStatusImmunity") and (world.threatLevel() * self.tickDamagePercentage * 100)) or (status.resourceMax("health") * self.tickDamagePercentage)
+
+			damageVal = 1 + (damageVal*self.baseMult) + (#self.damageInstances*damageVal*self.stackMult)
 			status.applySelfDamageRequest(
 				{
 					damageType = "IgnoresDef",
 					damage = damageVal,
-					damageSourceKind = "nekibleed",
-					sourceEntityId = entity.id()
+					damageSourceKind = "nekibleedbow",
+					sourceEntityId = self.source
 				}
 			)
 			statusProjectile(material)
@@ -44,17 +69,25 @@ function statusProjectile(material)
 	local pos = world.entityPosition(id)
 
 	world.spawnProjectile("nekidrip", {pos[1], pos[2]}, nil, nil, nil, parameters(material))
+
+	local count=math.min(self.maxDrips,#self.damageInstances-1)
+	if count>0 then
+		for i=1,count do
+			world.spawnProjectile("nekidrip", {pos[1], pos[2]}, nil, nil, nil, parameters(material))
+		end
+	end
 end
 
 function parameters(material)
-	local statConf = effect.getParameter("materialEffects", {})
+	if not stafConf then statConf=effect.getParameter("materialEffects", {}) end
 	return {
 		actionOnReap = statConf[material]
 	}
 end
 
-function ignoreMaterials(material)
-	for i, mat in pairs(effect.getParameter("ignoreMaterials", {})) do
+function validMaterials(material)
+	if not matlist then matlist=effect.getParameter("ignoreMaterials", {}) end
+	for i, mat in pairs(matlist) do
 		if material == mat then
 			return false
 		end
