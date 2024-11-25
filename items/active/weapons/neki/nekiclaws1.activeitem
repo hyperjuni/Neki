@@ -68,7 +68,8 @@
 		"fireTime": 0.1,
 		"baseDps": 1.0,
 		"damageConfig": {
-			"statusEffects": ["nekibleed"],
+			//"statusEffects": ["nekibleed"],
+			"statusEffects": [],
 			"damageSourceKind": "nekiclaws1bow",
 			"knockback": 9,
 			"timeoutGroup": "primary",
