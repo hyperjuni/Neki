@@ -1,5 +1,6 @@
 {
-	"kind": "nekiclaws5e",
+	"kind": "nekiclaws5ebow",
+	"elementalType" : "electric",
 	"effects": {
 		"organic": {
 			"hit": {

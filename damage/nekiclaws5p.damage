@@ -1,5 +1,6 @@
 {
-	"kind": "nekiclaws5p",
+	"kind": "nekiclaws5pbow",
+	"elementalType" : "poison",
 	"effects": {
 		"organic": {
 			"hit": {

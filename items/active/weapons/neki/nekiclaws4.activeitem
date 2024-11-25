@@ -70,7 +70,7 @@
 		"baseDps": 12.0,
 		"damageConfig": {
 			"statusEffects": ["nekibleed"],
-			"damageSourceKind": "nekiclaws4",
+			"damageSourceKind": "nekiclaws4bow",
 			"knockback": 9,
 			"timeoutGroup": "primary",
 			"timeout": 0.1

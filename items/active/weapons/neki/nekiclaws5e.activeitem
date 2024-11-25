@@ -9,7 +9,7 @@
 	"tooltipKind": "nekifistweapon",
 	"category": "fistWeapon",
 	"twoHanded": false,
-	"itemTags": ["weapon", "melee"],
+	"itemTags": ["weapon", "melee", "upgradeableWeapon"],
 
 	"inventoryIcon": "/items/active/weapons/neki/icon/nekiclaws5eicon.png:front",
 	"animation": "nekiclaws5.animation",
@@ -79,7 +79,7 @@
 		"fireTime": 0.3,
 		"baseDps": 16.0,
 		"damageConfig": {
-			"damageSourceKind": "nekiclaws5e",
+			"damageSourceKind": "nekiclaws5ebow",
 			"statusEffects": ["electrified"],
 			"timeoutGroup": "primary",
 			"timeout": 0.1,

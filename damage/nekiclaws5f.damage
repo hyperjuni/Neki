@@ -1,5 +1,6 @@
 {
-	"kind": "nekiclaws5f",
+	"kind": "nekiclaws5fbow",
+	"elementalType" : "fire",
 	"effects": {
 		"organic": {
 			"hit": {
