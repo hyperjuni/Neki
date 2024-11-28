@@ -70,7 +70,7 @@
     "nekiWeaponEffect": "nekifireblock",
 
     "fireTime": 0.3,
-    "baseDps": 16.0,
+    "baseDps": 20.0,
     "damageConfig": {
       "damageSourceKind": "nekibowclaws5f",
       "statusEffects": ["burning"],

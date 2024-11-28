@@ -1,3 +1,5 @@
+-- modified by Kherae to add bleed stacks
+
 require "/scripts/rect.lua"
 
 function init()
@@ -10,7 +12,6 @@ function init()
 
     script.setUpdateDelta(1)
     self.tickDamagePercentage = 0.01 + config.getParameter("bleedAmount", 0)
-    --self.maxInstances=effect.getParameter("maxStacks", 30)
     self.stackMult=effect.getParameter("stackMult", 0.15)
     self.baseMult=effect.getParameter("baseMult", 1.0)
     self.tickTime = 0.85
@@ -19,48 +20,50 @@ function init()
     self.damageInstances = {self.duration}
     self.maxDrips=5
   end
+  didInit=true
 end
 
 function update(dt)
-  local dur=effect.duration()
-  --self.duration=self.duration-dt
-  local buffer={}
-  
-  if (self.duration~=dur) and (math.abs(self.duration-dur)>(1.1*dt)) then
-    table.insert(buffer,dur)
-  end
-  self.duration=dur
-  
-  for i=1,#self.damageInstances do
-    local instance=self.damageInstances[i]-dt
-    --if (instance>0) and (#buffer<self.maxInstances) then
-    if (instance>0) then
-      table.insert(buffer,instance)
-    -- elseif (#buffer>=self.maxInstances) then
-      -- break
+  if didInit then
+    if (not failedMaterials) and validMaterials(material) then
+      local dur=effect.duration()
+      local buffer={}
+    
+      if (self.duration~=dur) and (math.abs(self.duration-dur)>(1.1*dt)) then
+        table.insert(buffer,dur)
+      end
+      self.duration=dur
+    
+      for i=1,#self.damageInstances do
+        local instance=self.damageInstances[i]-dt
+        if (instance>0) then
+          table.insert(buffer,instance)
+        end
+      end
+
+      self.damageInstances=buffer
+      self.tickTimer = self.tickTimer - dt
+      if self.tickTimer <= 0 then
+        self.tickTimer = self.tickTime
+
+        local damageVal = (status.statPositive("specialStatusImmunity") and (world.threatLevel() * self.tickDamagePercentage * 100)) or (status.resourceMax("health") * self.tickDamagePercentage)
+
+        damageVal = 1 + (damageVal*self.baseMult) + (#self.damageInstances*damageVal*self.stackMult)
+        status.applySelfDamageRequest(
+          {
+            damageType = "IgnoresDef",
+            damage = damageVal,
+            damageSourceKind = "nekibowbleed",
+            sourceEntityId = self.source
+          }
+        )
+        statusProjectile(material)
+      end
+    else
+      failedMaterials=true
     end
-  end
-
-  self.damageInstances=buffer
-  
-  if validMaterials(material) then
-    self.tickTimer = self.tickTimer - dt
-    if self.tickTimer <= 0 then
-      self.tickTimer = self.tickTime
-
-      local damageVal = (status.statPositive("specialStatusImmunity") and (world.threatLevel() * self.tickDamagePercentage * 100)) or (status.resourceMax("health") * self.tickDamagePercentage)
-
-      damageVal = 1 + (damageVal*self.baseMult) + (#self.damageInstances*damageVal*self.stackMult)
-      status.applySelfDamageRequest(
-        {
-          damageType = "IgnoresDef",
-          damage = damageVal,
-          damageSourceKind = "nekibowbleed",
-          sourceEntityId = self.source
-        }
-      )
-      statusProjectile(material)
-    end
+  else
+    init()
   end
 end
 
@@ -79,14 +82,16 @@ function statusProjectile(material)
 end
 
 function parameters(material)
-  if not stafConf then statConf=effect.getParameter("materialEffects", {}) end
+  if not stafConf then
+    statConf=effect.getParameter("materialEffects", {}) end
   return {
     actionOnReap = statConf[material]
   }
 end
 
 function validMaterials(material)
-  if not matlist then matlist=effect.getParameter("ignoreMaterials", {}) end
+  if not matlist then
+    matlist=effect.getParameter("ignoreMaterials", {}) end
   for i, mat in pairs(matlist) do
     if material == mat then
       return false
