@@ -1,11 +1,11 @@
 {
-	"input": [
-		{"item": "darkwoodmaterial", "count": 10},
-		{"item": "logblock", "count": 2},
-		{"item": "climbingrope", "count": 10},
-		{"item": "dirtmaterial", "count": 5}
-	],
+  "input": [
+    {"item": "darkwoodmaterial", "count": 10},
+    {"item": "logblock", "count": 2},
+    {"item": "climbingrope", "count": 10},
+    {"item": "dirtmaterial", "count": 5}
+  ],
 
-	"output": {"item": "nekitable", "count": 1},
-	"groups": ["plain", "decoration", "all"]
+  "output": {"item": "nekitable", "count": 1},
+  "groups": ["plain", "decoration", "all"]
 }

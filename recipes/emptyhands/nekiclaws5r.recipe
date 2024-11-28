@@ -1,17 +1,17 @@
 {
-	"input": [
-		{"item": "nekiclaws4", "count": 1},
-		{"item": "nekicastclaw5", "count": 1},
-		{"item": "speedaugment", "count": 1},
-		{"item": "biosample", "count": 5},
-		{"item": "bone", "count": 32},
-		{"item": "leather", "count": 10},
-		{"item": "syringe", "count": 10},
-		{"item": "nanowrap", "count": 10},
-		{"item": "medkit", "count": 5}
-	],
+  "input": [
+    {"item": "nekiclaws4", "count": 1},
+    {"item": "nekicastclaw5", "count": 1},
+    {"item": "speedaugment", "count": 1},
+    {"item": "biosample", "count": 5},
+    {"item": "bone", "count": 32},
+    {"item": "leather", "count": 10},
+    {"item": "syringe", "count": 10},
+    {"item": "nanowrap", "count": 10},
+    {"item": "medkit", "count": 5}
+  ],
 
-	"duration": 0.5,
-	"output": {"item": "nekiclaws5r", "count": 1},
-	"groups": ["plain", "weapons", "all"]
+  "duration": 0.5,
+  "output": {"item": "nekiclaws5r", "count": 1},
+  "groups": ["plain", "weapons", "all"]
 }

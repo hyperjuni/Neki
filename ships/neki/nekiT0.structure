@@ -1,23 +1,23 @@
 {
-	"config": {
-		"shipUpgrades": {
-			"capabilities": [],
-			"crewSize": 2
-		}
-	},
+  "config": {
+    "shipUpgrades": {
+      "capabilities": [],
+      "crewSize": 2
+    }
+  },
 
-	"backgroundOverlays": [
-		{
-			"image": "apexT1.png",
-			"position": [9, 12],
-			"fullbright": true
-		},
-		{
-			"image": "apexT1lit.png",
-			"position": [9, 12]
-		}
-	],
+  "backgroundOverlays": [
+    {
+      "image": "apexT1.png",
+      "position": [9, 12],
+      "fullbright": true
+    },
+    {
+      "image": "apexT1lit.png",
+      "position": [9, 12]
+    }
+  ],
 
-	"blockKey": "blockKey.config:blockKey",
-	"blockImage": "nekiT0blocks.png"
+  "blockKey": "blockKey.config:blockKey",
+  "blockImage": "nekiT0blocks.png"
 }

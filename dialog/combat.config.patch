@@ -1,84 +1,84 @@
 [
-	{"op": "add", "path": "/reattack/neki",
-		"value": {
-			"default": [
-				"Time to resume the hunt!",
-				"The prrey came back!",
-				"Hello again, prey.",
-				"You're back!?",
-				"You again!"
-			]
-		}
-	},
-	{"op": "add", "path": "/attack/neki",
-		"value": {
-			"default": [
-				"Catch it!",
-				"Dinner is here!",
-				"Oh look, prey!",
-				"Khhhh! Get it!",
-				"Time to hunt!",
-				"Wrrawww!",
-				"Khhhh!"
-			]
-		}
-	},
-	{"op": "add", "path": "/killedTarget/neki",
-		"value": {
-			"default": [
-				"Purroblem solved.",
-				"Fur untouched.",
-				"That was fun!",
-				"Murrvellous.",
-				"Get rekt.",
-				"Purrfect.",
-				"Mrreh."
-			]
-		}
-	},
-	{"op": "add", "path": "/lostTarget/neki",
-		"value": {
-			"default": [
-				"Come out wherever you are!",
-				"Prrey can't hide furrever!",
-				"I can still smell you!",
-				"I'm coming for you!",
-				"Where'd they go?",
-				"Get back here!"
-			]
-		}
-	},
-	{"op": "add", "path": "/outOfSight/neki",
-		"value": {
-			"default": [
-				"Dinner is getting away!",
-				"Where are you...",
-				"I'm hungry..."
-			]
-		}
-	},
-	{"op": "add", "path": "/cantReach/neki",
-		"value": {
-			"default": [
-				"Silly prrey, that won't save you!",
-				"I'm coming for you, prrey!",
-				"Get back here!",
-				"I'll get you!",
-				"Come closer!",
-				"Come here!"
-			]
-		}
-	},
-	{"op": "add", "path": "/cheerOn/neki",
-		"value": {
-			"default": [
-				"Save some for me!",
-				"Get the prrey!",
-				"I'm excited!",
-				"Get them!",
-				"Come on!",
-				"Get it!"
-			]
-		}
-	}
+  {"op": "add", "path": "/reattack/neki",
+    "value": {
+      "default": [
+        "Time to resume the hunt!",
+        "The prrey came back!",
+        "Hello again, prey.",
+        "You're back!?",
+        "You again!"
+      ]
+    }
+  },
+  {"op": "add", "path": "/attack/neki",
+    "value": {
+      "default": [
+        "Catch it!",
+        "Dinner is here!",
+        "Oh look, prey!",
+        "Khhhh! Get it!",
+        "Time to hunt!",
+        "Wrrawww!",
+        "Khhhh!"
+      ]
+    }
+  },
+  {"op": "add", "path": "/killedTarget/neki",
+    "value": {
+      "default": [
+        "Purroblem solved.",
+        "Fur untouched.",
+        "That was fun!",
+        "Murrvellous.",
+        "Get rekt.",
+        "Purrfect.",
+        "Mrreh."
+      ]
+    }
+  },
+  {"op": "add", "path": "/lostTarget/neki",
+    "value": {
+      "default": [
+        "Come out wherever you are!",
+        "Prrey can't hide furrever!",
+        "I can still smell you!",
+        "I'm coming for you!",
+        "Where'd they go?",
+        "Get back here!"
+      ]
+    }
+  },
+  {"op": "add", "path": "/outOfSight/neki",
+    "value": {
+      "default": [
+        "Dinner is getting away!",
+        "Where are you...",
+        "I'm hungry..."
+      ]
+    }
+  },
+  {"op": "add", "path": "/cantReach/neki",
+    "value": {
+      "default": [
+        "Silly prrey, that won't save you!",
+        "I'm coming for you, prrey!",
+        "Get back here!",
+        "I'll get you!",
+        "Come closer!",
+        "Come here!"
+      ]
+    }
+  },
+  {"op": "add", "path": "/cheerOn/neki",
+    "value": {
+      "default": [
+        "Save some for me!",
+        "Get the prrey!",
+        "I'm excited!",
+        "Get them!",
+        "Come on!",
+        "Get it!"
+      ]
+    }
+  }
 ]

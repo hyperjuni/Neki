@@ -1,10 +1,10 @@
 [
-	[
-		{"op": "test", "path": "/effects", "inverse": true},
-		{"op": "add", "path": "/effects", "value": [[{"effect":"nekipoison"}]]}
-	],
-	[
-		{"op": "test", "path": "/effects"},
-		{"op": "add", "path": "/effects/0/-", "value": {"effect":"nekipoison"}}
-	]
+  [
+    {"op": "test", "path": "/effects", "inverse": true},
+    {"op": "add", "path": "/effects", "value": [[{"effect":"nekipoison"}]]}
+  ],
+  [
+    {"op": "test", "path": "/effects"},
+    {"op": "add", "path": "/effects/0/-", "value": {"effect":"nekipoison"}}
+  ]
 ]

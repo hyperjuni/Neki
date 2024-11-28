@@ -1,10 +1,10 @@
 [
-	[
-		{"op":"test","path":"/sitStatusEffects","inverse":true},
-		{"op":"add","path":"/sitStatusEffects","value":[]}
-	],
-	[
-		{"op":"add","path":"/nekiDescription","value":"Oouhh, that eye looks yummy!"},
-		{"op":"add","path":"/sitStatusEffects/-","value":"nekihidecauldron"}
-	]
+  [
+    {"op":"test","path":"/sitStatusEffects","inverse":true},
+    {"op":"add","path":"/sitStatusEffects","value":[]}
+  ],
+  [
+    {"op":"add","path":"/nekiDescription","value":"Oouhh, that eye looks yummy!"},
+    {"op":"add","path":"/sitStatusEffects/-","value":"nekihidecauldron"}
+  ]
 ]

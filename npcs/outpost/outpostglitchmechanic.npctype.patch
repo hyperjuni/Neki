@@ -1,10 +1,15 @@
 [
-	{"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"},
-	{"op": "add", "path": "/scriptConfig/dialog/converse/glitch/neki",
-		"value": [
-			"Grateful. There seem to be plenty of things to fix since your kind started showing up!",
-			"Hesitant. Unfortunately I am not sure how to fix things like YOU, should you break down.",
-			"Surprise. Already knocked something over? How do you keep getting into trouble?"
-		]
-	}
+  [
+    {"op": "test", "path": "/scriptConfig/dialogMode", "value": "sequence", "inverse": true},
+    {"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"}
+  ],
+  [
+    {"op": "add", "path": "/scriptConfig/dialog/converse/glitch/neki",
+      "value": [
+        "Grateful. There seem to be plenty of things to fix since your kind started showing up!",
+        "Hesitant. Unfortunately I am not sure how to fix things like YOU, should you break down.",
+        "Surprise. Already knocked something over? How do you keep getting into trouble?"
+      ]
+    }
+  ]
 ]

@@ -1,11 +1,11 @@
 [
-	[
-		{"op":"test","path":"/sitStatusEffects","inverse":true},
-		{"op":"add","path":"/sitStatusEffects","value":[]}
-	],
-	[
-		{"op":"add","path":"/nekiDescription","value":"Mrr... what a cozy bag, I need to get in in it!"},
-		{"op":"add","path":"/sitStatusEffects/-","value":"nekipurr"},
-		{"op":"add","path":"/sitStatusEffects/-","value":"nekihidesleepingbag"}
-	]
+  [
+    {"op":"test","path":"/sitStatusEffects","inverse":true},
+    {"op":"add","path":"/sitStatusEffects","value":[]}
+  ],
+  [
+    {"op":"add","path":"/nekiDescription","value":"Mrr... what a cozy bag, I need to get in in it!"},
+    {"op":"add","path":"/sitStatusEffects/-","value":"nekipurr"},
+    {"op":"add","path":"/sitStatusEffects/-","value":"nekihidesleepingbag"}
+  ]
 ]

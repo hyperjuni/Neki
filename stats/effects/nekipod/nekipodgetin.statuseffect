@@ -1,6 +1,6 @@
 {
-	"name": "nekipodgetin",
+  "name": "nekipodgetin",
 
-	"scripts": ["nekipodgetin.lua"],
-	"animationConfig": "nekipod.animation"
+  "scripts": ["nekipodgetin.lua"],
+  "animationConfig": "nekipod.animation"
 }

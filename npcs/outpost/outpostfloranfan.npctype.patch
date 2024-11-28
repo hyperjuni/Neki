@@ -1,11 +1,16 @@
 [
-	{"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"},
-	{"op": "add", "path": "/scriptConfig/dialog/converse/floran/neki",
-		"value": [
-			"Floran happy to ssee Neki here!",
-			"Floran try be like human, no sstab and no fight for now.",
-			"Neki looksss like human, Floran wantsss to look like human too.",
-			"Following Neki around gives Floran great joy!"
-		]
-	}
+  [
+    {"op": "test", "path": "/scriptConfig/dialogMode", "value": "sequence", "inverse": true},
+    {"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"}
+  ],
+  [
+    {"op": "add", "path": "/scriptConfig/dialog/converse/floran/neki",
+      "value": [
+        "Floran happy to ssee Neki here!",
+        "Floran try be like human, no sstab and no fight for now.",
+        "Neki looksss like human, Floran wantsss to look like human too.",
+        "Following Neki around gives Floran great joy!"
+      ]
+    }
+  ]
 ]

@@ -1,18 +1,18 @@
 {
-	"itemName": "invisiblefabricback",
-	"price": 1,
-	"inventoryIcon": "icons.png:back",
-	"maxStack": 1,
-	"rarity": "Legendary",
-	"category": "backwear",
-	"description": "This incredible item hides what's on your back.\nJust don't ask where.",
-	"shortdescription": "Invisi-Bag (Neki)",
-	"tooltipKind": "nekiback",
+  "itemName": "invisiblefabricback",
+  "price": 1,
+  "inventoryIcon": "icons.png:back",
+  "maxStack": 1,
+  "rarity": "Legendary",
+  "category": "backwear",
+  "description": "This incredible item hides what's on your back.\nJust don't ask where.",
+  "shortdescription": "Invisi-Bag (Neki)",
+  "tooltipKind": "nekiback",
 
-	"maleFrames": "back.png",
-	"femaleFrames": "back.png",
+  "maleFrames": "back.png",
+  "femaleFrames": "back.png",
 
-	"colorOptions": [
-		{"ffca8a": "000000", "e0975c": "000000", "a85636": "000000", "6f2919": "000000"}
-	]
+  "colorOptions": [
+    {"ffca8a": "000000", "e0975c": "000000", "a85636": "000000", "6f2919": "000000"}
+  ]
 }

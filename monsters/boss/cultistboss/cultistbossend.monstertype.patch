@@ -1,16 +1,16 @@
 [
-	{"op": "add", "path": "/baseParameters/dialog/intro/default/neki",
-		"value": [
-			"Hnhh... You stubborn, brainwashed little beast...",
-			"Got too many lives?\nLet's fix that for you!"
-		]
-	},
-	
-	{"op": "add", "path": "/baseParameters/dialog/death/default/neki",
-		"value": [
-			"What are you even trying to achieve?! You're part Human yourself, don't you get it?!",
-			"You should've been on my side all along, we're not that different you and I!",
-			"My defeat is meaningless, puppet. The Ruin will soon awaken and cleanse this universe of ALL BUT HUMANS!"
-		]
-	}
+  {"op": "add", "path": "/baseParameters/dialog/intro/default/neki",
+    "value": [
+      "Hnhh... You stubborn, brainwashed little beast...",
+      "Got too many lives?\nLet's fix that for you!"
+    ]
+  },
+  
+  {"op": "add", "path": "/baseParameters/dialog/death/default/neki",
+    "value": [
+      "What are you even trying to achieve?! You're part Human yourself, don't you get it?!",
+      "You should've been on my side all along, we're not that different you and I!",
+      "My defeat is meaningless, puppet. The Ruin will soon awaken and cleanse this universe of ALL BUT HUMANS!"
+    ]
+  }
 ]

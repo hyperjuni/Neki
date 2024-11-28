@@ -1,5 +1,5 @@
 {
-	"sounds": {
-		"nekipurr": ["/sfx/statuseffects/nekipurr.ogg"]
-	}
+  "sounds": {
+    "nekipurr": ["/sfx/statuseffects/nekipurr.ogg"]
+  }
 }

@@ -1,52 +1,52 @@
 {
-	"objectName": "nekipillowpile",
-	"objectType": "loungeable",
-	"category": "furniture",
-	"rarity": "Common",
-	"price": 450,
-	"race": "neki",
-	"printable": false,
-	"tooltipKind": "nekibase",
-	"colonyTags": ["neki"],
+  "objectName": "nekipillowpile",
+  "objectType": "loungeable",
+  "category": "furniture",
+  "rarity": "Common",
+  "price": 450,
+  "race": "neki",
+  "printable": false,
+  "tooltipKind": "nekibase",
+  "colonyTags": ["neki"],
 
-	"shortdescription": "Neki Pillow Pile",
-	"description": "A pile of odd-looking colorful pillows.",
+  "shortdescription": "Neki Pillow Pile",
+  "description": "A pile of odd-looking colorful pillows.",
 
-	"apexDescription": "These don't seem like they'd make for great cover in a firefight.",
-	"avianDescription": "Can almost forgive the unprecedented feather theft for how comfy these are.",
-	"floranDescription": "Pile isss good place to hide for ambush!",
-	"glitchDescription": "Perplexed. The practical purpose of this structure eludes me.",
-	"humanDescription": "I wanna dive bomb right into that!",
-	"hylotlDescription": "Resembling mere garbage bags from afar, up close these are far more grotesque.",
-	"nekiDescription": "Fort!",
-	"novakidDescription": "Someone's either movin' out or just hoardin' feathers!",
+  "apexDescription": "These don't seem like they'd make for great cover in a firefight.",
+  "avianDescription": "Can almost forgive the unprecedented feather theft for how comfy these are.",
+  "floranDescription": "Pile isss good place to hide for ambush!",
+  "glitchDescription": "Perplexed. The practical purpose of this structure eludes me.",
+  "humanDescription": "I wanna dive bomb right into that!",
+  "hylotlDescription": "Resembling mere garbage bags from afar, up close these are far more grotesque.",
+  "nekiDescription": "Fort!",
+  "novakidDescription": "Someone's either movin' out or just hoardin' feathers!",
 
-	"inventoryIcon": "nekipillowpileicon.png",
+  "inventoryIcon": "nekipillowpileicon.png",
 
-	"orientations": [
-		{
-			"direction": "left",
-			"anchors": ["bottom"],
-			"image": "nekipillowpile.png",
-			"imagePosition": [0, 0],
-			"flipImages": true,
-			"spaceScan": 0.1,
-			"sitPosition": [-23.5, 18]
-		},
-		{
-			"direction": "right",
-			"anchors": ["bottom"],
-			"image": "nekipillowpile.png",
-			"imagePosition": [0, 0],
-			"spaceScan": 0.1,
-			"sitPosition": [20.5, 18]
-		}
-	],
+  "orientations": [
+    {
+      "direction": "left",
+      "anchors": ["bottom"],
+      "image": "nekipillowpile.png",
+      "imagePosition": [0, 0],
+      "flipImages": true,
+      "spaceScan": 0.1,
+      "sitPosition": [-23.5, 18]
+    },
+    {
+      "direction": "right",
+      "anchors": ["bottom"],
+      "image": "nekipillowpile.png",
+      "imagePosition": [0, 0],
+      "spaceScan": 0.1,
+      "sitPosition": [20.5, 18]
+    }
+  ],
 
-	"sitCoverImage": "/objects/neki/nekipillowpile/nekipillowpilecover.png",
-	"sitEmote": "neutral",
-	"sitStatusEffects": [
-		"nekihidepile",
-		"nekipoof"
-	]
+  "sitCoverImage": "/objects/neki/nekipillowpile/nekipillowpilecover.png",
+  "sitEmote": "neutral",
+  "sitStatusEffects": [
+    "nekihidepile",
+    "nekipoof"
+  ]
 }

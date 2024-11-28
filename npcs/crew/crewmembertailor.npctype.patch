@@ -1,10 +1,10 @@
 [
-	{"op": "add", "path": "/scriptConfig/dialog/crewmember/roleDescription/neki",
-		"value": {
-			"default": [
-				"I can make them wear whatever you're wearing.. or NOT wearing.",
-				"What am I even doing here, I hate clothes."
-			]
-		}
-	}
+  {"op": "add", "path": "/scriptConfig/dialog/crewmember/roleDescription/neki",
+    "value": {
+      "default": [
+        "I can make them wear whatever you're wearing.. or NOT wearing.",
+        "What am I even doing here, I hate clothes."
+      ]
+    }
+  }
 ]

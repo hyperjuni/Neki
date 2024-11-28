@@ -1,7 +1,7 @@
 {
-	"name": "nekihide",
-	"defaultDuration": 10,
-	"effectConfig": {},
+  "name": "nekihide",
+  "defaultDuration": 10,
+  "effectConfig": {},
 
-	"scripts": ["nekihide.lua"]
+  "scripts": ["nekihide.lua"]
 }

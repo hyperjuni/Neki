@@ -1,29 +1,29 @@
 [
-	{"op": "add", "path": "/scriptConfig/dialog/crewmember/roleDescription/neki",
-		"value": {
-			"default": [
-				"I purrvide health benefits.",
-				"I'm the doctor now."
-			]
-		}
-	},
-	{"op": "add", "path": "/scriptConfig/dialog/crewmember/fieldBenefit/neki",
-		"value": {
-			"default": [
-				"How did you even hurt yourself?",
-				"Why are you hurting yourself?",
-				"Well, you look like shit.",
-				"Can you please NOT?"
-			]
-		}
-	},
-	{"op": "add", "path": "/scriptConfig/dialog/crewmember/combatBenefit/neki",
-		"value": {
-			"default": [
-				"You're bleeding! Let me lick it.",
-				"Come on, I'll try to heal that.",
-				"I have no idea what I'm doing."
-			]
-		}
-	}
+  {"op": "add", "path": "/scriptConfig/dialog/crewmember/roleDescription/neki",
+    "value": {
+      "default": [
+        "I purrvide health benefits.",
+        "I'm the doctor now."
+      ]
+    }
+  },
+  {"op": "add", "path": "/scriptConfig/dialog/crewmember/fieldBenefit/neki",
+    "value": {
+      "default": [
+        "How did you even hurt yourself?",
+        "Why are you hurting yourself?",
+        "Well, you look like shit.",
+        "Can you please NOT?"
+      ]
+    }
+  },
+  {"op": "add", "path": "/scriptConfig/dialog/crewmember/combatBenefit/neki",
+    "value": {
+      "default": [
+        "You're bleeding! Let me lick it.",
+        "Come on, I'll try to heal that.",
+        "I have no idea what I'm doing."
+      ]
+    }
+  }
 ]

@@ -1,26 +1,26 @@
 {
-	"name": "merchant_neki",
-	"priority": 4,
+  "name": "merchant_neki",
+  "priority": 4,
 
-	"colonyTagCriteria": {
-		"light": 1,
-		"door": 1,
-		"neki": 8,
-		"storage": 8,
-		"commerce": 8
-	},
+  "colonyTagCriteria": {
+    "light": 1,
+    "door": 1,
+    "neki": 8,
+    "storage": 8,
+    "commerce": 8
+  },
 
-	"tenants": [
-		{
-			"spawn": "npc",
-			"species": "neki",
-			"type": "merchanttenant",
-			"overrides": {}
-		}
-	],
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "neki",
+      "type": "merchanttenant",
+      "overrides": {}
+    }
+  ],
 
-	"rent": {
-		"periodRange": [900.0, 1800.0],
-		"pool": "merchantGift"
-	}
+  "rent": {
+    "periodRange": [900.0, 1800.0],
+    "pool": "merchantGift"
+  }
 }

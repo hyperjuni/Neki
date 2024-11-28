@@ -1,10 +1,10 @@
 [
-	{"op": "add", "path": "/scriptConfig/dialog/converse/neki", "value": {}},
-	{"op": "add", "path": "/scriptConfig/dialog/converse/neki/default",
-		"value" : [
-			"I'm here to surrrvey this spot. Is it a safe spot?",
-			"I am here to make sure there's stuff to scratch. Don't mind me!",
-			"I'm making sure your place is secure enough against pesky vermin."
-		]
-	}
+  {"op": "add", "path": "/scriptConfig/dialog/converse/neki", "value": {}},
+  {"op": "add", "path": "/scriptConfig/dialog/converse/neki/default",
+    "value" : [
+      "I'm making sure your place is secure enough against pesky vermin.",
+      "I am here to make sure there's stuff to scrratch. Don't mind me!",
+      "I'm here to surrrvey this spot. Is it a safe spot?"
+    ]
+  }
 ]

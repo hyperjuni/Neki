@@ -1,7 +1,7 @@
 {
-	"input": [
-		{"item": "nekistoragelocker", "count": 1}
-	],
-	"output": {"item": "nekibedlocker",	"count": 1},
-	"groups": ["craftingfurniture2", "beds", "all"]
+  "input": [
+    {"item": "nekistoragelocker", "count": 1}
+  ],
+  "output": {"item": "nekibedlocker",  "count": 1},
+  "groups": ["craftingfurniture2", "beds", "all"]
 }

@@ -1,6 +1,6 @@
 [
-	{"op": "test", "path": "/layers/3/objects/1/properties/npc", "value": "apex"},
-	{"op": "test", "path": "/layers/3/objects/1/properties/typeName", "value": "villager"},
-	{"op": "replace", "path": "/layers/3/objects/1/properties/npc", "value": "neki"},
-	{"op": "replace", "path": "/layers/3/objects/1/properties/typeName", "value": "nekimkagent"}
+  {"op": "test", "path": "/layers/3/objects/1/properties/npc", "value": "apex"},
+  {"op": "test", "path": "/layers/3/objects/1/properties/typeName", "value": "villager"},
+  {"op": "replace", "path": "/layers/3/objects/1/properties/npc", "value": "neki"},
+  {"op": "replace", "path": "/layers/3/objects/1/properties/typeName", "value": "nekimkagent"}
 ]

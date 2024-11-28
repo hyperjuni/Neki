@@ -1,11 +1,11 @@
 [
-	{"op": "add", "path": "/scriptConfig/merchant/categories/neki",
-		"value": [
-			"basicmerchant",
-			"nekifurniture",
-			"nekiingredients",
-			"randomguns",
-			"randomswords"
-		]
-	}
+  {"op": "add", "path": "/scriptConfig/merchant/categories/neki",
+    "value": [
+      "basicmerchant",
+      "nekifurniture",
+      "nekiingredients",
+      "randomguns",
+      "randomswords"
+    ]
+  }
 ]

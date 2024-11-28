@@ -1,9 +1,9 @@
 {
-	"kind": "neki",
-	"charCreationTooltip": {
-		"title": "Neki",
-		"subTitle": "Welcome to my purrivate parts...",
-		"description": "Despite appearances, the Neki can be anything but adorable. Rumored to be a human project ending up in the wrong hands, they're more akin to wild animals than their alleged creators.
+  "kind": "neki",
+  "charCreationTooltip": {
+    "title": "Neki",
+    "subTitle": "Welcome to my purrivate parts...",
+    "description": "Despite appearances, the Neki can be anything but adorable. Rumored to be a human project ending up in the wrong hands, they're more akin to wild animals than their alleged creators.
 ^cyan;Racial attributes available by installing Race Traits.^reset;
 
 ^cyan;Max Health^reset;: ^red;-25%^reset;
@@ -23,766 +23,774 @@
 ^cyan;Jump Height^reset;: ^green;+30%^reset;
 ^cyan;Fall Damage^reset; ^green;-40%^reset;
 ^cyan;Hunger Rate^reset;: ^red;+50%^reset;"
-	},
+  },
 
-	"effectDirectives": "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=80f4ffFF?replace=31a6ffFF=39b8e3FF",
-	"nameGen": ["/species/nekimalenamegen.config:names", "/species/nekifemalenamegen.config:names"],
-	"ouchNoises": ["/sfx/humanoid/nekihurt_male.ogg", "/sfx/humanoid/nekihurt_female.ogg"],
-	"deathNoises": ["/sfx/humanoid/nekidead.ogg"],
-	"skull": "/humanoid/neki/nekidead.png",
+  "effectDirectives": "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=80f4ffFF?replace=31a6ffFF=39b8e3FF",
+  "nameGen": ["/species/nekimalenamegen.config:names", "/species/nekifemalenamegen.config:names"],
+  "ouchNoises": ["/sfx/humanoid/nekihurt_male.ogg", "/sfx/humanoid/nekihurt_female.ogg"],
+  "deathNoises": ["/sfx/humanoid/nekidead.ogg"],
+  "skull": "/humanoid/neki/nekidead.png",
 
-	"charGenTextLabels": [
-		"Coat colour",
-		"Hair style",
-		"Sleeves",
-		"Outfit",
-		"Eyes/Collar",
-		"Fluff colour",
-		"Sleeve colour",
-		"Outfit colour",
-		"NEKI",
-		"Idle pose"
-	],
+  "charGenTextLabels": [
+    "Coat colour",
+    "Hair style",
+    "Sleeves",
+    "Outfit",
+    "Eyes/Collar",
+    "Fluff colour",
+    "Sleeve colour",
+    "Outfit colour",
+    "NEKI",
+    "Idle pose"
+  ],
 
-	"humanoidOverrides": {
-		"headSitOffset": [1, 0],
-		"headDuckOffset": [2, 0],
-		"headLayOffset": [0, 0],
-		"personalities": [
-		// Pose, Arms, Head [x,y], Arms [x,y]
-			["idle.1", "swim.2", [0, 0], [0, -1]],		// beggar
-			["idle.1", "idle.1", [0, 0], [0, 0]], 		// standard
-			["idle.1", "idle.2", [-1, 0], [0, 0]],		// clean your room
-			["idle.1", "idle.3", [0, 0], [2, 0]],			// or else
-			["idle.1", "idle.4", [-1, 0], [0, 0]],		// or else what
-			["idle.1", "idle.5", [0, 0], [0, 0]],			// coque
-			["idle.2", "idle.5", [-1, 0], [0, 0]],		// full chest
-			["idle.2", "idle.4", [-1, 0], [0, 0]],		// brute
-			["idle.2", "idle.3", [-1, 0], [2, 0]],		// air piano
-			["idle.2", "swim.2", [-1, 0], [0, 0]],		// calm
-			["idle.2", "idle.2", [-1, 0], [0, 0]],		// confident
-			["idle.2", "idle.1", [-1, 0], [0, 1]],		// very stoic
-			["idle.3", "idle.1", [-1, 0], [-1, 0]],		// sick of your shit
-			["idle.3", "idle.2", [-1, 0], [-1, 0]],		// very sick of your shit
-			["idle.3", "swim.2", [-1, 0], [-1, -1]],	// yoga
-			["idle.3", "idle.3", [-1, 0], [0, 0]],		// gunslinger
-			["idle.3", "idle.4", [-1, 0], [-1, 0]],		// bruteslinger
-			["idle.3", "idle.5", [-2, 0], [-1, 0]],		// lean back
-			["idle.4", "idle.5", [-1, 0], [0, 0]],		// full bully
-			["idle.4", "idle.4", [-1, 0], [0, 0]],		// bully
-			["idle.4", "idle.3", [-1, 0], [2, 0]],		// prepared
-			["idle.4", "swim.2", [-1, 0], [0, -1]],		// primed
-			["idle.4", "idle.2", [-1, 0], [0, 0]],		// proud
-			["idle.4", "idle.1", [-1, 0], [0, 0]], 		// stoic
-			["idle.5", "idle.1", [0, 0], [0, 0]],			// loser
-			["idle.5", "idle.2", [0, 0], [0, 0]], 		// fabulous
-			["idle.5", "idle.3", [0, 0], [2, 0]], 		// nervous
-			["idle.5", "idle.4", [0, 0], [1, 0]],			// hugs
-			["idle.5", "idle.5", [0, 0], [0, 0]],			// scared
-			["idle.5", "swim.2", [1, 0], [0, -1]]			// slouching
-		],
-	// StarExtensions stuff
-		"useBodyMask": true,
-		"useBodyHeadMask": true,
-		"headSliceY": 25 // Legacy option
-	},
+  "humanoidOverrides": {
+    "headSitOffset": [1, 0],
+    "headDuckOffset": [2, 0],
+    "headLayOffset": [0, 0],
+    "personalities": [
+    // Pose, Arms, Head [x,y], Arms [x,y]
+      ["idle.1", "swim.2", [0, 0], [0, -1]],   // beggar
+      ["idle.1", "idle.1", [0, 0], [0, 0]],    // standard
+      ["idle.1", "idle.2", [-1, 0], [0, 0]],   // clean your room
+      ["idle.1", "idle.3", [0, 0], [2, 0]],    // or else
+      ["idle.1", "idle.4", [-1, 0], [0, 0]],   // or else what
+      ["idle.1", "idle.5", [0, 0], [0, 0]],    // coque
+      ["idle.2", "idle.5", [-1, 0], [0, 0]],   // full chest
+      ["idle.2", "idle.4", [-1, 0], [0, 0]],   // brute
+      ["idle.2", "idle.3", [-1, 0], [2, 0]],   // air piano
+      ["idle.2", "swim.2", [-1, 0], [0, 0]],   // calm
+      ["idle.2", "idle.2", [-1, 0], [0, 0]],   // confident
+      ["idle.2", "idle.1", [-1, 0], [0, 1]],   // very stoic
+      ["idle.3", "idle.1", [-1, 0], [-1, 0]],  // sick of your shit
+      ["idle.3", "idle.2", [-1, 0], [-1, 0]],  // very sick of your shit
+      ["idle.3", "swim.2", [-1, 0], [-1, -1]], // yoga
+      ["idle.3", "idle.3", [-1, 0], [0, 0]],   // gunslinger
+      ["idle.3", "idle.4", [-1, 0], [-1, 0]],  // bruteslinger
+      ["idle.3", "idle.5", [-2, 0], [-1, 0]],  // lean back
+      ["idle.4", "idle.5", [-1, 0], [0, 0]],   // full bully
+      ["idle.4", "idle.4", [-1, 0], [0, 0]],   // bully
+      ["idle.4", "idle.3", [-1, 0], [2, 0]],   // prepared
+      ["idle.4", "swim.2", [-1, 0], [0, -1]],  // primed
+      ["idle.4", "idle.2", [-1, 0], [0, 0]],   // proud
+      ["idle.4", "idle.1", [-1, 0], [0, 0]],   // stoic
+      ["idle.5", "idle.1", [0, 0], [0, 0]],    // loser
+      ["idle.5", "idle.2", [0, 0], [0, 0]],    // fabulous
+      ["idle.5", "idle.3", [0, 0], [2, 0]],    // nervous
+      ["idle.5", "idle.4", [0, 0], [1, 0]],    // hugs
+      ["idle.5", "idle.5", [0, 0], [0, 0]],    // scared
+      ["idle.5", "swim.2", [1, 0], [0, -1]]    // slouching
+    ],
+  // StarExtensions stuff
+    "useBodyMask": true,
+    "useBodyHeadMask": true,
+    "headSliceY": 25  // Legacy option
+  },
 
-	"defaultBlueprints": {
-		"tier1": [
-		// Empty Hands
-			{"item": "flagneki"},
-			{"item": "nekibed"},
-			{"item": "nekibedlavish"},
-			{"item": "nekitable"},
-			{"item": "nekitier1spotlightBroken"},
-			{"item": "nekiclaws1"},
-			{"item": "nekiclaws2"},
-			{"item": "nekiclaws3"},
-			{"item": "nekiclaws4"},
-			{"item": "nekiclaws5r"},
-			{"item": "nekiclaws5"},
-			{"item": "nekiclaws5e"},
-			{"item": "nekiclaws5f"},
-			{"item": "nekiclaws5i"},
-			{"item": "nekiclaws5p"},
-			{"item": "nekishipT9"},
-			{"item": "nekishipT10"},
-			{"item": "nekishipT11"},
+  "defaultBlueprints": {
+    "tier1": [
+    // Empty Hands
+      {"item": "flagneki"},
+      {"item": "nekibed"},
+      {"item": "nekibedlavish"},
+      {"item": "nekichair"},
+      {"item": "nekitable"},
+      {"item": "nekitier1spotlightBroken"},
+      {"item": "nekiclaws1"},
+      {"item": "nekiclaws2"},
+      {"item": "nekiclaws3"},
+      {"item": "nekiclaws4"},
+      {"item": "nekiclaws5r"},
+      {"item": "nekiclaws5"},
+      {"item": "nekiclaws5e"},
+      {"item": "nekiclaws5f"},
+      {"item": "nekiclaws5i"},
+      {"item": "nekiclaws5p"},
+      {"item": "nekishipT9"},
+      {"item": "nekishipT10"},
+      {"item": "nekishipT11"},
 
-		// Anvil
-			{"item": "nekitier1head"},
-			{"item": "nekitier1sleeves"},
-			{"item": "nekitier1armor"},
-			{"item": "nekitier2head"},
-			{"item": "nekitier2sleeves"},
-			{"item": "nekitier2armor"},
+    // Anvil
+      {"item": "nekitier1head"},
+      {"item": "nekitier1sleeves"},
+      {"item": "nekitier1armor"},
+      {"item": "nekitier2head"},
+      {"item": "nekitier2sleeves"},
+      {"item": "nekitier2armor"},
 
-			{"item": "ironshortsword"},
-			{"item": "ironbroadsword"},
-			{"item": "tungstenaxe"},
-			{"item": "tungstenhammer"},
+      {"item": "ironshortsword"},
+      {"item": "ironbroadsword"},
+      {"item": "tungstenaxe"},
+      {"item": "tungstenhammer"},
 
-		// Anvil2
-			{"item": "nekitier3head"},
-			{"item": "nekitier3sleeves"},
-			{"item": "nekitier3armor"},
+    // Anvil2
+      {"item": "nekitier3head"},
+      {"item": "nekitier3sleeves"},
+      {"item": "nekitier3armor"},
 
-			{"item": "titaniumdagger"},
-			{"item": "titaniumspear"},
-			{"item": "durasteelbroadsword"},
-			{"item": "durasteelshortsword"},
-			{"item": "titaniumdagger"},
-			{"item": "titaniumspear"},
-			{"item": "durasteelbroadsword"},
-			{"item": "durasteelshortsword"},
+      {"item": "titaniumdagger"},
+      {"item": "titaniumspear"},
+      {"item": "durasteelbroadsword"},
+      {"item": "durasteelshortsword"},
+      {"item": "titaniumdagger"},
+      {"item": "titaniumspear"},
+      {"item": "durasteelbroadsword"},
+      {"item": "durasteelshortsword"},
 
-		// Anvil3
-			{"item": "nekitier4head"},
-			{"item": "nekitier4sleeves"},
-			{"item": "nekitier4armor"},
-			{"item": "nekimktier6shead"},
-			{"item": "nekimktier6ssleeves"},
-			{"item": "nekimktier6sarmor"},
+    // Anvil3
+      {"item": "nekitier4head"},
+      {"item": "nekitier4sleeves"},
+      {"item": "nekitier4armor"},
+      {"item": "nekimktier6shead"},
+      {"item": "nekimktier6ssleeves"},
+      {"item": "nekimktier6sarmor"},
 
-			{"item": "aegisaltpistol"},
-			{"item": "aegisaltbow"},
-			{"item": "feroziumwand"},
-			{"item": "feroziumstaff"},
-			{"item": "violiumshortsword"},
-			{"item": "violiumbroadsword"},
+      {"item": "aegisaltpistol"},
+      {"item": "aegisaltbow"},
+      {"item": "feroziumwand"},
+      {"item": "feroziumstaff"},
+      {"item": "violiumshortsword"},
+      {"item": "violiumbroadsword"},
 
-		// Furnace
-			{"item": "nekicastclaw3"},
+    // Furnace
+      {"item": "nekicastclaw3"},
 
-		// Furnace 2
-			{"item": "nekicastclaw4"},
+    // Furnace 2
+      {"item": "nekicastclaw4"},
 
-		// Furnace 3
-			{"item": "nekicastclaw5"},
-			{"item": "nekithingyelectric"},
-			{"item": "nekithingyfire"},
-			{"item": "nekithingyice"},
-			{"item": "nekithingypoison"},
+    // Furnace 3
+      {"item": "nekicastclaw5"},
+      {"item": "nekithingyelectric"},
+      {"item": "nekithingyfire"},
+      {"item": "nekithingyice"},
+      {"item": "nekithingypoison"},
 
-		// Furniture Table 2
-			{"item": "apexshipdoor"},
-			{"item": "apexshiphatch"},
+    // Furniture Table 2
+      {"item": "apexshipdoor"},
+      {"item": "apexshiphatch"},
 
-			{"item": "nekibedlocker"},
-			{"item": "nekistoragelocker"},
+      {"item": "nekibedlocker"},
+      {"item": "nekistoragelocker"},
 
-		// Inventor's Table
-			{"item": "nekiwheel"},
+    // Inventor's Table
+      {"item": "nekiwheel"},
 
-		// Neki Wheel
-			{"item": "nekitoywingsback"},
-			{"item": "nekiwingsback"},
-			{"item": "nekidressgala"},
-			{"item": "nekidressrobe"},
-			{"item": "nekiholidayskirt"},
-			{"item": "nekiholidaysleeves"},
-			{"item": "nekinightie"},
-			{"item": "nekinoughtie"},
-			{"item": "nekipeacekeeperhead"},
-			{"item": "nekipeacekeepersleeves"},
-			{"item": "nekipeacekeeperuniform"},
-			{"item": "nekirags"},
-			{"item": "nekiscientistcoat"},
-			{"item": "nekiscientistsleeves"},
-			{"item": "nekishades"},
-			{"item": "nekisleevesangel"},
-			{"item": "nekisleevesglove"},
-			{"item": "nekisleevesshort"},
-			{"item": "nekistrapless"},
-			{"item": "nekistripless"},
-			{"item": "nekini"},
-			{"item": "nekinibottom"},
-			{"item": "nekinitop"},
-			{"item": "nokini"},
-			{"item": "nokinibottom"},
-			{"item": "nokinitop"},
+    // Neki Wheel
+      {"item": "nekitoywingsback"},
+      {"item": "nekiwingsback"},
+      {"item": "nekidressgala"},
+      {"item": "nekidressgown"},
+      {"item": "nekidressgown2"},
+      {"item": "nekidressrobe"},
+      {"item": "nekiholidayskirt"},
+      {"item": "nekiholidaysleeves"},
+      {"item": "nekinightie"},
+      {"item": "nekinoughtie"},
+      {"item": "nekipeacekeeperhead"},
+      {"item": "nekipeacekeepersleeves"},
+      {"item": "nekipeacekeeperuniform"},
+      {"item": "nekirags"},
+      {"item": "nekiscientistcoat"},
+      {"item": "nekiscientistsleeves"},
+      {"item": "nekishades"},
+      {"item": "nekisleevesangel"},
+      {"item": "nekisleevesglove"},
+      {"item": "nekisleevesshort"},
+      {"item": "nekistrapless"},
+      {"item": "nekistripless"},
+      {"item": "nekitiara"},
+      {"item": "nekini"},
+      {"item": "nekinibottom"},
+      {"item": "nekinitop"},
+      {"item": "nokini"},
+      {"item": "nokinibottom"},
+      {"item": "nokinitop"},
 
-			{"item": "invisiblefabricback"},
-			{"item": "invisiblefabrichead"},
-			{"item": "invisiblefabriclegs"},
-			{"item": "invisiblefabricchest"},
-			{"item": "nekischest"},
-			{"item": "nekischest2"},
-			{"item": "nekislegs"},
-			{"item": "nekislongchest"},
-			{"item": "nekislonglegs"},
-			{"item": "nekisshortchest"},
-			{"item": "nekisshortchest2"},
-			{"item": "nekisshortlegs"},
+      {"item": "invisiblefabricback"},
+      {"item": "invisiblefabrichead"},
+      {"item": "invisiblefabriclegs"},
+      {"item": "invisiblefabricchest"},
+      {"item": "nekischest"},
+      {"item": "nekischest2"},
+      {"item": "nekislegs"},
+      {"item": "nekislongchest"},
+      {"item": "nekislonglegs"},
+      {"item": "nekisshortchest"},
+      {"item": "nekisshortchest2"},
+      {"item": "nekisshortlegs"},
 
-			{"item": "nekicurtain1"},
-			{"item": "nekicurtain2"},
-			{"item": "nekicurtain3"},
-			{"item": "nekipillowblack"},
-			{"item": "nekipillowblue"},
-			{"item": "nekipillowbrown"},
-			{"item": "nekipillowgreen"},
-			{"item": "nekipilloworange"},
-			{"item": "nekipillowpurple"},
-			{"item": "nekipillowred"},
-			{"item": "nekipillowwhite"},
-			{"item": "nekipillowyellow"},
-			{"item": "nekipillowpile"}	
-		]
-	},
+      {"item": "nekicurtain1"},
+      {"item": "nekicurtain2"},
+      {"item": "nekicurtain3"},
+      {"item": "nekipillowblack"},
+      {"item": "nekipillowblue"},
+      {"item": "nekipillowbrown"},
+      {"item": "nekipillowgreen"},
+      {"item": "nekipilloworange"},
+      {"item": "nekipillowpurple"},
+      {"item": "nekipillowred"},
+      {"item": "nekipillowwhite"},
+      {"item": "nekipillowyellow"},
+      {"item": "nekipillowpile"}  
+    ]
+  },
 
-	"genders": [
-		{
-			"name": "male",
-			"image": "/interface/title/nekimaleico.png",
-			"characterImage": "/interface/title/nekimale.png",
-			"hair": [
-				"anti_mhuman_cb17",
-				"anti_mhuman_cb18",
-				"anti_mhuman18",
-				"anti_mhuman11",
-				"anti_mhuman_cb11",
-				"anti_mhuman_cb16",
-				"anti_mhuman16",
-				"anti_mhuman_cb15",
-				"anti_mhuman15",
-				"anti_mhuman02",
-				"anti_mhuman02b",
-				"anti_mhuman_cb02b",
-				"anti_mhuman_cb07",
-				"anti_mhuman07",
-				"anti_mhuman04",
-				"anti_mhuman_cb04",
-				"anti_mhuman26",
-				"anti_mhuman_cb26",
-				"anti_mhuman_cb27",
-				"anti_mhuman_cb29",
-				"anti_mhuman29",
-				"anti_mhuman_cb28",
-				"cb_male18",
-				"ng_osu037",
-				"anti_mhuman_cb30b",
-				"cb_male12",
-				"cb_male10",
-				"sdv_harvey",
-				"anti_mhuman_cb25b",
-				"anti_mhuman10",
-				"anti_mhuman05",
-				"anti_mhuman_cb10",
-				"anti_mhuman24",
-				"anti_mhuman_cb24",
-				"anti_mhuman_cb09",
-				"anti_mhuman09",
-				"anti_mhuman_cb12",
-				"anti_mhuman_cb03",
-				"anti_mhuman03",
-				"cb_male29",
-				"anti_mhuman_cb01b",
-				"anti_mhuman01",
-				"ng_osu031",
-				"ng_osu032",
-				"cb_male16",
-				"cb_male56",
-				"ng_osu033",
-				"cb_male55",
-				"bald",
-				"acidhair_hy3",
-				"anti_mhuman20",
-				"acidhair_hu6",
-				"acidhair_flo10m",
-				"anti_mhuman14",
-				"anti_mhuman_cb14",
-				"cb_male58",
-				"anti_mhuman33",
-				"anti_mhuman31",
-				"cb_male17",
-				"cb_male31",
-				"cb_male54",
-				"acidhair_gli10",
-				"ng_osu013",
-				"z4tentafro",
-				"z4flowerymane",
-				"z4novacrono",
-				"anti_mhuman_cb19",
-				"anti_mhuman19",
-				"cb_male36",
-				"anti_mhuman_cb08",
-				"anti_mhuman08",
-				"ng_osu028",
-				"cb_male30",
-				"z4bponytailwbangs",
-				"cb_male50",
-				"cb_male28",
-				"cb_male52",
-				"cb_male25",
-				"cb_male43",
-				"cb_male6",
-				"anti_mhuman_cb01",
-				"cb_male7",
-				"anti_mhuman34",
-				"ng_osu012",
-				"ng_osu009",
-				"ng_osu007",
-				"ng_osu006",
-				"cb_male32",
-				"cb_male14",
-				"cb_male13",
-				"cb_male64",
-				"cb_male59",
-				"acidhair_ap10",
-				"ng_osu022",
-				"ng_osu016",
-				"ng_osu027",
-				"ng_osu026",
-				"cb_male40",
-				"ng_osu021",
-				"cb_male11",
-				"cb_male33",
-				"cb_male26",
-				"sdv_emily",
-				"ng_osu018",
-				"sdv_shane",
-				"cb_male19",
-				"cb_male44",
-				"cb_male45",
-				"cb_male63",
-				"cb_male46",
-				"cb_male47",
-				"lflame_01",
-				"anti_mhuman_cb25",
-				"anti_mhuman35",
-				"cb_male15",
-				"cb_male3",
-				"cb_male42",
-				"cb_male51",
-				"ng_osu020",
-				"ng_osu015",
-				"cb_male2",
-				"cb_male8",
-				"ng_osu010",
-				"ng_osu023",
-				"ng_osu029",
-				"anti_mhuman_cb30",
-				"cb_male9",
-				"cb_male21",
-				"cb_male23",
-				"cb_male22",
-				"cb_male39",
-				"cb_male24",
-				"cb_male35",
-				"cb_male5",
-				"ng_osu002",
-				"ng_osu024",
-				"ng_osu025",
-				"sdv_alex",
-				"acidhair_ap13",
-				"acidhair_ap3",
-				"cb_male41",
-				"ng_osu001",
-				"acidhair_ap9",
-				"ng_osu017",
-				"sdv_sebastian",
-				"z4mchrono",
-				"z4bmessy",
-				"sdv_sam",
-				"z4mmullet",
-				"anti_mhuman06",
-				"anti_mhuman_cb06",
-				"cb_male27",
-				"ng_osu034",
-				"ng_osu030",
-				"ng_osu005",
-				"cb_male34",
-				"anti_mhuman32",
-				"sdv_maru",
-				"z4mdreadlocks",
-				"cb_male49",
-				"acidhair_ap28",
-				"cb_male37",
-				"cb_male38",
-				"cb_male53",
-				"z4edgyleaves",
-				"z4novagoth",
-				"anti_mhuman_cb22",
-				"anti_mhuman_cb23",
-				"anti_mhuman22",
-				"anti_mhuman02a",
-				"anti_mhuman23",
-				"cb_male48",
-				"z4leafmane",
-				"z4fayla",
-				"z4thornytail",
-				"cb_male57",
-				"ng_osu003",
-				"ng_osu008",
-				"ng_osu035",
-				"ng_osu004",
-				"sdv_elliot",
-				"ng_osu019",
-				"anti_mhuman17"
-			],
-			"shirt": [
-				"invisiblefabricchest",
-				"nekisleevesshort",
-				"nekisleevesangel",
-				"nekisleevesglove"
-			],
-			"pants": [
-				"invisiblefabriclegs",
-				"nekinibottom",
-				"nekinitop",
-				"nekini",
-				"nekistrapless",
-				"nekinightie",
-				"nekidressgala",
-				"nekidressrobe",
-				"nekirags"
-			],
-			"facialHairGroup": "",
-			"facialHair": [],
-			"facialMaskGroup": "",
-			"facialMask": []
-		},
-		{
-			"name": "female",
-			"image": "/interface/title/nekifemico.png",
-			"characterImage": "/interface/title/nekifemale.png",
-			"hair": [
-			"ng_mesu051",
-			"z4fdryadponytail",
-			"anti_fhuman_cb15",
-			"sdv_elliot",
-			"anti_fhuman_cb01",
-			"anti_fhuman01",
-			"ng_mesu049",
-			"ng_mesu026",
-			"ng_mesu027",
-			"ng_mesu062",
-			"ng_mesu042",
-			"ng_mesu004",
-			"cb_fem26",
-			"cb_fem29",
-			"cb_fem11_nk",
-			"anti_fhuman_cb07",
-			"anti_fhuman07",
-			"anti_fhuman_cb13",
-			"anti_fhuman13",
-			"ng_mesu029",
-			"ng_mesu047",
-			"ng_mesu061",
-			"cb_male57",
-			"z4jellybraid",
-			"z4fayla",
-			"z4leafmane",
-			"sdv_haley",
-			"ng_mesu023",
-			"acidhair_flo13",
-			"acidhair_ap27",
-			"acidhair_ap24",
-			"sdv_abigail",
-			"3",
-			"cb_fem24",
-			"anti_fhuman14",
-			"cb_fem13",
-			"anti_mhuman_cb23",
-			"cb_fem25",
-			"cb_male48",
-			"anti_mhuman_cb22",
-			"anti_mhuman22",
-			"cb_fem23",
-			"cb_fem59",
-			"ng_mesu058",
-			"cb_fem11",
-			"cb_fem12",
-			"cb_fem19",
-			"ng_mesu035",
-			"cb_fem1",
-			"cb_barb58",
-			"cb_fem9",
-			"sdv_emily",
-			"cb_fem5",
-			"cb_fem22",
-			"cb_fem30",
-			"anti_fhuman_cb05",
-			"anti_fhuman05",
-			"anti_fhuman10",
-			"anti_fhuman_cb10",
-			"anti_fhuman_cb20",
-			"anti_fhuman20",
-			"anti_mhuman_cb14",
-			"anti_mhuman14",
-			"anti_mhuman20",
-			"acidhair_hu6",
-			"acidhair_flo10",
-			"cb_male58",
-			"bald",
-			"sdv_shane",
-			"cb_fem32",
-			"cb_fem56",
-			"cb_fem62",
-			"cb_fem6",
-			"ng_mesu008",
-			"ng_mesu022",
-			"sdv_sebastian",
-			"z4novagoth",
-			"z4edgyleaves",
-			"ng_mesu016",
-			"ng_mesu056",
-			"ng_mesu031",
-			"ng_mesu013",
-			"acidhair_hu11",
-			"ng_mesu046",
-			"ng_mesu048",
-			"ng_mesu043",
-			"ng_mesu018",
-			"cb_fem14",
-			"cb_fem17",
-			"acidhair_ap18",
-			"cb_fem58",
-			"cb_fem8",
-			"ng_mesu054",
-			"cb_fem7",
-			"anti_fhuman_cb04",
-			"cb_fem55",
-			"cb_fem38",
-			"ng_mesu034",
-			"cb_fem39",
-			"cb_fem48",
-			"ng_mesu050",
-			"acidhair_gli10",
-			"cb_fem51",
-			"cb_fem50",
-			"ng_mesu033",
-			"ng_mesu036",
-			"ng_mesu005",
-			"anti_fhuman_cb18",
-			"lflame_02",
-			"lflame_03",
-			"ng_mesu057",
-			"z4thornytail",
-			"ng_mesu052",
-			"anti_fhuman_cb11",
-			"anti_fhuman11",
-			"z4drills",
-			"anti_fhuman_cb08",
-			"anti_fhuman08",
-			"anti_fhuman_cb12",
-			"anti_fhuman_cb09",
-			"anti_fhuman09",
-			"z4prominence",
-			"anti_fhuman04",
-			"anti_fhuman18",
-			"ng_mesu015",
-			"cb_fem60",
-			"cb_fem49",
-			"ng_osu003",
-			"ng_mesu019",
-			"ng_mesu011",
-			"ng_mesu010",
-			"ng_mesu012",
-			"ng_mesu002",
-			"cb_fem28",
-			"cb_fem2",
-			"cb_male53",
-			"cb_male38",
-			"cb_fem20",
-			"sdv_maru",
-			"z4mdreadlocks",
-			"cb_fem57",
-			"cb_fem3",
-			"cb_fem61",
-			"cb_fem21",
-			"sdv_penny",
-			"cb_fem18",
-			"cb_male37",
-			"acidhair_ap16",
-			"acidhair_ap1",
-			"cb_fem15",
-			"cb_fem27",
-			"cb_fem54",
-			"ng_mesu032",
-			"cb_fem4",
-			"cb_fem16",
-			"ng_mesu059",
-			"ng_mesu060",
-			"ng_mesu040",
-			"ng_mesu039",
-			"anti_fhuman02",
-			"anti_fhuman_cb02",
-			"ng_mesu028",
-			"ng_mesu055",
-			"ng_mesu001",
-			"ng_mesu009",
-			"sdv_leah",
-			"anti_mhuman_cb08",
-			"cb_fem33",
-			"ng_mesu053",
-			"ng_mesu021",
-			"z4bponytailwbangs",
-			"cb_fem53",
-			"anti_fhuman06",
-			"anti_fhuman_cb06",
-			"cb_fem47",
-			"anti_fhuman_cb19",
-			"anti_fhuman_cb21",
-			"z4bmessy",
-			"anti_mhuman_cb19",
-			"anti_fhuman19",
-			"6",
-			"19",
-			"z4novacrono",
-			"z4flowerymane",
-			"lflame_01",
-			"acidhair_ap28",
-			"acidhair_ap13",
-			"acidhair_ap3"
-			],
-			"shirt": [
-				"invisiblefabricchest",
-				"nekisleevesshort",
-				"nekisleevesangel",
-				"nekisleevesglove"
-			],
-			"pants": [
-				"invisiblefabriclegs",
-				"nekinibottom",
-				"nekinitop",
-				"nekini",
-				"nekistrapless",
-				"nekinightie",
-				"nekidressgala",
-				"nekidressrobe",
-				"nekirags"
-			],
-			"facialHairGroup": "",
-			"facialHair": [],
-			"facialMaskGroup": "",
-			"facialMask": []
-		}
-	],
+// The author of the original 'acidhair' hairstyles has kindly requested they be removed from Neki
+// As their naming was already part of players' existing universes, the names could not be changed
+// The current 'acidhair' hairstyles were created from scratch, inspired by the originals' styles
 
-	"altOptionAsUndyColor": true,			// Head (red) = undyColor
-	"headOptionAsHairColor": true,		// Hair (green) = hairColor
-	"altOptionAsHairColor": true,			// Hair (red) = undyColor
-	"hairColorAsBodySubColor": true,	// Body (green) = hairColor
+  "genders": [
+    {
+      "name": "male",
+      "image": "/interface/title/nekimaleico.png",
+      "characterImage": "/interface/title/nekimale.png",
+      "hair": [
+        "anti_mhuman_cb17",
+        "anti_mhuman_cb18",
+        "anti_mhuman18",
+        "anti_mhuman11",
+        "anti_mhuman_cb11",
+        "anti_mhuman_cb16",
+        "anti_mhuman16",
+        "anti_mhuman_cb15",
+        "anti_mhuman15",
+        "anti_mhuman02",
+        "anti_mhuman02b",
+        "anti_mhuman_cb02b",
+        "anti_mhuman_cb07",
+        "anti_mhuman07",
+        "anti_mhuman04",
+        "anti_mhuman_cb04",
+        "anti_mhuman26",
+        "anti_mhuman_cb26",
+        "anti_mhuman_cb27",
+        "anti_mhuman_cb29",
+        "anti_mhuman29",
+        "anti_mhuman_cb28",
+        "cb_male18",
+        "ng_osu037",
+        "anti_mhuman_cb30b",
+        "cb_male12",
+        "cb_male10",
+        "sdv_harvey",
+        "anti_mhuman_cb25b",
+        "anti_mhuman10",
+        "anti_mhuman05",
+        "anti_mhuman_cb10",
+        "anti_mhuman24",
+        "anti_mhuman_cb24",
+        "anti_mhuman_cb09",
+        "anti_mhuman09",
+        "anti_mhuman_cb12",
+        "anti_mhuman_cb03",
+        "anti_mhuman03",
+        "cb_male29",
+        "anti_mhuman_cb01b",
+        "anti_mhuman01",
+        "ng_osu031",
+        "ng_osu032",
+        "cb_male16",
+        "cb_male56",
+        "ng_osu033",
+        "cb_male55",
+        "bald",
+        "acidhair_hy3",      // by LFlame and Juni
+        "anti_mhuman20",
+        "acidhair_hu6",      // by LFlame and Juni
+        "acidhair_flo10m",   // by LFlame and Juni
+        "anti_mhuman14",
+        "anti_mhuman_cb14",
+        "cb_male58",
+        "anti_mhuman33",
+        "anti_mhuman31",
+        "cb_male17",
+        "cb_male31",
+        "cb_male54",
+        "acidhair_gli10",    // by LFlame and Juni
+        "ng_osu013",
+        "z4tentafro",
+        "z4flowerymane",
+        "z4novacrono",
+        "anti_mhuman_cb19",
+        "anti_mhuman19",
+        "cb_male36",
+        "anti_mhuman_cb08",
+        "anti_mhuman08",
+        "ng_osu028",
+        "cb_male30",
+        "z4bponytailwbangs",
+        "cb_male50",
+        "cb_male28",
+        "cb_male52",
+        "cb_male25",
+        "cb_male43",
+        "cb_male6",
+        "anti_mhuman_cb01",
+        "cb_male7",
+        "anti_mhuman34",
+        "ng_osu012",
+        "ng_osu009",
+        "ng_osu007",
+        "ng_osu006",
+        "cb_male32",
+        "cb_male14",
+        "cb_male13",
+        "cb_male64",
+        "cb_male59",
+        "acidhair_ap10",     // by LFlame and Juni
+        "ng_osu022",
+        "ng_osu016",
+        "ng_osu027",
+        "ng_osu026",
+        "cb_male40",
+        "ng_osu021",
+        "cb_male11",
+        "cb_male33",
+        "cb_male26",
+        "sdv_emily",
+        "ng_osu018",
+        "sdv_shane",
+        "cb_male19",
+        "cb_male44",
+        "cb_male45",
+        "cb_male63",
+        "cb_male46",
+        "cb_male47",
+        "lflame_01",
+        "anti_mhuman_cb25",
+        "anti_mhuman35",
+        "cb_male15",
+        "cb_male3",
+        "cb_male42",
+        "cb_male51",
+        "ng_osu020",
+        "ng_osu015",
+        "cb_male2",
+        "cb_male8",
+        "ng_osu010",
+        "ng_osu023",
+        "ng_osu029",
+        "anti_mhuman_cb30",
+        "cb_male9",
+        "cb_male21",
+        "cb_male23",
+        "cb_male22",
+        "cb_male39",
+        "cb_male24",
+        "cb_male35",
+        "cb_male5",
+        "ng_osu002",
+        "ng_osu024",
+        "ng_osu025",
+        "sdv_alex",
+        "acidhair_ap13",     // by LFlame and Juni
+        "acidhair_ap3",      // by LFlame and Juni
+        "cb_male41",
+        "ng_osu001",
+        "acidhair_ap9",      // by LFlame and Juni
+        "ng_osu017",
+        "sdv_sebastian",
+        "z4mchrono",
+        "z4bmessy",
+        "sdv_sam",
+        "z4mmullet",
+        "anti_mhuman06",
+        "anti_mhuman_cb06",
+        "cb_male27",
+        "ng_osu034",
+        "ng_osu030",
+        "ng_osu005",
+        "cb_male34",
+        "anti_mhuman32",
+        "sdv_maru",
+        "z4mdreadlocks",
+        "cb_male49",
+        "acidhair_ap28",     // by LFlame and Juni
+        "cb_male37",
+        "cb_male38",
+        "cb_male53",
+        "z4edgyleaves",
+        "z4novagoth",
+        "anti_mhuman_cb22",
+        "anti_mhuman_cb23",
+        "anti_mhuman22",
+        "anti_mhuman02a",
+        "anti_mhuman23",
+        "cb_male48",
+        "z4leafmane",
+        "z4fayla",
+        "z4thornytail",
+        "cb_male57",
+        "ng_osu003",
+        "ng_osu008",
+        "ng_osu035",
+        "ng_osu004",
+        "sdv_elliot",
+        "ng_osu019",
+        "anti_mhuman17"
+      ],
+      "shirt": [
+        "invisiblefabricchest",
+        "nekisleevesshort",
+        "nekisleevesangel",
+        "nekisleevesglove"
+      ],
+      "pants": [
+        "invisiblefabriclegs",
+        "nekinibottom",
+        "nekinitop",
+        "nekini",
+        "nekistrapless",
+        "nekinightie",
+        "nekidressgala",
+        "nekidressrobe",
+        "nekirags"
+      ],
+      "facialHairGroup": "",
+      "facialHair": [],
+      "facialMaskGroup": "",
+      "facialMask": []
+    },
+    {
+      "name": "female",
+      "image": "/interface/title/nekifemico.png",
+      "characterImage": "/interface/title/nekifemale.png",
+      "hair": [
+      "ng_mesu051",
+      "z4fdryadponytail",
+      "anti_fhuman_cb15",
+      "sdv_elliot",
+      "anti_fhuman_cb01",
+      "anti_fhuman01",
+      "ng_mesu049",
+      "ng_mesu026",
+      "ng_mesu027",
+      "ng_mesu062",
+      "ng_mesu042",
+      "ng_mesu004",
+      "cb_fem26",
+      "cb_fem29",
+      "cb_fem11_nk",
+      "anti_fhuman_cb07",
+      "anti_fhuman07",
+      "anti_fhuman_cb13",
+      "anti_fhuman13",
+      "ng_mesu029",
+      "ng_mesu047",
+      "ng_mesu061",
+      "cb_male57",
+      "z4jellybraid",
+      "z4fayla",
+      "z4leafmane",
+      "sdv_haley",
+      "ng_mesu023",
+      "acidhair_flo13",      // by LFlame and Juni
+      "acidhair_ap27",       // by LFlame and Juni
+      "acidhair_ap24",       // by LFlame and Juni
+      "sdv_abigail",
+      "3",
+      "cb_fem24",
+      "anti_fhuman14",
+      "cb_fem13",
+      "anti_mhuman_cb23",
+      "cb_fem25",
+      "cb_male48",
+      "anti_mhuman_cb22",
+      "anti_mhuman22",
+      "cb_fem23",
+      "cb_fem59",
+      "ng_mesu058",
+      "cb_fem11",
+      "cb_fem12",
+      "cb_fem19",
+      "ng_mesu035",
+      "cb_fem1",
+      "cb_barb58",
+      "cb_fem9",
+      "sdv_emily",
+      "cb_fem5",
+      "cb_fem22",
+      "cb_fem30",
+      "anti_fhuman_cb05",
+      "anti_fhuman05",
+      "anti_fhuman10",
+      "anti_fhuman_cb10",
+      "anti_fhuman_cb20",
+      "anti_fhuman20",
+      "anti_mhuman_cb14",
+      "anti_mhuman14",
+      "anti_mhuman20",
+      "acidhair_hu6",        // by LFlame and Juni
+      "acidhair_flo10",      // by LFlame and Juni
+      "cb_male58",
+      "bald",
+      "sdv_shane",
+      "cb_fem32",
+      "cb_fem56",
+      "cb_fem62",
+      "cb_fem6",
+      "ng_mesu008",
+      "ng_mesu022",
+      "sdv_sebastian",
+      "z4novagoth",
+      "z4edgyleaves",
+      "ng_mesu016",
+      "ng_mesu056",
+      "ng_mesu031",
+      "ng_mesu013",
+      "acidhair_hu11",       // by LFlame and Juni
+      "ng_mesu046",
+      "ng_mesu048",
+      "ng_mesu043",
+      "ng_mesu018",
+      "cb_fem14",
+      "cb_fem17",
+      "acidhair_ap18",       // by LFlame and Juni
+      "cb_fem58",
+      "cb_fem8",
+      "ng_mesu054",
+      "cb_fem7",
+      "anti_fhuman_cb04",
+      "cb_fem55",
+      "cb_fem38",
+      "ng_mesu034",
+      "cb_fem39",
+      "cb_fem48",
+      "ng_mesu050",
+      "acidhair_gli10",      // by LFlame and Juni
+      "cb_fem51",
+      "cb_fem50",
+      "ng_mesu033",
+      "ng_mesu036",
+      "ng_mesu005",
+      "anti_fhuman_cb18",
+      "lflame_02",
+      "lflame_03",
+      "ng_mesu057",
+      "z4thornytail",
+      "ng_mesu052",
+      "anti_fhuman_cb11",
+      "anti_fhuman11",
+      "z4drills",
+      "anti_fhuman_cb08",
+      "anti_fhuman08",
+      "anti_fhuman_cb12",
+      "anti_fhuman_cb09",
+      "anti_fhuman09",
+      "z4prominence",
+      "anti_fhuman04",
+      "anti_fhuman18",
+      "ng_mesu015",
+      "cb_fem60",
+      "cb_fem49",
+      "ng_osu003",
+      "ng_mesu019",
+      "ng_mesu011",
+      "ng_mesu010",
+      "ng_mesu012",
+      "ng_mesu002",
+      "cb_fem28",
+      "cb_fem2",
+      "cb_male53",
+      "cb_male38",
+      "cb_fem20",
+      "sdv_maru",
+      "z4mdreadlocks",
+      "cb_fem57",
+      "cb_fem3",
+      "cb_fem61",
+      "cb_fem21",
+      "sdv_penny",
+      "cb_fem18",
+      "cb_male37",
+      "acidhair_ap16",       // by LFlame and Juni
+      "acidhair_ap1",        // by LFlame and Juni
+      "cb_fem15",
+      "cb_fem27",
+      "cb_fem54",
+      "ng_mesu032",
+      "cb_fem4",
+      "cb_fem16",
+      "ng_mesu059",
+      "ng_mesu060",
+      "ng_mesu040",
+      "ng_mesu039",
+      "anti_fhuman02",
+      "anti_fhuman_cb02",
+      "ng_mesu028",
+      "ng_mesu055",
+      "ng_mesu001",
+      "ng_mesu009",
+      "sdv_leah",
+      "anti_mhuman_cb08",
+      "cb_fem33",
+      "ng_mesu053",
+      "ng_mesu021",
+      "z4bponytailwbangs",
+      "cb_fem53",
+      "anti_fhuman06",
+      "anti_fhuman_cb06",
+      "cb_fem47",
+      "anti_fhuman_cb19",
+      "anti_fhuman_cb21",
+      "z4bmessy",
+      "anti_mhuman_cb19",
+      "anti_fhuman19",
+      "6",
+      "19",
+      "z4novacrono",
+      "z4flowerymane",
+      "lflame_01",
+      "acidhair_ap28",       // by LFlame and Juni
+      "acidhair_ap13",       // by LFlame and Juni
+      "acidhair_ap3"         // by LFlame and Juni
+      ],
+      "shirt": [
+        "invisiblefabricchest",
+        "nekisleevesshort",
+        "nekisleevesangel",
+        "nekisleevesglove"
+      ],
+      "pants": [
+        "invisiblefabriclegs",
+        "nekinibottom",
+        "nekinitop",
+        "nekini",
+        "nekistrapless",
+        "nekinightie",
+        "nekidressgala",
+        "nekidressrobe",
+        "nekirags"
+      ],
+      "facialHairGroup": "",
+      "facialHair": [],
+      "facialMaskGroup": "",
+      "facialMask": []
+    }
+  ],
 
-	"bodyColor": [
-		{"FFE2C5": "505050", "FFC181": "343434", "D39C6C": "202020", "C7815B": "000000"},	// Black
-		{"FFE2C5": "836059", "FFC181": "724549", "D39C6C": "473037", "C7815B": "281b1f"},	// Mahogany
-		{"FFE2C5": "7d654f", "FFC181": "65513d", "D39C6C": "3f322d", "C7815B": "251d1a"},	// Wood
-		{"FFE2C5": "6f6f6f", "FFC181": "555555", "D39C6C": "343434", "C7815B": "202020"},	// Charcoal
-		{"FFE2C5": "847a6f", "FFC181": "69625a", "D39C6C": "494343", "C7815B": "272727"},	// Ash
-		{"FFE2C5": "957151", "FFC181": "7e5938", "D39C6C": "5d3e25", "C7815B": "382516"},	// Chocolate
-		{"FFE2C5": "997d6a", "FFC181": "86644a", "D39C6C": "684431", "C7815B": "40271d"},	// Caramel
-		{"FFE2C5": "af9795", "FFC181": "887270", "D39C6C": "655352", "C7815B": "352a28"},	// Bole
-		{"FFE2C5": "b0a293", "FFC181": "897c6f", "D39C6C": "665b51", "C7815B": "352f27"},	// Dirt
-		{"FFE2C5": "aaaaaa", "FFC181": "868686", "D39C6C": "5a5a5a", "C7815B": "323232"},	// Nickel
-		{"FFE2C5": "b9997a", "FFC181": "9f7761", "D39C6C": "7d5446", "C7815B": "54332d"},	// Clay
-		{"FFE2C5": "c3a98c", "FFC181": "998168", "D39C6C": "725f4a", "C7815B": "3d3022"},	// Peanut
-		{"FFE2C5": "b3aea8", "FFC181": "8b8680", "D39C6C": "66625d", "C7815B": "35322f"},	// Stone
-		{"FFE2C5": "baafa5", "FFC181": "96887a", "D39C6C": "736355", "C7815B": "433428"},	// Mink
-		{"FFE2C5": "d7b187", "FFC181": "c88959", "D39C6C": "98664a", "C7815B": "6e432c"},	// Sienna
-		{"FFE2C5": "d6ba80", "FFC181": "d0943e", "D39C6C": "a05e2c", "C7815B": "6d3a2c"},	// Apricot
-		{"FFE2C5": "cfcfcf", "FFC181": "b6b6b6", "D39C6C": "848484", "C7815B": "494949"},	// Cloud
-		{"FFE2C5": "d2c2bd", "FFC181": "baa9a6", "D39C6C": "93858e", "C7815B": "5e5360"},	// Thistle
-		{"FFE2C5": "e8cebc", "FFC181": "cfa97d", "D39C6C": "ae774b", "C7815B": "804e34"},	// Fawn
-		{"FFE2C5": "f9d7cd", "FFC181": "f6baa2", "D39C6C": "cc9582", "C7815B": "946254"},	// Cantaloupe
-		{"FFE2C5": "f6f0e4", "FFC181": "e3d8ca", "D39C6C": "bbb29f", "C7815B": "7a7469"},	// Milk
-		{"FFE2C5": "f5ede3", "FFC181": "f9d3a9", "D39C6C": "d3a57c", "C7815B": "a06e53"},	// Latte
-		{"FFE2C5": "ffffff", "FFC181": "e6e6e6", "D39C6C": "b4b4b4", "C7815B": "797979"}	// White
-	],
+  "altOptionAsUndyColor": true,    // Head (red) = undyColor
+  "headOptionAsHairColor": true,   // Hair (green) = hairColor
+  "altOptionAsHairColor": true,    // Hair (red) = undyColor
+  "hairColorAsBodySubColor": true, // Body (green) = hairColor
 
-	"undyColor": [
-	// Eye/Accessory Color
-		{"F32200": "505050", "DC1F00": "343434", "BE1B00": "202020", "951500": "000000"},	// Black
-		{"F32200": "6b6182", "DC1F00": "3d3d5d", "BE1B00": "2c3047", "951500": "17232d"},	// Lilac Blue
-		{"F32200": "a97e39", "DC1F00": "81572a", "BE1B00": "56341b", "951500": "2c160a"},	// Brown
-		{"F32200": "804f30", "DC1F00": "603429", "BE1B00": "481c0e", "951500": "170a06"},	// Brown Dark
-		{"F32200": "993f00", "DC1F00": "661900", "BE1B00": "460500", "951500": "150200"},	// Red Dark
-		{"F32200": "b12f3b", "DC1F00": "791f39", "BE1B00": "511934", "951500": "2b1225"}, // Bordeaux
-		{"F32200": "db3548", "DC1F00": "7e1f30", "BE1B00": "441a21", "951500": "1c0a0b"},	// Red
-		{"F32200": "874f6c", "DC1F00": "79324d", "BE1B00": "561530", "951500": "15050c"},	// Purple Grape
-		{"F32200": "9c4b80", "DC1F00": "70335b", "BE1B00": "411732", "951500": "250d1c"},	// Purple
-		{"F32200": "9900cc", "DC1F00": "590099", "BE1B00": "2a0066", "951500": "040033"},	// Deep Purple
-		{"F32200": "807dba", "DC1F00": "6a51a3", "BE1B00": "4a1486", "951500": "21093b"},	// Lilac
-		{"F32200": "6b72d1", "DC1F00": "4e3693", "BE1B00": "420457", "951500": "16011d"},	// Lilac Dark
-		{"F32200": "94a9ce", "DC1F00": "667395", "BE1B00": "3f3c99", "951500": "161537"},	// Blue Lighter
-		{"F32200": "677b89", "DC1F00": "3d5566", "BE1B00": "1c2d3f", "951500": "010119"},	// Blue Light
-		{"F32200": "4369ad", "DC1F00": "325381", "BE1B00": "123054", "951500": "050c14"},	// Blue Deep
-		{"F32200": "0099cc", "DC1F00": "005999", "BE1B00": "002a66", "951500": "000433"},	// Blue
-		{"F32200": "309d8e", "DC1F00": "247074", "BE1B00": "204651", "951500": "15212b"},	// Teal
-		{"F32200": "6ca55e", "DC1F00": "3d7a52", "BE1B00": "1b4f3e", "951500": "030f0e"},	// Green
-		{"F32200": "599900", "DC1F00": "2a6600", "BE1B00": "043300", "951500": "010f00"},	// Green Salad
-		{"F32200": "85aeaa", "DC1F00": "56646d", "BE1B00": "40424f", "951500": "1e1f24"}	// Electric
-	],
+  "bodyColor": [
+    {"FFE2C5": "505050", "FFC181": "343434", "D39C6C": "202020", "C7815B": "000000"},  // Black
+    {"FFE2C5": "836059", "FFC181": "724549", "D39C6C": "473037", "C7815B": "281b1f"},  // Mahogany
+    {"FFE2C5": "7d654f", "FFC181": "65513d", "D39C6C": "3f322d", "C7815B": "251d1a"},  // Wood
+    {"FFE2C5": "6f6f6f", "FFC181": "555555", "D39C6C": "343434", "C7815B": "202020"},  // Charcoal
+    {"FFE2C5": "847a6f", "FFC181": "69625a", "D39C6C": "494343", "C7815B": "272727"},  // Ash
+    {"FFE2C5": "957151", "FFC181": "7e5938", "D39C6C": "5d3e25", "C7815B": "382516"},  // Chocolate
+    {"FFE2C5": "997d6a", "FFC181": "86644a", "D39C6C": "684431", "C7815B": "40271d"},  // Caramel
+    {"FFE2C5": "af9795", "FFC181": "887270", "D39C6C": "655352", "C7815B": "352a28"},  // Bole
+    {"FFE2C5": "b0a293", "FFC181": "897c6f", "D39C6C": "665b51", "C7815B": "352f27"},  // Dirt
+    {"FFE2C5": "aaaaaa", "FFC181": "868686", "D39C6C": "5a5a5a", "C7815B": "323232"},  // Nickel
+    {"FFE2C5": "b9997a", "FFC181": "9f7761", "D39C6C": "7d5446", "C7815B": "54332d"},  // Clay
+    {"FFE2C5": "c3a98c", "FFC181": "998168", "D39C6C": "725f4a", "C7815B": "3d3022"},  // Peanut
+    {"FFE2C5": "b3aea8", "FFC181": "8b8680", "D39C6C": "66625d", "C7815B": "35322f"},  // Stone
+    {"FFE2C5": "baafa5", "FFC181": "96887a", "D39C6C": "736355", "C7815B": "433428"},  // Mink
+    {"FFE2C5": "d7b187", "FFC181": "c88959", "D39C6C": "98664a", "C7815B": "6e432c"},  // Sienna
+    {"FFE2C5": "d6ba80", "FFC181": "d0943e", "D39C6C": "a05e2c", "C7815B": "6d3a2c"},  // Apricot
+    {"FFE2C5": "cfcfcf", "FFC181": "b6b6b6", "D39C6C": "848484", "C7815B": "494949"},  // Cloud
+    {"FFE2C5": "d2c2bd", "FFC181": "baa9a6", "D39C6C": "93858e", "C7815B": "5e5360"},  // Thistle
+    {"FFE2C5": "e8cebc", "FFC181": "cfa97d", "D39C6C": "ae774b", "C7815B": "804e34"},  // Fawn
+    {"FFE2C5": "f9d7cd", "FFC181": "f6baa2", "D39C6C": "cc9582", "C7815B": "946254"},  // Cantaloupe
+    {"FFE2C5": "f6f0e4", "FFC181": "e3d8ca", "D39C6C": "bbb29f", "C7815B": "7a7469"},  // Milk
+    {"FFE2C5": "f5ede3", "FFC181": "f9d3a9", "D39C6C": "d3a57c", "C7815B": "a06e53"},  // Latte
+    {"FFE2C5": "ffffff", "FFC181": "e6e6e6", "D39C6C": "b4b4b4", "C7815B": "797979"}   // White
+  ],
 
-	"hairColor": [
-	// Neki
-		{"F7E7B2": "b2e2d4", "D9C189": "9fbdbb", "A38D59": "8c9496", "735E3A": "5d646a"},	// Light Turquoise
-		{"F7E7B2": "bddeef", "D9C189": "8dacc8", "A38D59": "797d88", "735E3A": "4b515d"},	// Light Ice
-		{"F7E7B2": "b5c66b", "D9C189": "8d9c4b", "A38D59": "657033", "735E3A": "394117"},	// Green Swamp
-		{"F7E7B2": "76bd74", "D9C189": "559453", "A38D59": "3b6a39", "735E3A": "1c3d1b"},	// Green
-		{"F7E7B2": "7dceae", "D9C189": "469d89", "A38D59": "237465", "735E3A": "134449"},	// Turquoise
-		{"F7E7B2": "a8e6e2", "D9C189": "4facb2", "A38D59": "30636c", "735E3A": "233c43"},	// Ice
-		{"F7E7B2": "15e1ee", "D9C189": "01b6cb", "A38D59": "01739a", "735E3A": "0f3253"},	// Blue Vivid
-		{"F7E7B2": "a9ecff", "D9C189": "7dc9ed", "A38D59": "6485d4", "735E3A": "2e469d"},	// Blue Light
-		{"F7E7B2": "a2b3b3", "D9C189": "677b89", "A38D59": "3d5566", "735E3A": "1d2f41"},	// Blue Gray
-		{"F7E7B2": "7480bd", "D9C189": "535e94", "A38D59": "39416a", "735E3A": "1b213d"},	// Blue Dark
-		{"F7E7B2": "aeb9ff", "D9C189": "9e8feb", "A38D59": "8a67a8", "735E3A": "513b5f"},	// Blurple
-		{"F7E7B2": "cf9cc7", "D9C189": "b67cb4", "A38D59": "815982", "735E3A": "4d374f"},	// Purple
-		{"F7E7B2": "c66ba6", "D9C189": "9c4b80", "A38D59": "70335b", "735E3A": "411732"},	// Purple Dark
-		{"F7E7B2": "dd88c7", "D9C189": "C36AAC", "A38D59": "A23873", "735E3A": "621F48"},	// Pink Dark
-		{"F7E7B2": "f7c6f7", "D9C189": "ff8cc5", "A38D59": "ff4c96", "735E3A": "c31c46"},	// Pink Hot
-		{"F7E7B2": "fde9e8", "D9C189": "edbfc0", "A38D59": "ee97a5", "735E3A": "b65058"},	// Pink Light
-		{"F7E7B2": "ffbb99", "D9C189": "f49882", "A38D59": "dd5553", "735E3A": "99404c"},	// Peach
-		{"F7E7B2": "ee8e51", "D9C189": "d3523b", "A38D59": "af3220", "735E3A": "831415"},	// Fiery
-		{"F7E7B2": "d95d45", "D9C189": "b12f3b", "A38D59": "791f39", "735E3A": "511934"},	// Radish
-		{"F7E7B2": "eea94a", "D9C189": "e56f15", "A38D59": "bf400d", "735E3A": "8e2206"},	// Phoenix
-		{"F7E7B2": "ffc58c", "D9C189": "ff964c", "A38D59": "cc491e", "735E3A": "991f07"},	// Orange
-		{"F7E7B2": "fad472", "D9C189": "e0a56b", "A38D59": "bc6445", "735E3A": "99404c"},	// Orange Light
-		{"F7E7B2": "ebcc89", "D9C189": "d6a257", "A38D59": "c27557", "735E3A": "924f49"},	// Ginger
-		{"F7E7B2": "e9e7c7", "D9C189": "ddc49b", "A38D59": "a88055", "735E3A": "8d6345"},	// Blonde 8
-		{"F7E7B2": "fdfbd1", "D9C189": "e0d2ae", "A38D59": "ba9685", "735E3A": "8f6961"},	// Blonde 9
-		{"F7E7B2": "fbedd0", "D9C189": "f8d8b1", "A38D59": "dfb392", "735E3A": "b77d69"},	// Blonde Cream
-		{"F7E7B2": "ffffff", "D9C189": "e6e6e6", "A38D59": "b4b4b4", "735E3A": "797979"},	// White Angelic
-		{"F7E7B2": "e4e7e7", "D9C189": "d0d5ce", "A38D59": "9b9b98", "735E3A": "625c6c"},	// White
-		{"F7E7B2": "E4C0A6", "D9C189": "C29784", "A38D59": "b16157", "735E3A": "833e41"},	// Brown Light
-		{"F7E7B2": "ba9685", "D9C189": "8f6962", "A38D59": "724549", "735E3A": "483038"},	// Brown
-		{"F7E7B2": "b27f7f", "D9C189": "945858", "A38D59": "6f4343", "735E3A": "432929"},	// Brown Red
-	// Body
-		{"F7E7B2": "505050", "D9C189": "343434", "A38D59": "202020", "735E3A": "000000"},	// Black
-		{"F7E7B2": "836059", "D9C189": "724549", "A38D59": "473037", "735E3A": "281b1f"},	// Mahogany
-		{"F7E7B2": "7d654f", "D9C189": "65513d", "A38D59": "3f322d", "735E3A": "251d1a"},	// Wood
-		{"F7E7B2": "6f6f6f", "D9C189": "555555", "A38D59": "343434", "735E3A": "202020"},	// Charcoal
-		{"F7E7B2": "847a6f", "D9C189": "69625a", "A38D59": "494343", "735E3A": "272727"},	// Ash
-		{"F7E7B2": "957151", "D9C189": "7e5938", "A38D59": "5d3e25", "735E3A": "382516"},	// Chocolate
-		{"F7E7B2": "997d6a", "D9C189": "86644a", "A38D59": "684431", "735E3A": "40271d"},	// Caramel
-		{"F7E7B2": "af9795", "D9C189": "887270", "A38D59": "655352", "735E3A": "352a28"},	// Bole
-		{"F7E7B2": "b0a293", "D9C189": "897c6f", "A38D59": "665b51", "735E3A": "352f27"},	// Dirt
-		{"F7E7B2": "aaaaaa", "D9C189": "868686", "A38D59": "5a5a5a", "735E3A": "323232"},	// Nickel
-		{"F7E7B2": "b9997a", "D9C189": "9f7761", "A38D59": "7d5446", "735E3A": "54332d"},	// Clay
-		{"F7E7B2": "c3a98c", "D9C189": "998168", "A38D59": "725f4a", "735E3A": "3d3022"},	// Peanut
-		{"F7E7B2": "b3aea8", "D9C189": "8b8680", "A38D59": "66625d", "735E3A": "35322f"},	// Stone
-		{"F7E7B2": "baafa5", "D9C189": "96887a", "A38D59": "736355", "735E3A": "433428"},	// Mink
-		{"F7E7B2": "d7b187", "D9C189": "c88959", "A38D59": "98664a", "735E3A": "6e432c"},	// Sienna
-		{"F7E7B2": "cfcfcf", "D9C189": "b6b6b6", "A38D59": "848484", "735E3A": "494949"},	// Cloud
-		{"F7E7B2": "d2c2bd", "D9C189": "baa9a6", "A38D59": "93858e", "735E3A": "5e5360"},	// Thistle
-		{"F7E7B2": "e8cebc", "D9C189": "cfa97d", "A38D59": "ae774b", "735E3A": "804e34"},	// Fawn
-		{"F7E7B2": "f9d7cd", "D9C189": "f6baa2", "A38D59": "cc9582", "735E3A": "946254"},	// Cantaloupe
-		{"F7E7B2": "f6f0e4", "D9C189": "e3d8ca", "A38D59": "bbb29f", "735E3A": "7a7469"},	// Milk
-		{"F7E7B2": "f5ede3", "D9C189": "f9d3a9", "A38D59": "d3a57c", "735E3A": "a06e53"},	// Latte
-		{"F7E7B2": "ffffff", "D9C189": "e6e6e6", "A38D59": "b4b4b4", "735E3A": "797979"},	// White
-	// Vanilla
-		{"F7E7B2": "838383", "D9C189": "555555", "A38D59": "383838", "735E3A": "151515"},	// Black
-		{"F7E7B2": "b5b5b5", "D9C189": "808080", "A38D59": "555555", "735E3A": "303030"},	// Gray
-		{"F7E7B2": "e6e6e6", "D9C189": "b6b6b6", "A38D59": "7b7b7b", "735E3A": "373737"},	// White
-		{"F7E7B2": "f4988c", "D9C189": "d93a3a", "A38D59": "932625", "735E3A": "601119"},	// Red
-		{"F7E7B2": "ffd495", "D9C189": "ea9931", "A38D59": "af4e00", "735E3A": "6e2900"},	// Orange
-		{"F7E7B2": "ffffa7", "D9C189": "e2c344", "A38D59": "a46e06", "735E3A": "642f00"},	// Yellow
-		{"F7E7B2": "b2e89d", "D9C189": "51bd3b", "A38D59": "247824", "735E3A": "144216"},	// Green
-		{"F7E7B2": "96cbe7", "D9C189": "5588d4", "A38D59": "344495", "735E3A": "1a1c51"},	// Blue
-		{"F7E7B2": "d29ce7", "D9C189": "a451c4", "A38D59": "6a2284", "735E3A": "320c40"},	// Purple
-		{"F7E7B2": "eab3db", "D9C189": "d35eae", "A38D59": "97276d", "735E3A": "59163f"},	// Pink
-		{"F7E7B2": "ccae7c", "D9C189": "a47844", "A38D59": "754c23", "735E3A": "472b13"}	// Brown
-	]
+  "undyColor": [
+  // Eye/Accessory Color
+    {"F32200": "505050", "DC1F00": "343434", "BE1B00": "202020", "951500": "000000"},  // Black
+    {"F32200": "6b6182", "DC1F00": "3d3d5d", "BE1B00": "2c3047", "951500": "17232d"},  // Lilac Blue
+    {"F32200": "a97e39", "DC1F00": "81572a", "BE1B00": "56341b", "951500": "2c160a"},  // Brown
+    {"F32200": "804f30", "DC1F00": "603429", "BE1B00": "481c0e", "951500": "170a06"},  // Brown Dark
+    {"F32200": "993f00", "DC1F00": "661900", "BE1B00": "460500", "951500": "150200"},  // Red Dark
+    {"F32200": "b12f3b", "DC1F00": "791f39", "BE1B00": "511934", "951500": "2b1225"},  // Bordeaux
+    {"F32200": "db3548", "DC1F00": "7e1f30", "BE1B00": "441a21", "951500": "1c0a0b"},  // Red
+    {"F32200": "874f6c", "DC1F00": "79324d", "BE1B00": "561530", "951500": "15050c"},  // Purple Grape
+    {"F32200": "9c4b80", "DC1F00": "70335b", "BE1B00": "411732", "951500": "250d1c"},  // Purple
+    {"F32200": "9900cc", "DC1F00": "590099", "BE1B00": "2a0066", "951500": "040033"},  // Deep Purple
+    {"F32200": "807dba", "DC1F00": "6a51a3", "BE1B00": "4a1486", "951500": "21093b"},  // Lilac
+    {"F32200": "6b72d1", "DC1F00": "4e3693", "BE1B00": "420457", "951500": "16011d"},  // Lilac Dark
+    {"F32200": "94a9ce", "DC1F00": "667395", "BE1B00": "3f3c99", "951500": "161537"},  // Blue Lighter
+    {"F32200": "677b89", "DC1F00": "3d5566", "BE1B00": "1c2d3f", "951500": "010119"},  // Blue Light
+    {"F32200": "4369ad", "DC1F00": "325381", "BE1B00": "123054", "951500": "050c14"},  // Blue Deep
+    {"F32200": "0099cc", "DC1F00": "005999", "BE1B00": "002a66", "951500": "000433"},  // Blue
+    {"F32200": "309d8e", "DC1F00": "247074", "BE1B00": "204651", "951500": "15212b"},  // Teal
+    {"F32200": "6ca55e", "DC1F00": "3d7a52", "BE1B00": "1b4f3e", "951500": "030f0e"},  // Green
+    {"F32200": "599900", "DC1F00": "2a6600", "BE1B00": "043300", "951500": "010f00"},  // Green Salad
+    {"F32200": "85aeaa", "DC1F00": "56646d", "BE1B00": "40424f", "951500": "1e1f24"}   // Electric
+  ],
+
+  "hairColor": [
+  // Neki
+    {"F7E7B2": "b2e2d4", "D9C189": "9fbdbb", "A38D59": "8c9496", "735E3A": "5d646a"},  // Light Turquoise
+    {"F7E7B2": "bddeef", "D9C189": "8dacc8", "A38D59": "797d88", "735E3A": "4b515d"},  // Light Ice
+    {"F7E7B2": "b5c66b", "D9C189": "8d9c4b", "A38D59": "657033", "735E3A": "394117"},  // Green Swamp
+    {"F7E7B2": "76bd74", "D9C189": "559453", "A38D59": "3b6a39", "735E3A": "1c3d1b"},  // Green
+    {"F7E7B2": "7dceae", "D9C189": "469d89", "A38D59": "237465", "735E3A": "134449"},  // Turquoise
+    {"F7E7B2": "a8e6e2", "D9C189": "4facb2", "A38D59": "30636c", "735E3A": "233c43"},  // Ice
+    {"F7E7B2": "15e1ee", "D9C189": "01b6cb", "A38D59": "01739a", "735E3A": "0f3253"},  // Blue Vivid
+    {"F7E7B2": "a9ecff", "D9C189": "7dc9ed", "A38D59": "6485d4", "735E3A": "2e469d"},  // Blue Light
+    {"F7E7B2": "a2b3b3", "D9C189": "677b89", "A38D59": "3d5566", "735E3A": "1d2f41"},  // Blue Gray
+    {"F7E7B2": "7480bd", "D9C189": "535e94", "A38D59": "39416a", "735E3A": "1b213d"},  // Blue Dark
+    {"F7E7B2": "aeb9ff", "D9C189": "9e8feb", "A38D59": "8a67a8", "735E3A": "513b5f"},  // Blurple
+    {"F7E7B2": "cf9cc7", "D9C189": "b67cb4", "A38D59": "815982", "735E3A": "4d374f"},  // Purple
+    {"F7E7B2": "c66ba6", "D9C189": "9c4b80", "A38D59": "70335b", "735E3A": "411732"},  // Purple Dark
+    {"F7E7B2": "dd88c7", "D9C189": "C36AAC", "A38D59": "A23873", "735E3A": "621F48"},  // Pink Dark
+    {"F7E7B2": "f7c6f7", "D9C189": "ff8cc5", "A38D59": "ff4c96", "735E3A": "c31c46"},  // Pink Hot
+    {"F7E7B2": "fde9e8", "D9C189": "edbfc0", "A38D59": "ee97a5", "735E3A": "b65058"},  // Pink Light
+    {"F7E7B2": "ffbb99", "D9C189": "f49882", "A38D59": "dd5553", "735E3A": "99404c"},  // Peach
+    {"F7E7B2": "ee8e51", "D9C189": "d3523b", "A38D59": "af3220", "735E3A": "831415"},  // Fiery
+    {"F7E7B2": "d95d45", "D9C189": "b12f3b", "A38D59": "791f39", "735E3A": "511934"},  // Radish
+    {"F7E7B2": "eea94a", "D9C189": "e56f15", "A38D59": "bf400d", "735E3A": "8e2206"},  // Phoenix
+    {"F7E7B2": "ffc58c", "D9C189": "ff964c", "A38D59": "cc491e", "735E3A": "991f07"},  // Orange
+    {"F7E7B2": "fad472", "D9C189": "e0a56b", "A38D59": "bc6445", "735E3A": "99404c"},  // Orange Light
+    {"F7E7B2": "ebcc89", "D9C189": "d6a257", "A38D59": "c27557", "735E3A": "924f49"},  // Ginger
+    {"F7E7B2": "e9e7c7", "D9C189": "ddc49b", "A38D59": "a88055", "735E3A": "8d6345"},  // Blonde 8
+    {"F7E7B2": "fdfbd1", "D9C189": "e0d2ae", "A38D59": "ba9685", "735E3A": "8f6961"},  // Blonde 9
+    {"F7E7B2": "fbedd0", "D9C189": "f8d8b1", "A38D59": "dfb392", "735E3A": "b77d69"},  // Blonde Cream
+    {"F7E7B2": "ffffff", "D9C189": "e6e6e6", "A38D59": "b4b4b4", "735E3A": "797979"},  // White Angelic
+    {"F7E7B2": "e4e7e7", "D9C189": "d0d5ce", "A38D59": "9b9b98", "735E3A": "625c6c"},  // White
+    {"F7E7B2": "E4C0A6", "D9C189": "C29784", "A38D59": "b16157", "735E3A": "833e41"},  // Brown Light
+    {"F7E7B2": "ba9685", "D9C189": "8f6962", "A38D59": "724549", "735E3A": "483038"},  // Brown
+    {"F7E7B2": "b27f7f", "D9C189": "945858", "A38D59": "6f4343", "735E3A": "432929"},  // Brown Red
+  // Body
+    {"F7E7B2": "505050", "D9C189": "343434", "A38D59": "202020", "735E3A": "000000"},  // Black
+    {"F7E7B2": "836059", "D9C189": "724549", "A38D59": "473037", "735E3A": "281b1f"},  // Mahogany
+    {"F7E7B2": "7d654f", "D9C189": "65513d", "A38D59": "3f322d", "735E3A": "251d1a"},  // Wood
+    {"F7E7B2": "6f6f6f", "D9C189": "555555", "A38D59": "343434", "735E3A": "202020"},  // Charcoal
+    {"F7E7B2": "847a6f", "D9C189": "69625a", "A38D59": "494343", "735E3A": "272727"},  // Ash
+    {"F7E7B2": "957151", "D9C189": "7e5938", "A38D59": "5d3e25", "735E3A": "382516"},  // Chocolate
+    {"F7E7B2": "997d6a", "D9C189": "86644a", "A38D59": "684431", "735E3A": "40271d"},  // Caramel
+    {"F7E7B2": "af9795", "D9C189": "887270", "A38D59": "655352", "735E3A": "352a28"},  // Bole
+    {"F7E7B2": "b0a293", "D9C189": "897c6f", "A38D59": "665b51", "735E3A": "352f27"},  // Dirt
+    {"F7E7B2": "aaaaaa", "D9C189": "868686", "A38D59": "5a5a5a", "735E3A": "323232"},  // Nickel
+    {"F7E7B2": "b9997a", "D9C189": "9f7761", "A38D59": "7d5446", "735E3A": "54332d"},  // Clay
+    {"F7E7B2": "c3a98c", "D9C189": "998168", "A38D59": "725f4a", "735E3A": "3d3022"},  // Peanut
+    {"F7E7B2": "b3aea8", "D9C189": "8b8680", "A38D59": "66625d", "735E3A": "35322f"},  // Stone
+    {"F7E7B2": "baafa5", "D9C189": "96887a", "A38D59": "736355", "735E3A": "433428"},  // Mink
+    {"F7E7B2": "d7b187", "D9C189": "c88959", "A38D59": "98664a", "735E3A": "6e432c"},  // Sienna
+    {"F7E7B2": "cfcfcf", "D9C189": "b6b6b6", "A38D59": "848484", "735E3A": "494949"},  // Cloud
+    {"F7E7B2": "d2c2bd", "D9C189": "baa9a6", "A38D59": "93858e", "735E3A": "5e5360"},  // Thistle
+    {"F7E7B2": "e8cebc", "D9C189": "cfa97d", "A38D59": "ae774b", "735E3A": "804e34"},  // Fawn
+    {"F7E7B2": "f9d7cd", "D9C189": "f6baa2", "A38D59": "cc9582", "735E3A": "946254"},  // Cantaloupe
+    {"F7E7B2": "f6f0e4", "D9C189": "e3d8ca", "A38D59": "bbb29f", "735E3A": "7a7469"},  // Milk
+    {"F7E7B2": "f5ede3", "D9C189": "f9d3a9", "A38D59": "d3a57c", "735E3A": "a06e53"},  // Latte
+    {"F7E7B2": "ffffff", "D9C189": "e6e6e6", "A38D59": "b4b4b4", "735E3A": "797979"},  // White
+  // Vanilla
+    {"F7E7B2": "838383", "D9C189": "555555", "A38D59": "383838", "735E3A": "151515"},  // Black
+    {"F7E7B2": "b5b5b5", "D9C189": "808080", "A38D59": "555555", "735E3A": "303030"},  // Gray
+    {"F7E7B2": "e6e6e6", "D9C189": "b6b6b6", "A38D59": "7b7b7b", "735E3A": "373737"},  // White
+    {"F7E7B2": "f4988c", "D9C189": "d93a3a", "A38D59": "932625", "735E3A": "601119"},  // Red
+    {"F7E7B2": "ffd495", "D9C189": "ea9931", "A38D59": "af4e00", "735E3A": "6e2900"},  // Orange
+    {"F7E7B2": "ffffa7", "D9C189": "e2c344", "A38D59": "a46e06", "735E3A": "642f00"},  // Yellow
+    {"F7E7B2": "b2e89d", "D9C189": "51bd3b", "A38D59": "247824", "735E3A": "144216"},  // Green
+    {"F7E7B2": "96cbe7", "D9C189": "5588d4", "A38D59": "344495", "735E3A": "1a1c51"},  // Blue
+    {"F7E7B2": "d29ce7", "D9C189": "a451c4", "A38D59": "6a2284", "735E3A": "320c40"},  // Purple
+    {"F7E7B2": "eab3db", "D9C189": "d35eae", "A38D59": "97276d", "735E3A": "59163f"},  // Pink
+    {"F7E7B2": "ccae7c", "D9C189": "a47844", "A38D59": "754c23", "735E3A": "472b13"}   // Brown
+  ]
 }

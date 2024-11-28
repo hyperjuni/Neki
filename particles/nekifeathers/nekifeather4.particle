@@ -1,17 +1,17 @@
 {
-	"kind": "nekifeather4",
-	"definition": {
-		"type": "ember",
-		"size": 1.0,
-		"color": [255, 255, 255, 255],
-		"position": [1.3, 0.6],
-		"initialVelocity": [2, 0],
-		"destructionAction": "shrink",
-		"destructionTime": 3,
-		"timeToLive": 0.3,
-		"layer": "back",
-		"variance": {
-			"initialVelocity": [-0.5, 1]
-		}
-	}
+  "kind": "nekifeather4",
+  "definition": {
+    "type": "ember",
+    "size": 1.0,
+    "color": [255, 255, 255, 255],
+    "position": [1.3, 0.6],
+    "initialVelocity": [2, 0],
+    "destructionAction": "shrink",
+    "destructionTime": 3,
+    "timeToLive": 0.3,
+    "layer": "back",
+    "variance": {
+      "initialVelocity": [-0.5, 1]
+    }
+  }
 }

@@ -1,18 +1,18 @@
 [
-	{"op": "add", "path": "/scriptConfig/dialog/speak/default/neki",
-		"value": [
-			"About time, <entityname>! Hurry it up, we can't stall for much longer."
-		]
-	},
+  {"op": "add", "path": "/scriptConfig/dialog/speak/default/neki",
+    "value": [
+      "About time, <entityname>! Hurry it up, we can't stall for much longer."
+    ]
+  },
 
-	{"op": "add", "path": "/scriptConfig/dialog/converse/default/neki",
-		"value": [
-			"The ceremony is starting, hurry up!",
-			"Remember, the name of the Grand Protector is Leda Portia.",
-			"*sigh*\nI really hope this Neki will keep it together for once...",
-			"Hm..? Pardon, I was just thinking out loud.",
-			"Hurry up, <entityname>!",
-			"Go on!"
-		]
-	}
+  {"op": "add", "path": "/scriptConfig/dialog/converse/default/neki",
+    "value": [
+      "The ceremony is starting, hurry up!",
+      "Remember, the name of the Grand Protector is Leda Portia.",
+      "*sigh*\nI really hope this Neki will keep it together for once...",
+      "Hm..? Pardon, I was just thinking out loud.",
+      "Hurry up, <entityname>!",
+      "Go on!"
+    ]
+  }
 ]

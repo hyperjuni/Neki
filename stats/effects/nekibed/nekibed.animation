@@ -1,7 +1,7 @@
 {
-	"sounds": {
-		"nekibedgetin": ["/sfx/objects/cardboardbox_close.ogg"],
-		"nekibedlavishgetin": ["/sfx/objects/torch_off1.ogg"],
-		"nekibedlockergetin": ["/sfx/objects/nekibedlockergetin.ogg"]
-	}
+  "sounds": {
+    "nekibedgetin": ["/sfx/objects/cardboardbox_close.ogg"],
+    "nekibedlavishgetin": ["/sfx/objects/torch_off1.ogg"],
+    "nekibedlockergetin": ["/sfx/objects/nekibedlockergetin.ogg"]
+  }
 }

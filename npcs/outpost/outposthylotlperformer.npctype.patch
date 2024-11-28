@@ -1,17 +1,22 @@
 [
-	{"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"},
-	{"op": "add", "path": "/scriptConfig/dialog/converse/hylotl/neki",
-		"value": [
-			"What do Neki do after a fight? Hiss and make up!",
-			"Why was the Neki afraid of the tree? Because of the bark!",
-			"Where does a Neki go if it loses its tail? The re-tail store!",
-			"What do you call a Neki's house? A scratch pad!",
-			"It's called fur-niture for a reason!",
-			"Knock-knock.",
-			"Who's there?",
-			"Claws!",
-			"Claws who?",
-			"Claws the door, I'm getting cold!"
-		]
-	}
+  [
+    {"op": "test", "path": "/scriptConfig/dialogMode", "value": "sequence", "inverse": true},
+    {"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"}
+  ],
+  [
+    {"op": "add", "path": "/scriptConfig/dialog/converse/hylotl/neki",
+      "value": [
+        "What do Neki do after a fight? Hiss and make up!",
+        "Why was the Neki afraid of the tree? Because of the bark!",
+        "Where does a Neki go if it loses its tail? The re-tail store!",
+        "What do you call a Neki's house? A scratch pad!",
+        "It's called fur-niture for a reason!",
+        "Knock-knock.",
+        "Who's there?",
+        "Claws!",
+        "Claws who?",
+        "Claws the door, I'm getting cold!"
+      ]
+    }
+  ]
 ]

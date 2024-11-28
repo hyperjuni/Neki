@@ -1,21 +1,21 @@
 [
-	{"op": "add", "path": "/converse/default/neki",
-		"value": [
-			"Odd Fenerox. Saying hello. Not Fenerox?",
-			"Weird stranger. Not Fenerox? Being polite!",
-			"Guest Fenerox? Ears similar. Giving greetings!",
-			"Meeting stranger. Being friendly. New experience!",
-			"Strange Fenerox. Looks friendly. Offer friendship?",
-			"Another Fenerox? Smells interesting. Quite exciting!",
-			"Friendly Fenerox? Feeling awkward. Cautiously optimistic!",
-			"Pretty stranger. Magnificent fur! Observing cautiously.",
-			"Different person. Maybe Fenerox? Curiously wondering!",
-			"Stranger pretty. Fenerox awed. Anxiety happening!",
-			"Unknown person. Resembles Fenerox. Pretty tail!",
-			"Odd Fenerox. Hopefully nice. Feeling cautious!",
-			"Cute Fenerox. Not Fenerox? Feeling nervous!",
-			"New Fenerox. Not confident. Saying hello!",
-			"Not Fenerox? Stands upright. Pretty ears!"
-		]
-	}
+  {"op": "add", "path": "/converse/default/neki",
+    "value": [
+      "Odd Fenerox. Saying hello. Not Fenerox?",
+      "Weird stranger. Not Fenerox? Being polite!",
+      "Guest Fenerox? Ears similar. Giving greetings!",
+      "Meeting stranger. Being friendly. New experience!",
+      "Strange Fenerox. Looks friendly. Offer friendship?",
+      "Another Fenerox? Smells interesting. Quite exciting!",
+      "Friendly Fenerox? Feeling awkward. Cautiously optimistic!",
+      "Pretty stranger. Magnificent fur! Observing cautiously.",
+      "Different person. Maybe Fenerox? Curiously wondering!",
+      "Stranger pretty. Fenerox awed. Anxiety happening!",
+      "Unknown person. Resembles Fenerox. Pretty tail!",
+      "Odd Fenerox. Hopefully nice. Feeling cautious!",
+      "Cute Fenerox. Not Fenerox? Feeling nervous!",
+      "New Fenerox. Not confident. Saying hello!",
+      "Not Fenerox? Stands upright. Pretty ears!"
+    ]
+  }
 ]

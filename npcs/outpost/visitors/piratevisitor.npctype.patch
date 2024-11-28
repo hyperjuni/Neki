@@ -1,11 +1,16 @@
 [
-	{"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"},
-	{"op": "add", "path": "/scriptConfig/dialog/converse/default/neki",
-		"value": [
-			"Yo-ho-ho, it's the...ghaaaah, a Neki!",
-			"You wouldn't dare touch me, scallywag!",
-			"Me hearties will make shark bait out of ye, savvy?",
-            "Paws off, you blistering scoundrel!"
-		]
-	}
+  [
+    {"op": "test", "path": "/scriptConfig/dialogMode", "value": "sequence", "inverse": true},
+    {"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"}
+  ],
+  [
+    {"op": "add", "path": "/scriptConfig/dialog/converse/default/neki",
+      "value": [
+        "Yo-ho-ho, it's the...ghaaaah, a Neki!",
+        "You wouldn't dare touch me, scallywag!",
+        "Me hearties will make shark bait out of ye, savvy?",
+              "Paws off, you blistering scoundrel!"
+      ]
+    }
+  ]
 ]

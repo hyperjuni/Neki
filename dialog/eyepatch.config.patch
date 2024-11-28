@@ -1,12 +1,12 @@
 [
-	{"op": "add", "path": "/converse/default/neki",
-		"value": [
-			"Boastful. Even the sneakiest of species cannot escape our gaze.",
-			"Observant. Your wandering eyes are a sign of healthy curiosity.",
-			"Uppity. The All-Seeing Knights see more about you than you think.",
-			"Analytical. Of all the species we observed, we've seen the least of yours.",
-			"Engaged. You have my unabashed, undivided, unblinking attention.",
-			"Curious. Your presence has caught my eye."
-		]
-	}
+  {"op": "add", "path": "/converse/default/neki",
+    "value": [
+      "Boastful. Even the sneakiest of species cannot escape our gaze.",
+      "Observant. Your wandering eyes are a sign of healthy curiosity.",
+      "Uppity. The All-Seeing Knights see more about you than you think.",
+      "Analytical. Of all the species we observed, we've seen the least of yours.",
+      "Engaged. You have my unabashed, undivided, unblinking attention.",
+      "Curious. Your presence has caught my eye."
+    ]
+  }
 ]

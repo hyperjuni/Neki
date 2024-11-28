@@ -1,11 +1,11 @@
 {
-	"itemName": "nekithingyice",
-	"price": 1,
-	"rarity": "Rare",
-	"category": "craftingMaterial",
-	"inventoryIcon": "nekithingyice.png",
-	"description": "An odd icy contraption, may be useful as an upgrade.",
-	"shortdescription": "Neki Thingy - Ice",
-	"tooltipKind": "nekibase",
-	"itemTags": ["reagent"]
+  "itemName": "nekithingyice",
+  "price": 1,
+  "rarity": "Rare",
+  "category": "craftingMaterial",
+  "inventoryIcon": "nekithingyice.png",
+  "description": "An odd icy contraption, may be useful as an upgrade.",
+  "shortdescription": "Neki Thingy - Ice",
+  "tooltipKind": "nekibase",
+  "itemTags": ["reagent"]
 }

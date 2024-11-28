@@ -1,77 +1,77 @@
 [
-	{"op": "add", "path": "/scriptConfig/dialog/converse/apex/neki",
-		"value": [
-			"It seems the Miniknog would stop at nothing to find me.",
-			"They'd send such a valuable asset just to get ME? Wow.",
-			"I guess there's nowhere left for me to run, you win...",
-			"Whatever you intend to do, make it quick please.",
-			"Well, I guess it's finally over for me.",
-			"You'll never take me alive, oppressor!",
-			"I've been discovered by the Miniknog!",
-			"I'm ready for my punishment, agent.",
-			"Oh no, I'm done for...",
-			"I regret nothing!"
-		]
-	},
-	{"op": "add", "path": "/scriptConfig/dialog/converse/avian/neki",
-		"value": [
-			"Aaah!\nYou looked like a Spookit for a moment, but this is worse!",
-			"Aren't there enough things for you to hunt up on the surface?!",
-			"You don't plan on sticking around for long, do you?",
-			"I'm not afraid of you. I even like you a little!",
-			"I hope you don't intend to settle down here.",
-			"Please don't hunt me! I'm terrible prey!",
-			"Gah!\nYou're a Neki!"
-		]
-	},
-	{"op": "add", "path": "/scriptConfig/dialog/converse/floran/neki",
-		"value": [
-			"Floran not get in trouble if hunt fishman and birdman down here.",
-			"Floran not like others, Floran likes the quiet down here.",
-			"Neki try hunt underground? Sssneaking easier.",
-			"Welcome to Floran underground lair, Neki!",
-			"Floran totally sssee Neki sneaking up.",
-			"Floran happy to sssee Neki down here!",
-			"Neki Neki Neki Neki!"
-		]
-	},
-	{"op": "add", "path": "/scriptConfig/dialog/converse/glitch/neki",
-		"value": [
-			"Comparative. You're not as bad as some of the things I've come across down here.",
-			"Accepting. I suppose you're better company than no company.",
-			"Intrigued. What were you hoping to find down here, Neki?",
-			"Disappointed. I thought you were a Spookit for a moment.",
-			"Impressed. I did not realize felids could dig so well.",
-			"Relieved. I thought you were a Spookit for a moment!",
-			"Annoyed. I was hoping for some peace and quiet.",
-			"Surprised. A Neki? Down here?"
-		]
-	},
-	{"op": "add", "path": "/scriptConfig/dialog/converse/human/neki",
-		"value": [
-			"Stay out!\nI already peed all around this territory, can't you smell?",
-			"You're the first warm fluffy thing I've seen in a loооng time...",
-			"There's just no hole one of you wouldn't crawl into, is there?",
-			"It's nice to see another.. oh, you're one of THOSE things.",
-			"Aren't you just adorable! Come closer, I won't bite...",
-			"Did it suddenly get hot in here, or is that just you?",
-			"What's a pussy like you doing in a hole like this?",
-			"Come have some snacks in my basement, kitty.",
-			"I wonder if you taste as good as you look.",
-			"Ah yes, you'll do just fine.",
-			"Stay a while, and listen.",
-			"A cat is fine too."
-		]
-	},
-	{"op": "add", "path": "/scriptConfig/dialog/converse/hylotl/neki",
-		"value": [
-			"I had hoped a Neki would rather avoid dark, moist places.. yet here you are.",
-			"What could you possibly be looking for, all the way down here?",
-			"I believe you should go explore that dark cavern over there.",
-			"I wish you the best of luck on your journey, goodbye.",
-			"Guess there's no escaping your kind, even down here.",
-			"I'm genuinely curious, how did you even get here?",
-			"Are you lost, Neki? Would you like to be?"
-		]
-	}
+  {"op": "add", "path": "/scriptConfig/dialog/converse/apex/neki",
+    "value": [
+      "It seems the Miniknog would stop at nothing to find me.",
+      "They'd send such a valuable asset just to get ME? Wow.",
+      "I guess there's nowhere left for me to run, you win...",
+      "Whatever you intend to do, make it quick please.",
+      "Well, I guess it's finally over for me.",
+      "You'll never take me alive, oppressor!",
+      "I've been discovered by the Miniknog!",
+      "I'm ready for my punishment, agent.",
+      "Oh no, I'm done for...",
+      "I regret nothing!"
+    ]
+  },
+  {"op": "add", "path": "/scriptConfig/dialog/converse/avian/neki",
+    "value": [
+      "Aaah!\nYou looked like a Spookit for a moment, but this is worse!",
+      "Aren't there enough things for you to hunt up on the surface?!",
+      "You don't plan on sticking around for long, do you?",
+      "I'm not afraid of you. I even like you a little!",
+      "I hope you don't intend to settle down here.",
+      "Please don't hunt me! I'm terrible prey!",
+      "Gah!\nYou're a Neki!"
+    ]
+  },
+  {"op": "add", "path": "/scriptConfig/dialog/converse/floran/neki",
+    "value": [
+      "Floran not get in trouble if hunt fishman and birdman down here.",
+      "Floran not like others, Floran likes the quiet down here.",
+      "Neki try hunt underground? Sssneaking easier.",
+      "Welcome to Floran underground lair, Neki!",
+      "Floran totally sssee Neki sneaking up.",
+      "Floran happy to sssee Neki down here!",
+      "Neki Neki Neki Neki!"
+    ]
+  },
+  {"op": "add", "path": "/scriptConfig/dialog/converse/glitch/neki",
+    "value": [
+      "Comparative. You're not as bad as some of the things I've come across down here.",
+      "Accepting. I suppose you're better company than no company.",
+      "Intrigued. What were you hoping to find down here, Neki?",
+      "Disappointed. I thought you were a Spookit for a moment.",
+      "Impressed. I did not realize felids could dig so well.",
+      "Relieved. I thought you were a Spookit for a moment!",
+      "Annoyed. I was hoping for some peace and quiet.",
+      "Surprised. A Neki? Down here?"
+    ]
+  },
+  {"op": "add", "path": "/scriptConfig/dialog/converse/human/neki",
+    "value": [
+      "Stay out!\nI already peed all around this territory, can't you smell?",
+      "You're the first warm fluffy thing I've seen in a loооng time...",
+      "There's just no hole one of you wouldn't crawl into, is there?",
+      "It's nice to see another.. oh, you're one of THOSE things.",
+      "Aren't you just adorable! Come closer, I won't bite...",
+      "Did it suddenly get hot in here, or is that just you?",
+      "What's a pussy like you doing in a hole like this?",
+      "Come have some snacks in my basement, kitty.",
+      "I wonder if you taste as good as you look.",
+      "Ah yes, you'll do just fine.",
+      "Stay a while, and listen.",
+      "A cat is fine too."
+    ]
+  },
+  {"op": "add", "path": "/scriptConfig/dialog/converse/hylotl/neki",
+    "value": [
+      "I had hoped a Neki would rather avoid dark, moist places.. yet here you are.",
+      "What could you possibly be looking for, all the way down here?",
+      "I believe you should go explore that dark cavern over there.",
+      "I wish you the best of luck on your journey, goodbye.",
+      "Guess there's no escaping your kind, even down here.",
+      "I'm genuinely curious, how did you even get here?",
+      "Are you lost, Neki? Would you like to be?"
+    ]
+  }
 ]

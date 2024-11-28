@@ -1,47 +1,47 @@
 {
-	"objectName": "nekipillowred",
-	"objectType": "loungeable",
-	"category": "furniture",
-	"rarity": "Common",
-	"price": 50,
-	"race": "neki",
-	"printable": false,
-	"tooltipKind": "nekibase",
-	"colonyTags": ["neki"],
+  "objectName": "nekipillowred",
+  "objectType": "loungeable",
+  "category": "furniture",
+  "rarity": "Common",
+  "price": 50,
+  "race": "neki",
+  "printable": false,
+  "tooltipKind": "nekibase",
+  "colonyTags": ["neki"],
 
-	"shortdescription": "Neki Pillow - Red",
-	"description": "A red tent fabric, stuffed with feathers.",
+  "shortdescription": "Neki Pillow - Red",
+  "description": "A red tent fabric, stuffed with feathers.",
 
-	"apexDescription": "An interesting use for what seems to have once been a tent.",
-	"avianDescription": "This pillow feels so comfortable, as if it were filed with...wait a minute...",
-	"floranDescription": "Ssstupid dome is now soft chair! Thisss make Floran happy!",
-	"glitchDescription": "Sarcasm. Lovely. Now it only fits one, on top.",
-	"humanDescription": "Why ruin a perfectly good dome tent like that?!",
-	"hylotlDescription": "Neither the original nor this reimagining seem particularly comfortable to me.",
-	"nekiDescription": "That flimsy old brrownish shelter wasn't any good anyway.",
-	"novakidDescription": "I ain't seein' it, what's this good for?",
+  "apexDescription": "An interesting use for what seems to have once been a tent.",
+  "avianDescription": "This pillow feels so comfortable, as if it were filed with...wait a minute...",
+  "floranDescription": "Ssstupid dome is now soft chair! Thisss make Floran happy!",
+  "glitchDescription": "Sarcasm. Lovely. Now it only fits one, on top.",
+  "humanDescription": "Why ruin a perfectly good dome tent like that?!",
+  "hylotlDescription": "Neither the original nor this reimagining seem particularly comfortable to me.",
+  "nekiDescription": "That flimsy old brrownish shelter wasn't any good anyway.",
+  "novakidDescription": "I ain't seein' it, what's this good for?",
 
-	"inventoryIcon": "nekipillowredicon.png",
+  "inventoryIcon": "nekipillowredicon.png",
 
-	"orientations": [
-		{
-			"direction": "left",
-			"anchors": ["bottom"],
-			"image": "nekipillowred.png",
-			"imagePosition": [0, 0],
-			"flipImages": true,
-			"sitPosition": [-14.5, 23]
-		},
-		{
-			"direction": "right",
-			"anchors": ["bottom"],
-			"image": "nekipillowred.png",
-			"imagePosition": [0, 0],
-			"spaceScan": 0.1,
-			"sitPosition": [13.5, 23]
-		}
-	],
+  "orientations": [
+    {
+      "direction": "left",
+      "anchors": ["bottom"],
+      "image": "nekipillowred.png",
+      "imagePosition": [0, 0],
+      "flipImages": true,
+      "sitPosition": [-14.5, 23]
+    },
+    {
+      "direction": "right",
+      "anchors": ["bottom"],
+      "image": "nekipillowred.png",
+      "imagePosition": [0, 0],
+      "spaceScan": 0.1,
+      "sitPosition": [13.5, 23]
+    }
+  ],
 
-	"sitCoverImage": "/objects/neki/nekipillowred/nekipillowredcover.png",
-	"sitStatusEffects": ["nekipoof"]
+  "sitCoverImage": "/objects/neki/nekipillowred/nekipillowredcover.png",
+  "sitStatusEffects": ["nekipoof"]
 }

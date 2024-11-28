@@ -1,10 +1,10 @@
 {
-	"id": "nekimklog11",
-	"species": "neki",
-	"title": "Log 3489.#0011",
-	"description": "A classified scientific research log of the Miniknog.",
-	"icon": "nekimemorycardblack.png",
-	"contentPages": [
+  "id": "nekimklog11",
+  "species": "neki",
+  "title": "Log 3489.#0011",
+  "description": "A classified scientific research log of the Miniknog.",
+  "icon": "nekimemorycardblack.png",
+  "contentPages": [
 "Long live Big Ape!
 
 Preliminary analysis of the data shows that the Human research seems to have been focused entirely on introducing benign physiological traits of lesser species into their own genome; purpose unclear.
@@ -14,9 +14,9 @@ We believe looking into the original goals of the research is vital, as investin
 "I will de-classify parts of the data in order to consult civillian Earth-experts on the matter. Hopefully, their input will provide clues to what this research was originally meant to achieve, as well as a better understanding of how to best approach it.
 
 Glory to the Miniknog!"
-	],
-	"itemConfig": {
-		"rarity": "uncommon",
-		"price": 25
-	}
+  ],
+  "itemConfig": {
+    "rarity": "uncommon",
+    "price": 25
+  }
 }

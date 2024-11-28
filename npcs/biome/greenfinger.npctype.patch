@@ -1,10 +1,10 @@
 [
-	{"op": "add", "path": "/scriptConfig/dialog/converse/default/neki",
-		"value": [
-			"Welcome to our tribe, Neki friend. I am Greenfinger <selfname>, and we shall treat you with resspect as long as you do the sssame.",
-			"Hello Neki, I am thisss tribe's Greenfinger. If what I know of your kind is true, you should feel right at home here.",
-			"Greetings, my Neki friend! I am Greenfinger <selfname>, and it iss my role to guide the Floran of this tribe.",
-			"Hello, Neki friend. I am Greenfinger <selfname>, and on behalf of my tribe - welcome to our humble village."
-		]
-	}
+  {"op": "add", "path": "/scriptConfig/dialog/converse/default/neki",
+    "value": [
+      "Welcome to our tribe, Neki friend. I am Greenfinger <selfname>, and we shall treat you with resspect as long as you do the sssame.",
+      "Hello Neki, I am thisss tribe's Greenfinger. If what I know of your kind is true, you should feel right at home here.",
+      "Greetings, my Neki friend! I am Greenfinger <selfname>, and it iss my role to guide the Floran of this tribe.",
+      "Hello, Neki friend. I am Greenfinger <selfname>, and on behalf of my tribe - welcome to our humble village."
+    ]
+  }
 ]

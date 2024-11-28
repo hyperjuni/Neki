@@ -1,16 +1,16 @@
 [
-	{"op": "add", "path": "/scriptConfig/dialog/converse/default/neki",
-		"value": [
-			"Quit skittering about and come sit with me for a moment.",
-			"Some situations call for haste, but don't let life's small moments pass unappreciated.",
-			"These beautiful blossoms, for example.",
-			"This tree has stood for centuries, a symbol of the Protectorate's strength and dignity.",
-			"No, <entityname>, put those claws away. We have to protect the tree, not scratch it.",
-			"Chimes in the great tree. Windy songs of coming change. Fleeting petals fall.",
-			"*sigh*",
-			"Clearly, your patience is short-lived as always.",
-			"Run along then, everyone's waiting for you.",
-			"I'll be here if you need me."
-		]
-	}
+  {"op": "add", "path": "/scriptConfig/dialog/converse/default/neki",
+    "value": [
+      "Quit skittering about and come sit with me for a moment.",
+      "Some situations call for haste, but don't let life's small moments pass unappreciated.",
+      "These beautiful blossoms, for example.",
+      "This tree has stood for centuries, a symbol of the Protectorate's strength and dignity.",
+      "No, <entityname>, put those claws away. We have to protect the tree, not scratch it.",
+      "Chimes in the great tree. Windy songs of coming change. Fleeting petals fall.",
+      "*sigh*",
+      "Clearly, your patience is short-lived as always.",
+      "Run along then, everyone's waiting for you.",
+      "I'll be here if you need me."
+    ]
+  }
 ]

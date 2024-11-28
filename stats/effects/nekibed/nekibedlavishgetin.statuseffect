@@ -1,6 +1,6 @@
 {
-	"name": "nekibedlavishgetin",
+  "name": "nekibedlavishgetin",
 
-	"scripts": ["nekibedlavishgetin.lua"],
-	"animationConfig": "nekibed.animation"
+  "scripts": ["nekibedlavishgetin.lua"],
+  "animationConfig": "nekibed.animation"
 }

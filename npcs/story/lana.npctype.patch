@@ -1,39 +1,39 @@
 [
-	{"op": "add", "path": "/scriptConfig/dialog/lana/start/default/neki",
-		"value": [
-			"Soldiers, defend our flank! They're coming up from the rear!",
-			"Wait.. hold your fire!\nThis one doesn't seem to be hostile.",
-			"State your business, Neki clone - and do so quickly, or we WILL open fire!",
-			"Hm.. you seem different from the rest of your kind, but how is that possible?",
-			"This one's Control Collar must be malfunctioning.. this may prove useful to us!",
-			"Listen up, Neki!\nWe need a scout underground, and you should be able to fit right in.",
-			"The name's ^orange;Lana Blake^reset;,\nand if you want into this stronghold as much as we do, may as well help us.",
-			"Get down the tunnel access, find a way to lower their defenses for us - and we'll do the rest.",
-			"I hope my trust in you won't prove to be misplaced, clone!"
-		]
-	},
+  {"op": "add", "path": "/scriptConfig/dialog/lana/start/default/neki",
+    "value": [
+      "Soldiers, defend our flank! They're coming up from the rear!",
+      "Wait.. hold your fire!\nThis one doesn't seem to be hostile.",
+      "State your business, Neki clone - and do so quickly, or we WILL open fire!",
+      "Hm.. you seem different from the rest of your kind, but how is that possible?",
+      "This one's Control Collar must be malfunctioning.. this may prove useful to us!",
+      "Listen up, Neki!\nWe need a scout underground, and you should be able to fit right in.",
+      "The name's ^orange;Lana Blake^reset;,\nand if you want into this stronghold as much as we do, may as well help us.",
+      "Get down the tunnel access, find a way to lower their defenses for us - and we'll do the rest.",
+      "I hope my trust in you won't prove to be misplaced, clone!"
+    ]
+  },
 
-	{"op": "add", "path": "/scriptConfig/dialog/lana/mid/default/neki",
-		"value": [
-			"Nice work, Neki.",
-			"Never thought I'd see the day I say that to one, yet here we are.",
-			"Unfortunately I'm wounded - and this may just be my last mission.",
-			"If you are truly on our side, help us break through and take out the final defenses.",
-			"I'm unable to go on, but I'll provide what assistance I can from down here."
-		]
-	},
+  {"op": "add", "path": "/scriptConfig/dialog/lana/mid/default/neki",
+    "value": [
+      "Nice work, Neki.",
+      "Never thought I'd see the day I say that to one, yet here we are.",
+      "Unfortunately I'm wounded - and this may just be my last mission.",
+      "If you are truly on our side, help us break through and take out the final defenses.",
+      "I'm unable to go on, but I'll provide what assistance I can from down here."
+    ]
+  },
 
-	{"op": "add", "path": "/scriptConfig/dialog/lana/end/default/neki",
-		"value": [
-			"Well done, cl.. hm, I believe it would be unfair to call you that after all you've done for us today.",
-			"Do you have a name, Neki?",
-			"\"^#71f2f6;<entityname>^reset;\"?\nThat's an interesting name.",
-			"Well, ^#71f2f6;<entityname>^reset; - you seem to be so much more than your origins imply.",
-			"Whatever is 'wrong' with you has been instrumental to our victory today, and-",
-			"..what IS this thing? Its' glow is very distracting!",
-			"Oh, it's what you're after? ..Just take it, then.",
-			"^#71f2f6;<entityname>^reset;, I'd like to help you, I think that you've earned as much from me.",
-			"I have skills and connections that may prove useful to you."
-		]
-	}
+  {"op": "add", "path": "/scriptConfig/dialog/lana/end/default/neki",
+    "value": [
+      "Well done, cl.. hm, I believe it would be unfair to call you that after all you've done for us today.",
+      "Do you have a name, Neki?",
+      "\"^#71f2f6;<entityname>^reset;\"?\nThat's an interesting name.",
+      "Well, ^#71f2f6;<entityname>^reset; - you seem to be so much more than your origins imply.",
+      "Whatever is 'wrong' with you has been instrumental to our victory today, and-",
+      "..what IS this thing? Its' glow is very distracting!",
+      "Oh, it's what you're after? ..Just take it, then.",
+      "^#71f2f6;<entityname>^reset;, I'd like to help you, I think that you've earned as much from me.",
+      "I have skills and connections that may prove useful to you."
+    ]
+  }
 ]

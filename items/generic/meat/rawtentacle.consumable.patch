@@ -1,24 +1,24 @@
 [
-	[
-		{"op": "test", "path": "/effects", "inverse": true},
-		{"op": "add", "path": "/effects",
-			"value": [
-				[
-					{
-						"effect": "nekinofoodpoison",
-						"duration": 0.1
-					}
-				]
-			]
-		}
-	],
-	[
-		{"op": "test", "path": "/effects"},
-		{"op": "add", "path": "/effects/0/-",
-			"value": {
-				"effect": "nekinofoodpoison",
-				"duration": 0.1
-			}
-		}
-	]
+  [
+    {"op": "test", "path": "/effects", "inverse": true},
+    {"op": "add", "path": "/effects",
+      "value": [
+        [
+          {
+            "effect": "nekinofoodpoison",
+            "duration": 0.1
+          }
+        ]
+      ]
+    }
+  ],
+  [
+    {"op": "test", "path": "/effects"},
+    {"op": "add", "path": "/effects/0/-",
+      "value": {
+        "effect": "nekinofoodpoison",
+        "duration": 0.1
+      }
+    }
+  ]
 ]

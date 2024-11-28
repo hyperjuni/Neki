@@ -1,10 +1,15 @@
 [
-	{"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"},
-	{"op": "add", "path": "/scriptConfig/dialog/converse/default/neki",
-		"value": [
-			"You look like you can handle yourself.",
-			"I don't suppose you need a bounty hunter?",
-			"If you do, I could use the pixels."
-		]
-	}
+  [
+    {"op": "test", "path": "/scriptConfig/dialogMode", "value": "sequence", "inverse": true},
+    {"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"}
+  ],
+  [
+    {"op": "add", "path": "/scriptConfig/dialog/converse/default/neki",
+      "value": [
+        "You look like you can handle yourself.",
+        "I don't suppose you need a bounty hunter?",
+        "If you do, I could use the pixels."
+      ]
+    }
+  ]
 ]

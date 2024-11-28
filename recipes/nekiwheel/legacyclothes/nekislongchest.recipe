@@ -1,12 +1,12 @@
 {
-	"input": [
-		{"item": "fabric", "count": 10},
-		{"item": "silk", "count": 6},
-		{"item": "string", "count": 3},
-		{"item": "cottonwool", "count": 2}
-	],
+  "input": [
+    {"item": "fabric", "count": 10},
+    {"item": "silk", "count": 6},
+    {"item": "string", "count": 3},
+    {"item": "cottonwool", "count": 2}
+  ],
 
-	"duration": 0.5,
-	"output": {"item": "nekislongchest", "count": 1},
-	"groups": ["nekiwheel", "legacyclothes"]
+  "duration": 0.5,
+  "output": {"item": "nekislongchest", "count": 1},
+  "groups": ["nekiwheel", "legacyclothes"]
 }

@@ -1,47 +1,47 @@
 {
-	"objectName": "nekipillowpurple",
-	"objectType": "loungeable",
-	"category": "furniture",
-	"rarity": "Common",
-	"price": 50,
-	"race": "neki",
-	"printable": false,
-	"tooltipKind": "nekibase",
-	"colonyTags": ["neki"],
+  "objectName": "nekipillowpurple",
+  "objectType": "loungeable",
+  "category": "furniture",
+  "rarity": "Common",
+  "price": 50,
+  "race": "neki",
+  "printable": false,
+  "tooltipKind": "nekibase",
+  "colonyTags": ["neki"],
 
-	"shortdescription": "Neki Pillow - Purple",
-	"description": "A worn purple pillow with spraypainted orange stripes.",
+  "shortdescription": "Neki Pillow - Purple",
+  "description": "A worn purple pillow with spraypainted orange stripes.",
 
-	"apexDescription": "I would love to see one made out of a Miniknog banner as well.",
-	"avianDescription": "The striking colors of this pillow are a bit unsettling.",
-	"floranDescription": "Pillow looksss very worn, like after battle.",
-	"glitchDescription": "Satisfied. A shoddy banner was made into something notably more practical.",
-	"humanDescription": "An undeniably snazzy-looking pillow!",
-	"hylotlDescription": "That cultist banner looks infinitely more appealing in pillow form.",
-	"nekiDescription": "The most stylish pillow ever!",
-	"novakidDescription": "I'll be darned if I hadn't seen this pattern before!",
+  "apexDescription": "I would love to see one made out of a Miniknog banner as well.",
+  "avianDescription": "The striking colors of this pillow are a bit unsettling.",
+  "floranDescription": "Pillow looksss very worn, like after battle.",
+  "glitchDescription": "Satisfied. A shoddy banner was made into something notably more practical.",
+  "humanDescription": "An undeniably snazzy-looking pillow!",
+  "hylotlDescription": "That cultist banner looks infinitely more appealing in pillow form.",
+  "nekiDescription": "The most stylish pillow ever!",
+  "novakidDescription": "I'll be darned if I hadn't seen this pattern before!",
 
-	"inventoryIcon": "nekipillowpurpleicon.png",
+  "inventoryIcon": "nekipillowpurpleicon.png",
 
-	"orientations": [
-		{
-			"direction": "left",
-			"anchors": ["bottom"],
-			"image": "nekipillowpurple.png",
-			"imagePosition": [0, 0],
-			"flipImages": true,
-			"sitPosition": [-14.5, 23]
-		},
-		{
-			"direction": "right",
-			"anchors": ["bottom"],
-			"image": "nekipillowpurple.png",
-			"imagePosition": [0, 0],
-			"spaceScan": 0.1,
-			"sitPosition": [13.5, 23]
-		}
-	],
+  "orientations": [
+    {
+      "direction": "left",
+      "anchors": ["bottom"],
+      "image": "nekipillowpurple.png",
+      "imagePosition": [0, 0],
+      "flipImages": true,
+      "sitPosition": [-14.5, 23]
+    },
+    {
+      "direction": "right",
+      "anchors": ["bottom"],
+      "image": "nekipillowpurple.png",
+      "imagePosition": [0, 0],
+      "spaceScan": 0.1,
+      "sitPosition": [13.5, 23]
+    }
+  ],
 
-	"sitCoverImage": "/objects/neki/nekipillowpurple/nekipillowpurplecover.png",
-	"sitStatusEffects": ["nekipoof"]
+  "sitCoverImage": "/objects/neki/nekipillowpurple/nekipillowpurplecover.png",
+  "sitStatusEffects": ["nekipoof"]
 }

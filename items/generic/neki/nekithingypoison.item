@@ -1,11 +1,11 @@
 {
-	"itemName": "nekithingypoison",
-	"price": 1,
-	"rarity": "Rare",
-	"category": "craftingMaterial",
-	"inventoryIcon": "nekithingypoison.png",
-	"description": "An odd toxic contraption, may be useful as an upgrade.",
-	"shortdescription": "Neki Thingy - Poison",
-	"tooltipKind": "nekibase",
-	"itemTags": ["reagent"]
+  "itemName": "nekithingypoison",
+  "price": 1,
+  "rarity": "Rare",
+  "category": "craftingMaterial",
+  "inventoryIcon": "nekithingypoison.png",
+  "description": "An odd toxic contraption, may be useful as an upgrade.",
+  "shortdescription": "Neki Thingy - Poison",
+  "tooltipKind": "nekibase",
+  "itemTags": ["reagent"]
 }

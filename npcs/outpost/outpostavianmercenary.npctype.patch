@@ -1,15 +1,20 @@
 [
-	{"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"},
-	{"op": "add", "path": "/scriptConfig/dialog/converse/avian/neki",
-		"value": [
-			"Everyone has the right to express themselves the way they feel is right.",
-			"We are the ones at fault for not being able to withstand said expression.",
-			"I believe in you not being inherently malicious, Neki.",
-			"Despite preaching many falsehoods, Stargazers also taught genuine lessons.",
-			"You must be craving interaction, that is understandably in your nature.",
-			"I am not sure I would be able to provide you with satisfactory interaction.",
-			"Our Avian bodies are sadly too fragile for your strength.",
-			"You should try to engage with others around the Outpost, too."
-		]
-	}
+  [
+    {"op": "test", "path": "/scriptConfig/dialogMode", "value": "sequence", "inverse": true},
+    {"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"}
+  ],
+  [
+    {"op": "add", "path": "/scriptConfig/dialog/converse/avian/neki",
+      "value": [
+        "Everyone has the right to express themselves the way they feel is right.",
+        "We are the ones at fault for not being able to withstand said expression.",
+        "I believe in you not being inherently malicious, Neki.",
+        "Despite preaching many falsehoods, Stargazers also taught genuine lessons.",
+        "You must be craving interaction, that is understandably in your nature.",
+        "I am not sure I would be able to provide you with satisfactory interaction.",
+        "Our Avian bodies are sadly too fragile for your strength.",
+        "You should try to engage with others around the Outpost, too."
+      ]
+    }
+  ]
 ]

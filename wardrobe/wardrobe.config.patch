@@ -1,1 +1,3 @@
-[{"op": "add", "path": "/mod/-", "value": "neki.json"}]
+[
+  {"op": "add", "path": "/mod/-", "value": "neki.json"}
+]

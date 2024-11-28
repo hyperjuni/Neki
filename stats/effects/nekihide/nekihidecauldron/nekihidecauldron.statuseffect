@@ -1,10 +1,10 @@
 {
-	"name": "nekihidecauldron",
-	"defaultDuration": 10,
-	"effectConfig": {
-		"nekihideMask": "/stats/effects/nekihide/nekihidecauldron/nekihidecauldron.png",
-		"nekiOnly": true
-	},
+  "name": "nekihidecauldron",
+  "defaultDuration": 10,
+  "effectConfig": {
+    "nekihideMask": "/stats/effects/nekihide/nekihidecauldron/nekihidecauldron.png",
+    "nekiOnly": true
+  },
 
-	"scripts": ["/stats/effects/nekihide/nekihide.lua"]
+  "scripts": ["/stats/effects/nekihide/nekihide.lua"]
 }

@@ -1,7 +1,7 @@
 {
-	"sounds": {
-		"alarm": [],
-		"error": [],
-		"warning": []
-	}
+  "sounds": {
+    "alarm": [],
+    "error": [],
+    "warning": []
+  }
 }

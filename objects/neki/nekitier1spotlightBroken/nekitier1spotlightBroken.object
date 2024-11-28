@@ -1,157 +1,157 @@
 {
-	"objectName": "nekitier1spotlightBroken",
-	"category": "light",
-	"rarity": "Common",
-	"price": 20,
-	"race": "neki",
-	"tooltipKind": "nekibase",
-	"colonyTags": [
-		"neki",
-		"tier1",
-		"light"
-	],
+  "objectName": "nekitier1spotlightBroken",
+  "category": "light",
+  "rarity": "Common",
+  "price": 20,
+  "race": "neki",
+  "tooltipKind": "nekibase",
+  "colonyTags": [
+    "neki",
+    "tier1",
+    "light"
+  ],
 
-	"interactive": false,
-	"inputNodes": [[0, 0]],
+  "interactive": false,
+  "inputNodes": [[0, 0]],
 
-	"shortdescription": "Broken Iron Spotlight",
-	"description": "There, I made it better!",
+  "shortdescription": "Broken Iron Spotlight",
+  "description": "There, I made it better!",
 
-	"apexDescription": "This light has been tampered with.",
-	"avianDescription": "A flickering light.",
-	"floranDescription": "Broken light makesss Floran dizzy.",
-	"glitchDescription": "Concerned. This light is malfunctioning.",
-	"humanDescription": "This light's on the blink.",
-	"hylotlDescription": "An underpowered light.",
-	"nekiDescription": "This light is less boring this way.",
-	"novakidDescription": "Somethin' done boogered up this light!",
+  "apexDescription": "This light has been tampered with.",
+  "avianDescription": "A flickering light.",
+  "floranDescription": "Broken light makesss Floran dizzy.",
+  "glitchDescription": "Concerned. This light is malfunctioning.",
+  "humanDescription": "This light's on the blink.",
+  "hylotlDescription": "An underpowered light.",
+  "nekiDescription": "This light is less boring this way.",
+  "novakidDescription": "Somethin' done boogered up this light!",
 
-	"lightColor": [170, 170, 170],
-	"lightPosition": [0, 0],
-	"pointLight": true,
-	"pointBeam": 10,
-	"beamAmbience": 0.5,
+  "lightColor": [170, 170, 170],
+  "lightPosition": [0, 0],
+  "pointLight": true,
+  "pointBeam": 10,
+  "beamAmbience": 0.5,
 
-	"flickerPeriod": 0.01,
-	"flickerMinIntensity": 0.25,
-	"flickerMaxIntensity": 0.75,
-	"flickerPeriodVariance": 0.8,
-	"flickerIntensityVariance": 0.25,
+  "flickerPeriod": 0.01,
+  "flickerMinIntensity": 0.25,
+  "flickerMaxIntensity": 0.75,
+  "flickerPeriodVariance": 0.8,
+  "flickerIntensityVariance": 0.25,
 
-	"inventoryIcon": "nekitier1spotlightBrokenicon.png",
+  "inventoryIcon": "nekitier1spotlightBrokenicon.png",
 
-	"orientations": [
-		{
-			"direction": "right",
-			"fgAnchors": [[0, 0]],
-			"image": "nekitier1spotlightBrokenceiling1.png:<color>.<frame>",
-			"imagePosition": [0, 0],
-			"spaceScan": 0.01,
-			"animationParts": {
-				"bg": "nekitier1spotlightBrokenceiling1.png",
-				"fg": "/objects/tiered/tier1spotlight/tier1spotlightceiling2.png"
-			},
-			"beamAngle": 270
-		},
-		{
-			"direction": "right",
-			"anchors": ["top", "left"],
-			"image": "nekitier1spotlightBrokenceilingleft1.png:<color>.<frame>",
-			"animationParts": {
-				"bg": "nekitier1spotlightBrokenceilingleft1.png",
-				"fg": "/objects/tiered/tier1spotlight/tier1spotlightceilingleft2.png"
-			},
-			"spaceScan": 0.01,
-			"beamAngle": 315
-		},
-		{
-			"direction": "right",
-			"anchors": ["top", "right"],
-			"image": "nekitier1spotlightBrokenceilingright1.png:<color>.<frame>",
-			"animationParts": {
-				"bg": "nekitier1spotlightBrokenceilingright1.png",
-				"fg": "/objects/tiered/tier1spotlight/tier1spotlightceilingright2.png"
-			},
-			"spaceScan": 0.01,
-			"beamAngle": 225
-		},
-		{
-			"direction": "right",
-			"anchors": ["bottom", "left"],
-			"image": "nekitier1spotlightBrokengroundleft1.png:<color>.<frame>",
-			"animationParts": {
-				"bg": "nekitier1spotlightBrokengroundleft1.png",
-				"fg": "/objects/tiered/tier1spotlight/tier1spotlightgroundleft2.png"
-			},
-			"spaceScan": 0.01,
-			"beamAngle": 45
-		},
-		{
-			"direction": "right",
-			"anchors": ["bottom", "right"],
-			"image": "nekitier1spotlightBrokengroundright1.png:<color>.<frame>",
-			"animationParts": {
-				"bg": "nekitier1spotlightBrokengroundright1.png",
-				"fg": "/objects/tiered/tier1spotlight/tier1spotlightgroundright2.png"
-			},
-			"spaceScan": 0.01,
-			"beamAngle": 135
-		},
-		{
-			"direction": "right",
-			"anchors": ["top"],
-			"image": "nekitier1spotlightBrokenceiling1.png:<color>.<frame>",
-			"animationParts": {
-				"bg": "nekitier1spotlightBrokenceiling1.png",
-				"fg": "/objects/tiered/tier1spotlight/tier1spotlightceiling2.png"
-			},
-			"spaceScan": 0.01,
-			"beamAngle": 270
-		},
-		{
-			"direction": "right",
-			"anchors": ["bottom"],
-			"image": "nekitier1spotlightBrokenground1.png:<color>.<frame>",
-			"animationParts": {
-				"bg": "nekitier1spotlightBrokenground1.png",
-				"fg": "/objects/tiered/tier1spotlight/tier1spotlightground2.png"
-			},
-			"spaceScan": 0.01,
-			"beamAngle": 90
-		},
-		{
-			"direction": "right",
-			"anchors": ["left"],
-			"image": "nekitier1spotlightBrokenleft1.png:<color>.<frame>",
-			"animationParts": {
-				"bg": "nekitier1spotlightBrokenleft1.png",
-				"fg": "/objects/tiered/tier1spotlight/tier1spotlightleft2.png"
-			},
-			"spaceScan": 0.1,
-			"beamAngle": 0
-		},
-		{
-			"direction": "right",
-			"anchors": ["right"],
-			"image": "nekitier1spotlightBrokenright1.png:<color>.<frame>",
-			"animationParts": {
-				"bg": "nekitier1spotlightBrokenright1.png",
-				"fg": "/objects/tiered/tier1spotlight/tier1spotlightright2.png"
-			},
-			"spaceScan": 0.01,
-			"beamAngle": 180
-		}
-	],
+  "orientations": [
+    {
+      "direction": "right",
+      "fgAnchors": [[0, 0]],
+      "image": "nekitier1spotlightBrokenceiling1.png:<color>.<frame>",
+      "imagePosition": [0, 0],
+      "spaceScan": 0.01,
+      "animationParts": {
+        "bg": "nekitier1spotlightBrokenceiling1.png",
+        "fg": "/objects/tiered/tier1spotlight/tier1spotlightceiling2.png"
+      },
+      "beamAngle": 270
+    },
+    {
+      "direction": "right",
+      "anchors": ["top", "left"],
+      "image": "nekitier1spotlightBrokenceilingleft1.png:<color>.<frame>",
+      "animationParts": {
+        "bg": "nekitier1spotlightBrokenceilingleft1.png",
+        "fg": "/objects/tiered/tier1spotlight/tier1spotlightceilingleft2.png"
+      },
+      "spaceScan": 0.01,
+      "beamAngle": 315
+    },
+    {
+      "direction": "right",
+      "anchors": ["top", "right"],
+      "image": "nekitier1spotlightBrokenceilingright1.png:<color>.<frame>",
+      "animationParts": {
+        "bg": "nekitier1spotlightBrokenceilingright1.png",
+        "fg": "/objects/tiered/tier1spotlight/tier1spotlightceilingright2.png"
+      },
+      "spaceScan": 0.01,
+      "beamAngle": 225
+    },
+    {
+      "direction": "right",
+      "anchors": ["bottom", "left"],
+      "image": "nekitier1spotlightBrokengroundleft1.png:<color>.<frame>",
+      "animationParts": {
+        "bg": "nekitier1spotlightBrokengroundleft1.png",
+        "fg": "/objects/tiered/tier1spotlight/tier1spotlightgroundleft2.png"
+      },
+      "spaceScan": 0.01,
+      "beamAngle": 45
+    },
+    {
+      "direction": "right",
+      "anchors": ["bottom", "right"],
+      "image": "nekitier1spotlightBrokengroundright1.png:<color>.<frame>",
+      "animationParts": {
+        "bg": "nekitier1spotlightBrokengroundright1.png",
+        "fg": "/objects/tiered/tier1spotlight/tier1spotlightgroundright2.png"
+      },
+      "spaceScan": 0.01,
+      "beamAngle": 135
+    },
+    {
+      "direction": "right",
+      "anchors": ["top"],
+      "image": "nekitier1spotlightBrokenceiling1.png:<color>.<frame>",
+      "animationParts": {
+        "bg": "nekitier1spotlightBrokenceiling1.png",
+        "fg": "/objects/tiered/tier1spotlight/tier1spotlightceiling2.png"
+      },
+      "spaceScan": 0.01,
+      "beamAngle": 270
+    },
+    {
+      "direction": "right",
+      "anchors": ["bottom"],
+      "image": "nekitier1spotlightBrokenground1.png:<color>.<frame>",
+      "animationParts": {
+        "bg": "nekitier1spotlightBrokenground1.png",
+        "fg": "/objects/tiered/tier1spotlight/tier1spotlightground2.png"
+      },
+      "spaceScan": 0.01,
+      "beamAngle": 90
+    },
+    {
+      "direction": "right",
+      "anchors": ["left"],
+      "image": "nekitier1spotlightBrokenleft1.png:<color>.<frame>",
+      "animationParts": {
+        "bg": "nekitier1spotlightBrokenleft1.png",
+        "fg": "/objects/tiered/tier1spotlight/tier1spotlightleft2.png"
+      },
+      "spaceScan": 0.1,
+      "beamAngle": 0
+    },
+    {
+      "direction": "right",
+      "anchors": ["right"],
+      "image": "nekitier1spotlightBrokenright1.png:<color>.<frame>",
+      "animationParts": {
+        "bg": "nekitier1spotlightBrokenright1.png",
+        "fg": "/objects/tiered/tier1spotlight/tier1spotlightright2.png"
+      },
+      "spaceScan": 0.01,
+      "beamAngle": 180
+    }
+  ],
 
-	"animation": "/objects/wired/light/lighttogglebgfullbright.animation",
-	"animationParts": {
-		"bg": "nekitier1spotlightBrokenceiling1.png",
-		"fg": "/objects/tiered/tier1spotlight/tier1spotlightceiling2.png"
-	},
+  "animation": "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts": {
+    "bg": "nekitier1spotlightBrokenceiling1.png",
+    "fg": "/objects/tiered/tier1spotlight/tier1spotlightceiling2.png"
+  },
 
-	"soundEffect": "/sfx/objects/fluorescent_light_quiet.ogg",
-	"soundEffectRangeMultiplier": 0.5,
+  "soundEffect": "/sfx/objects/fluorescent_light_quiet.ogg",
+  "soundEffectRangeMultiplier": 0.5,
 
-	"scripts": ["/objects/wired/light/light.lua"],
-	"scriptDelta": 60
+  "scripts": ["/objects/wired/light/light.lua"],
+  "scriptDelta": 60
 }

@@ -1,0 +1,9 @@
+{
+  "input": [
+    {"item": "diamond", "count": 2},
+    {"item": "silverbar", "count": 1}
+  ],
+
+  "output": {"item": "nekitiara", "count": 1},
+  "groups": ["nekiwheel", "clothes"]
+}

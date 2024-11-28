@@ -1,89 +1,89 @@
 [
-	{"op": "add", "path": "/scriptConfig/dialog/tonauac/start/default/neki",
-		"value": [
-			"Oh!... A visitor!\nHow wonderful!",
-			"Welcome to the temple!\nIt's lovely to have you here.",
-			"I'm ^orange;Tonauac^reset;, the\ntemple caretaker.",
-			"Are you by chance.. a Neki?",
-			"I've never seen your kind\nbefore, only heard the stories...",
-			"Avians tell tales of Neki being vile, vicious and terrifying...",
-			"Yet here YOU are, so\nadorable I could squeal!",
-			"Those huge fluffy ears\nand fuzzy tail are just..\ngorgeous!",
-			"May I pe.. ahem, right,\nuhm.. caretaking!",
-			"Are you here to learn about our wondrous god Kluex?",
-			"I'd be very pleased to\nshow you around.",
-			"One thing though, please don't touch anything.",
-			"You see, we've had problems with theft in the past.",
-			"I believe you wouldn't\nfathom taking anything,\nbut...",
-			"Not everyone is\nas trustworthy.\nIt's quite upsetting."
-		]
-	},
+  {"op": "add", "path": "/scriptConfig/dialog/tonauac/start/default/neki",
+    "value": [
+      "Oh!... A visitor!\nHow wonderful!",
+      "Welcome to the temple!\nIt's lovely to have you here.",
+      "I'm ^orange;Tonauac^reset;, the\ntemple caretaker.",
+      "Are you by chance.. a Neki?",
+      "I've never seen your kind\nbefore, only heard the stories...",
+      "Avians tell tales of Neki being vile, vicious and terrifying...",
+      "Yet here YOU are, so\nadorable I could squeal!",
+      "Those huge fluffy ears\nand fuzzy tail are just..\ngorgeous!",
+      "May I pe.. ahem, right,\nuhm.. caretaking!",
+      "Are you here to learn about our wondrous god Kluex?",
+      "I'd be very pleased to\nshow you around.",
+      "One thing though, please don't touch anything.",
+      "You see, we've had problems with theft in the past.",
+      "I believe you wouldn't\nfathom taking anything,\nbut...",
+      "Not everyone is\nas trustworthy.\nIt's quite upsetting."
+    ]
+  },
 
-	{"op": "add", "path": "/scriptConfig/dialog/tonauac/continue/default/neki",
-		"value": [
-			"Please do come in!\nMind your ears, and your\ntail, and your.. self.",
-			"It can be a bit\ndangerous in here."
-		]
-	},
+  {"op": "add", "path": "/scriptConfig/dialog/tonauac/continue/default/neki",
+    "value": [
+      "Please do come in!\nMind your ears, and your\ntail, and your.. self.",
+      "It can be a bit\ndangerous in here."
+    ]
+  },
 
-	{"op": "add", "path": "/scriptConfig/dialog/tonauac/statueDescription/default/neki",
-		"value": [
-			"This is a statue of\nan old Avian warrior!\nThese are his spears...",
-			"He doesn't use them\nanymore, because,\num, he's dead."
-		]
-	},
+  {"op": "add", "path": "/scriptConfig/dialog/tonauac/statueDescription/default/neki",
+    "value": [
+      "This is a statue of\nan old Avian warrior!\nThese are his spears...",
+      "He doesn't use them\nanymore, because,\num, he's dead."
+    ]
+  },
 
-	{"op": "add", "path": "/scriptConfig/dialog/tonauac/endTour/default/neki",
-		"value": [
-			"Well, I hope you enjoyed the tour! Please feel free to tippy-toe around on your cute little paws..",
-			"Sadly, this is as far as visitors are allowed,\neven ones as adorable\nas yourself!",
-			"There's lovely items in the chambers above, then you leave by coming back this way. Let me get the door."
-		]
-	},
+  {"op": "add", "path": "/scriptConfig/dialog/tonauac/endTour/default/neki",
+    "value": [
+      "Well, I hope you enjoyed the tour! Please feel free to tippy-toe around on your cute little paws..",
+      "Sadly, this is as far as visitors are allowed,\neven ones as adorable\nas yourself!",
+      "There's lovely items in the chambers above, then you leave by coming back this way. Let me get the door."
+    ]
+  },
 
-	{"op": "add", "path": "/scriptConfig/dialog/tonauac/feelingTired/default/neki",
-		"value": [
-			"PLEASE don't try and go further in, I figure you might be curious, but it's just too dangerous...",
-			"Mm, so nice to finally meet a real Neki. But these tours are... A bit... Tiring..."
-		]
-	},
+  {"op": "add", "path": "/scriptConfig/dialog/tonauac/feelingTired/default/neki",
+    "value": [
+      "PLEASE don't try and go further in, I figure you might be curious, but it's just too dangerous...",
+      "Mm, so nice to finally meet a real Neki. But these tours are... A bit... Tiring..."
+    ]
+  },
 
-	{"op": "add", "path": "/scriptConfig/dialog/tonauac/doorGreeting/default/neki",
-		"value": [
-			"Oh you silly little fluffball!\nI knew I shouldn't have let you out of my sight!",
-			"You had me worried sick!\nThis place is incredibly dangerous!",
-			"What even IS this place..? I've never been this far\ninto the temple before.",
-			"Are we... lost? Not to worry, with your sharp senses we'll find a way out in no time!"
-		]
-	},
+  {"op": "add", "path": "/scriptConfig/dialog/tonauac/doorGreeting/default/neki",
+    "value": [
+      "Oh you silly little fluffball!\nI knew I shouldn't have let you out of my sight!",
+      "You had me worried sick!\nThis place is incredibly dangerous!",
+      "What even IS this place..? I've never been this far\ninto the temple before.",
+      "Are we... lost? Not to worry, with your sharp senses we'll find a way out in no time!"
+    ]
+  },
 
-	{"op": "add", "path": "/scriptConfig/dialog/tonauac/doorOpened/default/neki",
-		"value": [
-			"There's this door here...\nI can't fit through it, but\nI'm sure you will.",
-			"You have a check around through there, and I'll\nhunt about for an exit\non this side.",
-			"Please be very careful, as\nI can't protect my fluffy little guest in there!"
-		]
-	},
+  {"op": "add", "path": "/scriptConfig/dialog/tonauac/doorOpened/default/neki",
+    "value": [
+      "There's this door here...\nI can't fit through it, but\nI'm sure you will.",
+      "You have a check around through there, and I'll\nhunt about for an exit\non this side.",
+      "Please be very careful, as\nI can't protect my fluffy little guest in there!"
+    ]
+  },
 
-	{"op": "add", "path": "/scriptConfig/dialog/tonauac/giveRelic/default/neki",
-		"value": [
-			"I knew it!\nI see what's going on here!",
-			"You were led to the artifact by Kluex himself!",
-			"This Avolite crystal artifact is very precious, as it holds fragments of Kluex's will.",
-			"You've come all this way just to play with a shiny thingy, but...",
-			"...you must not even realize the significance it-",
-			"Why are you making those huge, deep, irresistible eyes?",
-			"Oh almighty deity, is this a test of will.. or a sign?",
-			"A sign that this artifact belongs with.. you?",
-			"No - Kluex knows of my dedication! You're clearly a part of his divine plan.",
-			"And surely he brought ME here to join you, and get to play with your fluffy litt...",
-			"Ahem, I mean - help you, of course!"
-		]
-	},
+  {"op": "add", "path": "/scriptConfig/dialog/tonauac/giveRelic/default/neki",
+    "value": [
+      "I knew it!\nI see what's going on here!",
+      "You were led to the artifact by Kluex himself!",
+      "This Avolite crystal artifact is very precious, as it holds fragments of Kluex's will.",
+      "You've come all this way just to play with a shiny thingy, but...",
+      "...you must not even realize the significance it-",
+      "Why are you making those huge, deep, irresistible eyes?",
+      "Oh almighty deity, is this a test of will.. or a sign?",
+      "A sign that this artifact belongs with.. you?",
+      "No - Kluex knows of my dedication! You're clearly a part of his divine plan.",
+      "And surely he brought ME here to join you, and get to play with your fluffy litt...",
+      "Ahem, I mean - help you, of course!"
+    ]
+  },
 
-	{"op": "add", "path": "/scriptConfig/dialog/tonauac/end/default/neki",
-		"value": [
-			"A teleporter! It's a sign\nfrom Kluex that I must come\nwith you! He's so kind and wonderful."
-		]
-	}
+  {"op": "add", "path": "/scriptConfig/dialog/tonauac/end/default/neki",
+    "value": [
+      "A teleporter! It's a sign\nfrom Kluex that I must come\nwith you! He's so kind and wonderful."
+    ]
+  }
 ]

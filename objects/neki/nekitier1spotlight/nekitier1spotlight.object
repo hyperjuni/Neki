@@ -1,146 +1,146 @@
 {
-	"objectName": "nekitier1spotlight",
-	"category": "light",
-	"rarity": "Common",
-	"price": 20,
-	"race": "neki",
-	"tooltipKind": "nekibase",
-	"colonyTags": [
-		"neki",
-		"tier1",
-		"light"
-	],
+  "objectName": "nekitier1spotlight",
+  "category": "light",
+  "rarity": "Common",
+  "price": 20,
+  "race": "neki",
+  "tooltipKind": "nekibase",
+  "colonyTags": [
+    "neki",
+    "tier1",
+    "light"
+  ],
 
-	"interactive": false,
-	"inputNodes": [[0, 0]],
+  "interactive": false,
+  "inputNodes": [[0, 0]],
 
-	"shortdescription": "MK Stealth Ship Spotlight",
-	"description": "This soft light is useful for illuminating small areas.",
+  "shortdescription": "Miniknog Shiplight",
+  "description": "This soft light is useful for illuminating small areas.",
 
-	"apexDescription": "Such spotlights are used by the Miniknog to force people to talk. Spotlights, and worse...",
-	"avianDescription": "A soft light.",
-	"floranDescription": "Floran feelss like centre of attention.",
-	"glitchDescription": "Stealthy. By analysing this floodlight's patterns, it would be easy to sneak around it.",
-	"humanDescription": "I've always wanted to be in the spotlight.",
-	"hylotlDescription": "A pleasant, soft light.",
-	"nekiDescription": "A way to shed some light on things.",
-	"novakidDescription": "This light is nearly as bright as me!",
+  "apexDescription": "Such spotlights are used by the Miniknog to force people to talk. Spotlights, and worse...",
+  "avianDescription": "A soft light.",
+  "floranDescription": "Floran feelss like centre of attention.",
+  "glitchDescription": "Stealthy. By analysing this floodlight's patterns, it would be easy to sneak around it.",
+  "humanDescription": "I've always wanted to be in the spotlight.",
+  "hylotlDescription": "A pleasant, soft light.",
+  "nekiDescription": "A way to shed some light on things.",
+  "novakidDescription": "This light is nearly as bright as me!",
 
-	"lightColor": [220, 220, 220],
-	"lightPosition": [0, 0],
-	"pointLight": true,
-	"pointBeam": 10,
-	"beamAmbience": 0.5,
+  "lightColor": [220, 220, 220],
+  "lightPosition": [0, 0],
+  "pointLight": true,
+  "pointBeam": 10,
+  "beamAmbience": 0.5,
 
-	"inventoryIcon": "/objects/tiered/tier1spotlight/tier1spotlighticon.png",
-	"orientations": [
-		{
-			"direction": "right",
-			"fgAnchors": [[0, 0]],
-			"image": "/objects/tiered/tier1spotlight/tier1spotlightceiling1.png:<color>.<frame>",
-			"spaceScan": 0.01,
-			"animationParts": {
-				"bg": "/objects/tiered/tier1spotlight/tier1spotlightceiling1.png",
-				"fg": "/objects/tiered/tier1spotlight/tier1spotlightceiling2.png"
-			},
-			"beamAngle": 270
-		},
-		{
-			"direction": "right",
-			"anchors": ["top", "left"],
-			"image": "/objects/tiered/tier1spotlight/tier1spotlightceilingleft1.png:<color>.<frame>",
-			"spaceScan": 0.01,
-			"animationParts": {
-				"bg": "/objects/tiered/tier1spotlight/tier1spotlightceilingleft1.png",
-				"fg": "/objects/tiered/tier1spotlight/tier1spotlightceilingleft2.png"
-			},
-			"beamAngle": 315
-		},
-		{
-			"direction": "right",
-			"anchors": ["top", "right"],
-			"image": "/objects/tiered/tier1spotlight/tier1spotlightceilingright1.png:<color>.<frame>",
-			"spaceScan": 0.01,
-			"animationParts": {
-				"bg": "/objects/tiered/tier1spotlight/tier1spotlightceilingright1.png",
-				"fg": "/objects/tiered/tier1spotlight/tier1spotlightceilingright2.png"
-			},
-			"beamAngle": 225
-		},
-		{
-			"direction": "right",
-			"anchors": ["bottom", "left"],
-			"image": "/objects/tiered/tier1spotlight/tier1spotlightgroundleft1.png:<color>.<frame>",
-			"spaceScan": 0.01,
-			"animationParts": {
-				"bg": "/objects/tiered/tier1spotlight/tier1spotlightgroundleft1.png",
-				"fg": "/objects/tiered/tier1spotlight/tier1spotlightgroundleft2.png"
-			},
-			"beamAngle": 45
-		},
-		{
-			"direction": "right",
-			"anchors": ["bottom", "right"],
-			"image": "/objects/tiered/tier1spotlight/tier1spotlightgroundright1.png:<color>.<frame>",
-			"spaceScan": 0.01,
-			"animationParts": {
-				"bg": "/objects/tiered/tier1spotlight/tier1spotlightgroundright1.png",
-				"fg": "/objects/tiered/tier1spotlight/tier1spotlightgroundright2.png"
-			},
-			"beamAngle": 135
-		},
-		{
-			"direction": "right",
-			"anchors": ["top"],
-			"image": "/objects/tiered/tier1spotlight/tier1spotlightceiling1.png:<color>.<frame>",
-			"spaceScan": 0.01,
-			"animationParts": {
-				"bg": "/objects/tiered/tier1spotlight/tier1spotlightceiling1.png",
-				"fg": "/objects/tiered/tier1spotlight/tier1spotlightceiling2.png"
-			},
-			"beamAngle": 270
-		},
-		{
-			"direction": "right",
-			"anchors": ["bottom"],
-			"image": "/objects/tiered/tier1spotlight/tier1spotlightground1.png:<color>.<frame>",
-			"spaceScan": 0.01,
-			"animationParts": {
-				"bg": "/objects/tiered/tier1spotlight/tier1spotlightground1.png",
-				"fg": "/objects/tiered/tier1spotlight/tier1spotlightground2.png"
-			},
-			"beamAngle": 90
-		},
-		{
-			"direction": "right",
-			"anchors": ["left"],
-			"image": "/objects/tiered/tier1spotlight/tier1spotlightleft1.png:<color>.<frame>",
-			"spaceScan": 0.1,
-			"animationParts": {
-				"bg": "/objects/tiered/tier1spotlight/tier1spotlightleft1.png",
-				"fg": "/objects/tiered/tier1spotlight/tier1spotlightleft2.png"
-			},
-			"beamAngle": 0
-		},
-		{
-			"direction": "right",
-			"anchors": ["right"],
-			"image": "/objects/tiered/tier1spotlight/tier1spotlightright1.png:<color>.<frame>",
-			"spaceScan": 0.01,
-			"animationParts": {
-				"bg": "/objects/tiered/tier1spotlight/tier1spotlightright1.png",
-				"fg": "/objects/tiered/tier1spotlight/tier1spotlightright2.png"
-			},
-			"beamAngle": 180
-		}
-	],
+  "inventoryIcon": "/objects/tiered/tier1spotlight/tier1spotlighticon.png",
+  "orientations": [
+    {
+      "direction": "right",
+      "fgAnchors": [[0, 0]],
+      "image": "/objects/tiered/tier1spotlight/tier1spotlightceiling1.png:<color>.<frame>",
+      "spaceScan": 0.01,
+      "animationParts": {
+        "bg": "/objects/tiered/tier1spotlight/tier1spotlightceiling1.png",
+        "fg": "/objects/tiered/tier1spotlight/tier1spotlightceiling2.png"
+      },
+      "beamAngle": 270
+    },
+    {
+      "direction": "right",
+      "anchors": ["top", "left"],
+      "image": "/objects/tiered/tier1spotlight/tier1spotlightceilingleft1.png:<color>.<frame>",
+      "spaceScan": 0.01,
+      "animationParts": {
+        "bg": "/objects/tiered/tier1spotlight/tier1spotlightceilingleft1.png",
+        "fg": "/objects/tiered/tier1spotlight/tier1spotlightceilingleft2.png"
+      },
+      "beamAngle": 315
+    },
+    {
+      "direction": "right",
+      "anchors": ["top", "right"],
+      "image": "/objects/tiered/tier1spotlight/tier1spotlightceilingright1.png:<color>.<frame>",
+      "spaceScan": 0.01,
+      "animationParts": {
+        "bg": "/objects/tiered/tier1spotlight/tier1spotlightceilingright1.png",
+        "fg": "/objects/tiered/tier1spotlight/tier1spotlightceilingright2.png"
+      },
+      "beamAngle": 225
+    },
+    {
+      "direction": "right",
+      "anchors": ["bottom", "left"],
+      "image": "/objects/tiered/tier1spotlight/tier1spotlightgroundleft1.png:<color>.<frame>",
+      "spaceScan": 0.01,
+      "animationParts": {
+        "bg": "/objects/tiered/tier1spotlight/tier1spotlightgroundleft1.png",
+        "fg": "/objects/tiered/tier1spotlight/tier1spotlightgroundleft2.png"
+      },
+      "beamAngle": 45
+    },
+    {
+      "direction": "right",
+      "anchors": ["bottom", "right"],
+      "image": "/objects/tiered/tier1spotlight/tier1spotlightgroundright1.png:<color>.<frame>",
+      "spaceScan": 0.01,
+      "animationParts": {
+        "bg": "/objects/tiered/tier1spotlight/tier1spotlightgroundright1.png",
+        "fg": "/objects/tiered/tier1spotlight/tier1spotlightgroundright2.png"
+      },
+      "beamAngle": 135
+    },
+    {
+      "direction": "right",
+      "anchors": ["top"],
+      "image": "/objects/tiered/tier1spotlight/tier1spotlightceiling1.png:<color>.<frame>",
+      "spaceScan": 0.01,
+      "animationParts": {
+        "bg": "/objects/tiered/tier1spotlight/tier1spotlightceiling1.png",
+        "fg": "/objects/tiered/tier1spotlight/tier1spotlightceiling2.png"
+      },
+      "beamAngle": 270
+    },
+    {
+      "direction": "right",
+      "anchors": ["bottom"],
+      "image": "/objects/tiered/tier1spotlight/tier1spotlightground1.png:<color>.<frame>",
+      "spaceScan": 0.01,
+      "animationParts": {
+        "bg": "/objects/tiered/tier1spotlight/tier1spotlightground1.png",
+        "fg": "/objects/tiered/tier1spotlight/tier1spotlightground2.png"
+      },
+      "beamAngle": 90
+    },
+    {
+      "direction": "right",
+      "anchors": ["left"],
+      "image": "/objects/tiered/tier1spotlight/tier1spotlightleft1.png:<color>.<frame>",
+      "spaceScan": 0.1,
+      "animationParts": {
+        "bg": "/objects/tiered/tier1spotlight/tier1spotlightleft1.png",
+        "fg": "/objects/tiered/tier1spotlight/tier1spotlightleft2.png"
+      },
+      "beamAngle": 0
+    },
+    {
+      "direction": "right",
+      "anchors": ["right"],
+      "image": "/objects/tiered/tier1spotlight/tier1spotlightright1.png:<color>.<frame>",
+      "spaceScan": 0.01,
+      "animationParts": {
+        "bg": "/objects/tiered/tier1spotlight/tier1spotlightright1.png",
+        "fg": "/objects/tiered/tier1spotlight/tier1spotlightright2.png"
+      },
+      "beamAngle": 180
+    }
+  ],
 
-	"animation": "/objects/wired/light/lighttogglebgfullbright.animation",
-	"animationParts": {
-		"bg": "/objects/tiered/tier1spotlight/tier1spotlightceiling1.png",
-		"fg": "/objects/tiered/tier1spotlight/tier1spotlightceiling2.png"
-	},
+  "animation": "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts": {
+    "bg": "/objects/tiered/tier1spotlight/tier1spotlightceiling1.png",
+    "fg": "/objects/tiered/tier1spotlight/tier1spotlightceiling2.png"
+  },
 
-	"scripts": ["/objects/wired/light/light.lua"],
-	"scriptDelta": 60
+  "scripts": ["/objects/wired/light/light.lua"],
+  "scriptDelta": 60
 }

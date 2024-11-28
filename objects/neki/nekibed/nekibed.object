@@ -1,57 +1,57 @@
 {
-	"objectName": "nekibed",
-	"objectType": "loungeable",
-	"category": "furniture",
-	"rarity": "Common",
-	"price": 100,
-	"race": "neki",
-	"printable": false,
-	"tooltipKind": "nekibase",
-	"colonyTags": ["neki"],
+  "objectName": "nekibed",
+  "objectType": "loungeable",
+  "category": "furniture",
+  "rarity": "Common",
+  "price": 100,
+  "race": "neki",
+  "printable": false,
+  "tooltipKind": "nekibase",
+  "colonyTags": ["neki"],
 
-	"shortdescription": "Neki Basic Bed",
-	"description": "A beat-up box with scratches and fur all over, filled with crudely-made pillows.",
+  "shortdescription": "Neki Basic Bed",
+  "description": "A beat-up box with scratches and fur all over, filled with crudely-made pillows.",
 
-	"apexDescription": "An unappealing cardboard box with an odd smell.",
-	"avianDescription": "A fairly large cardboard box with some bitemarks.",
-	"floranDescription": "Box is good hiding place, and cozy inssside.",
-	"glitchDescription": "Intrigued. This box is in disrepair, but looks like it's being actively used.",
-	"humanDescription": "A busted smelly cardboard box. Looks like it's seen better days.",
-	"hylotlDescription": "A suspiciously warm cardboard box. Looks like it's being used as shelter by an animal.",
-	"nekiDescription": "I fits and I sleeps.",
-	"novakidDescription": "A flimsy ol' box full o' pillows.",
+  "apexDescription": "An unappealing cardboard box with an odd smell.",
+  "avianDescription": "A fairly large cardboard box with some bitemarks.",
+  "floranDescription": "Box is good hiding place, and cozy inssside.",
+  "glitchDescription": "Intrigued. This box is in disrepair, but looks like it's being actively used.",
+  "humanDescription": "A busted smelly cardboard box. Looks like it's seen better days.",
+  "hylotlDescription": "A suspiciously warm cardboard box. Looks like it's being used as shelter by an animal.",
+  "nekiDescription": "I fits and I sleeps.",
+  "novakidDescription": "A flimsy ol' box full o' pillows.",
 
-	"inventoryIcon": "nekibedicon.png",
+  "inventoryIcon": "nekibedicon.png",
 
-	"orientations": [
-		{
-			"direction": "left",
-			"anchors": ["bottom"],
-			"image": "nekibed.png",
-			"imagePosition": [0, 0],
-			"spaceScan": 0.1,
-			"sitPosition": [-10, 20]
-		},
-		{
-			"direction": "right",
-			"anchors": ["bottom"],
-			"image": "nekibed.png",
-			"imagePosition": [0, 0],
-			"flipImages": true,
-			"spaceScan": 0.1,
-			"sitPosition": [14, 20]
-		}
-	],
+  "orientations": [
+    {
+      "direction": "left",
+      "anchors": ["bottom"],
+      "image": "nekibed.png",
+      "imagePosition": [0, 0],
+      "spaceScan": 0.1,
+      "sitPosition": [-10, 20]
+    },
+    {
+      "direction": "right",
+      "anchors": ["bottom"],
+      "image": "nekibed.png",
+      "imagePosition": [0, 0],
+      "flipImages": true,
+      "spaceScan": 0.1,
+      "sitPosition": [14, 20]
+    }
+  ],
 
-	"sitCoverImage": "/objects/neki/nekibed/nekibedcover.png",
-	"sitOrientation": "sit",
-	//"sitAngle": -10,
-	"sitEmote": "sleep",
-	"sitEffectEmitters": ["sleepbubbles"],
-	"sitStatusEffects": [
-		"bed2",
-		"nekibedgetin",
-		"nekihidebed",
-		"nekipurr"
-	]
+  "sitCoverImage": "/objects/neki/nekibed/nekibedcover.png",
+  "sitOrientation": "sit",
+  //"sitAngle": -10,
+  "sitEmote": "sleep",
+  "sitEffectEmitters": ["sleepbubbles"],
+  "sitStatusEffects": [
+    "bed2",
+    "nekibedgetin",
+    "nekihidebed",
+    "nekipurr"
+  ]
 }

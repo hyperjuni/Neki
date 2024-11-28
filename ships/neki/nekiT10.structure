@@ -1,23 +1,23 @@
 {
-	"config": {
-		"shipUpgrades": {
-			"capabilities": ["teleport", "planetTravel", "systemTravel"],
-			"crewSize": 16
-		}
-	},
+  "config": {
+    "shipUpgrades": {
+      "capabilities": ["teleport", "planetTravel", "systemTravel"],
+      "crewSize": 16
+    }
+  },
 
-	"backgroundOverlays": [
-		{
-			"image": "apexT10.png",
-			"position": [0, 0],
-			"fullbright": true
-		},
-		{
-			"image": "apexT10lit.png",
-			"position": [0, 0]
-		}
-	],
+  "backgroundOverlays": [
+    {
+      "image": "apexT10.png",
+      "position": [0, 0],
+      "fullbright": true
+    },
+    {
+      "image": "apexT10lit.png",
+      "position": [0, 0]
+    }
+  ],
 
-	"blockKey": "blockKey.config:blockKey",
-	"blockImage": "apexT10blocks.png"
+  "blockKey": "blockKey.config:blockKey",
+  "blockImage": "apexT10blocks.png"
 }

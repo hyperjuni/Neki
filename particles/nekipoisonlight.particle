@@ -1,6 +1,6 @@
 {
-	"kind": "nekipoisonlight",
-	"definition": {
-		"light": [68, 149, 52, 255]
-	}
+  "kind": "nekipoisonlight",
+  "definition": {
+    "light": [68, 149, 52, 255]
+  }
 }

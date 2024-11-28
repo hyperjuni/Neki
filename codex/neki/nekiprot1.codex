@@ -1,9 +1,9 @@
 {
-	"id": "nekiprot1",
-	"title": "Terrene Protectorate Field Guide",
-	"description": "This book has been provided to offer some useful advice for newly graduated Protectors.",
-	"icon": "protectoratecover1.png",
-	"contentPages": [
+  "id": "nekiprot1",
+  "title": "Terrene Protectorate Field Guide",
+  "description": "This book has been provided to offer some useful advice for newly graduated Protectors.",
+  "icon": "protectoratecover1.png",
+  "contentPages": [
 "Welcome, new Protector! 
 
 ^cyan;The^reset; first thing we'd like to say is 'do not panic' - you've trained for this ^cyan;mission^reset; for years, and wouldn't have graduated without earning the distinction that ^cyan;comes^reset; with doing so.
@@ -25,10 +25,10 @@
 
 And remember, graduate - wherever you may go, you will always have Earth to come home to."
 
-	],
+  ],
 
-	"itemConfig": {
-		"rarity": "common",
-		"price": 25
-	}
+  "itemConfig": {
+    "rarity": "common",
+    "price": 25
+  }
 }

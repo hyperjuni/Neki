@@ -1,55 +1,55 @@
 {
-	"objectName": "nekitechstationTier0",
-	"uniqueId": "techstation",
-	"category": "decorative",
-	"rarity": "Common",
-	"race": "neki",
-	"printable": false,
-	"tooltipKind": "nekibase",
-	"colonyTags": ["neki"],
+  "objectName": "nekitechstationTier0",
+  "uniqueId": "techstation",
+  "category": "decorative",
+  "rarity": "Common",
+  "race": "neki",
+  "printable": false,
+  "tooltipKind": "nekibase",
+  "colonyTags": ["neki"],
 
-	"interactAction": "OpenAiInterface",
-	"offeredQuests": ["gaterepair"],
+  "interactAction": "OpenAiInterface",
+  "offeredQuests": ["gaterepair"],
 
-	"shortdescription": "S.A.I.L",
-	"description": "Ship-based Artificial Intelligence Lattice, or S.A.I.L for short.",
+  "shortdescription": "S.A.I.L",
+  "description": "Ship-based Artificial Intelligence Lattice, or S.A.I.L for short.",
 
-	"flickerDistance": 1.0,
-	"flickerStrength": 0.05,
-	"flickerTiming": 8,
+  "flickerDistance": 1.0,
+  "flickerStrength": 0.05,
+  "flickerTiming": 8,
 
-	"apexDescription": "When it's working, I can talk to SAIL through this console.",
-	"avianDescription": "Rebooting this station should enable me to talk to SAIL.",
-	"floranDescription": "Floran fix thisss panel to wake ship up!",
-	"glitchDescription": "Distressed. I first need to reboot this station to communicate with SAIL.",
-	"humanDescription": "If I can reboot this station SAIL should come back online!",
-	"hylotlDescription": "This console will allow me to communicate with SAIL. I need to reboot it first.",
-	"nekiDescription": "No wonder we're stuck, SAIL is broken!",
-	"novakidDescription": "Time to reboot this station so I can talk to SAIL.",
+  "apexDescription": "When it's working, I can talk to SAIL through this console.",
+  "avianDescription": "Rebooting this station should enable me to talk to SAIL.",
+  "floranDescription": "Floran fix thisss panel to wake ship up!",
+  "glitchDescription": "Distressed. I first need to reboot this station to communicate with SAIL.",
+  "humanDescription": "If I can reboot this station SAIL should come back online!",
+  "hylotlDescription": "This console will allow me to communicate with SAIL. I need to reboot it first.",
+  "nekiDescription": "No wonder we're stuck, SAIL is broken!",
+  "novakidDescription": "Time to reboot this station so I can talk to SAIL.",
 
-	"inventoryIcon": "nekirecordplayericonTier0.png",
+  "inventoryIcon": "nekirecordplayericonTier0.png",
 
-	"lightColor": [77, 111, 128],
-	"lightPosition": [-1, 0],
+  "lightColor": [77, 111, 128],
+  "lightPosition": [-1, 0],
 
-	"orientations": [
-		{
-			"anchors": ["background"],
-			"imageLayers": [
-				{"image": "nekitechstationTier0.png:<color>.<frame>", "fullbright": true},
-				{"image": "nekitechstationlitTier0.png:<color>.<frame>"}
-			],
-			"imagePosition": [-16, -8],
-			"spaceScan": 0.1,
+  "orientations": [
+    {
+      "anchors": ["background"],
+      "imageLayers": [
+        {"image": "nekitechstationTier0.png:<color>.<frame>", "fullbright": true},
+        {"image": "nekitechstationlitTier0.png:<color>.<frame>"}
+      ],
+      "imagePosition": [-16, -8],
+      "spaceScan": 0.1,
 
-			"frames": 8,
-			"animationCycle": 1.0
-		}
-	],
+      "frames": 8,
+      "animationCycle": 1.0
+    }
+  ],
 
-	"animation": "/objects/ship/techstation.animation",
-	"scripts": ["nekitechstationTier0.lua"],
-	"scriptDelta": 20,
+  "animation": "/objects/ship/techstation.animation",
+  "scripts": ["nekitechstationTier0.lua"],
+  "scriptDelta": 20,
 
-	"chatPortrait": "/ai/portraits/nekiportrait.png:yell.1"
+  "chatPortrait": "/ai/portraits/nekiportrait.png:yell.1"
 }

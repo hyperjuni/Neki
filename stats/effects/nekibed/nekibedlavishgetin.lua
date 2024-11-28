@@ -1,3 +1,3 @@
 function init()
-	animator.playSound("nekibedlavishgetin", 0)
+  animator.playSound("nekibedlavishgetin", 0)
 end

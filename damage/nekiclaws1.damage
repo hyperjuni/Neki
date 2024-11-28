@@ -1,110 +1,110 @@
 {
-	"kind": "nekiclaws1",
-	"effects": {
-		"organic": {
-			"hit": {
-				"sounds": ["/sfx/gun/shotgun_hit_organic.ogg"],
-				"particles": [[]]
-			},
-			"stronghit": {
-				"sounds": ["/sfx/melee/critical_hit_light.ogg"],
-				"particles": [[]]
-			},
-			"kill": {
-				"sounds": ["/sfx/gun/shotgun_kill_organic.ogg"],
-				"particles": [[]]
-			}
-		},
-		"robotic": {
-			"hit": {
-				"sounds": [
-					"/sfx/melee/fist_hit_metal1_quiet.ogg",
-					"/sfx/melee/fist_hit_metal2_quiet.ogg",
-					"/sfx/melee/fist_hit_metal3_quiet.ogg",
-					"/sfx/melee/fist_hit_metal4_quiet.ogg",
-					"/sfx/melee/fist_hit_metal5_quiet.ogg",
-					"/sfx/melee/fist_hit_metal6_quiet.ogg"
-				],
-				"particles": [[]]
-			},
-			"stronghit": {
-				"sounds": [
-					"/sfx/melee/fist_stronghit_metal1.ogg",
-					"/sfx/melee/fist_stronghit_metal2.ogg",
-					"/sfx/melee/fist_stronghit_metal3.ogg",
-					"/sfx/melee/fist_stronghit_metal4.ogg",
-					"/sfx/melee/fist_stronghit_metal5.ogg",
-					"/sfx/melee/fist_stronghit_metal6.ogg"
-				],
-				"particles": [[]]
-			},
-			"kill": {
-				"sounds": [
-					"/sfx/melee/kill_robotic1.ogg",
-					"/sfx/melee/kill_robotic2.ogg",
-					"/sfx/melee/kill_robotic3.ogg"
-				],
-			"particles": [[]]
-			}
-		},
-		"wooden": {
-			"hit": {
-				"sounds": [
-					"/sfx/gun/shotgun_hit_wood1.ogg",
-					"/sfx/gun/shotgun_hit_wood2.ogg",
-					"/sfx/gun/shotgun_hit_wood3.ogg"
-				],
-				"particles": [[]]
-			},
-			"stronghit": {
-				"sounds": [
-					"/sfx/melee/fist_stronghit_wood1.ogg",
-					"/sfx/melee/fist_stronghit_wood2.ogg",
-					"/sfx/melee/fist_stronghit_wood3.ogg"
-				],
-				"particles": [[]]
-			},
-			"kill": {
-				"sounds": [
-					"/sfx/gun/shotgun_kill_wood1.ogg",
-					"/sfx/gun/shotgun_kill_wood2.ogg"
-				],
-				"particles": [[]]
-			}
-		},
-		"stone": {
-			"hit": {
-				"sounds": [
-					"/sfx/gun/shotgun_hit_stone1.ogg",
-					"/sfx/gun/shotgun_hit_stone2.ogg",
-					"/sfx/gun/shotgun_hit_stone3.ogg",
-					"/sfx/gun/shotgun_hit_stone4.ogg",
-					"/sfx/gun/shotgun_hit_stone5.ogg",
-					"/sfx/gun/shotgun_hit_stone6.ogg",
-					"/sfx/gun/shotgun_hit_stone7.ogg",
-					"/sfx/gun/shotgun_hit_stone8.ogg"
-				],
-				"particles": [[]]
-			},
-			"stronghit": {
-				"sounds": [
-					"/sfx/melee/fist_stronghit_stone1.ogg",
-					"/sfx/melee/fist_stronghit_stone2.ogg",
-					"/sfx/melee/fist_stronghit_stone3.ogg",
-					"/sfx/melee/fist_stronghit_stone4.ogg"
-				],
-				"particles": [[]]
-			},
-			"kill": {
-				"sounds": [
-					"/sfx/gun/shotgun_kill_stone1.ogg",
-					"/sfx/gun/shotgun_kill_stone2.ogg",
-					"/sfx/gun/shotgun_kill_stone3.ogg",
-					"/sfx/gun/shotgun_kill_stone4.ogg",
-					"/sfx/gun/shotgun_kill_stone5.ogg"
-				],
-				"particles": [[]]
-			}
-		}
-	}
+  "kind": "nekibowclaws1",
+  "effects": {
+    "organic": {
+      "hit": {
+        "sounds": ["/sfx/gun/shotgun_hit_organic.ogg"],
+        "particles": [[]]
+      },
+      "stronghit": {
+        "sounds": ["/sfx/melee/critical_hit_light.ogg"],
+        "particles": [[]]
+      },
+      "kill": {
+        "sounds": ["/sfx/gun/shotgun_kill_organic.ogg"],
+        "particles": [[]]
+      }
+    },
+    "robotic": {
+      "hit": {
+        "sounds": [
+          "/sfx/melee/fist_hit_metal1_quiet.ogg",
+          "/sfx/melee/fist_hit_metal2_quiet.ogg",
+          "/sfx/melee/fist_hit_metal3_quiet.ogg",
+          "/sfx/melee/fist_hit_metal4_quiet.ogg",
+          "/sfx/melee/fist_hit_metal5_quiet.ogg",
+          "/sfx/melee/fist_hit_metal6_quiet.ogg"
+        ],
+        "particles": [[]]
+      },
+      "stronghit": {
+        "sounds": [
+          "/sfx/melee/fist_stronghit_metal1.ogg",
+          "/sfx/melee/fist_stronghit_metal2.ogg",
+          "/sfx/melee/fist_stronghit_metal3.ogg",
+          "/sfx/melee/fist_stronghit_metal4.ogg",
+          "/sfx/melee/fist_stronghit_metal5.ogg",
+          "/sfx/melee/fist_stronghit_metal6.ogg"
+        ],
+        "particles": [[]]
+      },
+      "kill": {
+        "sounds": [
+          "/sfx/melee/kill_robotic1.ogg",
+          "/sfx/melee/kill_robotic2.ogg",
+          "/sfx/melee/kill_robotic3.ogg"
+        ],
+      "particles": [[]]
+      }
+    },
+    "wooden": {
+      "hit": {
+        "sounds": [
+          "/sfx/gun/shotgun_hit_wood1.ogg",
+          "/sfx/gun/shotgun_hit_wood2.ogg",
+          "/sfx/gun/shotgun_hit_wood3.ogg"
+        ],
+        "particles": [[]]
+      },
+      "stronghit": {
+        "sounds": [
+          "/sfx/melee/fist_stronghit_wood1.ogg",
+          "/sfx/melee/fist_stronghit_wood2.ogg",
+          "/sfx/melee/fist_stronghit_wood3.ogg"
+        ],
+        "particles": [[]]
+      },
+      "kill": {
+        "sounds": [
+          "/sfx/gun/shotgun_kill_wood1.ogg",
+          "/sfx/gun/shotgun_kill_wood2.ogg"
+        ],
+        "particles": [[]]
+      }
+    },
+    "stone": {
+      "hit": {
+        "sounds": [
+          "/sfx/gun/shotgun_hit_stone1.ogg",
+          "/sfx/gun/shotgun_hit_stone2.ogg",
+          "/sfx/gun/shotgun_hit_stone3.ogg",
+          "/sfx/gun/shotgun_hit_stone4.ogg",
+          "/sfx/gun/shotgun_hit_stone5.ogg",
+          "/sfx/gun/shotgun_hit_stone6.ogg",
+          "/sfx/gun/shotgun_hit_stone7.ogg",
+          "/sfx/gun/shotgun_hit_stone8.ogg"
+        ],
+        "particles": [[]]
+      },
+      "stronghit": {
+        "sounds": [
+          "/sfx/melee/fist_stronghit_stone1.ogg",
+          "/sfx/melee/fist_stronghit_stone2.ogg",
+          "/sfx/melee/fist_stronghit_stone3.ogg",
+          "/sfx/melee/fist_stronghit_stone4.ogg"
+        ],
+        "particles": [[]]
+      },
+      "kill": {
+        "sounds": [
+          "/sfx/gun/shotgun_kill_stone1.ogg",
+          "/sfx/gun/shotgun_kill_stone2.ogg",
+          "/sfx/gun/shotgun_kill_stone3.ogg",
+          "/sfx/gun/shotgun_kill_stone4.ogg",
+          "/sfx/gun/shotgun_kill_stone5.ogg"
+        ],
+        "particles": [[]]
+      }
+    }
+  }
 }

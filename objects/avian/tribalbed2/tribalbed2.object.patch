@@ -1,11 +1,11 @@
 [
-	[
-		{"op":"test","path":"/sitStatusEffects","inverse":true},
-		{"op":"add","path":"/sitStatusEffects","value":[]}
-	],
-	[
-		{"op":"add","path":"/nekiDescription","value":"Mrrr, this bed is so soft.. and smells of food, too!"},
-		{"op":"add","path":"/sitStatusEffects/-","value":"nekipurr"},
-		{"op":"add","path":"/sitStatusEffects/-","value":"nekihidebedcover"}
-	]
+  [
+    {"op":"test","path":"/sitStatusEffects","inverse":true},
+    {"op":"add","path":"/sitStatusEffects","value":[]}
+  ],
+  [
+    {"op":"add","path":"/nekiDescription","value":"Mrrr, this bed is so soft.. and smells of food, too!"},
+    {"op":"add","path":"/sitStatusEffects/-","value":"nekipurr"},
+    {"op":"add","path":"/sitStatusEffects/-","value":"nekihidebedcover"}
+  ]
 ]

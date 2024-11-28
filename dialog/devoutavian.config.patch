@@ -1,24 +1,24 @@
 [
-	{"op": "add", "path": "/converse/default/neki",
-		"value": [
-			"May Kluex's light guide you."
-		]
-	},
+  {"op": "add", "path": "/converse/default/neki",
+    "value": [
+      "May Kluex's light guide you."
+    ]
+  },
 
-	{"op": "add", "path": "/converse/avian/neki",
-		"value": [
-			"Kluex give me strength...",
-			"By Kluex's wings! A Neki! Hide!",
-			"Let me live fluffy one, I implore you!",
-			"You're so terrifying, yet so... beautiful!",
-			"I don't fear you Neki, not with Kluex by my side.",
-			"If my demise by your claws is the will of Kluex, so be it.",
-			"I'd make a poor meal, I'm all feathers and bones!",
-			"The Avoscript doesn't mention your kind...",
-			"How can something so cute be this mean..?",
-			"Did Kluex send you to punish us?",
-			"Oh, what sharp fangs you have!",
-			"Kluex have mercy! A Neki!"
-		]
-	}
+  {"op": "add", "path": "/converse/avian/neki",
+    "value": [
+      "Kluex give me strength...",
+      "By Kluex's wings! A Neki! Hide!",
+      "Let me live fluffy one, I implore you!",
+      "You're so terrifying, yet so... beautiful!",
+      "I don't fear you Neki, not with Kluex by my side.",
+      "If my demise by your claws is the will of Kluex, so be it.",
+      "I'd make a poor meal, I'm all feathers and bones!",
+      "The Avoscript doesn't mention your kind...",
+      "How can something so cute be this mean..?",
+      "Did Kluex send you to punish us?",
+      "Oh, what sharp fangs you have!",
+      "Kluex have mercy! A Neki!"
+    ]
+  }
 ]

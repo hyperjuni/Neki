@@ -1,10 +1,15 @@
 [
-	{"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"},
-	{"op": "add", "path": "/scriptConfig/dialog/converse/default/neki",
-		"value": [
-			"Analytical. I've yet to design anything with the Neki in mind; may I take a few measurements? For science.",
-			"Optimistic. I hope your kind proliferate further around here; it gives more reasons to invent something new!",
-			"Gossiping. I've heard of other cat-like species, but none that I've met yet; could be just a rumor."
-		]
-	}
+  [
+    {"op": "test", "path": "/scriptConfig/dialogMode", "value": "sequence", "inverse": true},
+    {"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"}
+  ],
+  [
+    {"op": "add", "path": "/scriptConfig/dialog/converse/default/neki",
+      "value": [
+        "Analytical. I've yet to design anything with the Neki in mind; may I take a few measurements? For science.",
+        "Optimistic. I hope your kind proliferate further around here; it gives more reasons to invent something new!",
+        "Gossiping. I've heard of other cat-like species, but none that I've met yet; could be just a rumor."
+      ]
+    }
+  ]
 ]

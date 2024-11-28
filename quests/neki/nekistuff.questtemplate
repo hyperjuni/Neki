@@ -1,29 +1,29 @@
 {
-	"id": "nekistuff",
-	"showInLog": false,
-	"showAcceptDialog": false,
-	"showCompleteDialog": false,
-	"showFailDialog": false,
-	"canBeAbandoned": false,
+  "id": "nekistuff",
+  "showInLog": false,
+  "showAcceptDialog": false,
+  "showCompleteDialog": false,
+  "showFailDialog": false,
+  "canBeAbandoned": false,
 
-	"updateDelta": 10,
-	"script": "/quests/scripts/nekimain.lua",
-	"scriptConfig": {
-		"portraits": {"default": "player"},
-		"requireTurnIn": false,
-		"conditions": [
-			{"type": "gatherItem", "itemName": "protectoratechest"},
-			{"type": "gatherItem", "itemName": "protectoratepants"}
-		]
-	},
+  "updateDelta": 10,
+  "script": "/quests/scripts/nekimain.lua",
+  "scriptConfig": {
+    "portraits": {"default": "player"},
+    "requireTurnIn": false,
+    "conditions": [
+      {"type": "gatherItem", "itemName": "protectoratechest"},
+      {"type": "gatherItem", "itemName": "protectoratepants"}
+    ]
+  },
 
-	"rewards": [
-		[
-			["nekiclaws1", 1],
-			["nekiclaws1", 1],
-			["nekiprotectoratepants", 1],
-			["nekiprotectorateskirt", 1],
-			["nekiprotectoratesleeves", 1]
-		]
-	]
+  "rewards": [
+    [
+      ["nekiclaws1", 1],
+      ["nekiclaws1", 1],
+      ["nekiprotectoratepants", 1],
+      ["nekiprotectorateskirt", 1],
+      ["nekiprotectoratesleeves", 1]
+    ]
+  ]
 }

@@ -1,11 +1,11 @@
 {
-	"itemName": "nekicastclaw4",
-	"price": 1,
-	"rarity": "Uncommon",
-	"category": "craftingMaterial",
-	"inventoryIcon": "nekicastclaw4.png",
-	"description": "A set of sharp titanium claws. Used in creating the Neki T4 Sharp Claws.",
-	"shortdescription": "Cast Titanium Claws",
-	"tooltipKind": "nekibase",
-	"itemTags": ["reagent"]
+  "itemName": "nekicastclaw4",
+  "price": 1,
+  "rarity": "Uncommon",
+  "category": "craftingMaterial",
+  "inventoryIcon": "nekicastclaw4.png",
+  "description": "A set of sharp titanium claws. Used in creating the Neki T4 Sharp Claws.",
+  "shortdescription": "Cast Titanium Claws",
+  "tooltipKind": "nekibase",
+  "itemTags": ["reagent"]
 }

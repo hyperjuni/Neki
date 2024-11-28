@@ -1,19 +1,19 @@
 [
-	{"op": "add", "path": "/scriptConfig/dialog/converse/default/neki",
-		"value": [
-			"Slept well, sunshine? You're about to miss the ceremony.",
-			"What, no hissy fits today?",
-			"You better not have shed your fur all over my bunk again, <entityname>!",
-			"I've had enough of you for the day, get out of my sight.",
-			"Get out of here, furball!",
-			"Are you deaf? Get out!",
-			"Don't make me make you."
-		]
-	},
+  {"op": "add", "path": "/scriptConfig/dialog/converse/default/neki",
+    "value": [
+      "Slept well, sunshine? You're about to miss the ceremony.",
+      "What, no hissy fits today?",
+      "You better not have shed your fur all over my bunk again, <entityname>!",
+      "I've had enough of you for the day, get out of my sight.",
+      "Get out of here, furball!",
+      "Are you deaf? Get out!",
+      "Don't make me make you."
+    ]
+  },
 
-	{"op": "add", "path": "/scriptConfig/dialog/speak/default/neki",
-		"value": [
-			"Would you look at what the cat dragged in! It's <entityname>, everyone!"
-		]
-	}	
+  {"op": "add", "path": "/scriptConfig/dialog/speak/default/neki",
+    "value": [
+      "Would you look at what the cat dragged in! It's <entityname>, everyone!"
+    ]
+  }  
 ]

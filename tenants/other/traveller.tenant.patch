@@ -1,5 +1,3 @@
 [
-	{"op": "replace", "path": "/tenants/0/species",
-		"value": ["human", "neki"]
-	}
+  {"op": "replace", "path": "/tenants/0/species", "value": ["human", "neki"]}
 ]

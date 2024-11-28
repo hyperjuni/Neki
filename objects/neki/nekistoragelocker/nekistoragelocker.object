@@ -1,43 +1,43 @@
 {
-	"objectName": "nekistoragelocker",
-	"objectType": "container",
-	"category": "storage",
-	"slotCount": 64,
-	"health": 1.5,
-	"rarity": "Rare",
-	"price": 240,
-	"race": "neki",
-	"printable": false,
-	"tooltipKind": "container",
-	"colonyTags": ["neki", "storage"],
+  "objectName": "nekistoragelocker",
+  "objectType": "container",
+  "category": "storage",
+  "slotCount": 64,
+  "health": 1.5,
+  "rarity": "Rare",
+  "price": 240,
+  "race": "neki",
+  "printable": false,
+  "tooltipKind": "container",
+  "colonyTags": ["neki", "storage"],
 
-	"shortdescription": "Neki Storage Locker",
-	"description": "A spacious wall-mounted locker, coated in a dark substance.",
+  "shortdescription": "Neki Storage Locker",
+  "description": "A spacious wall-mounted locker, coated in a dark substance.",
 
-	"apexDescription": "This otherwise typical locker appears to have an unusual coating.",
-	"avianDescription": "A stealthy device that holds many items for safe keeping.",
-	"floranDescription": "Sssneaky storage.",
-	"glitchDescription": "Pleased. This ship's storage system is well concealed.",
-	"humanDescription": "A stealthy storage locker. Ninja stash!",
-	"hylotlDescription": "An inconspicuous storage solution.",
-	"nekiDescription": "A stealthy wallbox for stealthy wallsleeps.",
-	"novakidDescription": "A stealthy locker for stealthily puttin' things in.",
+  "apexDescription": "This otherwise typical locker appears to have an unusual coating.",
+  "avianDescription": "A stealthy device that holds many items for safe keeping.",
+  "floranDescription": "Sssneaky storage.",
+  "glitchDescription": "Pleased. This ship's storage system is well concealed.",
+  "humanDescription": "A stealthy storage locker. Ninja stash!",
+  "hylotlDescription": "An inconspicuous storage solution.",
+  "nekiDescription": "A stealthy wallbox for stealthy wallsleeps.",
+  "novakidDescription": "A stealthy locker for stealthily puttin' things in.",
 
-	"inventoryIcon": "nekistoragelockericon.png",
+  "inventoryIcon": "nekistoragelockericon.png",
 
-	"orientations": [
-		{
-			"anchors": ["background"],
-			"image": "nekistoragelocker.png:<color>.<key>",
-			"imagePosition": [-16, -8],
-			"spaceScan": 0.1
-		}
-	],
+  "orientations": [
+    {
+      "anchors": ["background"],
+      "image": "nekistoragelocker.png:<color>.<key>",
+      "imagePosition": [-16, -8],
+      "spaceScan": 0.1
+    }
+  ],
 
-	"uiConfig": "/interface/chests/nekichest<slots>.config",
-	"openSounds": ["/sfx/objects/cropshipper_door_open.ogg"],
-	"closeSounds": ["/sfx/objects/cropshipper_door_close.ogg"],
-	"frameCooldown": 5,
-	"openFrameIndex": 7,
-	"autoCloseCooldown": 3600
+  "uiConfig": "/interface/chests/nekichest<slots>.config",
+  "openSounds": ["/sfx/objects/cropshipper_door_open.ogg"],
+  "closeSounds": ["/sfx/objects/cropshipper_door_close.ogg"],
+  "frameCooldown": 5,
+  "openFrameIndex": 7,
+  "autoCloseCooldown": 3600
 }

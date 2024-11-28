@@ -1,7 +1,7 @@
 {
-	"input": [
-		{"item": "peacekeeperhead", "count": 1}
-	],
-	"output": {"item": "nekipeacekeeperhead", "count": 1},
-	"groups": ["nekiwheel", "clothes"]
+  "input": [
+    {"item": "peacekeeperhead", "count": 1}
+  ],
+  "output": {"item": "nekipeacekeeperhead", "count": 1},
+  "groups": ["nekiwheel", "clothes"]
 }

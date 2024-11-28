@@ -1,18 +1,18 @@
 {
-	"itemName": "invisiblefabriclegs",
-	"price": 1,
-	"inventoryIcon": "icons.png:pants",
-	"maxStack": 1,
-	"rarity": "Legendary",
-	"category": "legwear",
-	"description": "These extraordinary pants turn your actual pants invisible, for better or for worse.",
-	"shortdescription": "Invisi-Pants (Neki)",
-	"tooltipKind": "nekiarmor",
+  "itemName": "invisiblefabriclegs",
+  "price": 1,
+  "inventoryIcon": "icons.png:pants",
+  "maxStack": 1,
+  "rarity": "Legendary",
+  "category": "legwear",
+  "description": "These extraordinary pants turn your actual pants invisible, for better or for worse.",
+  "shortdescription": "Invisi-Pants (Neki)",
+  "tooltipKind": "nekiarmor",
 
-	"maleFrames": "pants.png",
-	"femaleFrames": "pants.png",
+  "maleFrames": "pants.png",
+  "femaleFrames": "pants.png",
 
-	"colorOptions": [
-		{"ffca8a": "000000", "e0975c": "000000", "a85636": "000000", "6f2919": "000000"}
-	]
+  "colorOptions": [
+    {"ffca8a": "000000", "e0975c": "000000", "a85636": "000000", "6f2919": "000000"}
+  ]
 }

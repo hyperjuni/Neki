@@ -1,11 +1,11 @@
 {
-	"input": [
-		{"item": "solariumstar", "count": 8},
-		{"item": "refinedviolium", "count": 4},
-		{"item": "canvas", "count": 1}
-	],
+  "input": [
+    {"item": "solariumstar", "count": 8},
+    {"item": "refinedviolium", "count": 4},
+    {"item": "canvas", "count": 1}
+  ],
 
-	"duration": 0.5,
-	"output": {"item": "nekimktier6sarmor", "count": 1},
-	"groups": ["craftingseparator", "armours", "all"]
+  "duration": 0.5,
+  "output": {"item": "nekimktier6sarmor", "count": 1},
+  "groups": ["craftingseparator", "armours", "all"]
 }

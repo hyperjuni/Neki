@@ -1,10 +1,10 @@
 {
-	"id": "nekiship0",
-	"species": "neki",
-	"title": "Extraction Mission Briefing",
-	"description": "Mission parameters for a highly-classified Miniknog extraction operation.",
-	"icon": "nekimemorycardmk.png",
-	"contentPages": [
+  "id": "nekiship0",
+  "species": "neki",
+  "title": "Extraction Mission Briefing",
+  "description": "Mission parameters for a highly-classified Miniknog extraction operation.",
+  "icon": "nekimemorycardmk.png",
+  "contentPages": [
 "^blue;Status:^reset; \"Special Case\" identified.
 ^blue;Target:^reset; Terrene Protectorate, Earth.
 ^blue;Objective:^reset; Classified asset recovery.
@@ -14,10 +14,10 @@ Owing to the mission's urgency and highly-sensitive nature, one of the prototype
 Agents are to maintain cover at all times and mission details classified.
 ^red;Violating mission parameters will trigger the Termination Clause^reset;."
 
-	],
+  ],
 
-	"itemConfig": {
-		"rarity": "uncommon",
-		"price": 25
-	}
+  "itemConfig": {
+    "rarity": "uncommon",
+    "price": 25
+  }
 }

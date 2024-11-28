@@ -1,28 +1,28 @@
 [
-	{"op": "add", "path": "/nekifurniture",
-		"value": [
-			[0, [
-				{"item": {"name": "nekitable"}, "rarity": 0.5},
-				{"item": {"name": "nekichair"}, "rarity": 0.5},
-				{"item": {"name": "nekibed"}, "rarity": 0.5}
-			]]
-		]
-	},
-	
-	{"op": "add", "path": "/nekiingredients",
-		"value": [
-			[0, [
-				{"item": {"name": "alienmeat"}, "rarity": 0.05},
-				{"item": {"name": "bottledwater"}, "rarity": 0.05},
-				{"item": {"name": "carrot"}, "rarity": 0.05},
-				{"item": {"name": "corn"}, "rarity": 0.05},
-				{"item": {"name": "egg"}, "rarity": 0.05},
-				{"item": {"name": "potato"}, "rarity": 0.05},
-				{"item": {"name": "rawbacon"}, "rarity": 0.05},
-				{"item": {"name": "rawfish"}, "rarity": 0.05},
-				{"item": {"name": "rawribmeat"}, "rarity": 0.05},
-				{"item": {"name": "rawtentacle"}, "rarity": 0.05}
-			]]
-		]
-	}
+  {"op": "add", "path": "/nekifurniture",
+    "value": [
+      [0, [
+        {"item": {"name": "nekitable"}, "rarity": 0.5},
+        {"item": {"name": "nekichair"}, "rarity": 0.5},
+        {"item": {"name": "nekibed"}, "rarity": 0.5}
+      ]]
+    ]
+  },
+  
+  {"op": "add", "path": "/nekiingredients",
+    "value": [
+      [0, [
+        {"item": {"name": "alienmeat"}, "rarity": 0.05},
+        {"item": {"name": "bottledwater"}, "rarity": 0.05},
+        {"item": {"name": "carrot"}, "rarity": 0.05},
+        {"item": {"name": "corn"}, "rarity": 0.05},
+        {"item": {"name": "egg"}, "rarity": 0.05},
+        {"item": {"name": "potato"}, "rarity": 0.05},
+        {"item": {"name": "rawbacon"}, "rarity": 0.05},
+        {"item": {"name": "rawfish"}, "rarity": 0.05},
+        {"item": {"name": "rawribmeat"}, "rarity": 0.05},
+        {"item": {"name": "rawtentacle"}, "rarity": 0.05}
+      ]]
+    ]
+  }
 ]

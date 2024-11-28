@@ -1,19 +1,19 @@
 [
-	{"op": "add", "path": "/scriptConfig/dialog/converse/default/neki",
-		"value": [
-			"What could possibly bring a creature like you to a planet like this?",
-			"It must be pretty hot for you here with all that fur, poor thing.",
-			"I'd suggest you took a dip in that pond over there, but... well.",
-			"The warm weather out here always makes me happy! What about you?",
-			"Why are you sticking your tongue out? Oh, that's how cool down?",
-			"Are you alright? Would you like to lick an ice cube? Too bad.",
-			"You don't look like you're enduring this climate too well.",
-			"I've managed to adapt to the heat. What about you?",
-			"This is nothing, you should've seen last summer.",
-			"How's the sand feel in that thick fur of yours?",
-			"Get out of the sun, you crazy little beast!",
-			"This place is almost as hot as you are.",
-			"Oh it gets MUCH hotter."
-		]
-	}
+  {"op": "add", "path": "/scriptConfig/dialog/converse/default/neki",
+    "value": [
+      "What could possibly bring a creature like you to a planet like this?",
+      "It must be pretty hot for you here with all that fur, poor thing.",
+      "I'd suggest you took a dip in that pond over there, but... well.",
+      "The warm weather out here always makes me happy! What about you?",
+      "Why are you sticking your tongue out? Oh, that's how cool down?",
+      "Are you alright? Would you like to lick an ice cube? Too bad.",
+      "You don't look like you're enduring this climate too well.",
+      "I've managed to adapt to the heat. What about you?",
+      "This is nothing, you should've seen last summer.",
+      "How's the sand feel in that thick fur of yours?",
+      "Get out of the sun, you crazy little beast!",
+      "This place is almost as hot as you are.",
+      "Oh it gets MUCH hotter."
+    ]
+  }
 ]

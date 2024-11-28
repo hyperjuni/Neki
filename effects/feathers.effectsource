@@ -2,27 +2,27 @@
 // I'm sorry, I did a stupid T_T
 
 {
-	"kind": "feathers",
-	"location": "mouth",
-	"definition": {
-		"duration": 0.3,
-		"loops": true,
-		"start": {
-			"particles": [[]],
-			"sounds": [[]]
-		},
-		"particles": [
-			["nekifeather1"],
-			["nekifeather2"],
-			["nekifeather3"],
-			["nekifeather4"],
-			["nekifeather5"],
-			["nekifeather6"]
-		],
-		"sounds": [[]],
-		"stop": {
-			"particles": [[]],
-			"sounds": [[]]
-		}
-	}
+  "kind": "feathers",
+  "location": "mouth",
+  "definition": {
+    "duration": 0.3,
+    "loops": true,
+    "start": {
+      "particles": [[]],
+      "sounds": [[]]
+    },
+    "particles": [
+      ["nekifeather1"],
+      ["nekifeather2"],
+      ["nekifeather3"],
+      ["nekifeather4"],
+      ["nekifeather5"],
+      ["nekifeather6"]
+    ],
+    "sounds": [[]],
+    "stop": {
+      "particles": [[]],
+      "sounds": [[]]
+    }
+  }
 }

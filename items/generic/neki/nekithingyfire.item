@@ -1,11 +1,11 @@
 {
-	"itemName": "nekithingyfire",
-	"price": 1,
-	"rarity": "Rare",
-	"category": "craftingMaterial",
-	"inventoryIcon": "nekithingyfire.png",
-	"description": "An odd fiery contraption, may be useful as an upgrade.",
-	"shortdescription": "Neki Thingy - Fire",
-	"tooltipKind": "nekibase",
-	"itemTags": ["reagent"]
+  "itemName": "nekithingyfire",
+  "price": 1,
+  "rarity": "Rare",
+  "category": "craftingMaterial",
+  "inventoryIcon": "nekithingyfire.png",
+  "description": "An odd fiery contraption, may be useful as an upgrade.",
+  "shortdescription": "Neki Thingy - Fire",
+  "tooltipKind": "nekibase",
+  "itemTags": ["reagent"]
 }

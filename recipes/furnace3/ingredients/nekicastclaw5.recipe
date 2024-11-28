@@ -1,11 +1,11 @@
 {
-	"input": [
-		{"item": "sharpenedclaw", "count": 5},
-		{"item": "refinedaegisalt", "count": 5},
-		{"item": "refinedferozium", "count": 5},
-		{"item": "refinedviolium", "count": 5}
-	],
+  "input": [
+    {"item": "sharpenedclaw", "count": 5},
+    {"item": "refinedaegisalt", "count": 5},
+    {"item": "refinedferozium", "count": 5},
+    {"item": "refinedviolium", "count": 5}
+  ],
 
-	"output": {"item": "nekicastclaw5", "count": 1},
-	"groups": ["craftingfurnace3", "ingredients", "all"]
+  "output": {"item": "nekicastclaw5", "count": 1},
+  "groups": ["craftingfurnace3", "ingredients", "all"]
 }

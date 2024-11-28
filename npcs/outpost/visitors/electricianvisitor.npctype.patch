@@ -1,10 +1,16 @@
 [
-	{"op": "add", "path": "/scriptConfig/dialog/converse/default/neki",
-		"value": [
-			"Your kind seems very good at ensuring we electricians have things to fix!",
-			"I'm an electrician! If you become one too - hit me up, I could use a paw!",
-			"Would you make a good electrician, with all that highly-flammable fur?",
-			"I'm an electrician, just here for some supplies. Oh, you look cute!"
-		]
-	}
+  [
+    {"op": "test", "path": "/scriptConfig/dialogMode", "value": "sequence", "inverse": true},
+    {"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"}
+  ],
+  [
+    {"op": "add", "path": "/scriptConfig/dialog/converse/default/neki",
+      "value": [
+        "Your kind seems very good at ensuring we electricians have things to fix!",
+        "I'm an electrician! If you become one too - hit me up, I could use a paw!",
+        "Would you make a good electrician, with all that highly-flammable fur?",
+        "I'm an electrician, just here for some supplies. Oh, you look cute!"
+      ]
+    }
+  ]
 ]

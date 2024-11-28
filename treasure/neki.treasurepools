@@ -7,12 +7,12 @@
   //     Miniknog Preliminary Logs
   // ================================
 
-	"nekiMKLogPreliminary" : [
-		[1, {
-			"pool": [
-				{"weight" : 0.5, "item" : "nekimklog6-codex"},
-				{"weight" : 0.5, "item" : "nekimklog11-codex"}
-			]
+  "nekiMKLogPreliminary" : [
+    [1, {
+      "pool": [
+        {"weight" : 0.5, "item" : "nekimklog6-codex"},
+        {"weight" : 0.5, "item" : "nekimklog11-codex"}
+      ]
     }]
   ],
 
@@ -20,33 +20,33 @@
   //      Miniknog Research Logs
   // ================================
 
-	"nekiMKLogResearch" : [
-		[1, {
-			"pool": [
-				{"weight" : 0.125, "item" : "nekimklog34-codex"},
-				{"weight" : 0.125, "item" : "nekimklog49-codex"},
-				{"weight" : 0.125, "item" : "nekimklog71-codex"},
-				{"weight" : 0.125, "item" : "nekimklog79-codex"},
-				{"weight" : 0.125, "item" : "nekimklog103-codex"},
-				{"weight" : 0.125, "item" : "nekimklog114-codex"},
-				{"weight" : 0.125, "item" : "nekimklog121-codex"},
-				{"weight" : 0.125, "item" : "nekimklog128-codex"}
-			]
+  "nekiMKLogResearch" : [
+    [1, {
+      "pool": [
+        {"weight" : 0.125, "item" : "nekimklog34-codex"},
+        {"weight" : 0.125, "item" : "nekimklog49-codex"},
+        {"weight" : 0.125, "item" : "nekimklog71-codex"},
+        {"weight" : 0.125, "item" : "nekimklog79-codex"},
+        {"weight" : 0.125, "item" : "nekimklog103-codex"},
+        {"weight" : 0.125, "item" : "nekimklog114-codex"},
+        {"weight" : 0.125, "item" : "nekimklog121-codex"},
+        {"weight" : 0.125, "item" : "nekimklog128-codex"}
+      ]
     }]
   ],
-	
+  
   // ================================
   //      Miniknog Personal Logs
   // ================================
-	
-	"nekiMKLogPersonal" : [
-		[1, {
-			"pool": [
-				{"weight" : 0.25, "item" : "nekimklog103p-codex"},
-				{"weight" : 0.25, "item" : "nekimklog107p-codex"},
-				{"weight" : 0.25, "item" : "nekimklog121p-codex"},
-				{"weight" : 0.25, "item" : "nekimklog128p-codex"}
-			]
+  
+  "nekiMKLogPersonal" : [
+    [1, {
+      "pool": [
+        {"weight" : 0.25, "item" : "nekimklog103p-codex"},
+        {"weight" : 0.25, "item" : "nekimklog107p-codex"},
+        {"weight" : 0.25, "item" : "nekimklog121p-codex"},
+        {"weight" : 0.25, "item" : "nekimklog128p-codex"}
+      ]
     }]
   ]
 }

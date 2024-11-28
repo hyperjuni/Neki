@@ -1,0 +1,11 @@
+{
+  "input": [
+    {"item": "darkwoodmaterial", "count": 10},
+    {"item": "petalyellow", "count": 2},
+    {"item": "petalblue", "count": 2},
+    {"item": "petalred", "count": 2}
+  ],
+
+  "output": {"item": "nekichair", "count": 1},
+  "groups": ["plain", "decoration", "all"]
+}

@@ -1,12 +1,17 @@
 [
-	{"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"},
-	{"op": "add", "path": "/scriptConfig/dialog/converse/default/neki",
-		"value": [
-			"Gah! Didn't expect to see one of YOU here!",
-			"What is your mission? Some sort of sabotage, I bet.",
-			"Your presence here means that the Miniknog must be getting closer.",
-			"You'll never get anything out of me, so quit following me around!",
-			"I better inform command of this immediately!"
-		]
-	}
+  [
+    {"op": "test", "path": "/scriptConfig/dialogMode", "value": "sequence", "inverse": true},
+    {"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"}
+  ],
+  [
+    {"op": "add", "path": "/scriptConfig/dialog/converse/default/neki",
+      "value": [
+        "Gah! Didn't expect to see one of YOU here!",
+        "What is your mission? Some sort of sabotage, I bet.",
+        "Your presence here means that the Miniknog must be getting closer.",
+        "You'll never get anything out of me, so quit following me around!",
+        "I better inform command of this immediately!"
+      ]
+    }
+  ]
 ]

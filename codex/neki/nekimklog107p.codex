@@ -1,16 +1,16 @@
 {
-	"id": "nekimklog107p",
-	"species": "neki",
-	"title": "Log 3489.#0107; Personal",
-	"description": "A private log entry by a Miniknog genetic research scientist.",
-	"icon": "nekimemorycardblue.png",
-	"contentPages": [
+  "id": "nekimklog107p",
+  "species": "neki",
+  "title": "Log 3489.#0107; Personal",
+  "description": "A private log entry by a Miniknog genetic research scientist.",
+  "icon": "nekimemorycardblue.png",
+  "contentPages": [
 "We're probably grasping at straws, but there has to be a way to keep this project and its' subjects from being terminated. If we can't make use of the data to reverse our physical devolution, we neede to find a use for the subjects themselves.
 
 Hmm.. given their similarity to Humans, would it be far-fetched to suggest using them as assets among the Humans? A few physical features would perhaps stand out, but given what we know of the Humans' general predisposition to these traits.."
-	],
-	"itemConfig": {
-		"rarity": "uncommon",
-		"price": 25
-	}
+  ],
+  "itemConfig": {
+    "rarity": "uncommon",
+    "price": 25
+  }
 }

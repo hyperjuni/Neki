@@ -1,11 +1,11 @@
 {
-	"itemName": "nekicastclaw5",
-	"price": 1,
-	"rarity": "Rare",
-	"category": "craftingMaterial",
-	"inventoryIcon": "nekicastclaw5.png",
-	"description": "A set of sharp composite claws. Used in creating the Neki T5 Vicious Claws.",
-	"shortdescription": "Cast Composite Claws",
-	"tooltipKind": "nekibase",
-	"itemTags": ["reagent"]
+  "itemName": "nekicastclaw5",
+  "price": 1,
+  "rarity": "Rare",
+  "category": "craftingMaterial",
+  "inventoryIcon": "nekicastclaw5.png",
+  "description": "A set of sharp composite claws. Used in creating the Neki T5 Vicious Claws.",
+  "shortdescription": "Cast Composite Claws",
+  "tooltipKind": "nekibase",
+  "itemTags": ["reagent"]
 }

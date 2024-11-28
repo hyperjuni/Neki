@@ -1,10 +1,10 @@
 {
-	"id": "nekimklog327p",
-	"species": "neki",
-	"title": "Log 3498.#0327; Personal",
-	"description": "A private log entry by a Miniknog genetic research scientist.",
-	"icon": "nekimemorycardblue.png",
-	"contentPages": [
+  "id": "nekimklog327p",
+  "species": "neki",
+  "title": "Log 3498.#0327; Personal",
+  "description": "A private log entry by a Miniknog genetic research scientist.",
+  "icon": "nekimemorycardblue.png",
+  "contentPages": [
 "Despite having their MCCs tuned the same way as the rest, the twins don't seem to be affected by them as much, if at all. Both the male and the female remain highly energetic and emotional; exercising their free will with little to no regard for any and all orders or rules. This takes me back, to a time before the MCCs were forcefully introduced into the program...
 
 Strangely, they seem to have grown emotionally attached to me and my team, expressing their affection in often bizarre yet endearing ways, ^cyan;>>^reset;",
@@ -13,9 +13,9 @@ Strangely, they seem to have grown emotionally attached to me and my team, expre
 These developments are worrying, as this means they will inevitably be deemed 'unfit' for the program, followed by a termination order, letting these amazing creatures... I mean POTENTIAL, go to waste.
 
 I... must not let that happen."
-	],
-	"itemConfig": {
-		"rarity": "uncommon",
-		"price": 25
-	}
+  ],
+  "itemConfig": {
+    "rarity": "uncommon",
+    "price": 25
+  }
 }

@@ -1,14 +1,19 @@
 [
-	{"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"},
-	{"op": "add", "path": "/scriptConfig/dialog/converse/human/neki",
-		"value": [
-			"Just as I thought that this day couldn't possibly get any worse..",
-			"One of YOUR kind shows up!",
-			"What do you want from me, furball?",
-			"Haven't you done enough already?",
-			"Get out of my face, you vermin.",
-			"I have nothing to say to you.",
-			"Get lost."
-		]
-	}
+  [
+    {"op": "test", "path": "/scriptConfig/dialogMode", "value": "sequence", "inverse": true},
+    {"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"}
+  ],
+  [
+    {"op": "add", "path": "/scriptConfig/dialog/converse/human/neki",
+      "value": [
+        "Just as I thought my day couldn't get any worse...",
+        "One of YOUR kind shows up!",
+        "What do you want from me, furball?",
+        "Haven't you done enough already?",
+        "Get out of my face, you vermin.",
+        "I have nothing to say to you.",
+        "Get lost."
+      ]
+    }
+  ]
 ]

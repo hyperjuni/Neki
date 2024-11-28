@@ -1,8 +1,8 @@
 {
-	"input": [
-		{"item": "classiccurtain3", "count": 1}
-	],
+  "input": [
+    {"item": "classiccurtain3", "count": 1}
+  ],
 
-	"output": {"item": "nekicurtain3", "count": 1},
-	"groups": ["nekiwheel", "furnishing"]
+  "output": {"item": "nekicurtain3", "count": 1},
+  "groups": ["nekiwheel", "furnishing"]
 }

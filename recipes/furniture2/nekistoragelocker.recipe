@@ -1,9 +1,9 @@
 {
-	"input": [
-		{"item": "durasteelbar", "count": 2},
-		{"item": "silverbar", "count": 1},
-		{"item": "obsidian", "count": 1}
-	],
-	"output": {"item": "nekistoragelocker",	"count": 1},
-	"groups": ["craftingfurniture2", "storage", "all"]
+  "input": [
+    {"item": "durasteelbar", "count": 2},
+    {"item": "silverbar", "count": 1},
+    {"item": "obsidian", "count": 1}
+  ],
+  "output": {"item": "nekistoragelocker",  "count": 1},
+  "groups": ["craftingfurniture2", "storage", "all"]
 }

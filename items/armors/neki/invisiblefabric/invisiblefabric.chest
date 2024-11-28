@@ -1,27 +1,27 @@
 {
-	"itemName": "invisiblefabricchest",
-	"price": 1,
-	"inventoryIcon": "icons.png:chest",
-	"maxStack": 1,
-	"rarity": "Legendary",
-	"category": "chestwear",
-	"description": "This fantastic shirt turns anything obstructing the view of your glorious chest invisible.",
-	"shortdescription": "Invisi-Shirt (Neki)",
-	"tooltipKind": "nekiarmor",
+  "itemName": "invisiblefabricchest",
+  "price": 1,
+  "inventoryIcon": "icons.png:chest",
+  "maxStack": 1,
+  "rarity": "Legendary",
+  "category": "chestwear",
+  "description": "This fantastic shirt turns anything obstructing the view of your glorious chest invisible.",
+  "shortdescription": "Invisi-Shirt (Neki)",
+  "tooltipKind": "nekiarmor",
 
-	"maleFrames": {
-		"body": "chest.png",
-		"backSleeve": "bsleeve.png",
-		"frontSleeve": "fsleeve.png"
-	},
+  "maleFrames": {
+    "body": "chest.png",
+    "backSleeve": "bsleeve.png",
+    "frontSleeve": "fsleeve.png"
+  },
 
-	"femaleFrames": {
-		"body": "chest.png",
-		"backSleeve": "bsleeve.png",
-		"frontSleeve": "fsleeve.png"
-	},
+  "femaleFrames": {
+    "body": "chest.png",
+    "backSleeve": "bsleeve.png",
+    "frontSleeve": "fsleeve.png"
+  },
 
-	"colorOptions": [
-		{"ffca8a": "000000", "e0975c": "000000", "a85636": "000000", "6f2919": "000000"}
-	]
+  "colorOptions": [
+    {"ffca8a": "000000", "e0975c": "000000", "a85636": "000000", "6f2919": "000000"}
+  ]
 }

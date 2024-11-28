@@ -1,14 +1,14 @@
 {
-	"input": [
-		{"item": "florancouch", "count": 1},
-		{"item": "nekipillowpile", "count": 1},
-		{"item": "nekicurtain2", "count": 5},
-		{"item": "diamonddisplay", "count": 1},
-		{"item": "fishingrod", "count": 2},
-		{"item": "goldenducky", "count": 1},
-		{"item": "goldvase4", "count": 1}
-	],
+  "input": [
+    {"item": "florancouch", "count": 1},
+    {"item": "nekipillowpile", "count": 1},
+    {"item": "nekicurtain2", "count": 5},
+    {"item": "diamonddisplay", "count": 1},
+    {"item": "fishingrod", "count": 2},
+    {"item": "goldenducky", "count": 1},
+    {"item": "goldvase4", "count": 1}
+  ],
 
-	"output": {"item": "nekibedlavish", "count": 1},
-	"groups": ["plain", "beds", "all"]
+  "output": {"item": "nekibedlavish", "count": 1},
+  "groups": ["plain", "beds", "all"]
 }

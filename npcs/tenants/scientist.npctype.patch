@@ -1,13 +1,13 @@
 [
-	{"op": "add", "path": "/scriptConfig/dialog/converse/neki",
-		"value": {
-			"default": [
-				"Don't worry, my research is purrivate.",
-				"I'm doing extremely impurrtant research!",
-				"Do these eye-rings make me look more sciency?",
-				"This place will do nicely for my expurriments.",
-				"This is fascinating! I need to take some samples."
-			]
-		}
-	}
+  {"op": "add", "path": "/scriptConfig/dialog/converse/neki",
+    "value": {
+      "default": [
+        "This is fascinating! I need to take some samples.",
+        "This place will do nicely for my expurriments.",
+        "Do these eye-rings make me look more sciency?",
+        "I'm doing extremely impurrtant research!",
+        "Don't worry, my research is purrivate."
+      ]
+    }
+  }
 ]

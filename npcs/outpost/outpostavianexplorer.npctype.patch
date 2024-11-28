@@ -1,9 +1,14 @@
 [
-	{"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"},
-	{"op": "add", "path": "/scriptConfig/dialog/converse/avian/neki",
-		"value": [
-			"Oh, Kluex be merciful, you startled me!",
-			"Please spare me Neki, I still have so much to explore!"
-		]
-	}
+  [
+    {"op": "test", "path": "/scriptConfig/dialogMode", "value": "sequence", "inverse": true},
+    {"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"}
+  ],
+  [
+    {"op": "add", "path": "/scriptConfig/dialog/converse/avian/neki",
+      "value": [
+        "Oh, Kluex be merciful, you startled me!",
+        "Please spare me Neki, I still have so much to explore!"
+      ]
+    }
+  ]
 ]

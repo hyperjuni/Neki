@@ -1,22 +1,22 @@
 [
-	{"op": "add", "path": "/apextestfacilityLore/0/1/pool/-",
-		"value": {
-			"pool": "nekiMKLogPreliminary",
-			"weight": 0.66
-		}
-	},
+  {"op": "add", "path": "/apextestfacilityLore/0/1/pool/-",
+    "value": {
+      "pool": "nekiMKLogPreliminary",
+      "weight": 0.66
+    }
+  },
 
-	{"op": "add", "path": "/apexbaseLore/0/1/pool/-",
-		"value": {
-			"pool": "nekiMKLogResearch",
-			"weight": 0.66
-		}
-	},
+  {"op": "add", "path": "/apexbaseLore/0/1/pool/-",
+    "value": {
+      "pool": "nekiMKLogResearch",
+      "weight": 0.66
+    }
+  },
 
-	{"op": "add", "path": "/apexcityTreasure/0/1/pool/-",
-		"value": {
-			"pool": "nekiMKLogPersonal",
-			"weight": 0.1
-		}
-	}
+  {"op": "add", "path": "/apexcityTreasure/0/1/pool/-",
+    "value": {
+      "pool": "nekiMKLogPersonal",
+      "weight": 0.1
+    }
+  }
 ]

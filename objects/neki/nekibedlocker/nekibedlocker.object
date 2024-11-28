@@ -1,62 +1,62 @@
 {
-	"objectName": "nekibedlocker",
-	"objectType": "loungeable",
-	"category": "furniture",
-	"rarity": "Common",
-	"price": 240,
-	"race": "neki",
-	"printable": false,
-	"tooltipKind": "nekibase",
-	"colonyTags": ["neki"],
-	"itemTags" : ["captainschair"],
+  "objectName": "nekibedlocker",
+  "objectType": "loungeable",
+  "category": "furniture",
+  "rarity": "Common",
+  "price": 240,
+  "race": "neki",
+  "printable": false,
+  "tooltipKind": "nekibase",
+  "colonyTags": ["neki"],
+  "itemTags" : ["captainschair"],
 
-	"shortdescription": "Neki Wall Bed",
-	"description": "A spacious wall-mounted locker, coated in a dark substance.",
+  "shortdescription": "Neki Wall Bed",
+  "description": "A spacious wall-mounted locker, coated in a dark substance.",
 
-	"apexDescription": "This otherwise typical locker appears to have an unusual coating.",
-	"avianDescription": "A stealthy device that holds many items for safe keeping.",
-	"floranDescription": "Ssstalking spot disguised as sstorage! Floran approves.",
-	"glitchDescription": "Pleased. This ship's storage system is well concealed.",
-	"humanDescription": "A stealthy storage locker. Ninja stash!",
-	"hylotlDescription": "An inconspicuous storage solution... Or is it?",
-	"nekiDescription": "I fits and I sleeps.",
-	"novakidDescription": "A stealthy locker for stealthily puttin' things in.",
+  "apexDescription": "This otherwise typical locker appears to have an unusual coating.",
+  "avianDescription": "A stealthy device that holds many items for safe keeping.",
+  "floranDescription": "Ssstalking spot disguised as sstorage! Floran approves.",
+  "glitchDescription": "Pleased. This ship's storage system is well concealed.",
+  "humanDescription": "A stealthy storage locker. Ninja stash!",
+  "hylotlDescription": "An inconspicuous storage solution... Or is it?",
+  "nekiDescription": "I fits and I sleeps.",
+  "novakidDescription": "A stealthy locker for stealthily puttin' things in.",
 
-	"deniedText": "Are you well?\nDo you have brain damage?",
+  "deniedText": "Are you well?\nDo you have brain damage?",
 
-	"inventoryIcon": "nekibedlockericon.png",
+  "inventoryIcon": "nekibedlockericon.png",
 
-	"orientations": [
-		{
-			"direction": "left",
-			"anchors": ["background"],
-			"image": "nekibedlocker.png",
-			"imagePosition": [-16, -8],
-			"flipImages": true,
-			"spaceScan": 0.1,
-			"sitPosition": [0, 16]
-		},
-		{
-			"direction": "right",
-			"anchors": ["background"],
-			"image": "nekibedlocker.png",
-			"imagePosition": [-16, -8],
-			"spaceScan": 0.1,
-			"sitPosition": [0, 16]
-		}
-	],
+  "orientations": [
+    {
+      "direction": "left",
+      "anchors": ["background"],
+      "image": "nekibedlocker.png",
+      "imagePosition": [-16, -8],
+      "flipImages": true,
+      "spaceScan": 0.1,
+      "sitPosition": [0, 16]
+    },
+    {
+      "direction": "right",
+      "anchors": ["background"],
+      "image": "nekibedlocker.png",
+      "imagePosition": [-16, -8],
+      "spaceScan": 0.1,
+      "sitPosition": [0, 16]
+    }
+  ],
 
-	"sitOrientation": "sit",
-	"sitEmote": "sleep",
-	"sitEffectEmitters": ["sleepbubbles"],
-	"sitStatusEffects": [
-		"bed2",
-		"nekibedlockergetin",
-		"nekihide",
-		"nekipurr"
-	],
+  "sitOrientation": "sit",
+  "sitEmote": "sleep",
+  "sitEffectEmitters": ["sleepbubbles"],
+  "sitStatusEffects": [
+    "bed2",
+    "nekibedlockergetin",
+    "nekihide",
+    "nekipurr"
+  ],
 
-	"animation": "nekibedlocker.animation",
-	"scripts": ["nekibedlocker.lua"],
-	"sounds": ["/sfx/interface/clickon_error.ogg"]
+  "animation": "nekibedlocker.animation",
+  "scripts": ["nekibedlocker.lua"],
+  "sounds": ["/sfx/interface/clickon_error.ogg"]
 }

@@ -1,47 +1,47 @@
 {
-	"objectName": "nekipillowyellow",
-	"objectType": "loungeable",
-	"category": "furniture",
-	"rarity": "Common",
-	"price": 50,
-	"race": "neki",
-	"printable": false,
-	"tooltipKind": "nekibase",
-	"colonyTags": ["neki"],
+  "objectName": "nekipillowyellow",
+  "objectType": "loungeable",
+  "category": "furniture",
+  "rarity": "Common",
+  "price": 50,
+  "race": "neki",
+  "printable": false,
+  "tooltipKind": "nekibase",
+  "colonyTags": ["neki"],
 
-	"shortdescription": "Neki Pillow - Yellow",
-	"description": "A pillow made of multiple small Avian banners stitched together.",
+  "shortdescription": "Neki Pillow - Yellow",
+  "description": "A pillow made of multiple small Avian banners stitched together.",
 
-	"apexDescription": "Frankly, a better use for symbolic pieces of cloth.",
-	"avianDescription": "Kluex almighty! Avian children's rite of passage banners made into...this thing!",
-	"floranDescription": "Thisss pillow made of birdman napkinsss.",
-	"glitchDescription": "Dismayed: I'd hate to be an Avian and see this.",
-	"humanDescription": "Welp, at least those napkin-sized banners weren't used for worse stuff.",
-	"hylotlDescription": "An interesting choice of materials for a pillow.",
-	"nekiDescription": "Too many stitches, but I rrreally like the color!",
-	"novakidDescription": "Seems t'me like this pillow is made of small banners.",
+  "apexDescription": "Frankly, a better use for symbolic pieces of cloth.",
+  "avianDescription": "Kluex almighty! Avian children's rite of passage banners made into...this thing!",
+  "floranDescription": "Thisss pillow made of birdman napkinsss.",
+  "glitchDescription": "Dismayed: I'd hate to be an Avian and see this.",
+  "humanDescription": "Welp, at least those napkin-sized banners weren't used for worse stuff.",
+  "hylotlDescription": "An interesting choice of materials for a pillow.",
+  "nekiDescription": "Too many stitches, but I rrreally like the color!",
+  "novakidDescription": "Seems t'me like this pillow is made of small banners.",
 
-	"inventoryIcon": "nekipillowyellowicon.png",
+  "inventoryIcon": "nekipillowyellowicon.png",
 
-	"orientations": [
-		{
-			"direction": "left",
-			"anchors": ["bottom"],
-			"image": "nekipillowyellow.png",
-			"imagePosition": [0, 0],
-			"flipImages": true,
-			"sitPosition": [-14.5, 23]
-		},
-		{
-			"direction": "right",
-			"anchors": ["bottom"],
-			"image": "nekipillowyellow.png",
-			"imagePosition": [0, 0],
-			"spaceScan": 0.1,
-			"sitPosition": [13.5, 23]
-		}
-	],
+  "orientations": [
+    {
+      "direction": "left",
+      "anchors": ["bottom"],
+      "image": "nekipillowyellow.png",
+      "imagePosition": [0, 0],
+      "flipImages": true,
+      "sitPosition": [-14.5, 23]
+    },
+    {
+      "direction": "right",
+      "anchors": ["bottom"],
+      "image": "nekipillowyellow.png",
+      "imagePosition": [0, 0],
+      "spaceScan": 0.1,
+      "sitPosition": [13.5, 23]
+    }
+  ],
 
-	"sitCoverImage": "/objects/neki/nekipillowyellow/nekipillowyellowcover.png",
-	"sitStatusEffects": ["nekipoof"]
+  "sitCoverImage": "/objects/neki/nekipillowyellow/nekipillowyellowcover.png",
+  "sitStatusEffects": ["nekipoof"]
 }

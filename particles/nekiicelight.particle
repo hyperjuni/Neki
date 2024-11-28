@@ -1,6 +1,6 @@
 {
-	"kind": "nekiicelight",
-	"definition": {
-		"light": [0, 120, 149, 255]
-	}
+  "kind": "nekiicelight",
+  "definition": {
+    "light": [0, 120, 149, 255]
+  }
 }

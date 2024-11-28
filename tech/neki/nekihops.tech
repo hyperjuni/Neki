@@ -1,33 +1,33 @@
 {
-	"name": "nekihops",
-	"type": "body",
+  "name": "nekihops",
+  "type": "body",
 
-	"scripts": ["nekihops.lua"],
-	"animator": "nekihops.animation",
-	"icon": "/tech/nekihops.png",
+  "scripts": ["nekihops.lua"],
+  "animator": "nekihops.animation",
+  "icon": "/tech/nekihops.png",
 
-	"shortDescription": "Neki Hops",
-	"description": "Double tap ^green;[A]^reset; or ^green;[D] ^reset;to Hop, hold ^green;[S]^reset; then ^green;[W]^reset; to Pounce!",
-	"rarity": "Legendary",
-	"chipCost": 16,
+  "shortDescription": "Neki Hops",
+  "description": "Double tap ^green;[A]^reset; or ^green;[D] ^reset;to Hop, hold ^green;[S]^reset; then ^green;[W]^reset; to Pounce!",
+  "rarity": "Legendary",
+  "chipCost": 16,
 
-	"hopJump": 30,
-	"hopSpeed": 30,
-	"energyCostPerHop": 20,
-	
-	"pounceJump": 30,
-	"pounceSpeed": 40,
-	"pounceDuration": 10.0,
-	"pounceChargeTime": 0.5,
-	"pounceMinimumDuration": 0,
-	"energyCostPerPounce": 55,
-	"afterPounceCooldown": 1,
+  "hopJump": 30,
+  "hopSpeed": 30,
+  "energyCostPerHop": 20,
+  
+  "pounceJump": 30,
+  "pounceSpeed": 40,
+  "pounceDuration": 10.0,
+  "pounceChargeTime": 0.5,
+  "pounceMinimumDuration": 0,
+  "energyCostPerPounce": 55,
+  "afterPounceCooldown": 1,
 
-	"flashDirectives": "?fade=FFFFFFFF=0.25",
-	"flashChargeDirectives": "?fade=990000FF=0.25",
-	"flashEffectTime": 0.1,
+  "flashDirectives": "?fade=FFFFFFFF=0.25",
+  "flashChargeDirectives": "?fade=990000FF=0.25",
+  "flashEffectTime": 0.1,
 
-	"easterRate": 200,
-	"groundOnly": true,
-	"maximumDoubleTapTime": 0.2
+  "easterRate": 200,
+  "groundOnly": true,
+  "maximumDoubleTapTime": 0.2
 }

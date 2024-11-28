@@ -1,75 +1,75 @@
 {
-	"background": {
-		"type": "background",
-		"fileHeader": "/interface/tooltips/nekiheader.png",
-		"fileBody": "/interface/tooltips/nekibodyarmor.png",
-		"fileFooter": "/interface/tooltips/nekifooter.png"
-	},
-	"rarityLabel": {
-		"type": "label",
-		"position": [69, 165],
-		"hAnchor": "mid",
-		"vAnchor": "mid",
-		"centered": true,
-		"wrapWidth": 126
-	},
-	"objectImage": {
-		"type": "image",
-		"position": [39, 118],
-		"file": "",
-		"centered": true,
-		"scale": 2,
-		"maxSize": [46, 59],
-		"minSize": [46, 59]
-	},
-	"statusList": {
-		"scissoring": false,
-		"type": "list",
-		"fillDown": true,
-		"position": [10, 161],
-		"size": [59, 83],
-		"schema": {
-			"spacing": [0, 8],
-			"memberSize": [59, 11],
-			"listTemplate": {
-				"statusLabel": {
-					"type": "label",
-					"position": [92, 6],
-					"hAnchor": "left",
-					"vAnchor": "mid"
-				},
-				"statusImage": {
-					"scissoring": false,
-					"type": "image",
-					"position": [66, -1],
-					"file": "",
-					"zlevel": 8
-				},
-				"backgroundImage": {
-					"scissoring": false,
-					"type": "image",
-					"position": [61, 0],
-					"file": ""
-				}
-			}
-		}
-	},
-	"descriptionLabel": {
-		"type": "label",
-		"position": [9, 72],
-		"wrapWidth": 120,
-		"hAnchor": "left",
-		"vAnchor": "top"
-	},
-	"moneyIcon": {
-		"type": "image",
-		"position": [9, 4],
-		"file": "/interface/money.png"
-	},
-	"priceLabel": {
-		"type": "label",
-		"position": [22, 4],
-		"hAnchor": "left",
-		"value": "0"
-	}
+  "background": {
+    "type": "background",
+    "fileHeader": "/interface/tooltips/nekiheader.png",
+    "fileBody": "/interface/tooltips/nekibodyarmor.png",
+    "fileFooter": "/interface/tooltips/nekifooter.png"
+  },
+  "rarityLabel": {
+    "type": "label",
+    "position": [69, 165],
+    "hAnchor": "mid",
+    "vAnchor": "mid",
+    "centered": true,
+    "wrapWidth": 126
+  },
+  "objectImage": {
+    "type": "image",
+    "position": [39, 118],
+    "file": "",
+    "centered": true,
+    "scale": 2,
+    "maxSize": [46, 59],
+    "minSize": [46, 59]
+  },
+  "statusList": {
+    "scissoring": false,
+    "type": "list",
+    "fillDown": true,
+    "position": [10, 161],
+    "size": [59, 83],
+    "schema": {
+      "spacing": [0, 8],
+      "memberSize": [59, 11],
+      "listTemplate": {
+        "statusLabel": {
+          "type": "label",
+          "position": [92, 6],
+          "hAnchor": "left",
+          "vAnchor": "mid"
+        },
+        "statusImage": {
+          "scissoring": false,
+          "type": "image",
+          "position": [66, -1],
+          "file": "",
+          "zlevel": 8
+        },
+        "backgroundImage": {
+          "scissoring": false,
+          "type": "image",
+          "position": [61, 0],
+          "file": ""
+        }
+      }
+    }
+  },
+  "descriptionLabel": {
+    "type": "label",
+    "position": [9, 72],
+    "wrapWidth": 120,
+    "hAnchor": "left",
+    "vAnchor": "top"
+  },
+  "moneyIcon": {
+    "type": "image",
+    "position": [9, 4],
+    "file": "/interface/money.png"
+  },
+  "priceLabel": {
+    "type": "label",
+    "position": [22, 4],
+    "hAnchor": "left",
+    "value": "0"
+  }
 }

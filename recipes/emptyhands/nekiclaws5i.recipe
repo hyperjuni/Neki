@@ -1,9 +1,9 @@
 {
-	"input": [
-		{"item": "nekiclaws5", "count": 1},
-		{"item": "nekithingyice", "count": 1}
-	],
+  "input": [
+    {"item": "nekiclaws5", "count": 1},
+    {"item": "nekithingyice", "count": 1}
+  ],
 
-	"output": {"item": "nekiclaws5i", "count": 1},
-	"groups": ["plain", "weapons", "all"]
+  "output": {"item": "nekiclaws5i", "count": 1},
+  "groups": ["plain", "weapons", "all"]
 }

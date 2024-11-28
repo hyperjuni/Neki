@@ -1,13 +1,22 @@
 [
-	{"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"},
-	{"op": "add", "path": "/scriptConfig/dialog/converse/default/neki",
-		"value": [
-			"...",
-			"...",
-			"...",
-			"Enraged. OH FOR FUCK'S SAKE, WHAT?!",
-			"Furious. Is EVERYONE a social fiend around here?!", 
-			"Contemplating. I should probably find a better place to be at."
-		]
-	}
+  [
+    {"op": "test", "path": "/scriptConfig/dialogMode", "value": "sequence", "inverse": true},
+    {"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"}
+  ],
+  [
+    {"op": "add", "path": "/scriptConfig/dialog/converse/default/neki",
+      "value": [
+        "...",
+        "...",
+        "...",
+        "Enraged. OH FOR FUCK'S SAKE, WHAT?!",
+        "Furious. Is EVERYONE a social fiend around here?!", 
+        "Contemplating. I should probably find a better place to be at.",
+        "...",
+        "...",
+        "Bewildered. WHY are you still here?!",
+        "Conceding. You sure are stubborn, aren't you."
+      ]
+    }
+  ]
 ]

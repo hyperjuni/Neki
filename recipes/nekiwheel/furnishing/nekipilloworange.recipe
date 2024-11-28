@@ -1,10 +1,10 @@
 {
-	"input": [
-		{"item": "apexcurtain", "count": 1},
-		{"item": "feathers1", "count": 1},
-		{"item": "feathers2", "count": 1}
-	],
+  "input": [
+    {"item": "apexcurtain", "count": 1},
+    {"item": "feathers1", "count": 1},
+    {"item": "feathers2", "count": 1}
+  ],
 
-	"output": {"item": "nekipilloworange", "count": 1},
-	"groups": ["nekiwheel", "furnishing"]
+  "output": {"item": "nekipilloworange", "count": 1},
+  "groups": ["nekiwheel", "furnishing"]
 }

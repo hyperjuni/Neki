@@ -1,75 +1,75 @@
 {
-	"objectName": "nekicurtain1",
-	"category": "decorative",
-	"rarity": "Common",
-	"price": 60,
-	"race": "neki",
-	"tooltipKind": "nekibase",
-	"colonyTags": [
-		"neki",
-		"apexmansion",
-		"pretty"
-	],
+  "objectName": "nekicurtain1",
+  "category": "decorative",
+  "rarity": "Common",
+  "price": 60,
+  "race": "neki",
+  "tooltipKind": "nekibase",
+  "colonyTags": [
+    "neki",
+    "apexmansion",
+    "pretty"
+  ],
 
-	"shortdescription": "Neki Curtain",
-	"description": "Some classy curtains, with a bit of a...feline touch.",
+  "shortdescription": "Neki Curtain",
+  "description": "Some classy curtains, with a bit of a...feline touch.",
 
-	"apexDescription": "Rich, heavy curtains, ruined by a certain feline touch...",
-	"avianDescription": "Looks like something was a bit too rough with these.",
-	"floranDescription": "Sssomeone tore the fancy curtainss. I think I like them thiss way more.",
-	"glitchDescription": "Concerned. These curtains look beyond repair.",
-	"humanDescription": "These curtains probably used to belong in a mansion.",
-	"hylotlDescription": "Oh...Oh dear...",
-	"nekiDescription": "There, much better!",
-	"novakidDescription": "Looks like these curtains have seen some better days.",
+  "apexDescription": "Rich, heavy curtains, ruined by a certain feline touch...",
+  "avianDescription": "Looks like something was a bit too rough with these.",
+  "floranDescription": "Sssomeone tore the fancy curtainss. I think I like them thiss way more.",
+  "glitchDescription": "Concerned. These curtains look beyond repair.",
+  "humanDescription": "These curtains probably used to belong in a mansion.",
+  "hylotlDescription": "Oh...Oh dear...",
+  "nekiDescription": "There, much better!",
+  "novakidDescription": "Looks like these curtains have seen some better days.",
 
-	"inventoryIcon": "nekicurtain1icon.png",
+  "inventoryIcon": "nekicurtain1icon.png",
 
-	"orientations": [
-		{
-			"direction": "left",
-			"fgAnchors": [[-2, 1], [-1, 1], [0, 1], [1, 1]],
-			"image": "nekicurtain1.png",
-			"imagePosition": [-16, -8],
-			"flipImages": true,
-			"spaceScan": 0.1
-		},
-		{
-			"direction": "left",
-			"bgAnchors": [[-2, 1], [-1, 1], [0, 1], [1, 1]],
-			"image": "nekicurtain1.png",
-			"imagePosition": [-16, -8],
-			"flipImages": true,
-			"spaceScan": 0.1
-		},
-		{
-			"direction": "left",
-			"bgAnchors": [[-2, 0], [-1, 0], [0, 0], [1, 0]],
-			"image": "nekicurtain1.png",
-			"imagePosition": [-16, -8],
-			"flipImages": true,
-			"spaceScan": 0.1
-		},
-		{
-			"direction": "right",
-			"fgAnchors": [[-2, 1], [-1, 1], [0, 1], [1, 1]],
-			"image": "nekicurtain1.png",
-			"imagePosition": [-16, -8],
-			"spaceScan": 0.1
-		},
-		{
-			"direction": "right",
-			"bgAnchors": [[-2, 1], [-1, 1], [0, 1], [1, 1]],
-			"image": "nekicurtain1.png",
-			"imagePosition": [-16, -8],
-			"spaceScan": 0.1
-		},
-		{
-			"direction": "right",
-			"bgAnchors": [[-2, 0], [-1, 0], [0, 0], [1, 0]],
-			"image": "nekicurtain1.png",
-			"imagePosition": [-16, -8],
-			"spaceScan": 0.1
-		}
-	]
+  "orientations": [
+    {
+      "direction": "left",
+      "fgAnchors": [[-2, 1], [-1, 1], [0, 1], [1, 1]],
+      "image": "nekicurtain1.png",
+      "imagePosition": [-16, -8],
+      "flipImages": true,
+      "spaceScan": 0.1
+    },
+    {
+      "direction": "left",
+      "bgAnchors": [[-2, 1], [-1, 1], [0, 1], [1, 1]],
+      "image": "nekicurtain1.png",
+      "imagePosition": [-16, -8],
+      "flipImages": true,
+      "spaceScan": 0.1
+    },
+    {
+      "direction": "left",
+      "bgAnchors": [[-2, 0], [-1, 0], [0, 0], [1, 0]],
+      "image": "nekicurtain1.png",
+      "imagePosition": [-16, -8],
+      "flipImages": true,
+      "spaceScan": 0.1
+    },
+    {
+      "direction": "right",
+      "fgAnchors": [[-2, 1], [-1, 1], [0, 1], [1, 1]],
+      "image": "nekicurtain1.png",
+      "imagePosition": [-16, -8],
+      "spaceScan": 0.1
+    },
+    {
+      "direction": "right",
+      "bgAnchors": [[-2, 1], [-1, 1], [0, 1], [1, 1]],
+      "image": "nekicurtain1.png",
+      "imagePosition": [-16, -8],
+      "spaceScan": 0.1
+    },
+    {
+      "direction": "right",
+      "bgAnchors": [[-2, 0], [-1, 0], [0, 0], [1, 0]],
+      "image": "nekicurtain1.png",
+      "imagePosition": [-16, -8],
+      "spaceScan": 0.1
+    }
+  ]
 }

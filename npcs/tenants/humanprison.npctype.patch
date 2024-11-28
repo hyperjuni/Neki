@@ -1,11 +1,11 @@
 [
-	{"op": "add", "path": "/scriptConfig/dialog/converse/neki", "value": {}},
-	{"op": "add", "path": "/scriptConfig/dialog/converse/neki/default",
-		"value" : [
-			"Do I look edgy in this jumpsuit?",
-			"I just got out of purrison! It was fun!",
-			"I only wanted to play, but ended up in purrison somehow.",
-			"Don't worry, I'm not dangerous! I was in purrison for being too playful..."
-		]
-	}
+  {"op": "add", "path": "/scriptConfig/dialog/converse/neki", "value": {}},
+  {"op": "add", "path": "/scriptConfig/dialog/converse/neki/default",
+    "value" : [
+      "Don't worry, I'm not dangerous! I was in purrison for being too playful...",
+      "I only wanted to play, but ended up in purrison somehow.",
+      "I just got out of purrison! It was fun!",
+      "Do I look edgy in this jumpsuit?"
+    ]
+  }
 ]

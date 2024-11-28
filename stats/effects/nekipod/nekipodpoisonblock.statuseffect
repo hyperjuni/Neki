@@ -1,9 +1,9 @@
 {
-	"name": "nekipodpoisonblock",
-	"defaultDuration": 5,
-	"effectConfig": {},
+  "name": "nekipodpoisonblock",
+  "defaultDuration": 5,
+  "effectConfig": {},
 
-	"icon": "/interface/statuses/poisonblock.png",
-	"label": "Neki Pod Poison Resistance",
-	"scripts": ["nekipodexit.lua"]
+  "icon": "/interface/statuses/poisonblock.png",
+  "label": "Neki Pod Poison Resistance",
+  "scripts": ["nekipodexit.lua"]
 }

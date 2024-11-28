@@ -1,21 +1,21 @@
 [
-	{"op": "add", "path": "/scriptConfig/dialog/converse/default/neki",
-		"value": [
-			"Excited. <entityname>! You're a sight for sore eyes. Figuratively speaking.",
-			"Attentive. Aren't you graduating today?",
-			"Wistful. At least one of us will get to graduate properly.",
-			"Compliment. You don't look half as bad as you normally do today.",
-			"Supportive. I'm sure you'll do great, there's nothing to worry about.",
-			"Advisory. You should get going before you miss the ceremony!",
-			"Sociable. We can play together after it, if you want.",
-			"Concerned. If you don't go now, you'll miss it!",
-			"Reassuring. I'll be waiting for you here."
-		]
-	},
+  {"op": "add", "path": "/scriptConfig/dialog/converse/default/neki",
+    "value": [
+      "Excited. <entityname>! You're a sight for sore eyes. Figuratively speaking.",
+      "Attentive. Aren't you graduating today?",
+      "Wistful. At least one of us will get to graduate properly.",
+      "Compliment. You don't look half as bad today as you normally do.",
+      "Supportive. I'm sure you'll do great, there's nothing to worry about.",
+      "Advisory. You should get going before you miss the ceremony!",
+      "Sociable. We can play together afterwards, if you want.",
+      "Concerned. If you don't go now, you'll miss it!",
+      "Reassuring. I'll be waiting for you here."
+    ]
+  },
 
-	{"op": "add", "path": "/scriptConfig/dialog/complain/default/neki",
-		"value": [
-			"Snarky. At least petals are easier to sweep up than fur."
-		]
-	}
+  {"op": "add", "path": "/scriptConfig/dialog/complain/default/neki",
+    "value": [
+      "Snarky. At least petals are easier to sweep up than fur."
+    ]
+  }
 ]

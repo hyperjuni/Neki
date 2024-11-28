@@ -1,10 +1,10 @@
 {
-	"input": [
-		{"item": "floranpelt4", "count": 1},
-		{"item": "feathers1", "count": 1},
-		{"item": "feathers2", "count": 1}
-	],
+  "input": [
+    {"item": "floranpelt4", "count": 1},
+    {"item": "feathers1", "count": 1},
+    {"item": "feathers2", "count": 1}
+  ],
 
-	"output": {"item": "nekipillowwhite", "count": 1},
-	"groups": ["nekiwheel", "furnishing"]
+  "output": {"item": "nekipillowwhite", "count": 1},
+  "groups": ["nekiwheel", "furnishing"]
 }

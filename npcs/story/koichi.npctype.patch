@@ -1,14 +1,14 @@
 [
-	{"op": "add", "path": "/scriptConfig/dialog/koichi/greet/default/neki",
-		"value": [
-			"Stay back, Neki!\nI'm willing to defend\nmyself to the death!",
-			"Wait.. you're the one I've been guiding through the library this entire time?",
-			"How bizarre of you to go\nthrough all this trouble,\njust to come torture me\nall the way down here.",
-			"I guess I should accept\nmy fate, for being so\nblind and foolish.",
-			"So, what are you waiting\nfor, Neki? Do your worst...",
-			"Hm.. I'm still alive, so this must mean that you're not here for me.",
-			"What ARE you here\nfor, in that case?",
-			"Oh, you're here for this artifact too? How intriguing..."
-		]
-	}
+  {"op": "add", "path": "/scriptConfig/dialog/koichi/greet/default/neki",
+    "value": [
+      "Stay back, Neki!\nI'm willing to defend\nmyself to the death!",
+      "Wait.. you're the one I've been guiding through the library this entire time?",
+      "How bizarre of you to go\nthrough all this trouble,\njust to come torture me\nall the way down here.",
+      "I guess I should accept\nmy fate, for being so\nblind and foolish.",
+      "So, what are you waiting\nfor, Neki? Do your worst...",
+      "Hm.. I'm still alive, so this must mean that you're not here for me.",
+      "What ARE you here\nfor, in that case?",
+      "Oh, you're here for this artifact too? How intriguing..."
+    ]
+  }
 ]

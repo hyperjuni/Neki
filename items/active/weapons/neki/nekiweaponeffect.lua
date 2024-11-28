@@ -6,15 +6,15 @@ local updateSB = update
 local uninitSB = uninit
 
 function init()
-	initSB()
-	status.setPersistentEffects("nekiWeaponEffect", {self.primaryAbility.nekiWeaponEffect})
+  initSB()
+  status.setPersistentEffects("nekiWeaponEffect", {self.primaryAbility.nekiWeaponEffect})
 end
 
 function update(dt, fireMode, shiftHeld)
-	updateSB(dt, fireMode, shiftHeld)
+  updateSB(dt, fireMode, shiftHeld)
 end
 
 function uninit()
-	uninitSB()
-	status.clearPersistentEffects("nekiWeaponEffect")
+  uninitSB()
+  status.clearPersistentEffects("nekiWeaponEffect")
 end

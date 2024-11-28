@@ -1,10 +1,10 @@
 {
-	"id": "nekiprlog385",
-	"species": "neki",
-	"title": "Private Log #0385",
-	"description": "A private log entry.",
-	"icon": "nekimemorycardgreen.png",
-	"contentPages": [
+  "id": "nekiprlog385",
+  "species": "neki",
+  "title": "Private Log #0385",
+  "description": "A private log entry.",
+  "icon": "nekimemorycardgreen.png",
+  "contentPages": [
 "As I put the twins in cryo, I could not contain my tears. I knew this was goodbye, but even in that moment they were still trying to cheer me up. They trusted me, and I was betraying their trust. I was sending them, all alone and helpless, to an unfamiliar and inhospitable place.
 
 They will adapt and survive, without a shadow of a doubt, but will they be able to understand and forgive me?
@@ -16,9 +16,9 @@ Because right now, I can't even forgive myself. ^cyan;>>^reset;",
 Knowing that in just a few hours, we will have to part for good. Not being able to tell them. Tell them that they had to be sent far, far away just to remain safe.
 
 All the way to the Human homeworld."
-	],
-	"itemConfig": {
-		"rarity": "uncommon",
-		"price": 25
-	}
+  ],
+  "itemConfig": {
+    "rarity": "uncommon",
+    "price": 25
+  }
 }

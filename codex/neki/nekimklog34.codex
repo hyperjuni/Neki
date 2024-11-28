@@ -1,10 +1,10 @@
 {
-	"id": "nekimklog34",
-	"species": "neki",
-	"title": "Log 3489.#0034",
-	"description": "A classified scientific research log of the Miniknog.",
-	"icon": "nekimemorycardblack.png",
-	"contentPages": [
+  "id": "nekimklog34",
+  "species": "neki",
+  "title": "Log 3489.#0034",
+  "description": "A classified scientific research log of the Miniknog.",
+  "icon": "nekimemorycardblack.png",
+  "contentPages": [
 "The resultant creature appears anatomically human, save for a few uncharacteristic features:
 
 - Highly-enlarged triangular auricles
@@ -19,9 +19,9 @@ Many of these features are remarkably similar to the adverse effects of the VEP 
 I feel that we could be closer to solving our genetic predicament than we ever were before!
 
 ...Long live Big Ape!"
-	],
-	"itemConfig": {
-		"rarity": "uncommon",
-		"price": 25
-	}
+  ],
+  "itemConfig": {
+    "rarity": "uncommon",
+    "price": 25
+  }
 }

@@ -1,10 +1,10 @@
 [
-	{"op": "add", "path": "/scriptConfig/dialog/converse/neki", "value": {}},
-	{"op": "add", "path": "/scriptConfig/dialog/converse/neki/default",
-		"value" : [
-			"Do you like how techy I look?",
-			"Why are my ears always sticking out?",
-			"These clothes let me interact with compurrters with my mind!"
-		]
-	}
+  {"op": "add", "path": "/scriptConfig/dialog/converse/neki", "value": {}},
+  {"op": "add", "path": "/scriptConfig/dialog/converse/neki/default",
+    "value" : [
+      "These clothes let me interact with compurrters with my mind!",
+      "Why are my ears always sticking out?",
+      "Do you like how techy I look?"
+    ]
+  }
 ]

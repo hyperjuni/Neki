@@ -1,25 +1,25 @@
 [
-	{"op": "add", "path": "/baseParameters/dialog/intro/default/neki",
-		"value": [
-			"Huh...\nA Neki, doing Esther's bidding?!",
-			"That withered hag still manages to surprise, I'll give her that.",
-			"Your kind ought to know better than to blindly follow the likes of her!",
-			"Almost a pity, really.\nYou could've been quite useful for my cause..."
-		]
-	},
+  {"op": "add", "path": "/baseParameters/dialog/intro/default/neki",
+    "value": [
+      "Huh...\nA Neki, doing Esther's bidding?!",
+      "That withered hag still manages to surprise, I'll give her that.",
+      "Your kind ought to know better than to blindly follow the likes of her!",
+      "Almost a pity, really.\nYou could've been quite useful for my cause..."
+    ]
+  },
 
-	{"op": "add", "path": "/baseParameters/dialog/start/default/neki",
-		"value": [
-			"Ah well!\nTime to die, felid!"
-		]
-	},
+  {"op": "add", "path": "/baseParameters/dialog/start/default/neki",
+    "value": [
+      "Ah well!\nTime to die, felid!"
+    ]
+  },
 
-	{"op": "add", "path": "/baseParameters/dialog/death/default/neki",
-		"value": [
-			"Huff...\nI'll admit, your skills reaffirm your species' reputation.",
-			"Enjoy this little victory, as it'll be your last!",
-			"Because even with you on her side - Esther won't win.",
-			"It's too late now to stop what's been set in motion!"
-		]
-	}
+  {"op": "add", "path": "/baseParameters/dialog/death/default/neki",
+    "value": [
+      "Huff...\nI'll admit, your skills reaffirm your species' reputation.",
+      "Enjoy this little victory, as it'll be your last!",
+      "Because even with you on her side - Esther won't win.",
+      "It's too late now to stop what's been set in motion!"
+    ]
+  }
 ]

@@ -1,28 +1,28 @@
 [
-	{"op": "add", "path": "/neki",
-		"value": {
-			"male": [
-				"/humanoid/neki/backarm.png",
-				"/humanoid/neki/malehead.png:normal",
-				"/humanoid/neki/emote.png:idle.1",
-				"/humanoid/neki/hair/cb_male45.png:normal",
-				"/humanoid/neki/malebody.png",
-				null,
-				null,
-				"/humanoid/neki/frontarm.png"
-			],
-			"maleDirectives": "?replace;ffe2c5=f5ede3;ffc181=f9d3a9;d39c6c=d3a57c;c7815b=a06e53;f32200=6ca55e;dc1f00=3d7a52;be1b00=1b4f3e;951500=072824;f7e7b2=ba9685;d9c189=8f6962;a38d59=724549;735e3a=483038",
-			"female": [
-				"/humanoid/neki/backarm.png",
-				"/humanoid/neki/femalehead.png:normal",
-				"/humanoid/neki/emote.png:idle.1",
-				"/humanoid/neki/hair/anti_fhuman_cb20.png:normal",
-				"/humanoid/neki/femalebody.png",
-				null,
-				null,
-				"/humanoid/neki/frontarm.png"
-			],
-			"femaleDirectives": "?replace;ffe2c5=e8cebc;ffc181=cfa97d;d39c6c=ae774b;c7815b=804e34;f32200=db3548;dc1f00=7e1f30;be1b00=441a21;951500=2c1d1e;f7e7b2=fde9e8;d9c189=edbfc0;a38d59=ee97a5;735e3a=b65058"
-		}
-	}
+  {"op": "add", "path": "/neki",
+    "value": {
+      "male": [
+        "/humanoid/neki/backarm.png",
+        "/humanoid/neki/malehead.png:normal",
+        "/humanoid/neki/emote.png:idle.1",
+        "/humanoid/neki/hair/cb_male45.png:normal",
+        "/humanoid/neki/malebody.png",
+        null,
+        null,
+        "/humanoid/neki/frontarm.png"
+      ],
+      "maleDirectives": "?replace;ffe2c5=f5ede3;ffc181=f9d3a9;d39c6c=d3a57c;c7815b=a06e53;f32200=6ca55e;dc1f00=3d7a52;be1b00=1b4f3e;951500=072824;f7e7b2=ba9685;d9c189=8f6962;a38d59=724549;735e3a=483038",
+      "female": [
+        "/humanoid/neki/backarm.png",
+        "/humanoid/neki/femalehead.png:normal",
+        "/humanoid/neki/emote.png:idle.1",
+        "/humanoid/neki/hair/anti_fhuman_cb20.png:normal",
+        "/humanoid/neki/femalebody.png",
+        null,
+        null,
+        "/humanoid/neki/frontarm.png"
+      ],
+      "femaleDirectives": "?replace;ffe2c5=e8cebc;ffc181=cfa97d;d39c6c=ae774b;c7815b=804e34;f32200=db3548;dc1f00=7e1f30;be1b00=441a21;951500=2c1d1e;f7e7b2=fde9e8;d9c189=edbfc0;a38d59=ee97a5;735e3a=b65058"
+    }
+  }
 ]

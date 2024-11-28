@@ -1,29 +1,30 @@
 [
-	{"op": "add",	"path": "/scriptConfig/dialog/converse/floran/neki",
-		"value": [
-			"Successs!",
-			"It iss over!",
-			"The victorsss!",
-			"It'sss a draw!",
-			"Neki beat Nuru!",
-			"Nuru winss again!",
-			"The Hunt iss over!",
-			"The Hunt isss won!",
-			"Neki won The Hunt?",
-			"Did this Neki win!?",
-			"Iss Neki the winner?",
-			"Celebration isss due!",
-			"Neki isss the victor!",
-			"Nuru isss the victor!",
-			"Wass The Hunt a draw?!",
-			"The prey has been ssslain!",
-			"Floran knew Neki would win!",
-			"Hail the Hunters sssupreme!",
-			"Nuru hasss Neki partner now?",
-			"Sssomeone finally beat Nuru!",
-			"Nuru and Neki friendsss now?",
-			"To the victors go the ssspoils!",
-			"Nuru returns! But who isss the Neki?"
-		]
-	}
+  {"op": "add",  "path": "/scriptConfig/dialog/converse/floran/neki",
+    "value": [
+      "Nuru returns! But who isss the Neki?",
+      "To the victors go the ssspoils!",
+      "Nuru hasss Neki partner now?",
+      "Sssomeone finally beat Nuru!",
+      "Nuru and Neki friendsss now?",
+      "Floran knew Neki would win!",
+      "Hail the Hunters sssupreme!",
+      "The prey has been ssslain!",
+      "Wass The Hunt a draw?!",
+      "Celebration isss due!",
+      "Neki isss the victor!",
+      "Nuru isss the victor!",
+      "Iss Neki the winner?",
+      "Did this Neki win!?",
+      "Who is thisss Neki?",
+      "The Hunt iss over!",
+      "The Hunt isss won!",
+      "Neki won The Hunt?",
+      "Nuru winss again!",
+      "Neki beat Nuru!",
+      "The victorsss!",
+      "It'ss a draw!",
+      "It iss over!",
+      "Successs!"
+    ]
+  }
 ]

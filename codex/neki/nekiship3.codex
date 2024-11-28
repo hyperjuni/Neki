@@ -1,20 +1,20 @@
 {
-	"id": "nekiship3",
-	"species": "neki",
-	"title": "Extraction Mission: Day 3",
-	"description": "A classified Miniknog mission report.",
-	"icon": "nekimemorycardmk.png",
-	"contentPages": [
+  "id": "nekiship3",
+  "species": "neki",
+  "title": "Extraction Mission: Day 3",
+  "description": "A classified Miniknog mission report.",
+  "icon": "nekimemorycardmk.png",
+  "contentPages": [
 "Capturing the asset is proving to be more... challenging than the original plan has ever accounted for.
 
 The subject has recognized us by smell and doesn't seem to be at all alarmed by our presence; our cover was nearly blown multiple times by its incessant attempts at greeting us.
 
 ^cyan;Acquiring the target without violating the mission parameters is beginning to appear highly unlikely at this stage.^reset;"
 
-	],
+  ],
 
-	"itemConfig": {
-		"rarity": "uncommon",
-		"price": 25
-	}
+  "itemConfig": {
+    "rarity": "uncommon",
+    "price": 25
+  }
 }

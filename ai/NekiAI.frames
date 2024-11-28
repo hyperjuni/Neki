@@ -1,41 +1,41 @@
 {
-	"frameGrid": {
-		"size": [90, 94],
-		"dimensions": [18, 5],
+  "frameGrid": {
+    "size": [90, 94],
+    "dimensions": [18, 5],
 
-		"names": [
-			[null, "idle", null, "blink.0", "blink.1", "blink.2"],
-			[null, "talk.0", "talk.1", null, "yell.0", "yell.1"],
-			[null, "refuse.0", "refuse.1", "refuse.2", "refuse.3", "refuse.4", "refuse.5", "refuse.6", "refuse.7"],
-			[null, "unique.0", "unique.1", "unique.2", "unique.3", "unique.4", "unique.5", "unique.6", "unique.7"],
-			[null, "wink.0", "wink.1", "wink.2", "wink.3", null, "alert.0", "alert.1"]
-		]
-	},
+    "names": [
+      [null, "idle", null, "blink.0", "blink.1", "blink.2"],
+      [null, "talk.0", "talk.1", null, "yell.0", "yell.1"],
+      [null, "refuse.0", "refuse.1", "refuse.2", "refuse.3", "refuse.4", "refuse.5", "refuse.6", "refuse.7"],
+      [null, "unique.0", "unique.1", "unique.2", "unique.3", "unique.4", "unique.5", "unique.6", "unique.7"],
+      [null, "wink.0", "wink.1", "wink.2", "wink.3", null, "alert.0", "alert.1"]
+    ]
+  },
 
-	"aliases": {
-		"idle.0"	: "idle",
-		"idle.1"	: "blink.0",
-		"idle.2"	: "blink.1",
-		"idle.3"	: "blink.2",
-		"idle.4"	: "idle",
-		"idle.5"	: "idle",
-		"idle.6"	: "idle",
-		"idle.7"	: "idle",
-		"idle.8"	: "idle",
-		"idle.9"	: "idle",
-		"idle.10"	: "idle",
-		"idle.11"	: "idle",
-		"idle.12"	: "idle",
-		"idle.13"	: "idle",
-		"idle.14"	: "idle",
-		"idle.15"	: "idle",
-		"idle.16"	: "idle",
-		"idle.17"	: "idle",
-		"idle.18"	: "idle",
-		"idle.19"	: "idle",
-		"idle.20"	: "idle",
+  "aliases": {
+    "idle.0"  : "idle",
+    "idle.1"  : "blink.0",
+    "idle.2"  : "blink.1",
+    "idle.3"  : "blink.2",
+    "idle.4"  : "idle",
+    "idle.5"  : "idle",
+    "idle.6"  : "idle",
+    "idle.7"  : "idle",
+    "idle.8"  : "idle",
+    "idle.9"  : "idle",
+    "idle.10"  : "idle",
+    "idle.11"  : "idle",
+    "idle.12"  : "idle",
+    "idle.13"  : "idle",
+    "idle.14"  : "idle",
+    "idle.15"  : "idle",
+    "idle.16"  : "idle",
+    "idle.17"  : "idle",
+    "idle.18"  : "idle",
+    "idle.19"  : "idle",
+    "idle.20"  : "idle",
 
-		"alert.2"	: "alert.0",
-		"alert.3"	: "alert.0"
-	}
+    "alert.2"  : "alert.0",
+    "alert.3"  : "alert.0"
+  }
 }

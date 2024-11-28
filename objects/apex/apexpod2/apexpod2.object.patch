@@ -1,10 +1,10 @@
 [
-	[
-		{"op":"test","path":"/sitStatusEffects","inverse":true},
-		{"op":"add","path":"/sitStatusEffects","value":[]}
-	],
-	[
-		{"op":"add","path":"/nekiDescription","value":"A mother."},
-		{"op":"add","path":"/sitStatusEffects/-","value":"nekihideapexpod2"}
-	]
+  [
+    {"op":"test","path":"/sitStatusEffects","inverse":true},
+    {"op":"add","path":"/sitStatusEffects","value":[]}
+  ],
+  [
+    {"op":"add","path":"/nekiDescription","value":"A mother."},
+    {"op":"add","path":"/sitStatusEffects/-","value":"nekihideapexpod2"}
+  ]
 ]

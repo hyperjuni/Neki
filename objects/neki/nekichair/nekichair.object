@@ -1,45 +1,68 @@
 {
-	"objectName": "nekichair",
-	"colonyTags": ["neki"],
-	"printable": false,
-	"rarity": "Common",
-	"description": "An old and worn chair, with a lot of scratch-marks on it.",
-	"shortdescription": "Neki chair",
-	"race": "generic",
-	"category": "furniture",
-	"price": 60,
+  "objectName": "nekichair",
+  "objectType": "loungeable",
+  "category": "furniture",
+  "rarity": "Common",
+  "price": 100,
+  "race": "neki",
+  "printable": false,
+  "tooltipKind": "nekibase",
+  "colonyTags": ["neki"],
 
-	"apexDescription": "Old and worn, but probably works efficiently enough.",
-	"avianDescription": "A chair with grass stuffed cushioning. I could get used to this!",
-	"floranDescription": "Floran thinksss chair battle damaged.",
-	"glitchDescription": "Confused. Is this furniture meant to look this dishevelled?",
-	"humanDescription": "This looks a bit broken. I'm not sure I should sit on it...",
-	"hylotlDescription": "This chair looks like it's been through a lot.",
-	"nekiDescription": "Nice looking sits.",
-	"novakidDescription": "Dust ain't all that bad.",
+  "shortdescription": "Neki Basic Chair",
+  "description": "A small, brightly-colored giftbox.",
 
-	"inventoryIcon": "/objects/biome/savannah/dustychair/dustychairicon.png",
-	"orientations": [
-		{
-			"image": "/objects/biome/savannah/dustychair/dustychair.png:<color>",
-			"imagePosition": [-8, 0],
-			"direction": "left",
-			"flipImages": true,
+  "apexDescription": "I have a bad feeling about this gift.",
+  "avianDescription": "This present is smelly.",
+  "floranDescription": "Floran want present! Ssstab everything!",
+  "glitchDescription": "Observant. This present doesn't seem to be addressed to anyone.",
+  "humanDescription": "Presents! Gifts! Wrapping! Yeah! Whoo!",
+  "hylotlDescription": "It's quite a festive-looking box, but something about it is making me feel uneasy.",
+  "nekiDescription": "The best box for the best butt!",
+  "novakidDescription": "Sum'n's off 'bout this 'ere box.",
 
-			"spaceScan": 0.1,
-			"anchors": ["bottom"]
-		},
-		{
-			"image": "/objects/biome/savannah/dustychair/dustychair.png:<color>",
-			"imagePosition": [-8, 0],
-			"direction": "right",
+  "emptyText": "This box doesn't seem contain anything, and isn't large enough to be useful in any meaningful way.",
 
-			"spaceScan": 0.1,
-			"anchors": ["bottom"]
-		}
-	],
+  "inventoryIcon": "nekichairicon.png",
 
-	"objectType": "loungeable",
-	"sitFlipDirection": false,
-	"sitPosition": [2, 22]
+  "orientations": [
+    {
+      "direction": "left",
+      "anchors": ["bottom"],
+      "image": "nekichair.png",
+      "imagePosition": [0, 0],
+      "spaceScan": 0.1,
+      "sitPosition": [-11.5, 15]
+    },
+    {
+      "direction": "right",
+      "anchors": ["bottom"],
+      "image": "nekichair.png",
+      "imagePosition": [0, 0],
+      "flipImages": true,
+      "spaceScan": 0.1,
+      "sitPosition": [12.5, 15]
+    }
+  ],
+
+  "sitCoverImage": "/objects/neki/nekichair/nekichaircover.png",
+  "sitOrientation": "sit",
+  "sitEmote": "happy",
+  "sitDance": "nekichair",
+  "sitStatusEffects": [
+    "nekibedgetin",
+    "nekihidechair"
+  ],
+
+  "scripts": ["/scripts/neki/nekiboxes.lua"],
+  "canUse": {
+    "apex": false,
+    "avian": false,
+    "floran": false,
+    "glitch": false,
+    "human": false,
+    "hylotl": false,
+    "neki": true,
+    "novakid": false
+  }
 }

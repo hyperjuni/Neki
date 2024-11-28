@@ -1,20 +1,20 @@
 [
-	{"op": "add", "path": "/helpme/neki",
-		"value": {
-			"default": [
-				"Khhhh..!"
-			]
-		}
-	},
-	{"op": "add", "path": "/safe/neki",
-		"value": {
-			"default": [
-				"I better get my claws sharpened.",
-				"I peed a little over there.",
-				"I need to sleep this off.",
-				"I need some food now.",
-				"That was stressful!"
-			]
-		}
-	}
+  {"op": "add", "path": "/helpme/neki",
+    "value": {
+      "default": [
+        "Khhhh..!"
+      ]
+    }
+  },
+  {"op": "add", "path": "/safe/neki",
+    "value": {
+      "default": [
+        "I better get my claws sharpened.",
+        "I peed a little over there.",
+        "I need to sleep this off.",
+        "I need some food now.",
+        "That was stressful!"
+      ]
+    }
+  }
 ]

@@ -1,10 +1,10 @@
 [
-	[
-		{"op":"test","path":"/sitStatusEffects","inverse":true},
-		{"op":"add","path":"/sitStatusEffects","value":[]}
-	],
-	[
-		{"op":"add","path":"/nekiDescription","value":"Why hide? Look'em in the eye and bury it with pride!"},
-		{"op":"add","path":"/sitStatusEffects/-","value":"nekihidestall"}
-	]
+  [
+    {"op":"test","path":"/sitStatusEffects","inverse":true},
+    {"op":"add","path":"/sitStatusEffects","value":[]}
+  ],
+  [
+    {"op":"add","path":"/nekiDescription","value":"Why hide? Look'em in the eye and bury it with prride!"},
+    {"op":"add","path":"/sitStatusEffects/-","value":"nekihidestall"}
+  ]
 ]

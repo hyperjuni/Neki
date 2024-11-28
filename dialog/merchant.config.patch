@@ -2,1183 +2,1183 @@
 
 // Fill missing dialogue options with defaults to allow adding Neki-specific ones
 
-	[
-		{"op": "test", "path": "/merchantStart/human", "inverse": true},
-		{"op": "add", "path": "/merchantStart/human", "value": {}},
-		{"op": "add", "path": "/merchantStart/human/default",
-			"value": [
-				"Welcome to my shop!",
-				"See anything you like?",
-				"What can I help you with?"
-			]
-		}
-	],
+  [
+    {"op": "test", "path": "/merchantStart/human", "inverse": true},
+    {"op": "add", "path": "/merchantStart/human", "value": {}},
+    {"op": "add", "path": "/merchantStart/human/default",
+      "value": [
+        "Welcome to my shop!",
+        "See anything you like?",
+        "What can I help you with?"
+      ]
+    }
+  ],
 
-	[
-		{"op": "test", "path": "/follow/human", "inverse": true},
-		{"op": "add", "path": "/follow/human", "value": {}},
-		{"op": "add", "path": "/follow/human/default",
-			"value": [
-				"Come with me, we can do business in my shop!",
-				"Come in, come in and see what I've got!"
-			]
-		}
-	],
+  [
+    {"op": "test", "path": "/follow/human", "inverse": true},
+    {"op": "add", "path": "/follow/human", "value": {}},
+    {"op": "add", "path": "/follow/human/default",
+      "value": [
+        "Come with me, we can do business in my shop!",
+        "Come in, come in and see what I've got!"
+      ]
+    }
+  ],
 
-	[
-		{"op": "test", "path": "/tout/human", "inverse": true},
-		{"op": "add", "path": "/tout/human", "value": {}},
-		{"op": "add", "path": "/tout/human/default",
-			"value": [
-				"Goods for sale!",
-				"Hey you, come check out my amazing wares!",
-				"Best deals around!",
-				"Cheap buys!"
-			]
-		}
-	],
+  [
+    {"op": "test", "path": "/tout/human", "inverse": true},
+    {"op": "add", "path": "/tout/human", "value": {}},
+    {"op": "add", "path": "/tout/human/default",
+      "value": [
+        "Goods for sale!",
+        "Hey you, come check out my amazing wares!",
+        "Best deals around!",
+        "Cheap buys!"
+      ]
+    }
+  ],
 
-	[
+  [
 
 // --------------- merchantStart ---------------
 
-		{"op": "add", "path": "/merchantStart/apex/neki",
-			"value": [
-			// Burin/Juni
-				"I've got supplies if you need them, just make it quick.",
-				"I'll overlook your affiliations, for the right price.",
-				"Trade for what you need now, to not regret it later.",
-				"All my goods are legitimate, and contraband-free!",
-				"Hey, watch your tail! You break it you buy it!"
-			]
-		},
+    {"op": "add", "path": "/merchantStart/apex/neki",
+      "value": [
+      // Burin/Juni
+        "I've got supplies if you need them, just make it quick.",
+        "I'll overlook your affiliations, for the right price.",
+        "Trade for what you need now, to not regret it later.",
+        "All my goods are legitimate, and contraband-free!",
+        "Hey, watch your tail! You break it you buy it!"
+      ]
+    },
 
-		{"op": "add", "path": "/merchantStart/avian/neki",
-			"value": [
-			// Juni
-				"You look like you can appreciate a good deal... Or just hungry.",
-				"I'm not the tastiest thing in stock, look for yourself!",
-				"Hey hey! Business first, predator-prey later!",
+    {"op": "add", "path": "/merchantStart/avian/neki",
+      "value": [
+      // Juni
+        "You look like you can appreciate a good deal... Or just hungry.",
+        "I'm not the tastiest thing in stock, look for yourself!",
+        "Hey hey! Business first, predator-prey later!",
 
-			// Burin
-				"Please, don't mind the extra feathers. I don't charge for them, honest!",
-				"Can I interest you in any of my wares? They're Kluex-approved!",
-				"My wares are fit for everyone, feathered, finned, or furred!",
-				"Care to buy anything? I'm saving for an airship of my own!",
-				"Looking to trade? I might have something you could use."
-			]
-		},
+      // Burin
+        "Please, don't mind the extra feathers. I don't charge for them, honest!",
+        "Can I interest you in any of my wares? They're Kluex-approved!",
+        "My wares are fit for everyone, feathered, finned, or furred!",
+        "Care to buy anything? I'm saving for an airship of my own!",
+        "Looking to trade? I might have something you could use."
+      ]
+    },
 
-		{"op": "add", "path": "/merchantStart/floran/neki",
-			"value": [
-			// Juni
-				"Floran happy Neki shopping at Floran's ssstore!",
-				"Show Floran what Neki got from all the clawing.",
-				"Floran has thingsss to help Neki hunt better!",
-				"Ssspoils of Neki hunt! Floran happy to buy.",
-				"Floran welcomess Neki to Floran's ssstore.",
+    {"op": "add", "path": "/merchantStart/floran/neki",
+      "value": [
+      // Juni
+        "Floran happy Neki shopping at Floran's ssstore!",
+        "Show Floran what Neki got from all the clawing.",
+        "Floran has thingsss to help Neki hunt better!",
+        "Ssspoils of Neki hunt! Floran happy to buy.",
+        "Floran welcomess Neki to Floran's ssstore.",
 
-			// Burin
-				"Floran trade with Neki things for stabbing and shooting!",
-				"Neki hunt for good prey? Trade prey with Floran!",
-				"Neki have meatsss to trade with Floran?"
-			]
-		},
+      // Burin
+        "Floran trade with Neki things for stabbing and shooting!",
+        "Neki hunt for good prey? Trade prey with Floran!",
+        "Neki have meatsss to trade with Floran?"
+      ]
+    },
 
-		{"op": "add", "path": "/merchantStart/glitch/neki",
-			"value": [
-			// Juni
-				"Cordial. You look like a connossieur of all things useful! Take a look.",
-				"Pleading. May I interst you in this shiny trinket to play with?",
-				"Excited. I sell toys that would most certainly interest you!",
-				"Nervous. I'm not for sale! Everything else is, though."
-			]
-		},
+    {"op": "add", "path": "/merchantStart/glitch/neki",
+      "value": [
+      // Juni
+        "Cordial. You look like a connossieur of all things useful! Take a look.",
+        "Pleading. May I interst you in this shiny trinket to play with?",
+        "Excited. I sell toys that would most certainly interest you!",
+        "Nervous. I'm not for sale! Everything else is, though."
+      ]
+    },
 
-		{"op": "add", "path": "/merchantStart/human/neki",
-			"value": [
-			// Juni
-				"Your stuff is all worthless anyway, lemme find better uses for it.",
-				"I would give all my wares just to pet yo..ahem! Come, buy things!",
-				"Those innocent eyes of yours! Alright, you can have a discount.",
-				"Either buy something - or get the hell off my turf, fleabag.",
-				"What may a cute thing like yourself be interested in?",
-				"Of all the stores, you had to come to mine...",
-				"Just buy whatever you need and get lost.",
-				"This better be worth my time, fleabag.",
-				"A customer's a customer, I guess.",
-				"Look at what the cat dragged in.",
+    {"op": "add", "path": "/merchantStart/human/neki",
+      "value": [
+      // Juni
+        "Your stuff is all worthless anyway, lemme find better uses for it.",
+        "I would give all my wares just to pet yo..ahem! Come, buy things!",
+        "Those innocent eyes of yours! Alright, you can have a discount.",
+        "Either buy something - or get the hell off my turf, fleabag.",
+        "What may a cute thing like yourself be interested in?",
+        "Of all the stores, you had to come to mine...",
+        "Just buy whatever you need and get lost.",
+        "This better be worth my time, fleabag.",
+        "A customer's a customer, I guess.",
+        "Look at what the cat dragged in.",
 
-			// Burin
-				"Let's talk busi.. oh, one of YOU. Boy, do I have SPECIAL prices for you.",
-				"You? Trade with ME? Why don't I just sell YOU, as a pet, instead?",
-				"And the award for today's most unwelcome customer goes to...",
-				"I better not find any fur on my merchandise after this...",
-				"What stolen goods did you drag along this time?"
-			]
-		},
-//		{"op": "add", "path": "/merchantStart/hylotl/neki",
-//			"value": [
-//				"I hope we can make an exchange that contributes to your happiness.",
-//				"Perhaps you might find some of my stock enriching.",
-//				"Please feel free to peruse my wares.",
+      // Burin
+        "Let's talk busi.. oh, one of YOU. Boy, do I have SPECIAL prices for you.",
+        "You? Trade with ME? Why don't I just sell YOU, as a pet, instead?",
+        "And the award for today's most unwelcome customer goes to...",
+        "I better not find any fur on my merchandise after this...",
+        "What stolen goods did you drag along this time?"
+      ]
+    },
+//    {"op": "add", "path": "/merchantStart/hylotl/neki",
+//      "value": [
+//        "I hope we can make an exchange that contributes to your happiness.",
+//        "Perhaps you might find some of my stock enriching.",
+//        "Please feel free to peruse my wares.",
 //
-//			// Burin
-//				"An exchange of culture is always welcome, even better at a profit. What do you need?",
-//				"I wonder what wonders you might have to trade, care to see what I have in kind?",
-//				"I carry a nice selection, though I'll admit my seafood stock is rather low.",
-//				"Care to trade any wares iconic of your species? It would be a pleasure.",
-//				"So long as we can meet as equals, we can trade amicably."
-//			]
-//		},
+//      // Burin
+//        "An exchange of culture is always welcome, even better at a profit. What do you need?",
+//        "I wonder what wonders you might have to trade, care to see what I have in kind?",
+//        "I carry a nice selection, though I'll admit my seafood stock is rather low.",
+//        "Care to trade any wares iconic of your species? It would be a pleasure.",
+//        "So long as we can meet as equals, we can trade amicably."
+//      ]
+//    },
 
-		{"op": "add", "path": "/merchantStart/novakid/neki",
-			"value": [
-				"Howdy, friend. Need any wares?",
-				"Greetings, partner! You need to buy anythin'?",
-				"I got goods to spare - you interested?",
+    {"op": "add", "path": "/merchantStart/novakid/neki",
+      "value": [
+        "Howdy, friend. Need any wares?",
+        "Greetings, partner! You need to buy anythin'?",
+        "I got goods to spare - you interested?",
 
-			// Burin
-				"There might be gold in them thar hills, never know unless ya trade an' find out!",
-				"Been pannin' for anyth' good, Neki? I'll trade wit' ya for whatever ya got.",
-				"Well I'll be, a Neki! Spare a moment to trade for somethin' somethin'?",
-				"I bet ya got some fine wares on ya, and so do I! Let's trade!",
-				"Wonder what the cat's come wit' today! Wanna trade?"
-			]
-		},
-	
+      // Burin
+        "There might be gold in them thar hills, never know unless ya trade an' find out!",
+        "Been pannin' for anyth' good, Neki? I'll trade wit' ya for whatever ya got.",
+        "Well I'll be, a Neki! Spare a moment to trade for somethin' somethin'?",
+        "I bet ya got some fine wares on ya, and so do I! Let's trade!",
+        "Wonder what the cat's come wit' today! Wanna trade?"
+      ]
+    },
+  
 // --------------- merchantEnd ---------------
 
-		{"op": "add", "path": "/merchantEnd/apex/neki",
-			"value": [
-			// Juni
-				"I wish more Miniknog Agents were like you.",
-				"Thank you for not arresting me today.",
-				"I appreciate your discretion, Agent.",
-				"I'm so glad this went smoothly.",
+    {"op": "add", "path": "/merchantEnd/apex/neki",
+      "value": [
+      // Juni
+        "I wish more Miniknog Agents were like you.",
+        "Thank you for not arresting me today.",
+        "I appreciate your discretion, Agent.",
+        "I'm so glad this went smoothly.",
 
-			// Burin
-				"You sure you're a Neki? You're more reasonable than I'm used to.",
-				"You're not so bad, but you can't blame me for being cautious.",
-				"If anyone asks - this trade never happened.",
-				"Thank you for the exchange, Agent.",
-				"Keep this between us, alright?"
-			]
-		},
+      // Burin
+        "You sure you're a Neki? You're more reasonable than I'm used to.",
+        "You're not so bad, but you can't blame me for being cautious.",
+        "If anyone asks - this trade never happened.",
+        "Thank you for the exchange, Agent.",
+        "Keep this between us, alright?"
+      ]
+    },
 
-		{"op": "add", "path": "/merchantEnd/avian/neki",
-			"value": [
-			// Juni
-				"Are my feathers all still in place?",
-				"So glad to still be alive!",
+    {"op": "add", "path": "/merchantEnd/avian/neki",
+      "value": [
+      // Juni
+        "Are my feathers all still in place?",
+        "So glad to still be alive!",
 
-			// Burin
-				"Kluex smiles upon this trade... and me, since I'm still breathing!",
-				"Thank you for not making me dinner, I mean... thank you!",
-				"Time to flee the planet as fast as I can."
-			]
-		},
+      // Burin
+        "Kluex smiles upon this trade... and me, since I'm still breathing!",
+        "Thank you for not making me dinner, I mean... thank you!",
+        "Time to flee the planet as fast as I can."
+      ]
+    },
 
-		{"op": "add", "path": "/merchantEnd/floran/neki",
-			"value": [
-				"Come back, stay here, ssspend more!",
-				"Floran hopess you come back soon.",
-				"Floran sells besst things, you come back soon.",
-				"Floran pleased, hopes you come again.",
+    {"op": "add", "path": "/merchantEnd/floran/neki",
+      "value": [
+        "Come back, stay here, ssspend more!",
+        "Floran hopess you come back soon.",
+        "Floran sells besst things, you come back soon.",
+        "Floran pleased, hopes you come again.",
 
-			// Burin
-				"Floran always have good ssstabs and meatss to trade with Neki!",
-				"Good tradesss. Floran hopes Neki bringss more prey!",
-				"Neki done trading? Come back soon, ssspend more!",
-				"Floran thanksss Neki for trade!"
-			]
-		},
-//		{"op": "add", "path": "/merchantEnd/glitch/neki",
-//			"value": [
-//				"Insistent. Return soon!",
-//				"Pleased. Thank you for your patronage.",
-//				"Disappointed. You're not going to buy more?",
-//				"Melancholy. Until next time, customer.",
+      // Burin
+        "Floran always have good ssstabs and meatss to trade with Neki!",
+        "Good tradesss. Floran hopes Neki bringss more prey!",
+        "Neki done trading? Come back soon, ssspend more!",
+        "Floran thanksss Neki for trade!"
+      ]
+    },
+//    {"op": "add", "path": "/merchantEnd/glitch/neki",
+//      "value": [
+//        "Insistent. Return soon!",
+//        "Pleased. Thank you for your patronage.",
+//        "Disappointed. You're not going to buy more?",
+//        "Melancholy. Until next time, customer.",
 //
-//			// Burin
-//				"Diplomatic. Got more shiny finds for me? Double-check your pockets!",
-//				"Discouraged. Nothing interesting enough? Perhaps next time.",
-//				"Content. This was good business, please come again!",
-//				"Gleeful. I look forward to our next transaction!"
-//			]
-//		},
+//      // Burin
+//        "Diplomatic. Got more shiny finds for me? Double-check your pockets!",
+//        "Discouraged. Nothing interesting enough? Perhaps next time.",
+//        "Content. This was good business, please come again!",
+//        "Gleeful. I look forward to our next transaction!"
+//      ]
+//    },
 
-		{"op": "add", "path": "/merchantEnd/human/neki",
-			"value": [
-			// Juni
-				"That's how you do business? How typical of your kind.",
-				"I don't wanna know where you got all this garbage.",
-				"Yeah, go do business somewhere else, furball.",
-				"If you break anything, I'll break your face.",
-				"This has been the lousiest deal, ever.",
-				"Yuck, these pixels smell of cat piss.",
-				"Pfft, what a waste of my time.",
-				"Come to sell me more junk?",
-				"Now get lost.",
-			
-			// Burin
-				"How about bringing something worthwhile next time?",
-				"You done? Marvellous, now scram."
-			]
-		},
+    {"op": "add", "path": "/merchantEnd/human/neki",
+      "value": [
+      // Juni
+        "That's how you do business? How typical of your kind.",
+        "I don't wanna know where you got all this garbage.",
+        "Yeah, go do business somewhere else, furball.",
+        "If you break anything, I'll break your face.",
+        "This has been the lousiest deal, ever.",
+        "Yuck, these pixels smell of cat piss.",
+        "Pfft, what a waste of my time.",
+        "Come to sell me more junk?",
+        "Now get lost.",
+      
+      // Burin
+        "How about bringing something worthwhile next time?",
+        "You done? Marvellous, now scram."
+      ]
+    },
 
-		{"op": "add", "path": "/merchantEnd/hylotl/neki",
-			"value": [
-			// Burin
-				"Your custom and compassion is appreciated. May we trade again in the future.",
-				"Check back sometime to see what other wonders I might have, gentle Neki.",
-				"Our trade is more fruitful than hunting one another.",
-				"Your patronage is appreciated, as is your mercy."
-			]
-		},
+    {"op": "add", "path": "/merchantEnd/hylotl/neki",
+      "value": [
+      // Burin
+        "Your custom and compassion is appreciated. May we trade again in the future.",
+        "Check back sometime to see what other wonders I might have, gentle Neki.",
+        "Our trade is more fruitful than hunting one another.",
+        "Your patronage is appreciated, as is your mercy."
+      ]
+    },
 
-		{"op": "add", "path": "/merchantEnd/novakid/neki",
-			"value": [
-				"I hope I'll be seein' you again soon, friend!",
-				"You take care of yourself out there!",
-				"Come say hi next time you're around, partner!",
-				"Be seein' you, partner!",
+    {"op": "add", "path": "/merchantEnd/novakid/neki",
+      "value": [
+        "I hope I'll be seein' you again soon, friend!",
+        "You take care of yourself out there!",
+        "Come say hi next time you're around, partner!",
+        "Be seein' you, partner!",
 
-			// Burin
-				"I'll be here when ya got more to trade, my pawed partner!",
-				"Are ya done browsin'? Y'all come back now, ya hear?",
-				"Make sure ya come by again soon an' trade!",
-				"Hope you found everything easily enough!"
-			]
-		},
-	
+      // Burin
+        "I'll be here when ya got more to trade, my pawed partner!",
+        "Are ya done browsin'? Y'all come back now, ya hear?",
+        "Make sure ya come by again soon an' trade!",
+        "Hope you found everything easily enough!"
+      ]
+    },
+  
 // --------------- follow ---------------
 
-		{"op": "add", "path": "/follow/apex/neki",
-			"value": [
-			// Juni
-				"I have only legal goods, I assure you - come inspect them yourself.",
-				"Psst, Agent... I have things that may interest you.",
-				"Follow me, agent - you won't regret it.",
+    {"op": "add", "path": "/follow/apex/neki",
+      "value": [
+      // Juni
+        "I have only legal goods, I assure you - come inspect them yourself.",
+        "Psst, Agent... I have things that may interest you.",
+        "Follow me, agent - you won't regret it.",
 
-			// Burin
-				"Whatever your intentions, we can always trade. This way."
-			]
-		},
-//		{"op": "add", "path": "/follow/avian/neki",
-//			"value": [
-//			// Burin
-//				"Eek! Don't hurt me! I have goods to trade! Follow me, I promise!",
-//				"If you follow me, we can trade, and hopefully not try to eat me."
-//			]
-//		},
+      // Burin
+        "Whatever your intentions, we can always trade. This way."
+      ]
+    },
+//    {"op": "add", "path": "/follow/avian/neki",
+//      "value": [
+//      // Burin
+//        "Eek! Don't hurt me! I have goods to trade! Follow me, I promise!",
+//        "If you follow me, we can trade, and hopefully not try to eat me."
+//      ]
+//    },
 
-		{"op": "add", "path": "/follow/floran/neki",
-			"value": [
-				"Follow Floran to shop.",
-				"Sstore is thisss way, follow Floran.",
+    {"op": "add", "path": "/follow/floran/neki",
+      "value": [
+        "Follow Floran to shop.",
+        "Sstore is thisss way, follow Floran.",
 
-			// Burin
-				"Floran might have good trade ssstuffs for Neki, follow!",
-				"Neki trade with Floran, follow to ssshop!"
-			]
-		},
+      // Burin
+        "Floran might have good trade ssstuffs for Neki, follow!",
+        "Neki trade with Floran, follow to ssshop!"
+      ]
+    },
 
-		{"op": "add", "path": "/follow/glitch/neki",
-			"value": [
-				"Cordial. Please follow me to my shop.",
-				"Enticing. Please allow me to lead you to my shop.",
+    {"op": "add", "path": "/follow/glitch/neki",
+      "value": [
+        "Cordial. Please follow me to my shop.",
+        "Enticing. Please allow me to lead you to my shop.",
 
-			// Burin
-				"Imperative. To my shop Neki, we can trade more peacefully there.",
-				"Piqued. Come Neki, and buy from this humble merchant over here!"
-			]
-		},
+      // Burin
+        "Imperative. To my shop Neki, we can trade more peacefully there.",
+        "Piqued. Come Neki, and buy from this humble merchant over here!"
+      ]
+    },
 
-		{"op": "add", "path": "/follow/human/neki",
-			"value": [
-				"I'm trying to figure out whether you even have any pixels.",
-				"What is that awful smell? I love it.",
-				"Come with me over there, kitty."
-			]
-		},
-//		{"op": "add", "path": "/follow/hylotl/neki",
-//			"value": [
-//				"Allow me to lead you to my store.",
-//				"Can I show you to my shop? It's this way.",
+    {"op": "add", "path": "/follow/human/neki",
+      "value": [
+        "I'm trying to figure out whether you even have any pixels.",
+        "What is that awful smell? I love it.",
+        "Come with me over there, kitty."
+      ]
+    },
+//    {"op": "add", "path": "/follow/hylotl/neki",
+//      "value": [
+//        "Allow me to lead you to my store.",
+//        "Can I show you to my shop? It's this way.",
 //
-//			// Burin
-//				"I can't think straight out here, come to my shop and we can trade.",
-//				"I'd be most willing to trade with you, if you'll follow me to my shop..."
-//			]
-//		},
+//      // Burin
+//        "I can't think straight out here, come to my shop and we can trade.",
+//        "I'd be most willing to trade with you, if you'll follow me to my shop..."
+//      ]
+//    },
 
-//		{"op": "add", "path": "/follow/novakid/neki",
-//			"value": [
-//				"Right this way, partner.",
-//				"Follow me, I'll show you my store.",
+//    {"op": "add", "path": "/follow/novakid/neki",
+//      "value": [
+//        "Right this way, partner.",
+//        "Follow me, I'll show you my store.",
 //
-//			// Burin
-//				"Welcome, Neki! C'mon over to my stall an' we can trade!",
-//				"Y'all caught me out in the open, come to my shop, we'll talk more there."
-//			]
-//		},
-	
+//      // Burin
+//        "Welcome, Neki! C'mon over to my stall an' we can trade!",
+//        "Y'all caught me out in the open, come to my shop, we'll talk more there."
+//      ]
+//    },
+  
 // --------------- welcome ---------------
 
-//		{"op": "add", "path": "/welcome/apex/neki",
-//			"value": [
-//				"Now we are in private, we can talk business.",
-//				"Ok, now we can trade.",
+//    {"op": "add", "path": "/welcome/apex/neki",
+//      "value": [
+//        "Now we are in private, we can talk business.",
+//        "Ok, now we can trade.",
 //
-//			// Burin
-//				"We can begin our exchanges here, Agent.",
-//				"Don't ask too many questions, let's just trade and get this business done."
-//			]
-//		},
+//      // Burin
+//        "We can begin our exchanges here, Agent.",
+//        "Don't ask too many questions, let's just trade and get this business done."
+//      ]
+//    },
 
-//		{"op": "add", "path": "/welcome/avian/neki",
-//			"value": [
-//				"Alright, now we're here, what can I get you?",
-//				"Now we're here you can browse and find what you like.",
+//    {"op": "add", "path": "/welcome/avian/neki",
+//      "value": [
+//        "Alright, now we're here, what can I get you?",
+//        "Now we're here you can browse and find what you like.",
 //
-//			// Burin
-//				"Okay, here we are! Now let's trade, and you can spare me! Right?",
-//				"Kluex bless me today! Let's trade now that we're here!"
-//			]
-//		},
+//      // Burin
+//        "Okay, here we are! Now let's trade, and you can spare me! Right?",
+//        "Kluex bless me today! Let's trade now that we're here!"
+//      ]
+//    },
 
-		{"op": "add", "path": "/welcome/floran/neki",
-			"value": [
-				"Here'sss my shop. What did you need?",
-				"We're here! What can Floran get you?",
+    {"op": "add", "path": "/welcome/floran/neki",
+      "value": [
+        "Here'sss my shop. What did you need?",
+        "We're here! What can Floran get you?",
 
-			// Burin
-				"Neki here, at my shop! Neki trade with Floran!",
-				"Now, what can Floran buy that Neki caught?"
-			]
-		},
-//		{"op": "add", "path": "/welcome/glitch/neki",
-//			"value": [
-//				"Excited. Now we can do business.",
-//				"Pleased. Now we can trade to our hearts' content.",
+      // Burin
+        "Neki here, at my shop! Neki trade with Floran!",
+        "Now, what can Floran buy that Neki caught?"
+      ]
+    },
+//    {"op": "add", "path": "/welcome/glitch/neki",
+//      "value": [
+//        "Excited. Now we can do business.",
+//        "Pleased. Now we can trade to our hearts' content.",
 //
-//			// Burin
-//				"Comfortable. Finally, back at my shop. Let us barter!",
-//				"Enthusiastic. We're here! Now, let me show you the fruits of my labor and commerce!"
-//			]
-//		},
+//      // Burin
+//        "Comfortable. Finally, back at my shop. Let us barter!",
+//        "Enthusiastic. We're here! Now, let me show you the fruits of my labor and commerce!"
+//      ]
+//    },
 
-		{"op": "add", "path": "/welcome/human/neki",
-			"value": [
-				"Alright, time to empty your pockets.",
-				"Now, about that beer I owe you...",
-				"Now that we're alone..."
-			]
-		},
-//		{"op": "add", "path": "/welcome/hylotl/neki",
-//			"value": [
-//				"Here we are, and welcome. What did you wish to buy?",
-//				"Welcome to the seclusion of my store, I hope we can find what you need.",
+    {"op": "add", "path": "/welcome/human/neki",
+      "value": [
+        "Alright, time to empty your pockets.",
+        "Now, about that beer I owe you...",
+        "Now that we're alone..."
+      ]
+    },
+//    {"op": "add", "path": "/welcome/hylotl/neki",
+//      "value": [
+//        "Here we are, and welcome. What did you wish to buy?",
+//        "Welcome to the seclusion of my store, I hope we can find what you need.",
 //
-//			// Burin
-//				"Thank you, being away from my shop gives me a headache. Here's my stock to browse.",
-//				"Ah, shop sweet shop. Are you ready to trade now?"
-//			]
-//		},
+//      // Burin
+//        "Thank you, being away from my shop gives me a headache. Here's my stock to browse.",
+//        "Ah, shop sweet shop. Are you ready to trade now?"
+//      ]
+//    },
 
-//		{"op": "add", "path": "/welcome/novakid/neki",
-//			"value": [
-//				"Now we're here, care to make some trades?",
-//				"Now we're at my store, you feelin' like makin' some trades?",
+//    {"op": "add", "path": "/welcome/novakid/neki",
+//      "value": [
+//        "Now we're here, care to make some trades?",
+//        "Now we're at my store, you feelin' like makin' some trades?",
 //
-//			// Burin
-//				"My shop may not look like much, but I got a heck of a stock for ya!",
-//				"Here's my shop, hope you like what I have to offer!"
-//			]
-//		},
-	
+//      // Burin
+//        "My shop may not look like much, but I got a heck of a stock for ya!",
+//        "Here's my shop, hope you like what I have to offer!"
+//      ]
+//    },
+  
 // --------------- tout ---------------
 
-		{"op": "add", "path": "/tout/apex/neki",
-			"value": [
-				"Would a valiant Miniknog agent like yourself be interested in my wares?",
-				"I can ensure you that all of my goods are perfectly legal!",
-				"I've never traded anything unsanctioned, I swear!",
-				"You're not here to arrest me, are you?",
+    {"op": "add", "path": "/tout/apex/neki",
+      "value": [
+        "Would a valiant Miniknog agent like yourself be interested in my wares?",
+        "I can ensure you that all of my goods are perfectly legal!",
+        "I've never traded anything unsanctioned, I swear!",
+        "You're not here to arrest me, are you?",
 
-			// Burin
-				"I am an official Miniknog supplier, my goods are endorsed by Big Ape himself.",
-				"Rest assured, my wares and goods will serve you well in the ongoing struggle.",
-				"You won't find any contraband among my stock, only quality goods here."
-//				"Are you in need of supplies, Agent? You have clearance to trade with me."
-			]
-		},
+      // Burin
+        "I am an official Miniknog supplier, my goods are endorsed by Big Ape himself.",
+        "Rest assured, my wares and goods will serve you well in the ongoing struggle.",
+        "You won't find any contraband among my stock, only quality goods here."
+//        "Are you in need of supplies, Agent? You have clearance to trade with me."
+      ]
+    },
 
-//		{"op": "add", "path": "/tout/avian/neki",
-//			"value": [
-//				"Come and trade!",
-//				"Can I sell you anything? I buy too.",
-//				"If you need to buy anything, I have a great selection.",
-//				"Hey there. Need to buy or sell anything?",
+//    {"op": "add", "path": "/tout/avian/neki",
+//      "value": [
+//        "Come and trade!",
+//        "Can I sell you anything? I buy too.",
+//        "If you need to buy anything, I have a great selection.",
+//        "Hey there. Need to buy or sell anything?",
 //
-//			// Burin
-//				"Kluex has blessed you all with the best deals...and may he bless me in this situation!",
-//				"Ack! Umm...h-hi! Goods for sale! Everything I have is non-violently acquired!",
-//				"My deals are as low as the sky is high...that made sense, right?",
-//				"T-this might be the last deal I can make! Don't miss this!"
-//			]
-//		},
+//      // Burin
+//        "Kluex has blessed you all with the best deals...and may he bless me in this situation!",
+//        "Ack! Umm...h-hi! Goods for sale! Everything I have is non-violently acquired!",
+//        "My deals are as low as the sky is high...that made sense, right?",
+//        "T-this might be the last deal I can make! Don't miss this!"
+//      ]
+//    },
 
-		{"op": "add", "path": "/tout/floran/neki",
-			"value": [
-				"Buy things! Sssell things!",
-				"Come see Floran's waresss.",
-				"Floran's store is the best! Come and buy!",
-				"Many things for sssale!",
+    {"op": "add", "path": "/tout/floran/neki",
+      "value": [
+        "Buy things! Sssell things!",
+        "Come see Floran's waresss.",
+        "Floran's store is the best! Come and buy!",
+        "Many things for sssale!",
 
-			// Burin
-				"Come buy all what Floran has! Floran give good dealsss!",
-				"Neki! Neki always good cussstomer! Come! Trade!",
-				"Floran like trade! Come and trade with Floran!",
-				"There isss no deal like Floran deal!"
-			]
-		},
+      // Burin
+        "Come buy all what Floran has! Floran give good dealsss!",
+        "Neki! Neki always good cussstomer! Come! Trade!",
+        "Floran like trade! Come and trade with Floran!",
+        "There isss no deal like Floran deal!"
+      ]
+    },
 
-//		{"op": "add", "path": "/tout/glitch/neki",
-//			"value": [
-//				"Enticing. Come, buy!",
-//				"Excited. Are you a customer?",
-//				"Welcoming. Come and view my wares!",
-//				"Proud. Come and buy from this merchant of great renown!",
+//    {"op": "add", "path": "/tout/glitch/neki",
+//      "value": [
+//        "Enticing. Come, buy!",
+//        "Excited. Are you a customer?",
+//        "Welcoming. Come and view my wares!",
+//        "Proud. Come and buy from this merchant of great renown!",
 //
-//			// Burin
-//				"Alluring. You look positively sunny today! I bet you could use one of my wares!",
-//				"Beckoning. Come and see what wondrous wares I carry!",
-//				"Elated. A customer! Praythee, come and trade with me!",
-//				"Welcoming. Hail! Welcome to my shop! Come, see my wares and supplies!"
-//			]
-//		},
+//      // Burin
+//        "Alluring. You look positively sunny today! I bet you could use one of my wares!",
+//        "Beckoning. Come and see what wondrous wares I carry!",
+//        "Elated. A customer! Praythee, come and trade with me!",
+//        "Welcoming. Hail! Welcome to my shop! Come, see my wares and supplies!"
+//      ]
+//    },
 
-		{"op": "add", "path": "/tout/human/neki",
-			"value": [
-				"I have the best... whatever it is your kind likes.",
-				"Kitty wants some murder weapons?",
-				"Here, kitty kitty kitty!",
-				"Kitty wants a snack?",
-				"Kitty wants a toy?",
+    {"op": "add", "path": "/tout/human/neki",
+      "value": [
+        "I have the best... whatever it is your kind likes.",
+        "Kitty wants some murder weapons?",
+        "Here, kitty kitty kitty!",
+        "Kitty wants a snack?",
+        "Kitty wants a toy?",
 
-			// Burin
-				"Great, one of them. Time to break out the hair brushes...",
-				"Good for-oh, I mean no goods for sale! We're sold out!",
-				"Tch, one of you. Remind me to mark up the prices...",
-				"For you, I'll trade in Voxels, not Pixels."
-			]
-		},
+      // Burin
+        "Great, one of them. Time to break out the hair brushes...",
+        "Good for-oh, I mean no goods for sale! We're sold out!",
+        "Tch, one of you. Remind me to mark up the prices...",
+        "For you, I'll trade in Voxels, not Pixels."
+      ]
+    },
 
-//		{"op": "add", "path": "/tout/hylotl/neki",
-//			"value": [
-//				"My shop is resplendent with wares. Come and see.",
-//				"I would be most pleased to sell you what you need.",
-//				"Please feel welcome to peruse my wares.",
-//				"I have many goods available, I'm sure you'd find something to please you.",
+//    {"op": "add", "path": "/tout/hylotl/neki",
+//      "value": [
+//        "My shop is resplendent with wares. Come and see.",
+//        "I would be most pleased to sell you what you need.",
+//        "Please feel welcome to peruse my wares.",
+//        "I have many goods available, I'm sure you'd find something to please you.",
 //
-//			// Burin
-//				"Think you've seen it all? Think again! See my shop and find a new 'shiny' today!",
-//				"Fine weapons, armor, and goods! You won't be disappointed! I buy goods too!",
-//				"Some of the finest goods collected by us Hylotl! Don't pass us up!",
-//				"A treasure trove of goods await any who come to my shop!"
-//			]
-//		},
+//      // Burin
+//        "Think you've seen it all? Think again! See my shop and find a new 'shiny' today!",
+//        "Fine weapons, armor, and goods! You won't be disappointed! I buy goods too!",
+//        "Some of the finest goods collected by us Hylotl! Don't pass us up!",
+//        "A treasure trove of goods await any who come to my shop!"
+//      ]
+//    },
 
-//		{"op": "add", "path": "/tout/novakid/neki",
-//			"value": [
-//				"Y'all want any goods?",
-//				"You feelin' lucky? You should be, 'cause I got some fine wares!",
-//				"I got some mighty fine merch, right here!",
-//				"If you have some pixels to spend, then I'm your friend!",
+//    {"op": "add", "path": "/tout/novakid/neki",
+//      "value": [
+//        "Y'all want any goods?",
+//        "You feelin' lucky? You should be, 'cause I got some fine wares!",
+//        "I got some mighty fine merch, right here!",
+//        "If you have some pixels to spend, then I'm your friend!",
 //
-//			// Burin
-//				"Whether you're bringing in or buyin', I've got all your trading needs handled here!",
-//				"Howdy, partner! I've got goods from all over the galaxy! Don't pass me up!",
-//				"Don't be a stranger now; c'mon over and trade wit' me!",
-//				"Got a minute to trade? Maybe more? I got your back!"
-//			]
-//		},
-	
+//      // Burin
+//        "Whether you're bringing in or buyin', I've got all your trading needs handled here!",
+//        "Howdy, partner! I've got goods from all over the galaxy! Don't pass me up!",
+//        "Don't be a stranger now; c'mon over and trade wit' me!",
+//        "Got a minute to trade? Maybe more? I got your back!"
+//      ]
+//    },
+  
 // --------------- tagCriteria ---------------
 
-//		{"op": "add", "path": "/tagCriteria/apex/neki",
-//			"value": [
-//				"Please put my things back.",
-//				"Stop taking things... You need to fix my store.",
-//				"I need you to put things back where you got them please.",
+//    {"op": "add", "path": "/tagCriteria/apex/neki",
+//      "value": [
+//        "Please put my things back.",
+//        "Stop taking things... You need to fix my store.",
+//        "I need you to put things back where you got them please.",
 //
-//			// Burin
-//				"Big Ape does not approve of doing that...",
-//				"Agent, you'd do best to put those back.",
-//				"Put that back, Neki. Know your place."
-//			]
-//		},
+//      // Burin
+//        "Big Ape does not approve of doing that...",
+//        "Agent, you'd do best to put those back.",
+//        "Put that back, Neki. Know your place."
+//      ]
+//    },
 
-//		{"op": "add", "path": "/tagCriteria/avian/neki",
-//			"value": [
-//				"Um, this isn't what my shop was like before...",
-//				"I don't like this, can you put things back how they were?",
-//				"Please put my things back where they were.",
+//    {"op": "add", "path": "/tagCriteria/avian/neki",
+//      "value": [
+//        "Um, this isn't what my shop was like before...",
+//        "I don't like this, can you put things back how they were?",
+//        "Please put my things back where they were.",
 //
-//			// Burin
-//				"H-hey! Put that back! Please?",
-//				"I know Neki are known for knocking stuff over, but I kinda need that...",
-//				"Could you please put that back? You didn't break it, but you didn't buy it either..."
-//			]
-//		},
+//      // Burin
+//        "H-hey! Put that back! Please?",
+//        "I know Neki are known for knocking stuff over, but I kinda need that...",
+//        "Could you please put that back? You didn't break it, but you didn't buy it either..."
+//      ]
+//    },
 
-		{"op": "add", "path": "/tagCriteria/floran/neki",
-			"value": [
-				"Ssstop sstealing stuff...",
-				"Put my shop back how it wasss.",
-				"Floran's sstore was great before. Make it right again!",
+    {"op": "add", "path": "/tagCriteria/floran/neki",
+      "value": [
+        "Ssstop sstealing stuff...",
+        "Put my shop back how it wasss.",
+        "Floran's sstore was great before. Make it right again!",
 
-			// Burin
-				"Neki made ssstore look wrong! Fix store or Floran ssstab!",
-				"Floran upsset! Neki took that! Give it back to Floran!",
-				"Floran not like how ssstore looks now; fix sssore!"
-			]
-		},
+      // Burin
+        "Neki made ssstore look wrong! Fix store or Floran ssstab!",
+        "Floran upsset! Neki took that! Give it back to Floran!",
+        "Floran not like how ssstore looks now; fix sssore!"
+      ]
+    },
 
-		{"op": "add", "path": "/tagCriteria/glitch/neki",
-			"value": [
-				"Confused. My shop is different.",
-				"Discontent. I dislike the changes you have made, restore my shop.",
-				"Wistful. I wish my shop was how it used to be.",
+    {"op": "add", "path": "/tagCriteria/glitch/neki",
+      "value": [
+        "Confused. My shop is different.",
+        "Discontent. I dislike the changes you have made, restore my shop.",
+        "Wistful. I wish my shop was how it used to be.",
 
-			// Burin
-				"Peeved. Neki nicking nick-nacks from my store? Funny, now put it back.",
-				"Distressed. Did you take something? Please put it back for me.",
-				"Irked. My store looks off. Return my shop to how it was."
-			]
-		},
+      // Burin
+        "Peeved. Neki nicking nick-nacks from my store? Funny, now put it back.",
+        "Distressed. Did you take something? Please put it back for me.",
+        "Irked. My store looks off. Return my shop to how it was."
+      ]
+    },
 
-		{"op": "add", "path": "/tagCriteria/human/neki",
-			"value": [
-			// Juni
-				"If you touch anything in here again, my foot will be so deep up your...",
-				"What in the hell do you think you're doing?!",
-				"If you do that again, I swear to god...",
-				"Get your filthy paws off my things!"
+    {"op": "add", "path": "/tagCriteria/human/neki",
+      "value": [
+      // Juni
+        "If you touch anything in here again, my foot will be so deep up your...",
+        "What in the hell do you think you're doing?!",
+        "If you do that again, I swear to god...",
+        "Get your filthy paws off my things!"
 
-//			// Burin
-//				"Ha-ha, you Neki and knocking stuff over. It's not funny.",
-//				"Looking to finish what you started? Put it back, now.",
-//				"Stupid cat, put it back!"
-			]
-		},
+//      // Burin
+//        "Ha-ha, you Neki and knocking stuff over. It's not funny.",
+//        "Looking to finish what you started? Put it back, now.",
+//        "Stupid cat, put it back!"
+      ]
+    },
 
-//		{"op": "add", "path": "/tagCriteria/hylotl/neki",
-//			"value": [
-//				"Why have you disrupted my shop? Please fix what you have broken.",
-//				"This is my store! Why would someone take things from it?",
-//				"It is profoundly upsetting and thoroughly immoral to dismantle my shop in this way.",
+//    {"op": "add", "path": "/tagCriteria/hylotl/neki",
+//      "value": [
+//        "Why have you disrupted my shop? Please fix what you have broken.",
+//        "This is my store! Why would someone take things from it?",
+//        "It is profoundly upsetting and thoroughly immoral to dismantle my shop in this way.",
 //
-//			// Burin
-//				"This place feels out of sorts, did you do this? Please return it to its rightful state.",
-//				"Is this some sort of Neki rite of passage? I don't get it. Please fix what you moved.",
-//				"My shop feels out of balance, could you please restore it for me?"
-//			]
-//		},
+//      // Burin
+//        "This place feels out of sorts, did you do this? Please return it to its rightful state.",
+//        "Is this some sort of Neki rite of passage? I don't get it. Please fix what you moved.",
+//        "My shop feels out of balance, could you please restore it for me?"
+//      ]
+//    },
 
-//		{"op": "add", "path": "/tagCriteria/novakid/neki",
-//			"value": [
-//				"Somethin's up round here...",
-//				"This ol' store don't feel right just now. You been messin' around in here.",
-//				"It ain't right to go rearrangin' a store like this.",
+//    {"op": "add", "path": "/tagCriteria/novakid/neki",
+//      "value": [
+//        "Somethin's up round here...",
+//        "This ol' store don't feel right just now. You been messin' around in here.",
+//        "It ain't right to go rearrangin' a store like this.",
 //
-//			// Burin
-//				"The heck didya do to my store? Be a good partner an' right what's wrong, eh?",
-//				"What's that ya knocked over there? Can ya put it back for me?",
-//				"Things ain't right around here, somethin's missing. Can ya find it and put it back?"
-//			]
-//		},
-	
+//      // Burin
+//        "The heck didya do to my store? Be a good partner an' right what's wrong, eh?",
+//        "What's that ya knocked over there? Can ya put it back for me?",
+//        "Things ain't right around here, somethin's missing. Can ya find it and put it back?"
+//      ]
+//    },
+  
 // --------------- enclosedArea ---------------
 
-//		{"op": "add", "path": "/enclosedArea/apex/neki",
-//			"value": [
-//				"There is a hole in my shop...",
-//				"I need you to mend my walls before the roof falls in on top of us.",
-//				"Please fix up these walls, the shop is no good to me like this.",
+//    {"op": "add", "path": "/enclosedArea/apex/neki",
+//      "value": [
+//        "There is a hole in my shop...",
+//        "I need you to mend my walls before the roof falls in on top of us.",
+//        "Please fix up these walls, the shop is no good to me like this.",
 //
-//			// Burin
-//				"The structural integrity of my shop is compromised. Agent, please help fix this.",
-//				"This building isn't up to code anymore; someone please fix this.",
-//				"This place might collapse at any moment; please find the flaw and fix it, Agent."
-//			]
-//		},
+//      // Burin
+//        "The structural integrity of my shop is compromised. Agent, please help fix this.",
+//        "This building isn't up to code anymore; someone please fix this.",
+//        "This place might collapse at any moment; please find the flaw and fix it, Agent."
+//      ]
+//    },
 
-//		{"op": "add", "path": "/enclosedArea/avian/neki",
-//			"value": [
-//				"It's hard to trade in a shop with no walls. Can you repair the damage?",
-//				"Would you mind fixing my walls?",
-//				"That wall is badly damaged, I'm worried I'll lose custom... Can you fix it?",
+//    {"op": "add", "path": "/enclosedArea/avian/neki",
+//      "value": [
+//        "It's hard to trade in a shop with no walls. Can you repair the damage?",
+//        "Would you mind fixing my walls?",
+//        "That wall is badly damaged, I'm worried I'll lose custom... Can you fix it?",
 //
-//			// Burin
-//				"I can't read the runes I inscribed on the walls, I think something's missing. Could you fix it?",
-//				"I love the sky, but not when it's unfettered into my home. Could you repair the walls?",
-//				"Must've been some sort of shift in my place, the walls are broken. Please help repair them."
-//			]
-//		},
+//      // Burin
+//        "I can't read the runes I inscribed on the walls, I think something's missing. Could you fix it?",
+//        "I love the sky, but not when it's unfettered into my home. Could you repair the walls?",
+//        "Must've been some sort of shift in my place, the walls are broken. Please help repair them."
+//      ]
+//    },
 
-//		{"op": "add", "path": "/enclosedArea/floran/neki",
-//			"value": [
-//				"Please fix Floran's wallsss.",
-//				"Floran's shop is broken. Can you fix it?",
-//				"Floran likess pixels, can't get pixelss with walls like this. Can you fix walls?",
+//    {"op": "add", "path": "/enclosedArea/floran/neki",
+//      "value": [
+//        "Please fix Floran's wallsss.",
+//        "Floran's shop is broken. Can you fix it?",
+//        "Floran likess pixels, can't get pixelss with walls like this. Can you fix walls?",
 //
-//			// Burin
-//				"Home feels cold with wallsss like this. Fix Floran's walls, ssso not as cold.",
-//				"Floran can see sssky through walls. Nice, but wrong. Fix walls please.",
-//				"Ssshop look wrong with holes. Patch walls for Floran.",
-//			]
-//		},
+//      // Burin
+//        "Home feels cold with wallsss like this. Fix Floran's walls, ssso not as cold.",
+//        "Floran can see sssky through walls. Nice, but wrong. Fix walls please.",
+//        "Ssshop look wrong with holes. Patch walls for Floran.",
+//      ]
+//    },
 
-		{"op": "add", "path": "/enclosedArea/glitch/neki",
-			"value": [
-				"Despondent. The walls are damaged and custom is down. Could you fix up the shop?",
-				"Concerned. These broken walls a putting off trade, I need them fixed.",
-				"Hopeful. Can you fix my shop? Then my customers might come back.",
+    {"op": "add", "path": "/enclosedArea/glitch/neki",
+      "value": [
+        "Despondent. The walls are damaged and custom is down. Could you fix up the shop?",
+        "Concerned. These broken walls a putting off trade, I need them fixed.",
+        "Hopeful. Can you fix my shop? Then my customers might come back.",
 
-			// Burin
-				"Annoyed. I don't need wild creatures getting in through these holes. Please fix this.",
-				"Dismayed. The walls look rusted through. Could you replace the missing patches?",
-				"Worried. If my shop stays like this, it may collapse. Please, repair the walls."
-			]
-		},
+      // Burin
+        "Annoyed. I don't need wild creatures getting in through these holes. Please fix this.",
+        "Dismayed. The walls look rusted through. Could you replace the missing patches?",
+        "Worried. If my shop stays like this, it may collapse. Please, repair the walls."
+      ]
+    },
 
-		{"op": "add", "path": "/enclosedArea/human/neki",
-			"value": [
-			// Juni
-				"This is my store, not whatever stinky box you live in. I don't need holes in here.",
-				"If you don't fix the holes in my walls, there will be holes in your face!",
-				"I'll plug that hole with your ass if you don't fix it at once!",
-				"Really?! Holes in the walls?!",
+    {"op": "add", "path": "/enclosedArea/human/neki",
+      "value": [
+      // Juni
+        "This is my store, not whatever stinky box you live in. I don't need holes in here.",
+        "If you don't fix the holes in my walls, there will be holes in your face!",
+        "I'll plug that hole with your ass if you don't fix it at once!",
+        "Really?! Holes in the walls?!",
 
-			// Burin
-				"What the heck did you do to my walls?! Fix it now before I fix your face!",
-//				"Come on! I know you can all scratch holes in things, but my walls?!",
-				"Put your claws away and plug those holes, I'm losing business here!"
-			]
-		},
+      // Burin
+        "What the heck did you do to my walls?! Fix it now before I fix your face!",
+//        "Come on! I know you can all scratch holes in things, but my walls?!",
+        "Put your claws away and plug those holes, I'm losing business here!"
+      ]
+    },
 
-		{"op": "add", "path": "/enclosedArea/hylotl/neki",
-			"value": [
-				"My shop is open to the elements, I can't maintain a business with damaged walls.",
-				"I would be incredibly grateful if you could mend my walls.",
-				"Understandably, this damage is putting off my customers - Please fix my walls.",
+    {"op": "add", "path": "/enclosedArea/hylotl/neki",
+      "value": [
+        "My shop is open to the elements, I can't maintain a business with damaged walls.",
+        "I would be incredibly grateful if you could mend my walls.",
+        "Understandably, this damage is putting off my customers - Please fix my walls.",
 
-			// Burin
-				"It's feeling unusually dry in here... oh, there's a hole in the wall. Could you find it and seal it?",
-				"My store is no longer whole, that's because there's a hole or two. Find and fix it, if you could.",
-				"Although I like the feeling of rain, the inside of my shop does not. Please touch up the walls."
-			]
-		},
+      // Burin
+        "It's feeling unusually dry in here... oh, there's a hole in the wall. Could you find it and seal it?",
+        "My store is no longer whole, that's because there's a hole or two. Find and fix it, if you could.",
+        "Although I like the feeling of rain, the inside of my shop does not. Please touch up the walls."
+      ]
+    },
 
-//		{"op": "add", "path": "/enclosedArea/novakid/neki",
-//			"value": [
-//				"I'm not the only one feelin' a breeze in here, am I?",
-//				"This place has got more holes in it than a sheriff at a shoot out.",
-//				"I ain't gonna get no customers with a store that has holes in it!",
+//    {"op": "add", "path": "/enclosedArea/novakid/neki",
+//      "value": [
+//        "I'm not the only one feelin' a breeze in here, am I?",
+//        "This place has got more holes in it than a sheriff at a shoot out.",
+//        "I ain't gonna get no customers with a store that has holes in it!",
 //
-//			// Burin
-//				"I'm dense enough to not seep through the walls, but would still like those holes filled.",
-//				"I like me some light comin' in, but this is a bit much. Can ya seal the holes?",
-//				"Nope, these holes ain't gonna do for my place. Ya able to get this fixed up?"
-//			]
-//		},
-	
+//      // Burin
+//        "I'm dense enough to not seep through the walls, but would still like those holes filled.",
+//        "I like me some light comin' in, but this is a bit much. Can ya seal the holes?",
+//        "Nope, these holes ain't gonna do for my place. Ya able to get this fixed up?"
+//      ]
+//    },
+  
 // --------------- otherDeed ---------------
 
-//		{"op": "add", "path": "/otherDeed/apex/neki",
-//			"value": [
-//				"Why is there another deed here? What are you trying to pull?",
-//				"This is my shop. I rent it from you. You can not move someone else in.",
-//				"It is not ok to do this. I will not share my store.",
+//    {"op": "add", "path": "/otherDeed/apex/neki",
+//      "value": [
+//        "Why is there another deed here? What are you trying to pull?",
+//        "This is my shop. I rent it from you. You can not move someone else in.",
+//        "It is not ok to do this. I will not share my store.",
 //
-//			// Burin
-//				"A second deed? All of us are guaranteed one owner per dwelling.",
-//				"I'm not looking for roommates, and isn't a second deed considered forgery?",
-//				"If someone else is moving in nearby, might want to put that deed elsewhere."
-//			]
-//		},
+//      // Burin
+//        "A second deed? All of us are guaranteed one owner per dwelling.",
+//        "I'm not looking for roommates, and isn't a second deed considered forgery?",
+//        "If someone else is moving in nearby, might want to put that deed elsewhere."
+//      ]
+//    },
 
-//		{"op": "add", "path": "/otherDeed/avian/neki",
-//			"value": [
-//				"Why is someone else attempting to move into my store?",
-//				"Did you put my shop up for rent? This must be a mistake...",
-//				"There is another deed in my shop - Surely this isn't intentional.",
+//    {"op": "add", "path": "/otherDeed/avian/neki",
+//      "value": [
+//        "Why is someone else attempting to move into my store?",
+//        "Did you put my shop up for rent? This must be a mistake...",
+//        "There is another deed in my shop - Surely this isn't intentional.",
 //
-//			// Burin
-//				"I know Kluex always lives with me, but I don't think he needs a deed alongside mine!",
-//				"I don't have any partners in my shop, what's with the other deed?",
-//				"Although us Avians do have nests of eggs, we don't do that after we hatch. Remove the extra deed!"
-//			]
-//		},
+//      // Burin
+//        "I know Kluex always lives with me, but I don't think he needs a deed alongside mine!",
+//        "I don't have any partners in my shop, what's with the other deed?",
+//        "Although us Avians do have nests of eggs, we don't do that after we hatch. Remove the extra deed!"
+//      ]
+//    },
 
-		{"op": "add", "path": "/otherDeed/floran/neki",
-			"value": [
-				"Floran needs all this space, not sharing with some random ssstranger.",
-				"If you move in sssomeone else, Floran will eat them.",
-				"Floran not sharing shop! Take ssecond deed down.",
+    {"op": "add", "path": "/otherDeed/floran/neki",
+      "value": [
+        "Floran needs all this space, not sharing with some random ssstranger.",
+        "If you move in sssomeone else, Floran will eat them.",
+        "Floran not sharing shop! Take ssecond deed down.",
 
-			// Burin
-				"Floran does not sshare sspace with others, not even other Floran.",
-				"Floran already comfortable alone, no need for other deed!",
-				"One deed is enough, Floran does not need roommate!"
-			]
-		},
+      // Burin
+        "Floran does not sshare sspace with others, not even other Floran.",
+        "Floran already comfortable alone, no need for other deed!",
+        "One deed is enough, Floran does not need roommate!"
+      ]
+    },
 
-		{"op": "add", "path": "/otherDeed/glitch/neki",
-			"value": [
-				"Shocked. Are you trying to move another merchant into my store?",
-				"Confused. But this is my shop, I can't share it...",
-				"Sad. I thought I had this shop exclusively for myself.",
+    {"op": "add", "path": "/otherDeed/glitch/neki",
+      "value": [
+        "Shocked. Are you trying to move another merchant into my store?",
+        "Confused. But this is my shop, I can't share it...",
+        "Sad. I thought I had this shop exclusively for myself.",
 
-			// Burin
-				"Resistant. I cannnot share a space with others. Please, remove that second deed.",
-				"Curious. Since when did I go into business with someone else...?",
-				"Witty. Two's company, which I don't need to run a store."
-			]
-		},
+      // Burin
+        "Resistant. I cannnot share a space with others. Please, remove that second deed.",
+        "Curious. Since when did I go into business with someone else...?",
+        "Witty. Two's company, which I don't need to run a store."
+      ]
+    },
 
-		{"op": "add", "path": "/otherDeed/human/neki",
-			"value": [
-			// Juni
-				"Living in a cramped box with others may be YOUR thing, but I'm NOT an animal!",
-				"There will be dire consequences if you move somebody else in here!",
-				"I work alone, furball - get this crap outta here!",
-				"What is this nonsense? I will not stand for this!",
-				"Take that other deed down or I walk, furball.",
-				"Do I look like I wish for a roommate?!",
-				"Do I look like I need a roommate?!"
-			]
-		},
-//		{"op": "add", "path": "/otherDeed/hylotl/neki",
-//			"value": [
-//				"I don't wish to share my shop with a stranger.",
-//				"Passive or not, I cannot stand by as you ensconce a second merchant in my shop.",
-//				"There is another deed in my shop? Surely a mistake has been made?",
+    {"op": "add", "path": "/otherDeed/human/neki",
+      "value": [
+      // Juni
+        "Living in a cramped box with others may be YOUR thing, but I'm NOT an animal!",
+        "There will be dire consequences if you move somebody else in here!",
+        "I work alone, furball - get this crap outta here!",
+        "What is this nonsense? I will not stand for this!",
+        "Take that other deed down or I walk, furball.",
+        "Do I look like I wish for a roommate?!",
+        "Do I look like I need a roommate?!"
+      ]
+    },
+//    {"op": "add", "path": "/otherDeed/hylotl/neki",
+//      "value": [
+//        "I don't wish to share my shop with a stranger.",
+//        "Passive or not, I cannot stand by as you ensconce a second merchant in my shop.",
+//        "There is another deed in my shop? Surely a mistake has been made?",
 //
-//			// Burin
-//				"I'll feel suffocated if I have to have another living here, please remove that deed.",
-//				"I don't share accommodations with anyone, where would I put all my artwork?",
-//				"My home is a home of one; I won't agree to stay with another deed here."
-//			]
-//		},
+//      // Burin
+//        "I'll feel suffocated if I have to have another living here, please remove that deed.",
+//        "I don't share accommodations with anyone, where would I put all my artwork?",
+//        "My home is a home of one; I won't agree to stay with another deed here."
+//      ]
+//    },
 
-		{"op": "add", "path": "/otherDeed/novakid/neki",
-			"value": [
-				"This here's my store, don't make no sense to go movin' someone else in here.",
-				"This ol' haunt ain't for sharing. Better take that second deed down.",
-				"This is my store dagnabbit, I ain't sharing it with no one.",
+    {"op": "add", "path": "/otherDeed/novakid/neki",
+      "value": [
+        "This here's my store, don't make no sense to go movin' someone else in here.",
+        "This ol' haunt ain't for sharing. Better take that second deed down.",
+        "This is my store dagnabbit, I ain't sharing it with no one.",
 
-			// Burin
-				"This here shop's a party of one. Don't be gon' addin' more to it, or we gun' have problems.",
-				"I'm a lone soul, partner. I won't stick around if you leave that deed here."
-//				"I don't need an assistant here, or a roommate. Get that deed outta here."
-			]
-		},
-	
+      // Burin
+        "This here shop's a party of one. Don't be gon' addin' more to it, or we gun' have problems.",
+        "I'm a lone soul, partner. I won't stick around if you leave that deed here."
+//        "I don't need an assistant here, or a roommate. Get that deed outta here."
+      ]
+    },
+  
 // --------------- severe ---------------
 
-//		{"op": "add", "path": "/severe/apex/neki",
-//			"value": [
-//				"Look at this place! Fix my shop, or I leave.",
-//				"I cannot cope with your indifference much longer...",
-//				"It is foolish to ignore an angry Apex. I suggest you fix my store.",
+//    {"op": "add", "path": "/severe/apex/neki",
+//      "value": [
+//        "Look at this place! Fix my shop, or I leave.",
+//        "I cannot cope with your indifference much longer...",
+//        "It is foolish to ignore an angry Apex. I suggest you fix my store.",
 //
-//			// Burin
-//				"I can't work here under these conditions. Fix up this store, or I pack up.",
-//				"This place isn't adequate for my business. I won't put up with it...",
-//				"Apex aren't known for their patience, Miniknog or not. Fix my shop, immediately."
-//			]
-//		},
+//      // Burin
+//        "I can't work here under these conditions. Fix up this store, or I pack up.",
+//        "This place isn't adequate for my business. I won't put up with it...",
+//        "Apex aren't known for their patience, Miniknog or not. Fix my shop, immediately."
+//      ]
+//    },
 
-//		{"op": "add", "path": "/severe/avian/neki",
-//			"value": [
-//				"This has gone too far, I need you to fix things!",
-//				"I can't put up with this much longer - look at the state of my shop.",
-//				"My usually resilient patience is beginning to wear thin. Fix my shop.",
+//    {"op": "add", "path": "/severe/avian/neki",
+//      "value": [
+//        "This has gone too far, I need you to fix things!",
+//        "I can't put up with this much longer - look at the state of my shop.",
+//        "My usually resilient patience is beginning to wear thin. Fix my shop.",
 //
-//			// Burin
-//				"Kluex's wrath will soon be upon me if my place isn't fixed up!",
-//				"I don't feel safe in these conditions; fix this place, or I'll need to fly away!",
-//				"This is unreasonable! How am I supposed to trade in these conditions? Fix it now!"
-//			]
-//		},
+//      // Burin
+//        "Kluex's wrath will soon be upon me if my place isn't fixed up!",
+//        "I don't feel safe in these conditions; fix this place, or I'll need to fly away!",
+//        "This is unreasonable! How am I supposed to trade in these conditions? Fix it now!"
+//      ]
+//    },
 
-//		{"op": "add", "path": "/severe/floran/neki",
-//			"value": [
-//				"Floran can't work like thisss!",
-//				"Floran is angry, fix Floran's shop.",
-//				"You sssstill haven't fixed things in Floran's shop!",
+//    {"op": "add", "path": "/severe/floran/neki",
+//      "value": [
+//        "Floran can't work like thisss!",
+//        "Floran is angry, fix Floran's shop.",
+//        "You sssstill haven't fixed things in Floran's shop!",
 //
-//			// Burin
-//				"Floran's losing patience...and customers! Fix Floran's sshop now!",
-//				"Sstore is sstill not fixed! Fix, fix, Floran ssays fix!",
-//				"Floran furious over sstate of sshop!"
-//			]
-//		},
+//      // Burin
+//        "Floran's losing patience...and customers! Fix Floran's sshop now!",
+//        "Sstore is sstill not fixed! Fix, fix, Floran ssays fix!",
+//        "Floran furious over sstate of sshop!"
+//      ]
+//    },
 
-//		{"op": "add", "path": "/severe/glitch/neki",
-//			"value": [
-//				"Aggrevated. You need to improve these conditions, it is impossible to work here.",
-//				"Frustrated. I wish my requests were listened to.",
-//				"Unhappy. The fixes to my store haven't been made.",
+//    {"op": "add", "path": "/severe/glitch/neki",
+//      "value": [
+//        "Aggrevated. You need to improve these conditions, it is impossible to work here.",
+//        "Frustrated. I wish my requests were listened to.",
+//        "Unhappy. The fixes to my store haven't been made.",
 //
-//			// Burin
-//				"Cantankerous. My business is suffering with how the shop looks!",
-//				"Mad. This shop is awful, I can't stand working here much longer.",
-//				"Desolate. All my customers are going to pass by a shop that looks like this..."
-//			]
-//		},
+//      // Burin
+//        "Cantankerous. My business is suffering with how the shop looks!",
+//        "Mad. This shop is awful, I can't stand working here much longer.",
+//        "Desolate. All my customers are going to pass by a shop that looks like this..."
+//      ]
+//    },
 
-		{"op": "add", "path": "/severe/human/neki",
-			"value": [
-			// Juni
-				"What's good enough for you doesn't work for me, fix it immediately!",
-				"I'll ask you ONE LAST TIME: fix this, or I'll lose it!",
-				"I'm THIS close to calling it quits, furball.",
-				"I'm getting real tired of your crap.",
+    {"op": "add", "path": "/severe/human/neki",
+      "value": [
+      // Juni
+        "What's good enough for you doesn't work for me, fix it immediately!",
+        "I'll ask you ONE LAST TIME: fix this, or I'll lose it!",
+        "I'm THIS close to calling it quits, furball.",
+        "I'm getting real tired of your crap.",
 
-			// Burin
-				"If the elements don't kill me, this place falling apart on me will! Fix it!",
-				"This place sucks, if things don't change, I'm outta here.",
-				"Is anyone gonna fix this place? It's horrible!"
-			]
-		},
+      // Burin
+        "If the elements don't kill me, this place falling apart on me will! Fix it!",
+        "This place sucks, if things don't change, I'm outta here.",
+        "Is anyone gonna fix this place? It's horrible!"
+      ]
+    },
 
-		{"op": "add", "path": "/severe/hylotl/neki",
-			"value": [
-				"My requests are left unanswered, my entreaties fall on deaf ears... Shameful. ",
-				"These conditions are deplorable, and your behaviour reprehensible.",
-				"This is simply disgraceful, I demand you fix my shop.",
+    {"op": "add", "path": "/severe/hylotl/neki",
+      "value": [
+        "My requests are left unanswered, my entreaties fall on deaf ears... Shameful. ",
+        "These conditions are deplorable, and your behaviour reprehensible.",
+        "This is simply disgraceful, I demand you fix my shop.",
 
-			// Burin
-				"These conditions are unacceptable for my line of business, it's both uncomfortable and unsightly!",
-				"The way this place looks is driving away customers; please fix it now, before I depart.",
-				"This place's balance continues to be off, I can't stay here much longer."
-			]
-		},
+      // Burin
+        "These conditions are unacceptable for my line of business, it's both uncomfortable and unsightly!",
+        "The way this place looks is driving away customers; please fix it now, before I depart.",
+        "This place's balance continues to be off, I can't stay here much longer."
+      ]
+    },
 
-		{"op": "add", "path": "/severe/novakid/neki",
-			"value": [
-				"Seems to me you might wanna fix this shack up 'fore I leave.",
-				"Well ain't this place mighty disappointin'... You fixin' to fix it or what?",
-				"My store jus' ain't what it used to be. You better make it right.",
+    {"op": "add", "path": "/severe/novakid/neki",
+      "value": [
+        "Seems to me you might wanna fix this shack up 'fore I leave.",
+        "Well ain't this place mighty disappointin'... You fixin' to fix it or what?",
+        "My store jus' ain't what it used to be. You better make it right.",
 
-			// Burin
-				"Hopin' you're gonna fix this place soon, aimin' to head off into the sunset at this rate.",
-				"This place is lookin' as dry as a desert. This gon' be fixed any time soon?",
-				"I've seen better workin' conditions in a snake pit. Can ya fix this soon?"
-			]
-		},
-	
+      // Burin
+        "Hopin' you're gonna fix this place soon, aimin' to head off into the sunset at this rate.",
+        "This place is lookin' as dry as a desert. This gon' be fixed any time soon?",
+        "I've seen better workin' conditions in a snake pit. Can ya fix this soon?"
+      ]
+    },
+  
 // --------------- final ---------------
 
-		{"op": "add", "path": "/final/apex/neki",
-			"value": [
-			// Juni
-				"I don't know why I expected any better of you in the first place. Goodbye.",
-				"I was foolish to have expected any better from a product of the Miniknog.",
-				"You're as bad as they say, and I was wrong to have put any trust in you.",
-				"Never again will I do business with a Neki. So long.",
+    {"op": "add", "path": "/final/apex/neki",
+      "value": [
+      // Juni
+        "I don't know why I expected any better of you in the first place. Goodbye.",
+        "I was foolish to have expected any better from a product of the Miniknog.",
+        "You're as bad as they say, and I was wrong to have put any trust in you.",
+        "Never again will I do business with a Neki. So long.",
 
-			// Burin
-				"I've been patient enough, it's time to find another place to live.",
-				"No amount of freedom is worth this, I'll head back to Big Ape.",
-				"I'll be reporting this back to HQ... I'm done."
-			]
-		},
+      // Burin
+        "I've been patient enough, it's time to find another place to live.",
+        "No amount of freedom is worth this, I'll head back to Big Ape.",
+        "I'll be reporting this back to HQ... I'm done."
+      ]
+    },
 
-		{"op": "add", "path": "/final/avian/neki",
-			"value": [
-			// Juni
-				"While I appreciate you not eating me, this treatment is too much. I'm out.",
-				"This place doesn't feel like a safe nest to me anymore. I'm leaving.",
+    {"op": "add", "path": "/final/avian/neki",
+      "value": [
+      // Juni
+        "While I appreciate you not eating me, this treatment is too much. I'm out.",
+        "This place doesn't feel like a safe nest to me anymore. I'm leaving.",
 
-			// Burin
-				"This place just doesn't fit me anymore, it's time I find a brighter future.",
-				"If I can't get good working conditions, I won't work here. Goodbye!",
-				"I'll let you deal with Kluex's wrath, as for me, I'm outta here!"
-			]
-		},
+      // Burin
+        "This place just doesn't fit me anymore, it's time I find a brighter future.",
+        "If I can't get good working conditions, I won't work here. Goodbye!",
+        "I'll let you deal with Kluex's wrath, as for me, I'm outta here!"
+      ]
+    },
 
-		{"op": "add", "path": "/final/floran/neki",
-			"value": [
-				// Juni
-				"Floran disssappointed in Neki. Floran can't trade like this. Floran iss leaving.",
-				"Floran likess Neki, but Neki is bad to Floran. Floran hass to leave.",
-				"Floran expected better of Neki. Floran can't stay.",
+    {"op": "add", "path": "/final/floran/neki",
+      "value": [
+        // Juni
+        "Floran disssappointed in Neki. Floran can't trade like this. Floran iss leaving.",
+        "Floran likess Neki, but Neki is bad to Floran. Floran hass to leave.",
+        "Floran expected better of Neki. Floran can't stay.",
 
-			// Burin
-				"Floran has had it, Floran will find another place!",
-				"Floran can't take it anymore! Floran must flee!",
-				"Floran can find another planet to ssell on!"
-			]
-		},
+      // Burin
+        "Floran has had it, Floran will find another place!",
+        "Floran can't take it anymore! Floran must flee!",
+        "Floran can find another planet to ssell on!"
+      ]
+    },
 
-		{"op": "add", "path": "/final/glitch/neki",
-			"value": [
-				"Overwhelmed. This is beyond me. I'm taking my leave.",
-				"Outraged. I deserve a better shop to do business in!",
-				"Upset. I didn't want it to come to this, but I can't stay here any longer.",
+    {"op": "add", "path": "/final/glitch/neki",
+      "value": [
+        "Overwhelmed. This is beyond me. I'm taking my leave.",
+        "Outraged. I deserve a better shop to do business in!",
+        "Upset. I didn't want it to come to this, but I can't stay here any longer.",
 
-			// Burin
-				"Acceptance. It's obvious this will never get better. I'll find better accommodations.",
-				"Rage. This has gone on far enough! I'm out of here, and not coming back!",
-				"Defeated. I've held out for as long as I can, time for me to pack up."
-			]
-		},
+      // Burin
+        "Acceptance. It's obvious this will never get better. I'll find better accommodations.",
+        "Rage. This has gone on far enough! I'm out of here, and not coming back!",
+        "Defeated. I've held out for as long as I can, time for me to pack up."
+      ]
+    },
 
-		{"op": "add", "path": "/final/human/neki",
-			"value": [
-			// Juni
-				"Don't know what I expected from an uncultured animal like you.",
-				"I knew coming to one of you was a bad idea. Never again.",
-				"I've had enough of your crap, furball. I'm leaving.",
-				"Righto, piss off and peace out.",
+    {"op": "add", "path": "/final/human/neki",
+      "value": [
+      // Juni
+        "Don't know what I expected from an uncultured animal like you.",
+        "I knew coming to one of you was a bad idea. Never again.",
+        "I've had enough of your crap, furball. I'm leaving.",
+        "Righto, piss off and peace out.",
 
-			// Burin
-				"This place is going to the dogs, I sure as heck won't be. I'll find another place to trade!",
-				"I'll find another place to stick it out in!",
-				"No help? No shop! I'm outta here! Byeee!"
-			]
-		},
+      // Burin
+        "This place is going to the dogs, I sure as heck won't be. I'll find another place to trade!",
+        "I'll find another place to stick it out in!",
+        "No help? No shop! I'm outta here! Byeee!"
+      ]
+    },
 
-		{"op": "add", "path": "/final/hylotl/neki",
-			"value": [
-				"I can't do this any longer. I'm going.",
-				"I've lost all respect for you. I hope one day you will see the error of your ways.",
-				"These surroundings are detrimental to my very being. I must leave.",
+    {"op": "add", "path": "/final/hylotl/neki",
+      "value": [
+        "I can't do this any longer. I'm going.",
+        "I've lost all respect for you. I hope one day you will see the error of your ways.",
+        "These surroundings are detrimental to my very being. I must leave.",
 
-			// Burin
-				"It is disappointing that I have to depart under these circumstances. Best of luck to you.",
-				"While this place is 'unique' it's not to my standards. I will find other accommodations.",
-				"There's no excuse for all of this. I'm leaving, and I hope you reflect upon this."
-			]
-		},
+      // Burin
+        "It is disappointing that I have to depart under these circumstances. Best of luck to you.",
+        "While this place is 'unique' it's not to my standards. I will find other accommodations.",
+        "There's no excuse for all of this. I'm leaving, and I hope you reflect upon this."
+      ]
+    },
 
-		{"op": "add", "path": "/final/novakid/neki",
-			"value": [
-				"This store is more run down than a Fluffalo's waterin' hole! I'm leavin' any minute now.",
-				"I'd rather sleep on a cactus than work here one more night.",
-				"Crimany! This place is a mess! Time I skedaddle.",
+    {"op": "add", "path": "/final/novakid/neki",
+      "value": [
+        "This store is more run down than a Fluffalo's waterin' hole! I'm leavin' any minute now.",
+        "I'd rather sleep on a cactus than work here one more night.",
+        "Crimany! This place is a mess! Time I skedaddle.",
 
-			// Burin
-				"This place ain't good enough for any self-respectin' tenant. I'm makin' myself scarce.",
-				"There ain't any reason to stay with how things are goin' 'round'ere.",
-				"It's 'bout time I make tracks, partner. Adios!"
-			]
-		},
-	
+      // Burin
+        "This place ain't good enough for any self-respectin' tenant. I'm makin' myself scarce.",
+        "There ain't any reason to stay with how things are goin' 'round'ere.",
+        "It's 'bout time I make tracks, partner. Adios!"
+      ]
+    },
+  
 // --------------- beacon ---------------
 
-		{"op": "add", "path": "/beacon/apex/neki",
-			"value": [
-				"You needed me and I came, what can I do for you?",
-				"What is it, my friend? Do you want to buy something?",
-				"Are you buying maybe, or do you hope to sell?",
+    {"op": "add", "path": "/beacon/apex/neki",
+      "value": [
+        "You needed me and I came, what can I do for you?",
+        "What is it, my friend? Do you want to buy something?",
+        "Are you buying maybe, or do you hope to sell?",
 
-			// Burin
-				"I've been deployed here to serve you, Agent. What shall we trade?",
-				"Ah, hello there Agent. Is there a reason for this call to me?",
-				"Greetings, Agent. How I can serve you today?"
-			]
-		},
+      // Burin
+        "I've been deployed here to serve you, Agent. What shall we trade?",
+        "Ah, hello there Agent. Is there a reason for this call to me?",
+        "Greetings, Agent. How I can serve you today?"
+      ]
+    },
 
-		{"op": "add", "path": "/beacon/avian/neki",
-			"value": [
-//				"Hi, nice to see you. You hoping to buy something?",
-//				"Hello again! What can I help you with?",
-//				"Always glad to see a friendly face. What can I get you?",
+    {"op": "add", "path": "/beacon/avian/neki",
+      "value": [
+//        "Hi, nice to see you. You hoping to buy something?",
+//        "Hello again! What can I help you with?",
+//        "Always glad to see a friendly face. What can I get you?",
 
-			// Burin
-				"Kluex protect me! Hopefully you'll trade with me, instead of taking my life?",
-				"I am not supposed to be fast food! Let's trade instead!",
-				"Hello.. ah! A Neki! Why'd you summon me?!"
-			]
-		},
+      // Burin
+        "Kluex protect me! Hopefully you'll trade with me, instead of taking my life?",
+        "I am not supposed to be fast food! Let's trade instead!",
+        "Hello.. ah! A Neki! Why'd you summon me?!"
+      ]
+    },
 
-		{"op": "add", "path": "/beacon/floran/neki",
-			"value": [
-				"You need Floran to sell you sssomething?",
-				"Do you need me for sssomething?",
-				"Were you sssearching for me?",
+    {"op": "add", "path": "/beacon/floran/neki",
+      "value": [
+        "You need Floran to sell you sssomething?",
+        "Do you need me for sssomething?",
+        "Were you sssearching for me?",
 
-			// Burin
-				"Neki has ssummoned Floran, does Neki wish to ssell things with Floran?",
-				"Floran would like to ssstab, but Floran will trade insstead!",
-				"Floran isss here to trade with Neki!"
-			]
-		},
+      // Burin
+        "Neki has ssummoned Floran, does Neki wish to ssell things with Floran?",
+        "Floran would like to ssstab, but Floran will trade insstead!",
+        "Floran isss here to trade with Neki!"
+      ]
+    },
 
-		{"op": "add", "path": "/beacon/glitch/neki",
-			"value": [
-				"Jovial. Here I am! Are you buying or selling?",
-				"Friendly. What can I do for you?",
-				"Polite. What did you need to purchase?",
+    {"op": "add", "path": "/beacon/glitch/neki",
+      "value": [
+        "Jovial. Here I am! Are you buying or selling?",
+        "Friendly. What can I do for you?",
+        "Polite. What did you need to purchase?",
 
-			// Burin
-				"Exclamatory. Here I am to save the day...when it comes to your overloaded backpack!",
-				"Energetic. What a rush that summoning was! Now, what can I do for you?",
-				"Boisterous. I have arrived, for all of your trading needs!"
-			]
-		},
+      // Burin
+        "Exclamatory. Here I am to save the day...when it comes to your overloaded backpack!",
+        "Energetic. What a rush that summoning was! Now, what can I do for you?",
+        "Boisterous. I have arrived, for all of your trading needs!"
+      ]
+    },
 
-		{"op": "add", "path": "/beacon/human/neki",
-			"value": [
-			// Juni
-				"Aww, what does your fluffy sweetness need today?",
-				"Can I pet you THIS time?\nNo?\nAlright then.",
-				"What junk have you got for me this time?",
-				"You better buy something this time.",
-				"You're lucky I'm in a good mood.",
-				"Make this quick, I'm in a rush.",
-				"This better be worth my time.",
-				"I was hoping it would be you!",
-				"This better be important.",
-				"Oh great, it's YOU again.",
-				"What do you want?",
+    {"op": "add", "path": "/beacon/human/neki",
+      "value": [
+      // Juni
+        "Aww, what does your fluffy sweetness need today?",
+        "Can I pet you THIS time?\nNo?\nAlright then.",
+        "What junk have you got for me this time?",
+        "You better buy something this time.",
+        "You're lucky I'm in a good mood.",
+        "Make this quick, I'm in a rush.",
+        "This better be worth my time.",
+        "I was hoping it would be you!",
+        "This better be important.",
+        "Oh great, it's YOU again.",
+        "What do you want?",
 
-			// Burin
-				"You must have called the wrong signal, why would I want to trade with YOU?",
-				"This better be good, you're wasting my precious time.",
-				"Oh great, just what I need. Why'd you call me?"
-			]
-		},
+      // Burin
+        "You must have called the wrong signal, why would I want to trade with YOU?",
+        "This better be good, you're wasting my precious time.",
+        "Oh great, just what I need. Why'd you call me?"
+      ]
+    },
 
-		{"op": "add", "path": "/beacon/hylotl/neki",
-			"value": [
-				"What would you like to discuss? Or is there something you're looking for?",
-				"Warm greetings. Were you hoping to trade with me?",
-				"What can I get for you?",
+    {"op": "add", "path": "/beacon/hylotl/neki",
+      "value": [
+        "What would you like to discuss? Or is there something you're looking for?",
+        "Warm greetings. Were you hoping to trade with me?",
+        "What can I get for you?",
 
-			// Burin
-				"Greetings, Neki. So long as we're cordial, you may see my wares.",
-				"I am always willing to trade for art, culture, and artifacts!",
-				"A beautiful entrance, as always. Shall we conduct business?"
-			]
-		},
+      // Burin
+        "Greetings, Neki. So long as we're cordial, you may see my wares.",
+        "I am always willing to trade for art, culture, and artifacts!",
+        "A beautiful entrance, as always. Shall we conduct business?"
+      ]
+    },
 
-		{"op": "add", "path": "/beacon/novakid/neki",
-			"value": [
-				"What can I do for ya'?",
-				"You needin' to do some tradin'?",
-				"You called and I came a-running. You need to buy somethin'?",
+    {"op": "add", "path": "/beacon/novakid/neki",
+      "value": [
+        "What can I do for ya'?",
+        "You needin' to do some tradin'?",
+        "You called and I came a-running. You need to buy somethin'?",
 
-			// Burin
-				"I love makin' a flashy entrance! I love makin' a good deal as well!",
-				"Howdy! Hope ya got a buncha goods for me, 'cause I do for you!",
-				"Somebody call for a provisioner? I'm 'ere an' ready to trade!"
-			]
-		},
-	
+      // Burin
+        "I love makin' a flashy entrance! I love makin' a good deal as well!",
+        "Howdy! Hope ya got a buncha goods for me, 'cause I do for you!",
+        "Somebody call for a provisioner? I'm 'ere an' ready to trade!"
+      ]
+    },
+  
 // --------------- rent ---------------
 
-//		{"op": "add", "path": "/rent/apex/neki",
-//			"value": [
-//				"This present is for you, to say thank you.",
-//				"Business is good. This is your thank you present.",
-//				"My business is flourishing! Please take this gift, with my thanks.",
+//    {"op": "add", "path": "/rent/apex/neki",
+//      "value": [
+//        "This present is for you, to say thank you.",
+//        "Business is good. This is your thank you present.",
+//        "My business is flourishing! Please take this gift, with my thanks.",
 //
-//			// Burin
-//				"This venture has been very successful, Agent. Please accept some of the fruits of my business.",
-//				"Business here is quite good, Agent. I've been permitted to share with you this gift.",
-//				"Here's your cut of the profits, Agent."
-//			]
-//		},
+//      // Burin
+//        "This venture has been very successful, Agent. Please accept some of the fruits of my business.",
+//        "Business here is quite good, Agent. I've been permitted to share with you this gift.",
+//        "Here's your cut of the profits, Agent."
+//      ]
+//    },
 
-		{"op": "add", "path": "/rent/avian/neki",
-			"value": [
-				"This present is a thank you for all your help.",
-				"I bought a gift for you to say thank you, I hope you like it.",
-				"I hope you like the gift!",
+    {"op": "add", "path": "/rent/avian/neki",
+      "value": [
+        "This present is a thank you for all your help.",
+        "I bought a gift for you to say thank you, I hope you like it.",
+        "I hope you like the gift!",
 
-			// Burin
-				"I'm surprised we've done so well here! Here, take your share of the profits, you've earned it!",
-				"You're not so bad, Neki. I think I'm beginning to like you. Take this as a good gesture.",
-				"You've given me confidence around you, Neki. Please, accept this token."
-			]
-		},
+      // Burin
+        "I'm surprised we've done so well here! Here, take your share of the profits, you've earned it!",
+        "You're not so bad, Neki. I think I'm beginning to like you. Take this as a good gesture.",
+        "You've given me confidence around you, Neki. Please, accept this token."
+      ]
+    },
 
-		{"op": "add", "path": "/rent/floran/neki",
-			"value": [
-				"Here isss present for you!",
-				"Floran got this to ssay thank you.",
-				"Floran likes shop, Floran ssay thanks with present.",
+    {"op": "add", "path": "/rent/floran/neki",
+      "value": [
+        "Here isss present for you!",
+        "Floran got this to ssay thank you.",
+        "Floran likes shop, Floran ssay thanks with present.",
 
-			// Burin
-				"Floran lovesss Neki giving them shop! Floran share rewardsss with Neki!",
-				"Business good with Neki landlord. Floran give Neki profitsss!",
-				"Shiny rewardsss for Neki for good shop! Floran approves!"
-			]
-		},
+      // Burin
+        "Floran lovesss Neki giving them shop! Floran share rewardsss with Neki!",
+        "Business good with Neki landlord. Floran give Neki profitsss!",
+        "Shiny rewardsss for Neki for good shop! Floran approves!"
+      ]
+    },
 
-		{"op": "add", "path": "/rent/glitch/neki",
-			"value": [
-				"Friendly. Take this, for your continued patronage.",
-				"Grateful. Please take this gift as a thank you for helping with my shop.",
-				"Optimistic. This is going very well! Here's a gift to say thank you.",
+    {"op": "add", "path": "/rent/glitch/neki",
+      "value": [
+        "Friendly. Take this, for your continued patronage.",
+        "Grateful. Please take this gift as a thank you for helping with my shop.",
+        "Optimistic. This is going very well! Here's a gift to say thank you.",
 
-			// Burin
-				"Devoted. Here's your share of the profits. Let's work together for more business!",
-				"Philanthropic. I'd like to share my investments with you, for the good business.",
-				"Generous. You've been a good friend. Here, have a reward for your good deeds."
-			]
-		},
+      // Burin
+        "Devoted. Here's your share of the profits. Let's work together for more business!",
+        "Philanthropic. I'd like to share my investments with you, for the good business.",
+        "Generous. You've been a good friend. Here, have a reward for your good deeds."
+      ]
+    },
 
-		{"op": "add", "path": "/rent/human/neki",
-			"value": [
-			// Juni
-				"May I rub your ear as payment next time?\nNo?\nWas worth a shot.",
-				"You were expecting more than this? Too bad.",
-				"Take this, before I change my mind.",
-				"Yeah, I guess you can have this.",
-				"This is all you deserve.",
+    {"op": "add", "path": "/rent/human/neki",
+      "value": [
+      // Juni
+        "May I rub your ear as payment next time?\nNo?\nWas worth a shot.",
+        "You were expecting more than this? Too bad.",
+        "Take this, before I change my mind.",
+        "Yeah, I guess you can have this.",
+        "This is all you deserve.",
 
-			// Burin
-				"Ah, you're not so bad. Here, take this as a way of saying sorry.",
-				"Here's your cut. If anyone asks, I don't know you.",
-				"I always pay my dues, even if I don't like you."
-			]
-		},
+      // Burin
+        "Ah, you're not so bad. Here, take this as a way of saying sorry.",
+        "Here's your cut. If anyone asks, I don't know you.",
+        "I always pay my dues, even if I don't like you."
+      ]
+    },
 
-		{"op": "add", "path": "/rent/hylotl/neki",
-			"value": [
-				"Please take this gift as a token of my thanks.",
-				"Please accept this gift with my gratitude.",
-				"I hope this humble gift conveys my appreciation for your help.",
+    {"op": "add", "path": "/rent/hylotl/neki",
+      "value": [
+        "Please take this gift as a token of my thanks.",
+        "Please accept this gift with my gratitude.",
+        "I hope this humble gift conveys my appreciation for your help.",
 
-			// Burin
-				"I'll admit I was wary of you at first, but you've proven yourself. Here, a token of friendship.",
-				"Our partnership seems quite fruitful. Here's your cut of my sales.",
-				"I hope you can find good use for this reward."
-			]
-		},
+      // Burin
+        "I'll admit I was wary of you at first, but you've proven yourself. Here, a token of friendship.",
+        "Our partnership seems quite fruitful. Here's your cut of my sales.",
+        "I hope you can find good use for this reward."
+      ]
+    },
 
-		{"op": "add", "path": "/rent/novakid/neki",
-			"value": [
-				"Here's a little somethin' for your troubles. Thank you kindly.",
-				"It's a mighty fine store you've helped me secure. I gotta thank you for it.",
-				"Thanks for helping me get by. You've earned this.",
-				"Don't know how to thank you properly, but for now take this.",
-				"That's for you, to do as you please with.",
+    {"op": "add", "path": "/rent/novakid/neki",
+      "value": [
+        "Here's a little somethin' for your troubles. Thank you kindly.",
+        "It's a mighty fine store you've helped me secure. I gotta thank you for it.",
+        "Thanks for helping me get by. You've earned this.",
+        "Don't know how to thank you properly, but for now take this.",
+        "That's for you, to do as you please with.",
 
-			// Burin
-				"This here's been a good job between you and I, let's split the profits!",
-				"Hopin' you can make use of this! You've earned it for your efforts.",
-				"You're quite the partner, partner! Here, your share o' the loot."
-			]
-		}
-	]
+      // Burin
+        "This here's been a good job between you and I, let's split the profits!",
+        "Hopin' you can make use of this! You've earned it for your efforts.",
+        "You're quite the partner, partner! Here, your share o' the loot."
+      ]
+    }
+  ]
 ]

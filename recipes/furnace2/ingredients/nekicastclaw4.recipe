@@ -1,9 +1,9 @@
 {
-	"input": [
-		{"item": "sharpenedclaw", "count": 5},
-		{"item": "titaniumbar", "count": 10}
-	],
+  "input": [
+    {"item": "sharpenedclaw", "count": 5},
+    {"item": "titaniumbar", "count": 10}
+  ],
 
-	"output": {"item": "nekicastclaw4", "count": 1},
-	"groups": ["craftingfurnace2", "ingredients", "all"]
+  "output": {"item": "nekicastclaw4", "count": 1},
+  "groups": ["craftingfurnace2", "ingredients", "all"]
 }

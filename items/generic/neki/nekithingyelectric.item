@@ -1,11 +1,11 @@
 {
-	"itemName": "nekithingyelectric",
-	"price": 1,
-	"rarity": "Rare",
-	"category": "craftingMaterial",
-	"inventoryIcon": "nekithingyelectric.png",
-	"description": "An odd electric contraption, may be useful as an upgrade.",
-	"shortdescription": "Neki Thingy - Electric",
-	"tooltipKind": "nekibase",
-	"itemTags": ["reagent"]
+  "itemName": "nekithingyelectric",
+  "price": 1,
+  "rarity": "Rare",
+  "category": "craftingMaterial",
+  "inventoryIcon": "nekithingyelectric.png",
+  "description": "An odd electric contraption, may be useful as an upgrade.",
+  "shortdescription": "Neki Thingy - Electric",
+  "tooltipKind": "nekibase",
+  "itemTags": ["reagent"]
 }

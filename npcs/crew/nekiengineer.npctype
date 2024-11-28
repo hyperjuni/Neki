@@ -1,47 +1,47 @@
 {
-	"type": "nekiengineer",
-	"baseType": "crewmemberengineer",
+  "type": "nekiengineer",
+  "baseType": "crewmemberengineer",
 
-	"scriptConfig": {
-		"crew": {
-			"role": {
-				"field": "Stuff-Dropping"
-			},
-			"defaultUniform" : {
-				"chest": "scientistchest",
-				"legs": "scientistlegs"
-			}
-		},
-		"dialog": {
-			"crewmember": {
-				"roleDescription": {
-					"default": {
-						"default": [
-						"Hey, I'm supposed to be a Neki!",
-						"Why am I... whatever this is?!"
-						]
-					},
-					"neki": {
-						"default": [
-							"I tripped on some cables and your engine is whirring faster now. You're welcome.",
-							"I dropped something on the engine and now it works faster.",
-							"I'll go drop something in the engine room."
-						]
-					}
-				}
-			}
-		}
-	},
-	"items": {
-		"default": [
-			[0,
-				[
-					{
-						"chest": [{"name": "scientistchest"}],
-						"legs": [{"name": "scientistlegs"}]
-					}
-				]
-			]
-		]
-	}
+  "scriptConfig": {
+    "crew": {
+      "role": {
+        "field": "Stuff-Dropping"
+      },
+      "defaultUniform" : {
+        "chest": "scientistchest",
+        "legs": "scientistlegs"
+      }
+    },
+    "dialog": {
+      "crewmember": {
+        "roleDescription": {
+          "default": {
+            "default": [
+            "Hey, I'm supposed to be a Neki!",
+            "Why am I... whatever this is?!"
+            ]
+          },
+          "neki": {
+            "default": [
+              "I tripped on some cables and your engine is whirring faster now. You're welcome.",
+              "I dropped something on the engine and now it works faster.",
+              "I'll go drop something in the engine room."
+            ]
+          }
+        }
+      }
+    }
+  },
+  "items": {
+    "default": [
+      [0,
+        [
+          {
+            "chest": [{"name": "scientistchest"}],
+            "legs": [{"name": "scientistlegs"}]
+          }
+        ]
+      ]
+    ]
+  }
 }

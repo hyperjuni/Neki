@@ -1,30 +1,30 @@
 [
-	{"op": "add", "path": "/converse/default/neki",
-		"value": [
-			"Do I look like I'm in a costume? Just askin', it dinnae mean anything...",
-			"Ye ever get sand in a place it dinnae belong? Mighty bother, that.",
-			"Way ye keep yer fur so fine be a riddle, mine always be frizzin'.",
-			"Good set o' legs on ye! Think yer two could keep up with me four?",
-			"I dinnae care what ye look like, as long as ye strong of heart!",
-			"Some hardy stone furniture makes an Alpaca happy, I tell ye!",
-			"How do ye do combat, eh? Ye up close, or shootin' from afar?",
-			"If ye fight as fiercely as ye look, ye be okay in my book.",
-			"I had some wee traveller ask me if this was a costume...",
-			"Wish I had me weapon always on me like yer claws are.",
-			"A mighty fine coat o' fur ye rockin' there, wee one.",
-			"I dinnae see many like ye around, I tell ye that!",
-			"Dinnae cause trouble and we'll treat ye like kin!",
-			"I've been a warrior since I was a wee Alpaca.",
-			"Ye dinnae look like a coward. I respect that.",
-			"Courage is better than keenest durasteel.",
-			"I'm itching tae batter some beasties.",
-			"Always have a wee nap when ye can!",
-			"Eat well if ye want te fight well!",
-			"Do ye get many that look like ye?",
-			"Are ye a fighter, or a craven?",
-			"I'm itching for a wee fight.",
-			"Be keepin' merry, friend!",
-			"Keep the heid!"
-		]
-	}
+  {"op": "add", "path": "/converse/default/neki",
+    "value": [
+      "Do I look like I'm in a costume? Just askin', it dinnae mean anything...",
+      "Ye ever get sand in a place it dinnae belong? Mighty bother, that.",
+      "Way ye keep yer fur so fine be a riddle, mine always be frizzin'.",
+      "Good set o' legs on ye! Think yer two could keep up with me four?",
+      "I dinnae care what ye look like, as long as ye strong of heart!",
+      "Some hardy stone furniture makes an Alpaca happy, I tell ye!",
+      "How do ye do combat, eh? Ye up close, or shootin' from afar?",
+      "If ye fight as fiercely as ye look, ye be okay in my book.",
+      "I had some wee traveller ask me if this was a costume...",
+      "Wish I had me weapon always on me like yer claws are.",
+      "A mighty fine coat o' fur ye rockin' there, wee one.",
+      "I dinnae see many like ye around, I tell ye that!",
+      "Dinnae cause trouble and we'll treat ye like kin!",
+      "I've been a warrior since I was a wee Alpaca.",
+      "Ye dinnae look like a coward. I respect that.",
+      "Courage is better than keenest durasteel.",
+      "I'm itching tae batter some beasties.",
+      "Always have a wee nap when ye can!",
+      "Eat well if ye want te fight well!",
+      "Do ye get many that look like ye?",
+      "Are ye a fighter, or a craven?",
+      "I'm itching for a wee fight.",
+      "Be keepin' merry, friend!",
+      "Keep the heid!"
+    ]
+  }
 ]

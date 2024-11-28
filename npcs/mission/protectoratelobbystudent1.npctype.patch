@@ -1,14 +1,14 @@
 [
-	{"op": "add", "path": "/scriptConfig/dialog/converse/default/neki",
-		"value": [
-			"What're YOU looking at?",
-			"Maybe if you beat this machine senseless, it'll give me my drink or pixels back!",
-			"I mean, you like wrecking stuff, so go on!",
-			"Yeah yeah, you're so strong, whatever...",
-			"Can't wait to have you out of here for good!",
-			"Go away already.",
-			"Leave me alone!",
-			"I said go away!"
-		]
-	}
+  {"op": "add", "path": "/scriptConfig/dialog/converse/default/neki",
+    "value": [
+      "What're YOU looking at?",
+      "Maybe if you beat this machine senseless, it'll give me my drink or pixels back!",
+      "I mean, you like wrecking stuff, so go on!",
+      "Yeah yeah, you're so strong, whatever...",
+      "Can't wait to have you out of here for good!",
+      "Go away already.",
+      "Leave me alone!",
+      "I said go away!"
+    ]
+  }
 ]

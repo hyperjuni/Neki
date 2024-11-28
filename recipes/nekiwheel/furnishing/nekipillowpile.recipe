@@ -1,16 +1,16 @@
 {
-	"input": [
-		{"item": "nekipillowblack", "count": 1},
-		{"item": "nekipillowblue", "count": 1},
-		{"item": "nekipillowbrown", "count": 1},
-		{"item": "nekipillowgreen", "count": 1},
-		{"item": "nekipilloworange", "count": 1},
-		{"item": "nekipillowpurple", "count": 1},
-		{"item": "nekipillowred", "count": 1},
-		{"item": "nekipillowwhite", "count": 1},
-		{"item": "nekipillowyellow", "count": 1}	
-	],
+  "input": [
+    {"item": "nekipillowblack", "count": 1},
+    {"item": "nekipillowblue", "count": 1},
+    {"item": "nekipillowbrown", "count": 1},
+    {"item": "nekipillowgreen", "count": 1},
+    {"item": "nekipilloworange", "count": 1},
+    {"item": "nekipillowpurple", "count": 1},
+    {"item": "nekipillowred", "count": 1},
+    {"item": "nekipillowwhite", "count": 1},
+    {"item": "nekipillowyellow", "count": 1}  
+  ],
 
-	"output": {"item": "nekipillowpile", "count": 1},
-	"groups": ["nekiwheel", "furnishing"]
+  "output": {"item": "nekipillowpile", "count": 1},
+  "groups": ["nekiwheel", "furnishing"]
 }

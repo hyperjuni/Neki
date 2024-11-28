@@ -1,6 +1,6 @@
 {
-	"name": "nekibedlockergetin",
+  "name": "nekibedlockergetin",
 
-	"scripts": ["nekibedlockergetin.lua"],
-	"animationConfig": "nekibed.animation"
+  "scripts": ["nekibedlockergetin.lua"],
+  "animationConfig": "nekibed.animation"
 }

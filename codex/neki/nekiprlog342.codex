@@ -1,10 +1,10 @@
 {
-	"id": "nekiprlog342",
-	"species": "neki",
-	"title": "Private Log #0342",
-	"description": "An unusual-looking private log entry.",
-	"icon": "nekimemorycardpink.png",
-	"contentPages": [
+  "id": "nekiprlog342",
+  "species": "neki",
+  "title": "Private Log #0342",
+  "description": "An unusual-looking private log entry.",
+  "icon": "nekimemorycardpink.png",
+  "contentPages": [
 "^gray;*click* ... *THUD*
 
 [long silence]
@@ -20,9 +20,9 @@
 \"Dumb thingy! Pfft.\"
 
 ^gray;*soft steps, fading away*"
-	],
-	"itemConfig": {
-		"rarity": "uncommon",
-		"price": 25
-	}
+  ],
+  "itemConfig": {
+    "rarity": "uncommon",
+    "price": 25
+  }
 }

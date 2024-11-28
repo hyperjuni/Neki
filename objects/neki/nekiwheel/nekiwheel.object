@@ -1,77 +1,77 @@
 {
-	"objectName": "nekiwheel",
-	"category": "crafting",
-	"rarity": "Uncommon",
-	"price": 50,
-	"race": "neki",
-	"tooltipKind": "nekibase",
-	"colonyTags": [
-		"neki",
-		"crafting"
-	],
+  "objectName": "nekiwheel",
+  "category": "crafting",
+  "rarity": "Uncommon",
+  "price": 50,
+  "race": "neki",
+  "tooltipKind": "nekibase",
+  "colonyTags": [
+    "neki",
+    "crafting"
+  ],
 
-	"interactAction": "OpenCraftingInterface",
-	"interactData": {
-		"config": "/interface/windowconfig/nekiwheel.config",
-		"filter": ["nekiwheel"]
-	}, 
+  "interactAction": "OpenCraftingInterface",
+  "interactData": {
+    "config": "/interface/windowconfig/nekiwheel.config",
+    "filter": ["nekiwheel"]
+  }, 
 
-	"shortdescription": "^orange;Neki Wheel^reset;",
-	"description": "This wheel is used by the Neki to craft various items.",
+  "shortdescription": "^orange;Neki Wheel^reset;",
+  "description": "This wheel is used by the Neki to craft various items.",
 
-	"apexDescription": "A spinning wheel. It's covered in fur.",
-	"avianDescription": "A tool for working threads.. why is there fur all over it?",
-	"floranDescription": "Floran ssspin furry wheel, work thread.",
-	"glitchDescription": "Observant. A tailoring tool, not particularly well-maintained.",
-	"humanDescription": "A somewhat neglected wooden spinning wheel covered in fur.",
-	"hylotlDescription": "This would've been an instrument of art, had it been better maintained.",
-	"nekiDescription": "The wheels spin and clothes come out!",
-	"novakidDescription": "Maybe I can make m'self a new sweater on this.",
+  "apexDescription": "A spinning wheel. It's covered in fur.",
+  "avianDescription": "A tool for working threads.. why is there fur all over it?",
+  "floranDescription": "Floran ssspin furry wheel, work thread.",
+  "glitchDescription": "Observant. A tailoring tool, not particularly well-maintained.",
+  "humanDescription": "A somewhat neglected wooden spinning wheel covered in fur.",
+  "hylotlDescription": "This would've been an instrument of art, had it been better maintained.",
+  "nekiDescription": "The wheels spin and clothes come out!",
+  "novakidDescription": "Maybe I can make m'self a new sweater on this.",
 
-	"inventoryIcon": "nekiwheelicon.png",
-	"placementImagePosition": [-16, 0],	
+  "inventoryIcon": "nekiwheelicon.png",
+  "placementImagePosition": [-16, 0],  
 
-	"orientations": [
-		{
-			"direction": "left",
-			"anchors": ["bottom"],
-			"image": "nekiwheel.png",
-			"imagePosition": [-16, 0],
-			"flipImages": true,
-			"spaces": [
-				[-2,0],
-				[-1,0],
-				[0,0],
-				[1,0],
-				[-2,1],
-				[-1,1],
-				[0,1],
-				[1,1],
-				[-2,2],
-				[-1,2],
-				[0,2],
-				[1,2]
-			]
-		},
-		{
-			"direction": "right",
-			"anchors": ["bottom"],
-			"image": "nekiwheel.png",
-			"imagePosition": [-16, 0],
-			"spaces": [
-				[-2,0],
-				[-1,0],
-				[0,0],
-				[1,0],
-				[-2,1],
-				[-1,1],
-				[0,1],
-				[1,1],
-				[-2,2],
-				[-1,2],
-				[0,2],
-				[1,2]
-			]
-		}
-	]
+  "orientations": [
+    {
+      "direction": "left",
+      "anchors": ["bottom"],
+      "image": "nekiwheel.png",
+      "imagePosition": [-16, 0],
+      "flipImages": true,
+      "spaces": [
+        [-2,0],
+        [-1,0],
+        [0,0],
+        [1,0],
+        [-2,1],
+        [-1,1],
+        [0,1],
+        [1,1],
+        [-2,2],
+        [-1,2],
+        [0,2],
+        [1,2]
+      ]
+    },
+    {
+      "direction": "right",
+      "anchors": ["bottom"],
+      "image": "nekiwheel.png",
+      "imagePosition": [-16, 0],
+      "spaces": [
+        [-2,0],
+        [-1,0],
+        [0,0],
+        [1,0],
+        [-2,1],
+        [-1,1],
+        [0,1],
+        [1,1],
+        [-2,2],
+        [-1,2],
+        [0,2],
+        [1,2]
+      ]
+    }
+  ]
 }

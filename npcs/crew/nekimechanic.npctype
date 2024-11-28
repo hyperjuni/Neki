@@ -1,41 +1,41 @@
 {
-	"type": "nekimechanic",
-	"baseType": "crewmembermechanic",
+  "type": "nekimechanic",
+  "baseType": "crewmembermechanic",
 
-	"scriptConfig": {
-		"crew": {
-			"role": {
-				"field": "Purrple Goo"
-			}
-		},
-		"dialog": {
-			"crewmember": {
-				"roleDescription": {
-					"default": {
-						"default": [
-						"Hey, I'm supposed to be a Neki!",
-						"Why am I... whatever this is?!"
-						]
-					},
-					"neki": {
-						"default": [
-							"I'll make your ship suck less...\nof the purrple goo."
-						]
-					}
-				}
-			}
-		}
-	},
-	"items": {
-		"default": [
-			[0,
-				[
-					{
-						"chest": [{"name": "protectoratechest"}],
-						"legs": [{"name": "protectoratepants"}]
-					}
-				]
-			]
-		]
-	}
+  "scriptConfig": {
+    "crew": {
+      "role": {
+        "field": "Purrple Goo"
+      }
+    },
+    "dialog": {
+      "crewmember": {
+        "roleDescription": {
+          "default": {
+            "default": [
+            "Hey, I'm supposed to be a Neki!",
+            "Why am I... whatever this is?!"
+            ]
+          },
+          "neki": {
+            "default": [
+              "I'll make your ship suck less...\nof the purrple goo."
+            ]
+          }
+        }
+      }
+    }
+  },
+  "items": {
+    "default": [
+      [0,
+        [
+          {
+            "chest": [{"name": "protectoratechest"}],
+            "legs": [{"name": "protectoratepants"}]
+          }
+        ]
+      ]
+    ]
+  }
 }

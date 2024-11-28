@@ -1,16 +1,16 @@
 [
-	{"op": "add", "path": "/accuse/neki",
-		"value": {
-			"default": [
-				"Khhh! Don't take that!"
-			]
-		}
-	},
-	{"op": "add", "path": "/alert/neki",
-		"value": {
-			"default": [
-				"WRRROOOWWWW!"
-			]
-		}
-	}
+  {"op": "add", "path": "/accuse/neki",
+    "value": {
+      "default": [
+        "Khhh! Don't take that!"
+      ]
+    }
+  },
+  {"op": "add", "path": "/alert/neki",
+    "value": {
+      "default": [
+        "WRRROOOWWWW!"
+      ]
+    }
+  }
 ]

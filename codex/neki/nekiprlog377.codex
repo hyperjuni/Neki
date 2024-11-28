@@ -1,10 +1,10 @@
 {
-	"id": "nekiprlog377",
-	"species": "neki",
-	"title": "Private Log #0377",
-	"description": "A private log entry.",
-	"icon": "nekimemorycardgreen.png",
-	"contentPages": [
+  "id": "nekiprlog377",
+  "species": "neki",
+  "title": "Private Log #0377",
+  "description": "A private log entry.",
+  "icon": "nekimemorycardgreen.png",
+  "contentPages": [
 "They aren't safe here.
 
 I got word that my face was being plastered all over this sector, which was to be expected. While not ideal for ME, the sensitive nature of the project does, fortunately, ensure that very few individuals have any idea of what THEY look like.
@@ -14,9 +14,9 @@ An explicit termination order is no doubt in play at this point, which means tha
 "I fear that having to part ways would not be something they'd be able to come to terms with, or understand the need for. Even I can hardly contain my emotions just thinking about it, can't imagine what it would do to them... But we have no choice.
 
 I see no other way to keep them safe; I must get them as far away from here as possible, to a place where the Miniknog wouldn't even THINK to come looking."
-	],
-	"itemConfig": {
-		"rarity": "uncommon",
-		"price": 25
-	}
+  ],
+  "itemConfig": {
+    "rarity": "uncommon",
+    "price": 25
+  }
 }

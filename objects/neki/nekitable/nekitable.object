@@ -1,59 +1,59 @@
 {
-	"objectName": "nekitable",
-	"objectType": "loungeable",
-	"category": "furniture",
-	"rarity": "Common",
-	"price": 70,
-	"race": "neki",
-	"printable": false,
-	"tooltipKind": "nekibase",
-	"colonyTags": ["neki"],
+  "objectName": "nekitable",
+  "objectType": "loungeable",
+  "category": "furniture",
+  "rarity": "Common",
+  "price": 70,
+  "race": "neki",
+  "printable": false,
+  "tooltipKind": "nekibase",
+  "colonyTags": ["neki"],
 
-	"shortdescription": "Neki Basic Table",
-	"description": "A sturdy cardboard box that's being used as shelter.",
+  "shortdescription": "Neki Basic Table",
+  "description": "A sturdy cardboard box that's being used as shelter.",
 
-	"apexDescription": "I didn't realize that homelessness was still a thing out here.",
-	"avianDescription": "This looks and smells like a predator's nest, I better stay away.",
-	"floranDescription": "Box is good ssstalking sspot and strong enough to ssstand on.",
-	"glitchDescription": "Confused. There are better uses for a box, and there are better things to construct shelter out of.",
-	"humanDescription": "Oh my god, is that a box fort?",
-	"hylotlDescription": "This worn cardboard box seems to have been turned into primitive, crudely-built shelter.",
-	"nekiDescription": "The bestest table!\nI can hops on top AND hide inside!",
-	"novakidDescription": "A good ol' box, servin' double duty as both a table and a lair.",
+  "apexDescription": "I didn't realize that homelessness was still a thing out here.",
+  "avianDescription": "This looks and smells like a predator's nest, I better stay away.",
+  "floranDescription": "Box is good ssstalking sspot and strong enough to ssstand on.",
+  "glitchDescription": "Confused. There are better uses for a box, and there are better things to construct shelter out of.",
+  "humanDescription": "Oh my god, is that a box fort?",
+  "hylotlDescription": "This worn cardboard box seems to have been turned into primitive, crudely-built shelter.",
+  "nekiDescription": "The bestest table!\nI can hops on top AND hide inside!",
+  "novakidDescription": "A good ol' box, servin' double duty as both a table and a lair.",
 
-	"inventoryIcon": "nekitableicon.png",
+  "inventoryIcon": "nekitableicon.png",
 
-	"orientations": [
-		{
-			"direction": "left",
-			"anchors": ["bottom"],
-			"image": "nekitable.png",
-			"imagePosition": [-16, 0],
-			"flipImages": true,
-			"spaceScan": 0.1,
-			"collision": "platform",
-			"sitPosition": [8, 8.5]
-		},
-		{
-			"direction": "right",
-			"anchors": ["bottom"],
-			"image": "nekitable.png",
-			"imagePosition": [-16, 0],
-			"spaceScan": 0.1,
-			"collision": "platform",
-			"sitPosition": [10, 8.5]
-		}
-	],
+  "orientations": [
+    {
+      "direction": "left",
+      "anchors": ["bottom"],
+      "image": "nekitable.png",
+      "imagePosition": [-16, 0],
+      "flipImages": true,
+      "spaceScan": 0.1,
+      "collision": "platform",
+      "sitPosition": [8, 8.5]
+    },
+    {
+      "direction": "right",
+      "anchors": ["bottom"],
+      "image": "nekitable.png",
+      "imagePosition": [-16, 0],
+      "spaceScan": 0.1,
+      "collision": "platform",
+      "sitPosition": [10, 8.5]
+    }
+  ],
 
-	"sitCoverImage": "/objects/neki/nekitable/nekitablecover.png",
-	"sitOrientation": "lay",
-	"sitAngle": -90,
-	"sitEmote": "sleep",
-	"sitEffectEmitters": ["sleepbubbles"],
-	"sitStatusEffects": [
-		"bed2",
-		"nekibedgetin",
-		"nekihideany",
-		"nekipurr"
-	]
+  "sitCoverImage": "/objects/neki/nekitable/nekitablecover.png",
+  "sitOrientation": "lay",
+  "sitAngle": -90,
+  "sitEmote": "sleep",
+  "sitEffectEmitters": ["sleepbubbles"],
+  "sitStatusEffects": [
+    "bed2",
+    "nekibedgetin",
+    "nekihideany",
+    "nekipurr"
+  ]
 }

@@ -1,10 +1,10 @@
 {
-	"name": "nekihidefountain",
-	"defaultDuration": 10,
-	"effectConfig": {
-		"nekihideMask": "/stats/effects/nekihide/nekihidefountain/nekihidefountain.png",
-		"nekiOnly": true
-	},
+  "name": "nekihidefountain",
+  "defaultDuration": 10,
+  "effectConfig": {
+    "nekihideMask": "/stats/effects/nekihide/nekihidefountain/nekihidefountain.png",
+    "nekiOnly": true
+  },
 
-	"scripts": ["/stats/effects/nekihide/nekihide.lua"]
+  "scripts": ["/stats/effects/nekihide/nekihide.lua"]
 }

@@ -1,22 +1,26 @@
 [
-	{"op": "add", "path": "/scriptConfig/dialog/attack/human/neki",
-		"value": [
-			"Oi, pussy!",
-			"Fresh pussy!",
-			"Get that pussy!",
-			"Come 'ere, pussy!",
-			"Time for some pussy!",
-			"Oh that's it, you're done!",
-			"I like it when the pussy runs!",
-			"Don't even THINK about running!",
-			"You're not gettin' outta here alive!",
-			"You ain't gettin' away, furball!",
-			"Ohohoho! This is gonna be fun!",
-			"This is gonna be satisfying!",
-			"I'ma rip you a new one!",
-			"Finally, some pussy!",
-			"Ohoho, big mistake!",
-			"Oi! Get over 'ere."
-		]
-	}
+  {"op": "add", "path": "/scriptConfig/dialog/attack/human/neki",
+    "value": [
+      "Oi, pussy!",
+      "Fresh pussy!",
+      "Get that pussy!",
+      "Come 'ere, pussy!",
+      "Time for some pussy!",
+      "Time to skin an animal.",
+      "Oh that's it, you're done!",
+      "I'ma skin you alive, beast!",
+      "I like it when the pussy runs!",
+      "Don't even THINK about running!",
+      "You're not gettin' outta here alive!",
+      "Your pelt will look great on my wall!",
+      "You ain't gettin' away, furball!",
+      "Ohohoho! This is gonna be fun!",
+      "This is gonna be satisfying!",
+      "Not this time, you vermin!",
+      "I'ma rip you a new one!",
+      "Finally, some pussy!",
+      "Ohoho, big mistake!",
+      "Oi! Get over 'ere."
+    ]
+  }
 ]

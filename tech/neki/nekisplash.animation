@@ -1,5 +1,5 @@
 {
-	"frames": "nekisplash.png",
-	"animationCycle": 0.5,
-	"frameNumber": 7
+  "frames": "nekisplash.png",
+  "animationCycle": 0.5,
+  "frameNumber": 7
 }

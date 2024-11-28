@@ -1,5 +1,3 @@
 [
-	{"op": "replace", "path": "/tenants/0/species",
-		"value": ["apex", "neki"]
-	}
+  {"op": "replace", "path": "/tenants/0/species", "value": ["apex", "neki"]}
 ]

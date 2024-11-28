@@ -1,22 +1,22 @@
 {
-	"id": "nekicodex377",
-	"prerequisites": ["nekistuff"],
-	"title": "Private Log #0377",
-	"text": "A recent shipment of augments had a ^orange;data log entry^reset; with an awfully familiar phrasing attached to it; I have an idea about who may have recorded it, but I'll need a few more of these to know for sure.\n\nMeanwhile, see if it rings any bells for you.",
-	"completionText": "This smells so familiarr...",
-	"rewards": [
-		[
-			["nekiprlog377-codex", 1]
-		]
-	],
+  "id": "nekicodex377",
+  "prerequisites": ["nekistuff"],
+  "title": "Private Log #0377",
+  "text": "A recent shipment of augments had a ^orange;data log entry^reset; with an awfully familiar phrasing attached to it; I have an idea about who may have recorded it, but I'll need a few more of these to know for sure.\n\nMeanwhile, see if it rings any bells for you.",
+  "completionText": "This smells so familiarr...",
+  "rewards": [
+    [
+      ["nekiprlog377-codex", 1]
+    ]
+  ],
 
-	"updateDelta": 10,
-	"script": "/quests/scripts/nekiautocomplete.lua",
-	"scriptConfig": {
-		"portraits": {
-			"questStarted": "questGiver",
-			"questComplete": "player"
-		},
-		"requireTurnIn": false
-	}
+  "updateDelta": 10,
+  "script": "/quests/scripts/nekiautocomplete.lua",
+  "scriptConfig": {
+    "portraits": {
+      "questStarted": "questGiver",
+      "questComplete": "player"
+    },
+    "requireTurnIn": false
+  }
 }

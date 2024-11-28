@@ -1,55 +1,55 @@
 {
-	"objectName": "nekibedlavish",
-	"objectType": "loungeable",
-	"category": "furniture",
-	"rarity": "Rare",
-	"price": 9001,
-	"race": "neki",
-	"printable": false,
-	"tooltipKind": "nekibase",
-	"colonyTags": ["neki"],
+  "objectName": "nekibedlavish",
+  "objectType": "loungeable",
+  "category": "furniture",
+  "rarity": "Rare",
+  "price": 9001,
+  "race": "neki",
+  "printable": false,
+  "tooltipKind": "nekibase",
+  "colonyTags": ["neki"],
 
-	"shortdescription": "Neki Lavish Bed",
-	"description": "A bed made out of various opulent items.",
+  "shortdescription": "Neki Lavish Bed",
+  "description": "A bed made out of various opulent items.",
 
-	"apexDescription": "A bed like this would offend even Big Ape's tastes.",
-	"avianDescription": "Such a grotesque display of blasphemous artefact thievery!",
-	"floranDescription": "Thisss where Floran's couch went?!",
-	"glitchDescription": "Shocked: Never have I seen so much luxury cobbled together in such an impractical way.",
-	"humanDescription": "That's one heck of a luxurious place to sleep!",
-	"hylotlDescription": "Who in their right mind would make such an astoundingly tasteless piece of furniture..?",
-	"nekiDescription": "This is the purrdiest, most comfurrtable bed in the entire universe!",
-	"novakidDescription": "Holy molly, that's one gaudy-lookin' bed!",
+  "apexDescription": "A bed like this would offend even Big Ape's tastes.",
+  "avianDescription": "Such a grotesque display of blasphemous artefact thievery!",
+  "floranDescription": "Thisss where Floran's couch went?!",
+  "glitchDescription": "Shocked: Never have I seen so much luxury cobbled together in such an impractical way.",
+  "humanDescription": "That's one heck of a luxurious place to sleep!",
+  "hylotlDescription": "Who in their right mind would make such an astoundingly tasteless piece of furniture..?",
+  "nekiDescription": "This is the purrdiest, most comfurrtable bed in the entire universe!",
+  "novakidDescription": "Holy molly, that's one gaudy-lookin' bed!",
 
-	"inventoryIcon": "nekibedlavishicon.png",
+  "inventoryIcon": "nekibedlavishicon.png",
 
-	"orientations": [
-		{
-			"direction": "left",
-			"anchors": ["bottom"],
-			"image": "nekibedlavish.png",
-			"imagePosition": [0, 0],
-			"flipImages": true,
-			"spaceScan": 0.1,
-			"sitPosition": [-37.5, 18]
-		},
-		{
-			"direction": "right",
-			"anchors": ["bottom"],
-			"image": "nekibedlavish.png",
-			"imagePosition": [0, 0],
-			"spaceScan": 0.1,
-			"sitPosition": [66.5, 18]
-		}
-	],
+  "orientations": [
+    {
+      "direction": "left",
+      "anchors": ["bottom"],
+      "image": "nekibedlavish.png",
+      "imagePosition": [0, 0],
+      "flipImages": true,
+      "spaceScan": 0.1,
+      "sitPosition": [-37.5, 18]
+    },
+    {
+      "direction": "right",
+      "anchors": ["bottom"],
+      "image": "nekibedlavish.png",
+      "imagePosition": [0, 0],
+      "spaceScan": 0.1,
+      "sitPosition": [66.5, 18]
+    }
+  ],
 
-	"sitCoverImage": "/objects/neki/nekibedlavish/nekibedlavishcover.png",
-	"sitOrientation": "lay",
-	"sitAngle": -90,
-	"sitStatusEffects": [
-		"bed4",
-		"nekibedlavishgetin",
-		"nekihidebedlavish",
-		"nekipurr"
-	]
+  "sitCoverImage": "/objects/neki/nekibedlavish/nekibedlavishcover.png",
+  "sitOrientation": "lay",
+  "sitAngle": -90,
+  "sitStatusEffects": [
+    "bed4",
+    "nekibedlavishgetin",
+    "nekihidebedlavish",
+    "nekipurr"
+  ]
 }

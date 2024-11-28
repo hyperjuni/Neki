@@ -5,18 +5,18 @@ require "/quests/scripts/questutil.lua"
 require("/quests/scripts/portraits.lua")
 
 function init()
-	setPortraits()
+  setPortraits()
 end
 
 function questStart()
-	quest.complete()
+  quest.complete()
 end
 
 function questComplete()
-	setPortraits()
-	questutil.questCompleteActions()
+  setPortraits()
+  questutil.questCompleteActions()
 end
 
-function update(dt)	
-	
+function update(dt)  
+  
 end

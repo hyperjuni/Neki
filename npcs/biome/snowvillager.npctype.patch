@@ -1,18 +1,18 @@
 [
-	{"op": "add", "path": "/scriptConfig/dialog/converse/default/neki",
-		"value": [
-			"You must've come to this planet for something important, it's not exactly paradise.",
-			"I should try that funny hop you do, seems useful for moving in the snow.",
-			"You look innately prepared for this cold, but I had to adapt.",
-			"You seem to be feeling pretty comfortable in this climate.",
-			"How are those big ears of yours not freezing out here?",
-			"I don't mind the cold, but you seem to be enjoying it!",
-			"I thought I loved the cold, before I moved out here.",
-			"Does jumping around like that help you stay warm?",
-			"This is nothing, you should've seen last winter.",
-			"It gets much colder than this, trust me.",
-			"Wanna play snowball war?",
-			"Wanna build a snowman?"
-		]
-	}
+  {"op": "add", "path": "/scriptConfig/dialog/converse/default/neki",
+    "value": [
+      "You must've come to this planet for something important, it's not exactly paradise.",
+      "I should try that funny hop you do, seems useful for moving in the snow.",
+      "You look innately prepared for this cold, but I had to adapt.",
+      "You seem to be feeling pretty comfortable in this climate.",
+      "How are those big ears of yours not freezing out here?",
+      "I don't mind the cold, but you seem to be enjoying it!",
+      "I thought I loved the cold, before I moved out here.",
+      "Does jumping around like that help you stay warm?",
+      "This is nothing, you should've seen last winter.",
+      "It gets much colder than this, trust me.",
+      "Wanna play snowball war?",
+      "Wanna build a snowman?"
+    ]
+  }
 ]

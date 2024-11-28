@@ -1,12 +1,12 @@
 {
-	"input": [
-		{"item": "fabric", "count": 5},
-		{"item": "silk", "count": 5},
-		{"item": "string", "count": 2},
-		{"item": "cottonwool", "count": 1}
-	],
+  "input": [
+    {"item": "fabric", "count": 5},
+    {"item": "silk", "count": 5},
+    {"item": "string", "count": 2},
+    {"item": "cottonwool", "count": 1}
+  ],
 
-	"duration": 0.5,
-	"output": {"item": "nokinitop", "count": 1},
-	"groups": ["nekiwheel", "clothes"]
+  "duration": 0.5,
+  "output": {"item": "nokinitop", "count": 1},
+  "groups": ["nekiwheel", "clothes"]
 }

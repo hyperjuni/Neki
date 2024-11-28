@@ -1,14 +1,19 @@
 [
-	{"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"},
-	{"op": "add", "path": "/scriptConfig/dialog/converse/default/neki",
-		"value": [
-			"Proud. We Rainbow Rogues may know little of you, but if you fight for the greater good, you are a friend!",
-			"Suspicious. You wouldn't happen to know much about an eye cult, would you? You're not with them, are you?",
-			"Flamboyant. Our colors depict our pride and presence to everyone; we are not afraid to be the shining symbol of justice!",
-			"Valiant. The Guild of the Rainbow Rogues protect the innocent from harm! We are a serious institution!",
-			"Friendly. I may be a Rainbow Rogue, but it doesn't mean we cannot converse!",
-			"Boastful. I am on an errand on behalf of my kin, the Rainbow Rogues!",
-			"Friendly. Well met, friend!"
-		]
-	}
+  [
+    {"op": "test", "path": "/scriptConfig/dialogMode", "value": "sequence", "inverse": true},
+    {"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"}
+  ],
+  [
+    {"op": "add", "path": "/scriptConfig/dialog/converse/default/neki",
+      "value": [
+        "Proud. We Rainbow Rogues may know little of you, but if you fight for the greater good, you are a friend!",
+        "Suspicious. You wouldn't happen to know much about an eye cult, would you? You're not with them, are you?",
+        "Flamboyant. Our colors depict our pride and presence to everyone; we are not afraid to be the shining symbol of justice!",
+        "Valiant. The Guild of the Rainbow Rogues protect the innocent from harm! We are a serious institution!",
+        "Friendly. I may be a Rainbow Rogue, but it doesn't mean we cannot converse!",
+        "Boastful. I am on an errand on behalf of my kin, the Rainbow Rogues!",
+        "Friendly. Well met, friend!"
+      ]
+    }
+  ]
 ]

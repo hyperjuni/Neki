@@ -1,9 +1,9 @@
 {
-	"input": [
-		{"item": "tungstenbar", "count": 6},
-		{"item": "cottonwool", "count": 1}
-	],
-	"duration": 0.5,
-	"output": {"item": "nekitier2head", "count": 1},
-	"groups": ["craftinganvil", "armours", "all"]
+  "input": [
+    {"item": "tungstenbar", "count": 6},
+    {"item": "cottonwool", "count": 1}
+  ],
+  "duration": 0.5,
+  "output": {"item": "nekitier2head", "count": 1},
+  "groups": ["craftinganvil", "armours", "all"]
 }

@@ -1,85 +1,85 @@
 {
-	"type": "crewmembernekimkagent",
-	"baseType": "crewmember",
+  "type": "crewmembernekimkagent",
+  "baseType": "crewmember",
 
-	"dropPools": ["nekiguardtreasure"],
+  "dropPools": ["nekiguardtreasure"],
 
-	"scriptConfig": {
-		"crew": {
-			"role": {
-				"name": "Murrauder",
-				"field": "Sniping",
-				"uniformColorIndex": 1
-			},
-			"ranks": [
-				"Second-to-Last <role>",
-				"3rd Technical Assistant <field> Officer",
-				"Trainee Apprentice <role>",
-				"Temporary Relief <role>",
-				"3rd Rear Lieutenant <role>",
-				"64th Commodore <role>",
-				"Standing <field> Officer",
-				"Sitting <field> Officer",
-				"Executive Coffee-Making <role>",
-				"Command Master Chief Petty <field> Officer",
-				"Independent <field> Auditor",
-				"Dependant <field> Auditor",
-				"Dreadnought <field> Officer",
-				"Trainee <field> Mastermind",
-				"Head of Petty <field> Arguments",
-				"Backup <role>",
-				"Reliable <field> Lackey",
-				"Unreliable <field> Lackey",
-				"Theoretical <field> Advisor",
-				"Head of <field> operations",
-				"Wild Card <role>",
-				"Head of <field> Relations",
-				"Last-Minute <role>",
-				"Expert in <field> Diplomacy",
-				"<field> Innovation Manager",
-				"Loose Cannon <role>",
-				"Regional <field> Director",
-				"Purrivate <field> Investigator",
-				"Temporal <field> Surveyor",
-				"Radical <field> Innovator",
-				"Independent Head of <field> Operations",
-				"Just your average <role>",
-				"Hobbyist <role>",
-				"Master of <field> Matters",
-				"Alternative <field> Advisory Representative",
-				"Runner-Up <field> Officer",
-				"Emergency <field> Officer",
-				"First Mate's Second-Cousin's Third <role>",
-				"Unpaid <field> Intern",
-				"<field> Student",
-				"<field> Forum Moderator",
-				"Rogue <field> Profiteer",
-				"Neutral Third Party <role>",
-				"Low Quality <field> Negotiations",
-				"Armchair <field> Expert"
-			],
-			"defaultUniform": {
-				"chest": "nekimktier6ssleeves",
-				"legs": "nekimktier6sarmor"
-			}
-		}
-	},
+  "scriptConfig": {
+    "crew": {
+      "role": {
+        "name": "Murrauder",
+        "field": "Sniping",
+        "uniformColorIndex": 1
+      },
+      "ranks": [
+        "Second-to-Last <role>",
+        "3rd Technical Assistant <field> Officer",
+        "Trainee Apprentice <role>",
+        "Temporary Relief <role>",
+        "3rd Rear Lieutenant <role>",
+        "64th Commodore <role>",
+        "Standing <field> Officer",
+        "Sitting <field> Officer",
+        "Executive Coffee-Making <role>",
+        "Command Master Chief Petty <field> Officer",
+        "Independent <field> Auditor",
+        "Dependant <field> Auditor",
+        "Dreadnought <field> Officer",
+        "Trainee <field> Mastermind",
+        "Head of Petty <field> Arguments",
+        "Backup <role>",
+        "Reliable <field> Lackey",
+        "Unreliable <field> Lackey",
+        "Theoretical <field> Advisor",
+        "Head of <field> operations",
+        "Wild Card <role>",
+        "Head of <field> Relations",
+        "Last-Minute <role>",
+        "Expert in <field> Diplomacy",
+        "<field> Innovation Manager",
+        "Loose Cannon <role>",
+        "Regional <field> Director",
+        "Purrivate <field> Investigator",
+        "Temporal <field> Surveyor",
+        "Radical <field> Innovator",
+        "Independent Head of <field> Operations",
+        "Just your average <role>",
+        "Hobbyist <role>",
+        "Master of <field> Matters",
+        "Alternative <field> Advisory Representative",
+        "Runner-Up <field> Officer",
+        "Emergency <field> Officer",
+        "First Mate's Second-Cousin's Third <role>",
+        "Unpaid <field> Intern",
+        "<field> Student",
+        "<field> Forum Moderator",
+        "Rogue <field> Profiteer",
+        "Neutral Third Party <role>",
+        "Low Quality <field> Negotiations",
+        "Armchair <field> Expert"
+      ],
+      "defaultUniform": {
+        "chest": "nekimktier6ssleeves",
+        "legs": "nekimktier6sarmor"
+      }
+    }
+  },
 
-	"movementParameters" : {"runSpeed" : 28.0},
+  "movementParameters" : {"runSpeed" : 28.0},
 
-	"items": {
-		"neki": [
-			[0,
-				[
-					{
-						"chest": [{"name": "nekimktier6ssleeves", "parameters": {"colorIndex": 0}}],
-						"legs": [{"name": "nekimktier6sarmor", "parameters": {"colorIndex": 0}}],
-						"primary": [""],
-						"alt": [""],
-						"sheathedprimary": ["nekinpcsniperrifle"]
-					}
-				]
-			]
-		]
-	}
+  "items": {
+    "neki": [
+      [0,
+        [
+          {
+            "chest": [{"name": "nekimktier6ssleeves", "parameters": {"colorIndex": 0}}],
+            "legs": [{"name": "nekimktier6sarmor", "parameters": {"colorIndex": 0}}],
+            "primary": [""],
+            "alt": [""],
+            "sheathedprimary": ["nekinpcsniperrifle"]
+          }
+        ]
+      ]
+    ]
+  }
 }

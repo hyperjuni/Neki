@@ -1,11 +1,11 @@
 {
-	"input": [
-		{"item": "upgrademodule", "count": 1},
-		{"item": "scorchedcore", "count": 1},
-		{"item": "corefragmentore", "count": 5},
-		{"item": "fireblockaugment", "count": 1}
-	],
+  "input": [
+    {"item": "upgrademodule", "count": 1},
+    {"item": "scorchedcore", "count": 1},
+    {"item": "corefragmentore", "count": 5},
+    {"item": "fireblockaugment", "count": 1}
+  ],
 
-	"output": {"item": "nekithingyfire", "count": 1},
-	"groups": ["craftingfurnace3", "ingredients", "all"]
+  "output": {"item": "nekithingyfire", "count": 1},
+  "groups": ["craftingfurnace3", "ingredients", "all"]
 }

@@ -1,22 +1,22 @@
 {
-	"id": "nekicodex385",
-	"prerequisites": ["nekicodex377"],
-	"title": "Private Log #0385",
-	"text": "Cordial. I have this ^orange;data log entry^reset; that a stranger left with me a while back. I've been trying to unlock it ever since, but now that I have more interesting things to do here - it no longer interests me and I think you should have it.",
-	"completionText": "This smells familiarr too...",
-	"rewards": [
-		[
-			["nekiprlog385-codex", 1]
-		]
-	],
+  "id": "nekicodex385",
+  "prerequisites": ["nekicodex377"],
+  "title": "Private Log #0385",
+  "text": "Cordial. I have this ^orange;data log entry^reset; that a stranger left with me a while back. I've been trying to unlock it ever since, but now that I have more interesting things to do here - it no longer interests me and I think you should have it.",
+  "completionText": "This smells familiarr too...",
+  "rewards": [
+    [
+      ["nekiprlog385-codex", 1]
+    ]
+  ],
 
-	"updateDelta": 10,
-	"script": "/quests/scripts/nekiautocomplete.lua",
-	"scriptConfig": {
-		"portraits": {
-			"questStarted": "questGiver",
-			"questComplete": "player"
-		},
-		"requireTurnIn": false
-	}
+  "updateDelta": 10,
+  "script": "/quests/scripts/nekiautocomplete.lua",
+  "scriptConfig": {
+    "portraits": {
+      "questStarted": "questGiver",
+      "questComplete": "player"
+    },
+    "requireTurnIn": false
+  }
 }

@@ -1,7 +1,7 @@
 {
-	"input": [{"item": "money", "count": 100}],
+  "input": [{"item": "money", "count": 100}],
 
-	"duration": 0.5,
-	"output": {"item": "invisiblefabriclegs", "count": 1},
-	"groups": ["nekiwheel", "legacyclothes"]
+  "duration": 0.5,
+  "output": {"item": "invisiblefabriclegs", "count": 1},
+  "groups": ["nekiwheel", "legacyclothes"]
 }

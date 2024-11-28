@@ -1,45 +1,45 @@
 {
-	"objectName": "nekicurtain3",
-	"category": "decorative",
-	"rarity": "Common",
-	"price": 70,
-	"race": "neki",
-	"tooltipKind": "nekibase",
-	"colonyTags": [
-		"neki",
-		"apexmansion",
-		"pretty"
-	],
+  "objectName": "nekicurtain3",
+  "category": "decorative",
+  "rarity": "Common",
+  "price": 70,
+  "race": "neki",
+  "tooltipKind": "nekibase",
+  "colonyTags": [
+    "neki",
+    "apexmansion",
+    "pretty"
+  ],
 
-	"shortdescription": "Neki Drape (thin)",
-	"description": "Thin hanging drapes, with a bit of a...feline touch.",
+  "shortdescription": "Neki Drape (thin)",
+  "description": "Thin hanging drapes, with a bit of a...feline touch.",
 
-	"apexDescription": "Rich, heavy curtains, ruined by a certain feline touch...",
-	"avianDescription": "Looks like something was a bit too rough with these.",
-	"floranDescription": "Sssomeone tore the fancy curtainss. I think I like them thiss way more.",
-	"glitchDescription": "Concerned. These curtains look beyond repair.",
-	"humanDescription": "These curtains probably used to belong in a mansion.",
-	"hylotlDescription": "Oh...Oh dear...",
-	"nekiDescription": "There, much better!",
-	"novakidDescription": "Looks like these curtains have seen some better days.",
+  "apexDescription": "Rich, heavy curtains, ruined by a certain feline touch...",
+  "avianDescription": "Looks like something was a bit too rough with these.",
+  "floranDescription": "Sssomeone tore the fancy curtainss. I think I like them thiss way more.",
+  "glitchDescription": "Concerned. These curtains look beyond repair.",
+  "humanDescription": "These curtains probably used to belong in a mansion.",
+  "hylotlDescription": "Oh...Oh dear...",
+  "nekiDescription": "There, much better!",
+  "novakidDescription": "Looks like these curtains have seen some better days.",
 
-	"inventoryIcon": "nekicurtain3icon.png",
+  "inventoryIcon": "nekicurtain3icon.png",
 
-	"orientations": [
-		{
-			"direction": "left",
-			"anchors": ["top"],
-			"image": "nekicurtain3.png",
-			"imagePosition": [-8, -16],
-			"flipImages": true,
-			"spaceScan": 0.1
-		},
-		{
-			"direction": "right",
-			"anchors": ["top"],
-			"image": "nekicurtain3.png",
-			"imagePosition": [-8, -16],
-			"spaceScan": 0.1
-		}
-	]
+  "orientations": [
+    {
+      "direction": "left",
+      "anchors": ["top"],
+      "image": "nekicurtain3.png",
+      "imagePosition": [-8, -16],
+      "flipImages": true,
+      "spaceScan": 0.1
+    },
+    {
+      "direction": "right",
+      "anchors": ["top"],
+      "image": "nekicurtain3.png",
+      "imagePosition": [-8, -16],
+      "spaceScan": 0.1
+    }
+  ]
 }

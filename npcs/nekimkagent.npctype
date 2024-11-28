@@ -1,77 +1,77 @@
 {
-	"type": "nekimkagent",
-	"baseType": "villageguard",
+  "type": "nekimkagent",
+  "baseType": "villageguard",
 
-	"dropPools": ["nekiguardtreasure"],
+  "dropPools": ["nekiguardtreasure"],
 
-	"scriptConfig": {
-		"behaviorConfig": {
-			"greetingChance": 0,
-			"hostileDamageTeam": {"type": "enemy", "team": 1}
-		},
-		"questGenerator": {
-			"pools": ["nekicommon"],
-			"timeLimit": 1,
-			"graduation": {
-				"nextNpcType": [
-					[0.5, "crewmembernekimkagent"],
-					[0.5, "crewmembernekimkagent2"]
-				]
-			}
-		},
-		"dialog": {
-			"converse": {
-				"default": {
-					"default": [
-						"Hey, I'm supposed to be a Neki!",
-						"Why am I.. whatever this is?!"
-					]
-				},
-				"neki": {
-					"default": [
-						"You smell.. unfamiliarr.",
-						"Purrceed.",
-						"*sniffs*",
-						"Mrr..?"
-					],
-					"apex": [
-						"I'm watching you, outsiderr.",
-						"You're not from arround here.",
-						"Mrrwhat are you doing here?",
-						"Who arre you?"
-					],
-					"neki": [
-						"When was the last time you licked yourself?",
-						"Why are you out of unifurrm?",
-						"You smell of outsiderrs.",
-						"Are you not on duty?"
-					]
-				}
-			}
-		}
-	},
+  "scriptConfig": {
+    "behaviorConfig": {
+      "greetingChance": 0,
+      "hostileDamageTeam": {"type": "enemy", "team": 1}
+    },
+    "questGenerator": {
+      "pools": ["nekicommon"],
+      "timeLimit": 1,
+      "graduation": {
+        "nextNpcType": [
+          [0.5, "crewmembernekimkagent"],
+          [0.5, "crewmembernekimkagent2"]
+        ]
+      }
+    },
+    "dialog": {
+      "converse": {
+        "default": {
+          "default": [
+            "Hey, I'm supposed to be a Neki!",
+            "Why am I.. whatever this is?!"
+          ]
+        },
+        "neki": {
+          "default": [
+            "You smell.. unfamiliarr.",
+            "Purrceed.",
+            "*sniffs*",
+            "Mrr..?"
+          ],
+          "apex": [
+            "I'm watching you, outsiderr.",
+            "You're not from arround here.",
+            "Mrrwhat are you doing here?",
+            "Who arre you?"
+          ],
+          "neki": [
+            "When was the last time you licked yourself?",
+            "Why are you out of unifurrm?",
+            "You smell of outsiderrs.",
+            "Are you not on duty?"
+          ]
+        }
+      }
+    }
+  },
 
-	"items": {
-		"neki": [
-			[0,
-				[
-					{
-						"head": [""],
-						"chest": [{"name": "nekimktier6ssleeves", "parameters": {"colorIndex": 0}}],
-						"legs": [{"name": "nekimktier6sarmor", "parameters": {"colorIndex": 0}}],
-						"primary": ["npcdagger"],
-						"alt": [""],
-						"sheathedprimary": ["nekinpcsniperrifle"]
-					}
-				]
-			]
-		]
-	},
+  "items": {
+    "neki": [
+      [0,
+        [
+          {
+            "head": [""],
+            "chest": [{"name": "nekimktier6ssleeves", "parameters": {"colorIndex": 0}}],
+            "legs": [{"name": "nekimktier6sarmor", "parameters": {"colorIndex": 0}}],
+            "primary": ["npcdagger"],
+            "alt": [""],
+            "sheathedprimary": ["nekinpcsniperrifle"]
+          }
+        ]
+      ]
+    ]
+  },
 
-	"statusControllerSettings": {
-		"stats": {
-			"powerMultiplier": {"baseValue": 0.8},
-			"protection": {"baseValue": 1.5}
-		}
-	}
+  "statusControllerSettings": {
+    "stats": {
+      "powerMultiplier": {"baseValue": 0.8},
+      "protection": {"baseValue": 1.5}
+    }
+  }
 }

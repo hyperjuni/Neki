@@ -1,10 +1,10 @@
 {
-	"name": "nekihidebasicbath",
-	"defaultDuration": 10,
-	"effectConfig": {
-		"nekihideMask": "/stats/effects/nekihide/nekihidebasicbath/nekihidebasicbath.png",
-		"nekiOnly": true
-	},
+  "name": "nekihidebasicbath",
+  "defaultDuration": 10,
+  "effectConfig": {
+    "nekihideMask": "/stats/effects/nekihide/nekihidebasicbath/nekihidebasicbath.png",
+    "nekiOnly": true
+  },
 
-	"scripts": ["/stats/effects/nekihide/nekihide.lua"]
+  "scripts": ["/stats/effects/nekihide/nekihide.lua"]
 }

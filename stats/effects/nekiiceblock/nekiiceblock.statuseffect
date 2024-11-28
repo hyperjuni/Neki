@@ -1,9 +1,9 @@
 {
-	"name": "nekiiceblock",
-	"defaultDuration": 60,
-	"effectConfig": {},
+  "name": "nekiiceblock",
+  "defaultDuration": 60,
+  "effectConfig": {},
 
-	"icon": "/interface/statuses/nekiiceblock.png",
-	"label": "Claws Ice Resistance",
-	"scripts": ["/stats/effects/iceblock/iceblock.lua"]
+  "icon": "/interface/statuses/nekiiceblock.png",
+  "label": "Claws Ice Resistance",
+  "scripts": ["/stats/effects/iceblock/iceblock.lua"]
 }

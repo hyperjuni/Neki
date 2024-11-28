@@ -1,18 +1,18 @@
 {
-	"id": "nekimklog121",
-	"species": "neki",
-	"title": "Log 3489.#0121",
-	"description": "A classified scientific research log of the Miniknog.",
-	"icon": "nekimemorycardblack.png",
-	"contentPages": [
+  "id": "nekimklog121",
+  "species": "neki",
+  "title": "Log 3489.#0121",
+  "description": "A classified scientific research log of the Miniknog.",
+  "icon": "nekimemorycardblack.png",
+  "contentPages": [
 "Progressively increasing the share of foreign genetic sequences in newly synthesized specimen seems to be having a profound effect on their demeanor. The new subjects appear to exhibit exceptional levels of curiosity and liveliness; an unwavering impetus to explore, play with and taste anything and anyone in their path.
 
 Their behavior, however, seems highly unpredictable, often manifesting in sudden outbreaks of intense rapture, anguish or affection over seemingly innocuous circumstances.  ^cyan;>>^reset;",
 
 "Multiple members of the research team appear to find said traits 'endearing'; some seem increasingly ignorant to the importance of keeping judgement untainted by emotion, despite knowing full well what the punishment is for failing to do so."
-	],
-	"itemConfig": {
-		"rarity": "uncommon",
-		"price": 25
-	}
+  ],
+  "itemConfig": {
+    "rarity": "uncommon",
+    "price": 25
+  }
 }

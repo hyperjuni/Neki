@@ -1,61 +1,61 @@
 {
-	"objectName": "flagneki",
-	"objectType": "teleporter",
-	"category": "teleportMarker",
-	"rarity": "Common",
-	"price": 70,
-	"race": "neki",
-	"printable": false,
-	"tooltipKind": "nekibase",
-	"colonyTags": ["neki"],
+  "objectName": "flagneki",
+  "objectType": "teleporter",
+  "category": "teleportMarker",
+  "rarity": "Common",
+  "price": 70,
+  "race": "neki",
+  "printable": false,
+  "tooltipKind": "nekibase",
+  "colonyTags": ["neki"],
 
-	"radioMessagesOnPickup": ["pickupflagneki"],
-	"interactAction": "OpenTeleportDialog",
-	"interactData": "/interface/warping/destinationonly.config",
-	
-	"shortdescription": "Neki Flag",
-	"description": "That's.. one way to mark your territory.",
+  "radioMessagesOnPickup": ["pickupflagneki"],
+  "interactAction": "OpenTeleportDialog",
+  "interactData": "/interface/warping/destinationonly.config",
+  
+  "shortdescription": "Neki Flag",
+  "description": "That's.. one way to mark your territory.",
 
-	"apexDescription" : "Interesting... I guess this makes sense on an animal level.",
-	"avianDescription": "Looks like a good use for underwear... Mine feel awful on the feathers!",
-	"floranDescription": "Flag hasss Nekismell, makes Floran happy!",
-	"glitchDescription": "Amused. Somebody somewhere is running around bottomless.",
-	"humanDescription": "That's one way to mark your turf, I suppose.",
-	"hylotlDescription": "What indecent creature would purposefully display their undergarment this way?",
-	"nekiDescription": "A thingy that smells like its owner, on a stick!",
-	"novakidDescription": "Ain't this jus' the sweetest darn panty!",
+  "apexDescription" : "Interesting... I guess this makes sense on an animal level.",
+  "avianDescription": "Looks like a good use for underwear... Mine feel awful on the feathers!",
+  "floranDescription": "Flag hasss Nekismell, makes Floran happy!",
+  "glitchDescription": "Amused. Somebody somewhere is running around bottomless.",
+  "humanDescription": "That's one way to mark your turf, I suppose.",
+  "hylotlDescription": "What indecent creature would purposefully display their undergarment this way?",
+  "nekiDescription": "A thingy that smells like its owner, on a stick!",
+  "novakidDescription": "Ain't this jus' the sweetest darn panty!",
 
-	"inventoryIcon": "flagnekiicon.png",
+  "inventoryIcon": "flagnekiicon.png",
 
-	"orientations": [
-		{
-			"direction": "left",
-			"anchors": ["bottom"],
-			"image": "flagneki.png:<color>.<frame>",
-			"imagePosition": [8, 0],
-			"spaces" : [
-				[2, 0], [3, 0],
-				[2, 1], [3, 1],
-				[1, 2], [2, 2], [3, 2],
-				[1, 3], [2, 3], [3, 3]
-			],
-			"animationCycle": 0.9,
-			"frames": 7
-		},
-		{
-			"direction": "right",
-			"anchors": ["bottom"],
-			"image": "flagneki.png:<color>.<frame>",
-			"imagePosition": [0, 0],
-			"flipImages": true,
-			"spaces" : [
-				[0, 0], [1, 0],
-				[0, 1], [1, 1],
-				[0, 2], [1, 2], [2, 2],
-				[0, 3], [1, 3], [2, 3]
-			],
-			"animationCycle": 0.9,
-			"frames": 7
-		}
-	]
+  "orientations": [
+    {
+      "direction": "left",
+      "anchors": ["bottom"],
+      "image": "flagneki.png:<color>.<frame>",
+      "imagePosition": [8, 0],
+      "spaces" : [
+        [2, 0], [3, 0],
+        [2, 1], [3, 1],
+        [1, 2], [2, 2], [3, 2],
+        [1, 3], [2, 3], [3, 3]
+      ],
+      "animationCycle": 0.9,
+      "frames": 7
+    },
+    {
+      "direction": "right",
+      "anchors": ["bottom"],
+      "image": "flagneki.png:<color>.<frame>",
+      "imagePosition": [0, 0],
+      "flipImages": true,
+      "spaces" : [
+        [0, 0], [1, 0],
+        [0, 1], [1, 1],
+        [0, 2], [1, 2], [2, 2],
+        [0, 3], [1, 3], [2, 3]
+      ],
+      "animationCycle": 0.9,
+      "frames": 7
+    }
+  ]
 }

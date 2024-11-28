@@ -1,14 +1,19 @@
 [
-	{"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"},
-	{"op": "add", "path": "/scriptConfig/dialog/converse/apex/neki",
-		"value": [
-			"Oh my!",
-			"I am so glad to see one of you alive and well!",
-			"After all the things you must've gone through in those labs...",
-			"It makes me incredibly happy to see a Neki out and about, living their life.",
-			"I feel terrible for the way my colleagues were treating your kind.",
-			"I truly hope you will find it in you to forgive us one day...",
-			"Go now, Neki! Go live an amazing life full of discovery!"
-		]
-	}
+  [
+    {"op": "test", "path": "/scriptConfig/dialogMode", "value": "sequence", "inverse": true},
+    {"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"}
+  ],
+  [
+    {"op": "add", "path": "/scriptConfig/dialog/converse/apex/neki",
+      "value": [
+        "Oh my!",
+        "I am so glad to see one of you alive and well!",
+        "After all the things you must've gone through in those labs...",
+        "It makes me incredibly happy to see a Neki out and about, living their life.",
+        "I feel terrible for the way my colleagues were treating your kind.",
+        "I truly hope you will find it in you to forgive us one day...",
+        "Go now, Neki! Go live an amazing life full of discovery!"
+      ]
+    }
+  ]
 ]

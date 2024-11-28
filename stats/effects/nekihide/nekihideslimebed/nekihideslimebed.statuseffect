@@ -1,10 +1,10 @@
 {
-	"name": "nekihideslimebed",
-	"defaultDuration": 10,
-	"effectConfig": {
-		"nekihideMask": "/stats/effects/nekihide/nekihideslimebed/nekihideslimebed.png",
-		"nekiOnly": true
-	},
+  "name": "nekihideslimebed",
+  "defaultDuration": 10,
+  "effectConfig": {
+    "nekihideMask": "/stats/effects/nekihide/nekihideslimebed/nekihideslimebed.png",
+    "nekiOnly": true
+  },
 
-	"scripts": ["/stats/effects/nekihide/nekihide.lua"]
+  "scripts": ["/stats/effects/nekihide/nekihide.lua"]
 }

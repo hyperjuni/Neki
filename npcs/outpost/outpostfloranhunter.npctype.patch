@@ -1,10 +1,15 @@
 [
-	{"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"},
-	{"op": "add", "path": "/scriptConfig/dialog/converse/floran/neki",
-		"value": [
-			"Finally a ssstrong hunter!",
-			"Floran is glad to sssee Neki, it hasss been a while.",
-			"Does Neki underssstand the glory of the hunt?"
-		]
-	}
+  [
+    {"op": "test", "path": "/scriptConfig/dialogMode", "value": "sequence", "inverse": true},
+    {"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"}
+  ],
+  [
+    {"op": "add", "path": "/scriptConfig/dialog/converse/floran/neki",
+      "value": [
+        "Finally a ssstrong hunter!",
+        "Floran is glad to sssee Neki, it hasss been a while.",
+        "Does Neki underssstand the glory of the hunt?"
+      ]
+    }
+  ]
 ]

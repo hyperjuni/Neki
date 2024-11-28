@@ -1,12 +1,12 @@
 {
-	"projectileName": "nekidrip",
-	"physics": "rain",
-	"image": "nekidrip.png",
-	"animationCycle": 0.5,
-	"frameNumber": 2,
-	"actionOnReap": [],
+  "projectileName": "nekidrip",
+  "physics": "rain",
+  "image": "nekidrip.png",
+  "animationCycle": 0.5,
+  "frameNumber": 2,
+  "actionOnReap": [],
 
-	"onlyHitTerrain": true,
-	"hydrophobic": true,
-	"masterOnly": true
+  "onlyHitTerrain": true,
+  "hydrophobic": true,
+  "masterOnly": true
 }

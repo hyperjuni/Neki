@@ -1,3 +1,3 @@
 function init()
-	animator.playSound("nekipodgetin", 0)
+  animator.playSound("nekipodgetin", 0)
 end

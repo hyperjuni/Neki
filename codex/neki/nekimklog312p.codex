@@ -1,19 +1,19 @@
 {
-	"id": "nekimklog312p",
-	"species": "neki",
-	"title": "Log 3497.#0312; Personal",
-	"description": "A private log entry by a Miniknog genetic research scientist.",
-	"icon": "nekimemorycardblue.png",
-	"contentPages": [
+  "id": "nekimklog312p",
+  "species": "neki",
+  "title": "Log 3497.#0312; Personal",
+  "description": "A private log entry by a Miniknog genetic research scientist.",
+  "icon": "nekimemorycardblue.png",
+  "contentPages": [
 "These two are not like the rest.
 Whether due to a random mutation or some other factors, these twins are displaying abilities far outside the scope of what we've come to expect from our subjects thus far.
 
 I can't help but draw a correlation with the multiple defections we've had among members of the research team recently; who knows what may have already been introduced into their genome by the rebel faction.
 
 I hope their intentions are pure..."
-	],
-	"itemConfig": {
-		"rarity": "uncommon",
-		"price": 25
-	}
+  ],
+  "itemConfig": {
+    "rarity": "uncommon",
+    "price": 25
+  }
 }

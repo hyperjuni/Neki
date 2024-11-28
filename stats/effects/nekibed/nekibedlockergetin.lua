@@ -1,3 +1,3 @@
 function init()
-	animator.playSound("nekibedlockergetin", 0)
+  animator.playSound("nekibedlockergetin", 0)
 end

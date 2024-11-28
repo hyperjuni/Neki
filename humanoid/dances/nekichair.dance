@@ -1,0 +1,11 @@
+{
+  "name": "nekichair",
+  "states": ["idle","sit","walk"],
+  "cycle": 0.25,
+  "cyclic": true,
+  "duration": 2.0,
+  "steps": [
+    // body, frontArm, backArm, headOffset, frontArmOffset, backArmOffset
+    [null, "jump.1", "idle.5", [0, 0], [1, -2], [-2, 1]]
+  ]
+}

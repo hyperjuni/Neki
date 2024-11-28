@@ -1,26 +1,26 @@
 {
-	"projectileName": "nekipouncestun",
-	"image": "/projectiles/invisibleprojectile/invisibleprojectile.png",
-	"animationLoops": false,
-	"animationCycle": 0.28,
-	"frameNumber": 1,
-	"speed": 35,
+  "projectileName": "nekipouncestun",
+  "image": "/projectiles/invisibleprojectile/invisibleprojectile.png",
+  "animationLoops": false,
+  "animationCycle": 0.28,
+  "frameNumber": 1,
+  "speed": 35,
 
-	"damagePoly": [
-		[0, -30],
-		[10, -30],
-		[16, -6],
-		[10, 18],
-		[0, 18]
-	],
+  "damagePoly": [
+    [0, -30],
+    [10, -30],
+    [16, -6],
+    [10, 18],
+    [0, 18]
+  ],
 
-	"damageTeam": {"type": "friendly"},
-	"statusEffects": ["nekistun"],
-	"damageKind": "slash",
-	"flippable": true,
-	"piercing": true,
-	"power": 0,
-	
-	"knockbackDirectional": true,
-	"knockback": 15
+  "damageTeam": {"type": "friendly"},
+  "statusEffects": ["nekistun"],
+  "damageKind": "slash",
+  "flippable": true,
+  "piercing": true,
+  "power": 0,
+  
+  "knockbackDirectional": true,
+  "knockback": 15
 }

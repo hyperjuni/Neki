@@ -1,10 +1,10 @@
 [
-	[
-		{"op":"test","path":"/sitStatusEffects","inverse":true},
-		{"op":"add","path":"/sitStatusEffects","value":[]}
-	],
-	[
-		{"op":"add","path":"/nekiDescription","value":"This bed has teeth to purrtec me while I sleeps!"},
-		{"op":"add","path":"/sitStatusEffects/-","value":"nekihidebedcover"}
-	]
+  [
+    {"op":"test","path":"/sitStatusEffects","inverse":true},
+    {"op":"add","path":"/sitStatusEffects","value":[]}
+  ],
+  [
+    {"op":"add","path":"/nekiDescription","value":"This bed has teeth to purrtec me while I sleeps!"},
+    {"op":"add","path":"/sitStatusEffects/-","value":"nekihidebedcover"}
+  ]
 ]

@@ -1,13 +1,13 @@
 {
-	"itemName": "nekishipT10",
-	"rarity": "Essential",
-	"category": "Upgrade Component",
-	"inventoryIcon": "nekiupgradeT10.png",
-	"image": "nekiupgradeT10.png",
-	"tooltipKind": "nekibase",
+  "itemName": "nekishipT10",
+  "rarity": "Essential",
+  "category": "Upgrade Component",
+  "inventoryIcon": "nekiupgradeT10.png",
+  "image": "nekiupgradeT10.png",
+  "tooltipKind": "nekibase",
 
-	"shortdescription": "Tier 10 ship upgrade",
-	"description": "This item allows you to upgrade your ship to Tier 10.",
+  "shortdescription": "Tier 10 ship upgrade",
+  "description": "This item allows you to upgrade your ship to Tier 10.",
 
-	"shipUpgrade": 10
+  "shipUpgrade": 10
 }

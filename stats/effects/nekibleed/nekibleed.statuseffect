@@ -1,34 +1,34 @@
 {
-	"name": "nekibleed",
-	"defaultDuration": 8,
-	"effectConfig": {
-		"ignoreMaterials": ["wooden", "stone"],
-		"materialEffects": {
-			"organic": [
-				{
-					"action": "liquid",
-					"liquid": "slimeliquid",
-					"quantity": 0.3
-				},
-				{
-					"action": "applySurfaceMod",
-					"previousMod": "tilleddry",
-					"newMod": "tilled",
-					"radius": 5
-				}
-			],
-			"robotic": [
-				{
-					"action": "liquid",
-					"liquid": "tarliquid",
-					"quantity": 0.3
-				}
-			]
-		}
-	},
+  "name": "nekibleed",
+  "defaultDuration": 8,
+  "effectConfig": {
+    "ignoreMaterials": ["wooden", "stone"],
+    "materialEffects": {
+      "organic": [
+        {
+          "action": "liquid",
+          "liquid": "slimeliquid",
+          "quantity": 0.3
+        },
+        {
+          "action": "applySurfaceMod",
+          "previousMod": "tilleddry",
+          "newMod": "tilled",
+          "radius": 5
+        }
+      ],
+      "robotic": [
+        {
+          "action": "liquid",
+          "liquid": "tarliquid",
+          "quantity": 0.3
+        }
+      ]
+    }
+  },
 
-	"icon": "/interface/statuses/absorb.png",
-	"label": "Bleeding",
-	"scripts": ["nekibleed.lua"],
-	"animationConfig": "nekibleed.animation"
+  "icon": "/interface/statuses/absorb.png",
+  "label": "Bleeding",
+  "scripts": ["nekibleed.lua"],
+  "animationConfig": "nekibleed.animation"
 }

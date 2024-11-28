@@ -1,13 +1,13 @@
 {
-	"input": [
-		{"item": "nekiclaws1", "count": 1},
-		{"item": "climbingrope", "count": 5},
-		{"item": "leather", "count": 1},
-		{"item": "bandage", "count": 1},
-		{"item": "salve", "count": 1}
-	],
+  "input": [
+    {"item": "nekiclaws1", "count": 1},
+    {"item": "climbingrope", "count": 5},
+    {"item": "leather", "count": 1},
+    {"item": "bandage", "count": 1},
+    {"item": "salve", "count": 1}
+  ],
 
-	"duration": 0.5,
-	"output": {"item": "nekiclaws2", "count": 1},
-	"groups": ["plain", "weapons", "all"]
+  "duration": 0.5,
+  "output": {"item": "nekiclaws2", "count": 1},
+  "groups": ["plain", "weapons", "all"]
 }

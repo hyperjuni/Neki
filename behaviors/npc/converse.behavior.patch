@@ -1,4 +1,5 @@
 [
-	{"op": "test", "path": "/scripts"},
-	{"op": "add", "path": "/scripts/6", "value": "/scripts/neki/nekiconverse.lua"}
+// The script gets added to position 6 for compatibility with SBR
+  {"op": "test", "path": "/scripts"},
+  {"op": "add", "path": "/scripts/6", "value": "/scripts/neki/nekiconverse.lua"}
 ]

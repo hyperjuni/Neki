@@ -1,1 +1,3 @@
-[{"op": "add","path": "/tenants/0/species/-","value": "neki"}]
+[
+  {"op": "add","path": "/tenants/0/species/-","value": "neki"}
+]

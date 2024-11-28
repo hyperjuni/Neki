@@ -1,47 +1,47 @@
 {
-	"objectName": "nekipillowbrown",
-	"objectType": "loungeable",
-	"category": "furniture",
-	"rarity": "Common",
-	"price": 50,
-	"race": "neki",
-	"printable": false,
-	"tooltipKind": "nekibase",
-	"colonyTags": ["neki"],
+  "objectName": "nekipillowbrown",
+  "objectType": "loungeable",
+  "category": "furniture",
+  "rarity": "Common",
+  "price": 50,
+  "race": "neki",
+  "printable": false,
+  "tooltipKind": "nekibase",
+  "colonyTags": ["neki"],
 
-	"shortdescription": "Neki Pillow - Brown",
-	"description": "A dark brown furry pillow, wrapped in an animal's hide.",
+  "shortdescription": "Neki Pillow - Brown",
+  "description": "A dark brown furry pillow, wrapped in an animal's hide.",
 
-	"apexDescription": "A pillow wrapped in a thick, soft pelt.",
-	"avianDescription": "I suppose this is a better use for pelts than wall decorations.",
-	"floranDescription": "Floran approvesss of pillow made from ssspoils of the hunt.",
-	"glitchDescription": "Unnerved: Is it considered stylish to cover furniture in the skin of animals?",
-	"humanDescription": "Pretty sure my grandfather had one that looked just like that.",
-	"hylotlDescription": "A gruesome display of the needless slaughter of innocent creatures. Absolutely revolting.",
-	"nekiDescription": "I bet the original creature looked just like that.",
-	"novakidDescription": "Fur burns really well.",
+  "apexDescription": "A pillow wrapped in a thick, soft pelt.",
+  "avianDescription": "I suppose this is a better use for pelts than wall decorations.",
+  "floranDescription": "Floran approvesss of pillow made from ssspoils of the hunt.",
+  "glitchDescription": "Unnerved: Is it considered stylish to cover furniture in the skin of animals?",
+  "humanDescription": "Pretty sure my grandfather had one that looked just like that.",
+  "hylotlDescription": "A gruesome display of the needless slaughter of innocent creatures. Absolutely revolting.",
+  "nekiDescription": "I bet the original creature looked just like that.",
+  "novakidDescription": "Fur burns really well.",
 
-	"inventoryIcon": "nekipillowbrownicon.png",
+  "inventoryIcon": "nekipillowbrownicon.png",
 
-	"orientations": [
-		{
-			"direction": "left",
-			"anchors": ["bottom"],
-			"image": "nekipillowbrown.png",
-			"imagePosition": [0, 0],
-			"flipImages": true,
-			"sitPosition": [-14.5, 23]
-		},
-		{
-			"direction": "right",
-			"anchors": ["bottom"],
-			"image": "nekipillowbrown.png",
-			"imagePosition": [0, 0],
-			"spaceScan": 0.1,
-			"sitPosition": [13.5, 23]
-		}
-	],
+  "orientations": [
+    {
+      "direction": "left",
+      "anchors": ["bottom"],
+      "image": "nekipillowbrown.png",
+      "imagePosition": [0, 0],
+      "flipImages": true,
+      "sitPosition": [-14.5, 23]
+    },
+    {
+      "direction": "right",
+      "anchors": ["bottom"],
+      "image": "nekipillowbrown.png",
+      "imagePosition": [0, 0],
+      "spaceScan": 0.1,
+      "sitPosition": [13.5, 23]
+    }
+  ],
 
-	"sitCoverImage": "/objects/neki/nekipillowbrown/nekipillowbrowncover.png",
-	"sitStatusEffects": ["nekipoof"]
+  "sitCoverImage": "/objects/neki/nekipillowbrown/nekipillowbrowncover.png",
+  "sitStatusEffects": ["nekipoof"]
 }

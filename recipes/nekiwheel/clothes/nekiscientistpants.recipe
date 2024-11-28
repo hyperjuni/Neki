@@ -1,7 +1,7 @@
 {
-	"input": [
-		{"item": "scientistlegs", "count": 1}
-	],
-	"output": {"item": "nekiscientistcoat", "count": 1},
-	"groups": ["nekiwheel", "clothes"]
+  "input": [
+    {"item": "scientistlegs", "count": 1}
+  ],
+  "output": {"item": "nekiscientistcoat", "count": 1},
+  "groups": ["nekiwheel", "clothes"]
 }

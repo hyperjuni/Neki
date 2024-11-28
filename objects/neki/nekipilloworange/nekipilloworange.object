@@ -1,47 +1,47 @@
 {
-	"objectName": "nekipilloworange",
-	"objectType": "loungeable",
-	"category": "furniture",
-	"rarity": "Common",
-	"price": 50,
-	"race": "neki",
-	"printable": false,
-	"tooltipKind": "nekibase",
-	"colonyTags": ["neki"],
+  "objectName": "nekipilloworange",
+  "objectType": "loungeable",
+  "category": "furniture",
+  "rarity": "Common",
+  "price": 50,
+  "race": "neki",
+  "printable": false,
+  "tooltipKind": "nekibase",
+  "colonyTags": ["neki"],
 
-	"shortdescription": "Neki Pillow - Orange",
-	"description": "A dull orange pillow wrapped in a crude curtain.",
+  "shortdescription": "Neki Pillow - Orange",
+  "description": "A dull orange pillow wrapped in a crude curtain.",
 
-	"apexDescription": "Is this one of our standard-issue curtains? That is hilarious!",
-	"avianDescription": "I think I know what this is made of, but that's hardly an improvement.",
-	"floranDescription": "Floran butt become shiny from ssitting on thisss!",
-	"glitchDescription": "Unimpressed. The fabric on this pillow looks primitive even by my standards.",
-	"humanDescription": "A crappy-looking pillow.",
-	"hylotlDescription": "This pillow's texture feels rough and the colors are rather dull.",
-	"nekiDescription": "I like that pillow. That is a nice pillow!",
-	"novakidDescription": "I ain't the least impressed by this thing.",
+  "apexDescription": "Is this one of our standard-issue curtains? That is hilarious!",
+  "avianDescription": "I think I know what this is made of, but that's hardly an improvement.",
+  "floranDescription": "Floran butt become shiny from ssitting on thisss!",
+  "glitchDescription": "Unimpressed. The fabric on this pillow looks primitive even by my standards.",
+  "humanDescription": "A crappy-looking pillow.",
+  "hylotlDescription": "This pillow's texture feels rough and the colors are rather dull.",
+  "nekiDescription": "I like that pillow. That is a nice pillow!",
+  "novakidDescription": "I ain't the least impressed by this thing.",
 
-	"inventoryIcon": "nekipilloworangeicon.png",
+  "inventoryIcon": "nekipilloworangeicon.png",
 
-	"orientations": [
-		{
-			"direction": "left",
-			"anchors": ["bottom"],
-			"image": "nekipilloworange.png",
-			"imagePosition": [0, 0],
-			"flipImages": true,
-			"sitPosition": [-14.5, 23]
-		},
-		{
-			"direction": "right",
-			"anchors": ["bottom"],
-			"image": "nekipilloworange.png",
-			"imagePosition": [0, 0],
-			"spaceScan": 0.1,
-			"sitPosition": [13.5, 23]
-		}
-	],
+  "orientations": [
+    {
+      "direction": "left",
+      "anchors": ["bottom"],
+      "image": "nekipilloworange.png",
+      "imagePosition": [0, 0],
+      "flipImages": true,
+      "sitPosition": [-14.5, 23]
+    },
+    {
+      "direction": "right",
+      "anchors": ["bottom"],
+      "image": "nekipilloworange.png",
+      "imagePosition": [0, 0],
+      "spaceScan": 0.1,
+      "sitPosition": [13.5, 23]
+    }
+  ],
 
-	"sitCoverImage": "/objects/neki/nekipilloworange/nekipilloworangecover.png",
-	"sitStatusEffects": ["nekipoof"]
+  "sitCoverImage": "/objects/neki/nekipilloworange/nekipilloworangecover.png",
+  "sitStatusEffects": ["nekipoof"]
 }

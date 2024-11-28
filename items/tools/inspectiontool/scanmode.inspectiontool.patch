@@ -1,21 +1,21 @@
 [
-	{"op": "add", "path": "/outOfRangeText/neki",
-		"value": [
-			"There's purrobably something over there!",
-			"I can't see that from here, but I MUST!",
-			"I need to get closer and explore.",
-			"Is this scanner thingy even working?"
-		]
-	},
+  {"op": "add", "path": "/outOfRangeText/neki",
+    "value": [
+      "There's purrobably something over there!",
+      "I can't see that from here, but I MUST!",
+      "I need to get closer and explore.",
+      "Is this scanner thingy even working?"
+    ]
+  },
 
-	{"op": "add", "path": "/nothingThereText/neki",
-		"value": [
-			"Doesn't smell purrticularly interesting.",
-			"Purrhaps I should explore another place.",
-			"Nope, it's not over there.",
-			"Nothing tasty over there.",
-			"That's just boring stuff.",
-			"Doesn't look impurrtant."
-		]
-	}
+  {"op": "add", "path": "/nothingThereText/neki",
+    "value": [
+      "Doesn't smell purrticularly interesting.",
+      "Purrhaps I should explore another place.",
+      "Nope, it's not over there.",
+      "Nothing tasty over there.",
+      "That's just boring stuff.",
+      "Doesn't look impurrtant."
+    ]
+  }
 ]

@@ -1,9 +1,9 @@
 [
-	{"op": "add",	"path": "/species/neki",
-		"value": {
-			"aiFrames": "nekiAi.png",
-			"portraitFrames": "portraits/nekiportrait.png",
-			"staticFrames": "staticNeki.png"
-		}
-	}
+  {"op": "add",  "path": "/species/neki",
+    "value": {
+      "aiFrames": "nekiAi.png",
+      "portraitFrames": "portraits/nekiportrait.png",
+      "staticFrames": "staticNeki.png"
+    }
+  }
 ]

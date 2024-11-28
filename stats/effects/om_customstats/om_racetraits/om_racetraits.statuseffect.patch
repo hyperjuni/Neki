@@ -1,33 +1,33 @@
 [
-	{"op": "add",	"path": "/effectConfig/0/neki",
-		"value": {
-			"stats": [
-				{"stat": "maxHealth",	"effectiveMultiplier": 0.75},
-				{"stat": "maxEnergy",	"effectiveMultiplier": 1.5},
-				{"stat": "energyRegenPercentageRate",	"effectiveMultiplier": 1.25},
-				{"stat": "powerMultiplier",	"effectiveMultiplier": 0.85},
-				{"stat": "protection",	"effectiveMultiplier": 1},
-				{"stat": "fireResistance",	"amount": -0.15},
-				{"stat": "fireStatusImmunity",	"amount": 0},
-				{"stat": "electricResistance",	"amount": 0},
-				{"stat": "electricStatusImmunity",	"amount": 0},
-				{"stat": "poisonResistance",	"amount": 0.1},
-				{"stat": "poisonStatusImmunity",	"amount": 0},
-				{"stat": "iceResistance",	"amount": 0.15},
-				{"stat": "iceStatusImmunity",	"amount": 1},
-				{"stat": "physicalResistance",	"amount": -0.15},
-				{"stat": "om_slowImmunity",	"amount": 1},
-				{"stat": "foodDelta",	"effectiveMultiplier": 1.5},
-				{"stat": "fallDamageMultiplier",	"effectiveMultiplier": 0.6}
-			],
-			"benefits": [
-				"om_rtswimboost",
-				"om_rtregeneration2"
-			],
-			"controlModifiers": {
-				"speedModifier": 1.18,
-				"airJumpModifier": 1.3
-			}
-		}
-	}
+  {"op": "add",  "path": "/effectConfig/0/neki",
+    "value": {
+      "stats": [
+        {"stat": "maxHealth", "effectiveMultiplier": 0.75},
+        {"stat": "maxEnergy", "effectiveMultiplier": 1.5},
+        {"stat": "energyRegenPercentageRate", "effectiveMultiplier": 1.25},
+        {"stat": "powerMultiplier", "effectiveMultiplier": 0.85},
+        {"stat": "protection", "effectiveMultiplier": 1},
+        {"stat": "fireResistance", "amount": -0.15},
+        {"stat": "fireStatusImmunity", "amount": 0},
+        {"stat": "electricResistance", "amount": 0},
+        {"stat": "electricStatusImmunity", "amount": 0},
+        {"stat": "poisonResistance", "amount": 0.1},
+        {"stat": "poisonStatusImmunity", "amount": 0},
+        {"stat": "iceResistance", "amount": 0.15},
+        {"stat": "iceStatusImmunity", "amount": 1},
+        {"stat": "physicalResistance", "amount": -0.15},
+        {"stat": "om_slowImmunity", "amount": 1},
+        {"stat": "foodDelta", "effectiveMultiplier": 1.5},
+        {"stat": "fallDamageMultiplier", "effectiveMultiplier": 0.6}
+      ],
+      "benefits": [
+        "om_rtswimboost",
+        "om_rtregeneration2"
+      ],
+      "controlModifiers": {
+        "speedModifier": 1.18,
+        "airJumpModifier": 1.3
+      }
+    }
+  }
 ]

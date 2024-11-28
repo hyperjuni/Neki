@@ -1,9 +1,9 @@
 {
-	"name": "nekipodregeneration",
-	"defaultDuration": 5,
-	"effectConfig": {},
+  "name": "nekipodregeneration",
+  "defaultDuration": 5,
+  "effectConfig": {},
 
-	"icon": "/interface/statuses/nekipodheal.png",
-	"label": "Neki Pod Regeneration",
-	"scripts": ["nekipodexit.lua"]
+  "icon": "/interface/statuses/nekipodheal.png",
+  "label": "Neki Pod Regeneration",
+  "scripts": ["nekipodexit.lua"]
 }
