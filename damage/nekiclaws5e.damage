@@ -1,5 +1,6 @@
 {
   "kind": "nekibowclaws5e",
+  "elementalType": "electric",
   "effects": {
     "organic": {
       "hit": {

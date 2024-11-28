@@ -1,5 +1,6 @@
 {
   "kind": "nekibowclaws5i",
+  "elementalType": "ice",
   "effects": {
     "organic": {
       "hit": {
