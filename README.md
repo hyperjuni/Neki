@@ -20,6 +20,7 @@ How you ended up at the Terrene Protectorate Аcademy, is yet unclear.
 
 * Here's the [Steam version](https://steamcommunity.com/workshop/filedetails/?id=2611501999)
 * Here's the [Non-Steam version](https://community.playstarbound.com/resources/neki.6147)
+* Here's the [Frackin' Universe Patch](https://github.com/hyperjuni/NekiFU)
 * Come chat with us at the [Neki Discord](https://discord.gg/R6tfkazYgb)
 * If you'd like to support me and this project, consider checking out my [Boosty](https://boosty.to/hyperjuni/donate)
 
