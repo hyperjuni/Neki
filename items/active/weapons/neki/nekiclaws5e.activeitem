@@ -69,7 +69,7 @@
     "nekiWeaponEffect": "nekielectricblock",
 
     "fireTime": 0.3,
-    "baseDps": 20.0,
+    "baseDps": 10.0,
     "damageConfig": {
       "damageSourceKind": "nekibowclaws5e",
       "statusEffects": ["electrified"],

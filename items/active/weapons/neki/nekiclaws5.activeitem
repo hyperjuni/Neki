@@ -49,7 +49,7 @@
     "class": "Punch",
 
     "fireTime": 0.3,
-    "baseDps": 18.0,
+    "baseDps": 10.0,
     "damageConfig": {
       "damageSourceKind": "nekibowclaws5",
       "statusEffects": ["nekibleed"],
