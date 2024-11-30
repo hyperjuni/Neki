@@ -24,7 +24,12 @@
           "transformationGroups": ["weapon"],
           "rotationCenter": [-1, 0],
           "centered": true,
-          "image": "<partImage>:<hand>"
+          "image": "<partImage>:<hand>",
+
+          "digTip": [2.0, 0.5],
+          "digSource1": [-1.0, 1.5],
+          "digSource2": [-1.0, 1.0],
+          "digSource3": [-1.0, -1.5]
         }
       },
       "swoosh": {

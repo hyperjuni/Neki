@@ -12,7 +12,7 @@
   "itemTags": ["weapon", "melee"],
 
   "inventoryIcon": "/items/active/weapons/neki/icon/nekiclaws5digicon.png:front",
-  "animation": "nekiclaws5dig.animation",
+  "animation": "nekiclaws5.animation",
   "animationParts": {"weapon": "/items/active/weapons/neki/claw/nekiclaws5dig.png"},
 
   "animationCustom": {
