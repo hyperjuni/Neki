@@ -1,0 +1,132 @@
+{
+  "animatedParts": {
+    "stateTypes": {
+      "attack": {
+        "default": "idle",
+        "states": {
+          "idle": { 
+            "properties": {"particleEmittersOff": ["swoosh"]}
+          },
+          "fire": {
+            "frames": 3,
+            "cycle": 0.095,
+            "mode": "transition",
+            "transition": "idle",
+            "properties": {"particleEmittersOn": ["swoosh"]}
+          }
+        }
+      }
+    },
+
+    "parts": {
+      "weapon": {
+        "properties": {
+          "transformationGroups": ["weapon"],
+          "rotationCenter": [-1, 0],
+          "centered": true,
+          "image": "<partImage>:<hand>",
+
+          "digTip": [2.0, 0.5],
+          "digSource1": [-1.0, 1.5],
+          "digSource2": [-1.0, 1.0],
+          "digSource3": [-1.0, -1.5]
+        }
+      },
+      "swoosh": {
+        "properties": {
+          "transformationGroups": ["weapon", "swoosh"],
+          "centered": true,
+          "offset": [0.5, 0.125],
+          "zLevel": 1
+        },
+
+        "partStates": {
+          "attack": {
+            "idle": {},
+            "fire": {
+              "properties": {
+                "image": "/items/active/weapons/melee/shortsword/swoosh/<elementalType>swoosh.png:<frame>",
+                "offset": [-0.2, 0],
+                "damageArea": [
+                  [-1.5, -1],
+                  [0.4, -0.9],
+                  [1.7, -0.5],
+                  [2.25, 0.1],
+                  [1.7, 0.7],
+                  [0.4, 1.1],
+                  [-1.5, 1.2]
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "transformationGroups": {"weapon": {}, "swoosh": {}},
+
+  "particleEmitters": {
+    "swoosh": {"particles": []},
+    "physicalswoosh": {
+      "active": false,
+      "transformationGroups": ["swoosh"],
+      "particles": []
+    },
+    "fireswoosh": {
+      "active": false,
+      "transformationGroups": ["swoosh"],
+      "emissionRate": 40,
+      "offsetRegion": [-1.5, -0.25, 1.5, 2.0],
+      "particles": [
+        {"particle": "fireswoosh1"},
+        {"particle": "fireswoosh2"},
+        {"particle": "fireswoosh3"},
+        {"particle": "fireswoosh1"},
+        {"particle": "fireswoosh2"},
+        {"particle": "fireswoosh3"}
+      ]
+    },
+    "electricswoosh": {
+      "active": false,
+      "transformationGroups": ["swoosh"],
+      "emissionRate": 40,
+      "offsetRegion": [-1.5, -0.25, 1.5, 2.0],
+      "particles": [
+        {"particle": "electricswoosh1"},
+        {"particle": "electricswoosh2"},
+        {"particle": "electricswoosh2"}
+      ]
+    },
+    "iceswoosh": {
+      "active": false,
+      "transformationGroups": ["swoosh"],
+      "emissionRate": 40,
+      "offsetRegion": [-1.5, -0.25, 1.5, 2.0],
+      "particles": [
+        {"particle": "iceswoosh1"},
+        {"particle": "iceswoosh2"},
+        {"particle": "iceswoosh3"},
+        {"particle": "iceswoosh1"},
+        {"particle": "iceswoosh2"},
+        {"particle": "iceswoosh3"}
+      ]
+    },
+    "poisonswoosh": {
+      "active": false,
+      "transformationGroups": ["swoosh"],
+      "emissionRate": 40,
+      "offsetRegion": [-1.5, -0.25, 1.5, 2.0],
+      "particles": [
+        {"particle": "poisonswoosh1"},
+        {"particle": "poisonswoosh2"},
+        {"particle": "fireswoosh2"},
+        {"particle": "poisonswoosh1"},
+        {"particle": "poisonswoosh2"},
+        {"particle": "fireswoosh2"}
+      ]
+    }
+  },
+
+  "sounds": {"fire": []}
+}

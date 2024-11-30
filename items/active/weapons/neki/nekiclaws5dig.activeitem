@@ -1,78 +1,66 @@
 {
-  "itemName": "nekiclaws5p",
+  "itemName": "nekiclaws5dig",
   "price": 1,
   "level": 6,
   "maxStack": 1,
   "rarity": "Legendary",
-  "description": "Neki Venomhands.",
-  "shortdescription": "Neki T6 Poison Claws",
+  "description": "Digging is boring.",
+  "shortdescription": "Neki T6 Digging Claws",
   "tooltipKind": "nekifistweapon",
   "category": "fistWeapon",
   "twoHanded": false,
-  "itemTags": ["weapon", "melee", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee"],
 
-  "inventoryIcon": "/items/active/weapons/neki/icon/nekiclaws5picon.png:front",
-  "animation": "nekiclaws5.animation",
-  "animationParts": {"weapon": "/items/active/weapons/neki/claw/nekiclaws5p.png"},
+  "inventoryIcon": "/items/active/weapons/neki/icon/nekiclaws5digicon.png:front",
+  "animation": "nekiclaws5dig.animation",
+  "animationParts": {"weapon": "/items/active/weapons/neki/claw/nekiclaws5dig.png"},
 
   "animationCustom": {
-    "particleEmitters": {
-      "idleparticles1": {
-        "active": true,
-        "transformationGroups": ["weapon"],
-        "emissionRate": 2,
-        "offsetRegion": [0.5, 0.125, -0.25, -0.25],
-        "particles": [
-          {"particle": "nekipoisondust", "offset" : [0.3, 0.4]}
-        ]
-      },
-      "idleparticles2": {
-        "active": true,
-        "transformationGroups": ["weapon"],
-        "emissionRate": 5,
-        "offsetRegion": [0.5, 0.125, -0.25, -0.25],
-        "particles": [
-          {"particle": "nekipoisonswoosh1", "offset" : [0.3, 0.4]}
-        ]
-      },
-      "idleparticles3": {
-        "active": true,
-        "transformationGroups": ["weapon"],
-        "emissionRate": -1,
-        "particles": [
-          {"particle": "nekipoisonlight"}
-        ]
+    "animatedParts": {
+      "parts": {
+        "swoosh": {
+          "partStates": {
+            "attack": {
+              "fire": {
+                "properties": {
+                  "image": "/items/active/weapons/neki/swoosh/nekiswoosh5dig.png:<frame>"
+                }
+              }
+            }
+          }
+        }
       }
     },
     "sounds": {
       "fire": [
-        "/sfx/melee/swing_shortsword_poison1.ogg",
-        "/sfx/melee/swing_shortsword_poison2.ogg",
-        "/sfx/melee/swing_shortsword_poison3.ogg"
+        "/sfx/melee/neki_atom_swing.ogg",
+        "/sfx/melee/neki_atom_swing2.ogg",
+        "/sfx/melee/neki_atom_swing3.ogg",
+        "/sfx/melee/neki_atom_swing4.ogg",
+        "/sfx/melee/neki_atom_swing5.ogg"
       ]
     }
   },
-  "scripts": [
-    "/items/active/weapons/neki/nekifistweapon.lua",
-    "/items/active/weapons/neki/nekiWeaponEffect.lua"
-  ],
+  "scripts": ["/items/active/weapons/neki/nekifistweapon.lua"],
 
   "needsEdgeTrigger": false,
   "edgeTriggerGrace": 0.1,
 
-  "elementalType" : "poison",
+  "elementalType" : "physical",
 
   "primaryAbility": {
-    "scripts": ["/items/active/weapons/neki/nekipunch5e.lua"],
+    "scripts": ["/items/active/weapons/neki/nekipunch5dig.lua"],
     "class": "Punch",
 
-    "nekiWeaponEffect": "nekipoisonblock",
+    "tileDamage": 2,
+    "tileDamageRate": 1.0,
+    "damageTileDepth": 3,
 
-    "fireTime": 0.3,
-    "baseDps": 10.0,
+    "fireTime": 0.1,
+    "baseDps": 9.0,
     "damageConfig": {
-      "damageSourceKind": "nekibowclaws5p",
-      "statusEffects": ["weakpoison"],
+      "damageSourceKind": "nekibowclaws5",
+      "statusEffects": ["nekibleed"],
       "timeoutGroup": "primary",
       "timeout": 0.1,
       "knockback": 9

@@ -1,0 +1,11 @@
+{
+  "input": [
+    {"item": "nekiclaws5r", "count": 1},
+    {"item": "diamond", "count": 5},
+    {"item": "obsidian", "count": 1}
+  ],
+
+  "duration": 0.5,
+  "output": {"item": "nekiclaws5dig", "count": 1},
+  "groups": ["plain", "weapons", "all"]
+}
