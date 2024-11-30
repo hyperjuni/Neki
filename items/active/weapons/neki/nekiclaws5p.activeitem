@@ -72,7 +72,7 @@
     "baseDps": 10.0,
     "damageConfig": {
       "damageSourceKind": "nekibowclaws5p",
-      "statusEffects": ["weakpoison"],
+      "statusEffects": ["weakpoison", "nekibleed"],
       "timeoutGroup": "primary",
       "timeout": 0.1,
       "knockback": 9

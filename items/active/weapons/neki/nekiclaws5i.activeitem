@@ -64,7 +64,7 @@
     "baseDps": 10.0,
     "damageConfig": {
       "damageSourceKind": "nekibowclaws5i",
-      "statusEffects": ["frostslow"],
+      "statusEffects": ["frostslow", "nekibleed"],
       "timeoutGroup": "primary",
       "timeout": 0.1,
       "knockback": 9
