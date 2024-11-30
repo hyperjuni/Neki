@@ -52,7 +52,7 @@
   "needsEdgeTrigger": false,
   "edgeTriggerGrace": 0.1,
 
-  "elementalType" : "ice",
+  "elementalType": "ice",
 
   "primaryAbility": {
     "scripts": ["/items/active/weapons/neki/nekipunch5e.lua"],

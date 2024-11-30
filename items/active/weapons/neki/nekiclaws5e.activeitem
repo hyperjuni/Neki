@@ -60,7 +60,7 @@
   "needsEdgeTrigger": false,
   "edgeTriggerGrace": 0.1,
 
-  "elementalType" : "electric",
+  "elementalType": "electric",
 
   "primaryAbility": {
     "scripts": ["/items/active/weapons/neki/nekipunch5e.lua"],

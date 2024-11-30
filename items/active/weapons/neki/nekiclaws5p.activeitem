@@ -60,7 +60,7 @@
   "needsEdgeTrigger": false,
   "edgeTriggerGrace": 0.1,
 
-  "elementalType" : "poison",
+  "elementalType": "poison",
 
   "primaryAbility": {
     "scripts": ["/items/active/weapons/neki/nekipunch5e.lua"],
