@@ -11,6 +11,8 @@ function build(directory, config, parameters, level, seed)
     end
   end
 
+  config.tooltipFields = config.tooltipFields or {}
+ 
   if level and not configParameter("fixedLevel", true) then
     parameters.level = level
   end
@@ -18,8 +20,6 @@ function build(directory, config, parameters, level, seed)
 
   -- calculate damage level multiplier
   config.damageLevelMultiplier = root.evalFunction("weaponDamageLevelMultiplier", configParameter("level", 1))
-
-  config.tooltipFields = {}
 
   -- Neki addition
   config.tooltipFields.damageKindImage = "/interface/elements/nekiphysical.png"
