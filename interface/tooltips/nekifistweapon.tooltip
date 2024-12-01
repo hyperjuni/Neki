@@ -35,7 +35,6 @@
     "hAnchor": "mid",
     "vAnchor": "top",
     "wrapWidth": 124,
-    // "lineSpacing": 1.0,
     "value": ""
   },
   "damagePerShotTitleLabel": {
@@ -66,45 +65,10 @@
     "vAnchor": "mid",
     "value": ""
   },
-  "comboFinisherTitleLabel": {
-    "type": "label",
-    "position": [10, 25],
-    "hAnchor": "left",
-    "vAnchor": "mid",
-    "value": ""
-  },
-  "comboFinisherLabel": {
-    "type": "label",
-    "position": [129, 25],
-    "hAnchor": "right",
-    "vAnchor": "mid",
-    "value": ""
-  },
   "moneyIcon": {
     "type": "image",
     "position": [9, 4],
     "file": "/interface/money.png"
-  },
-  "levelTitleLabel": {
-    "type": "label",
-    "position": [
-      6,
-      192
-    ],
-    "hAnchor": "left",
-    "vAnchor": "top",
-    "wrapWidth": 134,
-    "value": "^yellow;Level^reset; "
-  },
-  "levelLabel": {
-    "type": "label",
-    "position": [
-      30,
-      192
-    ],
-    "hAnchor": "left",
-    "vAnchor": "top",
-    "wrapWidth": 134
   },
   "priceLabel": {
     "type": "label",
