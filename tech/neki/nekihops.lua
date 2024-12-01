@@ -55,7 +55,8 @@ function init()
       and not status.statPositive("activeMovementAbilities") then
         startHop(direction)
       end
-    end)
+    end
+  )
   animator.setAnimationState("hopping", "off")
   animator.setAnimationState("pouncing", "off")
 end
@@ -71,7 +72,11 @@ function update(args)
   if self.rechargeEffectTimer > 0 then
     self.rechargeEffectTimer = math.max(0, self.rechargeEffectTimer - args.dt)
     if self.rechargeEffectTimer == 0 then
-      if not self.effectQueue then tech.setParentDirectives() else tech.setParentDirectives(self.effectQueue) end
+      if not self.effectQueue then
+        tech.setParentDirectives()
+      else
+        tech.setParentDirectives(self.effectQueue)
+      end
     end
   end
 
@@ -83,33 +88,35 @@ function update(args)
     end
   end
 
-    if not self.abilityActive then
-      if groundValid() and mcontroller.crouching() and not status.resourceLocked("energy") and not status.statPositive("activeMovementAbilities") then
-        if self.pounceTimer == 0 and self.pounceCharge < 1 and self.holdingUp then
-          self.pounceCharge = math.min(1, self.pounceCharge + (1 / self.pounceChargeTime) * args.dt)
-          if self.pounceCharge >= 1 then
-            self.effectQueue = self.flashChargeDirectives
-            tech.setParentDirectives(self.flashChargeDirectives)
-          end
+  if not self.abilityActive then
+    if groundValid() and mcontroller.crouching() and not status.resourceLocked("energy") and not status.statPositive("activeMovementAbilities") then
+      if self.pounceTimer == 0 and self.pounceCharge < 1 and self.holdingUp then
+        self.pounceCharge = math.min(1, self.pounceCharge + (1 / self.pounceChargeTime) * args.dt)
+        if self.pounceCharge >= 1 then
+          self.effectQueue = self.flashChargeDirectives
+          tech.setParentDirectives(self.flashChargeDirectives)
         end
+      end
 
-        if self.pounceCharge > 0 and not self.holdingUp then
-          if self.afterPounceCooldownTimer == 0 then
-            local pounceDirection = mcontroller.facingDirection()
-            startPounce(pounceDirection)
-            self.rechargeEffectTimer = self.flashEffectTime
-          else
-            self.pounceCharge = 0
-            tech.setParentDirectives()
-            self.effectQueue = nil
-          end
+      if self.pounceCharge > 0 and not self.holdingUp then
+        if self.afterPounceCooldownTimer == 0 then
+          local pounceDirection = mcontroller.facingDirection()
+          startPounce(pounceDirection)
+          self.rechargeEffectTimer = self.flashEffectTime
+        else
+          self.pounceCharge = 0
+          tech.setParentDirectives()
+          self.effectQueue = nil
         end
-      else
-        self.pounceCharge = 0
       end
     else
       self.pounceCharge = 0
+      self.effectQueue = nil
+      tech.setParentDirectives()
     end
+  else
+    self.pounceCharge = 0
+  end
 
   if self.pounceTimer > 0 then
     mcontroller.controlMove(self.pounceDirection, true)

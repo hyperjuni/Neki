@@ -85,6 +85,27 @@
     "position": [9, 4],
     "file": "/interface/money.png"
   },
+  "levelTitleLabel": {
+    "type": "label",
+    "position": [
+      6,
+      192
+    ],
+    "hAnchor": "left",
+    "vAnchor": "top",
+    "wrapWidth": 134,
+    "value": "^yellow;Level^reset; "
+  },
+  "levelLabel": {
+    "type": "label",
+    "position": [
+      30,
+      192
+    ],
+    "hAnchor": "left",
+    "vAnchor": "top",
+    "wrapWidth": 134
+  },
   "priceLabel": {
     "type": "label",
     "position": [22, 4],
