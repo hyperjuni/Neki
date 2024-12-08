@@ -1,19 +1,19 @@
 ## Introduction
 
-The Neki (pronounced "neck-key") is a mod about what it would be like for such a species to exist in the universe of Starbound. While the way other species treat them may vary from borderline fanatic to extremely unpleasant, the Neki themselves see the world and its inhabitants in an innocent, wondrous and very pragmatic way. They see things for what they are, without prejudice; the world is their playground and dining hall.
+The Neki (pronounced "neck-key") is a mod about what it would be like for such a species to exist in the universe of Starbound. The attitudes of other species towards the Neki vary from borderline fanatic to extremely unpleasant, yet the Neki themselves see the world and its inhabitants in an innocent, wondrous and highly pragmatic way. To the Neki - things are just what they are, with little to no prejudice; the world is their playground and their dining hall.
 
-If you're interested in learning more, it is highly recommended to play the Intro mission, inspect the world around you, converse with NPCs more than once, and look out for their codices.
+If you're interested in learning more, it is highly recommended to play the Intro mission, inspect the world around you, converse with key NPCs more than once, and look out for their codices.
 
 ---
 ## Origins
-Opinions vary, but it is most widely believed that the Neki were the brainchild of a renowned and eccentric, if somewhat deranged, entrepreneur of old. The tycoon's virtually limitless resources would facilitate an extensive research program which would go on well beyond their own lifetime, and employ some of the the brightest scientific minds of a generation; its' findings, however, would remain largely unpublished. The research would end up being abruptly overtaken by the U.S.C.M and vanishing from the public eye practically overnight - with rumors surfacing shortly thereafter of much of it having been stolen by the Miniknog.
+Opinions vary, but it is widely believed that the Neki were the brainchild of a renowned and eccentric, if somewhat deranged, entrepreneur of old. The tycoon's virtually limitless resources facilitated an extensive research program that would go on well beyond their own lifetime and employed some of the the brightest scientific minds of a generation; its' findings, however, would remain largely unpublished. The research would end up being abruptly overtaken by the U.S.C.M and vanishing from the public eye practically overnight - with rumors of much of it having been stolen by the Miniknog surfacing not long after.
 
-A short while later, the Neki would start appearing on Earth, seemingly out of nowhere, invoking a wide range of reactions - from outright repugnance to unbridled fascination. Despite their somewhat animalistic appearance and behavior, they've proven themselves to be remarkably sapient, crafty, and more resourceful than many of their Human counterparts - causing many of the Humans to treat them with a degree of resentment and even hostility.
+A little while later, the Neki would start appearing on Earth, seemingly out of nowhere, evoking a wide range of reactions - from outright repugnance to acute fascination. Despite their somewhat animalistic appearance and behavior patterns, the Neki have displayed remarkable sapience, craftiness and resourcefulness when compared to most of their Human counterparts, which led to many of the Humans treating them with a high degree of distrust, resentment and often outright hostility.
 
-The Neki have a playful and often pesky demeanor, always looking for stuff to eat, places to sleep and things to play with. They stand out (among Humans) for having large ears, powerful (and often fluffy) tails; short and soft fur in a variety of colors covers their body, and a lush mane stretches from their heads down to the tips of their tails.
+The Neki have a playful and often pesky demeanor, always looking for stuff to eat, places to sleep and things to play with. They stand out (among Humans) for having very large eyes and ears, as well as long and powerful tails. Short, soft fur in a variety of colors covers their body, and a lush mane stretches from their heads down to the tips of their tails.
 
 You are one of the Neki.
-How you ended up at the Terrene Protectorate Аcademy, is yet unclear.
+How you ended up at the Terrene Protectorate Аcademy, is still unclear.
 
 ---
 ## Links
