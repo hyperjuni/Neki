@@ -1,8 +1,8 @@
 [
   [
   // Vanilla bug fix
-    {"op" : "test", "path" : "/scriptConfig/dialog/converse/Hylotl"},
-    {"op": "move", "from": "/scriptConfig/dialog/converse/Hylotl", "path": "/scriptConfig/dialog/converse/hylotl"}
+    {"op": "test", "path": "/scriptConfig/dialog/converse/Hylotl"},
+    {"op": "copy", "from": "/scriptConfig/dialog/converse/Hylotl", "path": "/scriptConfig/dialog/converse/hylotl"}
   ],
   [
     {"op": "test", "path": "/scriptConfig/dialogMode", "value": "sequence", "inverse": true},
