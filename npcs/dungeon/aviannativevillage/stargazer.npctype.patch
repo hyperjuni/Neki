@@ -1,12 +1,19 @@
 [
-  {"op" : "add", "path" : "/scriptConfig/dialog/converse/avian/neki",
-    "value" : [
-      "Kluex has sent you down upon us as punishment for not heeding his word!",
-      "I am a mighty herald of Kluex, and you shall be respectful of that, clawed beast!",
-      "The word of Kluex shall daze you where you stand.. and make you keep your distance!",
-      "Be dazed by the sheer might of Kluex, beast! And stay that way, preferably where you are.",
-      "I do not fear you, terrifying beast, for my faith in Kluex shall keep me from harm!",
-      "We shall soon ascend to a realm forever safe from the menace that is your kind!"
-    ]
-  }
+  [
+    {"op" : "test", "path" : "/dialog", "inverse" : false},
+    {"op" : "test", "path" : "/scriptConfig/dialog", "inverse" : true},
+    {"op" : "move", "from": "/dialog", "path": "/scriptConfig/dialog"}
+  ],
+  [
+    {"op" : "add", "path" : "/scriptConfig/dialog/converse/avian/neki",
+      "value" : [
+        "Kluex has sent you down upon us as punishment for not heeding his word!",
+        "I am a mighty herald of Kluex, and you shall be respectful of that, clawed beast!",
+        "The word of Kluex shall daze you where you stand.. and make you keep your distance!",
+        "Be dazed by the sheer might of Kluex, beast! And stay that way, preferably where you are.",
+        "I do not fear you, terrifying beast, for my faith in Kluex shall keep me from harm!",
+        "We shall soon ascend to a realm forever safe from the menace that is your kind!"
+      ]
+    }
+  ]
 ]
