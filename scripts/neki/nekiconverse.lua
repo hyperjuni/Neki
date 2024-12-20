@@ -14,6 +14,9 @@ function speciesDialog(dialog, targetId)
   local species = context().species and context().species() or "default"
   dialog = dialog[species] or dialog.default
 
+  if dialog == nil then
+    return
+  end
   local targetDialog = dialog[otherSpecies] or dialog.default
   return targetDialog
 end
