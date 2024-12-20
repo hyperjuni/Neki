@@ -3,7 +3,7 @@
   // Vanilla bug fix
     {"op" : "test", "path" : "/dialog", "inverse" : false},
     {"op" : "test", "path" : "/scriptConfig/dialog", "inverse" : true},
-    {"op" : "move", "from": "/dialog", "path": "/scriptConfig/dialog"}
+    {"op" : "copy", "from": "/dialog", "path": "/scriptConfig/dialog"}
   ],
   [
     {"op" : "add", "path" : "/scriptConfig/dialog/converse/avian/neki",
