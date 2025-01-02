@@ -146,7 +146,7 @@
         "Wonder what the cat's come wit' today! Wanna trade?"
       ]
     },
-  
+
 // --------------- merchantEnd ---------------
 
     {"op": "add", "path": "/merchantEnd/apex/neki",
@@ -251,7 +251,7 @@
         "Hope you found everything easily enough!"
       ]
     },
-  
+
 // --------------- follow ---------------
 
     {"op": "add", "path": "/follow/apex/neki",
@@ -323,7 +323,7 @@
 //        "Y'all caught me out in the open, come to my shop, we'll talk more there."
 //      ]
 //    },
-  
+
 // --------------- welcome ---------------
 
 //    {"op": "add", "path": "/welcome/apex/neki",
@@ -397,7 +397,7 @@
 //        "Here's my shop, hope you like what I have to offer!"
 //      ]
 //    },
-  
+
 // --------------- tout ---------------
 
     {"op": "add", "path": "/tout/apex/neki",
@@ -505,7 +505,7 @@
 //        "Got a minute to trade? Maybe more? I got your back!"
 //      ]
 //    },
-  
+
 // --------------- tagCriteria ---------------
 
 //    {"op": "add", "path": "/tagCriteria/apex/neki",
@@ -600,7 +600,7 @@
 //        "Things ain't right around here, somethin's missing. Can ya find it and put it back?"
 //      ]
 //    },
-  
+
 // --------------- enclosedArea ---------------
 
 //    {"op": "add", "path": "/enclosedArea/apex/neki",
@@ -695,7 +695,7 @@
 //        "Nope, these holes ain't gonna do for my place. Ya able to get this fixed up?"
 //      ]
 //    },
-  
+
 // --------------- otherDeed ---------------
 
 //    {"op": "add", "path": "/otherDeed/apex/neki",
@@ -787,7 +787,7 @@
 //        "I don't need an assistant here, or a roommate. Get that deed outta here."
       ]
     },
-  
+
 // --------------- severe ---------------
 
 //    {"op": "add", "path": "/severe/apex/neki",
@@ -882,7 +882,7 @@
         "I've seen better workin' conditions in a snake pit. Can ya fix this soon?"
       ]
     },
-  
+
 // --------------- final ---------------
 
     {"op": "add", "path": "/final/apex/neki",
@@ -980,7 +980,7 @@
         "It's 'bout time I make tracks, partner. Adios!"
       ]
     },
-  
+
 // --------------- beacon ---------------
 
     {"op": "add", "path": "/beacon/apex/neki",
@@ -1082,7 +1082,7 @@
         "Somebody call for a provisioner? I'm 'ere an' ready to trade!"
       ]
     },
-  
+
 // --------------- rent ---------------
 
 //    {"op": "add", "path": "/rent/apex/neki",

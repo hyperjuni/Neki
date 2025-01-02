@@ -17,8 +17,8 @@
         "roleDescription": {
           "default": {
             "default": [
-            "Hey, I'm supposed to be a Neki!",
-            "Why am I... whatever this is?!"
+              "Hey, I'm supposed to be a Neki!",
+              "Why am I... whatever this is?!"
             ]
           },
           "neki": {

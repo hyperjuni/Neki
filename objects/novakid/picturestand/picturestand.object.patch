@@ -1,13 +1,13 @@
 [
   [
-    {"op": "add", "path": "/nekiDescription", "value": "A hole to poke my nose in and purrtend to yeehaw!"}
+    {"op":"add","path":"/nekiDescription","value":"A hole to poke my nose in and purrtend to yeehaw!"}
   ],
   [
-    {"op": "test",  "path": "/orientations/1/sitPosition/0", "value": 4},
-    {"op": "replace",  "path": "/orientations/1/sitPosition/0", "value": 3}
+    {"op":"test", "path":"/orientations/1/sitPosition/0","value":4},
+    {"op":"replace","path":"/orientations/1/sitPosition/0","value":3}
   ],
   [
-    {"op": "test",  "path": "/orientations/0/sitPosition/0", "value": -4},
-    {"op": "replace",  "path": "/orientations/0/sitPosition/0", "value": -5}
+    {"op":"test","path":"/orientations/0/sitPosition/0","value":-4},
+    {"op":"replace","path":"/orientations/0/sitPosition/0","value":-5}
   ]
 ]
