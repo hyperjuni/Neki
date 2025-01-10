@@ -18,10 +18,10 @@ How you ended up at the Terrene Protectorate Аcademy, is still unclear.
 ---
 ## Links
 
-* Here's the [Steam version](https://steamcommunity.com/workshop/filedetails/?id=2611501999)
-* Here's the [Non-Steam version](https://community.playstarbound.com/resources/neki.6147)
-* Here's the [Frackin' Universe Patch](https://github.com/hyperjuni/NekiFU)
-* Here's the [Translation template](https://github.com/hyperjuni/Neki-Language-Template)
+* [Steam Workshop version](https://steamcommunity.com/workshop/filedetails/?id=2611501999)
+* [Chucklefish Forums version](https://community.playstarbound.com/resources/neki.6147)
+* [Frackin' Universe Patch (NekiFU)](https://github.com/hyperjuni/NekiFU)
+* [Translation template](https://github.com/hyperjuni/Neki-Language-Template)
 * Come chat with us at the [Neki Discord](https://discord.gg/R6tfkazYgb)
 * If you'd like to support me and this project, consider checking out my [Boosty](https://boosty.to/hyperjuni/donate)
 
