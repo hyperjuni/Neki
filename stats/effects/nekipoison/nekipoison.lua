@@ -4,5 +4,6 @@ function init()
     return
   end
   status.addEphemeralEffect("nekipoisoneffect")
+  world.sendEntityMessage(entity.id(), "queueRadioMessage", "nekipoisontutorial")
   effect.expire()
 end
