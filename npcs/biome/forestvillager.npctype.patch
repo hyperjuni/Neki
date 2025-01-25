@@ -2,7 +2,7 @@
   {"op": "add",  "path": "/scriptConfig/dialog/converse/default/neki",
     "value": [
       "Welcome to the jungle,\nWe've got fun and games!",
-      "I have nothing to say to you"
+      "I have nothing to say to you."
     ]
   },
   {"op": "add", "path": "/scriptConfig/dialog/converse/floran/neki",
