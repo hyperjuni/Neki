@@ -8,6 +8,7 @@
   "printable": false,
   "tooltipKind": "nekibase",
   "colonyTags": ["neki"],
+  "itemTags" : ["captainschair"],
 
   "shortdescription": "Neki Basic Chair",
   "description": "A small, brightly-colored giftbox.",
