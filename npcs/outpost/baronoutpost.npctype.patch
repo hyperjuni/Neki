@@ -1,3 +1,10 @@
 [
-  {"op":"add", "path":"/scriptConfig/offeredQuests", "value": ["nekicodex385"]}
+  [
+    {"op": "test", "path": "/scriptConfig/offeredQuests", "value": true},
+    {"op":"add", "path":"/scriptConfig/offeredQuests/-", "value": "nekicodex385"}
+  ],
+  [
+    {"op": "test", "path": "/scriptConfig/offeredQuests", "inverse": true},
+    {"op":"add", "path":"/scriptConfig/offeredQuests", "value": ["nekicodex385"]}
+  ]
 ]
