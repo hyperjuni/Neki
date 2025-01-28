@@ -1,7 +1,8 @@
 {
   "input": [
     {"item": "wizardlegs", "count": 1},
-    {"item": "goldbar", "count": 1}
+    {"item": "goldbar", "count": 1},
+    {"item": "silverbar", "count": 1}
   ],
 
   "duration": 0.5,

@@ -1,9 +1,7 @@
 {
   "input": [
-    {"item": "fabric", "count": 24},
-    {"item": "silk", "count": 16},
-    {"item": "string", "count": 8},
-    {"item": "cottonwool", "count": 6}
+    {"item": "fabric", "count": 8},
+    {"item": "string", "count": 8}
   ],
 
   "duration": 0.5,

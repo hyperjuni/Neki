@@ -1,10 +1,8 @@
 {
   "input": [
     {"item": "nokini", "count": 1},
-    {"item": "fabric", "count": 10},
-    {"item": "silk", "count": 6},
-    {"item": "string", "count": 3},
-    {"item": "cottonwool", "count": 2}
+    {"item": "fabric", "count": 4},
+    {"item": "string", "count": 5}
   ],
 
   "duration": 0.5,

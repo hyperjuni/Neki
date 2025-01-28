@@ -1,7 +1,7 @@
 {
   "input": [
     {"item": "fabric", "count": 5},
-    {"item": "string", "count": 10}
+    {"item": "string", "count": 5}
   ],
 
   "duration": 0.5,
