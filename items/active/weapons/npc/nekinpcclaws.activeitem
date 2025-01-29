@@ -1,7 +1,7 @@
 {
   "itemName": "nekinpcclaws",
   "price": 1,
-  // "level": 1,
+  "level": 6,
   "maxStack": 1,
   "rarity": "Rare",
   "description": "Neki NPChands.",
@@ -41,7 +41,11 @@
       ]
     }
   },
-  "scripts": ["/items/active/weapons/neki/nekifistweapon.lua"],
+  
+// For some reason, NPCs will only use one hand without the combo code
+// Copies of the old scripts and combofinisher are here to fix that
+
+  "scripts": ["/items/active/weapons/npc/nekinpcfistweapon.lua"],
 
   "needsEdgeTrigger": false,
   "edgeTriggerGrace": 0.1,
@@ -49,21 +53,21 @@
   "comboSteps": 9999,
   "comboTiming": [0.2, 0.5],
   "comboCooldown": 0.2,
-  "comboFinisherSource": "/items/active/weapons/neki/nekipunch.combofinisher",
+  "comboFinisherSource": "/items/active/weapons/npc/nekinpcpunch.combofinisher",
 
   "freezeLimit": 0,
 
   "elementalType" : "physical",
 
   "primaryAbility": {
-    "scripts": ["/items/active/weapons/neki/nekipunch1.lua"],
+    "scripts": ["/items/active/weapons/npc/nekinpcpunch.lua"],
     "class": "Punch",
 
     "freezeTime": 0,
     "fireTime": 0.1,
-    "baseDps": 18.0,
+    "baseDps": 12.0,
     "damageConfig": {
-      "damageSourceKind": "nekiclaws5",
+      "damageSourceKind": "nekibowclaws5",
       "statusEffects": ["nekibleed"],
       "timeoutGroup": "primary",
       "timeout": 0.1,
