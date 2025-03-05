@@ -354,7 +354,7 @@
         "We're here! What can Floran get you?",
 
       // Burin
-        "Neki here, at my shop! Neki trade with Floran!",
+        "Neki here, at Floran's shop! Neki trade with Floran!",
         "Now, what can Floran buy that Neki caught?"
       ]
     },
@@ -470,7 +470,7 @@
 
       // Burin
         "Great, one of them. Time to break out the hair brushes...",
-        "Good for-oh, I mean no goods for sale! We're sold out!",
+        "Goods for-oh, I mean no goods for sale! We're sold out!",
         "Tch, one of you. Remind me to mark up the prices...",
         "For you, I'll trade in Voxels, not Pixels."
       ]
