@@ -1,4 +1,7 @@
 [
+
+// --------------- NPCs hailing Neki player ---------------
+
   {"op": "add", "path": "/hail/apex/neki",
     "value": [
       "I won't interfere, agent, unless you disturb the peace.",
@@ -13,6 +16,7 @@
       "Big Ape is guiding you well."
     ]
   },
+
   {"op": "add", "path": "/hail/avian/neki",
     "value": [
       "If you start chasing anyone here, I will personally peck you very hard!",
@@ -28,6 +32,7 @@
       "Don't try me."
     ]
   },
+
   {"op": "add", "path": "/hail/floran/neki",
     "value": [
       "Neki wantsss stab sssomething too?",
@@ -38,6 +43,7 @@
       "Neki alwaysss welcome here."
     ]
   },
+
   {"op": "add", "path": "/hail/glitch/neki",
     "value": [
       "Conflicted. I'd play with you, but I'm on duty.",
@@ -53,6 +59,7 @@
       "Alert. Who are you?"
     ]
   },
+
   {"op": "add", "path": "/hail/human/neki",
     "value": [
       "I'll snap you in half, just give me a reason!",
@@ -72,6 +79,7 @@
       "Tread lightly, Neki."
     ]
   },
+
   {"op": "add", "path": "/hail/hylotl/neki",
     "value": [
       "Please avoid smiling, your fangs may terrify our peaceful population.",
@@ -91,6 +99,7 @@
       "Do not test me."
     ]
   },
+
   {"op": "add", "path": "/hail/novakid/neki",
     "value": [
       "I ain't lookin' for no trouble, and hope ya ain't either, partner.",
@@ -108,6 +117,9 @@
       "Howdy!"
     ]
   },
+
+// --------------- Neki NPCs hailing player ---------------
+
   {"op": "add", "path": "/hail/neki",
     "value": {
       "default": [
@@ -117,6 +129,7 @@
       ]
     }
   },
+
   {"op": "add", "path": "/hail/neki/avian",
     "value": [
       "What's that delicious smell?",
@@ -127,6 +140,7 @@
       "Khhh!"
     ]
   },
+
   {"op": "add", "path": "/hail/neki/apex",
     "value": [
       "What's that suspicious smell?",
@@ -135,6 +149,7 @@
       "Khhh!"
     ]
   },
+
   {"op": "add", "path": "/hail/neki/floran",
     "value": [
       "Mrr, the smell of fresh grass and blood!",
@@ -144,6 +159,7 @@
       "Khhh!"
     ]
   },
+
   {"op": "add", "path": "/hail/neki/glitch",
     "value": [
       "Mrr, smells like grease.",
@@ -152,6 +168,7 @@
       "Khhh!"
     ]
   },
+
   {"op": "add", "path": "/hail/neki/human",
     "value": [
       "Hello fellow human.",
@@ -159,6 +176,7 @@
       "Khhh!"
     ]
   },
+
   {"op": "add", "path": "/hail/neki/hylotl",
     "value": [
       "What's that delicious smell?",
@@ -169,6 +187,7 @@
       "Khhh!"
     ]
   },
+
   {"op": "add", "path": "/hail/neki/novakid",
     "value": [
       "Did someone start a fire?",
@@ -176,6 +195,7 @@
       "Khhh!"
     ]
   },
+
   {"op": "add", "path": "/hail/neki/neki",
     "value": [
       "Something smells familiarr.",
