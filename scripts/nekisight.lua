@@ -1,1 +1,1 @@
--- This is a dummy file to prevent user issues
+-- This is just a dummy file, to prevent issues with older characters
