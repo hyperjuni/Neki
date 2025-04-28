@@ -1,11 +1,11 @@
 [
   [
     {"op": "test", "path": "/scriptConfig/offeredQuests", "value": true},
-    {"op":"add", "path":"/scriptConfig/offeredQuests/-", "value": "nekicodex377"}
+    {"op": "add", "path": "/scriptConfig/offeredQuests/-", "value": "nekicodex377"}
   ],
   [
     {"op": "test", "path": "/scriptConfig/offeredQuests", "inverse": true},
-    {"op":"add", "path":"/scriptConfig/offeredQuests", "value": ["nekicodex377"]}
+    {"op": "add", "path": "/scriptConfig/offeredQuests", "value": ["nekicodex377"]}
   ],
   [
     {"op": "add", "path": "/scriptConfig/dialog/merchant/start/default/neki",
