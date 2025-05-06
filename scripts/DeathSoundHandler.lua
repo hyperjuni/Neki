@@ -4,7 +4,9 @@ local oldinit = init;
 local olduninit = uninit;
 
 --local DEFAULT_DEATH_NOISE_ARRAY = {"/sfx/humanoid/player_death1.ogg", "/sfx/humanoid/player_death2.ogg", "/sfx/humanoid/player_death3.ogg"}
-local DEFAULT_DEATH_NOISE_ARRAY = {} --Edit: These death sounds aren't even used in the game by default. I could add them to a config switch. Or just let you edit this here on your own, but please be careful for conflicts, as this may not load if a mod that loads after yours employs this same script.
+-- Edit: These death sounds aren't even used in the game by default. I could add them to a config switch.
+-- Or just let you edit this here on your own, but please be careful for conflicts, as this may not load if a mod that loads after yours employs this same script.
+local DEFAULT_DEATH_NOISE_ARRAY = {}
 
 function init()
   if oldinit then oldinit() end
