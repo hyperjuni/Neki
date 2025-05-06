@@ -9,7 +9,7 @@ function hasItemTag(args, board)
   return neki_hasItemTag(args, board)
 end
 
-function npcInteract(args, board)
+function npcInteract(args, board) -- luacheck: ignore 212/board
   r,err = pcall(function() world.callScriptedEntity(args.entity, "onNpcInteract", {sourceId = entity.id()}) end)
   if not r then
     sb.logError(err)

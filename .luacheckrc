@@ -10,7 +10,10 @@ ignore = {
 	-- trailing whitespace
 	"611",
 	"612",
-	"614"
+	"614",
+
+	-- Expected "unused" warnings
+	"212/dt" -- "unused argument dt"
 }
 
 -- These global variables are allowed.
