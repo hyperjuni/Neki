@@ -1,6 +1,6 @@
 require "/scripts/util.lua"
 
-function build(directory, config, parameters, level, seed)
+function build(directory, config, parameters, level, seed) -- luacheck: ignore 212
   local configParameter = function(keyName, defaultValue)
     if parameters[keyName] ~= nil then
       return parameters[keyName]

@@ -75,7 +75,7 @@ function statusProjectile(material)
 
   local count=math.min(self.maxDrips,#self.damageInstances-1)
   if count>0 then
-    for i=1,count do
+    for _=1,count do
       world.spawnProjectile("nekidrip", {pos[1], pos[2]}, nil, nil, nil, parameters(material))
     end
   end
@@ -92,7 +92,7 @@ end
 function validMaterials(material)
   if not matlist then
     matlist=effect.getParameter("ignoreMaterials", {}) end
-  for i, mat in pairs(matlist) do
+  for _, mat in pairs(matlist) do
     if material == mat then
       return false
     end

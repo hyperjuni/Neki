@@ -19,7 +19,7 @@ function onInteraction(args)
   end
 
   local bodyDirectives = ""
-  util.each(world.entityPortrait(args.sourceId, "full"), function(k, v)
+  util.each(world.entityPortrait(args.sourceId, "full"), function(_, v)
   -- Attempt to find body identity
     if (string.find(v.image, "body.png") ~= nil) then
       bodyDirectives = string.match(v.image, '%?replace.*')

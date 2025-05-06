@@ -1,0 +1,25 @@
+name: JSON linter + luacheck
+
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  # Check JSON assets for syntax errors.
+  json-linter:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install dependencies
+        run: ( cd tests/ci && npm install )
+
+      - name: RUN -- npm test
+        run: ( cd tests/ci && npm test )
+
+  # Check Lua files with "luacheck" tool (Lua static analyzer).
+  luacheck:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install dependencies
+        run: sudo apt-get install -y luarocks && sudo luarocks install luacheck
+      - name: RUN -- luacheck .
+        run: luacheck --no-color --quiet .
