@@ -65,6 +65,6 @@ function Punch:cooldownTime()
   return self.fireTime - self.stances.windup.duration - self.stances.fire.duration
 end
 
-function Punch:uninit(unloaded)
+function Punch:uninit()
   self.weapon:setDamage()
 end
