@@ -78,9 +78,9 @@
             "finalVelocity":  [0, 0],
             "approach": [40, 0],
             "layer": "middle",
-            "size": 0.25
+            "size": 0.75
           },
-          "offset": [-1.25, -1.875],
+          "offset": [-1.25, -2],
           "flip": true
         },
         {
@@ -94,9 +94,9 @@
             "finalVelocity":  [0, 0],
             "approach": [40, 0],
             "layer": "middle",
-            "size": 0.25
+            "size": 0.75
           },
-          "offset": [2, -1.875]
+          "offset": [2, -2]
         }
       ]
     },
@@ -115,9 +115,9 @@
             "finalVelocity":  [0, 0],
             "approach": [40, 0],
             "layer": "middle",
-            "size": 0.5
+            "size": 1.0
           },
-          "offset": [4, -1.125]
+          "offset": [4, -0.875]
         },
         {
           "particle": {
@@ -127,9 +127,9 @@
             "destructionTime": 0.2,
             "timeToLive": 0.25,
             "layer": "middle",
-            "size": 0.25
+            "size": 0.75
           },
-          "offset": [-1.75, -1.875],
+          "offset": [-1.75, -2],
           "flip": true
         }
       ]
