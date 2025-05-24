@@ -30,7 +30,7 @@ function onInteraction(args)
   animator.setAnimationState("tail", "on", true)
 
   self._wasFull = true
-  self._skipFrame = 3
+  self._skipFrame = 4
 end
 
 function onNpcInteract(args)
