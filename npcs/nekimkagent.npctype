@@ -2,16 +2,19 @@
   "type": "nekimkagent",
   "baseType": "villageguard",
 
+//  "persistent": false,
+
   "dropPools": ["nekiguardtreasure"],
 
   "scriptConfig": {
     "behaviorConfig": {
-      "greetingChance": 0,
       "hostileDamageTeam": {"type": "enemy", "team": 1}
     },
     "questGenerator": {
       "pools": ["nekicommon"],
       "timeLimit": 1,
+      "questCountRange": [1, 3],
+      "chance" : 0.1,
       "graduation": {
         "nextNpcType": [
           [0.5, "crewmembernekimkagent"],
