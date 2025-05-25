@@ -105,7 +105,7 @@
   {"op": "add", "path": "/greeting/human/neki",
     "value": [
       "Hell yeah, my day just got better!",
-      "How dare you show your face here!?",
+      "How dare you show your face here?!",
       "The hell do you want with us now?",
       "Oh look, it came to us by itself.",
       "What is this.. thing, doing here?",
@@ -478,7 +478,7 @@
       "While I abhor violence, I still deeply respect our warriors.",
       "The longer the journey the more deserved the destination.",
       "While things must be practical, never undervalue beauty.",
-      "The last page of my book is missing! What will I do!?",
+      "The last page of my book is missing! What will I do?!",
       "It's foolish to crave power. Power destroys.",
       "Life without beauty is but empty drudgery.",
       "It is important to remain humble, I find.",

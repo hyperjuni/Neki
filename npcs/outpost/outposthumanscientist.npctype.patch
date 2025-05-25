@@ -6,10 +6,10 @@
   [
     {"op": "add", "path": "/scriptConfig/dialog/converse/human/neki",
       "value": [
-        "You dare show your face here after what happened??",
+        "You dare show your face here after what happened?!",
         "You had something to do with the Earth's destruction, I just know it!",
         "I must find a way to prove it!",
-        "Why are you still here!?"
+        "Why are you still here?!"
       ]
     }
   ]
