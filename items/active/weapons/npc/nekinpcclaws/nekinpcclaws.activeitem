@@ -13,7 +13,9 @@
 
   "inventoryIcon": "/items/active/weapons/neki/icon/nekiclaws4icon.png:front",
   "animation": "/items/active/weapons/neki/nekiclaws5.animation",
-  "animationParts": {"weapon": "/items/active/weapons/neki/claw/nekiclaws4.png"},
+  "animationParts": {
+    "weapon": "/items/active/weapons/neki/claw/nekiclaws4.png"
+  },
 
   "animationCustom": {
     "animatedParts": {
@@ -45,7 +47,7 @@
 // For some reason, NPCs will only use one hand without the combo code
 // Copies of the old scripts and combofinisher are here to fix that
 
-  "scripts": ["/items/active/weapons/npc/nekinpcfistweapon.lua"],
+  "scripts": ["/items/active/weapons/npc/nekinpcclaws/nekinpcfistweapon.lua"],
 
   "needsEdgeTrigger": false,
   "edgeTriggerGrace": 0.1,
@@ -53,14 +55,14 @@
   "comboSteps": 9999,
   "comboTiming": [0.2, 0.5],
   "comboCooldown": 0.2,
-  "comboFinisherSource": "/items/active/weapons/npc/nekinpcpunch.combofinisher",
+  "comboFinisherSource": "/items/active/weapons/npc/nekinpcclaws/nekinpcpunch.combofinisher",
 
   "freezeLimit": 0,
 
   "elementalType" : "physical",
 
   "primaryAbility": {
-    "scripts": ["/items/active/weapons/npc/nekinpcpunch.lua"],
+    "scripts": ["/items/active/weapons/npc/nekinpcclaws/nekinpcpunch.lua"],
     "class": "Punch",
 
     "freezeTime": 0,
