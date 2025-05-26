@@ -3,6 +3,8 @@
     "size": [23, 16],
     "dimensions": [2, 1],
 
-    "names": [["front", "back"]]
+    "names": [
+      ["front", "back"]
+    ]
   }
 }

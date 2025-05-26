@@ -2,6 +2,7 @@
   "frameGrid": {
     "size": [8, 80],
     "dimensions": [8, 1],
+
     "names": [
       ["idle1", "idle2", "idle3", "idle4", "idle5", "idle6", "idle7", "idle8"]
     ]
