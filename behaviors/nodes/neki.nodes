@@ -1,0 +1,37 @@
+// Made by Lofty for Juni <3
+
+{
+  "neki_scriptedOutpostVisitorBehavior": {
+    "type": "action",
+    "name": "neki_scriptedOutpostVisitorBehavior",
+    "title": "neki_scriptedOutpostVisitorBehavior",
+    "category": "neki",
+
+    "properties": {
+      "behavior": {
+        "type": "string",
+        "value": "outpostvisitor"
+      }
+    },
+
+    "script": "/npcs/outpost/visitors/neki_scriptedOutpostVisitorBehavior.lua",
+    "output": {}
+  },
+
+  "neki_scriptedNekiStripesCrewMemberBehavior": {
+    "type": "action",
+    "name": "neki_scriptedNekiStripesCrewMemberBehavior",
+    "title": "neki_scriptedNekiStripesCrewMemberBehavior",
+    "category": "neki",
+
+    "properties": {
+      "behavior": {
+        "type": "string",
+        "value": "nekistripescrewmember"
+      }
+    },
+
+    "script": "/npcs/crew/nekistripescrewmemberbehavior.lua",
+    "output": {}
+  }
+}

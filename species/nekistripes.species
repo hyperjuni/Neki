@@ -1,0 +1,75 @@
+{
+  "kind": "nekistripes",
+  "charCreationTooltip": {
+    "title": "Stripes",
+    "subTitle": "...",
+    "description": "..."
+  },
+
+  "effectDirectives": "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=80f4ffFF?replace=31a6ffFF=39b8e3FF",
+  "nameGen": ["/species/nekistripesnamegen.config:names", "/species/nekistripesnamegen.config:names"],
+  "ouchNoises": ["/sfx/humanoid/nekihurt_female.ogg", "/sfx/humanoid/nekihurt_female.ogg"],
+  "deathNoises": ["/sfx/humanoid/nekidead.ogg"],
+  "skull": "/humanoid/neki/nekidead.png",
+
+  "charGenTextLabels": [
+    "Coat colour",
+    "Hair style",
+    "Sleeves",
+    "Outfit",
+    "Eyes",
+    "Fluff colour",
+    "Sleeve colour",
+    "Outfit colour",
+    "STRIPES",
+    "Idle pose"
+  ],
+
+  "humanoidOverrides": {
+    "headSitOffset": [1, 0],
+    "headDuckOffset": [2, 0],
+    "headLayOffset": [0, 0],
+    "personalities": [
+    // Pose, Arms, Head [x,y], Arms [x,y]
+      ["idle.4", "idle.5", [-1, 0], [0, 0]],
+      ["idle.4", "idle.4", [-1, 0], [0, 0]],
+      ["idle.4", "idle.2", [-1, 0], [0, 0]],
+      ["idle.5", "idle.5", [0, 0], [0, 0]]
+    ],
+  // StarExtensions stuff
+    "useBodyMask": true,
+    "useBodyHeadMask": true,
+    "headSliceY": 25  // Legacy option
+  },
+
+  "genders": [
+    {
+      "name": "male",
+      "image": "/interface/title/nekifemico.png",
+      "characterImage": "/interface/title/nekifemale.png",
+      "hair": ["nekistripeshair"],
+      "shirt": ["invisiblefabricchest"],
+      "pants": ["invisiblefabriclegs"],
+      "facialHairGroup": "",
+      "facialHair": [],
+      "facialMaskGroup": "",
+      "facialMask": []
+    },
+    {
+      "name": "female",
+      "image": "/interface/title/nekifemico.png",
+      "characterImage": "/interface/title/nekifemale.png",
+      "hair": ["nekistripeshair"],
+      "shirt": ["invisiblefabricchest"],
+      "pants": ["invisiblefabriclegs"],
+      "facialHairGroup": "",
+      "facialHair": [],
+      "facialMaskGroup": "",
+      "facialMask": []
+    }
+  ],
+
+  "bodyColor": [{"FFE2C5": "e8cebc", "FFC181": "cfa97d", "D39C6C": "ae774b", "C7815B": "804e34"}],
+  "undyColor": [{"F32200": "599900", "DC1F00": "2a6600", "BE1B00": "043300", "951500": "010f00"}],
+  "hairColor": [{"F7E7B2": "997d6a", "D9C189": "86644a", "A38D59": "684431", "735E3A": "40271d"}]
+}

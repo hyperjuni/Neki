@@ -13,7 +13,7 @@ A little while later, the Neki would start appearing on Earth, seemingly out of 
 The Neki have a playful and often pesky demeanor, always looking for stuff to eat, places to sleep and things to play with. They stand out (among Humans) for having very large eyes and ears, as well as long and powerful tails. Short, soft fur in a variety of colors covers their body, and a lush mane stretches from their heads down to the tips of their tails.
 
 You are one of the Neki.
-How you ended up at the Terrene Protectorate Аcademy, is still unclear.
+How you ended up at the Terrene Protectorate Academy, is still unclear.
 
 ---
 ## Links
@@ -22,8 +22,7 @@ How you ended up at the Terrene Protectorate Аcademy, is still unclear.
 * [Chucklefish Forums version](https://community.playstarbound.com/resources/neki.6147)
 * [Frackin' Universe Patch (NekiFU)](https://github.com/hyperjuni/NekiFU)
 * [Translation template](https://github.com/hyperjuni/Neki-Language-Template)
-* Come chat with us at the [Neki Discord](https://discord.gg/R6tfkazYgb)
-* If you'd like to support me and this project, consider checking out my [Boosty](https://boosty.to/hyperjuni/donate)
+* Come chat with us at the [Neki Discord](https://discord.gg/Neki)
 
 ---
 ## Credits

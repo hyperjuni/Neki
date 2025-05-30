@@ -1,14 +1,31 @@
 [
+// neki
   {"op": "add", "path": "/converse/neki",
     "value": {
       "default": [
         "I like our huge metal box!",
         "Let's just sleep all day.",
-        "What's for  breakfast?",
+        "What's for breakfast?",
         "Can we play today?",
         "Let's go sleep.",
         "I wanna sleep!",
         "I wanna play!",
+        "Purrr...",
+        "Mrrow?"
+      ]
+    }
+  },
+
+// nekistripes
+  {"op": "add", "path": "/converse/nekistripes",
+    "value": {
+      "default": [
+        "Will you spend time with me today?",
+        "Do you have anything I could eat?",
+        "I really like your place!",
+        "Where can I sleep?",
+        "Let's go to bed.",
+        "^gray;*purrs softly*^reset;",
         "Purrr...",
         "Mrrow?"
       ]

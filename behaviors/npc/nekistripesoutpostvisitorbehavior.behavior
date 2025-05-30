@@ -1,0 +1,36 @@
+// Made by Lofty for Juni <3
+
+{
+  "name": "neki_scriptedOutpostVisitorBehavior",
+  "description": "",
+
+  "scripts": [
+    "/scripts/actions/animator.lua",
+    "/scripts/actions/time.lua",
+    "/scripts/actions/movement.lua",
+    "/npcs/outpost/visitors/neki_scriptedOutpostVisitorBehavior.lua"
+  ],
+
+  "parameters": {
+    "play": true
+  },
+
+  "root": {
+    "title": "sequence",
+    "type": "composite",
+    "name": "sequence",
+    "parameters": {},
+    "children": [
+      {
+        "title": "neki_scriptedOutpostVisitorBehavior",
+        "type": "action",
+        "name": "neki_scriptedOutpostVisitorBehavior",
+        "parameters": {
+          "behavior": {
+            "value": "outpostvisitor"
+          }
+        }
+      }
+    ]
+  }
+}

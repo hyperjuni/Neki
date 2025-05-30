@@ -1,4 +1,5 @@
 [
+// helpme
   {"op": "add", "path": "/helpme/neki",
     "value": {
       "default": [
@@ -6,6 +7,15 @@
       ]
     }
   },
+  {"op": "add", "path": "/helpme/nekistripes",
+    "value": {
+      "default": [
+        "^gray;*scared roar*^reset;"
+      ]
+    }
+  },
+
+// safe
   {"op": "add", "path": "/safe/neki",
     "value": {
       "default": [
@@ -14,6 +24,16 @@
         "I need to sleep this off.",
         "I need some food now.",
         "That was stressful!"
+      ]
+    }
+  },
+  {"op": "add", "path": "/safe/nekistripes",
+    "value": {
+      "default": [
+        "I knew I shouldn't have done that.",
+        "I need to be more careful...",
+        "I think I'm okay...",
+        "I'm so sorry!"
       ]
     }
   }

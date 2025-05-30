@@ -2,7 +2,30 @@
 
 // --------------- NPCs greeting Neki player ---------------
 
+// neki
   {"op": "add", "path": "/greeting/default/neki",
+    "value": [
+      "Excuse me.",
+      "Hey there.",
+      "Hey there!",
+      "Uh, hello.",
+      "Well, hi.",
+      "Hello?",
+      "Hello.",
+      "Gah..!",
+      "Hmm?",
+      "Hey!",
+      "Hm?",
+      "Hi!",
+      "Oh.",
+      "...",
+      "..!",
+      "..?"
+    ]
+  },
+
+// nekistripes
+  {"op": "add", "path": "/greeting/default/nekistripes",
     "value": [
       "Excuse me.",
       "Hey there.",
@@ -41,7 +64,7 @@
       "Nice tail.",
       "Excuse me.",
       "Hello...",
-      "*stares*"
+      "^gray;*stares*^reset;"
     ]
   },
 
@@ -105,7 +128,7 @@
   {"op": "add", "path": "/greeting/human/neki",
     "value": [
       "Hell yeah, my day just got better!",
-      "How dare you show your face here?!",
+      "How dare you show your face here!?",
       "The hell do you want with us now?",
       "Oh look, it came to us by itself.",
       "What is this.. thing, doing here?",
@@ -163,6 +186,7 @@
 
 // --------------- Neki NPCs greeting player ---------------
 
+// neki
   {"op": "add", "path": "/greeting/neki",
     "value": {
       "default": [
@@ -192,7 +216,66 @@
     }
   },
 
+// nekistripes
+  {"op": "add", "path": "/greeting/nekistripes",
+    "value": {
+      "default": [
+        "Come back with more food!",
+        "I wish you happy hunting!",
+        "You have a strong odour.",
+        "Did you feed me yet..?",
+        "Where are the snacks?",
+        "Do you like to play?",
+        "Do you like my fur?",
+        "Where are the toys?",
+        "What's for dinner?",
+        "Do you have food?",
+        "Got toys for me?",
+        "You smell weird.",
+        "Got any boxes?",
+        "I'm sleepy...",
+        "Hiss! Mrrow?",
+        "Wanna play?",
+        "Feed me..?",
+        "Feed me!",
+        "Purrr..",
+        "Mrrow?",
+        "Heya!",
+        "Hey!"
+      ]
+    }
+  },
+
+// neki
   {"op": "add", "path": "/greeting/neki/generic",
+    "value": [
+      "Come back with more food!",
+      "I wish you happy hunting!",
+      "You have a strong odour.",
+      "Did you feed me yet..?",
+      "Where are the snacks?",
+      "Do you like to play?",
+      "Where are the toys?",
+      "Do you like my fur?",
+      "What's for dinner?",
+      "Do you have food?",
+      "Got toys for me?",
+      "You smell weird.",
+      "Got any boxes?",
+      "I'm sleepy...",
+      "Hiss! Mrrow?",
+      "Wanna play?",
+      "Feed me..?",
+      "Feed me!",
+      "Purrr..",
+      "Mrrow?",
+      "Heya!",
+      "Hey!"
+    ]
+  },
+
+// nekistripes
+  {"op": "add", "path": "/greeting/nekistripes/generic",
     "value": [
       "Come back with more food!",
       "I wish you happy hunting!",
@@ -221,9 +304,20 @@
 
 // --------------- NPCs conversing with Neki player ---------------
 
+// neki
   {"op": "add", "path": "/converse/default/neki",
     "value": [
       "Hello, Neki.",
+      "Greetings!",
+      "Hello.",
+      "Hi."
+    ]
+  },
+
+// nekistripes
+  {"op": "add", "path": "/converse/default/nekistripes",
+    "value": [
+      "Hello there.",
       "Greetings!",
       "Hello.",
       "Hi."
@@ -478,7 +572,7 @@
       "While I abhor violence, I still deeply respect our warriors.",
       "The longer the journey the more deserved the destination.",
       "While things must be practical, never undervalue beauty.",
-      "The last page of my book is missing! What will I do?!",
+      "The last page of my book is missing! What will I do!?",
       "It's foolish to crave power. Power destroys.",
       "Life without beauty is but empty drudgery.",
       "It is important to remain humble, I find.",
@@ -513,13 +607,14 @@
 
 // --------------- Neki NPCs conversing with player ---------------
 
+// neki
   {"op": "add", "path": "/converse/neki",
     "value": {
       "default": [
         "Like how soft my fur is? I just licked it.",
         "Today was fun, but I should've slept more!",
-        "*sniffs*\nYou don't smell interesting.",
-        "*sniffs*\nI like the way you smell.",
+        "^gray;*sniffs*^reset;\nYou don't smell interesting.",
+        "^gray;*sniffs*^reset;\nI like the way you smell.",
         "Okay, so wherre's the food at..?",
         "Are you cold? Because I'm not.",
         "What's that you've got there?",
@@ -543,12 +638,35 @@
     }
   },
 
+// nekistripes
+  {"op": "add", "path": "/converse/nekistripes",
+    "value": {
+      "default": [
+        "Feel how soft my fur is... I just licked it!",
+        "Today was fun, but I should've slept more.",
+        "Could you please scratch behind my ear?",
+        "Is there anything to eat around here?",
+        "^gray;*sniffs*^reset;\nYou smell so interesting!",
+        "^gray;*sniffs*^reset;\nI like the way you smell.",
+        "Do you have something for me?",
+        "Don't touch my tail, please.",
+        "Do you have anything tasty?",
+        "My paws are itchy.",
+        "My ear is itchy.",
+        "^gray;*purrs softly*^reset;",
+        "Mrrrow?",
+        "Mrr?"
+      ]
+    }
+  },
+
+// neki
   {"op": "add", "path": "/converse/neki/generic",
     "value": [
       "Like how soft my fur is? I just licked it.",
       "Today was fun, but I should've slept more!",
-      "*sniffs*\nYou don't smell interesting.",
-      "*sniffs*\nI like the way you smell.",
+      "^gray;*sniffs*^reset;\nYou don't smell interesting.",
+      "^gray;*sniffs*^reset;\nI like the way you smell.",
       "Okay, so wherre's the food at..?",
       "Are you cold? Because I'm not.",
       "What's that you've got there?",
@@ -566,6 +684,26 @@
       "*purrs softly*",
       "My claws itch.",
       "Arre you fun?",
+      "Mrrrow?",
+      "Mrr?"
+    ]
+  },
+
+// nekistripes
+  {"op": "add", "path": "/converse/nekistripes/generic",
+    "value": [
+      "Feel how soft my fur is... I just licked it!",
+      "Today was fun, but I should've slept more.",
+      "Could you please scratch behind my ear?",
+      "Is there anything to eat around here?",
+      "^gray;*sniffs*^reset;\nYou smell so interesting!",
+      "^gray;*sniffs*^reset;\nI like the way you smell.",
+      "Do you have something for me?",
+      "Don't touch my tail, please.",
+      "Do you have anything tasty?",
+      "My paws are itchy.",
+      "My ear is itchy.",
+      "^gray;*purrs softly*^reset;",
       "Mrrrow?",
       "Mrr?"
     ]

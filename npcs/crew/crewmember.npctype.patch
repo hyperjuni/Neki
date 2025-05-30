@@ -1,14 +1,28 @@
 [
+// offer
   {"op": "add", "path": "/scriptConfig/dialog/crewmember/offer/neki",
     "value": {
       "default": [
-        "So how's the food at your place?",
+        "So, how's the food at your place?",
         "Alright, show me your place.",
         "You're taking me with you.",
         "You know you want me."
       ]
     }
   },
+  {"op": "add", "path": "/scriptConfig/dialog/crewmember/offer/nekistripes",
+    "value": {
+      "default": [
+        "This place is so scary...",
+        "I won't be a bother...",
+        "Please don't leave me!",
+        "Don't leave me here!",
+        "I'm so scared..."
+      ]
+    }
+  },
+
+// roleDescription
   {"op": "add", "path": "/scriptConfig/dialog/crewmember/roleDescription/neki",
     "value": {
       "default": [
@@ -21,6 +35,20 @@
       ]
     }
   },
+  {"op": "add", "path": "/scriptConfig/dialog/crewmember/roleDescription/nekistripes",
+    "value": {
+      "default": [
+        "May I come on adventures with you?",
+        "Thank you for bringing me along!",
+        "I'll try my best to be helpful!",
+        "I'll do my best to be useful!",
+        "Your place is murrvellous!",
+        "Where do we sleep?"
+      ]
+    }
+  },
+
+// respawned
   {"op": "add", "path": "/scriptConfig/dialog/crewmember/respawned/neki",
     "value": {
       "default": [
@@ -34,6 +62,21 @@
       ]
     }
   },
+  {"op": "add", "path": "/scriptConfig/dialog/crewmember/respawned/nekistripes",
+    "value": {
+      "default": [
+        "Let's NOT do that again!",
+        "I missed this place!",
+        "Let's go to bed now.",
+        "That was terrifying!",
+        "My ear is broken...",
+        "I was so scared!",
+        "I need a hug..."
+      ]
+    }
+  },
+
+// unfollow
   {"op": "add", "path": "/scriptConfig/dialog/crewmember/unfollow/neki",
     "value": {
       "default": [
@@ -48,6 +91,22 @@
       ]
     }
   },
+  {"op": "add", "path": "/scriptConfig/dialog/crewmember/unfollow/nekistripes",
+    "value": {
+      "default": [
+        "I'll feel so lonely without you...",
+        "Go on, I'll be fine... I hope.",
+        "But I'll miss you too much!",
+        "I'll try to sleep it off...",
+        "I really wanted to come...",
+        "Please don't leave me yet!",
+        "Why are you leaving me?",
+        "Please don't leave me!"
+      ]
+    }
+  },
+
+// follow
   {"op": "add", "path": "/scriptConfig/dialog/crewmember/follow/neki",
     "value": {
       "default": [
@@ -65,6 +124,24 @@
       ]
     }
   },
+  {"op": "add", "path": "/scriptConfig/dialog/crewmember/follow/nekistripes",
+    "value": {
+      "default": [
+        "Murrvellous!",
+        "Adventures!",
+        "I'm coming!",
+        "Outside..?",
+        "Purrfect!",
+        "Let's go!",
+        "Woo-hoo!",
+        "^gray;*roars*^reset;",
+        "Yaay!",
+        "Yay!"
+      ]
+    }
+  },
+
+// cantreach
   {"op": "add", "path": "/scriptConfig/dialog/crewmember/cantreach/neki",
     "value": {
       "default": [
@@ -75,7 +152,21 @@
         "I like this thing.",
         "Fascinating.",
         "Interesting.",
-        "*stares*"
+        "^gray;^gray;*stares*^reset;^reset;"
+      ]
+    }
+  },
+  {"op": "add", "path": "/scriptConfig/dialog/crewmember/cantreach/nekistripes",
+    "value": {
+      "default": [
+        "Come back, it's nicer over here!",
+        "Wait for me! I need to pee...",
+        "I like this thingy.",
+        "Ohh, what's that?",
+        "Where did you go?",
+        "Don't leave me!",
+        "I'm scared!",
+        "^gray;*cries*^reset;"
       ]
     }
   }

@@ -1,4 +1,4 @@
--- Created by Erina Sugino for Juni <3
+-- Made by Erina Sugino for Juni <3
 -- A bug squashed by Khe <3
 
 require "/tech/doubletap.lua"

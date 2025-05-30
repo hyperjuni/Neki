@@ -1,0 +1,74 @@
+{
+  "type": "nekistripescrewmember",
+  "baseType": "crewmember",
+
+// for testing only
+  "persistent": false,
+
+  "identity": {
+    "name": "Stripes",
+    "gender": "female",
+    "hairGroup": "hair",
+    "hairType": "nekistripeshair"
+  },
+
+  "scriptConfig": {
+
+    //what Stripes says if you try to recruit another copy of her
+    "nekiStripesMultipleRecruitmentDisallowedText": "But I am already on your crew, silly!",
+
+    "behavior": "neki_scriptedNekiStripesCrewMemberBehavior",
+    "crew": {
+      "role": {
+        "name": "Tiger",
+        "field": "Being Adorable"
+      },
+
+      "ranks": [
+        "Not your average <role>",
+        "The <role> you deserve",
+        "Proficient in <field>",
+        "One-of-a-kind <role>",
+        "Master of <field>",
+        "Adept at <field>"
+      ],
+
+      "defaultUniform": {
+        "chest": "invisiblefabricchest",
+        "legs": "invisiblefabriclegs"
+      },
+
+      "uniformSlots": []
+    },
+
+    "combat": {
+      "meleeWeaponWindups": {"default": 0.0},
+      "meleeWeaponCooldowns": {"default": 0.0}
+    }
+  },
+
+  "movementParameters": {"runSpeed": 22.0},
+
+  "items": {
+    "nekistripes": [
+      [0,
+        [
+          {
+            "chest": [{"name": "invisiblefabricchest"}],
+            "legs": [{"name": "invisiblefabriclegs"}],
+            "primary": [""],
+            "alt": [""],
+            "sheathedprimary": ["nekinpcclaws"],
+            "sheathedalt": ["nekinpcclaws"]
+          }
+        ]
+      ]
+    ]
+  },
+
+  "statusControllerSettings": {
+    "stats": {
+      "powerMultiplier": {"baseValue": 1.0}
+    }
+  }
+}

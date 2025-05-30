@@ -1,4 +1,4 @@
--- Created by Kherae for Juni <3
+-- Made by Kherae for Juni <3
 -- Refined by Bottinator22 <3
 
 local oldUpdate = update

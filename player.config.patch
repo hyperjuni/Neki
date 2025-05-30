@@ -1,10 +1,15 @@
 [
   [
     {"op": "add", "path": "/species/-", "value": "neki"},
+    {"op": "add", "path": "/species/-", "value": "nekistripes"},
+
     {"op": "add", "path": "/defaultCodexes/neki", "value": ["nekiprot1", "nekiprot2"]},
+
     {"op": "add", "path": "/deploymentConfig/scripts/-", "value": "/scripts/DeathSoundHandler.lua"},
-    {"op": "add", "path": "/companionsConfig/scripts/-", "value": "/scripts/neki/nekihopsoverride.lua"},
     {"op": "add", "path": "/deploymentConfig/scripts/-", "value": "/scripts/neki/nekinightvision.lua"},
-    {"op": "add", "path": "/deploymentConfig/speciesStarterMechBody/neki", "value": "mechbodyapexproto"}
+    {"op": "add", "path": "/deploymentConfig/speciesStarterMechBody/neki", "value": "mechbodyapexproto"},
+
+    {"op": "add", "path": "/companionsConfig/scripts/-", "value": "/scripts/neki/nekihopsoverride.lua"},
+    {"op": "add", "path": "/companionsConfig/scripts/-", "value": "/scripts/neki/nekistripesrecruit.lua"}
   ]
 ]  

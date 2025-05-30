@@ -1,0 +1,28 @@
+{
+  "id": "nekistripesquest",
+  "prerequisites": [],
+  "title": "A tiger from another realm",
+  "text": "I was just going about my day, when all of a sudden the world went all dark and spinny...\nThe next ting I knew - I woke up in that strange metal wardrobe!\n\nI have no idea where I am or what to do...\n\nEveryone is giving me strange looks and I'm scared... May I please come with you?",
+  "completionText": "She seems lost and genuinely terrified.\nLet's hope she can feel safer and more comfortable aboard the ship.",
+  "rewards": [[]],
+  "ephemeral": true,
+
+  "script": "/quests/scripts/nekistripesautograduate.lua",
+  "updateDelta": 10,
+
+  "parameters": {"questGiver": {"type": "entity"}},
+  "scriptConfig": {
+    "portraits": {
+      "questStarted": "questGiver",
+      "questComplete": "player"
+    },
+
+    "requireTurnIn": false,
+
+    "compassUpdate": 0.2,
+    "descriptions": {
+      "findStripes": "Find ^orange;Stripes^reset; at the Outpost and add her to your crew.",
+      "alreadyHaveStripes": "Stripes is already a part of your crew."
+    }
+  }
+}

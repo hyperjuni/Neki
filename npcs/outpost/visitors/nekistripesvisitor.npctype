@@ -1,0 +1,66 @@
+{
+  "type": "nekistripesvisitor",
+  "baseType": "base",
+  "damageTeamType": "friendly",
+
+// for testing only
+  "persistent": false,
+
+  "identity": {
+    "name": "Stripes",
+    "gender": "female",
+    "hairGroup": "hair",
+    "hairType": "nekistripeshair"
+  },
+
+  "scriptConfig": {
+    "behavior": "neki_scriptedOutpostVisitorBehavior",
+    "behaviorConfig": {
+      "greetingChance": 0,
+      "stayTime": [600, 900]
+    },
+
+    "questGenerator": {
+      "graduation": {
+        "nextNpcType": [
+          [1.0, "nekistripescrewmember"]
+        ]
+      }
+    },
+
+    "dialog": {
+      "converse": {
+        "default": {
+          "default": [
+            "Oh no, this isn't my body!"
+          ]
+        },
+        "nekistripes": {
+          "default": [
+            "Hey, I'm ^orange;<selfname>^reset;! What is this place?"
+          ]
+        }
+      },
+
+      "flee": {
+        "helpme": "/dialog/outpost.config:flee.helpme",
+        "helpthem": "/dialog/outpost.config:flee.helpthem",
+        "encourage": "/dialog/outpost.config:flee.encourage",
+        "safe": "/dialog/outpost.config:flee.safe"
+      }
+    }
+  },
+
+  "items": {
+    "override": [
+      [0,[
+        {
+          "head": [{"name": "invisiblefabrichead"}],
+          "back": [{"name": "invisiblefabricback"}],
+          "chest": [{"name": "invisiblefabricchest"}],
+          "legs": [{"name": "invisiblefabriclegs"}]
+        }
+      ]]
+    ]
+  }
+}

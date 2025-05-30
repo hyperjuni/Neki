@@ -1,1 +1,12 @@
-[{"op":"add","path":"/nekiDescription","value":"A shiny telepurrter! I should get it marked."}]
+[
+  {"op": "add", "path": "/nekiDescription",
+    "value": "A shiny telepurrter! I should get it marked."
+  },
+
+  {"op": "add", "path": "/npctypes/-",
+    "value": {
+      "type": "nekistripesvisitor",
+      "species": ["nekistripes"]
+    }
+  }
+]

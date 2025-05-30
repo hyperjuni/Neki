@@ -1,13 +1,26 @@
 [
+// tagCriteria
   {"op": "add", "path": "/tagCriteria/neki",
     "value": {
       "default": [
         "Put my stuff back!",
         "You brroke everything!",
-        "Where'd you put my toys?!"
+        "Where'd you put my toys!?"
       ]
     }
   },
+  {"op": "add", "path": "/tagCriteria/nekistripes",
+    "value": {
+      "default": [
+        "Please don't take my toys...",
+        "Where are you taking it..?",
+        "Aww, it's broken now...",
+        "^gray;*frustrated roar*^reset;"
+      ]
+    }
+  },
+
+// enclosedArea
   {"op": "add", "path": "/enclosedArea/neki",
     "value": {
       "default": [
@@ -17,15 +30,37 @@
       ]
     }
   },
+  {"op": "add", "path": "/enclosedArea/nekistripes",
+    "value": {
+      "default": [
+        "My little home used to be so cozy before you did that...",
+        "My home is a little brroken...",
+        "Can you please fix my home?"
+      ]
+    }
+  },
+
+// otherDeed
   {"op": "add", "path": "/otherDeed/neki",
     "value": {
       "default": [
         "Khhh! I won't share my home!",
-        "Why is there a smelly stranger in my home?!",
+        "Why is there a smelly stranger in my home!?",
         "If someone moves in, they'll become my dinner."
       ]
     }
   },
+  {"op": "add", "path": "/otherDeed/nekistripes",
+    "value": {
+      "default": [
+        "But the only company I'd ever allow in here is you...",
+        "You want me to move out? Did I do something wrong?",
+        "Do you hate me being here? Why..?"
+      ]
+    }
+  },
+
+// severe
   {"op": "add", "path": "/severe/neki",
     "value": {
       "default": [
@@ -35,12 +70,31 @@
       ]
     }
   },
+  {"op": "add", "path": "/severe/nekistripes",
+    "value": {
+      "default": [
+        "This place has become so windy and scary, I don't feel safe anymore.",
+        "I don't think I'll be able to stay here much longer like this...",
+        "Could you please do something about this broken little place?"
+      ]
+    }
+  },
+
+// final
   {"op": "add", "path": "/final/neki",
     "value": {
       "default": [
         "I give up, I'll go live in a box instead.",
         "Living here has been terrible, I can't do it anymore...",
         "You clearly don't love me enough, so I'll go find someone who does!"
+      ]
+    }
+  },
+  {"op": "add", "path": "/final/nekistripes",
+    "value": {
+      "default": [
+        "I'm so sorry, but I cannot stay here any longer. I wish you all the best...",
+        "I thought you loved me, but I was probably wrong... Again."
       ]
     }
   }

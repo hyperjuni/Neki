@@ -1,3 +1,5 @@
+// Made by Erina Sugino for Juni <3
+
 [
   [
     {"op": "add", "path":"/scripts/-", "value": "/scripts/neki/nekibadger.lua"}

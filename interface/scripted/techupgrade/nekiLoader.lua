@@ -1,4 +1,4 @@
--- created by TeksFox
+-- Made by TeksFox for Juni <3
 
 local oldinit = init
 

@@ -12,8 +12,8 @@
     },
     "questGenerator": {
       "pools": ["nekicommon"],
-      "timeLimit": 1,
-      "questCountRange": [1, 3],
+      "questCountRange": [2, 4],
+      "timeLimit": 3,
       "chance" : 0.1,
       "graduation": {
         "nextNpcType": [
@@ -34,7 +34,7 @@
           "default": [
             "You smell.. unfamiliarr.",
             "Purrceed.",
-            "*sniffs*",
+            "^gray;*sniffs*^reset;",
             "Mrr..?"
           ],
           "apex": [

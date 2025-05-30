@@ -120,11 +120,23 @@
 
 // --------------- Neki NPCs hailing player ---------------
 
+// neki
   {"op": "add", "path": "/hail/neki",
     "value": {
       "default": [
         "What even are you?",
-        "*sniffs*",
+        "^gray;*sniffs*^reset;",
+        "Khhh!"
+      ]
+    }
+  },
+
+// nekistripes
+  {"op": "add", "path": "/hail/nekistripes",
+    "value": {
+      "default": [
+        "What are you?",
+        "^gray;*sniffs*^reset;",
         "Khhh!"
       ]
     }
@@ -136,7 +148,7 @@
       "Your smell makes me hungry.",
       "Smells like poultry.",
       "I smell food.",
-      "*sniffs*",
+      "^gray;*sniffs*^reset;",
       "Khhh!"
     ]
   },
@@ -145,7 +157,7 @@
     "value": [
       "What's that suspicious smell?",
       "I smell a trraitor.",
-      "*sniffs*",
+      "^gray;*sniffs*^reset;",
       "Khhh!"
     ]
   },
@@ -155,7 +167,7 @@
       "Mrr, the smell of fresh grass and blood!",
       "I can smell frresh blood on you!",
       "What's that lovely smell?",
-      "*sniffs*",
+      "^gray;*sniffs*^reset;",
       "Khhh!"
     ]
   },
@@ -164,7 +176,7 @@
     "value": [
       "Mrr, smells like grease.",
       "Smells like toys!",
-      "*sniffs*",
+      "^gray;*sniffs*^reset;",
       "Khhh!"
     ]
   },
@@ -172,7 +184,7 @@
   {"op": "add", "path": "/hail/neki/human",
     "value": [
       "Hello fellow human.",
-      "*sniffs*",
+      "^gray;*sniffs*^reset;",
       "Khhh!"
     ]
   },
@@ -183,7 +195,7 @@
       "Your smell makes me hungry.",
       "Smells like seafood.",
       "I smell food.",
-      "*sniffs*",
+      "^gray;*sniffs*^reset;",
       "Khhh!"
     ]
   },
@@ -191,7 +203,7 @@
   {"op": "add", "path": "/hail/neki/novakid",
     "value": [
       "Did someone start a fire?",
-      "*sniffs*",
+      "^gray;*sniffs*^reset;",
       "Khhh!"
     ]
   },
@@ -199,7 +211,7 @@
   {"op": "add", "path": "/hail/neki/neki",
     "value": [
       "Something smells familiarr.",
-      "*sniffs*",
+      "^gray;*sniffs*^reset;",
       "Khhh!"
     ]
   }

@@ -1,15 +1,28 @@
 [
+// reattack
   {"op": "add", "path": "/reattack/neki",
     "value": {
       "default": [
         "Time to resume the hunt!",
         "The prrey came back!",
         "Hello again, prey.",
-        "You're back?!",
+        "You're back!?",
         "You again!"
       ]
     }
   },
+  {"op": "add", "path": "/reattack/nekistripes",
+    "value": {
+      "default": [
+        "I will smack you some more!",
+        "You dare to come back?!",
+        "It's back!",
+        "You again!"
+      ]
+    }
+  },
+
+// attack
   {"op": "add", "path": "/attack/neki",
     "value": {
       "default": [
@@ -23,6 +36,18 @@
       ]
     }
   },
+  {"op": "add", "path": "/attack/nekistripes",
+    "value": {
+      "default": [
+        "^gray;*roars*^reset; Get it!",
+        "Wrrawww!",
+        "^gray;*roars*^reset;",
+        "Khhhh!"
+      ]
+    }
+  },
+
+// killedTarget
   {"op": "add", "path": "/killedTarget/neki",
     "value": {
       "default": [
@@ -36,6 +61,21 @@
       ]
     }
   },
+  {"op": "add", "path": "/killedTarget/nekistripes",
+    "value": {
+      "default": [
+        "Purroblem solved.",
+        "Fur untouched.",
+        "That was fun!",
+        "Murrvellous.",
+        "Purrfect.",
+        "^gray;*yawns*^reset;",
+        "Mrreh."
+      ]
+    }
+  },
+
+// lostTarget
   {"op": "add", "path": "/lostTarget/neki",
     "value": {
       "default": [
@@ -48,6 +88,19 @@
       ]
     }
   },
+  {"op": "add", "path": "/lostTarget/nekistripes",
+    "value": {
+      "default": [
+        "You can't hide from me!",
+        "Come out, rrright now!",
+        "I can smell you!",
+        "Where'd you go?!",
+        "^gray;*frustrated roar*^reset;"
+      ]
+    }
+  },
+
+// outOfSight
   {"op": "add", "path": "/outOfSight/neki",
     "value": {
       "default": [
@@ -57,6 +110,17 @@
       ]
     }
   },
+  {"op": "add", "path": "/outOfSight/nekistripes",
+    "value": {
+      "default": [
+        "It's getting away!",
+        "Where is it...",
+        "^gray;*frustrated roar*^reset;"
+      ]
+    }
+  },
+
+// cantReach
   {"op": "add", "path": "/cantReach/neki",
     "value": {
       "default": [
@@ -69,12 +133,39 @@
       ]
     }
   },
+  {"op": "add", "path": "/cantReach/nekistripes",
+    "value": {
+      "default": [
+        "That won't save you!",
+        "I'm coming for you!",
+        "Get back here!",
+        "I'll get you!",
+        "Come closer!",
+        "Come here!",
+        "^gray;*frustrated roar*^reset;"
+      ]
+    }
+  },
+
+// cheerOn
   {"op": "add", "path": "/cheerOn/neki",
     "value": {
       "default": [
         "Save some for me!",
         "Get the prrey!",
         "I'm excited!",
+        "Get them!",
+        "Come on!",
+        "Get it!"
+      ]
+    }
+  },
+  {"op": "add", "path": "/cheerOn/nekistripes",
+    "value": {
+      "default": [
+        "Let me at them!",
+        "Get them good!",
+        "I'm scared!",
         "Get them!",
         "Come on!",
         "Get it!"

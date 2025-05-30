@@ -1,9 +1,9 @@
--- Created by Erina Sugino for Juni <3
+-- Made by Erina Sugino for Juni <3
 
 neki_hasItemTag = hasItemTag
 
 function hasItemTag(args, board)
-  if npc.species() == "neki" and args.tag == "captainschair" then
+  if npc.species() == "neki" or npc.species() == "nekistripes" and args.tag == "captainschair" then
     return false
   end
   return neki_hasItemTag(args, board)

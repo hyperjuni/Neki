@@ -1,0 +1,36 @@
+// Made by Lofty for Juni <3
+
+{
+  "name": "neki_scriptedNekiStripesCrewMemberBehavior",
+  "description": "",
+
+  "scripts": [
+    "/scripts/actions/animator.lua",
+    "/scripts/actions/time.lua",
+    "/scripts/actions/movement.lua",
+    "/npcs/crew/nekistripescrewmemberbehavior.lua"
+  ],
+
+  "parameters": {
+    "play": true
+  },
+
+  "root": {
+    "title": "sequence",
+    "type": "composite",
+    "name": "sequence",
+    "parameters": {},
+    "children": [
+      {
+        "title": "neki_scriptedNekiStripesCrewMemberBehavior",
+        "type": "action",
+        "name": "neki_scriptedNekiStripesCrewMemberBehavior",
+        "parameters": {
+          "behavior": {
+            "value": "crewmember"
+          }
+        }
+      }
+    ]
+  }
+}
