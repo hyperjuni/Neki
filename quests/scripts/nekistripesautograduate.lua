@@ -108,7 +108,7 @@ function update(dt)
       local nearbyNPCs = world.npcQuery(mcontroller.position(),500)
 
       --  loop through results
-      for k, v in pairs(nearbyNPCs) do
+      for _, v in pairs(nearbyNPCs) do
 
         --  check to see if it's the right type of npc
         local npcType = world.npcType(v)
