@@ -45,7 +45,6 @@ function graduate(args)
 
         --  set up the replacement npc
         local newUniqueId = sb.makeUuid()
-        local newEntityId = 
         world.spawnNpc
         (
           entity.position(), 

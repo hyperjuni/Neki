@@ -12,8 +12,8 @@ ignore = {
 	"612",
 	"614",
 
-	-- Expected "unused" warnings
-	"212/dt" -- "unused argument dt"
+	-- "unused argument" warnings
+	"212"
 }
 
 -- These global variables are allowed.
