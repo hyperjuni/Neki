@@ -9,7 +9,7 @@
     "value": [
       "The ceremony is starting, hurry up!",
       "Remember, the name of the Grand Protector is Leda Portia.",
-      "*sigh*\nI really hope this Neki will keep it together for once...",
+      "^gray;*sighs*^reset;\nI really hope this Neki will keep it together for once...",
       "Hm..? Pardon, I was just thinking out loud.",
       "Hurry up, <entityname>!",
       "Go on!"

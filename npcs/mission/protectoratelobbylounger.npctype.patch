@@ -11,7 +11,7 @@
       "Why are you still here?",
       "Go bother someone else.",
       "For the love of all that's shiny, just leave me alone!",
-      "*sigh*"
+      "^gray;*sighs*^reset;"
     ]
   }
 ]

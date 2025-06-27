@@ -1,1 +1,1 @@
-[{"op":"add","path":"/nekiDescription","value":"*poke*\nOh, I can see through now."}]
+[{"op":"add","path":"/nekiDescription","value":"^gray;*pokes*^reset;\nOh, I can see through now."}]
