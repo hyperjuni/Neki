@@ -13,7 +13,8 @@ ignore = {
 	"614",
 
 	-- "unused argument" warnings
-	"212"
+	"212",
+	"213"
 }
 
 -- These global variables are allowed.
