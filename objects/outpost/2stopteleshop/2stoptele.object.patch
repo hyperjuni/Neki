@@ -14,11 +14,5 @@
       "type": "nekistripesvisitor",
       "species": ["nekistripes"]
     }
-  },
-  {"op": "add", "path": "/npctypes/-",
-    "value": {
-      "type": "nekistripesvisitor",
-      "species": ["nekistripes"]
-    }
   }
 ]
