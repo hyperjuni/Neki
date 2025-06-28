@@ -1,0 +1,25 @@
+// Made by Lofty for Juni <3
+
+{
+  "metadata": {
+    "name": "outpost_nekistripestail",
+    "species": "generic",
+    "rules": [],
+
+    "anchor": ["outpost_nekistripestail"],
+
+    "maxRadius": 1000000,
+    "maxParts": 1,
+    "protected": true
+  },
+
+  "parts": [
+    {
+      "name": "outpost_nekistripestail",
+      "rules": [
+        ["maxSpawnCount", [1]]
+      ],
+      "def": ["tmx", "outpost_nekistripestail.json"]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "animatedParts": {
+    "stateTypes": {
+      "movement": {
+        "priority": 0,
+        "default": "idle",
+        "states": {
+          "idle": {
+            "frames": 1
+          },
+
+          "hide": {
+            "frames": 1
+          },
+
+          "tail_wait": {
+            "frames": 1
+          },
+
+          "tail_show": {
+            "frames": 5,
+            "cycle": 0.25,
+            "mode": "transition",
+            "transition": "idle"
+          },
+
+          "tail_hide": {
+            "frames": 5,
+            "cycle": 0.25,
+            "mode": "transition",
+            "transition": "hide"
+          }
+        }
+      }
+    },
+
+    "parts": {
+      "body": {
+        "properties": {
+          "rotationGroup": "body"
+        },
+        "partStates": {
+          "movement": {
+            "idle": {
+              "properties": {
+                "image": "<partImage>:idle.<frame>"
+              }
+            },
+
+            "hide": {
+              "properties": {
+                "image": "<partImage>:hide.<frame>"
+              }
+            },
+
+            "tail_wait": {
+              "properties": {
+                "image": "<partImage>:hide.<frame>"
+              }
+            },
+ 
+
+           "tail_show": {
+              "properties": {
+                "image": "<partImage>:tail_show.<frame>"
+              }
+            },
+
+            "tail_hide": {
+              "properties": {
+                "image": "<partImage>:tail_hide.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "rotationGroups": {
+    "body": {
+      "rotationCenter": [0, 0],
+      "angularVelocity": 5
+    }
+  },
+
+  "sounds": {
+    "appear": [
+      "/sfx/humanoid/neki_chatter_female1.ogg",
+      "/sfx/humanoid/neki_chatter_female2.ogg"
+    ],
+    "interact": [
+      "/sfx/humanoid/nekistripes_annoyed1.ogg",
+      "/sfx/humanoid/nekistripes_annoyed2.ogg"
+    ]
+  }
+}

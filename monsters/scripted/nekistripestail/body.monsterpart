@@ -1,0 +1,9 @@
+{
+  "name": "nekistripestail",
+  "category": "nekistripestail",
+  "type": "body",
+
+  "frames": {
+    "body": "nekistripestail.png"
+  }
+}

@@ -1,0 +1,20 @@
+// Made by Lofty for Juni <3
+
+{
+  "nekistripestailbehavior": {
+    "type": "action",
+    "name": "nekistripestailbehavior",
+    "title": "nekistripestailbehavior",
+    "category": "neki",
+
+    "properties": {
+      "behavior": {
+        "type": "string",
+        "value": "walkingcritter"
+      }
+    },
+
+    "script": "/monsters/scripted/nekistripestail/nekistripestailbehavior.lua",
+    "output": {}
+  }
+}

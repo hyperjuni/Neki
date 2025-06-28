@@ -1,0 +1,16 @@
+{
+  "frameGrid": {
+    "size": [16, 16],
+    "dimensions": [5, 2],
+
+    "names": [
+      ["tail_hide.1", "tail_hide.2", "tail_hide.3", "tail_hide.4", "tail_hide.5"],
+      ["tail_show.1", "tail_show.2", "tail_show.3", "tail_show.4", "tail_show.5"]
+    ]
+  },
+
+  "aliases": {
+    "idle.1": "tail_hide.1",
+    "hide.1": "tail_hide.5"
+  }
+}

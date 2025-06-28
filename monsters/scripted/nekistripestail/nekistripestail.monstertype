@@ -1,0 +1,394 @@
+// Made by Lofty and Juni <3
+
+{
+  "type": "nekistripestail",
+  "categories": ["nekistripestail"],
+  "parts": ["body"],
+  "biomeType": "none",
+  "interactive": true,
+
+  "dropPools": [{"default": "empty"}],
+
+  "animation": "nekistripestail.animation",
+  "reversed": false,
+
+  "baseParameters": {
+    "persistent": true, // It's rude to despawn during hide-and-seek
+
+    "scripts": ["/monsters/scripted/nekistripestail/nekistripestailbehavior.lua"],
+    "tailPulls": 3, // Number of interactions before she appears
+    "scamperRange": 250, // How far she goes to hide again, in blocks
+    "scamperSpeed": 0.1, // How fast she moves between hiding spots
+
+    "preferredStarterObjects": [], // The initial hiding spot(s)
+
+    "validObjectsToHideBehind": {
+    // Tail placement offsets in pixels
+      "2stoptele": {
+        "right": { // Object's orientation
+          "leftSide": {"offset": [3, 12]} // Object's side
+        }
+      },
+
+      "ancientgate": {
+        "right": {
+          "leftSide": {"offset": [-2, 6]},
+          "rightSide": {"offset": [10, 6]}
+        }
+      },
+
+      "ancientpillar": {
+        "left": {
+          "leftSide": {"offset": [-2, 6]},
+          "rightSide": {"offset": [10, 6]}
+        },
+        "right": {
+          "leftSide": {"offset": [-2, 6]},
+          "rightSide": {"offset": [10, 6]}
+        }
+      },
+
+  //  "arcadegame": { // Purrobably a bit noisy for a hiding spot
+  //    "right": {
+  //      "leftSide": {"offset": [-2, 6]},
+  //      "rightSide": {"offset": [7, 6]}
+  //    }
+  //  },
+
+      "bathroomtrash": {
+        "right": {
+          "leftSide": {"offset": [0, 6]},
+          "rightSide": {"offset": [8, 6]}
+        }
+      },
+
+      "filingcabinet": {
+        "left": {
+          "rightSide": {"offset": [10, 6]}
+        },
+        "right": {
+          "leftSide": {"offset": [-2, 6]}
+        }
+      },
+
+      "frogfurnishing": {
+        "left": {
+          "leftSide": {"offset": [-2, 8]}
+        },
+        "right": {
+          "rightSide": {"offset": [10, 8]}
+        }
+      },
+
+      "frogfurnishingclosed": {
+        "right": {
+          "leftSide": {"offset": [-2, 8]},
+          "rightSide": {"offset": [10, 8]}
+        }
+      },
+
+      "infinityexpress": {
+        "left": {
+          "rightSide": {"offset": [11, 8]}
+        },
+        "right": {
+          "leftSide": {"offset": [-3, 8]}
+        }
+      },
+
+  //  "outpostcargocrate": { // Enabling this will let her hide in the creepy room
+  //    "left": {
+  //      "leftSide": {"offset": [-2, 8]},
+  //      "rightSide": {"offset": [10, 8]}
+  //    },
+  //    "right": {
+  //      "leftSide": {"offset": [-2, 8]},
+  //      "rightSide": {"offset": [10, 8]}
+  //    }
+  //  },
+
+      "outpostcargocrateshort": {
+        "left": {
+          "leftSide": {"offset": [-2, 8]},
+          "rightSide": {"offset": [10, 8]}
+        },
+        "right": {
+          "leftSide": {"offset": [-2, 8]},
+          "rightSide": {"offset": [10, 8]}
+        }
+      },
+
+      "outpostfridge": {
+        "left": {
+          "rightSide": {"offset": [10, 7]}
+        }
+      },
+
+      "outpostlocker": {
+        "left": {
+          "leftSide": {"offset": [-2, 6]},
+          "rightSide": {"offset": [10, 6]}
+        },
+        "right": {
+          "leftSide": {"offset": [-2, 6]}
+        }
+      },
+
+      "outpostradardish": {
+        "left": {
+          "leftSide": {"offset": [0, 6]},
+          "rightSide": {"offset": [8, 6]}
+        },
+        "right": {
+          "leftSide": {"offset": [0, 6]},
+          "rightSide": {"offset": [8, 6]}
+        }
+      },
+
+      "outpostsecurityconsole": {
+        "left": {
+          "rightSide": {"offset": [9, 9]}
+        }
+      },
+
+      "penguinbarbottom": {
+        "left": {
+          "leftSide": {"offset": [0, 7]},
+          "rightSide": {"offset": [10, 6]}
+        },
+        "right": {
+          "leftSide": {"offset": [-2, 6]},
+          "rightSide": {"offset": [8, 7]}
+        }
+      },
+
+      "penguinbay": {
+        "left": {
+          "leftSide": {"offset": [55, 72]}
+        },
+        "right": {
+          "rightSide": {"offset": [-47, 72]}
+        }
+      },
+
+      "penguinbayclosed": {
+        "left": {
+          "rightSide": {"offset": [-47, 72]}
+        },
+        "right": {
+          "leftSide": {"offset": [55, 72]}
+        }
+      },
+    
+      "penguinweaponshop": {
+        "right": {
+          "rightSide": {"offset": [10, 8]}
+        }
+      },
+    
+      "penguinweaponshopclosed": {
+        "right": {
+          "rightSide": {"offset": [10, 8]}
+        }
+      },
+    
+      "prisonbarrelfire": {
+        "right": {
+          "leftSide": {"offset": [-1, 7]}
+        }
+      },
+
+      "roofvent": {
+        "left": {
+          "leftSide": {"offset": [-2, 6]},
+          "rightSide": {"offset": [10, 6]}
+        },
+        "right": {
+          "leftSide": {"offset": [-2, 6]},
+          "rightSide": {"offset": [10, 6]}
+        }
+      },
+
+      "signdispenser": {
+        "left": {
+          "leftSide": {"offset": [-1, 7]},
+          "rightSide": {"offset": [10, 7]}
+        },
+        "right": {
+          "leftSide": {"offset": [-2, 7]},
+          "rightSide": {"offset": [9, 7]}
+        }
+      },
+
+      "techlabconsole1": {
+        "right": {
+          "leftSide": {"offset": [-1, 6]}
+        }
+      },
+
+      "techlabconsole2": {
+        "left": {
+          "leftSide": {"offset": [1, 6]},
+          "rightSide": {"offset": [9, 6]}
+        }
+      },
+
+      "terramart": {
+        "left": {
+          "leftSide": {"offset": [-2, 8]}
+        },
+        "right": {
+          "rightSide": {"offset": [10, 8]}
+        }
+      },
+    
+      "terramartclosed": {
+        "left": {
+          "leftSide": {"offset": [-2, 8]},
+          "rightSide": {"offset": [10, 8]}
+        },
+        "right": {
+          "leftSide": {"offset": [-2, 8]},
+          "rightSide": {"offset": [10, 8]}
+        }
+      },
+
+      "trashcan": {
+        "left": {
+          "leftSide": {"offset": [0, 6]},
+          "rightSide": {"offset": [7, 6]}
+        },
+        "right": {
+          "leftSide": {"offset": [1, 6]},
+          "rightSide": {"offset": [8, 6]}
+        }
+      },
+
+      "ursaminer": {
+        "left": {
+          "leftSide": {"offset": [4, 8]}
+        }
+      },
+
+      "ursaminerclosed": {
+        "left": {
+          "leftSide": {"offset": [4, 8]},
+          "rightSide": {"offset": [-8, 23]}
+        }
+      },
+
+  // Anom's Outpost vanilla objects
+
+      "dumpster": {
+        "left": {
+          "leftSide": {"offset": [-2, 6]}
+        }
+      },
+
+  //  "lunarbasecrate": { // Enabling this will let her hide in the mines
+  //    "left": {
+  //      "leftSide": {"offset": [-2, 7]}
+  //    },
+  //    "right": {
+  //      "rightSide": {"offset": [10, 7]}
+  //    }
+  //  },
+
+      "outpostdesk": {
+        "left": {
+          "rightSide": {"offset": [10, 6]}
+        },
+        "right": {
+          "rightSide": {"offset": [10, 6]}
+        }
+      },
+
+      "steampunkdesk": {
+        "right": {
+          "leftSide": {"offset": [27, 6]},
+          "rightSide": {"offset": [-18, 6]}
+        }
+      }
+    },
+
+    "behavior": "nekistripestailbehavior",
+    "deathBehavior": "monster-death",
+    "renderLayer": "Monster-1",
+
+    "metaBoundBox": [-0.5, -0.5, 0.5, 0.5],
+    "scale": 1.0,
+
+    "movementSettings": {
+      "collisionPoly": [
+        [-0.5, -0.75],
+        [0.5, -0.75],
+        [0.75, -0.5],
+        [0.75, 0.125],
+        [0.5, 0.375],
+        [-0.5, 0.375],
+        [-0.75, 0.125],
+        [-0.75, -0.5]
+      ],
+
+      "mass": 0.0,
+      "walkSpeed": 0,
+      "runSpeed": 0,
+      "gravityEnabled": false,
+      "airFriction": 0.0,
+      "liquidFriction": 0.0,
+      "liquidBuoyancy": 1.0,
+      "liquidForce": 0,
+      "flySpeed": 0
+    },
+
+    "bodyMaterialKind": "organic",
+
+    "knockoutTime": 0.1,
+    "knockoutEffect": "",
+    "deathParticles": "deathPoof",
+
+    "damageTeamType": "friendly",
+    "damageTeam": 1,
+
+    "statusSettings": {
+      "statusProperties": {
+        "targetMaterialKind": "organic"
+      },
+
+      "appliesEnvironmentStatusEffects": false,
+      "appliesWeatherStatusEffects": false,
+      "minimumLiquidStatusEffectPercentage": 0.1,
+
+      "primaryScriptSources": ["/stats/monster_primary.lua"],
+      "primaryScriptDelta": 5,
+
+      "stats": {
+        "knockbackStunTime": {"baseValue": 0.25},
+        "knockbackThreshold": {"baseValue": 9},
+        "maxHealth": {"baseValue": 1},
+        "protection": {"baseValue": 0.0},
+        "healthRegen": {"baseValue": 0.0},
+        "powerMultiplier": {"baseValue": 1.0}
+      },
+
+      "resources": {
+        "stunned": {
+          "deltaValue": -1.0,
+          "initialValue": 0.0
+        },
+        "health": {
+          "maxStat": "maxHealth",
+          "deltaStat": "healthRegen",
+          "defaultPercentage": 100
+        }
+      }
+    },
+
+    "mouthOffset": [0, 0],
+    "feetOffset": [0, -2],
+    "capturable": false,
+    "relocatable": false,
+    "captureHealthFraction": 1.0,
+    "nametagColor": [64, 200, 255]
+  }
+}
