@@ -16,7 +16,8 @@
     {"op": "add", "path": "/scripts/-",  "value": "/interface/scripted/techupgrade/nekiLoader.lua"}
   ],
 
-// bk3k's Tech Helper installed
+// --------------- bk3k's Tech Helper ---------------
+
   [
     {"op": "test", "path": "/modTech"},
     {"op": "replace", "path": "/gui/background/fileBody",
@@ -25,7 +26,8 @@
     {"op": "replace","path": "/gui/imgBackingImage/position", "value": [10, 90]}
   ],
 
-// The Pony Modpack installed
+// --------------- The Pony Modpack ---------------
+
   [
     {"op": "test", "path": "/gui/background/fileBody",
       "value": "/interface/scripted/techupgrade/C5ModsExtendedTechBody.png"
