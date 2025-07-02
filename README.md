@@ -23,7 +23,7 @@ How you ended up at the Terrene Protectorate Academy, is still unclear.
 * [Frackin' Universe Patch (NekiFU)](https://github.com/hyperjuni/NekiFU)
 * [Russian translation](https://github.com/hyperjuni/NekiRu)
 * [Translation template](https://github.com/hyperjuni/Neki-Language-Template)
-* Come chat with us at the [Neki Discord](https://discord.gg/Neki)
+* Come chat with us at the [Neki Discord](https://discord.com/invite/R6tfkazYgb)
 
 ---
 ## Credits
