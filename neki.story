@@ -24,4 +24,4 @@ The genetics division is headed by a charismatic middle-aged Miniknog scientist 
 
 On a day like any other, they're granted access to an extensive old database of classified USCM projects, in order to - as initially stated by the top brass - figure out how this data can be beneficial to the Miniknog. The head scientist, together with their team, all firmly believing that their work is of utmost importance and universally beneficial to all Apex, begin working on the data.
 
-The existing Log codices start here and are mostly recorded by the lead scientist, taking place in the span of time between a few decades before, and the current events of Starbound.
+The existing Log codices begin around here and are mostly recorded by the lead scientist, taking place in the span of time between a few decades before, and the current events of Starbound.

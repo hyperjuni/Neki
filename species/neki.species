@@ -53,12 +53,12 @@
       ["idle.1", "swim.2", [0, 0], [0, -1]],   // beggar
       ["idle.1", "idle.1", [0, 0], [0, 0]],    // standard
       ["idle.1", "idle.2", [-1, 0], [0, 0]],   // clean your room
-      ["idle.1", "idle.3", [0, 0], [2, 0]],    // or else
+      ["idle.1", "idle.3", [0, 0], [1, 0]],    // or else
       ["idle.1", "idle.4", [-1, 0], [0, 0]],   // or else what
       ["idle.1", "idle.5", [0, 0], [0, 0]],    // coque
       ["idle.2", "idle.5", [-1, 0], [0, 0]],   // full chest
       ["idle.2", "idle.4", [-1, 0], [0, 0]],   // brute
-      ["idle.2", "idle.3", [-1, 0], [2, 0]],   // air piano
+      ["idle.2", "idle.3", [-1, 0], [1, 0]],   // air piano
       ["idle.2", "swim.2", [-1, 0], [0, 0]],   // calm
       ["idle.2", "idle.2", [-1, 0], [0, 0]],   // confident
       ["idle.2", "idle.1", [-1, 0], [0, 1]],   // very stoic
@@ -70,14 +70,14 @@
       ["idle.3", "idle.5", [-2, 0], [-1, 0]],  // lean back
       ["idle.4", "idle.5", [-1, 0], [0, 0]],   // full bully
       ["idle.4", "idle.4", [-1, 0], [0, 0]],   // bully
-      ["idle.4", "idle.3", [-1, 0], [2, 0]],   // prepared
+      ["idle.4", "idle.3", [-1, 0], [1, 0]],   // prepared
       ["idle.4", "swim.2", [-1, 0], [0, -1]],  // primed
       ["idle.4", "idle.2", [-1, 0], [0, 0]],   // proud
       ["idle.4", "idle.1", [-1, 0], [0, 0]],   // stoic
       ["idle.5", "idle.1", [0, 0], [0, 0]],    // loser
       ["idle.5", "idle.2", [0, 0], [0, 0]],    // fabulous
-      ["idle.5", "idle.3", [0, 0], [2, 0]],    // nervous
-      ["idle.5", "idle.4", [0, 0], [1, 0]],    // hugs
+      ["idle.5", "idle.3", [0, 0], [1, 0]],    // nervous
+      ["idle.5", "idle.4", [0, 0], [0, 0]],    // hugs
       ["idle.5", "idle.5", [0, 0], [0, 0]],    // scared
       ["idle.5", "swim.2", [1, 0], [0, -1]]    // slouching
     ],
@@ -188,6 +188,7 @@
       {"item": "nekiholidaysleeves"},
       {"item": "nekinightie"},
       {"item": "nekinoughtie"},
+      {"item": "nekitankini"},
       {"item": "nekipeacekeeperhead"},
       {"item": "nekipeacekeepersleeves"},
       {"item": "nekipeacekeeperuniform"},
@@ -233,13 +234,24 @@
       {"item": "nekipillowred"},
       {"item": "nekipillowwhite"},
       {"item": "nekipillowyellow"},
-      {"item": "nekipillowpile"}  
+      {"item": "nekipillowpile"},
+
+      {"item": "nekidressgownpu"},
+      {"item": "nekidressgown2pu"},
+      {"item": "nekiholidayskirtpu"},
+      {"item": "nekinightiepu"},
+      {"item": "nekitankinipu"},
+      {"item": "nekipeacekeeperuniformpu"},
+      {"item": "nekiprotectoratepantspu"},
+      {"item": "nekiprotectorateskirtpu"},
+      {"item": "nekinipu"},
+      {"item": "nekinitoppu"}
     ]
   },
 
 // The author of the original 'acidhair' hairstyles has kindly requested they be removed from Neki
 // As their naming was already part of players' existing universes, the names could not be changed
-// The current 'acidhair' hairstyles were created from scratch, inspired by the originals' styles
+// The current 'acidhair' hairstyles were created from scratch, inspired by the originals
 
   "genders": [
     {

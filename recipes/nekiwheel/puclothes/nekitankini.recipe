@@ -1,0 +1,11 @@
+{
+  "input": [
+    {"item": "nekistrapless", "count": 1},
+    {"item": "fabric", "count": 2},
+    {"item": "string", "count": 2}
+  ],
+
+  "duration": 0.5,
+  "output": {"item": "nekitankini", "count": 1},
+  "groups": ["nekiwheel", "clothes"]
+}
