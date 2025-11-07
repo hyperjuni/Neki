@@ -1,0 +1,10 @@
+{
+  "input": [
+    {"item": "refinedviolium", "count": 4},
+    {"item": "canvas", "count": 1}
+  ],
+
+  "duration": 0.5,
+  "output": {"item": "nekitier5sarmor", "count": 1},
+  "groups": ["craftingseparator", "armours", "all"]
+}

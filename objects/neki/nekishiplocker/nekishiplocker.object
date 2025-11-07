@@ -1,0 +1,47 @@
+{
+  "objectName": "nekishiplocker",
+  "objectType": "container",
+  "category": "storage",
+  "slotCount": 64,
+  "rarity": "Common",
+  "race": "neki",
+  "printable": false,
+  "tooltipKind": "container",
+  "colonyTags": ["neki","storage"],
+
+  "lightColor": [61, 88, 102],
+  "lightPosition": [0, 0],
+
+  "shortdescription": "Shiplocker",
+  "description": "A shiplocker, coated in a dark substance.",
+
+  "apexDescription": "This ship's storage system is coated similarly to the ship's exterior.",
+  "avianDescription": "A stealthy device that holds many items for safe keeping.",
+  "floranDescription": "Sssneaky storage.",
+  "glitchDescription": "Pleased. This ship's storage system is well-concealed.",
+  "humanDescription": "A stealthy storage locker. Ninja stash!",
+  "hylotlDescription": "An inconspicuous storage solution.",
+  "nekiDescription": "A stealthy wallbox for stealthy wallsleeps.",
+  "novakidDescription": "A stealthy locker for stealthily puttin' things in.",
+
+  "inventoryIcon": "shiplockericon.png",
+  "orientations": [
+    {
+      "anchors": ["background"],
+      "imageLayers": [
+        {"image": "nekishiplocker.png:<color>.<frame>", "fullbright": true},
+        {"image": "nekishiplockerlit.png:<color>.<frame>"}
+      ],
+      "imagePosition": [-16, -8],
+      "spaceScan": 0.1,
+      "frames": 8,
+      "animationCycle": 1.0
+    }
+  ],
+
+  "uiConfig": "/interface/chests/chest<slots>.config",
+  "openSounds": ["/sfx/objects/gunchest_open.ogg"],
+  "closeSounds": ["/sfx/objects/gunchest_close.ogg"],
+  "frameCooldown": 11,
+  "autoCloseCooldown": 3600
+}

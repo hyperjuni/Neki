@@ -1,0 +1,53 @@
+{
+  "objectName": "nekishipdoor",
+  "category": "door",
+  "rarity": "Common",
+  "price": 125,
+  "race": "neki",
+  "colonyTags": ["neki","door"],
+
+  "shortdescription": "Neki Ship Door",
+  "description": "A door suitable for a spaceship.",
+
+  "apexDescription": "Doors like this are common on ships, although not with this type of coating.",
+  "avianDescription": "A dark spaceship door.",
+  "floranDescription": "Sssneaky sspaceship door.",
+  "glitchDescription": "Uninformed. This otherwise standard spaceship door's coating is unfamiliar to me.",
+  "humanDescription": "A dark spaceship door.",
+  "hylotlDescription": "A basic ship door with what seems to be stealth coating.",
+  "nekiDescription": "Let me out! Oh, what's out here..? Let me back in! Now let me out again!",
+  "novakidDescription": "A door, the type you'd find on a ship.",
+
+  "inventoryIcon": "nekishipdooricon.png",
+  "orientations": [
+    {
+      "anchors": ["bottom", "top"],
+      "dualImage": "nekishipdoor.png:default",
+      "imagePosition": [-20, 0],
+      "renderLayer": "Object+5",
+      "spaceScan": 0.1
+   }
+ ],
+
+  "scripts": ["/objects/wired/door/door.lua"],
+  "scriptDelta": 5,
+
+  "animation": "/objects/wired/door/door.animation",
+  "animationCustom": {
+    "sounds": {
+      "open": {
+        "pool": ["/sfx/objects/apexcooldoor_open.ogg"],
+        "rangeMultiplier": 0.5
+     },
+      "close": {
+        "pool": ["/sfx/objects/apexcooldoor_close.ogg"],
+        "rangeMultiplier": 0.5
+     }
+   }
+ },
+  "animationParts": {"door": "nekishipdoor.png"},
+  "animationPosition": [-20, 0],
+
+  "inputNodes": [[-1, 4]],
+  "outputNodes": [[0, 0]]
+}

@@ -142,6 +142,9 @@
       {"item": "nekitier4head"},
       {"item": "nekitier4sleeves"},
       {"item": "nekitier4armor"},
+      {"item": "nekitier5shead"},
+      {"item": "nekitier5ssleeves"},
+      {"item": "nekitier5sarmor"},
       {"item": "nekimktier6shead"},
       {"item": "nekimktier6ssleeves"},
       {"item": "nekimktier6sarmor"},
@@ -193,6 +196,8 @@
       {"item": "nekipeacekeepersleeves"},
       {"item": "nekipeacekeeperuniform"},
       {"item": "nekirags"},
+      {"item": "nekiribbons"},
+      {"item": "nekiruffles"},
       {"item": "nekiscientistcoat"},
       {"item": "nekiscientistsleeves"},
       {"item": "nekishades"},
@@ -240,18 +245,19 @@
       {"item": "nekidressgown2pu"},
       {"item": "nekiholidayskirtpu"},
       {"item": "nekinightiepu"},
-      {"item": "nekitankinipu"},
       {"item": "nekipeacekeeperuniformpu"},
       {"item": "nekiprotectoratepantspu"},
       {"item": "nekiprotectorateskirtpu"},
+      {"item": "nekiscientistcoatpu"},
+      {"item": "nekitankinipu"},
       {"item": "nekinipu"},
       {"item": "nekinitoppu"}
     ]
   },
 
-// The author of the original 'acidhair' hairstyles has kindly requested they be removed from Neki
-// As their naming was already part of players' existing universes, the names could not be changed
-// The current 'acidhair' hairstyles were created from scratch, inspired by the originals
+// The author of the original 'acidhair' hairstyles has kindly requested they be removed from Neki.
+// As their naming was already part of players' existing universes, the names could not be changed.
+// The current 'acidhair' hairstyles were created from scratch, inspired by the originals.
 
   "genders": [
     {
@@ -446,15 +452,13 @@
       "shirt": [
         "invisiblefabricchest",
         "nekisleevesshort",
-        "nekisleevesangel",
-        "nekisleevesglove"
+        "nekisleevesangel"
       ],
       "pants": [
         "invisiblefabriclegs",
         "nekinibottom",
-        "nekinitop",
         "nekini",
-        "nekistrapless",
+        "nekitankini",
         "nekinightie",
         "nekidressgala",
         "nekidressrobe",
@@ -662,15 +666,13 @@
       "shirt": [
         "invisiblefabricchest",
         "nekisleevesshort",
-        "nekisleevesangel",
-        "nekisleevesglove"
+        "nekisleevesangel"
       ],
       "pants": [
         "invisiblefabriclegs",
         "nekinibottom",
-        "nekinitop",
         "nekini",
-        "nekistrapless",
+        "nekitankini",
         "nekinightie",
         "nekidressgala",
         "nekidressrobe",
@@ -683,10 +685,10 @@
     }
   ],
 
-  "altOptionAsUndyColor": true,    // Head (red) = undyColor
-  "headOptionAsHairColor": true,   // Hair (green) = hairColor
-  "altOptionAsHairColor": true,    // Hair (red) = undyColor
-  "hairColorAsBodySubColor": true, // Body (green) = hairColor
+  "altOptionAsUndyColor": true,    // Head (red) as undyColor
+  "headOptionAsHairColor": true,   // Hair (green) as hairColor
+  "altOptionAsHairColor": true,    // Hair (red) as undyColor
+  "hairColorAsBodySubColor": true, // Body (green) as hairColor
 
   "bodyColor": [
     {"FFE2C5": "505050", "FFC181": "343434", "D39C6C": "202020", "C7815B": "000000"},  // Black
@@ -715,7 +717,7 @@
   ],
 
   "undyColor": [
-  // Eye/Accessory Color
+  // Eye, Collar and Accessory Color
     {"F32200": "505050", "DC1F00": "343434", "BE1B00": "202020", "951500": "000000"},  // Black
     {"F32200": "6b6182", "DC1F00": "3d3d5d", "BE1B00": "2c3047", "951500": "17232d"},  // Lilac Blue
     {"F32200": "a97e39", "DC1F00": "81572a", "BE1B00": "56341b", "951500": "2c160a"},  // Brown
@@ -755,7 +757,7 @@
     {"F7E7B2": "c66ba6", "D9C189": "9c4b80", "A38D59": "70335b", "735E3A": "411732"},  // Purple Dark
     {"F7E7B2": "dd88c7", "D9C189": "C36AAC", "A38D59": "A23873", "735E3A": "621F48"},  // Pink Dark
     {"F7E7B2": "f7c6f7", "D9C189": "ff8cc5", "A38D59": "ff4c96", "735E3A": "c31c46"},  // Pink Hot
-    {"F7E7B2": "fde9e8", "D9C189": "edbfc0", "A38D59": "ee97a5", "735E3A": "b65058"},  // Pink Light
+    {"F7E7B2": "fde9e8", "D9C189": "edbfc0", "A38D59": "ee97a5", "735E3A": "b65058"},  // Pink Pastel
     {"F7E7B2": "ffbb99", "D9C189": "f49882", "A38D59": "dd5553", "735E3A": "99404c"},  // Peach
     {"F7E7B2": "ee8e51", "D9C189": "d3523b", "A38D59": "af3220", "735E3A": "831415"},  // Fiery
     {"F7E7B2": "d95d45", "D9C189": "b12f3b", "A38D59": "791f39", "735E3A": "511934"},  // Radish
