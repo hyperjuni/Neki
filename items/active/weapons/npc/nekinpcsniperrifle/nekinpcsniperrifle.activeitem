@@ -9,7 +9,7 @@
   "category": "sniperRifle",
   "twoHanded": true,
   "itemTags": ["weapon","ranged","sniperrifle"],
-  // "level": 1,
+  "level": 6,
 
   "inventoryIcon": "nekinpcsniperrifle.png",
 
