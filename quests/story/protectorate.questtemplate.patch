@@ -1,0 +1,6 @@
+[
+  {"op": "add", "path": "/scriptConfig/confiscateItems/-", "value": ["nekiclaws1", 2]},
+  {"op": "add", "path": "/scriptConfig/confiscateItems/-", "value": ["nekiprotectoratepants", 1]},
+  {"op": "add", "path": "/scriptConfig/confiscateItems/-", "value": ["nekiprotectorateskirt", 1]},
+  {"op": "add", "path": "/scriptConfig/confiscateItems/-", "value": ["nekiprotectoratesleeves", 1]}
+]
