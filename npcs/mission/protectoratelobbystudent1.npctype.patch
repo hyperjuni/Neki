@@ -1,7 +1,7 @@
 [
   {"op": "add", "path": "/scriptConfig/dialog/converse/default/neki",
     "value": [
-      "What're YOU looking at?",
+      "What are YOU looking at?",
       "Maybe if you beat this machine senseless, it'll give me my drink or pixels back!",
       "I mean, you like wrecking stuff, so go on!",
       "Yeah yeah, you're so strong, whatever...",
