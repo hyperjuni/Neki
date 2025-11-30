@@ -1,0 +1,56 @@
+{
+  "objectName": "nekishiphatch",
+  "category": "door",
+  "rarity": "Common",
+  "price": 125,
+  "race": "neki",
+  "colonyTags": ["neki","door"],
+
+  "shortdescription": "Neki Ship Hatch",
+  "description": "A hatch suitable for a spaceship.",
+
+  "apexDescription": "Hatch designs like this are common on ships, albeit not with this type of coating.",
+  "avianDescription": "A dark spaceship hatch.",
+  "floranDescription": "Sssneaky sspaceship hatch.",
+  "glitchDescription": "Uninformed. The coating of this otherwise standard spaceship hatch is unfamiliar to me.",
+  "humanDescription": "A dark spaceship hatch.",
+  "hylotlDescription": "A basic ship hatch with what appears to be stealth coating.",
+  "nekiDescription": "A floor-door for me to fall through.",
+  "novakidDescription": "A hatch, the type you'd find on a ship.",
+
+  "inventoryIcon": "nekishiphatchicon.png",
+  "orientations": [
+    {
+      "anchors": ["left", "right"],
+      "dualImage": "nekishiphatch.png:default",
+      "imagePosition": [-16, -20],
+      "renderLayer": "Object+5",
+      "spaces": [
+        [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0], 
+        [-2, -1], [-1, -1], [0, -1], [1, -1], [2, -1]
+      ]
+    }
+  ],
+
+  "scripts": [ "/objects/wired/door/door.lua" ],
+  "scriptDelta": 5,
+
+  "animation": "/objects/wired/door/door.animation",
+  "animationCustom": {
+    "sounds": {
+      "open": {
+        "pool": ["/sfx/objects/apexcooldoor_open.ogg"],
+        "rangeMultiplier": 0.5
+      },
+      "close": {
+        "pool": ["/sfx/objects/apexcooldoor_close.ogg"],
+        "rangeMultiplier": 0.5
+      }
+    }
+  },
+  "animationParts": {"door": "nekishiphatch.png"},
+  "animationPosition": [-16, -20],
+
+  "inputNodes": [ [-2, 0] ],
+  "outputNodes": [ [2, -1] ]
+}

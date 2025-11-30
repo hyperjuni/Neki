@@ -170,10 +170,9 @@
       {"item": "nekithingypoison"},
 
     // Furniture Table 2
-      {"item": "apexshipdoor"},
-      {"item": "apexshiphatch"},
-
       {"item": "nekibedlocker"},
+      {"item": "nekishipdoor"},
+      {"item": "nekishiphatch"},
       {"item": "nekistoragelocker"},
 
     // Inventor's Table
