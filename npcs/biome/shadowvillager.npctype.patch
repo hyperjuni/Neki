@@ -1,0 +1,4 @@
+[
+  {"op": "test", "path": "/scriptConfig/dialogMode", "value": "sequence", "inverse": true},
+  {"op": "add", "path": "/scriptConfig/dialogMode", "value": "sequence"}
+]
