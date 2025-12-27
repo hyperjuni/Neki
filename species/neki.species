@@ -449,9 +449,7 @@
         "anti_mhuman17"
       ],
       "shirt": [
-        "invisiblefabricchest",
-        "nekisleevesshort",
-        "nekisleevesangel"
+        "invisiblefabricchest"
       ],
       "pants": [
         "invisiblefabriclegs",
@@ -459,8 +457,6 @@
         "nekini",
         "nekitankini",
         "nekinightie",
-        "nekidressgala",
-        "nekidressrobe",
         "nekirags"
       ],
       "facialHairGroup": "",
@@ -663,9 +659,7 @@
         "acidhair_ap3"         // by LFlame and Juni
       ],
       "shirt": [
-        "invisiblefabricchest",
-        "nekisleevesshort",
-        "nekisleevesangel"
+        "invisiblefabricchest"
       ],
       "pants": [
         "invisiblefabriclegs",
@@ -673,8 +667,6 @@
         "nekini",
         "nekitankini",
         "nekinightie",
-        "nekidressgala",
-        "nekidressrobe",
         "nekirags"
       ],
       "facialHairGroup": "",

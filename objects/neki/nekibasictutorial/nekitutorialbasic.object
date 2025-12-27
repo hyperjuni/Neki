@@ -1,0 +1,45 @@
+{
+  "objectName": "nekitutorialbasic",
+  "category": "decorative",
+  "rarity": "Common",
+  "printable": false,
+  "colonyTags": ["neki"],
+
+  "shortdescription": "Neki Tutorial",
+  "description": "A blinking ship console.",
+
+  "apexDescription": "This captain's console appears to be indicating something.",
+  "avianDescription": "This blinking is so distracting! I can't look away.",
+  "floranDescription": "Floran wantsss to whack thiese annoying lights!",
+  "glitchDescription": "Curious. What could this console be indicating?",
+  "humanDescription": "I should press it just so it stops blinking!",
+  "hylotlDescription": "The console appears to be signaling to this vessel's captain.",
+  "nekiDescription": "Purrdy blue butt-ons! I wonder what they do.",
+  "novakidDescription": "This 'ere console seems ta' want somethin'!",
+
+  "inventoryIcon": "nekitutorialbasicicon.png",
+  "orientations": [
+    {
+      "anchors": ["bottom"],
+      "imageLayers": [
+        {"image": "nekitutorialbasic.png:<color>.<frame>", "fullbright": true},
+        {"image": "nekitutorialbasiclit.png:<color>.<frame>"}
+      ],
+      "imagePosition": [0, 0],
+      "spaceScan": 0.1,
+      "frames": 14,
+      "animationCycle": 1.25
+    }
+  ],
+
+  "scripts": ["/objects/scripts/breakoninteract.lua"],
+  "scriptDelta": 0,
+
+  "breakDropOptions": [
+    [
+      ["nekitutorialbasic-codex", 1, {}]
+    ]
+  ],
+  "offeredQuests": ["nekitutorialbasic"],
+  "questIndicatorPosition" : [-0.875, 0]
+}

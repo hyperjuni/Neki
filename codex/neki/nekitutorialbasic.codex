@@ -1,0 +1,40 @@
+{
+  "id": "nekitutorialbasic",
+  "species": "neki",
+  "title": "0n your own",
+  "description": "The name displayed on the digital log appears to be yours.",
+  "icon": "nekimemorycardmkgreen.png",
+
+  "contentPages": [
+"Goodness, you're alive!
+
+I was worried sick upon learning of Earth's demise; it was such a relief seeing your MCC signature pop up! However, I'm still unable to locate your twin.
+
+I managed to overwrite a memory card aboard this vessel, so you reading this means you were able to find it.
+
+Now, I'm sure you'll be alright, but there are a few important things you will need to remember.  ^cyan;>>^reset;",
+
+"Your ^orange;Claws^reset; can become very powerful tools for survival and self-defense if you make use of your innate ability to upgrade them using various alloys.
+
+I know I always taught you to trim the ^orange;Nails^reset; and try your best to keep them away, but those days are long gone.
+
+Out here in the open - danger lurks everywhere, and you'll need to be prepared. Wherever you end up - start by looking around for all the things you may need to make your ^orange;Paws^reset; more powerful.  ^cyan;>>^reset;",
+
+"Remember that special toy wheel you once made out of ropes and sticks, using an ^orange;Inventor's Table^reset;?
+
+With a few tiny modifications, you can use it to create your own clothes! I know what you're probably thinking - ^gray;\"Pfft, useless bunches of rags and threads!\"^reset; - but out there they can keep you safe in more ways than one.
+
+Without some kind of clothing, you may attract unwanted attention in most places around this galaxy, so think of it as your camouflage.  ^cyan;>>^reset;",
+
+"As for armoring, sh-
+
+...
+
+^gray;*it cuts out abruptly; the memory card appears to be full*"
+  ],
+
+  "itemConfig": {
+    "rarity": "uncommon",
+    "price": 25
+  }
+}

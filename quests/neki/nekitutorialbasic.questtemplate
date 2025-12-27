@@ -1,0 +1,18 @@
+{
+  "id": "nekitutorialbasic",
+  "prerequisites": ["bootship"],
+  "title": "Neki Tutorial",
+  "text": "A pleasant blue shimmer is emanating from one of the dashboard lights.\n\nYour curiosity is begging you to poke it.",
+  "completionText": "As your paw touches the blue light, a digital log gently slides out of the dashboard.\n\nThis log seems to be addressed to you.",
+  "rewards": [],
+
+  "updateDelta": 10,
+  "script": "/quests/scripts/nekiautocomplete.lua",
+  "scriptConfig": {
+    "portraits": {
+      "questStarted": "questGiver",
+      "questComplete": "player"
+    },
+    "requireTurnIn": false
+  }
+}
