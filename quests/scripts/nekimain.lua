@@ -73,6 +73,9 @@ end
 function questStart()
   -- Start of Neki-specific changes
   if player.introComplete() then
+    if root.assetJson("/versioning.config").namje_shipwright~= nil then
+      player.giveItem("nekitutorialbasic-codex")
+    end
     quest.complete()
     return
   end
