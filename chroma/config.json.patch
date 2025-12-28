@@ -1,0 +1,24 @@
+[
+  {"op": "add", "path": "/BASE_COLOURS/neki",
+    "value": {
+      "PRIMARY": [
+          "FFE2C5",
+          "FFC181",
+          "D39C6C",
+          "C7815B"
+      ],
+      "SECONDARY": [
+          "F7E7B2",
+          "D9C189",
+          "A38D59",
+          "735E3A"
+      ],
+      "TERTIARY": [
+          "F32200",
+          "DC1F00",
+          "BE1B00",
+          "951500"
+      ]
+    }
+  }
+]
