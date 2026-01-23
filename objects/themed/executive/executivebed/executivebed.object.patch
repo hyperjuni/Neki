@@ -4,7 +4,7 @@
     {"op":"add","path":"/sitStatusEffects","value":[]}
   ],
   [
-    {"op":"add","path":"/nekiDescription","value":"Too exposed for proper sleeps."},
+    {"op":"add","path":"/nekiDescription","value":"Too exposed for prroper sleeps."},
     {"op":"add","path":"/sitStatusEffects/-","value":"nekihidebedcover"}
   ]
 ]
