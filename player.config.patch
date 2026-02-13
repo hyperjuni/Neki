@@ -10,6 +10,8 @@
     {"op": "add", "path": "/deploymentConfig/speciesStarterMechBody/neki", "value": "mechbodyapexproto"},
 
     {"op": "add", "path": "/companionsConfig/scripts/-", "value": "/scripts/neki/nekihopsoverride.lua"},
-    {"op": "add", "path": "/companionsConfig/scripts/-", "value": "/scripts/neki/nekistripesrecruit.lua"}
+    {"op": "add", "path": "/companionsConfig/scripts/-", "value": "/scripts/neki/nekistripesrecruit.lua"},
+
+    {"op": "add", "path": "/genericScriptContexts/nekitutorialbasicbyos", "value": "/scripts/neki/nekitutorialbasicbyos.lua"}
   ]
 ]  

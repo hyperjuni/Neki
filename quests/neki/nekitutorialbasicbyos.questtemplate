@@ -1,0 +1,18 @@
+{
+  "id": "nekitutorialbasicbyos",
+  "prerequisites": ["bootship"],
+  "title": "Neki Tutorial",
+  "text": "Upon waking up, you check to make sure you're still in one piece and discover a ^orange;memory card^reset; stuck to your body.\n\nCould you have simply fallen asleep on it without noticing?\n\n^green;The card has been added to your inventory.^reset;",
+  "completionText": "The card contains a digital log of some sort, which seems to be addressed to me!\n\nI wonder what's in it.",
+  "rewards": [],
+
+  "updateDelta": 10,
+  "script": "/quests/scripts/nekiautocomplete.lua",
+  "scriptConfig": {
+    "portraits": {
+      "questStarted": "questGiver",
+      "questComplete": "player"
+    },
+    "requireTurnIn": false
+  }
+}

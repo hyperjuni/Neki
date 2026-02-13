@@ -71,15 +71,20 @@ function failConditionMet()
 end
 
 function questStart()
-  -- Start of Neki-specific changes
+
+-- Start of Neki-specific changes
+
   if player.introComplete() then
-    if root.assetJson("/versioning.config").namje_shipwright~= nil then
-      player.giveItem("nekitutorialbasic-codex")
-    end
+-- This part was made obsolete by 'nekitutorialbasicbyos.lua'
+  --  if root.assetJson("/versioning.config").namje_shipwright~= nil then
+  --    player.giveItem("nekitutorialbasic-codex")
+  --  end
     quest.complete()
     return
   end
-  -- End of Neki-specific changes  
+
+-- End of Neki-specific changes
+
   for _, condition in pairs(self.conditions) do
     if condition.onQuestStart then condition:onQuestStart() end
   end
