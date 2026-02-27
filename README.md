@@ -21,7 +21,7 @@ How you ended up at the Terrene Protectorate Academy, is still unclear.
 * [Steam Workshop version](https://steamcommunity.com/workshop/filedetails/?id=2611501999)
 * [Chucklefish Forums version](https://community.playstarbound.com/resources/neki.6147)
 * [Frackin' Universe Patch (NekiFU)](https://github.com/hyperjuni/NekiFU)
-* [Russian translation](https://github.com/hyperjuni/NekiRu)
+* [Русский перевод](https://github.com/hyperjuni/NekiRu)
 * [Translation template](https://github.com/hyperjuni/Neki-Language-Template)
 * Come chat with us at the [Neki Discord](https://discord.com/invite/R6tfkazYgb)
 
