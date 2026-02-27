@@ -16,7 +16,7 @@
     "filter": ["nekiwheel"]
   }, 
 
-  "shortdescription": "^orange;Neki Wheel^reset;",
+  "shortdescription": "^cyan;Neki Wheel^reset;",
   "description": "This wheel is used by the Neki to craft various items.",
 
   "apexDescription": "A spinning wheel. It's covered in fur.",
