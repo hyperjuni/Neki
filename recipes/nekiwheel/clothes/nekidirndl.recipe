@@ -1,0 +1,10 @@
+{
+  "input": [
+    {"item": "hoe", "count": 1},
+    {"item": "scarecrow", "count": 1}
+  ],
+
+  "duration": 0.5,
+  "output": {"item": "nekidirndl", "count": 1},
+  "groups": ["nekiwheel", "clothes"]
+}

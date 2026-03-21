@@ -22,7 +22,7 @@
         null,
         "/humanoid/neki/frontarm.png"
       ],
-      "femaleDirectives": "?replace;ffe2c5=e8cebc;ffc181=cfa97d;d39c6c=ae774b;c7815b=804e34;f32200=db3548;dc1f00=7e1f30;be1b00=441a21;951500=2c1d1e;f7e7b2=fde9e8;d9c189=edbfc0;a38d59=ee97a5;735e3a=b65058"
+      "femaleDirectives": "?replace;ffe2c5=e8cebc;ffc181=cfa97d;d39c6c=ae774b;c7815b=804e34;f32200=db3548;dc1f00=7e1f30;be1b00=441a21;951500=1c0a0b;f7e7b2=fde9e8;d9c189=edbfc0;a38d59=ee97a5;735e3a=b65058"
     }
   }
 ]
