@@ -39,7 +39,7 @@
   {"op": "add", "path": "/attack/nekistripes",
     "value": {
       "default": [
-        "^gray;*roars*^reset; Get it!",
+        "^gray;*roars*^reset;\nGet it!",
         "Wrrawww!",
         "^gray;*roars*^reset;",
         "Khhhh!"
