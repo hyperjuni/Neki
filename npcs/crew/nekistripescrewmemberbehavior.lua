@@ -28,9 +28,9 @@ end
 
 function playEmote(args)
   if args.emote then
-	self.overrideEmote = args.emote
+  self.overrideEmote = args.emote
     self.shouldPlayEmote = 1.0
-	--sb.logInfo(args.emote)
+  --sb.logInfo(args.emote)
   end
 end
 
