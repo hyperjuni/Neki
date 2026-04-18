@@ -4,25 +4,23 @@
     "title": "Neki",
     "subTitle": "Welcome to my purrivate parts...",
     "description": "Despite appearances, the Neki can be anything but adorable. Rumored to be a human project ending up in the wrong hands, they're more akin to wild animals than their alleged creators.
-^cyan;Racial attributes available by installing Race Traits.^reset;
+^cyan;Unlock racial perks by installing the Race Traits mod.^reset;
 
-^cyan;Max Health^reset;: ^red;-25%^reset;
-^cyan;Max Energy^reset;: ^green;+50%^reset;
-^cyan;Energy Regen^reset;: ^green;+25%^reset;
-^cyan;Attack Multiplier^reset;: ^red;-15%^reset;
-
-^cyan;Fire Resistance^reset;: ^red;-15%^reset;
-^cyan;Poison Resistance^reset;: ^green;+10%^reset;
-^cyan;Ice Resistance^reset;: ^green;+15%^reset;
-^cyan;Physical Resistance^reset;: ^red;-15%^reset;
-
-^yellow;Immunities^reset;: ^green;Frost, Slow^reset;
-^yellow;Racial Benefits^reset;: ^green;Swim Boost (Alternate), Health Regen^reset;
-
-^cyan;Movement Speed^reset;: ^green;+18%^reset;
-^cyan;Jump Height^reset;: ^green;+30%^reset;
-^cyan;Fall Damage^reset; ^green;-40%^reset;
-^cyan;Hunger Rate^reset;: ^red;+50%^reset;"
+    ^#00A9FF;Attributes^reset;
+^white;Max Health^reset;: ^red;-25%^reset;
+^white;Max Energy^reset;: ^green;+50%^reset;
+^white;Energy Regen^reset;: ^green;+25%^reset;
+^white;Attack Multiplier^reset;: ^red;-15%^reset;
+^darkgray;Defense: -^reset;
+    ^#00A9FF;Resistances^reset;
+^white;Fire Resistance^reset;: ^red;-15%^reset;
+^darkgray;Electric Resistance: -^reset;
+^white;Poison Resistance^reset;: ^green;+10%^reset;
+^white;Ice Resistance^reset;: ^green;+15%^reset;
+^white;Physical Resistance^reset;: ^red;-15%^reset;
+    ^#00A9FF;Immunities^reset;: ^green;Frost, Slow^reset;
+    ^#00A9FF;Racial Traits^reset;: ^#AA72FF;Swim Boost (Alternate), Health Regen^reset;
+^white;Movement Speed^reset;: ^green;+18%^reset;, ^white;Jump Height^reset;: ^green;+30%^reset;, ^white;Fall Damage^reset; ^green;-40%^reset;, ^white;Hunger Rate^reset;: ^red;+50%^reset;"
   },
 
   "effectDirectives": "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=80f4ffFF?replace=31a6ffFF=39b8e3FF",
@@ -345,7 +343,6 @@
         "z4bponytailwbangs",
         "cb_male50",
         "cb_male28",
-//      "cb_male52",
         "cb_male25",
         "cb_male43",
         "cb_male6",
@@ -353,7 +350,6 @@
         "cb_male7",
         "anti_mhuman34",
         "faf_12_defaultb",
-//      "ng_osu012",
         "ng_osu009",
         "ng_osu007",
         "ng_osu006",
@@ -364,11 +360,9 @@
         "cb_male59",
         "acidhair_ap10",     // by LFlame and Juni
         "ng_osu022",
-//      "ng_osu016",
         "ng_osu027",
         "ng_osu026",
         "cb_male40",
-//      "ng_osu021",
         "cb_male11",
         "cb_male33",
         "cb_male26",
@@ -393,7 +387,6 @@
         "cb_male51",
         "ng_osu020",
         "ng_osu015",
-//      "cb_male2",
         "cb_male8",
         "ng_osu010",
         "ng_osu023",
@@ -408,7 +401,6 @@
         "cb_male35",
         "cb_male5",
         "ng_osu002",
-//      "ng_osu024",
         "ng_osu025",
         "sdv_alex",
         "sdv_sam",
@@ -467,6 +459,15 @@
         "lflame_calmtraveler2",
         "ng_osu019",
         "anti_mhuman17"
+
+      //  Disabled with 0.99.12 (male)
+        // "cb_male52",
+        // "ng_osu012",
+        // "ng_osu016",
+        // "ng_osu021",
+        // "cb_male2",
+        // "ng_osu024",
+
       ],
       "shirt": [
         "invisiblefabricchest"
@@ -497,7 +498,6 @@
         "anti_fhuman_cb15",
         "sdv_elliot",
         "anti_fhuman_cb01",
-//      "anti_fhuman01",
         "ng_mesu049",
         "ng_mesu026",
         "ng_mesu027",
@@ -535,7 +535,6 @@
         "lflame_simplestyle",
         "acidhair_ap24",            // by LFlame and Juni
         "sdv_abigail",
-//      "3",
         "cb_fem24",
         "anti_fhuman14",
         "cb_fem13",
@@ -548,17 +547,13 @@
         "cb_fem59",
         "ng_mesu058",
         "cb_fem11",
-//      "cb_fem12",
         "ng_mesu035",
         "cb_fem1",
         "cb_barb58",
         "cb_fem9",
-//      "sdv_emily",
-//      "cb_fem5",
         "cb_fem22",
         "cb_fem30",
         "anti_fhuman_cb05",
-//      "anti_fhuman05",
         "anti_fhuman10",
         "anti_fhuman_cb10",
         "anti_fhuman_cb20",
@@ -569,14 +564,8 @@
         "anti_mhuman20",
         "acidhair_hu6",             // by LFlame and Juni
         "acidhair_flo10",           // by LFlame and Juni
-//      "cb_male58",
-//      "sdv_shane",
         "lflame_elegantemo",
-//      "acidhair_ap3",             // by LFlame and Juni
-//      "cb_fem32",
         "cb_fem56",
-//      "cb_fem62",
-//      "cb_fem6",
         "faf_1_default",
         "faf_3_index",
         "faf_3_sancho",
@@ -595,13 +584,8 @@
         "faf_8_middleb",
         "faf_8_beforeahab",
         "acidhair_hu11",            // by LFlame and Juni
-//      "acidhair_ap13",            // by LFlame and Juni
-//      "ng_mesu046",
         "ng_mesu048",
         "ng_mesu043",
-//      "ng_mesu018",
-//      "cb_fem14",
-//      "cb_fem17",
         "acidhair_ap18",            // by LFlame and Juni
         "cb_fem58",
         "cb_fem8",
@@ -632,7 +616,6 @@
         "z4thornytail",
         "ng_mesu052",
         "anti_fhuman_cb11",
-//      "anti_fhuman11",
         "z4drills",
         "anti_fhuman_cb08",
         "anti_fhuman08",
@@ -651,13 +634,9 @@
         "ng_mesu011",
         "ng_mesu010",
         "ng_mesu012",
-//      "ng_mesu002",
         "cb_fem28",
-//      "cb_fem2",
         "cb_male53",
         "cb_male38",
-//      "cb_fem20",
-//      "sdv_maru",
         "z4mdreadlocks",
         "faf_4_default",
         "cb_fem57",
@@ -674,10 +653,8 @@
         "acidhair_ap16",            // by LFlame and Juni
         "acidhair_ap1",             // by LFlame and Juni
         "cb_fem15",
-//      "cb_fem27",
         "cb_fem54",
         "ng_mesu032",
-//      "cb_fem4",
         "cb_fem16",
         "ng_mesu059",
         "ng_mesu060",
@@ -706,15 +683,42 @@
         "cb_fem47",
         "anti_fhuman_cb19",
         "anti_fhuman_cb21",
-//      "z4bmessy",
         "anti_mhuman_cb19",
-//      "anti_fhuman19",
-//      "6",
         "19",
         "z4novacrono",
         "z4flowerymane",
         "lflame_theorb",
         "lflame_01"                // by LFlame and Juni
+
+      //  Disabled with 0.99.12 (female)
+        // "anti_fhuman01",
+        // "3",
+        // "cb_fem12",
+        // "sdv_emily",
+        // "cb_fem5",
+        // "anti_fhuman05",
+        // "cb_male58",
+        // "sdv_shane",
+        // "acidhair_ap13",            // by LFlame and Juni
+        // "ng_mesu046",
+        // "ng_mesu018",
+        // "cb_fem14",
+        // "cb_fem17",
+        // "acidhair_ap3",             // by LFlame and Juni
+        // "cb_fem32",
+        // "cb_fem62",
+        // "cb_fem6",
+        // "anti_fhuman11",
+        // "ng_mesu002",
+        // "cb_fem2",
+        // "cb_fem20",
+        // "sdv_maru",
+        // "cb_fem27",
+        // "cb_fem4",
+        // "z4bmessy",
+        // "anti_fhuman19",
+        // "6",
+
       ],
       "shirt": [
         "invisiblefabricchest"
@@ -741,28 +745,36 @@
 
   "bodyColor": [
     {"FFE2C5": "505050", "FFC181": "343434", "D39C6C": "202020", "C7815B": "000000"},  // Black
+    {"FFE2C5": "6a5f59", "FFC181": "524945", "D39C6C": "352a26", "C7815B": "221b18"},  // Ebony
     {"FFE2C5": "836059", "FFC181": "724549", "D39C6C": "473037", "C7815B": "281b1f"},  // Mahogany
     {"FFE2C5": "7d654f", "FFC181": "65513d", "D39C6C": "3f322d", "C7815B": "251d1a"},  // Wood
-    {"FFE2C5": "6f6f6f", "FFC181": "555555", "D39C6C": "343434", "C7815B": "202020"},  // Charcoal
-    {"FFE2C5": "847a6f", "FFC181": "69625a", "D39C6C": "494343", "C7815B": "272727"},  // Ash
+    {"FFE2C5": "926c58", "FFC181": "7a5b4a", "D39C6C": "533627", "C7815B": "2e1a11"},  // Cedar
     {"FFE2C5": "957151", "FFC181": "7e5938", "D39C6C": "5d3e25", "C7815B": "382516"},  // Chocolate
     {"FFE2C5": "997d6a", "FFC181": "86644a", "D39C6C": "684431", "C7815B": "40271d"},  // Caramel
-    {"FFE2C5": "af9795", "FFC181": "887270", "D39C6C": "655352", "C7815B": "352a28"},  // Bole
+    {"FFE2C5": "a99290", "FFC181": "887270", "D39C6C": "655352", "C7815B": "352a28"},  // Bole
     {"FFE2C5": "b0a293", "FFC181": "897c6f", "D39C6C": "665b51", "C7815B": "352f27"},  // Dirt
-    {"FFE2C5": "aaaaaa", "FFC181": "868686", "D39C6C": "5a5a5a", "C7815B": "323232"},  // Nickel
-    {"FFE2C5": "b9997a", "FFC181": "9f7761", "D39C6C": "7d5446", "C7815B": "54332d"},  // Clay
-    {"FFE2C5": "c3a98c", "FFC181": "998168", "D39C6C": "725f4a", "C7815B": "3d3022"},  // Peanut
-    {"FFE2C5": "b3aea8", "FFC181": "8b8680", "D39C6C": "66625d", "C7815B": "35322f"},  // Stone
-    {"FFE2C5": "baafa5", "FFC181": "96887a", "D39C6C": "736355", "C7815B": "433428"},  // Mink
+    {"FFE2C5": "b9997a", "FFC181": "9f7761", "D39C6C": "7d5446", "C7815B": "54332d"},  // Beaver
+    {"FFE2C5": "c3a98c", "FFC181": "998168", "D39C6C": "725f4a", "C7815B": "4a3a29"},  // Peanut
+    {"FFE2C5": "baafa5", "FFC181": "96887a", "D39C6C": "736355", "C7815B": "4f3d2f"},  // Mink
+    {"FFE2C5": "ada5a2", "FFC181": "958c87", "D39C6C": "786a62", "C7815B": "5b493f"},  // Clay
     {"FFE2C5": "d7b187", "FFC181": "c88959", "D39C6C": "98664a", "C7815B": "6e432c"},  // Sienna
     {"FFE2C5": "d6ba80", "FFC181": "d0943e", "D39C6C": "a05e2c", "C7815B": "6d3a2c"},  // Apricot
-    {"FFE2C5": "cfcfcf", "FFC181": "b6b6b6", "D39C6C": "848484", "C7815B": "494949"},  // Cloud
-    {"FFE2C5": "d2c2bd", "FFC181": "baa9a6", "D39C6C": "93858e", "C7815B": "5e5360"},  // Thistle
+    {"FFE2C5": "eab386", "FFC181": "d99157", "D39C6C": "af6143", "C7815B": "7d392a"},  // Savanna
     {"FFE2C5": "e8cebc", "FFC181": "cfa97d", "D39C6C": "ae774b", "C7815B": "804e34"},  // Fawn
+    {"FFE2C5": "d2c2bd", "FFC181": "baa9a6", "D39C6C": "93858e", "C7815B": "655967"},  // Thistle
     {"FFE2C5": "f9d7cd", "FFC181": "f6baa2", "D39C6C": "cc9582", "C7815B": "946254"},  // Cantaloupe
-    {"FFE2C5": "f6f0e4", "FFC181": "e3d8ca", "D39C6C": "bbb29f", "C7815B": "7a7469"},  // Milk
     {"FFE2C5": "f5ede3", "FFC181": "f9d3a9", "D39C6C": "d3a57c", "C7815B": "a06e53"},  // Latte
-    {"FFE2C5": "ffffff", "FFC181": "e6e6e6", "D39C6C": "b4b4b4", "C7815B": "797979"}   // White
+    {"FFE2C5": "f6f0e4", "FFC181": "e3d8ca", "D39C6C": "bbb29f", "C7815B": "7a7469"},  // Milk
+    {"FFE2C5": "ffffff", "FFC181": "e6e6e6", "D39C6C": "b4b4b4", "C7815B": "797979"},  // White
+    {"FFE2C5": "f9f9f9", "FFC181": "d1cbc5", "D39C6C": "9b958e", "C7815B": "796f69"},  // Wolf
+    {"FFE2C5": "cfcfcf", "FFC181": "b6b6b6", "D39C6C": "848484", "C7815B": "555555"},  // Cloud
+    {"FFE2C5": "b9bfc1", "FFC181": "9fa8ac", "D39C6C": "777f84", "C7815B": "565b61"},  // Dolphin
+    {"FFE2C5": "aba6a0", "FFC181": "8b8680", "D39C6C": "66625d", "C7815B": "433f3b"},  // Stone
+    {"FFE2C5": "9aa3a8", "FFC181": "7e898f", "D39C6C": "5d6569", "C7815B": "3c434a"},  // Pewter
+    {"FFE2C5": "aaaaaa", "FFC181": "868686", "D39C6C": "5a5a5a", "C7815B": "323232"},  // Nickel
+    {"FFE2C5": "9a9488", "FFC181": "787370", "D39C6C": "4f4b49", "C7815B": "383532"},  // Shadow
+    {"FFE2C5": "847a6f", "FFC181": "69625a", "D39C6C": "494343", "C7815B": "272727"},  // Ash
+    {"FFE2C5": "6f6f6f", "FFC181": "555555", "D39C6C": "343434", "C7815B": "202020"}   // Charcoal
   ],
 
   "undyColor": [
@@ -824,27 +836,36 @@
     {"F7E7B2": "b27f7f", "D9C189": "945858", "A38D59": "6f4343", "735E3A": "432929"},  // Brown Red
   // Body
     {"F7E7B2": "505050", "D9C189": "343434", "A38D59": "202020", "735E3A": "000000"},  // Black
+    {"F7E7B2": "6a5f59", "D9C189": "524945", "A38D59": "352a26", "735E3A": "221b18"},  // Ebony
     {"F7E7B2": "836059", "D9C189": "724549", "A38D59": "473037", "735E3A": "281b1f"},  // Mahogany
     {"F7E7B2": "7d654f", "D9C189": "65513d", "A38D59": "3f322d", "735E3A": "251d1a"},  // Wood
-    {"F7E7B2": "6f6f6f", "D9C189": "555555", "A38D59": "343434", "735E3A": "202020"},  // Charcoal
-    {"F7E7B2": "847a6f", "D9C189": "69625a", "A38D59": "494343", "735E3A": "272727"},  // Ash
+    {"F7E7B2": "926c58", "D9C189": "7a5b4a", "A38D59": "533627", "735E3A": "2e1a11"},  // Cedar
     {"F7E7B2": "957151", "D9C189": "7e5938", "A38D59": "5d3e25", "735E3A": "382516"},  // Chocolate
     {"F7E7B2": "997d6a", "D9C189": "86644a", "A38D59": "684431", "735E3A": "40271d"},  // Caramel
-    {"F7E7B2": "af9795", "D9C189": "887270", "A38D59": "655352", "735E3A": "352a28"},  // Bole
+    {"F7E7B2": "a99290", "D9C189": "887270", "A38D59": "655352", "735E3A": "352a28"},  // Bole
     {"F7E7B2": "b0a293", "D9C189": "897c6f", "A38D59": "665b51", "735E3A": "352f27"},  // Dirt
-    {"F7E7B2": "aaaaaa", "D9C189": "868686", "A38D59": "5a5a5a", "735E3A": "323232"},  // Nickel
-    {"F7E7B2": "b9997a", "D9C189": "9f7761", "A38D59": "7d5446", "735E3A": "54332d"},  // Clay
-    {"F7E7B2": "c3a98c", "D9C189": "998168", "A38D59": "725f4a", "735E3A": "3d3022"},  // Peanut
-    {"F7E7B2": "b3aea8", "D9C189": "8b8680", "A38D59": "66625d", "735E3A": "35322f"},  // Stone
-    {"F7E7B2": "baafa5", "D9C189": "96887a", "A38D59": "736355", "735E3A": "433428"},  // Mink
+    {"F7E7B2": "b9997a", "D9C189": "9f7761", "A38D59": "7d5446", "735E3A": "54332d"},  // Beaver
+    {"F7E7B2": "c3a98c", "D9C189": "998168", "A38D59": "725f4a", "735E3A": "4a3a29"},  // Peanut
+    {"F7E7B2": "baafa5", "D9C189": "96887a", "A38D59": "736355", "735E3A": "4f3d2f"},  // Mink
+    {"F7E7B2": "ada5a2", "D9C189": "958c87", "A38D59": "786a62", "735E3A": "5b493f"},  // Clay
     {"F7E7B2": "d7b187", "D9C189": "c88959", "A38D59": "98664a", "735E3A": "6e432c"},  // Sienna
-    {"F7E7B2": "cfcfcf", "D9C189": "b6b6b6", "A38D59": "848484", "735E3A": "494949"},  // Cloud
-    {"F7E7B2": "d2c2bd", "D9C189": "baa9a6", "A38D59": "93858e", "735E3A": "5e5360"},  // Thistle
+    {"F7E7B2": "d6ba80", "D9C189": "d0943e", "A38D59": "a05e2c", "735E3A": "6d3a2c"},  // Apricot
+    {"F7E7B2": "eab386", "D9C189": "d99157", "A38D59": "af6143", "735E3A": "7d392a"},  // Savanna
     {"F7E7B2": "e8cebc", "D9C189": "cfa97d", "A38D59": "ae774b", "735E3A": "804e34"},  // Fawn
+    {"F7E7B2": "d2c2bd", "D9C189": "baa9a6", "A38D59": "93858e", "735E3A": "655967"},  // Thistle
     {"F7E7B2": "f9d7cd", "D9C189": "f6baa2", "A38D59": "cc9582", "735E3A": "946254"},  // Cantaloupe
-    {"F7E7B2": "f6f0e4", "D9C189": "e3d8ca", "A38D59": "bbb29f", "735E3A": "7a7469"},  // Milk
     {"F7E7B2": "f5ede3", "D9C189": "f9d3a9", "A38D59": "d3a57c", "735E3A": "a06e53"},  // Latte
+    {"F7E7B2": "f6f0e4", "D9C189": "e3d8ca", "A38D59": "bbb29f", "735E3A": "7a7469"},  // Milk
     {"F7E7B2": "ffffff", "D9C189": "e6e6e6", "A38D59": "b4b4b4", "735E3A": "797979"},  // White
+    {"F7E7B2": "f9f9f9", "D9C189": "d1cbc5", "A38D59": "9b958e", "735E3A": "796f69"},  // Wolf
+    {"F7E7B2": "cfcfcf", "D9C189": "b6b6b6", "A38D59": "848484", "735E3A": "555555"},  // Cloud
+    {"F7E7B2": "b9bfc1", "D9C189": "9fa8ac", "A38D59": "777f84", "735E3A": "565b61"},  // Dolphin
+    {"F7E7B2": "aba6a0", "D9C189": "8b8680", "A38D59": "66625d", "735E3A": "433f3b"},  // Stone
+    {"F7E7B2": "9aa3a8", "D9C189": "7e898f", "A38D59": "5d6569", "735E3A": "3c434a"},  // Pewter
+    {"F7E7B2": "aaaaaa", "D9C189": "868686", "A38D59": "5a5a5a", "735E3A": "323232"},  // Nickel
+    {"F7E7B2": "9a9488", "D9C189": "787370", "A38D59": "4f4b49", "735E3A": "383532"},  // Shadow
+    {"F7E7B2": "847a6f", "D9C189": "69625a", "A38D59": "494343", "735E3A": "272727"},  // Ash
+    {"F7E7B2": "6f6f6f", "D9C189": "555555", "A38D59": "343434", "735E3A": "202020"},  // Charcoal
   // Vanilla
     {"F7E7B2": "838383", "D9C189": "555555", "A38D59": "383838", "735E3A": "151515"},  // Black
     {"F7E7B2": "b5b5b5", "D9C189": "808080", "A38D59": "555555", "735E3A": "303030"},  // Gray
