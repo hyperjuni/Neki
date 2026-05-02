@@ -4,7 +4,7 @@ function init()
   local species = world.entitySpecies(entity.id()) or "default"
   local nekiOnly = config.getParameter("nekiOnly", false)
   local mask = config.getParameter("nekihideMask")
-  if nekiOnly and species ~= "neki" then
+  if nekiOnly and species ~= "neki" and species ~= "nekistripes" then
     return
   end
   if mask then
