@@ -17,7 +17,7 @@
 
     "scripts": ["/monsters/scripted/nekistripestail/nekistripestailbehavior.lua"],
     "tailPulls": 3, // Number of interactions before she appears
-    "scamperRange": 250, // How far she goes to hide again, in blocks
+    "scamperRange": 200, // How far she goes to hide again, in blocks
     "scamperSpeed": 0.1, // How fast she moves between hiding spots
 
     "preferredStarterObjects": [], // The initial hiding spot(s)

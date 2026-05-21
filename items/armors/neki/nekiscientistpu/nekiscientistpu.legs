@@ -3,7 +3,7 @@
   "price": 5000,
   "inventoryIcon": "icon.png",
   "maxStack": 1,
-  "rarity": "Legendary",
+  "rarity": "Essential",
   "category": "legwear",
   "description": "The extra padding is for when things go extra wrong.",
   "shortdescription": "Neki Scientist Pushup",

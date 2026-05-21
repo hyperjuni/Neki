@@ -3,7 +3,7 @@
   "price": 5000,
   "inventoryIcon": "icons.png:chest",
   "maxStack": 1,
-  "rarity": "Legendary",
+  "rarity": "Essential",
   "category": "chestwear",
   "description": "Sleeves... For science!",
   "shortdescription": "Neki Scientist Sleeves",

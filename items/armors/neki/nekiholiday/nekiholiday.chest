@@ -3,7 +3,7 @@
   "price": 1,
   "inventoryIcon": "icons.png:chest",
   "maxStack": 1,
-  "rarity": "Uncommon",
+  "rarity": "Rare",
   "category": "chestwear",
   "description": "Holiday paw-fluff!",
   "shortdescription": "Neki Holiday Sleeves",

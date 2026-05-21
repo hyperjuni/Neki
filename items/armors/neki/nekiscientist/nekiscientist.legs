@@ -3,7 +3,7 @@
   "price": 5000,
   "inventoryIcon": "icons.png:pants",
   "maxStack": 1,
-  "rarity": "Legendary",
+  "rarity": "Essential",
   "category": "legwear",
   "description": "Obstructs your highly sensitive self while handling highly sensitive stuff.",
   "shortdescription": "Neki Scientist Coat",

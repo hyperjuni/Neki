@@ -1,17 +1,17 @@
 {
-  // ==============================================================================================
-  //                                     NEKI TREASURE POOLS
-  // ==============================================================================================
+// ==============================================================================================
+//                                     NEKI TREASURE POOLS
+// ==============================================================================================
 
   // ================================
   //     Miniknog Preliminary Logs
   // ================================
 
-  "nekiMKLogPreliminary" : [
-    [1, {
+  "nekiMKLogPreliminary": [
+    [0, {
       "pool": [
-        {"weight" : 0.5, "item" : "nekimklog6-codex"},
-        {"weight" : 0.5, "item" : "nekimklog11-codex"}
+        {"weight": 0.5, "item": "nekimklog6-codex"},
+        {"weight": 0.5, "item": "nekimklog11-codex"}
       ]
     }]
   ],
@@ -20,17 +20,17 @@
   //      Miniknog Research Logs
   // ================================
 
-  "nekiMKLogResearch" : [
-    [1, {
+  "nekiMKLogResearch": [
+    [0, {
       "pool": [
-        {"weight" : 0.125, "item" : "nekimklog34-codex"},
-        {"weight" : 0.125, "item" : "nekimklog49-codex"},
-        {"weight" : 0.125, "item" : "nekimklog71-codex"},
-        {"weight" : 0.125, "item" : "nekimklog79-codex"},
-        {"weight" : 0.125, "item" : "nekimklog103-codex"},
-        {"weight" : 0.125, "item" : "nekimklog114-codex"},
-        {"weight" : 0.125, "item" : "nekimklog121-codex"},
-        {"weight" : 0.125, "item" : "nekimklog128-codex"}
+        {"weight": 0.125, "item": "nekimklog34-codex"},
+        {"weight": 0.125, "item": "nekimklog49-codex"},
+        {"weight": 0.125, "item": "nekimklog71-codex"},
+        {"weight": 0.125, "item": "nekimklog79-codex"},
+        {"weight": 0.125, "item": "nekimklog103-codex"},
+        {"weight": 0.125, "item": "nekimklog114-codex"},
+        {"weight": 0.125, "item": "nekimklog121-codex"},
+        {"weight": 0.125, "item": "nekimklog128-codex"}
       ]
     }]
   ],
@@ -39,13 +39,80 @@
   //      Miniknog Personal Logs
   // ================================
   
-  "nekiMKLogPersonal" : [
-    [1, {
+  "nekiMKLogPersonal": [
+    [0, {
       "pool": [
-        {"weight" : 0.25, "item" : "nekimklog103p-codex"},
-        {"weight" : 0.25, "item" : "nekimklog107p-codex"},
-        {"weight" : 0.25, "item" : "nekimklog121p-codex"},
-        {"weight" : 0.25, "item" : "nekimklog128p-codex"}
+        {"weight": 0.25, "item": "nekimklog103p-codex"},
+        {"weight": 0.25, "item": "nekimklog107p-codex"},
+        {"weight": 0.25, "item": "nekimklog121p-codex"},
+        {"weight": 0.25, "item": "nekimklog128p-codex"}
+      ]
+    }]
+  ],
+  
+  // ================================
+  //      Tenant Gifts
+  // ================================
+
+  "nekiBlocks": [
+    [0, {
+      "pool": [
+        {"weight": 0.1, "item": ["brainsblock", 1]},
+        {"weight": 0.1, "item": ["dermisblock", 1]},
+        {"weight": 0.1, "item": ["fleshblock", 1]},
+        {"weight": 0.1, "item": ["fleshstrand", 1]},
+        {"weight": 0.1, "item": ["hellstonematerial", 1]},
+        {"weight": 0.1, "item": ["junk", 1]},
+        {"weight": 0.1, "item": ["tentacleblock", 1]},
+        {"weight": 0.1, "item": ["tentaclepipe", 1]},
+        {"weight": 0.1, "item": ["spidersilkblock", 1]},
+        {"weight": 0.1, "item": ["stomachblock", 1]}
+      ]
+    }]
+  ],
+
+  "nekiCrafting": [
+    [0, {
+      "pool": [
+        {"weight": 0.15, "item": ["larva", 1]},
+        {"weight": 0.15, "item": ["string", 1]},
+        {"weight": 0.1, "item": ["ancientbones", 1]},
+        {"weight": 0.1, "item": ["bugshell", 1]},
+        {"weight": 0.1, "item": ["fleshstrand", 1]},
+        {"weight": 0.1, "item": ["gnome", 1]},
+        {"weight": 0.025, "item": ["biosample", 1]},
+        {"weight": 0.025, "item": ["livingroot", 1]},
+        {"weight": 0.01, "item": ["basic", 1]},
+        {"weight": 0.01, "item": ["brain", 1]},
+        {"weight": 0.01, "item": ["holidayspirit", 1]},
+        {"weight": 0.01, "item": ["inferiorbrain", 1]}
+      ]
+    }]
+  ],
+
+  "nekiFood": [
+    [0, {
+      "pool": [
+        {"weight": 0.1, "item": ["alienmeat", 1]},
+        {"weight": 0.1, "item": ["banana", 1]},
+        {"weight": 0.1, "item": ["egg", 1]},
+        {"weight": 0.1, "item": ["pussplum", 1]},
+        {"weight": 0.1, "item": ["rawbacon", 1]},
+        {"weight": 0.1, "item": ["rawfish", 1]},
+        {"weight": 0.1, "item": ["rawpoultry", 1]},
+        {"weight": 0.1, "item": ["rawribmeat", 1]},
+        {"weight": 0.1, "item": ["rawtentacle", 1]},
+        {"weight": 0.1, "item": ["toxictop", 1]}
+      ]
+    }]
+  ],
+
+  "nekiStuff": [
+    [0, {
+      "pool": [
+        {"weight": 0.1, "item": ["hivebomb", 1]},
+        {"weight": 0.1, "item": ["rottenfood", 1]},
+        {"weight": 0.1, "item": ["soggypaper", 1]}
       ]
     }]
   ]

@@ -3,9 +3,9 @@
   "price": 1,
   "inventoryIcon": "icon.png",
   "maxStack": 1,
-  "rarity": "Rare",
+  "rarity": "Uncommon",
   "category": "legwear",
-  "description": "Birthday suit with strings attached.\nDesigned for SFW skins.",
+  "description": "Birthday suit with strings attached.\n\nDesigned for SFW skins.",
   "shortdescription": "Nokini",
   "tooltipKind": "nekiarmor",
 

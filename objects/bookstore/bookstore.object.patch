@@ -1,0 +1,41 @@
+[
+  [{"op":"add","path":"/nekiDescription","value":"A danger buffet!"}],
+
+  [
+    {"op": "add", "path": "/interactData/modTab/-",
+      "value": {
+        "file": "/interface/bs_codex/tabicon_neki.png",
+        "label": "Neki",
+        "filter": ["neki"]
+      }
+    },
+    {"op": "add", "path": "/storeInventory/neki", "value": []}
+  ],
+
+  [{"op": "add", "path": "/storeInventory/neki/-", "value": "nekimklog6-codex"}],
+  [{"op": "add", "path": "/storeInventory/neki/-", "value": "nekimklog11-codex"}],
+  [{"op": "add", "path": "/storeInventory/neki/-", "value": "nekimklog34-codex"}],
+  [{"op": "add", "path": "/storeInventory/neki/-", "value": "nekimklog49-codex"}],
+  [{"op": "add", "path": "/storeInventory/neki/-", "value": "nekimklog71-codex"}],
+  [{"op": "add", "path": "/storeInventory/neki/-", "value": "nekimklog79-codex"}],
+  [{"op": "add", "path": "/storeInventory/neki/-", "value": "nekimklog103-codex"}],
+  [{"op": "add", "path": "/storeInventory/neki/-", "value": "nekimklog103p-codex"}],
+  [{"op": "add", "path": "/storeInventory/neki/-", "value": "nekimklog107p-codex"}],
+  [{"op": "add", "path": "/storeInventory/neki/-", "value": "nekimklog114-codex"}],
+  [{"op": "add", "path": "/storeInventory/neki/-", "value": "nekimklog121-codex"}],
+  [{"op": "add", "path": "/storeInventory/neki/-", "value": "nekimklog121p-codex"}],
+  [{"op": "add", "path": "/storeInventory/neki/-", "value": "nekimklog128-codex"}],
+  [{"op": "add", "path": "/storeInventory/neki/-", "value": "nekimklog128p-codex"}],
+  [{"op": "add", "path": "/storeInventory/neki/-", "value": "nekimklog312p-codex"}],
+  [{"op": "add", "path": "/storeInventory/neki/-", "value": "nekimklog319p-codex"}],
+  [{"op": "add", "path": "/storeInventory/neki/-", "value": "nekimklog327p-codex"}],
+  [{"op": "add", "path": "/storeInventory/neki/-", "value": "nekiprlog342-codex"}],
+  [{"op": "add", "path": "/storeInventory/neki/-", "value": "nekiprlog377-codex"}],
+  [{"op": "add", "path": "/storeInventory/neki/-", "value": "nekiprlog385-codex"}],
+  [{"op": "add", "path": "/storeInventory/neki/-", "value": "nekiprot1-codex"}],
+  [{"op": "add", "path": "/storeInventory/neki/-", "value": "nekiprot2-codex"}],
+  [{"op": "add", "path": "/storeInventory/neki/-", "value": "nekiship0-codex"}],
+  [{"op": "add", "path": "/storeInventory/neki/-", "value": "nekiship3-codex"}],
+  [{"op": "add", "path": "/storeInventory/neki/-", "value": "nekiship5-codex"}],
+  [{"op": "add", "path": "/storeInventory/neki/-", "value": "nekitutorialbasic-codex"}]
+]

@@ -1,0 +1,11 @@
+{
+  "input": [
+    {"item": "nokini", "count": 1},
+    {"item": "fabric", "count": 8},
+    {"item": "string", "count": 10}
+  ],
+
+  "duration": 0.5,
+  "output": {"item": "nekinoughtie", "count": 1},
+  "groups": ["nekiwheel", "nekilegs"]
+}

@@ -173,8 +173,9 @@
       {"item": "nekiwheel"},
 
     // Neki Wheel
-      {"item": "nekitoywingsback"},
-      {"item": "nekiwingsback"},
+    // Legs
+      {"item": "invisiblefabriclegs"},
+      {"item": "nekicami"},
       {"item": "nekidirndl"},
       {"item": "nekidressgala"},
       {"item": "nekidressgown"},
@@ -182,25 +183,18 @@
       {"item": "nekidressrobe"},
       {"item": "nekiholidayjacket"},
       {"item": "nekiholidayskirt"},
-      {"item": "nekiholidaysleeves"},
       {"item": "nekinightie"},
       {"item": "nekinoughtie"},
-      {"item": "nekitankini"},
-      {"item": "nekipeacekeeperhead"},
-      {"item": "nekipeacekeepersleeves"},
       {"item": "nekipeacekeeperuniform"},
       {"item": "nekirags"},
       {"item": "nekiribbons"},
       {"item": "nekiruffles"},
       {"item": "nekiscientistcoat"},
-      {"item": "nekiscientistsleeves"},
-      {"item": "nekishades"},
-      {"item": "nekisleevesangel"},
-      {"item": "nekisleevesglove"},
-      {"item": "nekisleevesshort"},
       {"item": "nekistrapless"},
       {"item": "nekistripless"},
-      {"item": "nekitiara"},
+      {"item": "nekisundresscutout"},
+      {"item": "nekisundresstube"},
+      {"item": "nekitankini"},
       {"item": "nekini"},
       {"item": "nekinibottom"},
       {"item": "nekinitop"},
@@ -208,19 +202,39 @@
       {"item": "nokinibottom"},
       {"item": "nokinitop"},
 
+    // Chest
+      {"item": "invisiblefabricchest"},
+      {"item": "nekiholidaysleeves"},
+      {"item": "nekipeacekeepersleeves"},
+      {"item": "nekiscientistsleeves"},
+      {"item": "nekisleevesangel"},
+      {"item": "nekisleevesarmband"},
+      {"item": "nekisleevesglove"},
+      {"item": "nekisleevesshort"},
+
+    // Back + Head
+      {"item": "nekitoywingsback"},
+      {"item": "nekiwingsback"},
       {"item": "invisiblefabricback"},
       {"item": "invisiblefabrichead"},
-      {"item": "invisiblefabriclegs"},
-      {"item": "invisiblefabricchest"},
-      {"item": "nekischest"},
-      {"item": "nekischest2"},
-      {"item": "nekislegs"},
-      {"item": "nekislongchest"},
-      {"item": "nekislonglegs"},
-      {"item": "nekisshortchest"},
-      {"item": "nekisshortchest2"},
-      {"item": "nekisshortlegs"},
+      {"item": "nekipeacekeeperhead"},
+      {"item": "nekishades"},
+      {"item": "nekitiara"},
 
+    // Pushup
+      {"item": "nekidressgownpu"},
+      {"item": "nekidressgown2pu"},
+      {"item": "nekiholidayskirtpu"},
+      {"item": "nekinightiepu"},
+      {"item": "nekipeacekeeperuniformpu"},
+      {"item": "nekiprotectoratepantspu"},
+      {"item": "nekiprotectorateskirtpu"},
+      {"item": "nekiscientistcoatpu"},
+      {"item": "nekitankinipu"},
+      {"item": "nekinipu"},
+      {"item": "nekinitoppu"},
+
+    // Furniture
       {"item": "nekicurtain1"},
       {"item": "nekicurtain2"},
       {"item": "nekicurtain3"},
@@ -235,23 +249,21 @@
       {"item": "nekipillowyellow"},
       {"item": "nekipillowpile"},
 
-      {"item": "nekidressgownpu"},
-      {"item": "nekidressgown2pu"},
-      {"item": "nekiholidayskirtpu"},
-      {"item": "nekinightiepu"},
-      {"item": "nekipeacekeeperuniformpu"},
-      {"item": "nekiprotectoratepantspu"},
-      {"item": "nekiprotectorateskirtpu"},
-      {"item": "nekiscientistcoatpu"},
-      {"item": "nekitankinipu"},
-      {"item": "nekinipu"},
-      {"item": "nekinitoppu"}
+    // Ew.
+      {"item": "nekischest"},
+      {"item": "nekischest2"},
+      {"item": "nekislegs"},
+      {"item": "nekislongchest"},
+      {"item": "nekislonglegs"},
+      {"item": "nekisshortchest"},
+      {"item": "nekisshortchest2"},
+      {"item": "nekisshortlegs"}
     ]
   },
 
 // The author of the original 'acidhair' hairstyles has kindly requested they be removed from Neki.
 // As their naming was already part of players' existing universes, the names could not be changed.
-// The current 'acidhair' hairstyles were created from scratch, inspired by the originals.
+// The current 'acidhair' hairstyles were therefore created from scratch, inspired by the originals.
 
   "genders": [
     {
@@ -460,7 +472,7 @@
         "ng_osu019",
         "anti_mhuman17"
 
-      //  Disabled with 0.99.12 (male)
+      //  Disabled (male)
         // "cb_male52",
         // "ng_osu012",
         // "ng_osu016",
@@ -470,7 +482,8 @@
 
       ],
       "shirt": [
-        "invisiblefabricchest"
+        "invisiblefabricchest",
+        "nekisleevesarmband"
       ],
       "pants": [
         "invisiblefabriclegs",
@@ -690,7 +703,7 @@
         "lflame_theorb",
         "lflame_01"                // by LFlame and Juni
 
-      //  Disabled with 0.99.12 (female)
+      //  Disabled (female)
         // "anti_fhuman01",
         // "3",
         // "cb_fem12",
@@ -721,12 +734,14 @@
 
       ],
       "shirt": [
-        "invisiblefabricchest"
+        "invisiblefabricchest",
+        "nekisleevesarmband"
       ],
       "pants": [
         "invisiblefabriclegs",
         "nekinibottom",
         "nekini",
+        "nekicami",
         "nekitankini",
         "nekinightie",
         "nekirags"

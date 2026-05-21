@@ -3,7 +3,7 @@
   "price": 1,
   "inventoryIcon": "icon.png",
   "maxStack": 1,
-  "rarity": "Rare",
+  "rarity": "Common",
   "category": "chestwear",
   "description": "For touching yucky stuff, but in style.",
   "shortdescription": "Neki Sleeves - Glove",

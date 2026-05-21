@@ -111,6 +111,40 @@
       ]
     },
     {
+      "path": "/items/armors/neki/nekisleevesarmband/",
+      "fileName": "nekisleevesarmband.chest",
+      "category": "chest",
+      "name": "nekisleevesarmband",
+      "shortdescription": "Neki Sleeves - Armband",
+      "icon": "icon.png",
+      "maleFrames": {
+        "body": "chest.png",
+        "backSleeve": "bsleeve.png",
+        "frontSleeve": "fsleeve.png"
+      },
+      "femaleFrames": {
+        "body": "chest.png",
+        "backSleeve": "bsleeve.png",
+        "frontSleeve": "fsleeve.png"
+      },
+      "mask": null,
+      "rarity": "Common",
+      "colorOptions": [
+        {"ffca8a": "ffffff", "e0975c": "e6e6e6", "a85636": "b4b4b4", "6f2919": "7b7b7b"},
+        {"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
+        {"ffca8a": "b5b5b5", "e0975c": "808080", "a85636": "555555", "6f2919": "303030"},
+        {"ffca8a": "e6e6e6", "e0975c": "b6b6b6", "a85636": "7b7b7b", "6f2919": "373737"},
+        {"ffca8a": "f4988c", "e0975c": "d93a3a", "a85636": "932625", "6f2919": "601119"},
+        {"ffca8a": "ffd495", "e0975c": "ea9931", "a85636": "af4e00", "6f2919": "6e2900"},
+        {"ffca8a": "ffffa7", "e0975c": "e2c344", "a85636": "a46e06", "6f2919": "642f00"},
+        {"ffca8a": "b2e89d", "e0975c": "51bd3b", "a85636": "247824", "6f2919": "144216"},
+        {"ffca8a": "96cbe7", "e0975c": "5588d4", "a85636": "344495", "6f2919": "1a1c51"},
+        {"ffca8a": "d29ce7", "e0975c": "a451c4", "a85636": "6a2284", "6f2919": "320c40"},
+        {"ffca8a": "eab3db", "e0975c": "d35eae", "a85636": "97276d", "6f2919": "59163f"},
+        {"ffca8a": "ccae7c", "e0975c": "a47844", "a85636": "754c23", "6f2919": "472b13"}
+      ]
+    },
+    {
       "path": "/items/armors/neki/nekisleevesshort/",
       "fileName": "nekisleevesshort.chest",
       "category": "chest",
@@ -128,7 +162,7 @@
         "frontSleeve": "fsleeve.png"
       },
       "mask": null,
-      "rarity": "Rare",
+      "rarity": "Common",
       "colorOptions": [
         {"ffca8a": "ffffff", "e0975c": "e6e6e6", "a85636": "b4b4b4", "6f2919": "7b7b7b"},
         {"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
@@ -162,7 +196,7 @@
         "frontSleeve": "fsleeve.png"
       },
       "mask": null,
-      "rarity": "Rare",
+      "rarity": "Common",
       "colorOptions": [
         {"ffca8a": "ffffff", "e0975c": "e6e6e6", "a85636": "b4b4b4", "6f2919": "7b7b7b"},
         {"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
@@ -196,7 +230,7 @@
         "frontSleeve": "fsleeve.png"
       },
       "mask": null,
-      "rarity": "Rare",
+      "rarity": "Common",
       "colorOptions": [
         {"ffca8a": "ffffff", "e0975c": "e6e6e6", "a85636": "b4b4b4", "6f2919": "7b7b7b"},
         {"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
@@ -230,7 +264,7 @@
         "frontSleeve": "fsleeve.png"
       },
       "mask": null,
-      "rarity": "Legendary",
+      "rarity": "Essential",
       "colorOptions": [
         {"ffca8a": "e6e6e6", "e0975c": "b6b6b6", "a85636": "7b7b7b", "6f2919": "373737"},
         {"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
@@ -264,7 +298,7 @@
         "frontSleeve": "fsleeve.png"
       },
       "mask": null,
-      "rarity": "Uncommon",
+      "rarity": "Rare",
       "colorOptions": [
         {"ffca8a": "f4988c", "e0975c": "d93a3a", "a85636": "932625", "6f2919": "601119"},
         {"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
@@ -378,7 +412,7 @@
       "maleFrames": "pantsm.png",
       "femaleFrames": "pantsf.png",
       "mask": null,
-      "rarity": "Rare",
+      "rarity": "Common",
       "colorOptions": [
         {"ffca8a": "ffffff", "e0975c": "e6e6e6", "a85636": "b4b4b4", "6f2919": "7b7b7b"},
         {"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
@@ -404,7 +438,7 @@
       "maleFrames": "pantsm.png",
       "femaleFrames": "pantsf.png",
       "mask": null,
-      "rarity": "Rare",
+      "rarity": "Common",
       "colorOptions": [
         {"ffca8a": "ffffff", "e0975c": "e6e6e6", "a85636": "b4b4b4", "6f2919": "7b7b7b"},
         {"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
@@ -430,7 +464,7 @@
       "maleFrames": "pantsm.png",
       "femaleFrames": "pantsf.png",
       "mask": null,
-      "rarity": "Rare",
+      "rarity": "Common",
       "colorOptions": [
         {"ffca8a": "ffffff", "e0975c": "e6e6e6", "a85636": "b4b4b4", "6f2919": "7b7b7b"},
         {"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
@@ -456,7 +490,7 @@
       "maleFrames": "pantsm.png",
       "femaleFrames": "pantsf.png",
       "mask": null,
-      "rarity": "Rare",
+      "rarity": "Common",
       "colorOptions": [
         {"ffca8a": "ffffff", "e0975c": "e6e6e6", "a85636": "b4b4b4", "6f2919": "7b7b7b"},
         {"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
@@ -482,7 +516,7 @@
       "maleFrames": "pantsm.png",
       "femaleFrames": "pantsf.png",
       "mask": null,
-      "rarity": "Rare",
+      "rarity": "Common",
       "colorOptions": [
         {"ffca8a": "ffffff", "e0975c": "e6e6e6", "a85636": "b4b4b4", "6f2919": "7b7b7b"},
         {"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
@@ -508,7 +542,7 @@
       "maleFrames": "pantsm.png",
       "femaleFrames": "pantsf.png",
       "mask": null,
-      "rarity": "Rare",
+      "rarity": "Uncommon",
       "colorOptions": [
         {"ffca8a": "ffffff", "e0975c": "e6e6e6", "a85636": "b4b4b4", "6f2919": "7b7b7b"},
         {"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
@@ -534,7 +568,7 @@
       "maleFrames": "pantsm.png",
       "femaleFrames": "pantsf.png",
       "mask": null,
-      "rarity": "Rare",
+      "rarity": "Uncommon",
       "colorOptions": [
         {"ffca8a": "ffffff", "e0975c": "e6e6e6", "a85636": "b4b4b4", "6f2919": "7b7b7b"},
         {"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
@@ -556,6 +590,32 @@
       "category": "legs",
       "name": "nekinipu",
       "shortdescription": "Nekini Pushup",
+      "icon": "icon.png",
+      "maleFrames": "pantsm.png",
+      "femaleFrames": "pantsf.png",
+      "mask": null,
+      "rarity": "Uncommon",
+      "colorOptions": [
+        {"ffca8a": "ffffff", "e0975c": "e6e6e6", "a85636": "b4b4b4", "6f2919": "7b7b7b"},
+        {"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
+        {"ffca8a": "b5b5b5", "e0975c": "808080", "a85636": "555555", "6f2919": "303030"},
+        {"ffca8a": "e6e6e6", "e0975c": "b6b6b6", "a85636": "7b7b7b", "6f2919": "373737"},
+        {"ffca8a": "f4988c", "e0975c": "d93a3a", "a85636": "932625", "6f2919": "601119"},
+        {"ffca8a": "ffd495", "e0975c": "ea9931", "a85636": "af4e00", "6f2919": "6e2900"},
+        {"ffca8a": "ffffa7", "e0975c": "e2c344", "a85636": "a46e06", "6f2919": "642f00"},
+        {"ffca8a": "b2e89d", "e0975c": "51bd3b", "a85636": "247824", "6f2919": "144216"},
+        {"ffca8a": "96cbe7", "e0975c": "5588d4", "a85636": "344495", "6f2919": "1a1c51"},
+        {"ffca8a": "d29ce7", "e0975c": "a451c4", "a85636": "6a2284", "6f2919": "320c40"},
+        {"ffca8a": "eab3db", "e0975c": "d35eae", "a85636": "97276d", "6f2919": "59163f"},
+        {"ffca8a": "ccae7c", "e0975c": "a47844", "a85636": "754c23", "6f2919": "472b13"}
+      ]
+    },
+    {
+      "path": "/items/armors/neki/nekicami/",
+      "fileName": "nekicami.legs",
+      "category": "legs",
+      "name": "nekicami",
+      "shortdescription": "Neki Cami Set",
       "icon": "icon.png",
       "maleFrames": "pantsm.png",
       "femaleFrames": "pantsf.png",
@@ -586,7 +646,7 @@
       "maleFrames": "pantsm.png",
       "femaleFrames": "pantsf.png",
       "mask": null,
-      "rarity": "Rare",
+      "rarity": "Legendary",
       "colorOptions": [
         {"ffca8a": "ffffff", "e0975c": "e6e6e6", "a85636": "b4b4b4", "6f2919": "7b7b7b"},
         {"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
@@ -742,7 +802,7 @@
       "maleFrames": "pantsm.png",
       "femaleFrames": "pantsf.png",
       "mask": null,
-      "rarity": "Rare",
+      "rarity": "Legendary",
       "colorOptions": [
         {"ffca8a": "ffffff", "e0975c": "e6e6e6", "a85636": "b4b4b4", "6f2919": "7b7b7b"},
         {"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
@@ -768,9 +828,61 @@
       "maleFrames": "pantsm.png",
       "femaleFrames": "pantsf.png",
       "mask": null,
-      "rarity": "Rare",
+      "rarity": "Legendary",
       "colorOptions": [
         {"ffca8a": "ffffff", "e0975c": "e6e6e6", "a85636": "b4b4b4", "6f2919": "7b7b7b"},
+        {"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
+        {"ffca8a": "b5b5b5", "e0975c": "808080", "a85636": "555555", "6f2919": "303030"},
+        {"ffca8a": "e6e6e6", "e0975c": "b6b6b6", "a85636": "7b7b7b", "6f2919": "373737"},
+        {"ffca8a": "f4988c", "e0975c": "d93a3a", "a85636": "932625", "6f2919": "601119"},
+        {"ffca8a": "ffd495", "e0975c": "ea9931", "a85636": "af4e00", "6f2919": "6e2900"},
+        {"ffca8a": "ffffa7", "e0975c": "e2c344", "a85636": "a46e06", "6f2919": "642f00"},
+        {"ffca8a": "b2e89d", "e0975c": "51bd3b", "a85636": "247824", "6f2919": "144216"},
+        {"ffca8a": "96cbe7", "e0975c": "5588d4", "a85636": "344495", "6f2919": "1a1c51"},
+        {"ffca8a": "d29ce7", "e0975c": "a451c4", "a85636": "6a2284", "6f2919": "320c40"},
+        {"ffca8a": "eab3db", "e0975c": "d35eae", "a85636": "97276d", "6f2919": "59163f"},
+        {"ffca8a": "ccae7c", "e0975c": "a47844", "a85636": "754c23", "6f2919": "472b13"}
+      ]
+    },
+    {
+      "path": "/items/armors/neki/nekisundresstube/",
+      "fileName": "nekisundresstube.legs",
+      "category": "legs",
+      "name": "nekisundresstube",
+      "shortdescription": "Neki Sundress - Tube",
+      "icon": "icon.png",
+      "maleFrames": "pantsm.png",
+      "femaleFrames": "pantsf.png",
+      "mask": null,
+      "rarity": "Legendary",
+      "colorOptions": [
+        {"ffca8a": "daffe5", "e0975c": "97ecb0", "a85636": "6bb383", "6f2919": "417356"},
+        {"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
+        {"ffca8a": "b5b5b5", "e0975c": "808080", "a85636": "555555", "6f2919": "303030"},
+        {"ffca8a": "e6e6e6", "e0975c": "b6b6b6", "a85636": "7b7b7b", "6f2919": "373737"},
+        {"ffca8a": "f4988c", "e0975c": "d93a3a", "a85636": "932625", "6f2919": "601119"},
+        {"ffca8a": "ffd495", "e0975c": "ea9931", "a85636": "af4e00", "6f2919": "6e2900"},
+        {"ffca8a": "ffffa7", "e0975c": "e2c344", "a85636": "a46e06", "6f2919": "642f00"},
+        {"ffca8a": "b2e89d", "e0975c": "51bd3b", "a85636": "247824", "6f2919": "144216"},
+        {"ffca8a": "96cbe7", "e0975c": "5588d4", "a85636": "344495", "6f2919": "1a1c51"},
+        {"ffca8a": "d29ce7", "e0975c": "a451c4", "a85636": "6a2284", "6f2919": "320c40"},
+        {"ffca8a": "eab3db", "e0975c": "d35eae", "a85636": "97276d", "6f2919": "59163f"},
+        {"ffca8a": "ccae7c", "e0975c": "a47844", "a85636": "754c23", "6f2919": "472b13"}
+      ]
+    },
+    {
+      "path": "/items/armors/neki/nekisundresscutout/",
+      "fileName": "nekisundresscutout.legs",
+      "category": "legs",
+      "name": "nekisundresscutout",
+      "shortdescription": "Neki Sundress - Cutout",
+      "icon": "icon.png",
+      "maleFrames": "pantsm.png",
+      "femaleFrames": "pantsf.png",
+      "mask": null,
+      "rarity": "Legendary",
+      "colorOptions": [
+        {"ffca8a": "daffe5", "e0975c": "97ecb0", "a85636": "6bb383", "6f2919": "417356"},
         {"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
         {"ffca8a": "b5b5b5", "e0975c": "808080", "a85636": "555555", "6f2919": "303030"},
         {"ffca8a": "e6e6e6", "e0975c": "b6b6b6", "a85636": "7b7b7b", "6f2919": "373737"},
@@ -794,7 +906,7 @@
       "maleFrames": "pantsm.png",
       "femaleFrames": "pantsf.png",
       "mask": null,
-      "rarity": "Rare",
+      "rarity": "Legendary",
       "colorOptions": [
         {"ffca8a": "ffffff", "e0975c": "e6e6e6", "a85636": "b4b4b4", "6f2919": "7b7b7b"},
         {"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
@@ -820,7 +932,7 @@
       "maleFrames": "pantsm.png",
       "femaleFrames": "pantsf.png",
       "mask": null,
-      "rarity": "Rare",
+      "rarity": "Legendary",
       "colorOptions": [
         {"ffca8a": "ffffff", "e0975c": "e6e6e6", "a85636": "b4b4b4", "6f2919": "7b7b7b"},
         {"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
@@ -846,7 +958,7 @@
       "maleFrames": "pantsm.png",
       "femaleFrames": "pantsf.png",
       "mask": null,
-      "rarity": "Rare",
+      "rarity": "Legendary",
       "colorOptions": [
         {"ffca8a": "ffffff", "e0975c": "e6e6e6", "a85636": "b4b4b4", "6f2919": "7b7b7b"},
         {"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
@@ -872,7 +984,7 @@
       "maleFrames": "pantsm.png",
       "femaleFrames": "pantsf.png",
       "mask": null,
-      "rarity": "Legendary",
+      "rarity": "Essential",
       "colorOptions": [
         {"ffca8a": "ffffff", "e0975c": "e6e6e6", "a85636": "b4b4b4", "6f2919": "7b7b7b"},
         {"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
@@ -898,7 +1010,7 @@
       "maleFrames": "pantsm.png",
       "femaleFrames": "pantsf.png",
       "mask": null,
-      "rarity": "Legendary",
+      "rarity": "Essential",
       "colorOptions": [
         {"ffca8a": "ffffff", "e0975c": "e6e6e6", "a85636": "b4b4b4", "6f2919": "7b7b7b"},
         {"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
@@ -924,7 +1036,7 @@
       "maleFrames": "pantsm.png",
       "femaleFrames": "pantsf.png",
       "mask": null,
-      "rarity": "Rare",
+      "rarity": "Legendary",
       "colorOptions": [
         {"ffca8a": "ffffff", "e0975c": "e6e6e6", "a85636": "b4b4b4", "6f2919": "7b7b7b"},
         {"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
@@ -950,7 +1062,7 @@
       "maleFrames": "pantsm.png",
       "femaleFrames": "pantsf.png",
       "mask": null,
-      "rarity": "Legendary",
+      "rarity": "Essential",
       "colorOptions": [
         {"ffca8a": "b5b5b5", "e0975c": "808080", "a85636": "555555", "6f2919": "303030"},
         {"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
@@ -976,7 +1088,7 @@
       "maleFrames": "pantsm.png",
       "femaleFrames": "pantsf.png",
       "mask": null,
-      "rarity": "Legendary",
+      "rarity": "Essential",
       "colorOptions": [
         {"ffca8a": "b5b5b5", "e0975c": "808080", "a85636": "555555", "6f2919": "303030"},
         {"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
@@ -1002,7 +1114,7 @@
       "maleFrames": "pantsm.png",
       "femaleFrames": "pantsf.png",
       "mask": null,
-      "rarity": "Rare",
+      "rarity": "Uncommon",
       "colorOptions": [
         {"ffca8a": "96CBE7", "e0975c": "5588D4", "a85636": "344495", "6f2919": "1A1C51"},
         {"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
@@ -1028,7 +1140,7 @@
       "maleFrames": "pantsm.png",
       "femaleFrames": "pantsf.png",
       "mask": null,
-      "rarity": "Rare",
+      "rarity": "Legendary",
       "colorOptions": [
         {"ffca8a": "faf0fa", "e0975c": "f0bedc", "a85636": "d28cb4", "6f2919": "a76189"},
         {"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
@@ -1054,7 +1166,7 @@
       "maleFrames": "pantsm.png",
       "femaleFrames": "pantsf.png",
       "mask": null,
-      "rarity": "Uncommon",
+      "rarity": "Rare",
       "colorOptions": [
         {"ffca8a": "f4988c", "e0975c": "d93a3a", "a85636": "932625", "6f2919": "601119"},
         {"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
@@ -1080,7 +1192,7 @@
       "maleFrames": "pantsm.png",
       "femaleFrames": "pantsf.png",
       "mask": null,
-      "rarity": "Uncommon",
+      "rarity": "Rare",
       "colorOptions": [
         {"ffca8a": "f4988c", "e0975c": "d93a3a", "a85636": "932625", "6f2919": "601119"},
         {"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
@@ -1106,7 +1218,7 @@
       "maleFrames": "pantsm.png",
       "femaleFrames": "pantsf.png",
       "mask": null,
-      "rarity": "Uncommon",
+      "rarity": "Rare",
       "colorOptions": [
         {"ffca8a": "f4988c", "e0975c": "d93a3a", "a85636": "932625", "6f2919": "601119"},
         {"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},
@@ -1132,7 +1244,7 @@
       "maleFrames": "pantsm.png",
       "femaleFrames": "pantsf.png",
       "mask": null,
-      "rarity": "Rare",
+      "rarity": "Legendary",
       "colorOptions": [
         {"ffca8a": "6ca55e", "e0975c": "3d7a52", "a85636": "1b4f3e", "6f2919": "030f0e"},
         {"ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515"},

@@ -3,7 +3,7 @@
   "price": 1,
   "inventoryIcon": "icon.png",
   "maxStack": 1,
-  "rarity": "Rare",
+  "rarity": "Uncommon",
   "category": "legwear",
   "description": "You know, these were shirts once.",
   "shortdescription": "Neki Rags",
