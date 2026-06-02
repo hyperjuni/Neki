@@ -19,8 +19,11 @@
 ^white;Ice Resistance^reset;: ^green;+15%^reset;
 ^white;Physical Resistance^reset;: ^red;-15%^reset;
     ^#00A9FF;Immunities^reset;: ^green;Frost, Slow^reset;
-    ^#00A9FF;Racial Traits^reset;: ^#AA72FF;Swim Boost (Alternate), Health Regen^reset;
-^white;Movement Speed^reset;: ^green;+18%^reset;, ^white;Jump Height^reset;: ^green;+30%^reset;, ^white;Fall Damage^reset; ^green;-40%^reset;, ^white;Hunger Rate^reset;: ^red;+50%^reset;"
+    ^#00A9FF;Racial Traits^reset;: ^#AA72FF;Swim Boost (Alt.), Health Regen^reset;
+^white;Movement Speed^reset;: ^green;+18%^reset;
+^white;Jump Height^reset;: ^green;+30%^reset;
+^white;Fall Damage^reset; ^green;-40%^reset;
+^white;Hunger Rate^reset;: ^red;+50%^reset;"
   },
 
   "effectDirectives": "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=80f4ffFF?replace=31a6ffFF=39b8e3FF",
