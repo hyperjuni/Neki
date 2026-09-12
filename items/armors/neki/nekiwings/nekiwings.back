@@ -4,8 +4,8 @@
   "inventoryIcon": "icon.png",
   "rarity": "Legendary",
   "category": "backwear",
-  "description": "[Neki]\nThe carnage involved in making these had better been worth it.",
-  "shortdescription": "Cosmetic Angel Wings",
+  "description": "The carnage involved in making these had better been worth it.",
+  "shortdescription": "Neki Angel Wings",
   "tooltipKind": "nekiback",
 
   "maleFrames": "back.png",

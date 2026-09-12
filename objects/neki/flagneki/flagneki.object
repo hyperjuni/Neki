@@ -16,7 +16,7 @@
   "shortdescription": "Neki Flag",
   "description": "That's.. one way to mark your territory.",
 
-  "apexDescription" : "Interesting... I guess this makes sense on an animal level.",
+  "apexDescription": "Interesting... I guess this makes sense on an animal level.",
   "avianDescription": "Looks like a good use for underwear... Mine feel awful on the feathers!",
   "floranDescription": "Flag hasss Nekismell, makes Floran happy!",
   "glitchDescription": "Amused. Somebody somewhere is running around bottomless.",
@@ -33,7 +33,7 @@
       "anchors": ["bottom"],
       "image": "flagneki.png:<color>.<frame>",
       "imagePosition": [8, 0],
-      "spaces" : [
+      "spaces": [
         [2, 0], [3, 0],
         [2, 1], [3, 1],
         [1, 2], [2, 2], [3, 2],
@@ -48,7 +48,7 @@
       "image": "flagneki.png:<color>.<frame>",
       "imagePosition": [0, 0],
       "flipImages": true,
-      "spaces" : [
+      "spaces": [
         [0, 0], [1, 0],
         [0, 1], [1, 1],
         [0, 2], [1, 2], [2, 2],

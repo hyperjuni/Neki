@@ -217,7 +217,7 @@ function update(dt)
       local randChoice = math.random(numberOfOptions)
       local iterator = 0
       local leftOrRight = nil
-      local pixelOffset = { 0, 0 }
+      local pixelOffset = {0, 0}
       for k_osides, v_osides in pairs(validOrientationSides) do
         iterator = iterator + 1
         if iterator == randChoice then
@@ -250,7 +250,7 @@ function update(dt)
       end
       storage.previousLeftOrRightChoice = leftOrRight
       --  scan the spaces occupied by the object to find the leftmost or rightmost offset
-      local offset = { 0, 0 }
+      local offset = {0, 0}
       local spaces = world.objectSpaces(chosenTarget)
       for i_space, v_space in ipairs(spaces) do
         --  we only care about spaces aligned with the 'ground' for an object

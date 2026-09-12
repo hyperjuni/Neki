@@ -1,8 +1,7 @@
 {
   "input": [
-    {"item": "nekinightie", "count": 1},
-    {"item": "fabric", "count": 5},
-    {"item": "string", "count": 5}
+    {"item": "nekigalatop", "count": 1},
+    {"item": "nekigalabottom", "count": 1}
   ],
 
   "duration": 0.5,

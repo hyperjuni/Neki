@@ -1,13 +1,13 @@
 [
   [
   // Vanilla bug fix
-    {"op" : "test", "path" : "/dialog", "inverse" : false},
-    {"op" : "test", "path" : "/scriptConfig/dialog", "inverse" : true},
-    {"op" : "copy", "from": "/dialog", "path": "/scriptConfig/dialog"}
+    {"op": "test", "path": "/dialog", "inverse": false},
+    {"op": "test", "path": "/scriptConfig/dialog", "inverse": true},
+    {"op": "copy", "from": "/dialog", "path": "/scriptConfig/dialog"}
   ],
   [
-    {"op" : "add", "path" : "/scriptConfig/dialog/converse/avian/neki",
-      "value" : [
+    {"op": "add", "path": "/scriptConfig/dialog/converse/avian/neki",
+      "value": [
         "Kluex has sent you down upon us as punishment for not heeding his word!",
         "I am a mighty herald of Kluex, and you shall be respectful of that, clawed beast!",
         "The word of Kluex shall daze you where you stand.. and make you keep your distance!",

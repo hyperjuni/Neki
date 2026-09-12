@@ -1,0 +1,8 @@
+{
+  "input": [
+    {"item": "nekinibottom", "count": 1}
+  ],
+
+  "output": {"item": "nekiheadkini", "count": 1},
+  "groups": ["nekiwheel", "nekihead"]
+}

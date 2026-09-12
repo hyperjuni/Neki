@@ -13,5 +13,13 @@
     {"op": "add", "path": "/companionsConfig/scripts/-", "value": "/scripts/neki/nekistripesrecruit.lua"},
 
     {"op": "add", "path": "/genericScriptContexts/nekitutorialbasicbyos", "value": "/scripts/neki/nekitutorialbasicbyos.lua"}
+  ],
+  [
+    {"op": "test", "path": "/genericScriptContexts"},
+    {"op": "add", "path": "/genericScriptContexts/remote-interfaces","value": "/scripts/remoteInterfaces.lua"}
+  ],
+  [
+    {"op": "test", "path": "/genericScriptContexts", "inverse": true },
+    {"op": "add", "path": "/deploymentConfig/scripts/-", "value": "/scripts/remoteInterfaces.lua"}
   ]
 ]  

@@ -15,8 +15,8 @@
     "evil"
   ],
 
-  "shortdescription": "Neki Pod",
-  "description": "This life support pod allows the Neki to quickly revitalize themselves.",
+  "shortdescription": "^cyan;Neki Pod^reset;",
+  "description": "A highly advanced and carefully tuned Apex bioresearch pod.",
 
   "apexDescription": "I've never seen a pod this large before, I wonder what it's meant to contain.",
   "avianDescription": "This is dark science...",

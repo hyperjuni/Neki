@@ -16,7 +16,7 @@ function recruitSpawner:addCrew(recruitUuid, recruitInfo)
     end
 
     --  complete the quest and set status for having Stripes in party
-    world.sendEntityMessage(player.id(), "nekiStripesRecruited", {} )
+    world.sendEntityMessage(player.id(), "nekiStripesRecruited",{})
     status.setStatusProperty("nekiHasStripesCrew", true)
   end
 
@@ -56,7 +56,7 @@ function recruitSpawner:recruitUnfollowing(onShip, recruitUuid)
   --  when unfollowing Stripes, tell her to play the sad emote
   local recruitInfo = recruitSpawner:getRecruit(recruitUuid)
   if recruitInfo.spawnConfig.type == "nekistripescrewmember" then
-    world.sendEntityMessage(recruitInfo.uniqueId, "nekiStripesPlayEmote", { emote = "sad" })
+    world.sendEntityMessage(recruitInfo.uniqueId, "nekiStripesPlayEmote", {emote = "sad"})
   end
   
   --  finish with any other normal unfollow behavior

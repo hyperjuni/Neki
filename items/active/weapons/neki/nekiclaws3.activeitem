@@ -4,7 +4,7 @@
   "level": 3,
   "maxStack": 1,
   "rarity": "Uncommon",
-  "description": "The archenemy of furniture.",
+  "description": "The archenemy of furniture.\n\n\nUpgrade in a Neki Pod.",
   "shortdescription": "Neki T3 Claws",
   "tooltipKind": "nekifistweapon",
   "category": "fistWeapon",

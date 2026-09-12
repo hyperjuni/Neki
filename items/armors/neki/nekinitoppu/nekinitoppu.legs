@@ -3,7 +3,7 @@
   "price": 1,
   "inventoryIcon": "icon.png",
   "maxStack": 1,
-  "rarity": "Common",
+  "rarity": "Uncommon",
   "category": "legwear",
   "description": "So that's what this thing was for, balloon storage!",
   "shortdescription": "Nekini Top Pushup",

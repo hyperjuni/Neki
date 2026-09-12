@@ -1,6 +1,7 @@
 {
   "input": [
-    {"item": "tshirtchest", "count": 2}
+    {"item": "nekiragstop", "count": 1},
+    {"item": "nekiragsbottom", "count": 1}
   ],
 
   "duration": 0.5,

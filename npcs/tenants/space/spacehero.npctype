@@ -1,59 +1,57 @@
 {
-  "type" : "spacehero",
-  "baseType" : "friendlyguard",
-  
-  "dropPools" : [],
+  "type": "spacehero",
+  "baseType": "friendlyguard",
 
-  "scriptConfig" : {
-    "questGenerator" : {
-      "pools" : ["common", "tenant", "guard"],
-      "enableParticipation" : true,
+  "dropPools": [],
 
-      "timeLimit" : 30,
-      "nearbyQuestLimit" : 2,
-      "nearbyQuestRange" : 50,
-      "chance" : 0.02,
-      "flags" : {
-        "guard" : true
+  "scriptConfig": {
+    "questGenerator": {
+      "pools": ["common", "tenant", "guard"],
+      "enableParticipation": true,
+      "timeLimit": 30,
+      "nearbyQuestLimit": 2,
+      "nearbyQuestRange": 50,
+      "chance": 0.02,
+      "flags": {
+        "guard": true
       },
-      "graduation" : {
-        "nextNpcType" : [
+      "graduation": {
+        "nextNpcType": [
           [1, "crewmember"]
         ]
       }
     },
 
-    "dialog" : {
-      "converse" : "/dialog/spacehero.config:converse",
-      "attack" : "/dialog/spacehero.config:attack",
-      "reattack" : "/dialog/spacehero.config:reattack",
-      "killedTarget" : "/dialog/spacehero.config:killedTarget"
+    "dialog": {
+      "converse": "/dialog/spacehero.config:converse",
+      "attack": "/dialog/spacehero.config:attack",
+      "reattack": "/dialog/spacehero.config:reattack",
+      "killedTarget": "/dialog/spacehero.config:killedTarget"
     }
   },
 
-  "movementParameters" : {
-    "runSpeed" : 20.0
+  "movementParameters": {
+    "runSpeed": 20.0
   },
 
-  "items" : {
-    "override" : [
+  "items": {
+    "override": [
       [0, [
           {
-            "head" : [
-              { "name" : "premierhead", "parameters" : { "colorIndex" : 0 } }
+            "head": [
+              {"name": "premierhead", "parameters": {"colorIndex": 0}}
             ],
-            "chest" : [
-              { "name" : "premierchest", "parameters" : { "colorIndex" : 0 } }
+            "chest": [
+              {"name": "premierchest", "parameters": {"colorIndex": 0}}
             ],
-            "legs" : [
-              { "name" : "premierpants", "parameters" : { "colorIndex" : 0 } }
+            "legs": [
+              {"name": "premierpants", "parameters": {"colorIndex": 0}}
             ],
-            "sheathedprimary" : [
+            "sheathedprimary": [
               "npcbroadsword"
             ]
           }
-        ] ]
+      ] ]
     ]
   }
 }
-

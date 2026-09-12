@@ -92,7 +92,7 @@
             {
               "name": "parameters",
               "type": "string",
-              "value": "{\"persistent\" : true}"
+              "value": "{\"persistent\": true}"
             }
           ],
           "rotation": 0,

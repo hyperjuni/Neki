@@ -2,10 +2,10 @@
   "author" : "Juni",
   "friendlyName" : "Neki",
   "icon" : "/interface/modsmenu/modicon_neki.png",
-  "includes" : ["bookstore", "bk3k_Techs", "chroma", "The Pony Modpack", "bk3k_techHelper", "Elithian_Races_Mod", "Extended GUI", "Interactable Apex Pod", "MadTulips Spaceship Mod", "NekiText", "NekiTulips", "OmRaceTraits", "Tech Additions", "Usable Bathtubs", "Wardrobe", "Windy Race [Health 1 Race]"],
+  "includes" : ["bookstore", "bk3k_Techs", "chroma", "The Pony Modpack", "bk3k_techHelper", "Elithian_Races_Mod", "Extended GUI", "Interactable Apex Pod", "ikn_furnishing", "MadTulips Spaceship Mod", "NekiText", "NekiTulips", "OmRaceTraits", "Tech Additions", "Usable Bathtubs", "Wardrobe", "Windy Race [Health 1 Race]"],
   "link" : "steam://url/CommunityFilePage/2611501999",
   "name" : "Neki",
   "steamContentId" : "2611501999",
   "tags" : "NPCs and Creatures|Weapons|Species|User Interface|Furniture and Objects|Mechanics|Armor and Clothes",
-  "version" : "0.99.15"
+  "version" : "0.99.16"
 }

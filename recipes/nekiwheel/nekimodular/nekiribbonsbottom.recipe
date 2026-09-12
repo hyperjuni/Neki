@@ -1,0 +1,9 @@
+{
+  "input": [
+    {"item": "soggypaper", "count": 10}
+  ],
+
+  "duration": 0.5,
+  "output": {"item": "nekiribbonsbottom", "count": 1},
+  "groups": ["nekiwheel", "nekimodular"]
+}

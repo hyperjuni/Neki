@@ -1,7 +1,7 @@
 [
   {"op": "add", "path": "/scriptConfig/dialog/converse/neki", "value": {}},
   {"op": "add", "path": "/scriptConfig/dialog/converse/neki/default",
-    "value" : [
+    "value": [
       "I'm here to take naps and chew sparrkly ropes! And I'm all out of ropes.",
       "I'm an electrrrician, but... I have no idea how any of this works.",
       "I'd rrrather be napping, but I have sparrkly ropes to play with.",

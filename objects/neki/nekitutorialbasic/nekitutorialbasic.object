@@ -33,14 +33,15 @@
     }
   ],
 
-  "scripts": ["/objects/scripts/breakoninteract.lua"],
+  "animation": "nekitutorialbasic.animation",
+  "scripts": ["/objects/scripts/nekibreakoninteract.lua"],
   "scriptDelta": 0,
 
   "breakDropOptions": [
     [
-      ["nekitutorialbasic-codex", 1, {}]
+      ["", 1,{}]
     ]
   ],
   "offeredQuests": ["nekitutorialbasic"],
-  "questIndicatorPosition" : [-0.875, 0]
+  "questIndicatorPosition": [-0.875, 0]
 }

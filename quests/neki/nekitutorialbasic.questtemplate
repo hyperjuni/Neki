@@ -3,8 +3,13 @@
   "prerequisites": ["bootship"],
   "title": "Neki Tutorial",
   "text": "A pleasant blue shimmer is emanating from one of the dashboard lights.\n\nYour curiosity is begging you to poke it.",
-  "completionText": "As your paw touches the blue light, a digital log gently slides out of the dashboard.\n\nInteract with the dashboard again to grab it.",
-  "rewards": [],
+  "completionText": "As your paw touches the blue light, a digital log gently slides out of the dashboard.",
+
+  "rewards": [
+    [
+      ["nekitutorialbasic-codex", 1]
+    ]
+  ],
 
   "updateDelta": 10,
   "script": "/quests/scripts/nekiautocomplete.lua",

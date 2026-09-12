@@ -23,7 +23,7 @@
         "emissionRate": 30,
         "offsetRegion": [1, 0.25, -0.5, -0.5],
         "particles": [
-          {"particle": "nekielectricenergy", "offset" : [0.3, 0.4]}
+          {"particle": "nekielectricenergy", "offset": [0.3, 0.4]}
         ]
       },
       "idleparticles2": {
@@ -32,7 +32,7 @@
         "emissionRate": 15,
         "offsetRegion": [0.0, 0.0, 0.0, 0.0],
         "particles": [
-          {"particle": "nekielectricswoosh1", "offset" : [0.3, 0.3]}
+          {"particle": "nekielectricswoosh1", "offset": [0.3, 0.3]}
         ]
       },
       "idleparticles3": {

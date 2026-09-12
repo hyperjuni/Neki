@@ -1,0 +1,10 @@
+{
+  "input": [
+    {"item": "wizardhead", "count": 1},
+    {"item": "silverbar", "count": 1}
+  ],
+
+  "duration": 0.5,
+  "output": {"item": "nekiholidayboots", "count": 1},
+  "groups": ["nekiwheel", "nekimodular"]
+}

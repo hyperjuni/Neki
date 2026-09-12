@@ -119,7 +119,7 @@ function update(dt)
             expectedNPCId = v
 
             --  tell the npc to graduate, it will send us a notification if it succeeds
-            world.sendEntityMessage(v, "npcForceGraduate", { senderId = entity.id() } )
+            world.sendEntityMessage(v, "npcForceGraduate", {senderId = entity.id()})
 
             --  we're done with this loop
             break

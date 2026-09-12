@@ -32,6 +32,20 @@
   "deathNoises": ["/sfx/humanoid/nekidead.ogg"],
   "skull": "/humanoid/neki/nekidead.png",
 
+// 'More Ouch Noises'
+  "ouchNoisesMale": [
+    "/sfx/humanoid/nekihurt_male.ogg",
+    "/sfx/humanoid/nekihurt_male2.ogg",
+    "/sfx/humanoid/neki_choo.ogg",
+    "/sfx/humanoid/neki_ekekek.ogg"
+  ],
+  "ouchNoisesFemale": [
+    "/sfx/humanoid/nekihurt_female.ogg",
+    "/sfx/humanoid/neki_choo.ogg",
+    "/sfx/humanoid/neki_ekekek.ogg",
+    "/sfx/humanoid/neki_whimper.ogg"
+  ],
+
   "charGenTextLabels": [
     "Coat colour",
     "Hair style",
@@ -172,11 +186,12 @@
       {"item": "nekishiphatch"},
       {"item": "nekistoragelocker"},
 
-    // Inventor's Table
+    // Inventor's Table 1
+      {"item": "nekipod"},
       {"item": "nekiwheel"},
 
     // Neki Wheel
-    // Legs
+      // Legs
       {"item": "invisiblefabriclegs"},
       {"item": "nekicami"},
       {"item": "nekidirndl"},
@@ -199,13 +214,25 @@
       {"item": "nekisundresstube"},
       {"item": "nekitankini"},
       {"item": "nekini"},
+      {"item": "nokini"},
+
+      // Modular
+      {"item": "nekicamitop"},
+      {"item": "nekigalabottom"},
+      {"item": "nekigalatop"},
+      {"item": "nekiragsbottom"},
+      {"item": "nekiragstop"},
+      {"item": "nekiribbonsbottom"},
+      {"item": "nekiribbonstop"},
+      {"item": "nekirobebottom"},
+      {"item": "nekirobetop"},
+      {"item": "nekiholidayboots"},
       {"item": "nekinibottom"},
       {"item": "nekinitop"},
-      {"item": "nokini"},
       {"item": "nokinibottom"},
       {"item": "nokinitop"},
 
-    // Chest
+      // Chest
       {"item": "invisiblefabricchest"},
       {"item": "nekiholidaysleeves"},
       {"item": "nekipeacekeepersleeves"},
@@ -215,16 +242,19 @@
       {"item": "nekisleevesglove"},
       {"item": "nekisleevesshort"},
 
-    // Back + Head
+      // Back
+      {"item": "invisiblefabricback"},
       {"item": "nekitoywingsback"},
       {"item": "nekiwingsback"},
-      {"item": "invisiblefabricback"},
+
+      // Head
       {"item": "invisiblefabrichead"},
+      {"item": "nekiheadkini"},
       {"item": "nekipeacekeeperhead"},
       {"item": "nekishades"},
       {"item": "nekitiara"},
 
-    // Pushup
+      // Pushup
       {"item": "nekidressgownpu"},
       {"item": "nekidressgown2pu"},
       {"item": "nekiholidayskirtpu"},
@@ -237,7 +267,7 @@
       {"item": "nekinipu"},
       {"item": "nekinitoppu"},
 
-    // Furniture
+      // Furniture
       {"item": "nekicurtain1"},
       {"item": "nekicurtain2"},
       {"item": "nekicurtain3"},
@@ -252,7 +282,7 @@
       {"item": "nekipillowyellow"},
       {"item": "nekipillowpile"},
 
-    // Ew.
+      // Ew.
       {"item": "nekischest"},
       {"item": "nekischest2"},
       {"item": "nekislegs"},

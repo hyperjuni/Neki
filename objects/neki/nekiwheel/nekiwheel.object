@@ -14,7 +14,7 @@
   "interactData": {
     "config": "/interface/windowconfig/nekiwheel.config",
     "filter": ["nekiwheel"]
-  }, 
+  },
 
   "shortdescription": "^cyan;Neki Wheel^reset;",
   "description": "This wheel is used by the Neki to craft various items.",

@@ -65,7 +65,7 @@
     }
   },
 
-  "movementParameters" : {"runSpeed" : 28.0},
+  "movementParameters": {"runSpeed": 28.0},
 
   "items": {
     "neki": [

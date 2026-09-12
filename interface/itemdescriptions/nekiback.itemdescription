@@ -10,13 +10,6 @@
     "hAnchor": "left",
     "value": "0"
   },
-  "descriptionLabel": {
-    "type": "label",
-    "position": [16, 91],
-    "hAnchor": "left",
-    "vAnchor": "top",
-    "wrapWidth": 122
-  },
   "objectImage": {
     "type": "image",
     "position": [74, 125],
@@ -24,6 +17,13 @@
     "centered": true,
     "maxSize": [70, 45],
     "minSize": [70, 45]
+  },
+  "descriptionLabel": {
+    "type": "label",
+    "position": [14, 88],
+    "wrapWidth": 122,
+    "hAnchor": "left",
+    "vAnchor": "top"
   },
   "title": {
     "type": "label",

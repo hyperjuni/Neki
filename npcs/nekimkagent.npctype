@@ -14,7 +14,7 @@
       "pools": ["nekicommon"],
       "questCountRange": [2, 4],
       "timeLimit": 3,
-      "chance" : 0.1,
+      "chance": 0.1,
       "graduation": {
         "nextNpcType": [
           [0.5, "crewmembernekimkagent"],

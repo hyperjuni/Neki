@@ -8,7 +8,7 @@
   "printable": false,
   "tooltipKind": "nekibase",
   "colonyTags": ["neki"],
-  "itemTags" : ["captainschair"],
+  "itemTags": ["captainschair"],
 
   "shortdescription": "Neki Wall Bed (offline)",
   "description": "A spacious wall-mounted locker, coated in a dark substance.",

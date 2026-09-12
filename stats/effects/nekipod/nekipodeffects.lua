@@ -24,24 +24,33 @@ function init()
   self.healingRate = 1.0 / config.getParameter("healTime", 10)
 
   -- Resistances
+  status.removeEphemeralEffect("nekiwetfireblock")
   effect.addStatModifierGroup({{stat = "fireResistance", amount = 0.25}, {stat = "fireStatusImmunity", amount = 1}})
   effect.addStatModifierGroup({{stat = "iceResistance", amount = 0.25}, {stat = "iceStatusImmunity", amount = 1}})
   effect.addStatModifierGroup({{stat = "poisonResistance", amount = 0.25}, {stat = "poisonStatusImmunity", amount = 1}})  
 
-  -- Fake statuseffects to display icons
+  -- Display statuseffects icons
+  status.addEphemeralEffect("nekinostarve", math.huge)
   status.addEphemeralEffect("nekipodregeneration", math.huge)
   status.addEphemeralEffect("nekipodfireblock", math.huge)
   status.addEphemeralEffect("nekipodiceblock", math.huge)
   status.addEphemeralEffect("nekipodpoisonblock", math.huge)
+  -- status.addEphemeralEffect("nekinude", math.huge)
+
+  -- Open crafting interface
+  local nearestObjectId = world.objectAt(mcontroller.position())
+  if nearestObjectId then
+    world.sendEntityMessage(entity.id(), "interact", "OpenNpcCraftingInterface", root.assetJson("/interface/windowconfig/nekipodcraft.config"), nearestObjectId)
+  end
 
   script.setUpdateDelta(5)
 end
 
 function update(dt)
-  -- If neither Human or Neki, only apply fireblock (for 2s)
+  -- If neither Human nor Neki, only apply fireblock (for 2s)
   if self._species ~= "human" and self._species ~= "neki" then
     status.removeEphemeralEffect("wet")
-    status.addEphemeralEffect("fireblock", 2)
+    status.addEphemeralEffect("nekiwetfireblock", 2)
     return
   end
 
@@ -54,7 +63,7 @@ function onExpire()
 
   -- For consistency, apply fireblock to Human/Neki when leaving pod
   if self._species == "human" or self._species == "neki" then
-    status.addEphemeralEffect("fireblock", 2)
+    status.addEphemeralEffect("nekiwetfireblock", 2)
   end
   status.addEphemeralEffect("wet")
 end

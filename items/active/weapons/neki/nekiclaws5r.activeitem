@@ -4,7 +4,7 @@
   "level": 5,
   "maxStack": 1,
   "rarity": "Legendary",
-  "description": "Neki Blenderhands.",
+  "description": "Neki Blenderhands.\n\n\nUpgrade in a Neki Pod.",
   "shortdescription": "Neki T5 Rapid Claws",
   "tooltipKind": "nekifistweapon",
   "category": "fistWeapon",
@@ -42,7 +42,7 @@
   "needsEdgeTrigger": false,
   "edgeTriggerGrace": 0.1,
 
-  "elementalType" : "physical",
+  "elementalType": "physical",
 
   "primaryAbility": {
     "scripts": ["/items/active/weapons/neki/nekipunch1.lua"],

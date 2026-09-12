@@ -24,7 +24,7 @@
         "offsetRegion": [0.0, 0.0, 0.0, 0.0],
         "particles": [
           {"particle": "nekifirebackspark"},
-          {"particle": "nekifireswoosh1", "offset" : [0.3, 0.4]}
+          {"particle": "nekifireswoosh1", "offset": [0.3, 0.4]}
         ]
       },
       "idleparticles2": {
@@ -33,7 +33,7 @@
         "emissionRate": 2,
         "offsetRegion": [0.0, 0.0, 0.0, 0.0],
         "particles": [
-          {"particle": "nekifireswoosh2", "offset" : [0.3, 0.4]}
+          {"particle": "nekifireswoosh2", "offset": [0.3, 0.4]}
         ]
       },
       "idleparticles3": {

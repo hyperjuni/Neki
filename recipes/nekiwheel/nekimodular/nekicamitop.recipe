@@ -1,0 +1,11 @@
+{
+  "input": [
+    {"item": "nekinitop", "count": 1},
+    {"item": "fabric", "count": 4},
+    {"item": "string", "count": 3}
+  ],
+
+  "duration": 0.5,
+  "output": {"item": "nekicamitop", "count": 1},
+  "groups": ["nekiwheel", "nekimodular"]
+}

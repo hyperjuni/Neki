@@ -1,0 +1,9 @@
+{
+  "name": "nekinude",
+  "defaultDuration": 5,
+  "effectConfig": {},
+
+  "icon": "/interface/statuses/nekinude.png",
+  "label": "Nude",
+  "scripts": ["nekipodexit.lua"]
+}

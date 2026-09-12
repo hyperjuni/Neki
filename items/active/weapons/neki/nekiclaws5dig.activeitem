@@ -46,7 +46,7 @@
   "needsEdgeTrigger": false,
   "edgeTriggerGrace": 0.1,
 
-  "elementalType" : "physical",
+  "elementalType": "physical",
 
   "primaryAbility": {
     "scripts": ["/items/active/weapons/neki/nekipunch5dig.lua"],

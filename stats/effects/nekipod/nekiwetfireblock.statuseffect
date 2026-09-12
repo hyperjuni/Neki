@@ -1,0 +1,9 @@
+{
+  "name": "nekiwetfireblock",
+  "defaultDuration": 60,
+  "effectConfig": {},
+
+  "icon": "/interface/statuses/fireblock.png",
+  "label": "Fire Resistance",
+  "scripts": ["/stats/effects/fireblock/fireblock.lua"]
+}

@@ -1,35 +1,34 @@
 {
-  "type" : "industrialtenant",
-  "baseType" : "generictenant",
+  "type": "industrialtenant",
+  "baseType": "generictenant",
 
-  "scriptConfig" : {
+  "scriptConfig": {
+    "questGenerator": {
+      "pools": ["common", "tenant"]
+   }
+ },
 
-    "questGenerator" : {
-      "pools" : ["common", "tenant"]
-    }
-  },
-
-  "items" : {
-    "override" : [
+  "items": {
+    "override": [
       [0, [
           {
-            "head" : [
-              { "name" : "industrialcrewhead", "parameters" : { "colorIndex" : [0] } }
+            "head": [
+              {"name": "industrialcrewhead", "parameters": {"colorIndex": [0]}}
             ],
-            "chest" : [
-              { "name" : "jumpsuitchest", "parameters" : { "colorIndex" : [11] } }
+            "chest": [
+              {"name": "jumpsuitchest", "parameters": {"colorIndex": [11]}}
             ],
-            "legs" : [
-              { "name" : "jumpsuitlegs", "parameters" : { "colorIndex" : [11] } }
+            "legs": [
+              {"name": "jumpsuitlegs", "parameters": {"colorIndex": [11]}}
             ],
-            "primary" : [
+            "primary": [
               ""
             ],
-            "sheathedprimary" : [
+            "sheathedprimary": [
               "npcpistol"
             ]
           }
-        ] ]
+      ] ]
     ]
   }
 }

@@ -1,7 +1,7 @@
 [
   {"op": "add", "path": "/scriptConfig/dialog/converse/neki", "value": {}},
   {"op": "add", "path": "/scriptConfig/dialog/converse/neki/default",
-    "value" : [
+    "value": [
       "These clothes let me interact with compurrters with my mind!",
       "Why are my ears always sticking out?",
       "Do you like how techy I look?"

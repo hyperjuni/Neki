@@ -1,94 +1,90 @@
 {
-  "objectImage": {
-    "type": "image",
-    "position": [75, 125],
-    "file": "",
-    "centered": true,
-    "maxSize": [38, 38],
-    "minSize": [38, 38]
-  },
-  "moneyIcon": {
-    "type": "image",
-    "position": [102, 30],
-    "file": "/interface/money.png"
-  },
-  "priceLabel": {
-    "type": "label",
-    "position": [115, 30],
-    "hAnchor": "left",
-    "value": "tree"
-  },
-  "damagePerShotLabel": {
-    "type": "label",
-    "position": [130, 80],
-    "hAnchor": "right",
-    "value": ""
-  },
-  "damagePerShotTitleLabel": {
-    "type": "label",
-    "position": [20, 80],
-    "hAnchor": "left",
-    "value": "Damage Per Swing:"
-  },
-  "speedLabel": {
-    "type": "label",
-    "position": [130, 71],
-    "hAnchor": "right",
-    "value": ""
-  },
-  "speedTitleLabel": {
-    "type": "label",
-    "position": [20, 71],
-    "hAnchor": "left",
-    "value": "Rate of Fire:"
-  },
-  "comboFinisherLabel": {
-    "type": "label",
-    "position": [130, 62],
-    "hAnchor": "right",
-    "value": ""
-  },
-  "comboFinisherTitleLabel": {
-    "type": "label",
-    "position": [20, 62],
-    "hAnchor": "left",
-    "value": ""
-  },
-  "descriptionLabel": {
-    "type": "label",
-    "position": [20, 58],
-    "hAnchor": "left",
-    "vAnchor": "top",
-    "wrapWidth": 122,
-    "value": ""
-  },
-  "title": {
-    "type": "label",
-    "position": [35, 179],
-    "hAnchor": "left",
-    "value": ""
-  },
-  "subTitle": {
-    "type": "label",
-    "position": [35, 169],
-    "hAnchor": "left",
-    "color": [185, 181, 178],
-    "value": ""
-  },
   "titleIcon": {
     "type": "itemslot",
-    "position": [9, 167],
+    "position": [9, 187],
     "callback": "null",
     "iconMode": true,
     "backingImage": "/interface/inventory/portrait.png",
     "showRarity": false,
     "showBackingImageWhenFull": true
   },
+  "title": {
+    "type": "label",
+    "position": [34, 199],
+    "hAnchor": "left",
+    "value": ""
+  },
+  "subTitle": {
+    "type": "label",
+    "position": [34, 189],
+    "hAnchor": "left",
+    "color": [185, 181, 178],
+    "value": ""
+  },
   "rarityLabel": {
     "type": "label",
-    "position": [12, 30],
-    "hAnchor": "left",
+    "position": [75, 176],
+    "hAnchor": "mid",
     "centered": true,
     "wrapWidth": 126
+  },
+  "objectImage": {
+    "type": "image",
+    "position": [74, 142],
+    "file": "",
+    "centered": true,
+    "maxSize": [38, 38],
+    "minSize": [38, 38]
+  },
+  "damageKindImage": {
+    "type": "image",
+    "position": [114, 116],
+    "file": "",
+    "centered": false,
+    "maxSize": [16, 16],
+    "minSize": [16, 16]
+  },
+  "descriptionLabel": {
+    "type": "label",
+    "position": [75, 99],
+    "hAnchor": "mid",
+    "vAnchor": "top",
+    "wrapWidth": 122,
+    "value": ""
+  },
+  "damagePerShotTitleLabel": {
+    "type": "label",
+    "position": [12, 34],
+    "hAnchor": "left",
+    "value": "Damage Per Swing:"
+  },
+  "damagePerShotLabel": {
+    "type": "label",
+    "position": [137, 34],
+    "hAnchor": "right",
+    "value": ""
+  },
+  "speedTitleLabel": {
+    "type": "label",
+    "position": [12, 22],
+    "hAnchor": "left",
+    "value": "Rate of Fire:"
+  },
+  "speedLabel": {
+    "type": "label",
+    "position": [137, 22],
+    "hAnchor": "right",
+    "value": ""
+  },
+  "moneyIcon": {
+    "type": "image",
+    "position": [13, 9],
+    "file": "/interface/money.png"
+  },
+  "priceLabel": {
+    "type": "label",
+    "position": [26, 9],
+    "hAnchor": "left",
+    "value": "tree"
   }
 }

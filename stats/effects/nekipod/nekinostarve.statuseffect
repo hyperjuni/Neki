@@ -1,0 +1,9 @@
+{
+  "name": "nekinostarve",
+  "defaultDuration": 5,
+  "effectConfig": {},
+
+  "icon": "/interface/statuses/wellfed.png",
+  "label": "Don't Starve",
+  "scripts": ["nekipodexit.lua"]
+}

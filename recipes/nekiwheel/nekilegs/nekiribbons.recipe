@@ -1,6 +1,7 @@
 {
   "input": [
-    {"item": "soggypaper", "count": 20}
+    {"item": "nekiribbonstop", "count": 1},
+    {"item": "nekiribbonsbottom", "count": 1}
   ],
 
   "duration": 0.5,

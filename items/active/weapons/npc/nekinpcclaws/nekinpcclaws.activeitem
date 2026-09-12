@@ -59,7 +59,7 @@
 
   "freezeLimit": 0,
 
-  "elementalType" : "physical",
+  "elementalType": "physical",
 
   "primaryAbility": {
     "scripts": ["/items/active/weapons/npc/nekinpcclaws/nekinpcpunch.lua"],

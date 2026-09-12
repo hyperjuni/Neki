@@ -64,7 +64,7 @@ function graduate(args)
         )
 
         --  send a status update
-        world.sendEntityMessage( args.senderId, "npcGraduationSuccessful", { senderId = entity.id(), crewMemberUuid = newUniqueId } )
+        world.sendEntityMessage( args.senderId, "npcGraduationSuccessful", {senderId = entity.id(), crewMemberUuid = newUniqueId})
 
         --  kill the old npc
         npc.setDeathParticleBurst(nil)
@@ -74,7 +74,7 @@ function graduate(args)
       --  no graduation types are set up for the npc type
       else
         sb.logInfo("Graduation failed - no nextNpcType data in graduation params")
-        world.sendEntityMessage( args.senderId, "npcGraduationFailed", { senderId = entity.id() } )
+        world.sendEntityMessage( args.senderId, "npcGraduationFailed", {senderId = entity.id()})
       end
 
     --  if the npc cannot graduate, inform the requester that graduation failed
@@ -83,13 +83,13 @@ function graduate(args)
       for k, v in pairs(questGenerator) do
         sb.logInfo( tostring(k) .. " -> " .. tostring(v) )
       end
-      world.sendEntityMessage( args.senderId, "npcGraduationFailed", { senderId = entity.id() } )
+      world.sendEntityMessage( args.senderId, "npcGraduationFailed", {senderId = entity.id()})
     end
 
   --  if there isn't any questGenerator data, something has gone very wrong
   else
     sb.logInfo("Graduation failed - no questGenerator data in npctype")
-    world.sendEntityMessage( args.senderId, "npcGraduationFailed", { senderId = entity.id() } )
+    world.sendEntityMessage( args.senderId, "npcGraduationFailed", {senderId = entity.id()})
   end
 end
 

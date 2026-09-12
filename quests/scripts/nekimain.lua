@@ -120,7 +120,7 @@ function update(dt)
     if condition.objectiveText then
       local objectiveText = condition:objectiveText()
       if objectiveText then
-        table.insert(objectives, { condition:objectiveText(), condition:conditionMet() })
+        table.insert(objectives, {condition:objectiveText(), condition:conditionMet()})
       end
     end
     if condition.progress then

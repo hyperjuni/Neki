@@ -23,8 +23,8 @@
         "emissionRate": 20,
         "offsetRegion": [0.5, 0.125, -0.25, -0.25],
         "particles": [
-          {"particle": "nekiiceswoosh2", "offset" : [0.3, 0.4]},
-          {"particle": "nekiiceswoosh3", "offset" : [0.3, 0.4]}
+          {"particle": "nekiiceswoosh2", "offset": [0.3, 0.4]},
+          {"particle": "nekiiceswoosh3", "offset": [0.3, 0.4]}
         ]
       },
       "idleparticles2": {

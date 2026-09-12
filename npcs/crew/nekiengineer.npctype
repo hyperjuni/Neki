@@ -7,7 +7,7 @@
       "role": {
         "field": "Stuff-Dropping"
       },
-      "defaultUniform" : {
+      "defaultUniform": {
         "chest": "scientistchest",
         "legs": "scientistlegs"
       }

@@ -1,11 +1,6 @@
 {
   "input": [
-    {"item": "nekiprlog342-codex", "count": 1},
-    {"item": "apexpod2", "count": 1},
-    {"item": "staticcell", "count": 1},
-    {"item": "siliconboard", "count": 3},
-    {"item": "liquidhealing", "count": 30},
-    {"item": "blueflask", "count": 5}
+    {"item": "nekiprlog342-codex", "count": 1}
   ],
 
   "output": {"item": "nekipod", "count": 1},

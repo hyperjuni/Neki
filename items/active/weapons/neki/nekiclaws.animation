@@ -4,7 +4,7 @@
       "attack": {
         "default": "idle",
         "states": {
-          "idle": { 
+          "idle": {
             "properties": {"particleEmittersOff": ["swoosh"]}
           },
           "fire": {

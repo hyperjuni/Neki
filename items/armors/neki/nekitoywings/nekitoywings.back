@@ -4,8 +4,8 @@
   "inventoryIcon": "icon.png",
   "rarity": "Legendary",
   "category": "backwear",
-  "description": "[Neki]\nNo angels were harmed in the making of these. Probably.",
-  "shortdescription": "Cosmetic Toy Wings",
+  "description": "No angels were harmed in the making of these. Probably.",
+  "shortdescription": "Neki Toy Wings",
   "tooltipKind": "nekiback",
 
   "maleFrames": "back.png",
