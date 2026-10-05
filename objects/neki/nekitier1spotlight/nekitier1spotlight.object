@@ -134,7 +134,7 @@
       "beamAngle": 180
     },
     {
-      "direction": "right",
+      "direction": "left",
       "anchors": ["background"],
       "image": "/objects/tiered/tier1spotlight/tier1spotlightceiling1.png:<color>.<frame>",
       "spaceScan": 0.01,
@@ -145,7 +145,7 @@
       "beamAngle": 270
     },
     {
-      "direction": "left",
+      "direction": "right",
       "anchors": ["background"],
       "image": "/objects/tiered/tier1spotlight/tier1spotlightground1.png:<color>.<frame>",
       "spaceScan": 0.01,
