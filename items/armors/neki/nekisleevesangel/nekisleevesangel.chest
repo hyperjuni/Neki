@@ -3,7 +3,7 @@
   "price": 1,
   "inventoryIcon": "icon.png",
   "maxStack": 1,
-  "rarity": "Common",
+  "rarity": "Uncommon",
   "category": "chestwear",
   "description": "Unlikely to work as a wingsuit.",
   "shortdescription": "Neki Sleeves - Angel",

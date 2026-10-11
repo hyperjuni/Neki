@@ -3,7 +3,7 @@
   "price": 1,
   "inventoryIcon": "icon.png",
   "maxStack": 1,
-  "rarity": "Common",
+  "rarity": "Uncommon",
   "category": "chestwear",
   "description": "An entire band!",
   "shortdescription": "Neki Sleeves - Armband",
