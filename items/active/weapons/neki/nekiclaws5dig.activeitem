@@ -1,23 +1,36 @@
 {
   "itemName": "nekiclaws5dig",
   "price": 1,
-  "level": 6,
+  "level": 5,
   "maxStack": 1,
   "rarity": "Legendary",
   "description": "Dig a hole, dig a hole.",
-  "shortdescription": "Neki T6 Digging Claws",
+  "shortdescription": "Neki T5 Vicious Diggers",
   "tooltipKind": "nekifistweapon",
   "category": "fistWeapon",
   "twoHanded": false,
   "itemTags": ["weapon", "melee"],
 
   "inventoryIcon": "/items/active/weapons/neki/icon/nekiclaws5digicon.png:front",
-  "animation": "nekiclaws5.animation",
-  "animationParts": {"weapon": "/items/active/weapons/neki/claw/nekiclaws5dig.png"},
+
+  "animation": "nekiclaws.animation",
+  "animationParts": {
+    "weapon": "/items/active/weapons/neki/claw/nekiclaws5dig.png"
+  },
 
   "animationCustom": {
     "animatedParts": {
       "parts": {
+        "weapon": {
+          "properties": {
+            "digTip": [2.5, 0.6],
+            "digSource1": [-0.5, 2.6],
+            "digSource2": [-1.0, 1.6],
+            "digSource3": [-1.5, 0.6],
+            "digSource4": [-1.0, -0.4],
+            "digSource5": [-0.5, -1.4]
+          }
+        },
         "swoosh": {
           "partStates": {
             "attack": {
@@ -32,15 +45,10 @@
       }
     },
     "sounds": {
-      "fire": [
-        "/sfx/melee/neki_atom_swing.ogg",
-        "/sfx/melee/neki_atom_swing2.ogg",
-        "/sfx/melee/neki_atom_swing3.ogg",
-        "/sfx/melee/neki_atom_swing4.ogg",
-        "/sfx/melee/neki_atom_swing5.ogg"
-      ]
+      "bounce": []
     }
   },
+
   "scripts": ["/items/active/weapons/neki/nekifistweapon.lua"],
 
   "needsEdgeTrigger": false,
@@ -49,17 +57,19 @@
   "elementalType": "physical",
 
   "primaryAbility": {
-    "scripts": ["/items/active/weapons/neki/nekipunch5dig.lua"],
+    "scripts": ["/items/active/weapons/neki/nekipunchdig.lua"],
     "class": "Punch",
 
-    "tileDamage": 2,
+    "invulDelay": 0.01,
+
+    "tileDamage": 6,
     "tileDamageRate": 1.0,
     "damageTileDepth": 3,
 
-    "fireTime": 0.1,
-    "baseDps": 9.0,
+    "fireTime": 0.3,
+    "baseDps": 10.0,
     "damageConfig": {
-      "damageSourceKind": "nekibowclaws5",
+      "damageSourceKind": "nekibowclaws4",
       "statusEffects": ["nekibleed"],
       "timeoutGroup": "primary",
       "timeout": 0.1,

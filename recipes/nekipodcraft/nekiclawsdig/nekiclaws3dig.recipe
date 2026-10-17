@@ -1,0 +1,12 @@
+{
+  "input": [
+    {"item": "nekiclaws3", "count": 1},
+    {"item": "silverpickaxe", "count": 3},
+    {"item": "bandage", "count": 5},
+    {"item": "salve", "count": 1}
+  ],
+
+  "duration": 0.5,
+  "output": {"item": "nekiclaws3dig", "count": 1},
+  "groups": ["nekipodcraft", "nekiclawsdig"]
+}

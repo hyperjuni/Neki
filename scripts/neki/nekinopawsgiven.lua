@@ -1,5 +1,5 @@
 -- MyFirstBigScript_ihavenoideawhatimdoing.halp
--- -Juni <3
+-- Lofty is love <3
 
 -- 'local' means it will only exist in this script?
 local _init = init

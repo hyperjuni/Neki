@@ -12,11 +12,12 @@
   "itemTags": ["weapon", "melee"],
 
   "inventoryIcon": "/items/active/weapons/neki/icon/nekiclaws2icon.png:front",
+
   "animation": "nekiclaws.animation",
   "animationParts": {
-    "weapon": "/items/active/weapons/neki/claw/nekiclaws2.png",
-    "swoosh": "/items/active/weapons/neki/swoosh/nekiswoosh2.png"
+    "weapon": "/items/active/weapons/neki/claw/nekiclaws2.png"
   },
+
   "animationCustom": {
     "animatedParts": {
       "parts": {
@@ -25,6 +26,7 @@
             "attack": {
               "fire": {
                 "properties": {
+                  "image": "/items/active/weapons/neki/swoosh/nekiswoosh2.png:<frame>",
                   "damageArea": [
                     [-1.2, -1.4],
                     [1.0, -0.5],
@@ -40,15 +42,10 @@
       }
     },
     "sounds": {
-      "fire": [
-        "/sfx/projectiles/toy_bounce1.ogg",
-        "/sfx/projectiles/toy_bounce2.ogg",
-        "/sfx/projectiles/toy_bounce3.ogg",
-        "/sfx/projectiles/toy_bounce4.ogg",
-        "/sfx/projectiles/toy_bounce5.ogg"
-      ]
+      "swing": ["/sfx/melee/swing_dagger.ogg"]
     }
   },
+
   "scripts": ["/items/active/weapons/neki/nekifistweapon.lua"],
 
   "needsEdgeTrigger": false,
@@ -58,14 +55,16 @@
     "scripts": ["/items/active/weapons/neki/nekipunch.lua"],
     "class": "Punch",
 
+    "invulDelay": 0.05,
+
     "fireTime": 0.2,
     "baseDps": 6.0,
     "damageConfig": {
-      "statusEffects": [],
       "damageSourceKind": "nekibowclaws2",
-      "knockback": 9,
+      "statusEffects": [],
       "timeoutGroup": "primary",
-      "timeout": 0.1
+      "timeout": 0.1,
+      "knockback": 9
     },
     "stances": {
       "idle": {

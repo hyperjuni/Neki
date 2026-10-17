@@ -1,0 +1,11 @@
+{
+  "input": [
+    {"item": "nekiclaws2", "count": 1},
+    {"item": "copperbar", "count": 5},
+    {"item": "salve", "count": 1}
+  ],
+
+  "duration": 0.5,
+  "output": {"item": "nekiclaws2dig", "count": 1},
+  "groups": ["nekipodcraft", "nekiclawsdig"]
+}

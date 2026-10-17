@@ -1,0 +1,11 @@
+{
+  "input": [
+    {"item": "nekiclaws5f", "count": 1},
+    {"item": "syringe", "count": 5},
+    {"item": "nanowrap", "count": 5},
+    {"item": "medkit", "count": 1}
+  ],
+
+  "output": {"item": "nekiclaws5", "count": 1},
+  "groups": ["nekipodcraft", "nekiclawsnoele"]
+}

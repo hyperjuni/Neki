@@ -12,8 +12,11 @@
   "itemTags": ["weapon", "melee", "upgradeableWeapon"],
 
   "inventoryIcon": "/items/active/weapons/neki/icon/nekiclaws5ficon.png:front",
-  "animation": "nekiclaws5.animation",
-  "animationParts": {"weapon": "/items/active/weapons/neki/claw/nekiclaws5f.png"},
+
+  "animation": "nekiclaws.animation",
+  "animationParts": {
+    "weapon": "/items/active/weapons/neki/claw/nekiclaws5f.png"
+  },
 
   "animationCustom": {
     "particleEmitters": {
@@ -46,13 +49,14 @@
       }
     },
     "sounds": {
-      "fire": [
-        "/sfx/melee/swing_shortsword_fire1.ogg",
-        "/sfx/melee/swing_shortsword_fire2.ogg",
-        "/sfx/melee/swing_shortsword_fire3.ogg"
+      "swing": [
+        "/sfx/melee/swing_axe_fire1.ogg",
+        "/sfx/melee/swing_axe_fire2.ogg",
+        "/sfx/melee/swing_axe_fire3.ogg"
       ]
     }
   },
+
   "scripts": [
     "/items/active/weapons/neki/nekifistweapon.lua",
     "/items/active/weapons/neki/nekiWeaponEffect.lua"
@@ -64,9 +68,10 @@
   "elementalType": "fire",
 
   "primaryAbility": {
-    "scripts": ["/items/active/weapons/neki/nekipunch5e.lua"],
+    "scripts": ["/items/active/weapons/neki/nekipunchele.lua"],
     "class": "Punch",
 
+    "invulDelay": 0.05,
     "nekiWeaponEffect": "nekifireblock",
 
     "fireTime": 0.3,

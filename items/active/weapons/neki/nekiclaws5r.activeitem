@@ -9,11 +9,14 @@
   "tooltipKind": "nekifistweapon",
   "category": "fistWeapon",
   "twoHanded": false,
-  "itemTags": ["weapon", "melee", "upgradeableWeapon"],
+  "itemTags": ["weapon", "melee"],
 
   "inventoryIcon": "/items/active/weapons/neki/icon/nekiclaws5ricon.png:front",
-  "animation": "nekiclaws5.animation",
-  "animationParts": {"weapon": "/items/active/weapons/neki/claw/nekiclaws5r.png"},
+
+  "animation": "nekiclaws.animation",
+  "animationParts": {
+    "weapon": "/items/active/weapons/neki/claw/nekiclaws5r.png"
+  },
 
   "animationCustom": {
     "animatedParts": {
@@ -32,11 +35,10 @@
       }
     },
     "sounds": {
-      "fire": [
-        "/sfx/melee/swing_shortsword.ogg"
-      ]
+      "bounce": []
     }
   },
+
   "scripts": ["/items/active/weapons/neki/nekifistweapon.lua"],
 
   "needsEdgeTrigger": false,
@@ -45,13 +47,15 @@
   "elementalType": "physical",
 
   "primaryAbility": {
-    "scripts": ["/items/active/weapons/neki/nekipunch1.lua"],
+    "scripts": ["/items/active/weapons/neki/nekipunch.lua"],
     "class": "Punch",
+
+    "invulDelay": 0.01,
 
     "fireTime": 0.1,
     "baseDps": 9.0,
     "damageConfig": {
-      "damageSourceKind": "nekibowclaws5",
+      "damageSourceKind": "nekibowclaws4",
       "statusEffects": ["nekibleed"],
       "timeoutGroup": "primary",
       "timeout": 0.1,

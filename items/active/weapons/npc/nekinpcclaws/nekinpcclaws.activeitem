@@ -12,7 +12,8 @@
   "itemTags": ["weapon", "melee"],
 
   "inventoryIcon": "/items/active/weapons/neki/icon/nekiclaws4icon.png:front",
-  "animation": "/items/active/weapons/neki/nekiclaws5.animation",
+
+  "animation": "/items/active/weapons/neki/nekiclaws.animation",
   "animationParts": {
     "weapon": "/items/active/weapons/neki/claw/nekiclaws4.png"
   },
@@ -69,7 +70,7 @@
     "fireTime": 0.1,
     "baseDps": 12.0,
     "damageConfig": {
-      "damageSourceKind": "nekibowclaws5",
+      "damageSourceKind": "nekibowclaws4",
       "statusEffects": ["nekibleed"],
       "timeoutGroup": "primary",
       "timeout": 0.1,

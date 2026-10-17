@@ -1,0 +1,15 @@
+{
+  "input": [
+    {"item": "nekiclaws3", "count": 1},
+    {"item": "nekicastclaw4", "count": 1},
+    {"item": "biosample", "count": 2},
+    {"item": "bone", "count": 32},
+    {"item": "leather", "count": 5},
+    {"item": "bandage", "count": 5},
+    {"item": "medkit", "count": 1}
+  ],  
+
+  "duration": 0.5,
+  "output": {"item": "nekiclaws4", "count": 1},
+  "groups": ["nekipodcraft", "nekiclaws"]
+}

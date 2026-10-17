@@ -94,7 +94,7 @@
       ["idle.5", "idle.3", [0, 0], [1, 0]],    // nervous
       ["idle.5", "idle.4", [0, 0], [0, 0]],    // hugs
       ["idle.5", "idle.5", [0, 0], [0, 0]],    // scared
-      ["idle.5", "swim.2", [1, 0], [0, -1]]    // slouching
+      ["idle.5", "swim.2", [1, 0], [0, 0]]     // slouching
     ],
   // StarExtensions stuff
     "useBodyMask": true,
@@ -104,29 +104,18 @@
 
   "defaultBlueprints": {
     "tier1": [
-    // Empty Hands
+  // Empty Hands
       {"item": "flagneki"},
       {"item": "nekibed"},
       {"item": "nekibedlavish"},
       {"item": "nekichair"},
       {"item": "nekitable"},
       {"item": "nekitier1spotlightBroken"},
-      {"item": "nekiclaws1"},
-      {"item": "nekiclaws2"},
-      {"item": "nekiclaws3"},
-      {"item": "nekiclaws4"},
-      {"item": "nekiclaws5r"},
-      {"item": "nekiclaws5"},
-      {"item": "nekiclaws5dig"},
-      {"item": "nekiclaws5e"},
-      {"item": "nekiclaws5f"},
-      {"item": "nekiclaws5i"},
-      {"item": "nekiclaws5p"},
       {"item": "nekishipT9"},
       {"item": "nekishipT10"},
       {"item": "nekishipT11"},
 
-    // Anvil
+  // Anvil
       {"item": "nekitier1head"},
       {"item": "nekitier1sleeves"},
       {"item": "nekitier1armor"},
@@ -139,7 +128,7 @@
       {"item": "tungstenaxe"},
       {"item": "tungstenhammer"},
 
-    // Anvil2
+  // Anvil2
       {"item": "nekitier3head"},
       {"item": "nekitier3sleeves"},
       {"item": "nekitier3armor"},
@@ -149,7 +138,7 @@
       {"item": "durasteelbroadsword"},
       {"item": "durasteelshortsword"},
 
-    // Anvil3
+  // Anvil3
       {"item": "nekitier4head"},
       {"item": "nekitier4sleeves"},
       {"item": "nekitier4armor"},
@@ -167,31 +156,69 @@
       {"item": "violiumshortsword"},
       {"item": "violiumbroadsword"},
 
-    // Furnace
+  // Furnace
       {"item": "nekicastclaw3"},
 
-    // Furnace 2
+  // Furnace 2
       {"item": "nekicastclaw4"},
 
-    // Furnace 3
+  // Furnace 3
       {"item": "nekicastclaw5"},
       {"item": "nekithingyelectric"},
       {"item": "nekithingyfire"},
       {"item": "nekithingyice"},
       {"item": "nekithingypoison"},
 
-    // Furniture Table 2
+  // Furniture Table 2
       {"item": "nekibedlocker"},
       {"item": "nekishipdoor"},
       {"item": "nekishiphatch"},
       {"item": "nekistoragelocker"},
 
-    // Inventor's Table 1
+  // Inventor's Table 1
       {"item": "nekipod"},
       {"item": "nekiwheel"},
 
-    // Neki Wheel
-      // Legs
+  // Neki Pod
+    // Claws
+      {"item": "nekiclaws1"},
+      {"item": "nekiclaws2"},
+      {"item": "nekiclaws3"},
+      {"item": "nekiclaws4"},
+      {"item": "nekiclaws5r"},
+      {"item": "nekiclaws5"},
+      {"item": "nekiclaws6"},
+
+    // Digging Claws
+      {"item": "nekiclaws2dig"},
+      {"item": "nekiclaws3dig"},
+      {"item": "nekiclaws4dig"},
+      {"item": "nekiclaws5dig"},
+      {"item": "nekiclaws5rdig"},
+      {"item": "nekiclaws6dig"},
+
+    // Elemental Claws
+      {"item": "nekiclaws5e"},
+      {"item": "nekiclaws5f"},
+      {"item": "nekiclaws5i"},
+      {"item": "nekiclaws5p"},
+
+    // Remove Digging
+      {"item": "nekiclaws2digremove"},
+      {"item": "nekiclaws3digremove"},
+      {"item": "nekiclaws4digremove"},
+      {"item": "nekiclaws5digremove"},
+      {"item": "nekiclaws5rdigremove"},
+      {"item": "nekiclaws6digremove"},
+
+    // Remove Elemental
+      {"item": "nekiclaws5eremove"},
+      {"item": "nekiclaws5fremove"},
+      {"item": "nekiclaws5iremove"},
+      {"item": "nekiclaws5premove"},
+
+  // Neki Wheel
+    // Legs
       {"item": "invisiblefabriclegs"},
       {"item": "nekicami"},
       {"item": "nekidirndl"},
@@ -216,7 +243,7 @@
       {"item": "nekini"},
       {"item": "nokini"},
 
-      // Modular
+    // Modular
       {"item": "nekicamitop"},
       {"item": "nekigalabottom"},
       {"item": "nekigalatop"},
@@ -232,7 +259,7 @@
       {"item": "nokinibottom"},
       {"item": "nokinitop"},
 
-      // Chest
+    // Chest
       {"item": "invisiblefabricchest"},
       {"item": "nekiholidaysleeves"},
       {"item": "nekipeacekeepersleeves"},
@@ -242,19 +269,19 @@
       {"item": "nekisleevesglove"},
       {"item": "nekisleevesshort"},
 
-      // Back
+    // Back
       {"item": "invisiblefabricback"},
       {"item": "nekitoywingsback"},
       {"item": "nekiwingsback"},
 
-      // Head
+    // Head
       {"item": "invisiblefabrichead"},
       {"item": "nekiheadkini"},
       {"item": "nekipeacekeeperhead"},
       {"item": "nekishades"},
       {"item": "nekitiara"},
 
-      // Pushup
+    // Pushup
       {"item": "nekidressgownpu"},
       {"item": "nekidressgown2pu"},
       {"item": "nekiholidayskirtpu"},
@@ -267,7 +294,7 @@
       {"item": "nekinipu"},
       {"item": "nekinitoppu"},
 
-      // Furniture
+    // Furniture
       {"item": "nekicurtain1"},
       {"item": "nekicurtain2"},
       {"item": "nekicurtain3"},
@@ -282,7 +309,7 @@
       {"item": "nekipillowyellow"},
       {"item": "nekipillowpile"},
 
-      // Ew.
+    // Ew.
       {"item": "nekischest"},
       {"item": "nekischest2"},
       {"item": "nekislegs"},

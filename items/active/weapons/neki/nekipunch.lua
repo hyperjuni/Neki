@@ -46,9 +46,10 @@ function Punch:fire()
   self.weapon:setStance(self.stances.fire)
   self.weapon:updateAim()
   animator.setAnimationState("attack", "fire")
-  animator.playSound("fire")
+  animator.playSound("swing")
+  animator.playSound("bounce")
   -- Neki change
-  status.addEphemeralEffect("invulnerable", self.stances.fire.duration + 0.05)
+  status.addEphemeralEffect("invulnerable", self.stances.fire.duration + self.invulDelay)
 
   util.wait(self.stances.fire.duration, function()
     local damageArea = partDamageArea("swoosh")
