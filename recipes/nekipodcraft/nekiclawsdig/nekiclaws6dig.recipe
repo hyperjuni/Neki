@@ -1,7 +1,7 @@
 {
   "input": [
-    {"item": "nekiclaws6", "count": 1},
-    {"item": "obsidian", "count": 5},
+    {"item": "nekiclaws5dig", "count": 1},
+    {"item": "nekiclaws5rdig", "count": 1},
     {"item": "syringe", "count": 5},
     {"item": "nanowrap", "count": 5},
     {"item": "medkit", "count": 1}
