@@ -1,6 +1,7 @@
 require "/scripts/util.lua"
 require "/items/active/weapons/weapon.lua"
 
+-- fist weapon primary attack
 Punch = WeaponAbility:new()
 
 function Punch:init()
@@ -14,6 +15,7 @@ function Punch:init()
   end
 end
 
+-- Ticks on every update regardless if this is the active ability
 function Punch:update(dt, fireMode, shiftHeld)
   WeaponAbility.update(self, dt, fireMode, shiftHeld)
   self.cooldownTimer = math.max(0, self.cooldownTimer - self.dt)
@@ -35,23 +37,27 @@ function Punch:startAttack()
   end
 end
 
+-- State: windup
 function Punch:windup()
   self.weapon:setStance(self.stances.windup)
   util.wait(self.stances.windup.duration)
   self:setState(self.windup2)
 end
 
+-- State: windup2
 function Punch:windup2()
   self.weapon:setStance(self.stances.windup2)
   util.wait(self.stances.windup2.duration)
   self:setState(self.fire)
 end
 
+-- State: fire
 function Punch:fire()
   self.weapon:setStance(self.stances.fire)
   self.weapon:updateAim()
   animator.setAnimationState("attack", "fire")
-  animator.playSound("fire")
+  animator.playSound("swing")
+  animator.playSound("bounce")
   status.addEphemeralEffect("invulnerable", self.stances.fire.duration + 0.01) -- Neki-specific change
   util.wait(self.stances.fire.duration, function()
     local damageArea = partDamageArea("swoosh")

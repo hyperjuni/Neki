@@ -33,15 +33,6 @@
           }
         }
       }
-    },
-    "sounds": {
-      "fire": [
-        "/sfx/melee/neki_swing1.ogg",
-        "/sfx/melee/neki_swing2.ogg",
-        "/sfx/melee/neki_swing3.ogg",
-        "/sfx/melee/neki_swing4.ogg",
-        "/sfx/melee/neki_swing5.ogg"
-      ]
     }
   },
   
